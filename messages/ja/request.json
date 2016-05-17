@@ -74,7 +74,7 @@
           "tabs": {
             "requests": "お問い合わせ"
           },
-          "filter-by-status-label": "お問い合わせのステータス：",
+          "filter-by-status-label": "お問合せ状況：",
           "filter-by-author-label": "作成者：",
           "filter-by-status": {
             "All": "すべて",
