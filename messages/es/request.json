@@ -1,0 +1,243 @@
+{
+  "globalize-messages": {
+    "es": {
+      "request": {
+        "errors": {
+          "maxFiles3": "No se puede adjuntar más de 3 archivos. Elimine los archivos sobrantes.",
+          "maxFiles1": "No se puede adjuntar más de 1 archivo. Elimine los archivos sobrantes.",
+          "minFiles1": "Tiene que adjuntar un archivo.",
+          "EmailIsInvalid": "Correo electrónico no válido",
+          "ProductTypeRequired": "Especifique Área de protección",
+          "ProductRequired": "Seleccione Producto",
+          "OSVersionRequired": "Especifique versión del sistema operativo",
+          "ProductVersionRequired": "Seleccione versión del producto",
+          "TypeRequired": "Seleccione Tipo de solicitud",
+          "SubtypeRequired": "Seleccione Subtipo de solicitud",
+          "ThemeRequired": "Especifique Asunto de solicitud",
+          "ThemeIsTooLong": "El nombre de asunto es demasiado largo. Debe contener hasta 50 caracteres",
+          "DescriptionRequired": "Describa su problema",
+          "TextRequired": "No ha introducido ningún texto. Por favor, introduzca el texto e inténtelo de nuevo."
+        },
+        "view": {
+          "number": "Número:",
+          "status": "Estado:",
+          "report": "Enviar queja",
+          "close-request": "Cerrar solicitud",
+          "open-request": "Crear nueva solicitud",
+          "send": "Enviar mensaje",
+          "send-process": "Enviando datos...",
+          "confirm-title": "¿Cerrar la solicitud?",
+          "confirm-text": "Está a punto de cerrar la solicitud. Si su problema se ha solucionado, haga clic en <b>Cerrar</b> para confirmarlo.",
+          "confirm-button": "Cerrar",
+          "attached-files": "Archivos adjuntos:",
+          "support-manager": "Ingeniero de soporte",
+          "cancel-comment": "Cancelar",
+          "product": "Producto:",
+          "version": "Versión:",
+          "os": "SO:",
+          "logMore": "Mostrar toda la conversación",
+          "logHide": "Ocultar conversación",
+          "showCommentForm": "Responder",
+          "hideCommentForm": "Ocultar",
+          "cancel": {
+            "confirm-title": "¿Está seguro?",
+            "confirm-text": "¿Quiere cancelar el comentario?",
+            "confirm-button": "Sí"
+          },
+          "errors": {
+            "UserNotFound": "Usuario no encontrado",
+            "AccessDenied": "Acceso denegado",
+            "UnknownError": "Se ha producido un error, por favor, inténtelo de nuevo. Si el error vuelve a aparecer, envíe un correo electrónico a <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a> ",
+            "RequestClosedOrCanceled": "No puede enviar el mensaje, ya que la solicitud se ha cambiado."
+          }
+        },
+        "statuses": {
+          "8080": "Cancelada por un ingeniero de soporte",
+          "9080": "Cerrada por un ingeniero de soporte",
+          "10000": "Nueva",
+          "20000": "En espera de su respuesta",
+          "40000": "Su solicitud se está tramitando",
+          "60000": "Solución proporcionada",
+          "80000": "Cancelada",
+          "90000": "Cerrada",
+          "201008": "En espera de su respuesta",
+          "601015": "Solucionada",
+          "801102": "Cancelada por el usuario",
+          "801103": "Cancelada (licencia/contrato caducado)",
+          "901005": "Solicitud cerrada",
+          "901008": "Cerrada (se requiere información adicional)",
+          "901102": "Cancelada por el usuario",
+          "6011502": "Solucionada (información adicional no se ha proporcionado)",
+
+          "40000-status-area": "La solicitud se está procesando por un ingeniero de soporte técnico."
+        },
+        "list": {
+          "tabs": {
+            "requests": "Solicitudes"
+          },
+          "filter-by-status-label": "Estado de solicitud:",
+          "filter-by-author-label": "Solicitante:",
+          "filter-by-status": {
+            "All": "Todas",
+            "Pending": "En espera de su respuesta",
+            "InProgress": "Tramitadas por el soporte técnico",
+            "Inactive": "No activas (cerradas y canceladas)",
+            "Resolved": "Solucionadas por el soporte técnico",
+            "ByDeletedUsers": "Usuarios eliminados"
+          },
+          "item": {
+            "number": "Número:",
+            "status": "Estado:",
+            "createdate": "Creada:",
+            "customer": "Autor:"
+          },
+          "no-filtered-request": {
+            "title": "No hay solicitudes que cumplan los criterios de filtrado indicados.",
+            "description": "Por favor, amplíe su búsqueda."
+          },
+          "no-request": {
+            "title": "Todavía no ha creado ninguna solicitud",
+            "description": "Para ponerse en contacto con los ingenieros de soporte técnico, haga clic en el botón",
+            "createrequest": "Crear solicitud"
+          }
+        },
+        "create": {
+          "title": "Seleccione tipo de solicitud:",
+          "no-request-types": {
+            "title": "No tiene categorías de solicitudes disponibles",
+            "description": "Envíe un correo electrónico a <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a> para solucionar este problema"
+          }
+        },
+        "ca": {
+          "title": "Ayuda con el portal CompanyAccount",
+          "confirm-title": "Cancelar la creación de solicitud",
+          "confirm-text": "¿Quiere cancelar la creación de solicitud?",
+          "confirm-button": "Sí",
+          "theme": " Asunto de solicitud:",
+          "description": " Descripción del problema:",
+          "request-theme": "Su pregunta o problema",
+          "request-description": "Haga pregunta o describa el problema que tiene con el portal CompanyAccount y cómo se puede reproducirlo",
+          "success": "Su solicitud se ha creado correctamente Número de solicitud: <a href=\"/request/view/{requestId}\">{requestId}</a>",
+          "attachedfiles": {
+            "title": "Archivos adjuntos:"
+          },
+          "send-request": "Enviar solicitud",
+          "send-process": "Por favor, espere, su solicitud se está procesando...",
+          "cancel-request": "Cancelar",
+          "errors": {
+            "UnknownError": "Se ha producido un error, por favor, inténtelo de nuevo. Si el error vuelve a aparecer, envíe un correo electrónico a <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a> "
+          }
+        },
+        "complaint": {
+          "title": "Nueva queja sobre la calidad de soporte",
+          "note": "Por favor, tenga en cuenta que el Grupo de Control de Calidad puede tramitar sólo solicitudes escritas en ruso o inglés.",
+          "description": "Descripción detallada<br />de su queja:",
+          "request": "Solicitud cuya solución<br /> no le ha satisfecho:"
+        },
+        "csr": {
+          "title": "Firma CSR para Apple Push Notification Service",
+          "subtitle": "Puede adjuntar a su solicitud 1 archivo de formato .csr para firmarlo.",
+          "confirm-title": "Cancelar la creación de solicitud",
+          "confirm-text": "¿Quiere cancelar la creación de solicitud?",
+          "confirm-button": "Sí",
+          "success": "Su solicitud se ha creado correctamente. Esta solicitud se creará y se tramitará automáticamente. Selecciónela de la lista de solicitudes y descargue el certificado firmado. Número de solicitud: <a href=\"/request/view/{requestId}\">{requestId}</a>",
+          "attachedfiles": {
+            "title": "Archivos adjuntos:"
+          },
+          "send-request": "Firmar CSR",
+          "send-process": "Por favor, espere, su solicitud se está procesando...",
+          "cancel-request": "Cancelar",
+          "remarkQuestion": "<a href=\"http://support.kaspersky.com/11077\" target=\"_blank\" >¿Cómo obtener un certificado APN?</a>",
+          "remarkDescriprion": " ",
+          "errors": {
+            "WrongFileSize": "Tamaño del archivo no válido",
+            "WrongFileFormat": "Formato del archivo no válido",
+            "UnknownError": "Se ha producido un error, por favor, inténtelo de nuevo. Si el error vuelve a aparecer, envíe un correo electrónico a <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a>  "
+          }
+        },
+        "virlab": {
+          "title": "Enviar un archivo o sitio web sospechoso para analizar",
+          "confirm-title": "Cancelar la creación de solicitud",
+          "confirm-text": "¿Quiere cancelar la creación de solicitud?",
+          "confirm-button": "Sí",
+          "type": "Tipo de solicitud:",
+          "description": " Descripción del problema:",
+          "request-description": "Describa los archivos que está enviando o especifique las direcciones URL sospechosas",
+          "notifications": " Duplicar<br />la respuesta al mensaje electrónico:",
+          "email-placeholder": "name@domain.com ; name@domain.com",
+          "success": "Su solicitud de Laboratorio Antivirus se ha registrado correctamente. Va a recibir la respuesta directamente a su correo electrónico. Tenga en cuenta que la respuesta no aparecerá en CompanyAccount. Número de solicitud: <a href=\"/request/view/{requestId}\">{requestId}</a>",
+          "attachedfiles": {
+            "title": "Archivos adjuntos:"
+          },
+          "send-request": "Enviar solicitud",
+          "send-process": "Por favor, espere, su solicitud se está procesando...",
+          "cancel-request": "Cancelar",
+          "errors": {
+            "UserNotFound": "Error: el usuario actual no se ha encontrado en la base de datos",
+            "AccessDenied": "El acceso está denegado, esta operación no está disponible para este usuario",
+            "WrongFileSize": "Uno de los archivos subidos supera el límite de tamaño permitido",
+            "WrongFileFormat": "Uno de los archivos subidos tiene un formato no válido",
+            "UnknownError": "Se ha producido un error, por favor, inténtelo de nuevo. Si el error vuelve a aparecer, envíe un correo electrónico a <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a>   ",
+            "EmailPattern": "Especifique un correo electrónico válido. Si quiere agregar varias direcciones de correo electrónico, use el signo de punto y coma para separarlos."
+          }
+        },
+        "virlab-msa": {
+          "title": "Enviar un archivo o sitio web sospechoso para analizar (MSA)",
+          "success": "Su solicitud de Laboratorio Antivirus se ha registrado correctamente. Va a recibir la respuesta directamente a su correo electrónico. Tenga en cuenta que la respuesta no aparecerá en CompanyAccount.  Número de solicitud: <a href=\"/request/view/{requestId}\">{requestId}</a>"
+        },
+        "support": {
+          "title": "Solicitud de Soporte técnico",
+          "confirm-title": "Cancelar la creación de solicitud",
+          "confirm-text": "¿Quiere cancelar la creación de solicitud?",
+          "confirm-button": "Sí",
+          "securityarea": " Área de protección:",
+          "product": " Producto:",
+          "osversion": " Versión de SO:",
+          "osversion-placeholder": "Seleccione o introduzca uno nuevo",
+          "productversion": " Versión del producto:",
+          "requesttype": {
+            "title": " Tipo de solicitud:"
+          },
+          "subtype": " Subtipo:",
+          "theme": " Asunto de solicitud:",
+          "description": " Descripción del problema:",
+          "unknownosversion": " ",
+          "whatVersionOS": " ",
+          "aboutVersionOS": " ",
+          "unknownProduct": " ",
+          "whatProduct": " ",
+          "aboutProduct": " ",
+          "request-theme": "Asunto de solicitud:",
+          "request-description": "Describa el problema y cómo reproducirlo",
+          "success": "Su solicitud se ha creado correctamente. Número de solicitud: <a href=\"/request/view/{requestId}\">{requestId}</a>",
+          "attachedfiles": {
+            "title": "Archivos adjuntos:"
+          },
+          "send-request": "Enviar solicitud",
+          "send-process": "Por favor, espere, su solicitud se está procesando...",
+          "cancel-request": "Cancelar",
+          "errors": {
+            "UnknownError": "Se ha producido un error, por favor, inténtelo de nuevo. Si el error vuelve a aparecer, envíe un correo electrónico a <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a>  "
+          },
+          "license": {
+            "1": "La cuenta de su empresa no tiene adjunta ninguna licencia vigente para algún producto corporativo. A este respecto, es posible que algunos de tipos de solicitudes no estén disponibles. Por favor, adjunte la licencia en la <a href='../../license/list' target=\"_blank\"> ficha \"Licencias\"</a>.  ",
+            "2": "No se encuentra ninguna licencia vigente para los productos <b>domésticos</b>. A este respecto, es posible que algunos de tipos de solicitudes sobre los productos domésticos no estén disponibles. Por favor, agregue el código de activación en la aplicación o <a href='../../license/list' target=\"_blank\"> agregue una nueva licencia en la ficha \"Licencias\"</a>.",
+            "3": "La cuenta de su empresa no tiene adjunta ninguna licencia vigente para algún producto corporativo. A este respecto, es posible que algunos de tipos de solicitudes no estén disponibles. Por favor, agregue el código de activación en la aplicación o <a href='../../license/list' target=\"_blank\"> agregue una nueva licencia para un producto corporativo en la ficha \"Licencias\"</a>. "
+          },
+          "answers-email": "Enviar notificaciones sobre las respuestas al correo electrónico"
+        },
+        "support-ta": {
+          "title": "Solicitud de Soporte técnico",
+          "product-ver-placeholder": "Seleccione o introduzca su versión.",
+          "success": "Su solicitud se ha creado correctamente. Número de solicitud: <a href=\"/request/view/{requestId}\">{requestId}</a>",
+          "influence": "  ",
+          "urgency": "  "
+        },
+        "support-msa": {
+          "title": "Solicitud de Soporte técnico (MSA)",
+          "success": "Su solicitud se ha creado correctamente. Número de solicitud: <a href=\"/request/view/{requestId}\">{requestId}</a>"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "globalize-messages": {
+    "de": {
+      "notification": {
+        "hide": "Nicht mehr anzeigen"
+      },
+      "header": {
+        "title": "Kaspersky CompanyAccount",
+        "menu": {
+          "requests": "Anfragen",
+          "licenses": "Lizenzen",
+          "users": "Benutzer",
+          "contracts": "Verträge",
+          "createrequest": "Anfrage erstellen",
+          "signout": "Abmelden"
+        }
+      },
+      "captcha": {
+        "label": "Geben Sie die unten angezeigten Zeichen ein: ",
+        "placeholder": "Zeichen",
+        "loading": "CAPTCHA wird geladen...",
+        "errors": {
+          "CaptchaIsRequired": "Geben Sie den Code ein",
+          "CaptchaNotFound": "Der Code fehlt",
+          "CaptchaTimeout": "Der Code ist veraltet, geben Sie den neuen Code ein",
+          "CaptchaIncorrect": "Der Code wurde inkorrekt eingegeben, versuchen Sie es erneut"
+        }
+      },
+      "fileupload": {
+        "error": "Ladefehler",
+        "loaded": "Geladen",
+        "delete": "Löschen",
+        "cancel": "Abbrechen",
+        "key": {
+          "label": "Laden Sie eine Schlüsseldatei hoch: ",
+          "button": "Hochladen"
+        },
+        "file": {
+          "button": "Datei hochladen",
+          "button-csr": "CSR-Datei auswählen",
+          "agreement": "Regelung zur Datenbereitstellung",
+          "condition": "Um Dateien zu laden, akzeptieren Sie die Bedingungen der <a href='javascript://'>Regelung zur Datenbereitstellung</a>",
+          "commonFile": "Sie können bis zu 3 Dateien hochladen (die maximale Dateigröße beträgt 4 GB)",
+          "csrFile": "Die maximale Größe der hochzuladenden Datei beträgt 5 KB",
+          "amrFile": "Die maximale Größe der hochzuladenden Datei beträgt 10 MB"
+        },
+        "file-agreement": {
+          "label": "Ich akzeptiere die Bedingungen der Regelung zur Datenbereitstellung",
+          "continue": "Fortfahren"
+        },
+        "errors": {
+          "maxFileSize": "Die Dateigröße überschreitet die maximal zulässige Größe",
+          "minFileSize": "Die Datei ist zu klein",
+          "acceptFileTypes": "Unzulässiger Dateityp",
+          "maxNumberOfFiles": "Die maximal zulässige Anzahl von Dateien wurde überschritten"
+        }
+      },
+      "file-agreement": {
+        "accept-text": "Ich akzeptiere die Bedingungen der Regelung zur Datenbereitstellung",
+        "continue": "Fortfahren",
+        "error": "Beim Speichern von Daten ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut später"
+      },
+      "footer": {
+        "links": {
+          "support": "Wissensdatenbank",
+          "support-link": "http://support.kaspersky.com/de/",
+          "contacts": "Kontakte",
+          "contacts-link": "http://support.kaspersky.com/de/b2b",
+          "politics": "Datenschutzerklärung",
+          "politics-link": "http://support.kaspersky.com/de/support/PrivacyStatement_for_CompanyAccount",
+          "legalinformation": "Impressum",
+          "legalinformation-link": "http://www.kaspersky.com/de/impressum"
+        },
+        "supportnumber": " ",
+        "supportPhone": " ",
+        "selectlanguage": "Wählen Sie die Anzeigesprache aus:",
+        "copyrightStart": "Copyright &copy;",
+        "copyrightEnd": "АО Kaspersky Lab ",
+        "errors": {
+          "UserNotFound": {
+            "title": "Ihr Benutzerkonto weist Probleme auf",
+            "message": "Schreiben Sie an: <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+          },
+          "UnknownError": {
+            "title": "Es ist ein unbekannter Fehler aufgetreten",
+            "message": "Beim Ändern der Sprache ist ein unbekannter Fehler aufgetreten. <br />Bitte warten Sie ein paar Minuten und versuchen Sie es erneut. Wenn das Problem weiterhin besteht, schreiben Sie an <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>, um entstandene Probleme zu lösen"
+          }
+        }
+      },
+      "confirm-component": {
+        "cancel": "Abbrechen"
+      },
+      "pager": {
+        "title": "Seiten:"
+      },
+      "modals": {
+        "close": "Schließen",
+        "AccountProblems": {
+          "title": "Problem mit Ihrem Benutzerkonto",
+          "message": "Schreiben Sie an <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>, um entstandene Probleme zu lösen"
+        }
+      },
+      "errors": {
+        "404": {
+          "title": "Fehler 404",
+          "text": "Die angeforderte Seite wurde leider nicht gefunden.  ",
+          "to-main-page": "Versuchen Sie, <a href='/request/list'>zur Seite mit Anfragen</a> zurückzukehren.  "
+        },
+        "500": {
+          "title": "Serverfehler 500",
+          "text": "Auf dem Server ist ein unvorhergesehener Fehler aufgetreten. Bitte warten Sie.  ",
+          "to-main-page": "Versuchen Sie, <a href='/request/list'>zur Seite mit Anfragen</a> zurückzukehren. </a>  "
+        },
+        "globalization-not-found": "Lokalisierungsfehler",
+        "forbidden": {
+          "title": "Sie haben keinen Zugriff auf diese Seite",
+          "text": "Schreiben Sie an: <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>",
+          "to-main-page": "  "
+        },
+        "end-session": {
+          "title": "Ihr Benutzerkonto wurde geändert",
+          "text": "Sie müssen sich erneut anmelden. <br> Wir leiten Sie auf die Anmeldeseite um."
+        },
+        "custom": {
+          "to-main-page": "Versuchen Sie, <a href=\"request/list\">zur Startseite</a> zurückzukehren."
+        },
+        "NotMainUser": {
+          "Title": "Der Benutzer verfügt nicht über die Administratorrechte",
+          "Text": "Schreiben Sie an: <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+        },
+        "AccessDenied": {
+          "Title": "Der Zugriff ist verboten",
+          "Text": "Schreiben Sie an: <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+        },
+        "UserNotFound": {
+          "Title": "Der Benutzer wurde nicht gefunden",
+          "Text": "Schreiben Sie an: <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+        },
+        "UnknownError": {
+          "Title": "Es ist ein unbekannter Fehler aufgetreten",
+          "Text": "Schreiben Sie an: <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+        },
+        "Failure": {
+          "Title": "Es ist ein Problem mit den Systemeinstellungen aufgetreten",
+          "Text": "Schreiben Sie an: <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+        }
+      }
+    }
+  }
+}

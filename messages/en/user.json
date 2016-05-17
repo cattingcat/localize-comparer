@@ -1,0 +1,246 @@
+{
+  "globalize-messages": {
+    "en": {
+      "user": {
+        "list": {
+          "header": "Users",
+          "sort-lastname": "Sort by last name",
+          "filter-by-country-label": "Country:",
+          "filter-by-country": {
+            "All": "All"
+          },
+          "filter-by-organization-label": "Location:",
+          "filter-by-organization": {
+            "All": "All"
+          },
+          "item": {
+            "country": "Country:",
+            "organization": "Location:"
+          },
+          "no-filtered-user": "No users found."
+        },
+        "delete": {
+          "title": "Delete user account",
+          "description": "After  you click  \"Delete user account\", the user account will be deleted. The requests created by the user will still be available.",
+          "notice": "I understand that the deleted user account will not be able to send requests to the CompanyAccount.",
+          "btn": "Delete user account",
+          "process": "Deleting the account...",
+          "success": "User account has been deleted",
+          "confirm": {
+            "title": "Delete user account",
+            "text": "You are going to delete user {email}. User's access to CompanyAccount will be blocked. User's requests will still be available. ",
+            "button": "Continue"
+          },
+          "errors": {
+            "RepeatedDeactivation": "Failed to delete the user account. Deleting the account...",
+            "UnknownError": "Failed to delete the user account. Please try again.",
+            "UserNotFound": "User not found",
+            "AccessDenied": "Access denied",
+            "NotMainUser": "Access denied. Administrator permissions required",
+            "CompanyNotFound": "Company not found",
+            "OfUserNotFound": "Failed to delete the user account. User not found"
+          }
+        },
+        "errors": {
+          "DifferentCompanies": "User belongs to a different company. </br>Please, <a href='/request/create/ca' target=\"_blank\"> contact technical support</a> to find a solution to this problem.",
+          "GetDetailsException_DifferentCompanies": {
+            "Title": "The requested user account does not belong to your company",
+            "Text": "Please, <a href='/request/create/ca' target=\"_blank\"> contact technical support</a> to find a solution to this problem."
+          },
+          "RequestPasswordResetException_DifferentCompanies": {
+            "Title": "The user account you are editing does not belong to your company",
+            "Text": "Please, <a href='/request/create/ca' target=\"_blank\"> contact technical support</a> to find a solution to this problem."
+          },
+          "UpdateProfileDetailsException_DifferentCompanies": {
+            "Title": "The user account you are editing does not belong to your company",
+            "Text": "Please, <a href='/request/create/ca' target=\"_blank\"> contact technical support</a> to find a solution to this problem."
+          },
+          "UpdatePermissionsException_DifferentCompanies": {
+            "Title": "The user account you are editing does not belong to your company",
+            "Text": "Please, <a href='/request/create/ca' target=\"_blank\"> contact technical support</a> to find a solution to this problem."
+          },
+          "DeleteProfileException_DifferentCompanies": {
+            "Title": "The account has been edited and cannot be deleted",
+            "Text": "Please, <a href='/request/create/ca' target=\"_blank\"> contact technical support</a> to find a solution to this problem."
+          },
+          "GetDetailsException_OfUserNotFound": {
+            "Title": "User account not found",
+            "Text": "Please, <a href='/request/create/ca' target=\"_blank\"> contact technical support</a> to find a solution to this problem."
+          },
+          "RequestPasswordResetException_OfUserNotFound": {
+            "Title": "User account not found",
+            "Text": "Please, <a href='/request/create/ca' target=\"_blank\"> contact technical support</a> to find a solution to this problem."
+          },
+          "UpdateProfileDetailsException_OfUserNotFound": {
+            "Title": "User account not found",
+            "Text": "Please, <a href='/request/create/ca' target=\"_blank\"> contact technical support</a> to find a solution to this problem."
+          },
+          "UpdatePermissionsException_OfUserNotFound": {
+            "Title": "User account not found",
+            "Text": "Please, <a href='/request/create/ca' target=\"_blank\"> contact technical support</a> to find a solution to this problem."
+          },
+          "DeleteProfileException_OfUserNotFound": {
+            "Title": "User account not found",
+            "Text": "Please, <a href='/request/create/ca' target=\"_blank\"> contact technical support</a> to find a solution to this problem."
+          },
+          "Failure": {
+            "Title": "Unknown error",
+            "Text": "Please, contact technical support at <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> to fix this error"
+          },
+          "UserNotFound": {
+            "Title": "User not found",
+            "Text": "Please, contact technical support at <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> to fix this error"
+          },
+          "NotMainUser": {
+            "Title": "Administrator permissions required",
+            "Text": "Please, <a href='/request/create/ca' target=\"_blank\"> contact technical support</a> to find a solution to this problem."
+          },
+          "AccessDenied": {
+            "Title": "Access denied",
+            "Text": "Please, contact technical support at <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> to fix this error"
+          },
+          "ReqOfUserNotFound": {
+            "Title": "User account not found",
+            "Text": "Please, <a href='/request/create/ca' target=\"_blank\"> contact technical support</a> to find a solution to this problem."
+          },
+          "UpdOfUserNotFound": {
+            "Title": "User account you are trying to edit not found",
+            "Text": "Please, <a href='/request/create/ca' target=\"_blank\"> contact technical support</a> to find a solution to this problem."
+          },
+          "DelOfUserNotFound": {
+            "Title": "The account has been edited and cannot be deleted",
+            "Text": "Please, <a href='/request/create/ca' target=\"_blank\"> contact technical support</a> to find a solution to this problem."
+          }
+        }
+      },
+      "profile": {
+        "title-profile": "My account",
+        "title-user": "View account details",
+        "delete": {
+          "title": "Delete user account",
+          "description": "After you click  \"Delete account\", a confirmation message will be sent to your email address. Follow the link in the message to confirm account deletion. ",
+          "notice": "I understand that my account will be deleted and I will not be able to create requests through CompanyAccount.",
+          "btn": "Delete account",
+          "process": "Sending the deletion request...",
+          "success": "Follow the link in the message to confirm account deletion.",
+          "confirm": {
+            "title": "Delete account",
+            "text": "You are going to delete your account. Access to CompanyAccount will be blocked after you click the link in the confirmation message. ",
+            "button": "Delete"
+          },
+          "errors": {
+            "RepeatedDeactivation": "The attempt to delete the user account failed. Deleting the account...",
+            "UnknownError": "The attempt to delete the user account failed. Please try again.",
+            "UserNotFound": "User not found",
+            "AccessDenied": "Access denied",
+            "NotMainUser": "Access denied. Administrator permissions required",
+            "CompanyNotFound": "Company not found ",
+            "OfUserNotFound": "Failed to delete the user account. User not found.",
+            "DifferentCompanies": "The account has been edited and cannot be deleted."
+          }
+        },
+        "deleteCompany": {
+          "title": "Delete company account",
+          "description": "After you click  \"Delete company account\", a confirmation message will be sent to your email address. Follow the link in the message to confirm account deletion.",
+          "continue": "Continue",
+          "notice": "I understand that after I delete the company account, all information about the company will become unavailable. ",
+          "btn": "Delete company",
+          "process": "Deleting the company account...",
+          "success": "The confirmation message has been sent to your email address. ",
+          "errors": {
+            "Success": "Follow the link in the message to confirm account deletion.",
+            "RepeatedDeactivation": "Follow the link in the message once again to confirm account deletion.",
+            "UnknownError": "Failed to delete the company. Please try again.",
+            "UserNotFound": "User not found",
+            "AccessDenied": "Access denied",
+            "NotMainUser": "Access denied. Administrator permissions required",
+            "CompanyNotFound": "Company not found"
+          },
+          "confirm": {
+            "title": "Delete company account",
+            "description": "After you click  \"Continue\", a confirmation message will be sent to your email address. Follow the link in the message to confirm account deletion.",
+            "continue": "Continue"
+          },
+          "popupTitle": "The request on company account deletion has been sent",
+          "popupMsg": " To complete company deletion, follow the link in the message"
+        },
+        "errors": {
+          "FirstNameIsRequired": "Please enter your first name",
+          "LastNameIsRequired": "Please enter your last name",
+          "CountryIsRequired": "Please select the country",
+          "InvalidCountry": "Country selection error",
+          "Failure": {
+            "Title": "Unexpected error",
+            "Text": "Please contact <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+          },
+          "OfUserNotFound": {
+            "Title": "User account not found",
+            "Text": "Please contact <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+          },
+          "NotMainUser": {
+            "Title": "Administrator permissions required",
+            "Text": "Please contact <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+          },
+          "AccessDenied": {
+            "Title": "User account error. Access denied.",
+            "Text": "Please contact <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+          },
+          "UserNotFound": {
+            "Title": "User account not found",
+            "Text": "Please contact <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+          },
+          "UnknownError": {
+            "Title": "Unknown error occurred </br> while editing the user profile",
+            "Text": "Please contact <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+          }
+        },
+        "permissions": {
+          "title": "User permissions",
+          "ViewAllRequests": "View requests from all company users",
+          "ManageContacts": "Manage user accounts",
+          "AddLicenses": "Add licenses",
+          "RemoveLicenses": "Remove licenses",
+          "EditAllRequests": "Edit requests of other users",
+          "saveError": "Failed to save the changes. Please try again.",
+          "saveBtn": "Save changes",
+          "saveWait": "Saving the changes...",
+          "saveSuccess": "Your changes have been saved."
+        },
+        "personalinfo": {
+          "title": "User information",
+          "email": "E-mail:",
+          "company": "Company:",
+          "company-id": "(ID: {companyId})",
+          "accounttype": "User account type:",
+          "firstname": "First name:",
+          "lastname": "Last name:",
+          "country": "Country:",
+          "firstnamePlaceholder": "First name",
+          "lastnamePlaceholder": "Last name",
+          "filial": "Location:",
+          "notifications": "Notifications:",
+          "saveBtn": "Save changes",
+          "cancelBtn": "Cancel",
+          "saveError": "Failed to save the changes. Please try again.",
+          "saveWait": "Saving the changes...",
+          "saveSuccess": "Changes saved",
+          "filialDefault": "Select the location",
+          "filialMessage": "Select a location from the menu or type in a new one",
+          "fullDescription": "Full description"
+        },
+        "resetPasswordTitle": "Reset password ",
+        "resetPasswordDescription": "Password reset instructions will be sent to your email address.",
+        "resetPasswordButton": "Reset password",
+        "resetPasswordWait": "Resetting your password...",
+        "resetPasswordSuccess": "You password has been reset.  Check your e-mail for further instructions.",
+        "resetPasswordSuccessUser": "You password has been reset.  Further instructions have been sent to your email address.",
+        "resetPasswordError": "Failed to reset password. Please try again",
+        "fileUpload": {
+          "title": "Attachments:",
+          "agreedtext": "You have accepted the <a href='javascript://' class='profile-file-agreement-accepted-link' target='_blank'>Regulation on data provisioning</a> on",
+          "notagreedtext": "To upload files, please accept the <a href='javascript://' class='link-modal-win profile-file-agreement-btn' data='license-cont'> Regulation on data provisioning</a>"
+        }
+      }
+    }
+  }
+}

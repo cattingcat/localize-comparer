@@ -1,0 +1,246 @@
+{
+  "globalize-messages": {
+    "fr": {
+      "user": {
+        "list": {
+          "header": "Utilisateurs",
+          "sort-lastname": "Nom",
+          "filter-by-country-label": "Pays :",
+          "filter-by-country": {
+            "All": "Tous"
+          },
+          "filter-by-organization-label": "Sites :",
+          "filter-by-organization": {
+            "All": "Toutes"
+          },
+          "item": {
+            "country": "Pays :",
+            "organization": "Site :"
+          },
+          "no-filtered-user": "Aucun utilisateur ne correspond aux critères spécifiés."
+        },
+        "delete": {
+          "title": "Supprimer un compte utilisateur",
+          "description": "Attention ! Après avoir cliqué sur le bouton \"Supprimer le compte\", le compte utilisateur sera supprimé. Vous pourrez toujours consulter les demandes de l'utilisateur supprimé",
+          "notice": "Je suis conscient(e) que l'utilisateur ne sera pas en mesure de déposer des demandes sur CompanyAccount après la suppression du compte.",
+          "btn": "Supprimer le compte utilisateur",
+          "process": "Suppression du compte utilisateur...",
+          "success": "Le compte utilisateur a été supprimé avec succès",
+          "confirm": {
+            "title": "Suppression du compte utilisateur",
+            "text": "Vous allez supprimer l'utilisateur {email}. L'accès de l'utilisateur à CompanyAccount sera bloqué. Les demandes de l'utilisateur supprimé seront toujours disponibles.",
+            "button": "Poursuivre"
+          },
+          "errors": {
+            "RepeatedDeactivation": "La suppression de l'utilisateur a échoué. Une nouvelle tentative de suppression.",
+            "UnknownError": "Échec de suppression du compte utilisateur. Veuillez réessayer.",
+            "UserNotFound": "Utilisateur introuvable",
+            "AccessDenied": "Accès interdit",
+            "NotMainUser": "L'accès est interdit. Le compte n'est pas doté de droits d'administrateur",
+            "CompanyNotFound": "L'entreprise est introuvable",
+            "OfUserNotFound": "Échec de suppression du compte utilisateur. Utilisateur introuvable"
+          }
+        },
+        "errors": {
+          "DifferentCompanies": "Le compte utilisateur est associé à une autre entreprise. </br>Veuillez <a href='/request/create/ca' target=\"_blank\">contacter le support technique</a> pour trouver une solution.",
+          "GetDetailsException_DifferentCompanies": {
+            "Title": "Le compte demandé est associé à une autre entreprise",
+            "Text": "Veuillez <a href='../../request/create/ca' target=\"_blank\">contacter le support technique</a> pour trouver une solution."
+          },
+          "RequestPasswordResetException_DifferentCompanies": {
+            "Title": "Le compte en cours de modification est associé à une autre entreprise",
+            "Text": "Veuillez <a href='../../request/create/ca' target=\"_blank\">contacter le support technique</a> pour trouver une solution."
+          },
+          "UpdateProfileDetailsException_DifferentCompanies": {
+            "Title": "Le compte en cours de modification est associé à une autre entreprise",
+            "Text": "Veuillez <a href='../../request/create/ca' target=\"_blank\">contacter le support technique</a> pour trouver une solution."
+          },
+          "UpdatePermissionsException_DifferentCompanies": {
+            "Title": "Le compte en cours de modification est associé à une autre entreprise",
+            "Text": "Veuillez <a href='../../request/create/ca' target=\"_blank\">contacter le support technique</a> pour trouver une solution."
+          },
+          "DeleteProfileException_DifferentCompanies": {
+            "Title": "Des modifications ont été apportées à ce compte. Le compte ne peut pas être supprimé",
+            "Text": "Veuillez <a href='../../request/create/ca' target=\"_blank\">contacter le support technique</a> pour trouver une solution"
+          },
+          "GetDetailsException_OfUserNotFound": {
+            "Title": "Compte introuvable",
+            "Text": "Veuillez <a href='../../request/create/ca' target=\"_blank\">contacter le support technique</a> pour trouver une solution."
+          },
+          "RequestPasswordResetException_OfUserNotFound": {
+            "Title": "Compte introuvable",
+            "Text": "Veuillez <a href='/request/create/ca' target=\"_blank\">contacter le support technique</a> pour trouver une solution."
+          },
+          "UpdateProfileDetailsException_OfUserNotFound": {
+            "Title": "Compte introuvable",
+            "Text": "Veuillez <a href='/request/create/ca' target=\"_blank\">contacter le support technique</a> pour trouver une solution."
+          },
+          "UpdatePermissionsException_OfUserNotFound": {
+            "Title": "Compte introuvable",
+            "Text": "Veuillez <a href='/request/create/ca' target=\"_blank\">contacter le support technique</a> pour trouver une solution."
+          },
+          "DeleteProfileException_OfUserNotFound": {
+            "Title": "Compte introuvable",
+            "Text": "Veuillez <a href='/request/create/ca' target=\"_blank\">contacter le support technique</a> pour trouver une solution."
+          },
+          "Failure": {
+            "Title": "Problème inconnu",
+            "Text": "Contactez le support technique à l'adresse <a href='/request/create/ca' target=\"_blank\">companyaccount@kaspersky.com</a> pour trouver une solution"
+          },
+          "UserNotFound": {
+            "Title": "Utilisateur introuvable",
+            "Text": "Contactez le support technique à l'adresse <a href='/request/create/ca' target=\"_blank\">companyaccount@kaspersky.com</a> pour trouver une solution"
+          },
+          "NotMainUser": {
+            "Title": "Vous ne disposez pas de droits d'administrateur",
+            "Text": "Veuillez <a href='/request/create/ca' target=\"_blank\">contacter le support technique</a> pour trouver une solution"
+          },
+          "AccessDenied": {
+            "Title": "Accès interdit",
+            "Text": "Contactez le support technique à l'adresse <a href='/request/create/ca' target=\"_blank\">companyaccount@kaspersky.com</a> pour trouver une solution"
+          },
+          "ReqOfUserNotFound": {
+            "Title": "Le compte demandé est introuvable",
+            "Text": "Veuillez <a href='/request/create/ca' target=\"_blank\">contacter le support technique</a> pour trouver une solution"
+          },
+          "UpdOfUserNotFound": {
+            "Title": "Le compte en cours de modification est introuvable",
+            "Text": "Veuillez <a href='/request/create/ca' target=\"_blank\">contacter le support technique</a> pour trouver une solution"
+          },
+          "DelOfUserNotFound": {
+            "Title": "Des modifications ont été apportées à ce compte. Le compte ne peut pas être supprimé",
+            "Text": "Veuillez <a href='/request/create/ca' target=\"_blank\">contacter le support technique</a> pour trouver une solution"
+          }
+        }
+      },
+      "profile": {
+        "title-profile": "Mon compte",
+        "title-user": "Consulter mon compte",
+        "delete": {
+          "title": "Suppression de votre compte",
+          "description": "Attention ! Après avoir cliqué sur le bouton « Supprimer le compte utilisateur », un message contenant un lien de confirmation de suppression sera envoyé à votre adresse email. Le compte sera supprimé une fois cliqué sur le lien.",
+          "notice": "Je suis conscient(e) que mon compte sera supprimé et je ne pourrez pas envoyer des demandes via CompanyAccount.",
+          "btn": "Supprimer mon compte",
+          "process": "Envoi de la demande de suppression...",
+          "success": "Pour confirmer la suppression du compte, suivez le lien dans le message envoyé à votre email.",
+          "confirm": {
+            "title": "Suppression du compte utilisateur",
+            "text": "Vous êtes sur le point de supprimer votre compte. L'accès au portail sera bloqué une fois cliqué sur le lien dans le message.",
+            "button": "Supprimer"
+          },
+          "errors": {
+            "RepeatedDeactivation": "Échec de suppression du compte utilisateur. Une nouvelle tentative de suppression.",
+            "UnknownError": "Échec de suppression du compte utilisateur. Veuillez réessayer.",
+            "UserNotFound": "Utilisateur introuvable",
+            "AccessDenied": "Accès interdit",
+            "NotMainUser": "Accès interdit. L'utilisateur n'est pas doté de droits d'administrateur",
+            "CompanyNotFound": "L'entreprise est introuvable. ",
+            "OfUserNotFound": "Échec de suppression du compte utilisateur. L'utilisateur est introuvable.",
+            "DifferentCompanies": "Des modifications ont été apportées à ce compte utilisateur. Le compte ne peut pas être supprimé."
+          }
+        },
+        "deleteCompany": {
+          "title": "Supprimer le compte de l'entreprise",
+          "description": "Attention ! Après avoir cliqué sur le bouton « Supprimer le compte de l'entreprise », un message contenant un lien de confirmation de suppression sera envoyé à votre adresse email. Le compte de l'entreprise sera supprimé une fois cliqué sur le lien.",
+          "continue": "Poursuivre",
+          "notice": "Je suis conscient(e) que toutes les informations sur l'entreprise seront supprimées après la suppression du compte de l'entreprise.",
+          "btn": "Supprimer le compte de l'entreprise",
+          "process": "Suppression du compte de l'entreprise...",
+          "success": "Un message contenant un lien de confirmation de suppression du compte de l'entreprise a été envoyé à votre email.",
+          "errors": {
+            "Success": "Pour confirmer la suppression du compte de l'entreprise, suivez le lien dans le message envoyé à votre email.",
+            "RepeatedDeactivation": "Pour confirmer la suppression du compte de l'entreprise, veuillez suivre le lien dans le message envoyé à votre email encore une fois.",
+            "UnknownError": "Échec de suppression du compte de l'entreprise. Veuillez réessayer.",
+            "UserNotFound": "Utilisateur introuvable",
+            "AccessDenied": "Accès interdit",
+            "NotMainUser": "Accès interdit. L'utilisateur n'est pas doté de droits d'administrateur",
+            "CompanyNotFound": "L'entreprise est introuvable"
+          },
+          "confirm": {
+            "title": "Suppression du compte de l'entreprise",
+            "description": "<b>Attention !</b> Après avoir cliqué sur le bouton « Supprimer le compte de l'entreprise », un message contenant un lien de confirmation de suppression sera envoyé à votre adresse email. Le compte de l'entreprise sera supprimé une fois cliqué sur le lien.",
+            "continue": "Poursuivre"
+          },
+          "popupTitle": "La demande de suppression du compte de l'entreprise a été envoyée",
+          "popupMsg": " Pour terminer la suppression du compte de l'entreprise, suivez le lien dans le message"
+        },
+        "errors": {
+          "FirstNameIsRequired": "Le prénom n'est pas spécifié",
+          "LastNameIsRequired": "Le nom n'est pas spécifié",
+          "CountryIsRequired": "Le champ Pays n'est pas rempli",
+          "InvalidCountry": "Erreur de sélection du pays",
+          "Failure": {
+            "Title": "Une erreur imprévue est survenue",
+            "Text": "Veuillez nous contacter à l'adresse <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+          },
+          "OfUserNotFound": {
+            "Title": "Le compte utilisateur est introuvable",
+            "Text": "Veuillez nous contacter à l'adresse <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+          },
+          "NotMainUser": {
+            "Title": "Vous ne disposez pas de droits d'administrateur.",
+            "Text": "Veuillez nous contacter à l'adresse <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+          },
+          "AccessDenied": {
+            "Title": "Un problème s'est produit avec votre compte. Accès interdit.",
+            "Text": "Veuillez nous contacter à l'adresse <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+          },
+          "UserNotFound": {
+            "Title": "Compte introuvable",
+            "Text": "Veuillez nous contacter à l'adresse <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+          },
+          "UnknownError": {
+            "Title": "Un problème inconnu s'est produit </br>lors de la modification du compte utilisateur",
+            "Text": "Veuillez nous contacter à l'adresse <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+          }
+        },
+        "permissions": {
+          "title": "Droits de l'utilisateur",
+          "ViewAllRequests": "Consulter la liste de tous les utilisateurs du compte de l'entreprise",
+          "ManageContacts": "Gérer les comptes utilisateur",
+          "AddLicenses": "Ajouter des licences",
+          "RemoveLicenses": "Supprimer des licences",
+          "EditAllRequests": "Modifier les demandes d'autres utilisateurs",
+          "saveError": "L'enregistrement des modifications a échoué. Veuillez réessayer.",
+          "saveBtn": "Enregistrer les modifications",
+          "saveWait": "Enregistrement des modifications...",
+          "saveSuccess": "Les modifications ont été enregistrées."
+        },
+        "personalinfo": {
+          "title": "Informations personnelles",
+          "email": "Adresse email :",
+          "company": "Entreprise :",
+          "company-id": "(ID : {companyId})",
+          "accounttype": "Type de compte :",
+          "firstname": "Prénom :",
+          "lastname": "Nom :",
+          "country": "Pays :",
+          "firstnamePlaceholder": "Prénom",
+          "lastnamePlaceholder": "Nom",
+          "filial": "Site :",
+          "notifications": "Notifications :",
+          "saveBtn": "Enregistrer les modifications",
+          "cancelBtn": "Annuler",
+          "saveError": "L'enregistrement des modifications a échoué. Veuillez réessayer.",
+          "saveWait": "Enregistrement des modifications...",
+          "saveSuccess": "Les modifications ont été enregistrées",
+          "filialDefault": "Sélectionnez un site",
+          "filialMessage": "Sélectionnez un site ou créer un nouveau site ",
+          "fullDescription": "Description complète"
+        },
+        "resetPasswordTitle": "Modifier le mot de passe ",
+        "resetPasswordDescription": "Les instructions sur la modification du mot de passe seront envoyées à l'adresse email de l'utilisateur",
+        "resetPasswordButton": "Réinitialiser le mot de passe",
+        "resetPasswordWait": "Réinitialisation du mot de passe...",
+        "resetPasswordSuccess": "Votre mot de passe a été réinitialisé avec succès. Des instructions ont été envoyées à votre adresse email",
+        "resetPasswordSuccessUser": "Le mot de passe a été réinitialisé avec succès. Des instructions ont été envoyées à l'adresse email de l'utilisateur",
+        "resetPasswordError": "La réinitialisation du mot de passe a échoué. Veuillez réessayer",
+        "fileUpload": {
+          "title": "Joindre des fichiers :",
+          "agreedtext": "Vous avez accepté les conditions de la <a href='javascript://' class='profile-file-agreement-accepted-link' target='_blank'>Réglementation régissant l’obtention de données</a>",
+          "notagreedtext": "Pour charger des fichiers, veuillez accepter les conditions de la <a href='javascript://' class='link-modal-win profile-file-agreement-btn' data='license-cont'>Réglementation régissant l’obtention de données</a>"
+        }
+      }
+    }
+  }
+}

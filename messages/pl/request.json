@@ -1,0 +1,243 @@
+{
+  "globalize-messages": {
+    "pl": {
+      "request": {
+        "errors": {
+          "maxFiles3": "Można załączyć tylko trzy pliki. Proszę usunąć nadmiarowe.",
+          "maxFiles1": "Można załączyć tylko jeden plik. Proszę usunąć nadmiarowe.",
+          "minFiles1": "Brak załączonych plików.",
+          "EmailIsInvalid": "Adres e-mail jest nieprawidłowy",
+          "ProductTypeRequired": "Wybierz zakres ochrony",
+          "ProductRequired": "Wybierz produkt",
+          "OSVersionRequired": "Wybierz lub wpisz wersję systemu operacyjnego",
+          "ProductVersionRequired": "Wybierz wersję produktu",
+          "TypeRequired": "Wybierz typ zgłoszenia",
+          "SubtypeRequired": "Wybierz typ zgłoszenia",
+          "ThemeRequired": "Wprowadź temat zgłoszenia",
+          "ThemeIsTooLong": "Temat jest zbyt długi. Nie może zawierać więcej niż 50 znaków",
+          "DescriptionRequired": "Wprowadź opis",
+          "TextRequired": "Wprowadź treść wiadomości. Wprowadź treść wiadomości i spróbuj ponownie."
+        },
+        "view": {
+          "number": "Identyfikator:",
+          "status": "Status:",
+          "report": "Zażalenie do kierownika",
+          "close-request": "Zamknij zgłoszenie",
+          "open-request": "Utwórz nowe zgłoszenie",
+          "send": "Wyślij wiadomość",
+          "send-process": "Wysyłanie wiadomości...",
+          "confirm-title": "Zamknąć zgłoszenie?",
+          "confirm-text": "Zamierzasz zamknąć zgłoszenie. Jeśli Twój problem został rozwiązany, kliknij <b>Zamknij</b> w celu potwierdzenia.",
+          "confirm-button": "Zamknij",
+          "attached-files": "Załączone pliki:",
+          "support-manager": "Inżynier Pomocy technicznej",
+          "cancel-comment": "Anuluj",
+          "product": "Produkt:",
+          "version": "Wersja:",
+          "os": "System operacyjny:",
+          "logMore": "Pokaż rozmowę",
+          "logHide": "Ukryj rozmowę",
+          "showCommentForm": "Odpowiedz",
+          "hideCommentForm": "Ukryj",
+          "cancel": {
+            "confirm-title": "Czy na pewno?",
+            "confirm-text": "Czy chcesz anulować dodawanie komentarza?",
+            "confirm-button": "Tak"
+          },
+          "errors": {
+            "UserNotFound": "Nie odnaleziono użytkownika",
+            "AccessDenied": "Odmowa dostępu",
+            "UnknownError": "Wystąpił błąd. Prosimy spróbować później. Jeśli problem będzie się powtarzał, prosimy o kontakt na adres <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a> ",
+            "RequestClosedOrCanceled": "Nie można wysłać wiadomości. Zgłoszenie zostało zmodyfikowane"
+          }
+        },
+        "statuses": {
+          "8080": "Anulowane (przez Obsługę Klienta)",
+          "9080": "Zamknięte (Przez Obsługę Klienta)",
+          "10000": "Nowe",
+          "20000": "Oczekiwanie na Twoją odpowiedź",
+          "40000": "W trakcie",
+          "60000": "Rozwiązane (Rozwiązanie zostało dostarczone)",
+          "80000": "Anulowane",
+          "90000": "Zamknięte",
+          "201008": "Oczekuje",
+          "601015": "Rozwiązane",
+          "801102": "Anulowane przez użytkownika",
+          "801103": "Anulowane (Licencja lub umowa wygasły)",
+          "901005": "Zamknięte",
+          "901008": "Zamknięte (Wymagane są dodatkowe informacje)",
+          "901102": "Anulowane (Przez Klienta)",
+          "6011502": "Rozwiązane (informacje nie zostały dostarczone)",
+
+          "40000-status-area": "Zgłoszenie jest przetwarzane przez inżyniera pomocy technicznej"
+        },
+        "list": {
+          "tabs": {
+            "requests": "Zgłoszenia"
+          },
+          "filter-by-status-label": "Status zgłoszenia:",
+          "filter-by-author-label": "Utworzone przez:",
+          "filter-by-status": {
+            "All": "Wszystkie",
+            "Pending": "Oczekujące",
+            "InProgress": "W trakcie",
+            "Inactive": "Nieaktywne (Zamknięte lub anulowane)",
+            "Resolved": "Rozwiązane przez Pomoc techniczną",
+            "ByDeletedUsers": "Usunięci użytkownicy"
+          },
+          "item": {
+            "number": "Identyfikator:",
+            "status": "Status:",
+            "createdate": "Utworzone:",
+            "customer": "Utworzone przez:"
+          },
+          "no-filtered-request": {
+            "title": "Brak odnalezionych zgłoszeń",
+            "description": "Proszę rozszerzyć obszar poszukiwań."
+          },
+          "no-request": {
+            "title": "Żadne zgłoszenie nie zostało jeszcze utworzone",
+            "description": "Aby skontaktować się z Pomocą techniczną, kliknij ",
+            "createrequest": "Nowe zgłoszenie"
+          }
+        },
+        "create": {
+          "title": "Wybierz kategorię zgłoszenia:",
+          "no-request-types": {
+            "title": "Brak dostępnych kategorii",
+            "description": "W celu rozwiązania problemu skontaktuj się z nami na adres <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+          }
+        },
+        "ca": {
+          "title": "Pytanie dotyczące CompanyAccount",
+          "confirm-title": "Anuluj tworzenie zgłoszenia",
+          "confirm-text": "Czy chcesz anulować tworzenie zgłoszenia?",
+          "confirm-button": "Tak",
+          "theme": " Temat:",
+          "description": " Opis:",
+          "request-theme": "Twoje pytanie / problem",
+          "request-description": "Zadaj pytanie lub opisz problem związany z kontem i opisz kroki prowadzące do jego powstania.",
+          "success": "Twoje zgłoszenie zostało utworzone. Identyfikator zgłoszenia: <a href=\"/request/view/{requestId}\">{requestId}</a>",
+          "attachedfiles": {
+            "title": "Załączone pliki:"
+          },
+          "send-request": "Wyślij zgłoszenie",
+          "send-process": "Twoje zgłoszenie jest w trakcie przetwarzania...",
+          "cancel-request": "Anuluj",
+          "errors": {
+            "UnknownError": "Wystąpił błąd. Spróbuj później. Jeśli problem będzie się powtarzał, skontaktuj się adres <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a> "
+          }
+        },
+        "complaint": {
+          "title": "Nowa zażalenie dotyczące jakości pomocy technicznej",
+          "note": "Należy pamiętać, że Dział kontroli jakości obsługuje zażalenia wyłącznie w językach  angielskim i rosyjskim.",
+          "description": "Szczegółowy opis <br />Twojego zażalenia:",
+          "request": "Zgłoszenie, którego dotyczy <br /> Twoje zażalenie:"
+        },
+        "csr": {
+          "title": "Podpisz CSR dla usługi Apple Push Notification",
+          "subtitle": "Możesz wysłać tylko jeden plik z rozszerzeniem .csr do podpisywania w danym zgłoszeniu. ",
+          "confirm-title": "Anuluj tworzenie zgłoszenia",
+          "confirm-text": "Czy chcesz anulować tworzenie zgłoszenia?",
+          "confirm-button": "Tak",
+          "success": "Twoje zgłoszenie zostało utworzone. Zgłoszenie zostanie zamknięte automatycznie po obsłużeniu. Wybierz zgłoszenie z listy i pobierz podpisany certyfikat. Identyfikator zgłoszenia: <a href=\"/request/view/{requestId}\">{requestId}</a>",
+          "attachedfiles": {
+            "title": "Załączone pliki:"
+          },
+          "send-request": "Podpisz CSR ",
+          "send-process": "Zgłoszenie jest przetwarzane...",
+          "cancel-request": "Anuluj",
+          "remarkQuestion": "<a href=\"http://support.kaspersky.com/pl/11077\" target=\"_blank\" >Jak wygenerować certyfikat APN?</a>",
+          "remarkDescriprion": " ",
+          "errors": {
+            "WrongFileSize": "Nieprawidłowy rozmiar pliku",
+            "WrongFileFormat": "Nieprawidłowy format pliku",
+            "UnknownError": "Wystąpił błąd. Spróbuj później. Jeśli problem będzie się powtarzał, skontaktuj się adres <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a>  "
+          }
+        },
+        "virlab": {
+          "title": "Wyślij podejrzany plik lub adres URL do analizy",
+          "confirm-title": "Anuluj ",
+          "confirm-text": "Czy chcesz anulować tworzenie zgłoszenia?",
+          "confirm-button": "Tak",
+          "type": "Typ zgłoszenia:",
+          "description": " Opis:",
+          "request-description": "Opisz załączone pliki lub dodaj podejrzane adresy URL.",
+          "notifications": " Wyślij kopię odpowiedzi na adres e-mail:",
+          "email-placeholder": "name@domain.com ; name@domain.com",
+          "success": "Twoje zgłoszenie do laboratorium antywirusowego zostało utworzone. Otrzymasz odpowiedź na swój adres e-mail. Uwaga! Odpowiedź nie będzie widoczna w usłudze CompanyAccount. Identyfikator zgłoszenia: <a href=\"/request/view/{requestId}\">{requestId}</a>",
+          "attachedfiles": {
+            "title": "Załączone pliki:"
+          },
+          "send-request": "Wyślij zgłoszenie",
+          "send-process": "Zgłoszenie jest przetwarzane...",
+          "cancel-request": "Anuluj",
+          "errors": {
+            "UserNotFound": "Błąd: użytkownik nie został odnaleziony w bazie danych",
+            "AccessDenied": "Dostęp zabroniony. Działanie jest niemożliwe",
+            "WrongFileSize": "Jeden z załączonych plików jest za duży",
+            "WrongFileFormat": "Jeden z załączonych plików ma nieprawidłowy format",
+            "UnknownError": "Wystąpił błąd. Spróbuj później. Jeśli problem będzie się powtarzał, skontaktuj się adres <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a>   ",
+            "EmailPattern": "Wprowadź poprawnie swój adres e-mail. Jeśli dodajesz kilka adresów, oddziel je średnikami"
+          }
+        },
+        "virlab-msa": {
+          "title": "Wyślij podejrzany plik lub adres URL do analizy (MSA)",
+          "success": "Twoje zgłoszenie do laboratorium antywirusowego zostało utworzone. Otrzymasz odpowiedz na swój adres e-mail. Uwaga! Odpowiedź nie będzie widoczna w usłudze CompanyAccount. Identyfikator zgłoszenia: <a href=\"/request/view/{requestId}\">{requestId}</a>"
+        },
+        "support": {
+          "title": "Zgłoszenie do Pomocy technicznej",
+          "confirm-title": "Anuluj tworzenie zgłoszenia",
+          "confirm-text": "Czy chcesz anulować tworzenie zgłoszenia?",
+          "confirm-button": "Tak",
+          "securityarea": " Zakres ochrony:",
+          "product": " Produkt:",
+          "osversion": " Wersja systemu operacyjnego:",
+          "osversion-placeholder": "Wpisz lub wybierz z listy",
+          "productversion": " Wersja produktu:",
+          "requesttype": {
+            "title": " Typ zgłoszenia:"
+          },
+          "subtype": " Podtyp zgłoszenia:",
+          "theme": " Temat:",
+          "description": " Opis:",
+          "unknownosversion": " ",
+          "whatVersionOS": " ",
+          "aboutVersionOS": " ",
+          "unknownProduct": " ",
+          "whatProduct": " ",
+          "aboutProduct": " ",
+          "request-theme": "Temat zgłoszenia",
+          "request-description": "Opisz problem i kroki, które prowadzą do jego powstania.",
+          "success": "Twoje zgłoszenie zostało utworzone. Identyfikator zgłoszenia: <a href=\"/request/view/{requestId}\">{requestId}</a>",
+          "attachedfiles": {
+            "title": "Załączone pliki:"
+          },
+          "send-request": "Wyślij zgłoszenie",
+          "send-process": "Zgłoszenie jest przetwarzane...",
+          "cancel-request": "Anuluj",
+          "errors": {
+            "UnknownError": "Wystąpił błąd. Spróbuj później. Jeśli problem będzie się powtarzał, skontaktuj się adres <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a>  "
+          },
+          "license": {
+            "1": "Twoja firma nie posiada aktywnych licencji na produkty korporacyjne. Zakres dostępnych typów zgłoszeń może być ograniczony. Proszę dodać licencje na zakładce <a href='../../license/list' target=\"_blank\"> \"Licencje\"</a>.  ",
+            "2": "Nie posiadasz aktywnych licencji na produkty dla <b>domu</b>. Zakres dostępnych typów zgłoszeń może być ograniczony. Dodaj kod aktywacyjny do produktu lub <a href='../../license/list' target=\"_blank\"> dodaj nową licencję na produkt domowy korzystając z zakładki \"Licencje\"</a>.",
+            "3": "Twoja firma nie posiada aktywnych licencji na produkty korporacyjne. Zakres dostępnych typów zgłoszeń może być ograniczony. Dodaj kod aktywacyjny dla produktu lub <a href='../../license/list' target=\"_blank\"> dodaj nową licencję na produkt korporacyjny korzystając z zakładki \"Licencje\"</a>. "
+          },
+          "answers-email": "Wysyłaj powiadomienia o odpowiedziach na adres e-mail"
+        },
+        "support-ta": {
+          "title": "Zgłoszenie do Pomocy technicznej",
+          "product-ver-placeholder": "Wybierz wersję z listy lub wpisz inną",
+          "success": "Twoje zgłoszenie zostało utworzone. Identyfikator zgłoszenia: <a href=\"/request/view/{requestId}\">{requestId}</a>",
+          "influence": "  ",
+          "urgency": "  "
+        },
+        "support-msa": {
+          "title": "Zgłoszenie do Pomocy technicznej (MSA)",
+          "success": "Twoje zgłoszenie zostało utworzone. Identyfikator zgłoszenia: <a href=\"/request/view/{requestId}\">{requestId}</a>"
+        }
+      }
+    }
+  }
+}

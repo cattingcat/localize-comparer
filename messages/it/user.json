@@ -1,0 +1,246 @@
+{
+  "globalize-messages": {
+    "it": {
+      "user": {
+        "list": {
+          "header": "Utenti",
+          "sort-lastname": "Ordina per Cognome",
+          "filter-by-country-label": "Nazione:",
+          "filter-by-country": {
+            "All": "Tutte"
+          },
+          "filter-by-organization-label": "Sede:",
+          "filter-by-organization": {
+            "All": "Tutte"
+          },
+          "item": {
+            "country": "Nazione:",
+            "organization": "Sede:"
+          },
+          "no-filtered-user": "Nessun utente trovato."
+        },
+        "delete": {
+          "title": "Cancella account utente",
+          "description": "Dopo aver fatto click su \"Cancella account utente\", l'account verrà cancellato. Tutte le richieste create da tale utente saranno ancora disponibili.",
+          "notice": "Comprendo che l'utente cancellato non sarà in grado di creare richieste dal CompanyAccount.",
+          "btn": "Cancella account utente",
+          "process": "Cancellazione dell'account...",
+          "success": "L'account utente è stato cancellato",
+          "confirm": {
+            "title": "Cancella account utente",
+            "text": "State per cancellare l'utente {email}. L'accesso utente al CompanyAccount verrà bloccato. Le richieste create dall'utente saranno ancora disponibili. ",
+            "button": "Continua"
+          },
+          "errors": {
+            "RepeatedDeactivation": "Impossibile cancellare l'account utente. Cancellazione dell'account...",
+            "UnknownError": "Impossibile cancellare l'account utente. Vi invitiamo a provare nuovamente.",
+            "UserNotFound": "Utente non trovato",
+            "AccessDenied": "Accesso negato",
+            "NotMainUser": "Accesso negato. Sono richiesti i permessi Administrator",
+            "CompanyNotFound": "Azienda non trovata",
+            "OfUserNotFound": "Impossibile cancellare l'account utente. Utente non trovato"
+          }
+        },
+        "errors": {
+          "DifferentCompanies": "L'utente appartiene ad una azienda differente. </br>Vi invitiamo a <a href='/request/create/ca' target=\"_blank\"> contattare il supporto tecnico</a> per trovare una soluzione del problema.",
+          "GetDetailsException_DifferentCompanies": {
+            "Title": "L'account utente richiesto non appartiene alla vostra azienda",
+            "Text": "Vi invitiamo a <a href='/request/create/ca' target=\"_blank\"> contattare il supporto tecnico</a> per trovare una soluzione al problema."
+          },
+          "RequestPasswordResetException_DifferentCompanies": {
+            "Title": "L'account utente che state modificando non appartiene alla vostra azienda",
+            "Text": "Vi invitiamo a <a href='/request/create/ca' target=\"_blank\"> contattare il supporto tecnico</a> per trovare una soluzione al problema."
+          },
+          "UpdateProfileDetailsException_DifferentCompanies": {
+            "Title": "L'account utente che state modificando non appartiene alla vostra azienda",
+            "Text": "Vi invitiamo a <a href='/request/create/ca' target=\"_blank\"> contattare il supporto tecnico</a> per trovare una soluzione al problema."
+          },
+          "UpdatePermissionsException_DifferentCompanies": {
+            "Title": "L'account utente che state modificando non appartiene alla vostra azienda",
+            "Text": "Vi invitiamo a <a href='/request/create/ca' target=\"_blank\"> contattare il supporto tecnico</a> per trovare una soluzione al problema."
+          },
+          "DeleteProfileException_DifferentCompanies": {
+            "Title": "L'account è stato modificato e non può essere cancellato",
+            "Text": "Vi invitiamo a <a href='/request/create/ca' target=\"_blank\"> contattare il supporto tecnico</a> per trovare una soluzione al problema."
+          },
+          "GetDetailsException_OfUserNotFound": {
+            "Title": "Account utente non trovato",
+            "Text": "Vi invitiamo a <a href='/request/create/ca' target=\"_blank\"> contattare il supporto tecnico</a> per trovare una soluzione al problema."
+          },
+          "RequestPasswordResetException_OfUserNotFound": {
+            "Title": "Account utente non trovato",
+            "Text": "Vi invitiamo a <a href='/request/create/ca' target=\"_blank\"> contattare il supporto tecnico</a> per trovare una soluzione al problema."
+          },
+          "UpdateProfileDetailsException_OfUserNotFound": {
+            "Title": "Account utente non trovato",
+            "Text": "Vi invitiamo a <a href='/request/create/ca' target=\"_blank\"> contattare il supporto tecnico</a> per trovare una soluzione al problema."
+          },
+          "UpdatePermissionsException_OfUserNotFound": {
+            "Title": "Account utente non trovato",
+            "Text": "Vi invitiamo a <a href='/request/create/ca' target=\"_blank\"> contattare il supporto tecnico</a> per trovare una soluzione al problema."
+          },
+          "DeleteProfileException_OfUserNotFound": {
+            "Title": "Account utente non trovato",
+            "Text": "Vi invitiamo a <a href='/request/create/ca' target=\"_blank\"> contattare il supporto tecnico</a> per trovare una soluzione al problema."
+          },
+          "Failure": {
+            "Title": "Errore sconosciuto",
+            "Text": "Vi invitiamo a contattare il supporto tecnico tramite <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> per risolvere il problema"
+          },
+          "UserNotFound": {
+            "Title": "Utente non trovato",
+            "Text": "Vi invitiamo a contattare il supporto tecnico tramite <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> per risolvere il problema"
+          },
+          "NotMainUser": {
+            "Title": "Permessi Administrator richiesti",
+            "Text": "Vi invitiamo a <a href='/request/create/ca' target=\"_blank\"> contattare il supporto tecnico</a> per trovare una soluzione al problema."
+          },
+          "AccessDenied": {
+            "Title": "Accesso negato",
+            "Text": "Vi invitiamo a contattare il supporto tecnico tramite <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> per risolvere il problema"
+          },
+          "ReqOfUserNotFound": {
+            "Title": "Account utente non trovato",
+            "Text": "Vi invitiamo a <a href='/request/create/ca' target=\"_blank\"> contattare il supporto tecnico</a> per trovare una soluzione al problema."
+          },
+          "UpdOfUserNotFound": {
+            "Title": "L'account utente che state cercando di modificare non è stato trovato",
+            "Text": "Vi invitiamo a <a href='/request/create/ca' target=\"_blank\"> contattare il supporto tecnico</a> per trovare una soluzione al problema."
+          },
+          "DelOfUserNotFound": {
+            "Title": "L'account è stato modificato e non può essere cancellato",
+            "Text": "Vi invitiamo a <a href='/request/create/ca' target=\"_blank\"> contattare il supporto tecnico</a> per trovare una soluzione al problema."
+          }
+        }
+      },
+      "profile": {
+        "title-profile": "Il mio account",
+        "title-user": "Visualizza dettagli account",
+        "delete": {
+          "title": "Cancella account utente",
+          "description": "Dopo aver fatto click su \"Cancella account\", riceverete un messaggio di conferma al vostro indirizzo mail. Seguire il link nel messaggio per confermare la cancellazione dell'account. ",
+          "notice": "Comprendo che il mio account verrà cancellato e che non sarò in grado di creare richieste tramite CompanyAccount.",
+          "btn": "Cancella account",
+          "process": "Invio della richiesta di cancellazione...",
+          "success": "Seguire il link nel messaggio per confermare la cancellazione dell'account.",
+          "confirm": {
+            "title": "Cancella account",
+            "text": "State per cancellare il vostro account. L'accesso al CompanyAccount verrà bloccato dopo aver fatto click sul link presente nel messaggio di conferma. ",
+            "button": "Cancella"
+          },
+          "errors": {
+            "RepeatedDeactivation": "Il tentativo di cancellazione dell'account utente è fallito. Cancellazione dell'account...",
+            "UnknownError": "Il tentativo di cancellazione dell'account utente è fallito. Vi invitiamo a riprovare.",
+            "UserNotFound": "Utente non trovato",
+            "AccessDenied": "Accesso negato",
+            "NotMainUser": "Accesso negato. Sono richiesti i permessi Administrator",
+            "CompanyNotFound": "Azienda non trovata ",
+            "OfUserNotFound": "Impossibile cancellare l'account utente. Utente non trovato.",
+            "DifferentCompanies": "L'account è stato modificato e non può essere cancellato"
+          }
+        },
+        "deleteCompany": {
+          "title": "Cancella account azienda",
+          "description": "Dopo aver fatto click su \"Cancella azienda\", riceverete un messaggio di conferma al vostro indirizzo mail. Seguire il link nel messaggio per confermare la cancellazione dell'azienda. ",
+          "continue": "Continua",
+          "notice": "Comprendo che dopo aver cancellato l'account azienda tutte le informazioni in merito all'azienda non saranno più disponibili. ",
+          "btn": "Cancella azienda",
+          "process": "Cancellazione azienda in corso...",
+          "success": "Il messaggio di conferma è stato inviato al vostro indirizzo mail. ",
+          "errors": {
+            "Success": "Seguire il link nel messaggio per confermare la cancellazione dell'azienda.",
+            "RepeatedDeactivation": "Seguire il link nel messaggio ancora una volta per confermare la cancellazione dell'azienda.",
+            "UnknownError": "Impossibile cancellare l'azienda. Vi invitiamo a riprovare",
+            "UserNotFound": "Utente non trovato",
+            "AccessDenied": "Accesso negato",
+            "NotMainUser": "Accesso negato. Sono richiesti i permessi Administrator",
+            "CompanyNotFound": "Azienda non trovata"
+          },
+          "confirm": {
+            "title": "Cancella account azienda",
+            "description": "Dopo aver fatto click su  \"Continua\", il messaggio di congerma verrà inviato al vostro indirizzo mail. Seguire il link nel messaggio per confermare la cancellazione dell'azienda.",
+            "continue": "Continua"
+          },
+          "popupTitle": "La richiesta per la cancellazione dell'account azienda è stato inviato",
+          "popupMsg": " Per completare la cancellazione dell'azienda, seguire il link nel messaggio"
+        },
+        "errors": {
+          "FirstNameIsRequired": "Inserire il vostro nome",
+          "LastNameIsRequired": "Inserire il vostro cognome",
+          "CountryIsRequired": "Selezionare la nazione",
+          "InvalidCountry": "Errore nella selezione della nazione",
+          "Failure": {
+            "Title": "Errore imprevisto",
+            "Text": "Vi invitiamo a contattare <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+          },
+          "OfUserNotFound": {
+            "Title": "Account utente non trovato",
+            "Text": "Vi invitiamo a contattare <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+          },
+          "NotMainUser": {
+            "Title": "Permessi Administrator richiesti",
+            "Text": "Vi invitiamo a contattare <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+          },
+          "AccessDenied": {
+            "Title": "Errore account utente. Accesso negato.",
+            "Text": "Vi invitiamo a contattare <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+          },
+          "UserNotFound": {
+            "Title": "Account utente non trovato",
+            "Text": "Vi invitiamo a contattare <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+          },
+          "UnknownError": {
+            "Title": "E' avvenuto un errore sconosciuto </br> durante la modifica del profilo utente",
+            "Text": "Vi invitiamo a contattare <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+          }
+        },
+        "permissions": {
+          "title": "Permessi utente",
+          "ViewAllRequests": "Visualizza richieste di tutti gli utenti dell'azienda",
+          "ManageContacts": "Gestisci account utente",
+          "AddLicenses": "Aggiungi licenze",
+          "RemoveLicenses": "Rimuovi licenze",
+          "EditAllRequests": "Modifica richieste di altri utenti",
+          "saveError": "Impossibile salvare le modifiche. Vi invitiamo a riprovare",
+          "saveBtn": "Salva modifiche",
+          "saveWait": "Salvataggio modifiche in corso...",
+          "saveSuccess": "Le vostre modifiche sono state salvate."
+        },
+        "personalinfo": {
+          "title": "Informazioni utente",
+          "email": "E-mail:",
+          "company": "Azienda:",
+          "company-id": "(ID: {companyId})",
+          "accounttype": "Tipologia account utente:",
+          "firstname": "Nome:",
+          "lastname": "Cognome:",
+          "country": "Nazione:",
+          "firstnamePlaceholder": "Nome",
+          "lastnamePlaceholder": "Cognome",
+          "filial": "Sede:",
+          "notifications": "Notifiche:",
+          "saveBtn": "Salva modifiche",
+          "cancelBtn": "Cancella",
+          "saveError": "Impossibile salvare le modifiche. Vi invitiamo a riprovare.",
+          "saveWait": "Salvataggio delle modifiche in corso...",
+          "saveSuccess": "Modifiche salvate",
+          "filialDefault": "Selezionare la sede",
+          "filialMessage": "Scegliere la sede o digitarne una nuova",
+          "fullDescription": "Descrizione completa"
+        },
+        "resetPasswordTitle": "Reset della password ",
+        "resetPasswordDescription": "Le istruzioni per il reset della password verranno inviate in un messaggio al vostro indirizzo mail.",
+        "resetPasswordButton": "Reset della password",
+        "resetPasswordWait": "Reset della password in corso...",
+        "resetPasswordSuccess": "La vostra password è stata resettata.  Vi invitiamo a controllare la vostra mail per ulteriori istruzioni.",
+        "resetPasswordSuccessUser": "La vostra password è stata resettata.  Ulteriori informazioni sono state inviate all'indirizzo mail dell'utente.",
+        "resetPasswordError": "Impossibile resettare la password. Vi invitiamo a riprovare",
+        "fileUpload": {
+          "title": "Allegati:",
+          "agreedtext": "Avete accettato il <a href='javascript://' class='profile-file-agreement-accepted-link' target='_blank'>Regolamento sulla trasmissione dei dati</a> on",
+          "notagreedtext": "Per caricare i file vi chiediamo di accettare il <a href='javascript://' class='link-modal-win profile-file-agreement-btn' data='license-cont'> Regolamento sulla trasmissione dei dati</a>"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,246 @@
+{
+  "globalize-messages": {
+    "de": {
+      "user": {
+        "list": {
+          "header": "Benutzer",
+          "sort-lastname": "Familienname",
+          "filter-by-country-label": "Länder:",
+          "filter-by-country": {
+            "All": "alle"
+          },
+          "filter-by-organization-label": "Filialen:",
+          "filter-by-organization": {
+            "All": "alle"
+          },
+          "item": {
+            "country": "Land:",
+            "organization": "Filiale:"
+          },
+          "no-filtered-user": "Den angegebenen Filterbedingungen entspricht kein Benutzer."
+        },
+        "delete": {
+          "title": "Benutzerkonto löschen",
+          "description": "Achtung! Nach Klicken auf „Benutzerkonto löschen“ wird das Benutzerkonto gelöscht. Sie können nach wie vor die Anfragen des gelöschten Benutzers abrufen.",
+          "notice": "Ich verstehe, dass der Benutzer nach dem Löschen des Kontos keine Anfragen via CompanyAccount senden kann.",
+          "btn": "Benutzer löschen",
+          "process": "Benutzer wird gelöscht...",
+          "success": "Das Benutzerkonto wurde erfolgreich gelöscht",
+          "confirm": {
+            "title": "Benutzerkonto löschen",
+            "text": "Sie möchten den Benutzer {email} löschen. <br>Der Zugriff des Benutzers auf das Portal CompanyAccount wird gesperrt. Die Anfragen des gelöschten Benutzers werden nach wie vor verfügbar sein.",
+            "button": "Fortfahren"
+          },
+          "errors": {
+            "RepeatedDeactivation": "Der Benutzer konnte nicht gelöscht werden. Erneut löschen.",
+            "UnknownError": "Der Benutzer konnte nicht gelöscht werden. Versuchen Sie es noch einmal.",
+            "UserNotFound": "Der Benutzer wurde nicht gefunden",
+            "AccessDenied": "Der Zugriff ist verboten",
+            "NotMainUser": "Der Zugriff ist verboten, der Benutzer ist kein Administrator.",
+            "CompanyNotFound": "Das Unternehmen wurde nicht gefunden",
+            "OfUserNotFound": "Der Benutzer konnte nicht gelöscht werden. Der Benutzer wurde nicht gefunden"
+          }
+        },
+        "errors": {
+          "DifferentCompanies": "Der Benutzer gehört zu einem anderen Unternehmen. </br>Bitte <a href='/request/create/ca' target=\"_blank\">lassen Sie sich vom Support beraten</a>, wie dieses Problem gelöst werden kann.",
+          "GetDetailsException_DifferentCompanies": {
+            "Title": "Das angeforderte Benutzerkonto gehört nicht zu Ihrem Unternehmen.",
+            "Text": "Bitte <a href='/request/create/ca' target=\"_blank\">lassen Sie sich vom Support beraten</a>, wie dieses Problem gelöst werden kann."
+          },
+          "RequestPasswordResetException_DifferentCompanies": {
+            "Title": "Das zu ändernde Benutzerkonto gehört nicht zu Ihrem Unternehmen.",
+            "Text": "Bitte <a href='/request/create/ca' target=\"_blank\">lassen Sie sich vom Support beraten</a>, wie dieses Problem gelöst werden kann."
+          },
+          "UpdateProfileDetailsException_DifferentCompanies": {
+            "Title": "Das zu ändernde Benutzerkonto gehört nicht zu Ihrem Unternehmen.",
+            "Text": "Bitte <a href='/request/create/ca' target=\"_blank\">lassen Sie sich vom Support beraten</a>, wie dieses Problem gelöst werden kann."
+          },
+          "UpdatePermissionsException_DifferentCompanies": {
+            "Title": "Das zu ändernde Benutzerkonto gehört nicht zu Ihrem Unternehmen.",
+            "Text": "Bitte <a href='/request/create/ca' target=\"_blank\">lassen Sie sich vom Support beraten</a>, wie dieses Problem gelöst werden kann."
+          },
+          "DeleteProfileException_DifferentCompanies": {
+            "Title": "Dieses Benutzerkonto wurde geändert und kann nicht gelöscht werden.",
+            "Text": "Bitte <a href='/request/create/ca' target=\"_blank\">lassen Sie sich vom Support beraten</a>, wie dieses Problem gelöst werden kann"
+          },
+          "GetDetailsException_OfUserNotFound": {
+            "Title": "Das Benutzerkonto wurde nicht gefunden",
+            "Text": "Bitte <a href='/request/create/ca' target=\"_blank\">lassen Sie sich vom Support beraten</a>, wie dieses Problem gelöst werden kann."
+          },
+          "RequestPasswordResetException_OfUserNotFound": {
+            "Title": "Das Benutzerkonto wurde nicht gefunden",
+            "Text": "Bitte <a href='/request/create/ca' target=\"_blank\">lassen Sie sich vom Support beraten</a>, wie dieses Problem gelöst werden kann."
+          },
+          "UpdateProfileDetailsException_OfUserNotFound": {
+            "Title": "Das Benutzerkonto wurde nicht gefunden",
+            "Text": "Bitte <a href='/request/create/ca' target=\"_blank\">lassen Sie sich vom Support beraten</a>, wie dieses Problem gelöst werden kann."
+          },
+          "UpdatePermissionsException_OfUserNotFound": {
+            "Title": "Das Benutzerkonto wurde nicht gefunden",
+            "Text": "Bitte <a href='/request/create/ca' target=\"_blank\">lassen Sie sich vom Support beraten</a>, wie dieses Problem gelöst werden kann."
+          },
+          "DeleteProfileException_OfUserNotFound": {
+            "Title": "Das Benutzerkonto wurde nicht gefunden",
+            "Text": "Bitte <a href='/request/create/ca' target=\"_blank\">lassen Sie sich vom Support beraten</a>, wie dieses Problem gelöst werden kann."
+          },
+          "Failure": {
+            "Title": "Unbekannter Fehler",
+            "Text": "Lassen Sie sich vom Support <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> beraten, wie dieses Problem gelöst werden kann."
+          },
+          "UserNotFound": {
+            "Title": "Der Benutzer wurde nicht gefunden",
+            "Text": "Lassen Sie sich vom Support <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> beraten, wie dieses Problem gelöst werden kann."
+          },
+          "NotMainUser": {
+            "Title": "Sie sind kein Administrator des Unternehmens",
+            "Text": "Bitte <a href='/request/create/ca' target=\"_blank\"> lassen Sie sich vom Support beraten</a>, wie dieses Problem gelöst werden kann"
+          },
+          "AccessDenied": {
+            "Title": "Der Zugriff ist verboten",
+            "Text": "Lassen Sie sich vom Support <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> beraten, wie dieses Problem gelöst werden kann."
+          },
+          "ReqOfUserNotFound": {
+            "Title": "Das angeforderte Benutzerkonto wurde nicht gefunden",
+            "Text": "Bitte <a href='/request/create/ca' target=\"_blank\"> lassen Sie sich vom Support beraten</a>, wie dieses Problem gelöst werden kann"
+          },
+          "UpdOfUserNotFound": {
+            "Title": "Das zu ändernde Benutzerkonto wurde nicht gefunden",
+            "Text": "Bitte <a href='/request/create/ca' target=\"_blank\"> lassen Sie sich vom Support beraten</a>, wie dieses Problem gelöst werden kann"
+          },
+          "DelOfUserNotFound": {
+            "Title": "Dieses Benutzerkonto wurde geändert und kann nicht gelöscht werden.",
+            "Text": "Bitte <a href='/request/create/ca' target=\"_blank\"> lassen Sie sich vom Support beraten</a>, wie dieses Problem gelöst werden kann"
+          }
+        }
+      },
+      "profile": {
+        "title-profile": "Mein Benutzerkonto",
+        "title-user": "Benutzerkonto anzeigen",
+        "delete": {
+          "title": "Ihr Benutzerkonto löschen",
+          "description": "Achtung! Nach Klicken auf „Benutzerkonto löschen“ wird ein Link zur Bestätigung des Löschens Ihres Benutzerkontos an Ihre E-Mail gesendet. Nach Klicken auf diesen Link wird Ihr Benutzerkonto gelöscht.",
+          "notice": "Ich verstehe, dass mein Benutzerkonto gelöscht wird und ich keine Anfragen via CompanyAccount mehr senden kann.",
+          "btn": "Mein Benutzerkonto löschen",
+          "process": "Anfrage zum Löschen wird gesendet...",
+          "success": "Um das Löschen des Benutzerkontos zu bestätigen, müssen Sie dem an Ihre E-Mail gesendeten Link folgen",
+          "confirm": {
+            "title": "Benutzerkonto löschen",
+            "text": "Sie möchten Ihr Benutzerkonto löschen. Der Zugriff auf das Portal wird nach Klicken auf den Link in der E-Mail gesperrt.",
+            "button": "Löschen"
+          },
+          "errors": {
+            "RepeatedDeactivation": "Der Benutzer konnte nicht gelöscht werden. Erneut löschen.",
+            "UnknownError": "Der Benutzer konnte nicht gelöscht werden. Versuchen Sie es noch einmal.",
+            "UserNotFound": "Der Benutzer wurde nicht gefunden",
+            "AccessDenied": "Der Zugriff ist verboten",
+            "NotMainUser": "Der Zugriff ist gesperrt, der Benutzer ist kein Administrator des Unternehmens",
+            "CompanyNotFound": "Das Unternehmen wurde nicht gefunden. ",
+            "OfUserNotFound": "Der Benutzer konnte nicht gelöscht werden. Der Benutzer wurde nicht gefunden.",
+            "DifferentCompanies": "Dieses Benutzerkonto wurde geändert und kann nicht gelöscht werden."
+          }
+        },
+        "deleteCompany": {
+          "title": "Unternehmenskonto löschen",
+          "description": "Achtung! Nach Klicken auf „Unternehmenskonto löschen“ wird ein Link zur Bestätigung des Löschens des Unternehmenskontos an Ihre E-Mail gesendet. Nach Klicken auf diesen Link wird das Unternehmenskonto gelöscht.",
+          "continue": "Fortfahren",
+          "notice": "Ich verstehe, dass alle Informationen über das Unternehmen nach dem Löschen des Unternehmenskontos gelöscht werden.",
+          "btn": "Unternehmenskonto löschen",
+          "process": "Das Unternehmen wird gelöscht...",
+          "success": "An Ihre E-Mail wurde ein Link zur Bestätigung des Löschens des Unternehmenskontos gesendet.",
+          "errors": {
+            "Success": "Um das Löschen des Unternehmenskontos zu bestätigen, müssen Sie dem an Ihre E-Mail gesendeten Link folgen",
+            "RepeatedDeactivation": "Um das Löschen des Unternehmenskontos zu bestätigen, müssen Sie erneut dem an Ihre E-Mail gesendeten Link folgen",
+            "UnknownError": "Das Unternehmen konnte nicht gelöscht werden. Versuchen Sie es noch einmal.",
+            "UserNotFound": "Der Benutzer wurde nicht gefunden",
+            "AccessDenied": "Der Zugriff ist verboten",
+            "NotMainUser": "Der Zugriff ist gesperrt, der Benutzer ist kein Administrator des Unternehmens",
+            "CompanyNotFound": "Das Unternehmen wurde nicht gefunden"
+          },
+          "confirm": {
+            "title": "Unternehmnskonto löschen",
+            "description": "<b>Achtung!</b> Nach Klicken auf „Unternehmenskonto löschen“ wird ein Link zur Bestätigung des Löschens des Unternehmenskontos an Ihre E-Mail gesendet. Nach Klicken auf diesen Link wird das Unternehmenskonto gelöscht.",
+            "continue": "Fortfahren"
+          },
+          "popupTitle": "Die Anfrage zum Löschen des Unternehmens wurde gesendet",
+          "popupMsg": " Um das Löschen des Unternehmens abzuschließen, folgen Sie dem Link in der E-Mail"
+        },
+        "errors": {
+          "FirstNameIsRequired": "Der Vorname ist nicht angegeben",
+          "LastNameIsRequired": "Der Familienname ist nicht angegeben",
+          "CountryIsRequired": "Das Feld „Land“ ist nicht ausgefüllt",
+          "InvalidCountry": "Fehler bei Auswahl des Landes",
+          "Failure": {
+            "Title": "Ein unvorhergesehener Fehler ist eingetreten",
+            "Text": "Schreiben Sie an: <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+          },
+          "OfUserNotFound": {
+            "Title": "Das Benutzerkonto wurde nicht gefunden",
+            "Text": "Schreiben Sie an: <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+          },
+          "NotMainUser": {
+            "Title": "Sie sind kein Administrator des Unternehmens.",
+            "Text": "Schreiben Sie an: <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+          },
+          "AccessDenied": {
+            "Title": "Ihr Benutzerkonto weist ein Problem auf. Der Zugriff ist verboten.",
+            "Text": "Schreiben Sie an: <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+          },
+          "UserNotFound": {
+            "Title": "Das Benutzerkonto wurde nicht gefunden",
+            "Text": "Schreiben Sie an: <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+          },
+          "UnknownError": {
+            "Title": "Beim Ändern des Benutzerprofils </br> ist ein unbekannter Fehler aufgetreten",
+            "Text": "Schreiben Sie an: <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+          }
+        },
+        "permissions": {
+          "title": "Benutzerrechte",
+          "ViewAllRequests": "Anfragen aller Benutzer des Unternehmens abrufen",
+          "ManageContacts": "Benutzerkonten verwalten",
+          "AddLicenses": "Lizenzen hinzufügen",
+          "RemoveLicenses": "Lizenzen löschen",
+          "EditAllRequests": "Anfragen anderer Benutzer ändern",
+          "saveError": "Die Änderungen konnten nicht gespeichert werden. Versuchen Sie es noch einmal.",
+          "saveBtn": "Änderungen speichern",
+          "saveWait": "Änderungen werden gespeichert...",
+          "saveSuccess": "Die Änderungen wurden gespeichert."
+        },
+        "personalinfo": {
+          "title": "Persönliche Angaben",
+          "email": "E-Mail:",
+          "company": "Unternehmen:",
+          "company-id": "(ID: {companyId})",
+          "accounttype": "Typ des Benutzerkontos:",
+          "firstname": "Vorname:",
+          "lastname": "Familienname:",
+          "country": "Land:",
+          "firstnamePlaceholder": "Vorname",
+          "lastnamePlaceholder": "Familienname",
+          "filial": "Filiale:",
+          "notifications": "Benachrichtigungen:",
+          "saveBtn": "Änderungen speichern",
+          "cancelBtn": "Abbrechen",
+          "saveError": "Die Änderungen konnten nicht gespeichert werden. Versuchen Sie es noch einmal.",
+          "saveWait": "Änderungen werden gespeichert...",
+          "saveSuccess": "Die Änderungen wurden gespeichert",
+          "filialDefault": "Wählen Sie die Filiale aus",
+          "filialMessage": "Aus der Liste wählen oder eine neue eingeben",
+          "fullDescription": "Vollständige Beschreibung"
+        },
+        "resetPasswordTitle": "Kennwort ändern ",
+        "resetPasswordDescription": "Die Anweisungen zur Änderung des Kennworts werden an die E-Mail des Benutzers gesendet",
+        "resetPasswordButton": "Kennwort zurücksetzen",
+        "resetPasswordWait": "Das Kennwort wird zurückgesetzt...",
+        "resetPasswordSuccess": "Ihr Kennwort wurde erfolgreich zurückgesetzt. Weitere Anweisungen wurden an Ihre E-Mail gesendet",
+        "resetPasswordSuccessUser": "Das Kennwort wurde erfolgreich zurückgesetzt. Weitere Anweisungen wurden an die E-Mail des Benutzers gesendet",
+        "resetPasswordError": "Das Kennwort konnte nicht zurückgesetzt werden. Versuchen Sie es noch einmal",
+        "fileUpload": {
+          "title": "Dateien anhängen:",
+          "agreedtext": "Sie haben die Bedingungen der-<a href='javascript://' class='profile-file-agreement-accepted-link' target='_blank'>Regelung zur Datenbereitstellung</a> akzeptiert",
+          "notagreedtext": "Um Dateien hochzuladen, akzeptieren Sie die Bedingungen der <a href='javascript://' class='link-modal-win profile-file-agreement-btn' data='license-cont'>Regelung zur Datenbereitstellung</a>"
+        }
+      }
+    }
+  }
+}

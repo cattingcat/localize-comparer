@@ -1,0 +1,28 @@
+{
+  "globalize-messages": {
+    "ru": {
+      "document": {
+        "statuses": {
+          "1": "Активен:",
+          "2": "Истек (не активен):",
+          "3": "Истекает:",
+          "until": "до "
+        },
+        "list": {
+          "tabs": {
+            "contracts": "Контракты на расширенную поддержку"
+          },
+          "item": {
+            "attached-files": "Прикрепленные контракты:",
+            "download": "Скачать",
+            "date-start": "Дата начала:"
+          },
+          "no-contract": {
+            "title": "На текущий момент не заключено договоров на оказание <a href=\"http://www.kaspersky.ru/enterprise-security/maintenance-service-agreement\" target=\"_blank\">расширенной технической поддержки</a>.",
+            "description": "Для того чтобы сократить время ответа на ваши запросы, мы предлагаем воспользоваться преимуществами нашей премиальной поддержки - Kaspersky Maintenance Service Agreement (MSA).</br> </br>  <a href=\"http://www.kaspersky.ru/business-security/services/msa\" target=\"_blank\">Ознакомиться с планами  расширенной поддержки.</a></p>"
+          }
+        }
+      }
+    }
+  }
+}
