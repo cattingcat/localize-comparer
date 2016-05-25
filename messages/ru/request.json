@@ -1,242 +1,273 @@
 {
-  "globalize-messages": {
-    "ru": {
-      "request": {
-        "errors": {
-          "maxFiles3": "Нельзя прикрепить более трёх файлов. Удалите лишние файлы.",
-          "maxFiles1": "Нельзя прикрепить более одного файла. Удалите лишние файлы.",
-          "minFiles1": "Вы должны прикрепить файл.",
-          "EmailIsInvalid": "E-mail не валиден",
-          "ProductTypeRequired": "Укажите Область защиты",
-          "ProductRequired": "Выберите Продукт",
-          "OSVersionRequired": "Укажите версию ОС",
-          "ProductVersionRequired": "Выберите версию продукта",
-          "TypeRequired": "Выберите Тип запроса",
-          "SubtypeRequired": "Выберите Подтип запроса",
-          "ThemeRequired": "Укажите Тему запроса",
-          "ThemeIsTooLong": "Слишком длиная тема запроса. Максимальная длина темы запроса 50 символов",
-          "DescriptionRequired": "Опишите вашу проблему",
-          "TextRequired": "Вы не ввели текст сообщения. Пожалуйста, введите текст и повторите снова."
-        },
-        "view": {
-          "number": "Номер:",
-          "status": "Статус:",
-          "report": "Пожаловаться менеджеру",
-          "close-request": "Закрыть запрос",
-          "open-request": "Открыть новый запрос",
-          "send": "Отправить сообщение",
-          "send-process": "Отправка данных...",
-          "confirm-title": "Закрыть запрос?",
-          "confirm-text": "Вы собираетесь закрыть запрос. Если ваша проблема решена, нажмите <b>Закрыть</b> для подтверждения.",
-          "confirm-button": "Закрыть",
-          "attached-files": "Прикреплённые файлы:",
-          "support-manager": "Специалист техподдержки",
-          "cancel-comment": "Отмена",
-          "product": "Продукт:",
-          "version": "Версия:",
-          "os": "ОС:",
-          "logMore": "Показать всю переписку",
-          "logHide": "Скрыть переписку",
-          "showCommentForm": "Ответить",
-          "hideCommentForm": "Скрыть",
-          "cancel": {
-            "confirm-title": "Вы уверены?",
-            "confirm-text": "Вы хотите отменить добавление комментария?",
-            "confirm-button": "Да"
-          },
-          "errors": {
-            "UserNotFound": "Пользователь не найден",
-            "AccessDenied": "Доступ запрещен",
-            "UnknownError": "Произошла ошибка, пожалуйста, попробуйте ещё раз. Если ошибка повторится, обратитесь по адресу <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a> ",
-            "RequestClosedOrCanceled": "Вы не можете отправить сообщение, так как данный запрос был изменен"
-          }
-        },
-        "statuses": {
-          "8080": "Отменён специалистом поддержки",
-          "9080": "Закрыт специалистом поддержки",
-          "10000": "Новый",
-          "20000": "Ожидает Вашего ответа",
-          "40000": "Запрос обрабатывается",
-          "60000": "Решение предоставлено",
-          "80000": "Отменен",
-          "90000": "Закрыт",
-          "201008": "Ожидает Вашего ответа",
-          "601015": "Решен",
-          "801102": "Отменен пользователем",
-          "801103": "Отменён (истечение лицензии/контрата)",
-          "901005": "Запрос закрыт",
-          "901008": "Закрыт (Необходима дополнительная информация)",
-          "901102": "Отменён пользователем",
-          "6011502": "Решён (информация не была предоставлена)",
-          "40000-status-area": "Заявка обрабатывается специалистом технической поддержки"
-        },
-        "list": {
-          "tabs": {
-            "requests": "Запросы"
-          },
-          "filter-by-status-label": "Статус запроса:",
-          "filter-by-author-label": "Автор запроса:",
-          "filter-by-status": {
-            "All": "Все",
-            "Pending": "Ожидают Вашего ответа",
-            "InProgress": "Обрабатываются службой поддержки",
-            "Inactive": "Неактивные (закрытые и отменённые)",
-            "Resolved": "Решенные службой поддержки",
-            "ByDeletedUsers": "Удаленные пользователи"
-          },
-          "item": {
-            "number": "Номер:",
-            "status": "Статус:",
-            "createdate": "Создан:",
-            "customer": "Автор:"
-          },
-          "no-filtered-request": {
-            "title": "Заданным условиям фильтрации не удовлетворяет ни один запрос",
-            "description": "Пожалуйста, расширьте область поиска."
-          },
-          "no-request": {
-            "title": "Вы пока не создали ни одного запроса",
-            "description": "Чтобы связаться со специалистами технической поддержки, нажмите кнопку",
-            "createrequest": "«Создать запрос»"
-          }
-        },
-        "create": {
-          "title": "Выберите категорию запроса:",
-          "no-request-types": {
-            "title": "У вас нет доступных категорий запросов",
-            "description": "Обратитесь по адресу <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a> для решения данной проблемы"
-          }
-        },
-        "ca": {
-          "title": "Запрос по порталу CompanyAccount",
-          "confirm-title": "Отмена создания запроса",
-          "confirm-text": "Вы хотите отменить создание запроса?",
-          "confirm-button": "Да",
-          "theme": " Тема запроса:",
-          "description": " Описание проблемы:",
-          "request-theme": "Ваш вопрос/проблема",
-          "request-description": "Задайте вопрос или опишите проблему с порталом CompanyAccount и шаги для её воспроизведения",
-          "success": "Ваш запрос успешно создан. Номер запроса: <a href=\"/request/view/{requestId}\">{requestId}</a>",
-          "attachedfiles": {
-            "title": "Прикреплённые файлы:"
-          },
-          "send-request": "Отправить запрос",
-          "send-process": "Пожалуйста, подождите, идет обработка запроса...",
-          "cancel-request": "Отмена",
-          "errors": {
-            "UnknownError": "Произошла ошибка, пожалуйста, попробуйте ещё раз. Если ошибка повторится, обратитесь по адресу <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a> "
-          }
-        },
-        "complaint": {
-          "title": "Новая жалоба на качество поддержки",
-          "note": "Обращаем Ваше внимание на то, что группа контроля качества обрабатывает только жалобы, составленные на русском или английском языках.",
-          "description": "Подробное описание<br />сути вашей претензии:",
-          "request": "Запрос, решением которого<br /> вы не удовлетворены:"
-        },
-        "csr": {
-          "title": "Подпись CSR для Apple Push Notification Service",
-          "subtitle": "Вы можете отправить на подпись 1 файл с расшрением .csr в одном запросе.",
-          "confirm-title": "Отмена создания запроса",
-          "confirm-text": "Вы хотите отменить создание запроса?",
-          "confirm-button": "Да",
-          "success": "Ваш запрос успешно создан. Дaнный зaпpoc будeт oбpaбoтaн и закрыт aвтoмaтичecки. Выберите его из списка зaпpocoв и скачайте подписанный сертификат. Номер запроса: <a href=\"/request/view/{requestId}\">{requestId}</a>",
-          "attachedfiles": {
-            "title": "Прикреплённые файлы:"
-          },
-          "send-request": "Подписать CSR",
-          "send-process": "Пожалуйста, подождите - идет обработка запроса...",
-          "cancel-request": "Отмена",
-          "remarkQuestion": "<a href=\"http://support.kaspersky.ru/11077\" target=\"_blank\" >Как получить APNs-сертификат?</a>",
-          "remarkDescriprion": " ",
-          "errors": {
-            "WrongFileSize": "Неверный размер файла",
-            "WrongFileFormat": "Неверный формат файла",
-            "UnknownError": "Произошла ошибка, пожалуйста, попробуйте ещё раз. Если ошибка повторится, обратитесь по адресу <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a>  "
-          }
-        },
-        "virlab": {
-          "title": "Отправить подозрительный файл или веб-адрес на проверку",
-          "confirm-title": "Отмена создания запроса",
-          "confirm-text": "Вы хотите отменить создание запроса?",
-          "confirm-button": "Да",
-          "type": "Тип запроса:",
-          "description": " Описание проблемы:",
-          "request-description": "Опишите отправляемые файлы или укажите подозрительные адреса URL",
-          "notifications": " Дублировать<br />ответ на e-mail:",
-          "email-placeholder": "name@domain.com ; name@domain.com",
-          "success": "Ваш запрос в Антивирусную Лабораторию успешно зарегистрирован. Вы получите ответ напрямую на Ваш e-mail. Обратите внимание, что ответ не будет показан в данной системе.  Номер запроса: <a href=\"/request/view/{requestId}\">{requestId}</a>",
-          "attachedfiles": {
-            "title": "Прикреплённые файлы:"
-          },
-          "send-request": "Отправить запрос",
-          "send-process": "Пожалуйста, подождите - идет обработка запроса...",
-          "cancel-request": "Отмена",
-          "errors": {
-            "UserNotFound": "Ошибка: текущий пользователь не найден в базе данных",
-            "AccessDenied": "Доступ запрещен, данная операция недоступна для вас",
-            "WrongFileSize": "Один из загруженных вами файлов превышает допустимый размер",
-            "WrongFileFormat": "Один из загруженных вами файлов имет неверный формат",
-            "UnknownError": "Произошла ошибка, пожалуйста, попробуйте ещё раз. Если ошибка повторится, обратитесь по адресу <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a>   ",
-            "EmailPattern": "Укажите правильный e-mail. Для нескольких адресов используйте точку с запятой для разделения адресов."
-          }
-        },
-        "virlab-msa": {
-          "title": "Отправить подозрительный файл или веб-адрес на проверку (MSA)",
-          "success": "Ваш запрос в Антивирусную Лабораторию успешно зарегистрирован. Вы получите ответ напрямую на Ваш e-mail. Обратите внимание, что ответ не будет показан в данной системе.  Номер запроса: <a href=\"/request/view/{requestId}\">{requestId}</a>"
-        },
-        "support": {
-          "title": "Запрос в Службу Технической поддержки",
-          "confirm-title": "Отмена создания запроса",
-          "confirm-text": "Вы хотите отменить создание запроса?",
-          "confirm-button": "Да",
-          "securityarea": " Область защиты:",
-          "product": " Продукт:",
-          "osversion": " Версия ОС:",
-          "osversion-placeholder": "Выберите или введите новую",
-          "productversion": " Версия продукта:",
-          "requesttype": {
-            "title": " Тип запроса:"
-          },
-          "subtype": " Подтип:",
-          "theme": " Тема запроса:",
-          "description": " Описание проблемы:",
-          "unknownosversion": " ",
-          "whatVersionOS": " ",
-          "aboutVersionOS": " ",
-          "unknownProduct": " ",
-          "whatProduct": " ",
-          "aboutProduct": " ",
-          "request-theme": "Тема запроса",
-          "request-description": "Опишите проблему и шаги для её вопроизведения",
-          "success": "Ваш запрос успешно создан. Номер запроса: <a href=\"/request/view/{requestId}\">{requestId}</a>",
-          "attachedfiles": {
-            "title": "Прикреплённые файлы:"
-          },
-          "send-request": "Отправить запрос",
-          "send-process": "Пожалуйста, подождите - идет обработка запроса...",
-          "cancel-request": "Отмена",
-          "errors": {
-            "UnknownError": "Произошла ошибка, пожалуйста, попробуйте ещё раз. Если ошибка повторится, обратитесь по адресу <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a>  "
-          },
-          "license": {
-            "1": "К вашей компании не прикреплено ни одной действующей лицензии для корпоративного продукта. В связи с этим типы запросов, обрабатываемых поддержкой, могут быть ограничены. Пожалуйста, добавьте лицензию на <a href='../../license/list' target=\"_blank\"> закладке\"Лицензии\"</a>.  ",
-            "2": "Нет действующих лицензий для <b>домашних</b> продуктов. В связи с этим типы запросов по домашним продуктам могут быть ограничены. Пожалуйста, активируйте продукт или <a href='../../license/list' target=\"_blank\"> добавьте новую лицензию для домашнего продукта на закладке\"Лицензии\"</a>.",
-            "3": "К вашей компании не прикреплено ни одной действующей лицензии для корпоративного продукта. В связи с этим типы запросов, обрабатываемых поддержкой, могут быть ограничены. Пожалуйста, активируйте продукт или <a href='../../license/list' target=\"_blank\"> добавьте новую лицензию для корпортивного продукта на закладке\"Лицензии\"</a>. "
-          },
-          "answers-email": "Отправлять оповещения об ответах на e-mail"
-        },
-        "support-ta": {
-          "title": "Запрос в Службу Технической поддержки",
-          "product-ver-placeholder": "Выберите или введите свою версию",
-          "success": "Ваш запрос успешно создан. Номер запроса: <a href=\"/request/view/{requestId}\">{requestId}</a>",
-          "influence": "  ",
-          "urgency": "  "
-        },
-        "support-msa": {
-          "title": "Запрос в Службу Технической поддержки (MSA)",
-          "success": "Ваш запрос успешно создан. Номер запроса: <a href=\"/request/view/{requestId}\">{requestId}</a>"
+    "globalize-messages": {
+        "ru": {
+            "request": {
+                "errors": {
+                    "maxFiles3": "Нельзя прикрепить более трёх файлов. Удалите лишние файлы.",
+                    "maxFiles1": "Нельзя прикрепить более одного файла. Удалите лишние файлы.",
+                    "minFiles1": "Вы должны прикрепить файл.",
+                    "InvalidCsrFileSize": "Размер загружаемого CSR-файла не должен превышать 5 КБ",
+                    "EmailIsInvalid": "E-mail не валиден",
+
+                    "Text.RequiredRule": "Вы не ввели текст сообщения. Пожалуйста, введите текст и повторите снова.",
+
+                    "ProductTypeRequired": "Укажите Область защиты",
+                    "TypeRequired": "Выберите Тип запроса",
+
+                    "NotifyEmails.MultiEmailRule": "Укажите правильный e-mail. Для нескольких адресов используйте точку с запятой для разделения адресов.",
+                    "ProductId.RequiredRule": "Выберите Продукт",
+                    "ProductVersion.RequiredRule": "Выберите версию продукта",
+                    "OSVersion.RequiredRule": "Укажите версию ОС",
+                    "OSVersion.MaxByteLengthRule": "[EV] Слишком длинная версия ОС",
+                    "TypeId.RequiredRule": "Выберите Подтип запроса",
+                    "Summary.RequiredRule": "Укажите Тему запроса",
+                    "Summary.MaxLengthRule": "Слишком длинная тема запроса. Максимальная длина темы запроса 50 символов",
+                    "Description.RequiredRule": "Опишите вашу проблему",
+                    "Description.TextMaxLengthLimitRule": "[EV] Слишком длинное <b>Описание проблемы</b>",
+                    "Description.MaxLengthRule": "[EV] Слишком длинное <b>Описание проблемы</b>",
+
+                    "attach-files-error": "[Support-TA] Запрос создан, но при прикреплении файлов {attachedFileErrors} произошла ошибка. </br> Попробуйте прикрепить файл через несколько минут. </br> Если ошибка повторится, пожалуйста, напишите об этом в комментарии к запросу. Номер запроса: <a href=\"/request/view/{requestId}\">{requestId}</a>",
+                    "comment-attach-files-error": "Запись в переписку добавлена, но при прикреплении файлов {attachedFileErrors} произошла ошибка. </br>Попробуйте прикрепить файл через несколько минут. </br>Если ошибка повторится, пожалуйста, напишите об этом в комментарии к запросу."
+                },
+                "view": {
+                    "number": "Номер:",
+                    "status": "Статус:",
+                    "report": "Пожаловаться менеджеру",
+                    "close-request": "Закрыть запрос",
+                    "open-request": "Открыть новый запрос",
+                    "send": "Отправить сообщение",
+                    "send-process": "Отправка данных...",
+                    "confirm-title": "Закрыть запрос?",
+                    "confirm-text": "Вы собираетесь закрыть запрос. Если ваша проблема решена, нажмите <b>Закрыть</b> для подтверждения.",
+                    "confirm-button": "Закрыть",
+                    "attached-files": "Прикреплённые файлы:",
+                    "support-manager": "Специалист техподдержки",
+                    "cancel-comment": "Отмена",
+                    "product": "Продукт:",
+                    "version": "Версия:",
+                    "os": "ОС:",
+                    "logMore": "Показать всю переписку",
+                    "logHide": "Скрыть переписку",
+                    "showCommentForm": "Ответить",
+                    "hideCommentForm": "Скрыть",
+                    "cancel": {
+                        "confirm-title": "Вы уверены?",
+                        "confirm-text": "Вы хотите отменить добавление комментария?",
+                        "confirm-button": "Да"
+                    },
+                    "errors": {
+                        "UserNotFound": "Пользователь не найден",
+                        "AccessDenied": "Доступ запрещен",
+                        "UnknownError": "Произошла ошибка, пожалуйста, попробуйте ещё раз. Если ошибка повторится, обратитесь по адресу <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a> ",
+                        "RequestClosedOrCanceled": "Вы не можете отправить сообщение, так как данный запрос был изменен"
+                    }
+                },
+                "statuses": {
+                    "None": "None",
+
+                    "CancelledBySupport": "Отменён специалистом поддержки",
+                    "ClosedBySupport": "Закрыт специалистом поддержки",
+                    "InProgress": "Запрос обрабатывается",
+                    "PendingAdditionalInformationNeeded": "Ожидает вашего ответа",
+                    "ResolvedSolutionProvided": "Решение предоставлено",
+                    "CancelledByCustomer": "Отменен пользователем",
+                    "CancelledLicenseSupportContractTermination": "Отменён (истечение лицензии/контрата)",
+                    "ClosedRequestForwarded": "Закрыт (запрос перенаправлен)",
+                    "ClosedByCustomer": "Отменён пользователем",
+                    "ResolvedRequiredInfoNotProvided": "Решён (информация не была предоставлена)",
+
+                    "InProgress-status-area": "Заявка обрабатывается специалистом технической поддержки"
+                },
+
+                "list": {
+                    "tabs": {
+                        "requests": "Запросы"
+                    },
+                    "filter-by-status-label": "Статус запроса:",
+                    "filter-by-author-label": "Автор запроса:",
+                    "filter-by-status": {
+                        "All": "Все",
+                        "WaitingForResponse": "Ожидают Вашего ответа",
+                        "InWork": "Обрабатываются службой поддержки",
+                        "Inactive": "Неактивные (закрытые и отменённые)",
+                        "ByDeletedUsers": "Удаленные пользователи"
+                    },
+                    "item": {
+                        "number": "Номер:",
+                        "status": "Статус:",
+                        "createdate": "Создан:",
+                        "customer": "Автор:"
+                    },
+                    "no-filtered-request": {
+                        "title": "Заданным условиям фильтрации не удовлетворяет ни один запрос",
+                        "description": "Пожалуйста, расширьте область поиска."
+                    },
+                    "no-request": {
+                        "title": "Вы пока не создали ни одного запроса",
+                        "description": "Чтобы связаться со специалистами технической поддержки, нажмите кнопку",
+                        "createrequest": "«Создать запрос»"
+                    }
+                },
+
+                "create": {
+                    "title": "Выберите категорию запроса:",
+                    "no-request-types": {
+                        "title": "У вас нет доступных категорий запросов",
+                        "description": "Обратитесь по адресу <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a> для решения данной проблемы"
+                    }
+                },
+
+                "ca": {
+                    "title": "Запрос по порталу CompanyAccount",
+                    "confirm-title": "Отмена создания запроса",
+                    "confirm-text": "Вы хотите отменить создание запроса?",
+                    "confirm-button": "Да",
+                    "theme": " Тема запроса:",
+                    "description": " Описание проблемы:",
+                    "request-theme": "Ваш вопрос/проблема",
+                    "request-description": "Задайте вопрос или опишите проблему с порталом CompanyAccount и шаги для её воспроизведения",
+                    "success": "Ваш запрос успешно создан. Номер запроса: <a href=\"/request/view/{requestId}\">{requestId}</a>",
+                    "attachedfiles": {
+                        "title": "Прикреплённые файлы:"
+                    },
+                    "send-request": "Отправить запрос",
+                    "send-process": "Пожалуйста, подождите, идет обработка запроса...",
+                    "cancel-request": "Отмена",
+                    "errors": {
+                        "UnknownError": "Произошла ошибка, пожалуйста, попробуйте ещё раз. Если ошибка повторится, обратитесь по адресу <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a> "
+                    }
+                },
+
+                "complaint": {
+                    "title": "Новая жалоба на качество поддержки",
+                    "note": "Обращаем Ваше внимание на то, что группа контроля качества обрабатывает только жалобы, составленные на русском или английском языках.",
+                    "description": "Подробное описание<br />сути вашей претензии:",
+                    "request": "Запрос, решением которого<br /> вы не удовлетворены:"
+                },
+
+                "csr": {
+                    "title": "Подпись CSR для Apple Push Notification Service",
+                    "subtitle": "Вы можете отправить на подпись 1 файл с расшрением .csr в одном запросе.",
+                    "confirm-title": "Отмена создания запроса",
+                    "confirm-text": "Вы хотите отменить создание запроса?",
+                    "confirm-button": "Да",
+                    "success": "Ваш запрос успешно создан. Дaнный зaпpoc будeт oбpaбoтaн и закрыт aвтoмaтичecки. Выберите его из списка зaпpocoв и скачайте подписанный сертификат. Номер запроса: <a href=\"/request/view/{requestId}\">{requestId}</a>",
+                    "attachedfiles": {
+                        "title": "Прикреплённые файлы:"
+                    },
+                    "send-request": "Подписать CSR",
+                    "send-process": "Пожалуйста, подождите - идет обработка запроса...",
+                    "cancel-request": "Отмена",
+                    "remarkQuestion": "<a href=\"http://support.kaspersky.ru/11077\" target=\"_blank\" >Как получить APNs-сертификат?</a>",
+                    "remarkDescriprion": " ",
+                    "errors": {
+                        "WrongFileSize": "Неверный размер файла",
+                        "WrongFileFormat": "Неверный формат файла",
+                        "UnknownError": "Произошла ошибка, пожалуйста, попробуйте ещё раз. Если ошибка повторится, обратитесь по адресу <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a>  "
+                    }
+                },
+
+                "virlab": {
+                    "title": "Отправить подозрительный файл или веб-адрес на проверку",
+                    "confirm-title": "Отмена создания запроса",
+                    "confirm-text": "Вы хотите отменить создание запроса?",
+                    "confirm-button": "Да",
+                    "type": "Тип запроса:",
+                    "description": " Описание проблемы:",
+                    "request-description": "Опишите отправляемые файлы или укажите подозрительные адреса URL",
+                    "notifications": " Дублировать<br />ответ на e-mail:",
+                    "email-placeholder": "name@domain.com ; name@domain.com",
+                    "success": "Ваш запрос в Антивирусную Лабораторию успешно зарегистрирован. Вы получите ответ напрямую на Ваш e-mail. Обратите внимание, что ответ не будет показан в данной системе.  Номер запроса: <a href=\"/request/view/{requestId}\">{requestId}</a>",
+                    "attachedfiles": {
+                        "title": "Прикреплённые файлы:"
+                    },
+                    "send-request": "Отправить запрос",
+                    "send-process": "Пожалуйста, подождите - идет обработка запроса...",
+                    "cancel-request": "Отмена",
+                    "errors": {
+                        "UserNotFound": "Ошибка: текущий пользователь не найден в базе данных",
+                        "AccessDenied": "Доступ запрещен, данная операция недоступна для вас",
+                        "WrongFileSize": "Один из загруженных вами файлов превышает допустимый размер",
+                        "WrongFileFormat": "Один из загруженных вами файлов имет неверный формат",
+                        "UnknownError": "Произошла ошибка, пожалуйста, попробуйте ещё раз. Если ошибка повторится, обратитесь по адресу <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a>   ",
+                        "EmailPattern": "Укажите правильный e-mail. Для нескольких адресов используйте точку с запятой для разделения адресов."
+                    }
+                },
+
+                "virlab-msa": {
+                    "title": "Отправить подозрительный файл или веб-адрес на проверку (MSA)",
+                    "success": "Ваш запрос в Антивирусную Лабораторию успешно зарегистрирован. Вы получите ответ напрямую на Ваш e-mail. Обратите внимание, что ответ не будет показан в данной системе.  Номер запроса: <a href=\"/request/view/{requestId}\">{requestId}</a>"
+                },
+
+                "support": {
+                    "title": "Запрос в Службу Технической поддержки",
+                    "confirm-title": "Отмена создания запроса",
+                    "confirm-text": "Вы хотите отменить создание запроса?",
+                    "confirm-button": "Да",
+                    "securityarea": " Область защиты:",
+                    "product": " Продукт:",
+                    "osversion": " Версия ОС:",
+                    "osversion-placeholder": "Выберите или введите новую",
+                    "productversion": " Версия продукта:",
+                    "requesttype": {
+                        "title": " Тип запроса:"
+                    },
+                    "subtype": " Подтип:",
+                    "theme": " Тема запроса:",
+                    "description": " Описание проблемы:",
+
+                    "unknownosversion": " ",
+                    "whatVersionOS": " ",
+                    "aboutVersionOS": " ",
+                    "unknownProduct": " ",
+                    "whatProduct": " ",
+                    "aboutProduct": " ",
+
+                    "request-theme": "Тема запроса",
+                    "request-description": "Опишите проблему и шаги для её вопроизведения",
+
+                    "success": "Ваш запрос успешно создан. Номер запроса: <a href=\"/request/view/{requestId}\">{requestId}</a>",
+                    "attachedfiles": {
+                        "title": "Прикреплённые файлы:"
+                    },
+                    "send-request": "Отправить запрос",
+                    "send-process": "Пожалуйста, подождите - идет обработка запроса...",
+                    "cancel-request": "Отмена",
+                    "errors": {
+                        "UnknownError": "Произошла ошибка, пожалуйста, попробуйте ещё раз. Если ошибка повторится, обратитесь по адресу <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a>  "
+                    },
+                    "license": {
+                        "1": "К вашей компании не прикреплено ни одной действующей лицензии для корпоративного продукта. В связи с этим типы запросов, обрабатываемых поддержкой, могут быть ограничены. Пожалуйста, добавьте лицензию на <a href='../../license/list' target=\"_blank\"> закладке\"Лицензии\"</a>.  ",
+                        "2": "Нет действующих лицензий для <b>домашних</b> продуктов. В связи с этим типы запросов по домашним продуктам могут быть ограничены. Пожалуйста, активируйте продукт или <a href='../../license/list' target=\"_blank\"> добавьте новую лицензию для домашнего продукта на закладке\"Лицензии\"</a>.",
+                        "3": "К вашей компании не прикреплено ни одной действующей лицензии для корпоративного продукта. В связи с этим типы запросов, обрабатываемых поддержкой, могут быть ограничены. Пожалуйста, активируйте продукт или <a href='../../license/list' target=\"_blank\"> добавьте новую лицензию для корпортивного продукта на закладке\"Лицензии\"</a>. "
+                    },
+                    "answers-email": "Отправлять оповещения об ответах на e-mail"
+                },
+
+                "support-ta": {
+                    "title": "Запрос в Службу Технической поддержки",
+                    "product-ver-placeholder": "Выберите или введите свою версию",
+                    "success": "Ваш запрос успешно создан. Номер запроса: <a href=\"/request/view/{requestId}\">{requestId}</a>",
+                    "errors": {
+                        "NotifyEmails.MultiEmailRule": "[EV] Укажите правильный e-mail. Для нескольких адресов используйте точку с запятой для разделения адресов.",
+                        "ProductId.RequiredRule": "[EV] Выберите Продукт",
+                        "ProductVersion.RequiredRule": "[EV] Выберите версию продукта",
+                        "ProductVersion.MaxLengthRule": "[EV][for TA] слишком длинная <b>Версия продукта</b>",
+                        "OSVersion.RequiredRule": "[EV] Укажите версию ОС",
+                        "OSVersion.MaxLengthRule": "[EV] Слишком длинная версия ОС",
+                        "TypeId.RequiredRule": "[EV] Выберите Тип запроса",
+                        "Summary.RequiredRule": "[EV] Укажите Тему запроса",
+                        "Summary.MaxLengthRule": "[EV] Слишком длинная тема запроса. Максимальная длина темы запроса 50 символов",
+                        "Description.RequiredRule": "[EV] Опишите вашу проблему",
+                        "Description.MaxLengthRule": "[EV] Слишком длинное <b>Описание проблемы</b>"
+                    }
+                },
+
+                "support-msa": {
+                    "title": "Запрос в Службу Технической поддержки (MSA)",
+                    "success": "Ваш запрос успешно создан. Номер запроса: <a href=\"/request/view/{requestId}\">{requestId}</a>"
+                }
+            }
         }
-      }
     }
-  }
 }

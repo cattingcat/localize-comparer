@@ -1,267 +1,396 @@
-{
-  "globalize-messages": {
-    "ja": {
-      "account": {
-        "privacy": {
-          "header": "<h1>Kaspersky CompanyAccount のプライバシー声明</h1><h2>22.05.2014 (Current version)</h2>",
-          "content": "<p>CompanyAccount は、AO Kaspersky Lab (本社所在地: bldg. 3, 39A, Leningradskoe Shosse, Moscow, 125212) が提供するサービスです。この文書で AO Kaspersky Lab に言及する場合、「当社」または「Kaspersky Lab」と呼称します。</p>\n<p>当社のプライバシーポリシーは、多くの場合、事前の通知なく変更されます。そのため、定期的に変更内容を確認することをお勧めします。プライバシー ポリシーの変更内容は、このセクションで公開します。基本的なデータに関する当社の\nプライバシーポリシーもあわせて参照してください(<a href=\"\"http://www.kaspersky.co.jp/privacy\"\"target=\"\"_blank\"\">http://www.kaspersky.co.jp/privacy</a>).</p>\n\n<p>当社は、必要に応じて以下の情報を開示します:</p>\n<ul>\n<li>当社で収集、保存、使用する個人データの種類</li>\n<li>お客様に個人データの提供を依頼する権限を持つ担当者</li>\n<li>このプライバシーポリシーで見つかった間違いの修正方法</li>\n</ul>\n\n<p>このプライバシーポリシーに記載されている「個人データ」または「個人情報」とは、特定の個人の確認、特定の個人との連絡、特定の状況における特定の個人の確認などを行うために、単独で、または他の情報と組み合わせて使用される情報のことです。</p>\n<p>不明な点については、このページの最後に記載されているメールアドレスを使用して、当社に直接お問い合わせください。</p>\n<h4>当社が収集して保存する情報</h4>\n<p>Kaspersky Lab は、個人データを保護したいというお客様のご要望を尊重します。このページでは、当社が CompanyAccount を使用するお客様に提供していただく情報と、またデータの提供を依頼していただく\n状況について説明します。</p><p>個人情報の提供が必要になる操作を続行するかどうかは、お客様自身で決めることができます。ただし、必要な個人情報をご提供いただけない場合は、関連する操作を実行できなくなることに\n注意してください。</p>\n\n<h6>アカウントの登録</h6>\n<p>CompanyAccount のすべての機能を使用するには、以下のアカウントを作成する必要があります:\n<ul>\n<li>個人用のアカウント</li>\n<li>会社用のアカウント (まだ作成されていない場合)</li>\n</ul>上記のアカウントを作成するには、会社のメールアドレス (これがユーザー名になります)、パスワード、お客様のご氏名、会社名、国名、Kaspersky Lab アプリケーションを使用するための\n会社のライセンス情報を入力する必要があります。お客様が明示的に他の目的で使用することを選択しない限り、当社では、 CompanyAccount の各種サービスと技術サポートをお客様に提供する以外の\n目的でこれらの情報を使用することはありません。アカウントの登録を行うと、個人用のアカウントが会社用のアカウントにリンクされます。\n</p>\n<p>会社用のアカウントがすでに作成されている場合は、個人用アカウントの登録情報 (自分の氏名と会社のメールアドレス) が、お客様の会社の CompanyAccount 管理者に送信されます。通常は、会社用のアカウントと個人用のアカウントを\n最初に登録したお客様の会社の担当者が、CompanyAccount の管理者になります。\n\n</p><h6>アカウントの設定</h6>\n\n<p>CompanyAccount の「マイアカウント」タブから、個人用アカウント情報の表示、更新、修正をいつでも行うことができます。また、個人用アカウントを削除することもできます。個人用アカウントを削除した場合は、カスタマーサービスの品質向上の目的で、\nKaspersky Lab がお客様のデータを保管することになります。ただし、削除されたアカウントを使用して CompanyAccount にアクセスすることはできません。</p>\n\n<p>CompanyAccount のアカウント管理者も、お客様のアカウント設定の変更とパスワードのリセットを行うことができます。</p>\n<p>CompanyAccount のアカウント管理者は、社内のすべてのユーザーアカウントの変更や社内のユーザーアカウント全体をブロックすることができます (社内ユーザーの情報はシステム内に保持されます)。</p>\n<h6>ライセンス</h6>\n<p>CompanyAccount の「ライセンス」タブから、Kaspersky Lab 製品に対するお客様がお持ちのライセンス情報の追加や表示を行うことができます (各製品に、アクティベーションコードとキーファイルが付属しています)。\nアカウントの登録時に入力されたライセンス情報は、お客様の会社の CompanyAccount に自動的に追加されます。</p>\n\n<p>キーファイルは、CompanyAccount 上に物理的に保管されるわけではありません。お客様の会社のライセンス情報に関するレコードだけが、システム上に保存されます。</p>\n<p>会社の CompanyAccount にリンクされた個人用アカウントを持っているすべての社内ユーザーが、ライセンスの一覧にアクセスすることができます。</p>\n<p>CompanyAccount の管理者は、この一覧からライセンスを削除することにより、会社のライセンスを削除することができます。</p>\n\n<h6>契約内容</h6>\n<p>お客様の会社で「拡張保守サービス」を購入した場合、その購入内容がシステムによって記録されると、「契約」タブから購入サービスの一覧を表示できるようになります。</p>\n<p>有料サービスの購入時にそのサービスの使用権限を付与された社内ユーザーは、契約内容のリストを表示することができます。こうしたユーザーに対して、契約の有効期限に関する通知が自動的に送信されます。</p>\n\n<h6>カスタマーサポートの依頼</h6>\n<p>CompanyAccount を使用して当社のカスタマーサポートチームまたは Anti-Virus Lab チームにサポートを依頼した場合、必要なデータの提供をお願いすることがあります。たとえば、お客様の会社で使用している製品、\nコンピュータのハードウェ ア、ソフトウェア、社内のネットワーク、発生した問題の性質など、お客様の依頼内容に関係する情報の提供をお願いする場合があります。また、問題のある ファイルや、社内のコンピュータと\nネットワークの構成が定義されたファイルの送信をお願いする場合もあります。その場合は、依頼フォームの「ファイルの添付」機能を使用してください。これらのファイルには、お客様の会社固有のファイル名、メタデータ、\n各種情報 (あるいは、個人的に特定可能なファイル名、メタデータ、各種情報) が保存されている場合があります。これらのファイルを当社までアップロードするかどうかは、お客様自身で決めることができます。これらの\nファイルをアップロードする場合は、ファイルのアップロードページで、最初に <a href=\"http://support.kaspersky.com/support/rdp\" target=\"_blank\"> ファイル提供に関する規約</a> に関する説明を読んで同意してください。</p>\n\n<p>当社は、お客様の会社のライセンスと国に関する情報 (必要な場合は、CompanyAccount のインターフェースで使用する言語の情報) を使用して、お客様の依頼内容に適したカスタマーサポート部門を選択します。</p>\n<p> 対応する設定がお客様の会社の CompanyAccount 管理者によって手動で変更されている場合は、お客様の会社の他のユーザーも依頼内容にアクセスできる可能性があります (管理者には、依頼内容が自動的に表示されます)。\n依頼内容へのアクセスに時間的な制限はありませんが、アップロードしたファイルについては、依頼がク ローズされてから 6 ケ月が経過すると削除される可能性があります。</p>\n\n<h4>当社が採用しているセキュリティ対策</h4>\n<p>当社は、標準的な管理手段、物理的手段、電子的手段を使用して、お客様から提供された個人情報を不正なアクセスから保護しています。Secure Sockets Layer (SSL) 技術を使用してすべての個人データの転送を暗号化し、\n厳格なアクセス権限が設定された安全なデータセンターにすべての個人データを保存しています。</p>\n\n<h4>第三者への個人情報の提供</h4>\n<p>販促資料の受け取りや毎年行われるユーザー調査への参加にお客様が同意しない限り、お客様から依頼されたサービスを提供する以外の目的で、お客様の データやお客様の会社のデータが使用されることはありません。政府機関、\n裁判所、法的機関から法律的な要請があった場合、社会や個人の安全を守るために必 要だと認められる場合、法律に違反する行為を防ぐために必要だと認められる場合は、お客様の個人情報を第三者に提供することがあります。</p>\n\n<h4>クッキーなどの技術</h4>\n<p>Kaspersky Lab は、場合により、クッキー、Web ビーコン、ピクセルタグなどの方法で情報を収集することがあります。詳細については、 当社の<a href=\"http://www.kaspersky.co.jp/third-party-tracking\" target=\n\n\"_blank\">クッキーポリシー</a>を参照してください。.</p>\n\n<h4>統計情報</h4>\n<p>当社の Web サイトにアクセスするお客様について、ドメイン名、IP アドレス、インターネットプロバイダ、ブラウザの種類、クライアント環境に関する各種情報 (デバイスのモデル、オペレーティングシステム、画面の解像度など) を\n追跡する場合があります。また、Kaspersky Lab アプリケーションを使用しているお客様について、使用している製品機能、当社の Web サイトにアクセスする前に開いた Web ページ、当社の Web サイト内でアクセスしたページ、\nアクセスしたページの閲覧時間、当社の Web サイトで検索した情報、当社の Web サイトにアクセスした日時などの統計情報を収集する場合もあります。当社は、これらの情報を使用して当社の Web サイトに対するトラフィックの\n統計値を算出し、当社の Web サイトとサービスのセキュリティとアクセス性を改善しています。これらの情報と個人データを相互に関連付けて使用することはありません。お客様のデバイス から取得した情報を使用してお客様の場所を\n追跡したり、お客様の場所情報の提供を依頼したりすることはありません。</p>\n\n<h4>お問い合わせ情報</h4>\n<p>お問い合わせについては、 <a href=\n\n\"http://www.kaspersky.co.jp/about/contacts\" target=\"_blank\">お問い合わせ情報</a> のページと <a href=\n\n\"http://www.kaspersky.com/legal\" target=\"_blank\">法務情報</a> のページを参照してください。</p>\n<p>CompanyAccount の使用時に処理される個人データの保護に関してご質問やご意見がある場合は、<a href=\n\n\"mailto:privacy@kaspersky.com\">privacy@kaspersky.com</a>までお問い合わせください。"
-        },
-        "resetPassword": {
-          "login": "サインイン",
-          "resetPassword-logout": "パスワードを復元するには、サインアウトしてから次のリンクをもう 1 度使用してください。",
-          "resetPassword-close-session": "パスワードをリセットするには、現在のカンパニーアカウントへの接続をすべて終了してください。［新しいパスワードを設定する］をクリックし、接続を終了してから、新しいパスワードを入力してください。<br/>Or click \"Save current sessions\" to save all sessions and change the password later<br/>The password reset link will be available for 7 days.パスワードをリセットするリンクの有効期間は、7 日間です。 ",
-          "errors": {
-            "PassInBlacklist": "パスワードの強度が弱すぎます",
-            "SimplePassword": "パスワードが、必要な複雑さを満たしていません",
-            "PwdMatch": "以前のパスワードと一致するパスワードは使用できません",
-            "AdminBlocked": "アカウントが管理者によってロックされています",
-            "AdminBlockedDescription": "ロックを解除するには、<a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> へお問い合わせください",
-            "TempBlocking": "アカウントが一時的にブロックされています",
-            "TempBlockingDescription": "サインインの試行可能回数を超えています。後で再試行してください。",
-            "LinkExpired": "リンクが使用可能な時間を超過しました",
-            "LinkExpiredDescription": "<a href='/account/forgot'>パスワードを再度リセットしてください。</a>",
-            "LinkUsed": "このリンクは、パスワードのリセットで使用済みです",
-            "LinkUsedDescription": "<a href='/account/login'>サインイン</a>するか、<a href='/account/forgot'>パスワードをリセットしてください。</a>",
-            "UserNotOfCA": "このアカウントは、カンパニーアカウントのサービスに使用できません。",
-            "UserNotOfCADescription": "有効化に必要な手順をメールで送信しました",
-            "UserNotActivated": "ユーザーアカウントが有効化されていません",
-            "UserNotActivatedDescription": "有効化に必要な手順をメールで送信しました",
-            "UserNotEnabled": "ユーザーアカウントが有効化されていません",
-            "UserNotEnabledDescription": "有効化に必要な手順をメールで送信しました",
-            "UserNotFound": "ユーザーアカウントが有効化されていません",
-            "UserNotFoundDescription": "有効化に必要な手順をメールで送信しました",
-            "UnknownError": "不明なエラー",
-            "UnknownErrorDescription": "インストール中にエラーが発生しました。<br />リンクをクリックして、再試行してください。<br />問題が解決しない場合は、<a href='mailto:companyaccount@kaspersky.com'>テクニカルサポートへお問い合わせください。</a>"
-          }
-        },
-        "activate": {
-          "title": "カスペルスキーカンパニーアカウントのパスワードを設定する",
-          "description": "新しいパスワードを作成し、入力して確認してください",
-          "e-mail": "メール",
-          "passwordLabel": "パスワード",
-          "passwordValidations_title": "パスワードの要件：",
-          "passwordValidations_length": "8 文字以上",
-          "passwordValidations_uppercaseLetter": "大文字と小文字のアルファベット（A～z）",
-          "passwordValidations_lowercaseLetter": "「!」「#」「+」「%」などの記号文字 ",
-          "passwordValidations_digit": "1 文字以上の半角数字（0～9）",
-          "passwordValidations_noSpace": "空白は使用できません",
-          "confirmPasswordLabel": "新しいパスワードの確認",
-          "setPasswordAndLogin": "パスワードの設定",
-          "close": "閉じる",
-          "login": "サインイン",
-          "successActivation": "カンパニーアカウントが<br />有効化されました",
-          "successPasswordChange": "パスワードが変更されました",
-          "youCanLogin": "サインインできます",
-          "activate-logout": "アクティベーションを続けるには、サインアウトしてください。",
-          "activate-close-session": "パスワードをリセットするには、現在のカンパニーアカウントへの接続をすべて終了してください。［新しいアカウントをアクティベートする］をクリックし、現在の接続をすべて終了してから、新しいアカウントのパスワードを設定してください。<br/>または、［現在の接続を保存する］をクリックし、アカウントを後でアクティベートしてください。パスワードをリセットするリンクの有効期間は、7 日間です。  ",
-          "errors": {
-            "PasswordIsRequired": "フィールドに入力してください",
-            "PasswordNotEqualConfirmation": "パスワードが一致しません",
-            "PasswordConfirmationIsRequired": "フィールドに入力してください",
-            "PassInBlacklist": "パスワードの強度が弱すぎます",
-            "SimplePassword": "パスワードが、必要な複雑さを満たしていません",
-            "PwdMatch": "以前のパスワードと一致するパスワードは使用できません",
-            "AdminBlocked": "アカウントが管理者によってロックされています",
-            "AdminBlockedDescription": "ロックを解除するには、<a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> へお問い合わせください",
-            "TempBlocking": "アカウントが一時的にブロックされています",
-            "TempBlockingDescription": "サインインの試行可能回数を超えています。後で再試行してください。",
-            "LinkExpired": "リンクの有効期間が終了しています",
-            "LinkExpiredDescription": "<a href='/account/create'>登録処理をやり直してください/a>",
-            "LinkUsed": "ユーザーアカウントは有効化されています",
-            "LinkUsedDescription": "<a href='/account/login'>サインイン</a>するか、<a href='/account/forgot'>パスワードをリセットしてください。</a>",
-            "LinkNotExist": "アクティベーション中にエラーが発生しました",
-            "LinkNotExistDescription": "問題を解決するには、<a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> へお問い合わせください。",
-            "ActivationRequestError": "アクティベーション中にエラーが発生しました",
-            "ActivationRequestErrorDescription": "問題を解決するには、<a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> へお問い合わせください。",
-            "UnknownError": "不明なエラー",
-            "UnknownErrorDescription": "アクティベーション中にエラーが発生しました。<br />リンクをクリックして、再試行してください。<br />問題が解決しない場合は、<a href='mailto:companyaccount@kaspersky.com'>テクニカルサポートへお問い合わせください。</a>",
-            "UserNotFound": "ユーザーが見つかりません",
-            "UserNotFoundDescription": "問題を解決するには、<a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> へお問い合わせください。",
-            "AccessDenied": "アクセスが拒否されました",
-            "AccessDeniedDescription": "問題を解決するには、<a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> へお問い合わせください。"
-          }
-        },
-        "deleted": {
-          "confirm-title": "アカウントが削除されました",
-          "confirm-text": "新しいアカウントを作成してください"
-        },
-        "delete": {
-          "title": "カンパニーアカウントを削除",
-          "description": "アカウントを削除してよいかどうか、確認してください ",
-          "e-mail": "メール",
-          "delete": "削除する",
-          "close": "閉じる",
-          "ok": "OK",
-          "successDelete": "アカウントが削除されました",
-          "successDeleteDescription": " ",
-          "errors": {
-            "UserNotFound": "ユーザーアカウントが有効化されていません",
-            "UserNotFoundDescription": "<a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>へお問い合わせください",
-            "LinkExpired": "リンクの有効期間が終了しています",
-            "LinkExpiredDescription": "<a href='/account/create'>再度登録してください</a>",
-            "LinkUsed": "ユーザーアカウントが削除されています",
-            "LinkUsedDescription": " ",
-            "LinkNotExist": "エラーが発生しました",
-            "LinkNotExistDescription": "問題を解決するには、<a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> へお問い合わせください。",
-            "DeactivationRequestError": "エラーが発生しました",
-            "DeactivationRequestErrorDescription": "問題を解決するには、<a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> へお問い合わせください。",
-            "UnknownError": "エラーが発生しました",
-            "UnknownErrorDescription": "エラーが発生しました<br />リンクをクリックして、再試行してください。<br />問題が解決しない場合は、<a href='mailto:companyaccount@kaspersky.com'>テクニカルサポートへお問い合わせください。</a>"
-          }
-        },
-        "create": {
-          "title": "アカウントを作成 ",
-          "description": "カスペルスキーカンパニーアカウントを作成します ",
-          "firstname": "姓",
-          "lastname": "名",
-          "company": "企業",
-          "email": "メール",
-          "activationCodeTooltip": "アクティベーションコードの形式は、次のとおりです：XXXXX-XXXXX-XXXXX-XXXXX数字の「0」（ゼロ）、英文字の「I」「O」「L」は含まれていません。 ",
-          "activationCodeInvalid": "アクティベーションコードの形式が正しくありません",
-          "close": "閉じる",
-          "errors": {
-            "FirstNameIsRequired": "姓を入力してください",
-            "FirstNameMaxLength": "31 文字以上は入力できません",
-            "LastNameIsRequired": "名前を入力してください",
-            "LastNameMaxLength": "31 文字以上は入力できません",
-            "CompanyIsRequired": "企業名を入力してください",
-            "CompanyMaxLength": "31 文字以上は入力できません",
-            "CountryIsRequired": "国を選択してください",
-            "EmailIsRequired": "メールアドレスを入力してください",
-            "EmailMaxLength": "128 文字以上は入力できません",
-            "InvalidEmail": "メールアドレスが正しくありません",
-            "InvalidEmailDomain": "kaspersky.com は、ドメイン名に使用できません",
-            "InvalidKeyFile": "ライセンス情報ファイルが正しくありません",
-            "ActivationCodeOrKeyFileIsRequired": "アクティベーションコードを入力するか、ライセンス情報ファイルを入力してください",
-            "ActivationCodeOrKeyFileIsInvalid": "アクティベーションコードが正しくありません",
-            "FailureUserExists": "アカウントがすでに存在します。<a href='/account/forgot'>パスワードを復元する</a>か、 <a href='/account/login'>サインイン</a>してください",
-            "RepeatedRegistration": "アカウントがすでに存在します。<a href='/account/forgot'>パスワードを復元する</a>か、 <a href='/account/login'>サインイン</a>してください",
-            "UnknownError": "エラーが発生しました",
-            "UnknownErrorDescription": "再試行してください。<br />問題が解決しない場合は、<a href='mailto:companyaccount@kaspersky.com'>テクニカルサポートへお問い合わせください。</a>"
-          },
-          "success": {
-            "title": "ユーザーアカウントが<br />作成されました",
-            "text": "<b>{email}</b>宛てにメールを送信しました。<br />メールのリンクをクリックし<br />、<b>カスペルスキーカンパニーアカウント</b>の登録処理を完了してください。<br />",
-            "close": "閉じる"
-          },
-          "privacystatement": "<a href=\"/account/privacy-statement\" target=\"_blank\">プライバシー声明</a>の条項に同意する ",
-          "survey-participation": "顧客満足度調査（年 1 回実施）に関するメールを受け取る ",
-          "createbutton": "新規作成"
-        },
-        "forgot": {
-          "continue": "続行する",
-          "close": "閉じる",
-          "step1": {
-            "title": "カスペルスキーカンパニーアカウントのパスワードを設定する",
-            "description": "アカウントを作成したときに指定したメールアドレスを入力します。",
-            "email": "メール"
-          },
-          "step2": {
-            "title": "パスワードの復旧手順が<br/>送信されました",
-            "description": "<b>{email}</b>にメールが届いているかを確認してください<br />メールに記載された、パスワードの復旧手順に従ってください。<p> <b> メールが届いていない場合は、メールアドレスが正しいかどうか確認し、再試行してください。</br>メールアドレスが正しいにもかかわらず、メールを受信できない場合は、</br> <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>へお問い合わせください。</p>"
-          },
-          "errors": {
-            "EmailIsRequired": "メールアドレスを入力してください",
-            "CaptchaIncorrect": "一致しない文字があります。再度入力してください",
-            "InvalidEmail": "メールアドレスが無効です",
-            "UserNotFound": "ユーザーが見つかりません",
-            "UserNotFoundDescription": " ",
-            "UserNotActivated": "ユーザーアカウントが有効化されていません",
-            "UserNotActivatedDescription": "有効化に必要な手順をメールで送信しました",
-            "AdminBlocked": "アカウントが管理者によってロックされています",
-            "AdminBlockedDescription": "ロックを解除するには、<a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> へお問い合わせください",
-            "UnknownError": "エラーが発生しました",
-            "UnknownErrorDescription": "再試行してください。<br />問題が解決しない場合は、<a href='mailto:companyaccount@kaspersky.com'>テクニカルサポートへお問い合わせください。</a>"
-          }
-        },
-        "login": {
-          "title": "サインイン",
-          "subtitle": "カスペルスキーカンパニーアカウントを利用する",
-          "tooltip": "カンパニーアカウントは、カスペルスキーの法人向け製品をご利用の方向けのテクニカルサポートサービスです。",
-          "notetitle": "カスペルスキーカンパニーアカウント",
-          "notedescription": "カスペルスキーカンパニーアカウントは、カスペルスキーをご利用のお客様向けのカスタマーサポートサービスです。",
-          "email": "メール",
-          "password": "パスワード",
-          "rememberme": "入力した情報を記憶する",
-          "forgot": "パスワードをお忘れの方：",
-          "login": "サインイン",
-          "loading": "読み込んでいます...",
-          "noaccount": "アカウントをお持ちでない場合：",
-          "create": "作成する",
-          "close": "閉じる",
-          "errors": {
-            "EmailIsRequired": "メールアドレスを入力してください",
-            "InvalidEmail": "メールアドレスが無効です",
-            "PasswordIsRequired": "新しいパスワードを入力",
-            "SimplePassword": "パスワードが、必要な複雑さを満たしていません",
-            "UserNotOfCA": "このアカウントは、カンパニーアカウントのサービスに使用できません。",
-            "LoginBan": "サインインの試行可能回数を超えています。後で再試行してください。",
-            "GrantIncorrect": "メールアドレスか、パスワードが無効",
-            "GrantContextIncorrect": "メールアドレスか、パスワードが正しくありません",
-            "LoginExpired": "ユーザーアカウントの有効期間が終了しています。テクニカルサポートにお問い合わせの上、アカウントを更新してください",
-            "LoginBlocking": "アカウントがブロックされています。テクニカルサポートへの問い合わせ ",
-            "LoginIncorrect": "メールアドレスか、パスワードが無効",
-            "CurrentPasswordIncorrect": "現在のパスワードが正しくありません",
-            "PasswordIncorrect": "パスワードが正しくありません",
-            "ExceededUserSessionCount": "サインインの試行回数が多すぎます",
-            "UnknownError": "エラーが発生しました",
-            "UnknownErrorDescription": "不明なエラーが発生しました。</br>再試行してください。<br />問題が解決しない場合は、<a href='mailto:companyaccount@kaspersky.com'>テクニカルサポートへお問い合わせください。</a>"
-          }
-        },
-        "deleteCompany": {
-          "title": "カンパニーアカウントを削除",
-          "description": "［続行する］をクリックすると、カンパニーアカウントに登録したあなたの企業の情報がすべて削除されます。あなたの企業のユーザーは、カンパニーアカウントへのサインインすることはできますが、リクエスト、ライセンス、および契約に関する情報は、すべて失われます。",
-          "continue": "続行する",
-          "loading": "削除中",
-          "close": "閉じる",
-          "errors": {
-            "UserNotFound": {
-              "title": "ユーザーが見つかりません",
-              "message": "<a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>へお問い合わせください"
-            },
-            "NotMainUser": {
-              "title": "ユーザーアカウントのエラー",
-              "message": "問題を解決するには、<a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> へお問い合わせください。"
-            },
-            "CompanyNotFound": {
-              "title": "企業情報が削除されています",
-              "message": " "
-            },
-            "UnknownError": {
-              "title": "不明なエラー",
-              "message": "カンパニーアカウントの削除時に不明なエラーが発生しました。<br />しばらくしてから、リンクをクリックして、再試行してください。<br />問題が解決しない場合は、<a href='mailto:companyaccount@kaspersky.com'>テクニカルサポートへお問い合わせください。</a>"
-            },
-            "LinkExpired": {
-              "title": "リンクの有効期間が終了しています",
-              "message": "カンパニーアカウントの削除を、再度リクエストしてください"
-            },
-            "LinkUsed": {
-              "title": "カンパニーアカウントは、すでに無効化されています",
-              "message": " "
-            },
-            "AccessDenied": {
-              "title": "アクセスが拒否されました",
-              "message": " "
-            },
-            "LinkNotExist": {
-              "title": "無効なリンク",
-              "message": "問題を解決するには、<a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> へお問い合わせください。"
-            },
-            "DeactivationRequestError": {
-              "title": "カンパニーアカウントの削除時にエラーが発生しました",
-              "message": "問題を解決するには、<a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> へお問い合わせください。"
-            },
-            "Failure": {
-              "title": "エラーが発生しました",
-              "message": "カンパニーアカウントの削除時にエラーが発生しました。<br />しばらくしてから、再試行してください。<br />問題が解決しない場合は、<a href='mailto:companyaccount@kaspersky.com'>テクニカルサポートへお問い合わせください。</a>"
+﻿{
+    "globalize-messages": {
+        "ja": {
+            "account": {
+                "privacy": {
+                    "header": "<h1>Kaspersky CompanyAccount のプライバシー声明</h1><h2>22.05.2014 (Current version)</h2>",
+                    "content": "<p>CompanyAccount は、AO Kaspersky Lab (本社所在地: bldg. 3, 39A, Leningradskoe Shosse, Moscow, 125212) が提供するサービスです。この文書で AO Kaspersky Lab に言及する場合、「当社」または「Kaspersky Lab」と呼称します。</p>\n<p>当社のプライバシーポリシーは、多くの場合、事前の通知なく変更されます。そのため、定期的に変更内容を確認することをお勧めします。プライバシー ポリシーの変更内容は、このセクションで公開します。基本的なデータに関する当社の\nプライバシーポリシーもあわせて参照してください(<a href=\"\"http://www.kaspersky.co.jp/privacy\"\"target=\"\"_blank\"\">http://www.kaspersky.co.jp/privacy</a>).</p>\n\n<p>当社は、必要に応じて以下の情報を開示します:</p>\n<ul>\n<li>当社で収集、保存、使用する個人データの種類</li>\n<li>お客様に個人データの提供を依頼する権限を持つ担当者</li>\n<li>このプライバシーポリシーで見つかった間違いの修正方法</li>\n</ul>\n\n<p>このプライバシーポリシーに記載されている「個人データ」または「個人情報」とは、特定の個人の確認、特定の個人との連絡、特定の状況における特定の個人の確認などを行うために、単独で、または他の情報と組み合わせて使用される情報のことです。</p>\n<p>不明な点については、このページの最後に記載されているメールアドレスを使用して、当社に直接お問い合わせください。</p>\n<h4>当社が収集して保存する情報</h4>\n<p>Kaspersky Lab は、個人データを保護したいというお客様のご要望を尊重します。このページでは、当社が CompanyAccount を使用するお客様に提供していただく情報と、またデータの提供を依頼していただく\n状況について説明します。</p><p>個人情報の提供が必要になる操作を続行するかどうかは、お客様自身で決めることができます。ただし、必要な個人情報をご提供いただけない場合は、関連する操作を実行できなくなることに\n注意してください。</p>\n\n<h6>アカウントの登録</h6>\n<p>CompanyAccount のすべての機能を使用するには、以下のアカウントを作成する必要があります:\n<ul>\n<li>個人用のアカウント</li>\n<li>会社用のアカウント (まだ作成されていない場合)</li>\n</ul>上記のアカウントを作成するには、会社のメールアドレス (これがユーザー名になります)、パスワード、お客様のご氏名、会社名、国名、Kaspersky Lab アプリケーションを使用するための\n会社のライセンス情報を入力する必要があります。お客様が明示的に他の目的で使用することを選択しない限り、当社では、 CompanyAccount の各種サービスと技術サポートをお客様に提供する以外の\n目的でこれらの情報を使用することはありません。アカウントの登録を行うと、個人用のアカウントが会社用のアカウントにリンクされます。\n</p>\n<p>会社用のアカウントがすでに作成されている場合は、個人用アカウントの登録情報 (自分の氏名と会社のメールアドレス) が、お客様の会社の CompanyAccount 管理者に送信されます。通常は、会社用のアカウントと個人用のアカウントを\n最初に登録したお客様の会社の担当者が、CompanyAccount の管理者になります。\n\n</p><h6>アカウントの設定</h6>\n\n<p>CompanyAccount の「マイアカウント」タブから、個人用アカウント情報の表示、更新、修正をいつでも行うことができます。また、個人用アカウントを削除することもできます。個人用アカウントを削除した場合は、カスタマーサービスの品質向上の目的で、\nKaspersky Lab がお客様のデータを保管することになります。ただし、削除されたアカウントを使用して CompanyAccount にアクセスすることはできません。</p>\n\n<p>CompanyAccount のアカウント管理者も、お客様のアカウント設定の変更とパスワードのリセットを行うことができます。</p>\n<p>CompanyAccount のアカウント管理者は、社内のすべてのユーザーアカウントの変更や社内のユーザーアカウント全体をブロックすることができます (社内ユーザーの情報はシステム内に保持されます)。</p>\n<h6>ライセンス</h6>\n<p>CompanyAccount の「ライセンス」タブから、Kaspersky Lab 製品に対するお客様がお持ちのライセンス情報の追加や表示を行うことができます (各製品に、アクティベーションコードとキーファイルが付属しています)。\nアカウントの登録時に入力されたライセンス情報は、お客様の会社の CompanyAccount に自動的に追加されます。</p>\n\n<p>キーファイルは、CompanyAccount 上に物理的に保管されるわけではありません。お客様の会社のライセンス情報に関するレコードだけが、システム上に保存されます。</p>\n<p>会社の CompanyAccount にリンクされた個人用アカウントを持っているすべての社内ユーザーが、ライセンスの一覧にアクセスすることができます。</p>\n<p>CompanyAccount の管理者は、この一覧からライセンスを削除することにより、会社のライセンスを削除することができます。</p>\n\n<h6>契約内容</h6>\n<p>お客様の会社で「拡張保守サービス」を購入した場合、その購入内容がシステムによって記録されると、「契約」タブから購入サービスの一覧を表示できるようになります。</p>\n<p>有料サービスの購入時にそのサービスの使用権限を付与された社内ユーザーは、契約内容のリストを表示することができます。こうしたユーザーに対して、契約の有効期限に関する通知が自動的に送信されます。</p>\n\n<h6>カスタマーサポートの依頼</h6>\n<p>CompanyAccount を使用して当社のカスタマーサポートチームまたは Anti-Virus Lab チームにサポートを依頼した場合、必要なデータの提供をお願いすることがあります。たとえば、お客様の会社で使用している製品、\nコンピュータのハードウェ ア、ソフトウェア、社内のネットワーク、発生した問題の性質など、お客様の依頼内容に関係する情報の提供をお願いする場合があります。また、問題のある ファイルや、社内のコンピュータと\nネットワークの構成が定義されたファイルの送信をお願いする場合もあります。その場合は、依頼フォームの「ファイルの添付」機能を使用してください。これらのファイルには、お客様の会社固有のファイル名、メタデータ、\n各種情報 (あるいは、個人的に特定可能なファイル名、メタデータ、各種情報) が保存されている場合があります。これらのファイルを当社までアップロードするかどうかは、お客様自身で決めることができます。これらの\nファイルをアップロードする場合は、ファイルのアップロードページで、最初に <a href=\"http://support.kaspersky.com/support/rdp\" target=\"_blank\"> ファイル提供に関する規約</a> に関する説明を読んで同意してください。</p>\n\n<p>当社は、お客様の会社のライセンスと国に関する情報 (必要な場合は、CompanyAccount のインターフェースで使用する言語の情報) を使用して、お客様の依頼内容に適したカスタマーサポート部門を選択します。</p>\n<p> 対応する設定がお客様の会社の CompanyAccount 管理者によって手動で変更されている場合は、お客様の会社の他のユーザーも依頼内容にアクセスできる可能性があります (管理者には、依頼内容が自動的に表示されます)。\n依頼内容へのアクセスに時間的な制限はありませんが、アップロードしたファイルについては、依頼がク ローズされてから 6 ケ月が経過すると削除される可能性があります。</p>\n\n<h4>当社が採用しているセキュリティ対策</h4>\n<p>当社は、標準的な管理手段、物理的手段、電子的手段を使用して、お客様から提供された個人情報を不正なアクセスから保護しています。Secure Sockets Layer (SSL) 技術を使用してすべての個人データの転送を暗号化し、\n厳格なアクセス権限が設定された安全なデータセンターにすべての個人データを保存しています。</p>\n\n<h4>第三者への個人情報の提供</h4>\n<p>販促資料の受け取りや毎年行われるユーザー調査への参加にお客様が同意しない限り、お客様から依頼されたサービスを提供する以外の目的で、お客様の データやお客様の会社のデータが使用されることはありません。政府機関、\n裁判所、法的機関から法律的な要請があった場合、社会や個人の安全を守るために必 要だと認められる場合、法律に違反する行為を防ぐために必要だと認められる場合は、お客様の個人情報を第三者に提供することがあります。</p>\n\n<h4>クッキーなどの技術</h4>\n<p>Kaspersky Lab は、場合により、クッキー、Web ビーコン、ピクセルタグなどの方法で情報を収集することがあります。詳細については、 当社の<a href=\"http://www.kaspersky.co.jp/third-party-tracking\" target=\n\n\"_blank\">クッキーポリシー</a>を参照してください。.</p>\n\n<h4>統計情報</h4>\n<p>当社の Web サイトにアクセスするお客様について、ドメイン名、IP アドレス、インターネットプロバイダ、ブラウザの種類、クライアント環境に関する各種情報 (デバイスのモデル、オペレーティングシステム、画面の解像度など) を\n追跡する場合があります。また、Kaspersky Lab アプリケーションを使用しているお客様について、使用している製品機能、当社の Web サイトにアクセスする前に開いた Web ページ、当社の Web サイト内でアクセスしたページ、\nアクセスしたページの閲覧時間、当社の Web サイトで検索した情報、当社の Web サイトにアクセスした日時などの統計情報を収集する場合もあります。当社は、これらの情報を使用して当社の Web サイトに対するトラフィックの\n統計値を算出し、当社の Web サイトとサービスのセキュリティとアクセス性を改善しています。これらの情報と個人データを相互に関連付けて使用することはありません。お客様のデバイス から取得した情報を使用してお客様の場所を\n追跡したり、お客様の場所情報の提供を依頼したりすることはありません。</p>\n\n<h4>お問い合わせ情報</h4>\n<p>お問い合わせについては、 <a href=\n\n\"http://www.kaspersky.co.jp/about/contacts\" target=\"_blank\">お問い合わせ情報</a> のページと <a href=\n\n\"http://www.kaspersky.com/legal\" target=\"_blank\">法務情報</a> のページを参照してください。</p>\n<p>CompanyAccount の使用時に処理される個人データの保護に関してご質問やご意見がある場合は、<a href=\n\n\"mailto:privacy@kaspersky.com\">privacy@kaspersky.com</a>までお問い合わせください。"
+                },
+                "changePass": {
+                    "title": "カスペルスキーカンパニーアカウントのパスワードを設定する",
+                    "description": "新しいパスワードを作成し、入力して確認してください",
+                    "e-mail": "メール",
+
+                    "passwordLabel": "パスワード",
+                    "confirmPasswordLabel": "新しいパスワードの確認",
+                    "submit-btn": "パスワードの設定",
+
+                    "passwordValidations_title": "パスワードの要件：",
+                    "passwordValidations_length": "8 文字以上",
+                    "passwordValidations_uppercaseLetter": "大文字と小文字のアルファベット（A～z）",
+                    "passwordValidations_lowercaseLetter": "「!」「#」「+」「%」などの記号文字 ",
+                    "passwordValidations_digit": "1 文字以上の半角数字（0～9）",
+                    "passwordValidations_noSpace": "空白は使用できません",
+
+                    "errors": {
+                        "Password.RequiredRule": "フィールドに入力してください",
+                        "Password.MinLengthRule": "[EV[jp]Password is too short",
+                        "Password.PasswordRule": "[EV[jp]Password doesnt meet requirements",
+                        "Password.NotEqualToRule": "パスワードが一致しません",
+                        "ConfirmPassword.RequiredRule": "フィールドに入力してください",
+                        "ConfirmPassword.EqualRule": "[EV[jp]Passwords don't match",
+
+                        "Password.PasswordInBlacklist": "パスワードの強度が弱すぎます",
+                        "Password.SimplePassword": "パスワードが、必要な複雑さを満たしていません",
+                        "Password.PasswordMatch": "以前のパスワードと一致するパスワードは使用できません",
+
+                        "AdminBlocked": {
+                            "title": "アカウントが管理者によってロックされています",
+                            "text": "ロックを解除するには、<a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> へお問い合わせください"
+                        },
+                        "TempBlocking": {
+                            "title": "アカウントが一時的にブロックされています",
+                            "text": "サインインの試行可能回数を超えています。後で再試行してください。"
+                        },
+                        "UnknownError": {
+                            "title": "不明なエラー",
+                            "text": "インストール中にエラーが発生しました。<br />リンクをクリックして、再試行してください。<br />問題が解決しない場合は、<a href='mailto:companyaccount@kaspersky.com'>テクニカルサポートへお問い合わせください。</a>"
+                        },
+                        "UserNotFound": {
+                            "title": "ユーザーが見つかりません",
+                            "text": "問題を解決するには、<a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> へお問い合わせください。"
+                        },
+                        "LinkNotExist": {
+                            "title": "An error occurred during activation",
+                            "text": "Please contact us at <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> to fix the problem"
+                        },
+                        "DuplicatedRecords": {
+                            "title": "[EV] Duplicated Links",
+                            "text": "[EV[jp]You can <a href='/account/login'>log-in CompanyAccount</a> or <a href='/account/forgot'>reset password</a>"
+                        },
+                        "NotSupportedSystemType": {
+                            "title": "[EV] SystemType not supported",
+                            "text": " "
+                        }
+                    }
+                },
+
+                "resetPassword": {
+                    "logout": "パスワードを復元するには、サインアウトしてから次のリンクをもう 1 度使用してください。",
+                    "close-session": "[EV[jp]パスワードをリセットするには、現在のカンパニーアカウントへの接続をすべて終了してください。［新しいパスワードを設定する］をクリックし、接続を終了してから、新しいパスワードを入力してください。<br/>Or click \"Save current sessions\" to save all sessions and change the password later<br/>The password reset link will be available for 7 days.パスワードをリセットするリンクの有効期間は、7 日間です。 ",
+
+                    "success": {
+                        "title": "パスワードが変更されました",
+                        "text": "サインインできます",
+                        "button": "サインイン"
+                    },
+
+                    "errors": {
+                        "LinkExpired": {
+                            "title": "リンクが使用可能な時間を超過しました",
+                            "text": "<a href='/account/forgot'>パスワードを再度リセットしてください。</a>"
+                        },
+                        "LinkUsed": {
+                            "title": "このリンクは、パスワードのリセットで使用済みです",
+                            "text": "<a href='/account/login'>サインイン</a>するか、<a href='/account/forgot'>パスワードをリセットしてください。</a>"
+                        },
+                        "UserNotOfCA": {
+                            "title": "このアカウントは、カンパニーアカウントのサービスに使用できません。",
+                            "text": "有効化に必要な手順をメールで送信しました"
+                        },
+                        "UserNotActivated": {
+                            "title": "ユーザーアカウントが有効化されていません",
+                            "text": "有効化に必要な手順をメールで送信しました"
+                        },
+                        "UserNotEnabled": {
+                            "title": "ユーザーアカウントが有効化されていません",
+                            "text": "有効化に必要な手順をメールで送信しました"
+                        }
+                    }
+                },
+
+                "activate": {
+                    "logout": "アクティベーションを続けるには、サインアウトしてください。",
+                    "close-session": "パスワードをリセットするには、現在のカンパニーアカウントへの接続をすべて終了してください。［新しいアカウントをアクティベートする］をクリックし、現在の接続をすべて終了してから、新しいアカウントのパスワードを設定してください。<br/>または、［現在の接続を保存する］をクリックし、アカウントを後でアクティベートしてください。パスワードをリセットするリンクの有効期間は、7 日間です。  ",
+
+                    "success": {
+                        "title": "カンパニーアカウントが<br />有効化されました",
+                        "text": "サインインできます",
+                        "button": "サインイン"
+                    },
+
+                    "close": "Close",
+                    "logout": "[EV] Logout",
+
+                    "errors": {
+                        "LinkNotExist": {
+                            "title": "アクティベーション中にエラーが発生しました",
+                            "text": "問題を解決するには、<a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> へお問い合わせください。"
+                        },
+                        "LinkExpired": {
+                            "title": "リンクの有効期間が終了しています",
+                            "text": "<a href='/account/create'>登録処理をやり直してください/a>"
+                        },
+                        "LinkUsed": {
+                            "title": "ユーザーアカウントは有効化されています",
+                            "text": "<a href='/account/login'>サインイン</a>するか、<a href='/account/forgot'>パスワードをリセットしてください。</a>"
+                        },
+                        "LinkNotExist": {
+                            "title": "[EV[jp]An error occurred during activation",
+                            "text": "[EV[jp]Please contact us at <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> to fix the problem"
+                        },
+                        "DuplicatedRecords": {
+                            "title": "アクティベーション中にエラーが発生しました",
+                            "text": "問題を解決するには、<a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> へお問い合わせください。"
+                        },
+                        "UnknownError": {
+                            "title": "不明なエラー",
+                            "text": "アクティベーション中にエラーが発生しました。<br />リンクをクリックして、再試行してください。<br />問題が解決しない場合は、<a href='mailto:companyaccount@kaspersky.com'>テクニカルサポートへお問い合わせください。</a>"
+                        }
+                    }
+                },
+
+                "deleted": {
+                    "confirm-title": "アカウントが削除されました",
+                    "confirm-text": "新しいアカウントを作成してください"
+                },
+
+                "delete": {
+                    "logout": "[EV][jp] To continue the deleting procedure, you must log out.",
+                    "close-session": "[EV][jp] To continue the activation procedure, you must close session of another user.",
+                    "logout-btn": "[EV][jp] Logout an delete user",
+
+                    "title": "カンパニーアカウントを削除",
+                    "description": "アカウントを削除してよいかどうか、確認してください ",
+                    "e-mail": "メール",
+                    "delete": "削除する",
+                    "close": "閉じる",
+                    "ok": "OK",
+                    "success": {
+                        "title": "アカウントが削除されました",
+                        "description": " "
+                    },
+                    "errors": {
+                        "UserNotFound": {
+                            "title": "ユーザーアカウントが有効化されていません",
+                            "text": "<a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>へお問い合わせください"
+                        },
+                        "LinkExpired": {
+                            "title": "リンクの有効期間が終了しています",
+                            "text": "<a href='/account/create'>再度登録してください</a>"
+                        },
+                        "LinkUsed": {
+                            "title": "ユーザーアカウントが削除されています",
+                            "text": " "
+                        },
+                        "LinkNotExist": {
+                            "title": "エラーが発生しました",
+                            "text": "問題を解決するには、<a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> へお問い合わせください。"
+                        },
+                        "DuplicatedRecords": {
+                            "title": "エラーが発生しました",
+                            "text": "問題を解決するには、<a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> へお問い合わせください。"
+                        },
+                        "UnknownError": {
+                            "title": "エラーが発生しました",
+                            "text": "エラーが発生しました<br />リンクをクリックして、再試行してください。<br />問題が解決しない場合は、<a href='mailto:companyaccount@kaspersky.com'>テクニカルサポートへお問い合わせください。</a>"
+                        }
+                    }
+                },
+
+                "create": {
+                    "title": "アカウントを作成 ",
+                    "description": "カスペルスキーカンパニーアカウントを作成します ",
+                    "firstname": "姓",
+                    "lastname": "名",
+                    "company": "企業",
+                    "email": "メール",
+                    "or-type-code": "[EV] Or type activation code:",
+                    "activationCodeTooltip": "アクティベーションコードの形式は、次のとおりです：XXXXX-XXXXX-XXXXX-XXXXX数字の「0」（ゼロ）、英文字の「I」「O」「L」は含まれていません。 ",
+                    "activationCodeInvalid": "アクティベーションコードの形式が正しくありません",
+                    "close": "閉じる",
+                    "errors": {
+                        "FirstName.RequiredRule": "姓を入力してください",
+                        "FirstName.MaxByteLengthRule": "31 文字以上は入力できません",
+
+                        "LastName.RequiredRule": "名前を入力してください",
+                        "LastName.MaxByteLengthRule": "31 文字以上は入力できません",
+
+                        "Company.RequiredRule": "企業名を入力してください",
+                        "Company.MaxByteLengthRule": "31 文字以上は入力できません",
+
+                        "Country.RequiredRule": "国を選択してください",
+
+                        "Captcha.RequiredRule": "[EV] CAPTCHA needed",
+                        "Captcha.CaptchaIncorrect": "[EV] Captcha incorrect",
+
+                        "Email.RequiredRule": "メールアドレスを入力してください",
+                        "Email.EmailRule": "メールアドレスが正しくありません",
+                        "Email.MaxByteLengthRule": "128 文字以上は入力できません",
+                        "Email.RepeatedRegistration": "アカウントがすでに存在します。<a href='/account/forgot'>パスワードを復元する</a>か、 <a href='/account/login'>サインイン</a>してください",
+                        "InvalidEmailDomain": "kaspersky.com は、ドメイン名に使用できません",
+
+                        "InvalidKeyFile": "ライセンス情報ファイルが正しくありません",
+                        "ActivationCodeOrKeyFileIsRequired": "アクティベーションコードを入力するか、ライセンス情報ファイルを入力してください",
+                        "ActivationCodeOrKeyFileIsInvalid": "アクティベーションコードが正しくありません",
+                        "InvalidKeyFileSize": "[EV] File is too big",
+
+                        "FailureUserExists": {
+                            "title": "アカウントがすでに存在します。<a href='/account/forgot'>パスワードを復元する</a>か、 <a href='/account/login'>サインイン</a>してください",
+                            "text": " "
+                        },
+                        "UnknownError": {
+                            "title": "エラーが発生しました",
+                            "text": "再試行してください。<br />問題が解決しない場合は、<a href='mailto:companyaccount@kaspersky.com'>テクニカルサポートへお問い合わせください。</a>"
+                        }
+                    },
+                    "success": {
+                        "title": "ユーザーアカウントが<br />作成されました",
+                        "text": "<b>{email}</b>宛てにメールを送信しました。<br />メールのリンクをクリックし<br />、<b>カスペルスキーカンパニーアカウント</b>の登録処理を完了してください。<br />",
+                        "close": "閉じる"
+                    },
+                    "privacystatement": "<a href=\"/account/privacy-statement\" target=\"_blank\">プライバシー声明</a>の条項に同意する ",
+                    "survey-participation": "顧客満足度調査（年 1 回実施）に関するメールを受け取る ",
+                    "createbutton": "新規作成"
+                },
+
+                "forgot": {
+                    "continue": "続行する",
+                    "close": "閉じる",
+
+                    "step1": {
+                        "title": "カスペルスキーカンパニーアカウントのパスワードを設定する",
+                        "description": "アカウントを作成したときに指定したメールアドレスを入力します。",
+                        "email": "メール"
+                    },
+                    "success": {
+                        "title": "パスワードの復旧手順が<br/>送信されました",
+                        "description": "<b>{email}</b>にメールが届いているかを確認してください<br />メールに記載された、パスワードの復旧手順に従ってください。<p> <b> メールが届いていない場合は、メールアドレスが正しいかどうか確認し、再試行してください。</br>メールアドレスが正しいにもかかわらず、メールを受信できない場合は、</br> <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>へお問い合わせください。</p>"
+                    },
+
+                    "errors": {
+                        "CaptchaIncorrect": "一致しない文字があります。再度入力してください",
+                        "Email.RequiredRule": "メールアドレスを入力してください",
+                        "Email.EmailRule": "メールアドレスが無効です",
+                        "Email.MaxByteLengthRule": "[EV] Max length of E-mail is {Length}",
+
+                        "AdminBlocked": {
+                            "title": "アカウントが管理者によってロックされています",
+                            "text": "ロックを解除するには、<a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> へお問い合わせください"
+                        },
+                        "NotSupportedSystemType": {
+                            "title": "[EV] [sys type] The account does not belong to CompanyAccount",
+                            "text": "[EV] [sys type] To your email sent further instructions"
+                        },
+                        "UserNotFound": {
+                            "title": "ユーザーが見つかりません",
+                            "text": " "
+                        },
+                        "NotSupportedCompanyCategory": {
+                            "title": "[EV] [comp cat] The account does not belong to CompanyAccount",
+                            "text": "[EV] [comp cat] To your email sent further instructions"
+                        },
+                        "NotActivated": {
+                            "title": "ユーザーアカウントが有効化されていません",
+                            "text": "有効化に必要な手順をメールで送信しました"
+                        },
+                        "IsSupportStuff": {
+                            "title": "[EV] The user account is support stuff account",
+                            "text": " "
+                        },
+                        "UnknownError": {
+                            "title": "エラーが発生しました",
+                            "text": "再試行してください。<br />問題が解決しない場合は、<a href='mailto:companyaccount@kaspersky.com'>テクニカルサポートへお問い合わせください。</a>"
+                        }
+                    }
+                },
+
+                "login": {
+                    "title": "サインイン",
+                    "subtitle": "カスペルスキーカンパニーアカウントを利用する",
+                    "tooltip": "カンパニーアカウントは、カスペルスキーの法人向け製品をご利用の方向けのテクニカルサポートサービスです。",
+                    "notetitle": "カスペルスキーカンパニーアカウント",
+                    "notedescription": "カスペルスキーカンパニーアカウントは、カスペルスキーをご利用のお客様向けのカスタマーサポートサービスです。",
+                    "email": "メール",
+                    "password": "パスワード",
+                    "rememberme": "入力した情報を記憶する",
+                    "forgot": "パスワードをお忘れの方：",
+                    "login": "サインイン",
+                    "loading": "読み込んでいます...",
+                    "noaccount": "アカウントをお持ちでない場合：",
+                    "create": "作成する",
+                    "close": "閉じる",
+                    "errors": {
+                        "EmailIsRequired": "メールアドレスを入力してください",
+                        "InvalidEmail": "メールアドレスが無効です",
+                        "PasswordIsRequired": "新しいパスワードを入力",
+                        "SimplePassword": "パスワードが、必要な複雑さを満たしていません",
+                        "UserNotOfCA": "このアカウントは、カンパニーアカウントのサービスに使用できません。",
+                        "LoginBan": "サインインの試行可能回数を超えています。後で再試行してください。",
+                        "GrantIncorrect": "メールアドレスか、パスワードが無効",
+                        "GrantContextIncorrect": "メールアドレスか、パスワードが正しくありません",
+                        "LoginExpired": "ユーザーアカウントの有効期間が終了しています。テクニカルサポートにお問い合わせの上、アカウントを更新してください",
+                        "LoginBlocking": "アカウントがブロックされています。テクニカルサポートへの問い合わせ ",
+                        "LoginIncorrect": "メールアドレスか、パスワードが無効",
+                        "CurrentPasswordIncorrect": "現在のパスワードが正しくありません",
+                        "PasswordIncorrect": "パスワードが正しくありません",
+                        "ExceededUserSessionCount": "サインインの試行回数が多すぎます",
+                        "UnknownError": "エラーが発生しました",
+                        "UnknownErrorDescription": "不明なエラーが発生しました。</br>再試行してください。<br />問題が解決しない場合は、<a href='mailto:companyaccount@kaspersky.com'>テクニカルサポートへお問い合わせください。</a>"
+                    }
+                },
+
+                "deleteCompany": {
+                    "logout": "[EV] To continue the company delete procedure, you must log out.",
+                    "close-session": "[EV] To continue the activation procedure, you must close session of another user.",
+                    "logout-btn": "[EV] Logout an delete company",
+
+                    "title": "カンパニーアカウントを削除",
+                    "description": "［続行する］をクリックすると、カンパニーアカウントに登録したあなたの企業の情報がすべて削除されます。あなたの企業のユーザーは、カンパニーアカウントへのサインインすることはできますが、リクエスト、ライセンス、および契約に関する情報は、すべて失われます。",
+                    "continue": "続行する",
+                    "loading": "削除中",
+                    "close": "閉じる",
+
+                    "confirm": {
+                        "title": "[EV][jp] Delete company account",
+                        "description": "[EV][jp] Caution When you click \"Continue\" your company will be deleted. After clicking this link your account will be blocked.",
+                        "continue": "[EV][jp] Contimue"
+                    },
+                    "errors": {
+                        "UserNotFound": {
+                            "title": "ユーザーが見つかりません",
+                            "text": "<a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>へお問い合わせください"
+                        },
+                        "NotMainUser": {
+                            "title": "ユーザーアカウントのエラー",
+                            "text": "問題を解決するには、<a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> へお問い合わせください。"
+                        },
+                        "CompanyNotFound": {
+                            "title": "企業情報が削除されています",
+                            "text": " "
+                        },
+
+                        "LinkExpired": {
+                            "title": "リンクの有効期間が終了しています",
+                            "text": "カンパニーアカウントの削除を、再度リクエストしてください"
+                        },
+                        "LinkUsed": {
+                            "title": "カンパニーアカウントは、すでに無効化されています",
+                            "text": " "
+                        },
+                        "AccessDenied": {
+                            "title": "アクセスが拒否されました",
+                            "text": " "
+                        },
+                        "LinkNotExist": {
+                            "title": "無効なリンク",
+                            "text": "問題を解決するには、<a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> へお問い合わせください。"
+                        },
+                        "DeactivationRequestError": {
+                            "title": "カンパニーアカウントの削除時にエラーが発生しました",
+                            "text": "問題を解決するには、<a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> へお問い合わせください。"
+                        },
+                        "Failure": {
+                            "title": "エラーが発生しました",
+                            "text": "カンパニーアカウントの削除時にエラーが発生しました。<br />しばらくしてから、再試行してください。<br />問題が解決しない場合は、<a href='mailto:companyaccount@kaspersky.com'>テクニカルサポートへお問い合わせください。</a>"
+                        }
+                    },
+                    "success": {
+                        "title": "アカウントが削除されました",
+                        "description": " "
+                    }
+                }
             }
-          },
-          "success": {
-            "title": "アカウントが削除されました",
-            "description": " "
-          }
         }
-      }
     }
-  }
 }

@@ -1,28 +1,28 @@
-{
-  "globalize-messages": {
-    "pt": {
-      "document": {
-        "statuses": {
-          "1": "Ativo:",
-          "2": "Expirado (inativo):",
-          "3": "Data de Expiração:",
-          "until": "até"
-        },
-        "list": {
-          "tabs": {
-            "contracts": "Acordos de Suporte Premium"
-          },
-          "item": {
-            "attached-files": "Acordos anexados:",
-            "download": "Download",
-            "date-start": "Data de Ativação:"
-          },
-          "no-contract": {
-            "title": "O <a href=\"http://www.kaspersky.com/pt/enterprise-security/maintenance-service-agreement\" target=\"_blank\">premium support agreements</a> não foi adicionado.",
-            "description": "A Kaspersky Lab lhe oferece programas de suporte premium para um atendimento customizado de rápida resposta para os seus problemas em segurança na área de TI. Selecione um programa que mais se adequa as necessidades do seu negócio de uma lista de opções de Acordo de Serviço Técnico da Kaspersky (MSA). </br> </br>  <a href=\"http://www.kaspersky.com/pt/business-security/services\" target=\"_blank\">Veja as opções de Suporte Premium</a></p>"
-          }
+﻿{
+    "globalize-messages": {
+        "pt": {
+            "document": {
+                "statuses": {
+                    "1": "Ativo:",
+                    "2": "Expirado (inativo):",
+                    "3": "Data de Expiração:",
+                    "until": "até"
+                },
+                "list": {
+                    "tabs": {
+                        "contracts": "Acordos de Suporte Premium"
+                    },
+                    "item": {
+                        "attached-files": "Acordos anexados:",
+                        "download": "Download",
+                        "date-start": "Data de Ativação:"
+                    },
+                    "no-contract": {
+                        "title": "O <a href=\"http://www.kaspersky.com/pt/enterprise-security/maintenance-service-agreement\" target=\"_blank\">premium support agreements</a> não foi adicionado.",
+                        "description": "A Kaspersky Lab lhe oferece programas de suporte premium para um atendimento customizado de rápida resposta para os seus problemas em segurança na área de TI. Selecione um programa que mais se adequa as necessidades do seu negócio de uma lista de opções de Acordo de Serviço Técnico da Kaspersky (MSA). </br> </br>  <a href=\"http://www.kaspersky.com/pt/business-security/services\" target=\"_blank\">Veja as opções de Suporte Premium</a></p>"
+                    }
+                }
+            }
         }
-      }
     }
-  }
 }

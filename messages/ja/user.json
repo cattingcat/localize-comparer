@@ -1,246 +1,312 @@
-{
-  "globalize-messages": {
-    "ja": {
-      "user": {
-        "list": {
-          "header": "ユーザー名",
-          "sort-lastname": "苗字で並べ替え",
-          "filter-by-country-label": "国：",
-          "filter-by-country": {
-            "All": "すべて"
-          },
-          "filter-by-organization-label": "拠点：",
-          "filter-by-organization": {
-            "All": "すべて"
-          },
-          "item": {
-            "country": "国：",
-            "organization": "拠点："
-          },
-          "no-filtered-user": "ユーザーは見つかりませんでした。"
-        },
-        "delete": {
-          "title": "ユーザーアカウントを削除します。",
-          "description": "\"ユーザーアカウントの削除\"を行うとユーザーは削除されますが、そのユーザーによって作成されたお問い合わせは削除されません。",
-          "notice": "ユーザーアカウントを削除した場合、そのユーザーがカンパニーアカウントでお問い合わせが行えなくなる事を理解しました。",
-          "btn": "ユーザーアカウントの削除",
-          "process": "ユーザーアカウントの削除中...",
-          "success": "ユーザーアカウントを削除しました",
-          "confirm": {
-            "title": "ユーザーアカウントの削除",
-            "text": "ユーザー{email}を削除しようとしています。削除した場合そのユーザーはカンパニーアカウントにアクセスする事が出来なくなりますが、既に作成されたお問い合わせは削除されません。",
-            "button": "続行"
-          },
-          "errors": {
-            "RepeatedDeactivation": "ユーザーアカウントの削除に失敗しました。アカウントを削除しています...",
-            "UnknownError": "ユーザーアカウントの削除に失敗しました。再試行してください。",
-            "UserNotFound": "ユーザーが見つかりません",
-            "AccessDenied": "アクセスが拒否されました",
-            "NotMainUser": "アクセスが拒否されました。カンパニーアカウントの管理者権限が必要です",
-            "CompanyNotFound": "カンパニーアカウントが存在しません",
-            "OfUserNotFound": "ユーザーアカウントの削除に失敗しました。該当のユーザーが見つかりません"
-          }
-        },
-        "errors": {
-          "DifferentCompanies": "ユーザーは別のカンパニーアカウントに所属しています。　</br>この問題を解決するため、<a href='/request/create/ca' target=\"_blank\">サポートへお問い合わせ</a>ください。",
-          "GetDetailsException_DifferentCompanies": {
-            "Title": "要求されたユーザーアカウントは貴社のカンパニーアカウントに所属していません",
-            "Text": "この問題を解決するため、<a href='/request/create/ca' target=\"_blank\">サポートへお問い合わせ</a>ください。"
-          },
-          "RequestPasswordResetException_DifferentCompanies": {
-            "Title": "編集しているユーザーアカウントは貴社のカンパニーアカウントに所属していません",
-            "Text": "この問題を解決するため、<a href='/request/create/ca' target=\"_blank\">サポートへお問い合わせ</a>ください。"
-          },
-          "UpdateProfileDetailsException_DifferentCompanies": {
-            "Title": "編集しているユーザーアカウントは貴社のカンパニーアカウントに所属していません",
-            "Text": "この問題を解決するため、<a href='/request/create/ca' target=\"_blank\">サポートへお問い合わせ</a>ください。"
-          },
-          "UpdatePermissionsException_DifferentCompanies": {
-            "Title": "編集しているユーザーアカウントは貴社のカンパニーアカウントに所属していません",
-            "Text": "この問題を解決するため、<a href='/request/create/ca' target=\"_blank\">サポートへお問い合わせ</a>ください。"
-          },
-          "DeleteProfileException_DifferentCompanies": {
-            "Title": "このアカウントは編集中のため、削除出来ません",
-            "Text": "この問題を解決するため、<a href='/request/create/ca' target=\"_blank\">サポートへお問い合わせ</a>ください。"
-          },
-          "GetDetailsException_OfUserNotFound": {
-            "Title": "ユーザーアカウントが存在しません",
-            "Text": "この問題を解決するため、<a href='/request/create/ca' target=\"_blank\">サポートへお問い合わせ</a>ください。"
-          },
-          "RequestPasswordResetException_OfUserNotFound": {
-            "Title": "ユーザーアカウントが存在しません",
-            "Text": "この問題を解決するため、<a href='/request/create/ca' target=\"_blank\">サポートへお問い合わせ</a>ください。"
-          },
-          "UpdateProfileDetailsException_OfUserNotFound": {
-            "Title": "ユーザーアカウントが存在しません",
-            "Text": "この問題を解決するため、<a href='/request/create/ca' target=\"_blank\">サポートへお問い合わせ</a>ください。"
-          },
-          "UpdatePermissionsException_OfUserNotFound": {
-            "Title": "ユーザーアカウントが存在しません",
-            "Text": "この問題を解決するため、<a href='/request/create/ca' target=\"_blank\">サポートへお問い合わせ</a>ください。"
-          },
-          "DeleteProfileException_OfUserNotFound": {
-            "Title": "ユーザーアカウントが存在しません",
-            "Text": "この問題を解決するため、<a href='/request/create/ca' target=\"_blank\">サポートへお問い合わせ</a>ください。"
-          },
-          "Failure": {
-            "Title": "不明なエラー",
-            "Text": "このエラーを解決するため、<a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>へご連絡ください。"
-          },
-          "UserNotFound": {
-            "Title": "ユーザーが見つかりません",
-            "Text": "このエラーを解決するため、<a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>へご連絡ください。"
-          },
-          "NotMainUser": {
-            "Title": "カンパニーアカウントの管理者権限が必要です",
-            "Text": "この問題を解決するため、<a href='/request/create/ca' target=\"_blank\">サポートへお問い合わせ</a>ください。"
-          },
-          "AccessDenied": {
-            "Title": "アクセス拒否されました",
-            "Text": "このエラーを解決するため、<a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>へご連絡ください。"
-          },
-          "ReqOfUserNotFound": {
-            "Title": "ユーザーアカウントが存在しません",
-            "Text": "この問題を解決するため、<a href='/request/create/ca' target=\"_blank\">サポートへお問い合わせ</a>ください。"
-          },
-          "UpdOfUserNotFound": {
-            "Title": "編集しようとしたユーザーアカウントは存在しません",
-            "Text": "この問題を解決するため、<a href='/request/create/ca' target=\"_blank\">サポートへお問い合わせ</a>ください。"
-          },
-          "DelOfUserNotFound": {
-            "Title": "このアカウントは編集中のため、削除出来ません",
-            "Text": "この問題を解決するため、<a href='/request/create/ca' target=\"_blank\">サポートへお問い合わせ</a>ください。"
-          }
+﻿{
+    "globalize-messages": {
+        "ja": {
+            "user": {
+                "list": {
+                    "header": "ユーザー名",
+                    "sort-lastname": "苗字で並べ替え",
+                    "filter-by-country-label": "国：",
+                    "filter-by-country": {
+                        "All": "すべて"
+                    },
+                    "filter-by-organization-label": "拠点：",
+                    "filter-by-organization": {
+                        "All": "すべて"
+                    },
+                    "item": {
+                        "country": "国：",
+                        "organization": "拠点："
+                    },
+                    "no-filtered-user": "ユーザーは見つかりませんでした。"
+                },
+
+                "delete": {
+                    "title": "ユーザーアカウントを削除します。",
+                    "description": "\"ユーザーアカウントの削除\"を行うとユーザーは削除されますが、そのユーザーによって作成されたお問い合わせは削除されません。",
+                    "notice": "ユーザーアカウントを削除した場合、そのユーザーがカンパニーアカウントでお問い合わせが行えなくなる事を理解しました。",
+                    "btn": "ユーザーアカウントの削除",
+                    "process": "ユーザーアカウントの削除中...",
+                    "success": "ユーザーアカウントを削除しました",
+                    "confirm": {
+                        "title": "ユーザーアカウントの削除",
+                        "text": "ユーザー{email}を削除しようとしています。削除した場合そのユーザーはカンパニーアカウントにアクセスする事が出来なくなりますが、既に作成されたお問い合わせは削除されません。",
+                        "button": "続行"
+                    },
+
+                    "errors": {
+                        "AdminBlocked": {
+                            "title": "[EV] Account has been blocked by the administrator",
+                            "text": " "
+                        },
+                        "NotSupportedSystemType": {
+                            "title": "[EV] [sys type] The account does not belong to CompanyAccount",
+                            "text": " "
+                        },
+                        "UserNotFound": {
+                            "title": "[EV][jp] ユーザーアカウントの削除に失敗しました。アカウントを削除しています...",
+                            "text": " "
+                        },
+                        "NotSupportedCompanyCategory": {
+                            "title": "[EV] [comp cat] The account does not belong to CompanyAccount",
+                            "text": " "
+                        },
+                        "IsSupportStuff": {
+                            "title": "[EV] The user account is support stuff account",
+                            "text": " "
+                        },
+                        "DifferentCompanies": {
+                            "title": "[EV] User from another company",
+                            "text": " "
+                        },
+                        "UnknownError": {
+                            "title": "ユーザーアカウントの削除に失敗しました。再試行してください。",
+                            "text": " "
+                        }
+                    }
+                },
+
+                "errors": {
+                    "DifferentCompanies": "ユーザーは別のカンパニーアカウントに所属しています。　</br>この問題を解決するため、<a href='/request/create/ca' target=\"_blank\">サポートへお問い合わせ</a>ください。",
+
+                    "GetDetailsException_DifferentCompanies": {
+                        "Title": "要求されたユーザーアカウントは貴社のカンパニーアカウントに所属していません",
+                        "Text": "この問題を解決するため、<a href='/request/create/ca' target=\"_blank\">サポートへお問い合わせ</a>ください。"
+                    },
+                    "RequestPasswordResetException_DifferentCompanies": {
+                        "Title": "編集しているユーザーアカウントは貴社のカンパニーアカウントに所属していません",
+                        "Text": "この問題を解決するため、<a href='/request/create/ca' target=\"_blank\">サポートへお問い合わせ</a>ください。"
+                    },
+                    "UpdateProfileDetailsException_DifferentCompanies": {
+                        "Title": "編集しているユーザーアカウントは貴社のカンパニーアカウントに所属していません",
+                        "Text": "この問題を解決するため、<a href='/request/create/ca' target=\"_blank\">サポートへお問い合わせ</a>ください。"
+                    },
+                    "UpdatePermissionsException_DifferentCompanies": {
+                        "Title": "編集しているユーザーアカウントは貴社のカンパニーアカウントに所属していません",
+                        "Text": "この問題を解決するため、<a href='/request/create/ca' target=\"_blank\">サポートへお問い合わせ</a>ください。"
+                    },
+                    "DeleteProfileException_DifferentCompanies": {
+                        "Title": "このアカウントは編集中のため、削除出来ません",
+                        "Text": "この問題を解決するため、<a href='/request/create/ca' target=\"_blank\">サポートへお問い合わせ</a>ください。"
+                    },
+
+                    "Failure": {
+                        "Title": "不明なエラー",
+                        "Text": "このエラーを解決するため、<a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>へご連絡ください。"
+                    },
+                    "UserNotFound": {
+                        "Title": "ユーザーが見つかりません",
+                        "Text": "このエラーを解決するため、<a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>へご連絡ください。"
+                    },
+                    "NotMainUser": {
+                        "Title": "カンパニーアカウントの管理者権限が必要です",
+                        "Text": "この問題を解決するため、<a href='/request/create/ca' target=\"_blank\">サポートへお問い合わせ</a>ください。"
+                    },
+                    "AccessDenied": {
+                        "Title": "アクセス拒否されました",
+                        "Text": "このエラーを解決するため、<a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>へご連絡ください。"
+                    },
+                    "UserNotOfCA": {
+                        "Title": "[EV] [user/ not from CA] Unknown error",
+                        "Text": "[EV] [user/ not act]Contact address <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                    },
+                    "UserNotActivated": {
+                        "Title": "[EV] [user/ not act] Unknown error",
+                        "Text": "[EV] [user/ not act]Contact address <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                    },
+
+                    "GetDetailsException_OfUserNotFound": {
+                        "Title": "ユーザーアカウントが存在しません",
+                        "Text": "この問題を解決するため、<a href='/request/create/ca' target=\"_blank\">サポートへお問い合わせ</a>ください。"
+                    },
+                    "RequestPasswordResetException_OfUserNotFound": {
+                        "Title": "ユーザーアカウントが存在しません",
+                        "Text": "この問題を解決するため、<a href='/request/create/ca' target=\"_blank\">サポートへお問い合わせ</a>ください。"
+                    },
+                    "UpdateProfileDetailsException_OfUserNotFound": {
+                        "Title": "ユーザーアカウントが存在しません",
+                        "Text": "この問題を解決するため、<a href='/request/create/ca' target=\"_blank\">サポートへお問い合わせ</a>ください。"
+                    },
+                    "UpdatePermissionsException_OfUserNotFound": {
+                        "Title": "ユーザーアカウントが存在しません",
+                        "Text": "この問題を解決するため、<a href='/request/create/ca' target=\"_blank\">サポートへお問い合わせ</a>ください。"
+                    },
+                    "DeleteProfileException_OfUserNotFound": {
+                        "Title": "ユーザーアカウントが存在しません",
+                        "Text": "この問題を解決するため、<a href='/request/create/ca' target=\"_blank\">サポートへお問い合わせ</a>ください。"
+                    }
+                }
+            },
+            "profile": {
+                "title-profile": "マイアカウント",
+                "title-user": "アカウントの詳細表示",
+                "delete": {
+                    "title": "ユーザーアカウントの削除",
+                    "description": "\"アカウントの削除\"をクリックした後、アカウント削除の確認メールがお客様のメールアドレスに届きますのでメール本文内のリンクをクリックしてください。",
+                    "notice": "アカウントを削除した場合、カンパニーアカウンでのお問い合わせが行えなくなる事を理解しました。",
+                    "btn": "アカウント削除",
+                    "process": "アカウントの削除要求を送信中...",
+                    "success": "アカウントの削除を確認するメール内のリンクをクリックしてください。",
+                    "confirm": {
+                        "title": "アカウント削除",
+                        "text": "アカウントを削除しようとしています。アカウントの削除を確認するメール内のリンクをクリックすると、カンパニーアカウントへのアクセスは行えなくなります。",
+                        "button": "削除"
+                    },
+                    "errors": {
+                        "RepeatedDeactivation": "ユーザーアカウントの削除に失敗しました。失敗しました。アカウント削除中...",
+                        "UnknownError": "ユーザーアカウントの削除に失敗しました。再試行してください。",
+                        "UserNotFound": "ユーザーが見つかりません",
+                        "AccessDenied": "アクセスが拒否されました",
+                        "NotMainUser": "アクセスが拒否されました。カンパニーアカウントの管理者権限が必要です",
+                        "CompanyNotFound": "カンパニーアカウントが存在しません。",
+                        "OfUserNotFound": "ユーザーアカウントの削除に失敗しました。該当のユーザーが見つかりません。",
+                        "DifferentCompanies": "このアカウントは編集中のため、削除出来ません。"
+                    }
+                },
+                "deleteCompany": {
+                    "title": "カンパニーアカウントの削除",
+                    "description": "\"カンパニーアカウントの削除\"をクリックした後、カンパニーアカウント削除の確認メールがお客様のメールアドレスに届きますのでメール本文内のリンクをクリックしてください。",
+                    "continue": "続行",
+                    "notice": "カンパニーアカウントを削除すると、このカンパニーアカウントに関するすべての情報が利用出来なくなることを理解しました。",
+                    "btn": "カンパニーアカウントの削除",
+                    "process": "カンパニーアカウントの削除中...",
+                    "success": "確認メールをお客様のメールアドレスへ送信しました。",
+                    "errors": {
+                        "Success": "アカウントの削除を確認するメール内のリンクをクリックしてください",
+                        "RepeatedDeactivation": "アカウントの削除を行うために、再度アカウント削除を確認するメール内のリンクをクリックしてください。",
+                        "UnknownError": "カンパニーアカウントの削除に失敗しました。再試行してください。",
+                        "UserNotFound": "ユーザーが見つかりません",
+                        "AccessDenied": "アクセス拒否されました",
+                        "NotMainUser": "アクセスが拒否されました。カンパニーアカウントの管理者権限が必要です",
+                        "CompanyNotFound": "カンパニーアカウントが存在しません"
+                    },
+                    "confirm": {
+                        "title": "カンパニーアカウントの削除",
+                        "description": "\"続行\"をクリックすると確認メールがお客様のメールアドレスに送信されますので、削除を行うため確認メール内のリンクをクリックしてください。",
+                        "continue": "続行"
+                    },
+                    "popupTitle": "カンパニーアカウントの削除要求が送信されました",
+                    "popupMsg": "カンパニーアカウントの削除を完了するため、メッセージ内のリンクをクリックします"
+                },
+                "errors": {
+                    "FirstName.RequiredRule": "名前を入力してください",
+                    "LastName.RequiredRule": "苗字を入力してください",
+                    "Country.RequiredRule": "お住まいの国を選択してください",
+                    "InvalidCountry": "国の指定エラー",
+                    "FirstName.MaxByteLengthRule": "[EV] Name is too long, max length: {Length}",
+                    "LastName.MaxByteLengthRule": "[EV] Last name is too long, Max length: {Length}",
+                    "Organization.MaxByteLengthRule": "[EV] Organization is too long, Max length: {Length}",
+
+                    "Failure": {
+                        "Title": "予期しないエラー",
+                        "Text": "<a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>にお問い合わせください。"
+                    },
+                    "OfUserNotFound": {
+                        "Title": "ユーザーアカウントが存在しません",
+                        "Text": "<a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>にお問い合わせください。"
+                    },
+                    "NotMainUser": {
+                        "Title": "カンパニーアカウントの管理者権限が必要です",
+                        "Text": "<a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>にお問い合わせください。"
+                    },
+                    "AccessDenied": {
+                        "Title": "ユーザーアカウントエラーです。アクセスが拒否されました",
+                        "Text": "<a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>にお問い合わせください。"
+                    },
+                    "UnknownError": {
+                        "Title": "ユーザープロファイルの編集中に </br> 不明なエラーが発生しました",
+                        "Text": "<a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>にお問い合わせください。"
+                    },
+                    "UserNotOfCA": {
+                        "Title": "[EV] [not from CA] Unknown error",
+                        "Text": "[EV] [not act]Contact address <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                    },
+                    "UserNotActivated": {
+                        "Title": "[EV] [not act] Unknown error",
+                        "Text": "[EV] [not act]Contact address <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                    }
+                },
+                "permissions": {
+                    "title": "ユーザーアカウントの権限",
+                    "ViewAllRequests": "すべてのお問い合わせを表示",
+                    "ManageContacts": "ユーザーアカウントの管理",
+                    "AddLicenses": "ライセンスの追加",
+                    "RemoveLicenses": "ライセンスの削除",
+                    "EditAllRequests": "他のユーザーのお問い合わせを編集可能",
+                    "saveError": "変更を保存できませんでした。再試行してください。",
+                    "saveBtn": "変更を保存",
+                    "saveWait": "変更を保存中...",
+                    "saveSuccess": "変更内容が保存されました。"
+                },
+                "personalinfo": {
+                    "title": "ユーザー情報",
+                    "email": "E-mail：",
+                    "company": "国：",
+                    "company-id": "(ID： {companyId})",
+                    "accounttype": "ユーザーアカウントの種別：",
+                    "firstname": "名前：",
+                    "lastname": "苗字：",
+                    "country": "国：",
+                    "firstnamePlaceholder": "名前",
+                    "lastnamePlaceholder": "苗字",
+                    "filial": "拠点：",
+                    "notifications": "通知内容：",
+                    "saveBtn": "変更を保存",
+                    "cancelBtn": "キャンセル",
+                    "saveError": "変更を保存できませんでした。再試行してください。",
+                    "saveWait": "変更を保存中...",
+                    "saveSuccess": "変更内容が保存されました",
+                    "filialDefault": "部門の選択",
+                    "filialMessage": "部門を選択するか、名称を入力ください",
+                    "fullDescription": "詳細"
+                },
+
+                "resetPassword": {
+                    "success": " ",
+                    "errors": {
+                        "AdminBlocked": {
+                            "title": "[EV] Account has been blocked by the administrator",
+                            "text": " "
+                        },
+                        "NotSupportedSystemType": {
+                            "title": "[EV] [sys type] The account does not belong to CompanyAccount",
+                            "text": " "
+                        },
+                        "UserNotFound": {
+                            "title": "[EV] User not found",
+                            "text": " "
+                        },
+                        "NotSupportedCompanyCategory": {
+                            "title": "[EV] [comp cat] The account does not belong to CompanyAccount",
+                            "text": " "
+                        },
+                        "NotActivated": {
+                            "title": "[EV] The user account is not activated",
+                            "text": " "
+                        },
+                        "IsSupportStuff": {
+                            "title": "[EV] The user account is support stuff account",
+                            "text": " "
+                        },
+                        "UnknownError": {
+                            "title": "An unknown failure",
+                            "text": "An unknown failure, try reset password later"
+                        }
+                    }
+                },
+
+                "resetPasswordTitle": "パスワードのリセット",
+                "resetPasswordDescription": "パスワードの初期化手順は、お客様のメールアドレスに送信されます。",
+                "resetPasswordButton": "パスワードのリセット",
+                "resetPasswordWait": "パスワードのリセット中...",
+                "resetPasswordSuccess": "パスワードがリセットされました。パスワードの再設定に関する手順はメールをご確認ください。",
+                "resetPasswordSuccessUser": "パスワードがリセットされました。パスワードの再設定に関する手順はお客様のメールアドレスに送信されました。",
+                "resetPasswordError": "パスワードのリセットに失敗しました。再試行してください",
+                "fileUpload": {
+                    "title": "添付ファイル：",
+                    "agreedtext": "<a href='javascript://' class='profile-file-agreement-accepted-link' target='_blank'>ファイル提供に関する規約</a>に同意しました",
+                    "notagreedtext": "ファイルをアップロードする場合は、<a href='javascript://' class='link-modal-win profile-file-agreement-btn' data='license-cont'>ファイル提供に関する規約</a>にご同意いただく必要があります"
+                }
+            }
         }
-      },
-      "profile": {
-        "title-profile": "マイアカウント",
-        "title-user": "アカウントの詳細表示",
-        "delete": {
-          "title": "ユーザーアカウントの削除",
-          "description": "\"アカウントの削除\"をクリックした後、アカウント削除の確認メールがお客様のメールアドレスに届きますのでメール本文内のリンクをクリックしてください。",
-          "notice": "アカウントを削除した場合、カンパニーアカウンでのお問い合わせが行えなくなる事を理解しました。",
-          "btn": "アカウント削除",
-          "process": "アカウントの削除要求を送信中...",
-          "success": "アカウントの削除を確認するメール内のリンクをクリックしてください。",
-          "confirm": {
-            "title": "アカウント削除",
-            "text": "アカウントを削除しようとしています。アカウントの削除を確認するメール内のリンクをクリックすると、カンパニーアカウントへのアクセスは行えなくなります。",
-            "button": "削除"
-          },
-          "errors": {
-            "RepeatedDeactivation": "ユーザーアカウントの削除に失敗しました。失敗しました。アカウント削除中...",
-            "UnknownError": "ユーザーアカウントの削除に失敗しました。再試行してください。",
-            "UserNotFound": "ユーザーが見つかりません",
-            "AccessDenied": "アクセスが拒否されました",
-            "NotMainUser": "アクセスが拒否されました。カンパニーアカウントの管理者権限が必要です",
-            "CompanyNotFound": "カンパニーアカウントが存在しません。",
-            "OfUserNotFound": "ユーザーアカウントの削除に失敗しました。該当のユーザーが見つかりません。",
-            "DifferentCompanies": "このアカウントは編集中のため、削除出来ません。"
-          }
-        },
-        "deleteCompany": {
-          "title": "カンパニーアカウントの削除",
-          "description": "\"カンパニーアカウントの削除\"をクリックした後、カンパニーアカウント削除の確認メールがお客様のメールアドレスに届きますのでメール本文内のリンクをクリックしてください。",
-          "continue": "続行",
-          "notice": "カンパニーアカウントを削除すると、このカンパニーアカウントに関するすべての情報が利用出来なくなることを理解しました。",
-          "btn": "カンパニーアカウントの削除",
-          "process": "カンパニーアカウントの削除中...",
-          "success": "確認メールをお客様のメールアドレスへ送信しました。",
-          "errors": {
-            "Success": "アカウントの削除を確認するメール内のリンクをクリックしてください",
-            "RepeatedDeactivation": "アカウントの削除を行うために、再度アカウント削除を確認するメール内のリンクをクリックしてください。",
-            "UnknownError": "カンパニーアカウントの削除に失敗しました。再試行してください。",
-            "UserNotFound": "ユーザーが見つかりません",
-            "AccessDenied": "アクセス拒否されました",
-            "NotMainUser": "アクセスが拒否されました。カンパニーアカウントの管理者権限が必要です",
-            "CompanyNotFound": "カンパニーアカウントが存在しません"
-          },
-          "confirm": {
-            "title": "カンパニーアカウントの削除",
-            "description": "\"続行\"をクリックすると確認メールがお客様のメールアドレスに送信されますので、削除を行うため確認メール内のリンクをクリックしてください。",
-            "continue": "続行"
-          },
-          "popupTitle": "カンパニーアカウントの削除要求が送信されました",
-          "popupMsg": "カンパニーアカウントの削除を完了するため、メッセージ内のリンクをクリックします"
-        },
-        "errors": {
-          "FirstNameIsRequired": "名前を入力してください",
-          "LastNameIsRequired": "苗字を入力してください",
-          "CountryIsRequired": "お住まいの国を選択してください",
-          "InvalidCountry": "国の指定エラー",
-          "Failure": {
-            "Title": "予期しないエラー",
-            "Text": "<a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>にお問い合わせください。"
-          },
-          "OfUserNotFound": {
-            "Title": "ユーザーアカウントが存在しません",
-            "Text": "<a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>にお問い合わせください。"
-          },
-          "NotMainUser": {
-            "Title": "カンパニーアカウントの管理者権限が必要です",
-            "Text": "<a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>にお問い合わせください。"
-          },
-          "AccessDenied": {
-            "Title": "ユーザーアカウントエラーです。アクセスが拒否されました",
-            "Text": "<a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>にお問い合わせください。"
-          },
-          "UserNotFound": {
-            "Title": "ユーザーアカウントが存在しません",
-            "Text": "<a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>にお問い合わせください。"
-          },
-          "UnknownError": {
-            "Title": "ユーザープロファイルの編集中に </br> 不明なエラーが発生しました",
-            "Text": "<a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>にお問い合わせください。"
-          }
-        },
-        "permissions": {
-          "title": "ユーザーアカウントの権限",
-          "ViewAllRequests": "すべてのお問い合わせを表示",
-          "ManageContacts": "ユーザーアカウントの管理",
-          "AddLicenses": "ライセンスの追加",
-          "RemoveLicenses": "ライセンスの削除",
-          "EditAllRequests": "他のユーザーのお問い合わせを編集可能",
-          "saveError": "変更を保存できませんでした。再試行してください。",
-          "saveBtn": "変更を保存",
-          "saveWait": "変更を保存中...",
-          "saveSuccess": "変更内容が保存されました。"
-        },
-        "personalinfo": {
-          "title": "ユーザー情報",
-          "email": "E-mail：",
-          "company": "国：",
-          "company-id": "(ID： {companyId})",
-          "accounttype": "ユーザーアカウントの種別：",
-          "firstname": "名前：",
-          "lastname": "苗字：",
-          "country": "国：",
-          "firstnamePlaceholder": "名前",
-          "lastnamePlaceholder": "苗字",
-          "filial": "拠点：",
-          "notifications": "通知内容：",
-          "saveBtn": "変更を保存",
-          "cancelBtn": "キャンセル",
-          "saveError": "変更を保存できませんでした。再試行してください。",
-          "saveWait": "変更を保存中...",
-          "saveSuccess": "変更内容が保存されました",
-          "filialDefault": "部門の選択",
-          "filialMessage": "部門を選択するか、名称を入力ください",
-          "fullDescription": "詳細"
-        },
-        "resetPasswordTitle": "パスワードのリセット",
-        "resetPasswordDescription": "パスワードの初期化手順は、お客様のメールアドレスに送信されます。",
-        "resetPasswordButton": "パスワードのリセット",
-        "resetPasswordWait": "パスワードのリセット中...",
-        "resetPasswordSuccess": "パスワードがリセットされました。パスワードの再設定に関する手順はメールをご確認ください。",
-        "resetPasswordSuccessUser": "パスワードがリセットされました。パスワードの再設定に関する手順はお客様のメールアドレスに送信されました。",
-        "resetPasswordError": "パスワードのリセットに失敗しました。再試行してください",
-        "fileUpload": {
-          "title": "添付ファイル：",
-          "agreedtext": "<a href='javascript://' class='profile-file-agreement-accepted-link' target='_blank'>ファイル提供に関する規約</a>に同意しました",
-          "notagreedtext": "ファイルをアップロードする場合は、<a href='javascript://' class='link-modal-win profile-file-agreement-btn' data='license-cont'>ファイル提供に関する規約</a>にご同意いただく必要があります"
-        }
-      }
     }
-  }
 }
