@@ -1,150 +1,179 @@
 {
-  "globalize-messages": {
-    "ru": {
-      "notification": {
-        "hide": "Больше не показывать"
-      },
-      "header": {
-        "title": "Kaspersky CompanyAccount",
-        "menu": {
-          "requests": "Запросы",
-          "licenses": "Лицензии",
-          "users": "Пользователи",
-          "contracts": "Контракты",
-          "createrequest": "Создать запрос",
-          "signout": "Выход"
+    "globalize-messages": {
+        "ru": {
+            "notification": {
+                "hide": "Больше не показывать"
+            },
+            "header": {
+                "title": "Kaspersky CompanyAccount",
+                "menu": {
+                    "requests": "Запросы",
+                    "licenses": "Лицензии",
+                    "users": "Пользователи",
+                    "contracts": "Контракты",
+                    "createrequest": "Создать запрос",
+                    "signout": "Выход"
+                }
+            },
+            "captcha": {
+                "label": "Введите символы, изображенные ниже: ",
+                "placeholder": "Символы",
+                "loading": "Загрузка CAPTCHA...",
+                "errors": {
+                    "CaptchaIsRequired": "Введите код",
+                    "CaptchaNotFound": "Код отсутствует",
+                    "CaptchaTimeout": "Код устарел, введите новый код",
+                    "CaptchaIncorrect": "Код введён неверно, попробуйте ещё раз"
+                }
+            },
+
+            "fileupload": {
+                "error": "Ошибка загрузки",                
+                "attachError": "При добавлении файла произошла ошибка",
+                "loaded": "Загружен",
+                "delete": "Удалить",
+                "cancel": "Отменить",
+                "key": {
+                    "label": "Загрузите файл ключа: ",
+                    "button": "Загрузить"
+                },
+                "file": {
+                    "button": "Загрузить файл",
+                    "button-csr": "Выбрать CSR-файл",
+                    "agreement": "Положение о предоставлении данных",
+                    "condition": "Для загрузки файлов примите условия <a href='javascript://'>Положения о предоставлении данных</a>",
+                    "commonFile": "Вы можете загрузить от 1 до 3 файлов, максимальный размер одного файла - 4 Гбайт",
+                    "csrFile": "Максимальный размер загружаемого файла - 5 Kбайт",
+                    "amrFile": "Максимальный размер загружаемого файла - 10 MБайт"
+                },
+                "file-agreement": {
+                    "label": "Я принимаю Условия Положения о предоставлении данных",
+                    "continue": "Продолжить"
+                },
+                "errors": {
+                    "maxFileSize": "Размер файла превышает допустимый",
+                    "minFileSize": "Размер файла слишком мал",
+                    "acceptFileTypes": "Недопустимый тип файла",
+                    "maxNumberOfFiles": "Превышен лимит количества файлов",                    
+                    "uploadError": "При загрузке файлов произршла сетевая ошибка"
+                }
+            },
+
+            "file-agreement": {
+                "accept-text": "Я принимаю Условия Положения о предоставлении данных",
+                "continue": "Продолжить",
+                "error": "Во время сохранения данных произошла ошибка. Пожалуйста попробуйте еще раз позднее"
+            },
+
+            "footer": {
+                "links": {
+                    "support": "База знаний",
+                    "support-link": "http://support.kaspersky.ru/",
+                    "contacts": "Контакты",
+                    "contacts-link": "http://support.kaspersky.ru/support/contacts",
+                    "politics": "Политика конфиденциальности",
+                    "politics-link": "http://support.kaspersky.ru/support/PrivacyStatement_for_CompanyAccount",
+                    "legalinformation": "Юридическая информация",
+                    "legalinformation-link": "http://www.kaspersky.ru/legal-notice"
+                },
+                "supportnumber": " ",
+                "supportPhone": " ",
+                "selectlanguage": "Выберите язык сервиса:",
+                "copyrightStart": "Copyright &copy;",
+                "copyrightEnd": "АО «Лаборатория Касперского» ",
+                "errors": {
+                    "UserNotFound": {
+                        "title": "Возникли проблемы с вашей учетной записью",
+                        "message": "Пожалуйста обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                    },
+                    "UnknownError": {
+                        "title": "Произошел неизвестный сбой",
+                        "message": "При смене языка произошел неизвестный сбой. <br />Пожалуйста, подождите несколько минут и попробуйте еще раз. Если проблема повторится, обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> для решения возникших проблем"
+                    }
+                }
+            },
+
+            "confirm-component": {
+                "cancel": "Отмена"
+            },
+            "pager": {
+                "title": "Страницы:"
+            },
+            "modals": {
+                "close": "Close",
+                "AccountProblems": {
+                    "title": "Проблема с вашей учетной записью",
+                    "message": "Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> для решения возникших проблем"
+                }
+            },
+
+            "SecurityExceptions": {
+                "Unexpected": {
+                    "title": "[EV][unexpected] Проблема с вашей учетной записью",
+                    "text": "[EV] Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> для решения возникших проблем"
+                },
+                "AccessDenied": {
+                    "title": "[EV][accessDenied]  Проблема с вашей учетной записью",
+                    "text": "[EV] Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> для решения возникших проблем"
+                },
+                "AdminBlocked": {
+                    "title": "[EV][admBlocked]  Проблема с вашей учетной записью",
+                    "text": "[EV] Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> для решения возникших проблем"
+                },
+                "NotActivated": {
+                    "title": "[EV][notAct]  Проблема с вашей учетной записью",
+                    "text": "[EV] Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> для решения возникших проблем"
+                },
+                "UserNotFound": {
+                    "title": "[EV][NotFound]  Проблема с вашей учетной записью",
+                    "text": "[EV] Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> для решения возникших проблем"
+                },
+                "NotSupportedCompanyCategory": {
+                    "title": "[EV][notSuppCompCat]  Проблема с вашей учетной записью",
+                    "text": "[EV] Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> для решения возникших проблем"
+                },
+                "NotSupportedSystemType": {
+                    "title": "[EV][notSuppSysType]  Проблема с вашей учетной записью",
+                    "text": "[EV] Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> для решения возникших проблем"
+                },
+                "IsSupportStuff": {
+                    "title": "[EV][isSuppStuff]  Проблема с вашей учетной записью",
+                    "text": "[EV] Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> для решения возникших проблем"
+                }
+            },
+
+            "errors": {
+                "globalization-not-found": "Ошибка локализации",
+                "server-validation": "[EV] Ошибка серверной валидации для поля {property}, правило: {rule}",
+
+                "404": {
+                    "title": "Ошибка 404",
+                    "text": "К сожалению, запрашиваемая страница не найдена.  ",
+                    "to-main-page": "Попробуйте вернуться <a href='/request/list'>на страницу запросов.</a>  "
+                },
+                "500": {
+                    "title": "Ошибка сервера 500",
+                    "text": "На сервере произошла непредвиденная ошибка. Пожалуйста, подождите.  ",
+                    "to-main-page": "Попробуйте вернуться <a href='/request/list'>на страницу запросов. </a>  "
+                },
+                "forbidden": {
+                    "title": "У Вас нет доступа к этой странице",
+                    "text": "Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>",
+                    "to-main-page": "  "
+                },
+                "end-session": {
+                    "title": "В Вашу учётную запись были внесены изменения",
+                    "text": "Вам необходимо авторизоваться повторно. <br> Мы перенаправим Вас на страницу входа."
+                },
+                "custom": {
+                    "to-main-page": "Попробуйте <a href=\"request/list\"> вернуться на главную страницу </a>."
+                },
+
+                "UnknownError": {
+                    "title": "[EV]Произошел неизвестный сбой",
+                    "text": "[EV]Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                }
+            }
         }
-      },
-      "captcha": {
-        "label": "Введите символы, изображенные ниже: ",
-        "placeholder": "Символы",
-        "loading": "Загрузка CAPTCHA...",
-        "errors": {
-          "CaptchaIsRequired": "Введите код",
-          "CaptchaNotFound": "Код отсутствует",
-          "CaptchaTimeout": "Код устарел, введите новый код",
-          "CaptchaIncorrect": "Код введён неверно, попробуйте ещё раз"
-        }
-      },
-      "fileupload": {
-        "error": "Ошибка загрузки",
-        "loaded": "Загружен",
-        "delete": "Удалить",
-        "cancel": "Отменить",
-        "key": {
-          "label": "Загрузите файл ключа: ",
-          "button": "Загрузить"
-        },
-        "file": {
-          "button": "Загрузить файл",
-          "button-csr": "Выбрать CSR-файл",
-          "agreement": "Положение о предоставлении данных",
-          "condition": "Для загрузки файлов примите условия <a href='javascript://'>Положения о предоставлении данных</a>",
-          "commonFile": "Вы можете загрузить от 1 до 3 файлов, максимальный размер одного файла - 4 Гбайт",
-          "csrFile": "Максимальный размер загружаемого файла - 5 Kбайт",
-          "amrFile": "Максимальный размер загружаемого файла - 10 MБайт"
-        },
-        "file-agreement": {
-          "label": "Я принимаю Условия Положения о предоставлении данных",
-          "continue": "Продолжить"
-        },
-        "errors": {
-          "maxFileSize": "Размер файла превышает допустимый",
-          "minFileSize": "Размер файла слишком мал",
-          "acceptFileTypes": "Недопустимый тип файла",
-          "maxNumberOfFiles": "Превышен лимит количества файлов"
-        }
-      },
-      "file-agreement": {
-        "accept-text": "Я принимаю Условия Положения о предоставлении данных",
-        "continue": "Продолжить",
-        "error": "Во время сохранения данных произошла ошибка. Пожалуйста попробуйте еще раз позднее"
-      },
-      "footer": {
-        "links": {
-          "support": "База знаний",
-          "support-link": "http://support.kaspersky.ru/",
-          "contacts": "Контакты",
-          "contacts-link": "http://support.kaspersky.ru/support/contacts",
-          "politics": "Политика конфиденциальности",
-          "politics-link": "http://support.kaspersky.ru/support/PrivacyStatement_for_CompanyAccount",
-          "legalinformation": "Юридическая информация",
-          "legalinformation-link": "http://www.kaspersky.ru/legal-notice"
-        },
-        "supportnumber": " ",
-        "supportPhone": " ",
-        "selectlanguage": "Выберите язык сервиса:",
-        "copyrightStart": "Copyright &copy;",
-        "copyrightEnd": "АО «Лаборатория Касперского» ",
-        "errors": {
-          "UserNotFound": {
-            "title": "Возникли проблемы с вашей учетной записью",
-            "message": "Пожалуйста обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
-          },
-          "UnknownError": {
-            "title": "Произошел неизвестный сбой",
-            "message": "При смене языка произошел неизвестный сбой. <br />Пожалуйста, подождите несколько минут и попробуйте еще раз. Если проблема повторится, обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> для решения возникших проблем"
-          }
-        }
-      },
-      "confirm-component": {
-        "cancel": "Отмена"
-      },
-      "pager": {
-        "title": "Страницы:"
-      },
-      "modals": {
-        "close": "Close",
-        "AccountProblems": {
-          "title": "Проблема с вашей учетной записью",
-          "message": "Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> для решения возникших проблем"
-        }
-      },
-      "errors": {
-        "404": {
-          "title": "Ошибка 404",
-          "text": "К сожалению, запрашиваемая страница не найдена.  ",
-          "to-main-page": "Попробуйте вернуться <a href='/request/list'>на страницу запросов.</a>  "
-        },
-        "500": {
-          "title": "Ошибка сервера 500",
-          "text": "На сервере произошла непредвиденная ошибка. Пожалуйста, подождите.  ",
-          "to-main-page": "Попробуйте вернуться <a href='/request/list'>на страницу запросов. </a>  "
-        },
-        "globalization-not-found": "Ошибка локализации",
-        "forbidden": {
-          "title": "У Вас нет доступа к этой странице",
-          "text": "Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>",
-          "to-main-page": "  "
-        },
-        "end-session": {
-          "title": "В Вашу учётную запись были внесены изменения",
-          "text": "Вам необходимо авторизоваться повторно. <br> Мы перенаправим Вас на страницу входа."
-        },
-        "custom": {
-          "to-main-page": "Попробуйте <a href=\"request/list\"> вернуться на главную страницу </a>."
-        },
-        "NotMainUser": {
-          "Title": "Пользователь не является администратором",
-          "Text": "Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
-        },
-        "AccessDenied": {
-          "Title": "Доступ запрещён",
-          "Text": "Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
-        },
-        "UserNotFound": {
-          "Title": "Пользователь не найден",
-          "Text": "Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
-        },
-        "UnknownError": {
-          "Title": "Произошел неизвестный сбой",
-          "Text": "Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
-        },
-        "Failure": {
-          "Title": "Возникла проблема с настройками системы",
-          "Text": "Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
-        }
-      }
     }
-  }
-}
+    }

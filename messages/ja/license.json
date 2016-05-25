@@ -1,104 +1,109 @@
-{
-  "globalize-messages": {
-    "ja": {
-      "license": {
-        "add": {
-          "license-add-label": "ライセンスの追加：",
-          "code-add": "アクティベーションコードの追加",
-          "code-add-or": "または",
-          "upload-file": "ライセンス情報ファイルの選択",
-          "file-send": "ライセンスの追加",
-          "process": "ライセンスを追加しています...",
-          "errors": {
-            "Success": "ライセンスが追加されました",
-            "GettingLicenseInfoError": "エラー。ライセンスが見つかりません",
-            "ConsumerLicense": "ライセンスが追加されました個人向け製品のライセンスを追加する前に、<br/>法人向け製品のライセンスを少なくとも 1 個追加する必要があります。",
-            "LicenseIsExpired": "ライセンスの有効期間が終了しました",
-            "LicenseIsBlocked": "エラー。ライセンスがブロックされています",
-            "IncorrectAC": "エラー。アクティベーションコードの形式が正しくありません",
-            "IncorrectKeyFile": "エラー。ライセンス情報ファイルが正しくありません",
-            "MultLicUseErr": "エラー。ライセンスが別の企業で使用中です",
-            "SuccessUserMoved": "ライセンスが追加されました企業情報が変更されました。<br/>変更を適用するには、カンパニーアカウントに再度サインインしてください。",
-            "LicenseAlreadyExists": "ライセンスがすでに存在します",
-            "ACExpired": "アクティベーションコードの有効期間が終了しています",
-            "UnknownError": "エラーが発生しました。再度入力してください問題が解決しない場合は、<a href='../request/create/ca' target=\"_blank\">テクニカルサポートへお問い合わせください</a>",
-            "LicenseNotFound": "エラー。ライセンスが見つかりません"
-          },
-          "success-user-moved": {
-            "title": "ライセンスが追加されました",
-            "description": "企業情報が変更されました。<br/>変更を適用するには、カンパニーアカウントに再度サインインしてください。",
-            "refresh": "OK"
-          }
-        },
-        "statuses": {
-          "Valid": "使用中",
-          "NotFound": "見つからない",
-          "Expired": "有効期間が終了",
-          "Blocked": "ブロック",
-          "NotActivated": "アクティベートされていない",
-          "Deleted": "削除済み"
-        },
-        "comments": {
-          "NotActivated": "ライセンスがアクティベートされていません。リクエスト可能な種別の範囲が制限される可能性があります。製品上からライセンスをアクティベートしてください。",
-          "ExpiresSoon": "ライセンスの有効期間がまもなく終了します。",
-          "Blocked": "ブロックされた日：{BlockedDate}"
-        },
-        "list": {
-          "title": "ライセンス",
-          "filter-by-status-label": "ライセンスを表示：",
-          "filter-by-status": {
-            "All": "すべて",
-            "Active": "使用中",
-            "Expiring": "有効期間が終了",
-            "Inactive": "未使用",
-            "Blocked": "ブロック"
-          },
-          "expire-date": "有効期限",
-          "item": {
-            "activation-code": "アクティベーションコード：",
-            "count": "ノード：",
-            "serial-number": "識別 ID：",
-            "order-number": "注文 ID：",
-            "compatible-application": "互換性がある製品",
-            "add-date": "追加日： ",
-            "key-file": "ライセンス情報ファイル：",
-            "remove-license": "ライセンスを削除する"
-          },
-          "no-filtered-license": "リクエストが見つかりません。検索条件の範囲を広げてください",
-          "no-license": "ライセンスが添付されていません。",
-          "errors": {
-            "NoCompatibleApps": "このライセンスで使用可能な製品はありません。このライセンスで使用可能な機能について、<a href='../request/create/ca' target=\"_blank\">テクニカルサポートへお問い合わせください</a> ",
-            "UnknownError": "不明なエラー問題が解決しない場合は、<a href='../request/create/ca' target=\"_blank\">テクニカルサポートへお問い合わせください</a>"
-          },
-          "compatibleapps": "互換性がある製品：",
-          "remove": {
-            "confirm-title": "ライセンスを削除する",
-            "confirm-text": "{0} のライセンスを削除しようとしています。<br />カンパニーアカウントに、後で再度追加することもできます。",
-            "confirm-button": "削除する"
-          }
-        },
-        "compatible": {
-          "errors": {
-            "UserNotFound": {
-              "title": "ユーザーが見つかりません",
-              "message": " "
-            },
-            "AccessDenied": {
-              "title": "アクセスが拒否されました",
-              "message": " "
-            },
-            "UnknownError": {
-              "title": "エラーが発生しました",
-              "message": "互換性がある製品のリストを開くときに、不明なエラーが発生しました。しばらくしてから、再試行してください。問題が解決しない場合は、<a href='../request/create/ca' target=\"_blank\">テクニカルサポートへお問い合わせください</a> "
-            },
-            "NoCompatibleApps": {
-              "title": "このライセンスで使用可能な製品はありません。 ",
-              "message": "このライセンスで使用可能な機能について、<a href='../request/create/ca' target=\"_blank\">テクニカルサポートへお問い合わせください</a>"
+﻿{
+    "globalize-messages": {
+        "ja": {
+            "license": {
+                "add": {
+                    "license-add-label": "ライセンスの追加：",
+                    "code-add": "アクティベーションコードの追加",
+                    "code-add-or": "または",
+                    "upload-file": "ライセンス情報ファイルの選択",
+                    "file-send": "ライセンスの追加",
+                    "process": "ライセンスを追加しています...",
+                    "errors": {
+                        "Success": "ライセンスが追加されました",
+                        "GettingLicenseInfoError": "エラー。ライセンスが見つかりません",
+                        "ConsumerLicense": "ライセンスが追加されました個人向け製品のライセンスを追加する前に、<br/>法人向け製品のライセンスを少なくとも 1 個追加する必要があります。",
+                        "LicenseIsExpired": "ライセンスの有効期間が終了しました",
+                        "LicenseIsBlocked": "エラー。ライセンスがブロックされています",
+                        "IncorrectAC": "エラー。アクティベーションコードの形式が正しくありません",
+                        "IncorrectKeyFile": "エラー。ライセンス情報ファイルが正しくありません",
+                        "MultLicUseErr": "エラー。ライセンスが別の企業で使用中です",
+                        "SuccessUserMoved": "ライセンスが追加されました企業情報が変更されました。<br/>変更を適用するには、カンパニーアカウントに再度サインインしてください。",
+                        "LicenseAlreadyExists": "ライセンスがすでに存在します",
+                        "ACExpired": "アクティベーションコードの有効期間が終了しています",
+                        "UnknownError": "エラーが発生しました。再度入力してください問題が解決しない場合は、<a href='../request/create/ca' target=\"_blank\">テクニカルサポートへお問い合わせください</a>",
+                        "LicenseNotFound": "エラー。ライセンスが見つかりません",
+                        "InvalidKeyFileSize": "[EV] File is too big"
+                    },
+                    "success-user-moved": {
+                        "title": "ライセンスが追加されました",
+                        "description": "企業情報が変更されました。<br/>変更を適用するには、カンパニーアカウントに再度サインインしてください。",
+                        "refresh": "OK"
+                    }
+                },
+
+                "statuses": {
+                    "Valid": "使用中",
+                    "NotFound": "見つからない",
+                    "Expired": "有効期間が終了",
+                    "Blocked": "ブロック",
+                    "NotActivated": "アクティベートされていない",
+                    "Deleted": "削除済み"
+                },
+
+                "comments": {
+                    "NotActivated": "ライセンスがアクティベートされていません。リクエスト可能な種別の範囲が制限される可能性があります。製品上からライセンスをアクティベートしてください。",
+                    "ExpiresSoon": "ライセンスの有効期間がまもなく終了します。",
+                    "Blocked": "ブロックされた日：{BlockedDate}"
+                },
+
+                "list": {
+                    "title": "ライセンス",
+                    "filter-by-status-label": "ライセンスを表示：",
+                    "filter-by-status": {
+                        "All": "すべて",
+                        "Active": "使用中",
+                        "Expiring": "有効期間が終了",
+                        "Inactive": "未使用",
+                        "Blocked": "ブロック"
+                    },
+                    "expire-date": "有効期限",
+                    "item": {
+                        "activation-code": "アクティベーションコード：",
+                        "count": "ノード：",
+                        "serial-number": "識別 ID：",
+                        "order-number": "注文 ID：",
+                        "compatible-application": "互換性がある製品",
+                        "add-date": "追加日： ",
+                        "key-file": "ライセンス情報ファイル：",
+                        "remove-license": "ライセンスを削除する"
+                    },
+                    "no-filtered-license": "リクエストが見つかりません。検索条件の範囲を広げてください",
+                    "no-license": "ライセンスが添付されていません。",
+                    "errors": {
+                        "NoCompatibleApps": "このライセンスで使用可能な製品はありません。このライセンスで使用可能な機能について、<a href='../request/create/ca' target=\"_blank\">テクニカルサポートへお問い合わせください</a> ",
+                        "UnknownError": "不明なエラー問題が解決しない場合は、<a href='../request/create/ca' target=\"_blank\">テクニカルサポートへお問い合わせください</a>"
+                    },
+                    "compatibleapps": "互換性がある製品：",
+                    "remove": {
+                        "confirm-title": "ライセンスを削除する",
+                        "confirm-text": "{0} のライセンスを削除しようとしています。<br />カンパニーアカウントに、後で再度追加することもできます。",
+                        "confirm-button": "削除する"
+                    }
+                },
+
+                "compatible": {
+                    "errors": {
+                        "UserNotFound": {
+                            "title": "ユーザーが見つかりません",
+                            "message": " "
+                        },
+                        "AccessDenied": {
+                            "title": "アクセスが拒否されました",
+                            "message": " "
+                        },
+                        "UnknownError": {
+                            "title": "エラーが発生しました",
+                            "message": "互換性がある製品のリストを開くときに、不明なエラーが発生しました。しばらくしてから、再試行してください。問題が解決しない場合は、<a href='../request/create/ca' target=\"_blank\">テクニカルサポートへお問い合わせください</a> "
+                        },
+                        "NoCompatibleApps": {
+                            "title": "このライセンスで使用可能な製品はありません。 ",
+                            "message": "このライセンスで使用可能な機能について、<a href='../request/create/ca' target=\"_blank\">テクニカルサポートへお問い合わせください</a>"
+                        }
+                    },
+                    "close": "閉じる"
+                }
             }
-          },
-          "close": "閉じる"
         }
-      }
     }
-  }
 }

@@ -1,28 +1,29 @@
-{
-  "globalize-messages": {
-    "pl": {
-      "document": {
-        "statuses": {
-          "1": "Aktywna:",
-          "2": "Wygasła (nieaktywna)",
-          "3": "Wygaśnie dnia:",
-          "until": "do "
-        },
-        "list": {
-          "tabs": {
-            "contracts": "Umowy dotyczące Pomocy technicznej Premium"
-          },
-          "item": {
-            "attached-files": "Załączone umowy:",
-            "download": "Pobierz",
-            "date-start": "Data aktywacji:"
-          },
-          "no-contract": {
-            "title": "Brak <a href=\"http://www.kaspersky.com/enterprise-security/maintenance-service-agreement\" target=\"_blank\">umów do Pomocy technicznej Premium</a>.",
-            "description": "Kaspersky Lab oferuje program Pomocy technicznej premium oferujący dostosowane usługi i najszybszą odpowiedź na Twoje zgłoszenia. Wybierz najbardziej odpowiadającą Ci opcję Kaspersky Maintenance Service Agreement (MSA). </br> </br>  <a href=\"http://www.kaspersky.com/business-security/services\" target=\"_blank\">Sprawdź opcje pomocy technicznej premium</a></p>"
-          }
+﻿{
+    "globalize-messages": {
+        "pl": {
+            "document": {
+                "statuses": {
+                    "1": "Aktywna:",
+                    "2": "Wygasła (nieaktywna)",
+                    "3": "Wygaśnie dnia:",
+                    "until": "do "
+                },
+                "list": {
+                    "tabs": {
+                        "contracts": "Umowy dotyczące Pomocy technicznej Premium"
+                    },
+                    "item": {
+                        "attached-files": "Załączone umowy:",
+                        "download": "Pobierz",
+                        "date-start": "Data aktywacji:"
+                    },
+                    "no-contract": {
+                        "title": "Brak <a href=\"http://www.kaspersky.com/enterprise-security/maintenance-service-agreement\" target=\"_blank\">umów do Pomocy technicznej Premium</a>.",
+                        "description": "Kaspersky Lab oferuje program Pomocy technicznej premium oferujący dostosowane usługi i najszybszą odpowiedź na Twoje zgłoszenia. Wybierz najbardziej odpowiadającą Ci opcję Kaspersky Maintenance Service Agreement (MSA). </br> </br>  <a href=\"http://www.kaspersky.com/business-security/services\" target=\"_blank\">Sprawdź opcje pomocy technicznej premium</a></p>"
+                    }
+                }
+            }
         }
-      }
     }
-  }
 }
+

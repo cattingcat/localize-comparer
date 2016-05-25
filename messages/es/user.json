@@ -1,246 +1,317 @@
-{
-  "globalize-messages": {
-    "es": {
-      "user": {
-        "list": {
-          "header": "Usuarios",
-          "sort-lastname": "Apellidos",
-          "filter-by-country-label": "Países:",
-          "filter-by-country": {
-            "All": "Todos"
-          },
-          "filter-by-organization-label": "Sucursales:",
-          "filter-by-organization": {
-            "All": "Todos"
-          },
-          "item": {
-            "country": "País:",
-            "organization": "Sucursal:"
-          },
-          "no-filtered-user": "No hay usuarios que cumplan los criterios de filtrado indicados."
-        },
-        "delete": {
-          "title": "Eliminar cuenta de usuario",
-          "description": "¡Atención! Tras hacer clic en el botón \"Eliminar cuenta\", la cuenta de usuario se va a eliminar. Seguirá siendo capaz de ver las solicitudes del usuario eliminado",
-          "notice": "Entiendo que el usuario no podrá enviar solicitudes a CompanyAccount después de eliminar la cuenta.",
-          "btn": "Eliminar cuenta de usuario",
-          "process": "Eliminando cuenta de usuario...",
-          "success": "La cuenta se ha eliminado correctamente",
-          "confirm": {
-            "title": "Eliminar cuenta",
-            "text": "Usted está a punto de eliminar la cuenta del usuario {email}. <br> Se bloqueará el acceso al portal CompanyAccount. Las solicitudes del usuario eliminado seguirán estando disponibles.",
-            "button": "Continuar"
-          },
-          "errors": {
-            "RepeatedDeactivation": "No se ha podido eliminar el usuario. Intentarlo de nuevo.",
-            "UnknownError": "No se ha podido eliminar el usuario. Inténtelo de nuevo.",
-            "UserNotFound": "Usuario no encontrado",
-            "AccessDenied": "Acceso denegado",
-            "NotMainUser": "El acceso está denegado, este usuario no tiene derechos de administrador",
-            "CompanyNotFound": "Empresa no encontrada",
-            "OfUserNotFound": "No se ha podido eliminar el usuario. Usuario no encontrado"
-          }
-        },
-        "errors": {
-          "DifferentCompanies": "Este usuario pertenece a otra empresa. </br>Por favor, <a href='/request/create/ca' target=\"_blank\"> consulte con el soporte técnico </a> sobre cómo solucionar este problema.",
-          "GetDetailsException_DifferentCompanies": {
-            "Title": "La cuenta solicitada no pertenece a su empresa",
-            "Text": "Por favor, <a href='/request/create/ca' target=\"_blank\"> consulte con el soporte técnico </a> sobre como solucionar este problema."
-          },
-          "RequestPasswordResetException_DifferentCompanies": {
-            "Title": "La cuenta que está editando no pertenece a su empresa",
-            "Text": "Por favor, <a href='/request/create/ca' target=\"_blank\"> consulte con el soporte técnico </a> sobre cómo solucionar este problema."
-          },
-          "UpdateProfileDetailsException_DifferentCompanies": {
-            "Title": "La cuenta que está editando no pertenece a su empresa",
-            "Text": "Por favor, <a href='/request/create/ca' target=\"_blank\"> consulte con el soporte técnico </a> sobre cómo solucionar este problema."
-          },
-          "UpdatePermissionsException_DifferentCompanies": {
-            "Title": "La cuenta que está editando no pertenece a su empresa",
-            "Text": "Por favor, <a href='/request/create/ca' target=\"_blank\"> consulte con el soporte técnico </a> sobre cómo solucionar este problema."
-          },
-          "DeleteProfileException_DifferentCompanies": {
-            "Title": "Esta cuenta se ha modificado y no puede eliminarla",
-            "Text": "Por favor, <a href='/request/create/ca' target=\"_blank\"> consulte con el soporte técnico </a> sobre cómo solucionar este problema."
-          },
-          "GetDetailsException_OfUserNotFound": {
-            "Title": "Cuenta no encontrada",
-            "Text": "Por favor, <a href='/request/create/ca' target=\"_blank\"> consulte con el soporte técnico </a> sobre cómo solucionar este problema."
-          },
-          "RequestPasswordResetException_OfUserNotFound": {
-            "Title": "Cuenta no encontrada",
-            "Text": "Por favor, <a href='/request/create/ca' target=\"_blank\"> consulte con el soporte técnico </a> sobre cómo solucionar este problema."
-          },
-          "UpdateProfileDetailsException_OfUserNotFound": {
-            "Title": "Cuenta no encontrada",
-            "Text": "Por favor, <a href='/request/create/ca' target=\"_blank\"> consulte con el soporte técnico </a> sobre cómo solucionar este problema."
-          },
-          "UpdatePermissionsException_OfUserNotFound": {
-            "Title": "Cuenta no encontrada",
-            "Text": "Por favor, <a href='/request/create/ca' target=\"_blank\"> consulte con el soporte técnico </a> sobre cómo solucionar este problema."
-          },
-          "DeleteProfileException_OfUserNotFound": {
-            "Title": "Cuenta no encontrada",
-            "Text": "Por favor, <a href='/request/create/ca' target=\"_blank\"> consulte con el soporte técnico </a> sobre cómo solucionar este problema."
-          },
-          "Failure": {
-            "Title": "Fallo desconocido",
-            "Text": "Consulte con el soporte técnico <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> sobre cómo solucionar este problema"
-          },
-          "UserNotFound": {
-            "Title": "Usuario no encontrado",
-            "Text": "Consulte con el soporte técnico <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> sobre cómo solucionar este problema"
-          },
-          "NotMainUser": {
-            "Title": "Usted no dispone de los derechos de administrador para esta empresa",
-            "Text": "Por favor, <a href='/request/create/ca' target=\"_blank\"> consulte con el soporte técnico </a> sobre cómo solucionar este problema."
-          },
-          "AccessDenied": {
-            "Title": "Acceso denegado",
-            "Text": "Consulte con el soporte técnico <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> sobre cómo solucionar este problema"
-          },
-          "ReqOfUserNotFound": {
-            "Title": "La cuenta solicitada no se ha encontrado",
-            "Text": "Por favor, <a href='/request/create/ca' target=\"_blank\"> consulte con el soporte técnico </a> sobre cómo solucionar este problema."
-          },
-          "UpdOfUserNotFound": {
-            "Title": "La cuenta que está editando no se ha encontrado",
-            "Text": "Por favor, <a href='/request/create/ca' target=\"_blank\"> consulte con el soporte técnico </a> sobre cómo solucionar este problema."
-          },
-          "DelOfUserNotFound": {
-            "Title": "Esta cuenta se ha modificado y no puede eliminarla",
-            "Text": "Por favor, <a href='/request/create/ca' target=\"_blank\"> consulte con el soporte técnico </a> sobre cómo solucionar este problema."
-          }
+﻿{
+    "globalize-messages": {
+        "es": {
+            "user": {
+                "list": {
+                    "header": "Usuarios",
+                    "sort-lastname": "Apellidos",
+                    "filter-by-country-label": "Países:",
+                    "filter-by-country": {
+                        "All": "Todos"
+                    },
+                    "filter-by-organization-label": "Sucursales:",
+                    "filter-by-organization": {
+                        "All": "Todos"
+                    },
+                    "item": {
+                        "country": "País:",
+                        "organization": "Sucursal:"
+                    },
+                    "no-filtered-user": "No hay usuarios que cumplan los criterios de filtrado indicados."
+                },
+
+                "delete": {
+                    "title": "Eliminar cuenta de usuario",
+                    "description": "¡Atención! Tras hacer clic en el botón \"Eliminar cuenta\", la cuenta de usuario se va a eliminar. Seguirá siendo capaz de ver las solicitudes del usuario eliminado",
+                    "notice": "Entiendo que el usuario no podrá enviar solicitudes a CompanyAccount después de eliminar la cuenta.",
+                    "btn": "Eliminar cuenta de usuario",
+                    "process": "Eliminando cuenta de usuario...",
+                    "success": "La cuenta se ha eliminado correctamente",
+                    "confirm": {
+                        "title": "Eliminar cuenta",
+                        "text": "Usted está a punto de eliminar la cuenta del usuario {email}. <br> Se bloqueará el acceso al portal CompanyAccount. Las solicitudes del usuario eliminado seguirán estando disponibles.",
+                        "button": "Continuar"
+                    },
+
+                    "errors": {
+                        "AdminBlocked": {
+                            "title": "[EV] Account has been blocked by the administrator",
+                            "text": " "
+                        },
+                        "NotSupportedSystemType": {
+                            "title": "[EV] [sys type] The account does not belong to CompanyAccount",
+                            "text": " "
+                        },
+                        "UserNotFound": {
+                            "title": "Usuario no encontrado",
+                            "text": " "
+                        },
+                        "NotSupportedCompanyCategory": {
+                            "title": "[EV] [comp cat] The account does not belong to CompanyAccount",
+                            "text": " "
+                        },
+                        "IsSupportStuff": {
+                            "title": "[EV] The user account is support stuff account",
+                            "text": " "
+                        },
+                        "DifferentCompanies": {
+                            "title": "[EV] User from another company",
+                            "text": " "
+                        },
+                        "UnknownError": {
+                            "title": "No se ha podido eliminar el usuario. Inténtelo de nuevo.",
+                            "text": " "
+                        }
+                    }
+                },
+
+                "errors": {
+                    "DifferentCompanies": "Este usuario pertenece a otra empresa. </br>Por favor, <a href='/request/create/ca' target=\"_blank\"> consulte con el soporte técnico </a> sobre cómo solucionar este problema.",
+
+                    "GetDetailsException_DifferentCompanies": {
+                        "Title": "La cuenta solicitada no pertenece a su empresa",
+                        "Text": "Por favor, <a href='/request/create/ca' target=\"_blank\"> consulte con el soporte técnico </a> sobre como solucionar este problema."
+                    },
+                    "RequestPasswordResetException_DifferentCompanies": {
+                        "Title": "La cuenta que está editando no pertenece a su empresa",
+                        "Text": "Por favor, <a href='/request/create/ca' target=\"_blank\"> consulte con el soporte técnico </a> sobre cómo solucionar este problema."
+                    },
+                    "UpdateProfileDetailsException_DifferentCompanies": {
+                        "Title": "La cuenta que está editando no pertenece a su empresa",
+                        "Text": "Por favor, <a href='/request/create/ca' target=\"_blank\"> consulte con el soporte técnico </a> sobre cómo solucionar este problema."
+                    },
+                    "UpdatePermissionsException_DifferentCompanies": {
+                        "Title": "La cuenta que está editando no pertenece a su empresa",
+                        "Text": "Por favor, <a href='/request/create/ca' target=\"_blank\"> consulte con el soporte técnico </a> sobre cómo solucionar este problema."
+                    },
+                    "DeleteProfileException_DifferentCompanies": {
+                        "Title": "Esta cuenta se ha modificado y no puede eliminarla",
+                        "Text": "Por favor, <a href='/request/create/ca' target=\"_blank\"> consulte con el soporte técnico </a> sobre cómo solucionar este problema."
+                    },
+
+                    "Failure": {
+                        "Title": "Fallo desconocido",
+                        "Text": "Consulte con el soporte técnico <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> sobre cómo solucionar este problema"
+                    },
+                    "UserNotFound": {
+                        "Title": "Usuario no encontrado",
+                        "Text": "Consulte con el soporte técnico <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> sobre cómo solucionar este problema"
+                    },
+                    "NotMainUser": {
+                        "Title": "Usted no dispone de los derechos de administrador para esta empresa",
+                        "Text": "Por favor, <a href='/request/create/ca' target=\"_blank\"> consulte con el soporte técnico </a> sobre cómo solucionar este problema."
+                    },
+                    "AccessDenied": {
+                        "Title": "Acceso denegado",
+                        "Text": "Consulte con el soporte técnico <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> sobre cómo solucionar este problema"
+                    },
+                    "UserNotOfCA": {
+                        "Title": "[EV] [user/ not from CA] Unknown error",
+                        "Text": "[EV] [user/ not act]Contact address <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                    },
+                    "UserNotActivated": {
+                        "Title": "[EV] [user/ not act] Unknown error",
+                        "Text": "[EV] [user/ not act]Contact address <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                    },
+
+                    "GetDetailsException_OfUserNotFound": {
+                        "Title": "Cuenta no encontrada",
+                        "Text": "Por favor, <a href='/request/create/ca' target=\"_blank\"> consulte con el soporte técnico </a> sobre cómo solucionar este problema."
+                    },
+                    "RequestPasswordResetException_OfUserNotFound": {
+                        "Title": "Cuenta no encontrada",
+                        "Text": "Por favor, <a href='/request/create/ca' target=\"_blank\"> consulte con el soporte técnico </a> sobre cómo solucionar este problema."
+                    },
+                    "UpdateProfileDetailsException_OfUserNotFound": {
+                        "Title": "Cuenta no encontrada",
+                        "Text": "Por favor, <a href='/request/create/ca' target=\"_blank\"> consulte con el soporte técnico </a> sobre cómo solucionar este problema."
+                    },
+                    "UpdatePermissionsException_OfUserNotFound": {
+                        "Title": "Cuenta no encontrada",
+                        "Text": "Por favor, <a href='/request/create/ca' target=\"_blank\"> consulte con el soporte técnico </a> sobre cómo solucionar este problema."
+                    },
+                    "DeleteProfileException_OfUserNotFound": {
+                        "Title": "Cuenta no encontrada",
+                        "Text": "Por favor, <a href='/request/create/ca' target=\"_blank\"> consulte con el soporte técnico </a> sobre cómo solucionar este problema."
+                    }
+                }
+            },
+            "profile": {
+                "title-profile": "Mi cuenta",
+                "title-user": "Ver cuenta",
+                "delete": {
+                    "title": "Eliminar cuenta",
+                    "description": "¡Atención! Tras hacer clic en el botón \"Eliminar cuenta\", se le enviará por correo electrónico el enlace para confirmar la eliminación de su cuenta. Tras hacer clic en este enlace, se eliminará su cuenta.",
+                    "notice": "Entiendo que mi cuenta se eliminará y no podré enviar solicitudes a través de CompanyAccount.",
+                    "btn": "Eliminar mi cuenta",
+                    "process": "Enviando solicitud para eliminar...",
+                    "success": "Para confirmar la eliminación de la cuenta, se debe seguir el enlace que se ha enviado a su correo electrónico.",
+                    "confirm": {
+                        "title": "Eliminar cuenta",
+                        "text": "Está a punto de eliminar su cuenta. El acceso al portal se bloqueará después de hacer clic en el enlace del mensaje.",
+                        "button": "Eliminar"
+                    },
+                    "errors": {
+                        "RepeatedDeactivation": "No se ha podido eliminar el usuario. Intentarlo de nuevo.",
+                        "UnknownError": "No se ha podido eliminar el usuario. Inténtelo de nuevo.",
+                        "UserNotFound": "Usuario no encontrado",
+                        "AccessDenied": "Acceso denegado",
+                        "NotMainUser": "El acceso está denegado, el usuario no tiene derechos de administrador",
+                        "CompanyNotFound": "Empresa no encontrada. ",
+                        "OfUserNotFound": "No se ha podido eliminar el usuario. Usuario no encontrado.",
+                        "DifferentCompanies": "Esta cuenta se ha modificado y no se puede eliminarla"
+                    }
+                },
+                "deleteCompany": {
+                    "title": "Eliminar cuenta de la empresa",
+                    "description": "¡Atención! Tras hacer clic en el botón \"Eliminar cuenta de empresa\", se le enviará el enlace para confirmar la eliminación de la cuenta de empresa. Tras hacer clic en este enlace, se eliminará la cuenta de la empresa.",
+                    "continue": "Continuar",
+                    "notice": "Entiendo que después de eliminar la cuenta de la empresa se eliminará toda la información acerca de la empresa.",
+                    "btn": "Eliminar cuenta de empresa",
+                    "process": "Eliminando cuenta de empresa",
+                    "success": "Se le enviará a su correo electrónico el enlace para confirmar la eliminación de la cuenta de empresa.",
+                    "errors": {
+                        "Success": "Para confirmar la eliminación de la cuenta de empresa, se debe seguir el enlace que se ha enviado a su correo electrónico.",
+                        "RepeatedDeactivation": "Para confirmar la eliminación de la cuenta de empresa, se debe seguir el enlace que se ha enviado a su correo electrónico.",
+                        "UnknownError": "No se ha podido eliminar la cuenta de empresa. Inténtelo de nuevo.",
+                        "UserNotFound": "Usuario no encontrado",
+                        "AccessDenied": "Acceso denegado",
+                        "NotMainUser": "El acceso está denegado, el usuario no tiene derechos de administrador",
+                        "CompanyNotFound": "Empresa no encontrada"
+                    },
+                    "confirm": {
+                        "title": "Eliminar cuenta de empresa",
+                        "description": "<b>¡Atención!</b> Tras hacer clic en el botón \"Eliminar cuenta de empresa\", se le enviará el enlace para confirmar la eliminación de la cuenta de empresa. Tras hacer clic en este enlace, se eliminará la cuenta de la empresa.",
+                        "continue": "Continuar"
+                    },
+                    "popupTitle": "Se ha enviado la solicitud para eliminar la cuenta de empresa",
+                    "popupMsg": " Para finalizar la eliminación de la cuenta de empresa, siga el enlace del mensaje."
+                },
+                "errors": {
+                    "FirstName.RequiredRule": "No se ha especificado el nombre",
+                    "LastName.RequiredRule": "No se han especificado los apellidos",
+                    "Country.RequiredRule": "No se ha rellenado el campo País",
+                    "InvalidCountry": "Error al seleccionar país",
+                    "FirstName.MaxByteLengthRule": "[EV] Name is too long, max length: {Length}",
+                    "LastName.MaxByteLengthRule": "[EV] Last name is too long, Max length: {Length}",
+                    "Organization.MaxByteLengthRule": "[EV] Organization is too long, Max length: {Length}",
+
+                    "Failure": {
+                        "Title": "Se ha ocurrido un error inesperado",
+                        "Text": "Envíe un correo electrónico a <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                    },
+                    "OfUserNotFound": {
+                        "Title": "La cuenta no se ha encontrado",
+                        "Text": "Envíe un correo electrónico a <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                    },
+                    "NotMainUser": {
+                        "Title": "Usted no dispone de los derechos de administrador para esta empresa.",
+                        "Text": "Envíe un correo electrónico a <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                    },
+                    "UserNotFound": {
+                        "Title": "Cuenta no encontrada",
+                        "Text": "Envíe un correo electrónico a <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                    },
+                    "AccessDenied": {
+                        "Title": "Se ha producido un problema con su cuenta. Acceso denegado.",
+                        "Text": "Envíe un correo electrónico a <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                    },
+
+                    "UnknownError": {
+                        "Title": "Se ha producido un fallo inesperado </br> a la hora de editar el perfil de usuario",
+                        "Text": "Envíe un correo electrónico a <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                    },
+                    "UserNotOfCA": {
+                        "Title": "[EV] [not from CA] Unknown error",
+                        "Text": "[EV] [not act]Contact address <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                    },
+                    "UserNotActivated": {
+                        "Title": "[EV] [not act] Unknown error",
+                        "Text": "[EV] [not act]Contact address <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                    }
+                },
+                "permissions": {
+                    "title": "Derechos de usuario",
+                    "ViewAllRequests": "Ver las solicitudes de todos los usuarios de la empresa",
+                    "ManageContacts": "Administrar cuentas",
+                    "AddLicenses": "Agregar licencias",
+                    "RemoveLicenses": "Eliminar licencias",
+                    "EditAllRequests": "Editar solicitudes de otros usuarios",
+                    "saveError": "No se ha podido guardar los cambios. Inténtelo de nuevo.",
+                    "saveBtn": "Guardar cambios",
+                    "saveWait": "Guardando cambios...",
+                    "saveSuccess": "Los cambios se han guardado."
+                },
+                "personalinfo": {
+                    "title": "Datos personales",
+                    "email": "Correo electrónico:",
+                    "company": "Empresa:",
+                    "company-id": "(ID: {companyId})",
+                    "accounttype": "Tipo de cuenta:",
+                    "firstname": "Nombre:",
+                    "lastname": "Apellidos:",
+                    "country": "País:",
+                    "firstnamePlaceholder": "Nombre",
+                    "lastnamePlaceholder": "Apellidos",
+                    "filial": "Sucursal:",
+                    "notifications": "Notificaciones:",
+                    "saveBtn": "Guardar cambios",
+                    "cancelBtn": "Cancelar",
+                    "saveError": "No se ha podido guardar los cambios. Inténtelo de nuevo.",
+                    "saveWait": "Guardando cambios...",
+                    "saveSuccess": "Los cambios se han guardado",
+                    "filialDefault": "Seleccione sucursal",
+                    "filialMessage": "Seleccione de la lista o introduzca uno nuevo",
+                    "fullDescription": "Descripción detallada"
+                },
+
+                "resetPassword": {
+                    "success": " ",
+                    "errors": {
+                        "AdminBlocked": {
+                            "title": "[EV] Account has been blocked by the administrator",
+                            "text": " "
+                        },
+                        "NotSupportedSystemType": {
+                            "title": "[EV] [sys type] The account does not belong to CompanyAccount",
+                            "text": " "
+                        },
+                        "UserNotFound": {
+                            "title": "[EV] User not found",
+                            "text": " "
+                        },
+                        "NotSupportedCompanyCategory": {
+                            "title": "[EV] [comp cat] The account does not belong to CompanyAccount",
+                            "text": " "
+                        },
+                        "NotActivated": {
+                            "title": "[EV] The user account is not activated",
+                            "text": " "
+                        },
+                        "IsSupportStuff": {
+                            "title": "[EV] The user account is support stuff account",
+                            "text": " "
+                        },
+                        "UnknownError": {
+                            "title": "An unknown failure",
+                            "text": "An unknown failure, try reset password later"
+                        }
+                    }
+                },
+
+                "resetPasswordTitle": "Cambiar contraseña ",
+                "resetPasswordDescription": "Las instrucciones sobre cómo cambiar contraseña se le enviarán a la dirección del correo electrónico del usuario",
+                "resetPasswordButton": "Restablecer contraseña",
+                "resetPasswordWait": "Restableciendo contraseña...",
+                "resetPasswordSuccess": "Su contraseña se ha restablecido correctamente. Se han enviado más instrucciones a su correo electrónico.",
+                "resetPasswordSuccessUser": "La contraseña se ha restablecido correctamente. Se han enviado más instrucciones al correo electrónico del usuario.",
+                "resetPasswordError": "No se ha podido restablecer la contraseña. Inténtelo de nuevo",
+                "fileUpload": {
+                    "title": "Adjuntar archivos:",
+                    "agreedtext": "Ha aceptado los términos de la <a href='javascript://' class='profile-file-agreement-accepted-link' target='_blank'>Declaración de concesión de datos</a>",
+                    "notagreedtext": "Para poder subir archivos, acepte los términos del <a href='javascript://' class='link-modal-win profile-file-agreement-btn' data='license-cont'>Reglamento sobre la provisión de datos</a>"
+                }
+            }
         }
-      },
-      "profile": {
-        "title-profile": "Mi cuenta",
-        "title-user": "Ver cuenta",
-        "delete": {
-          "title": "Eliminar cuenta",
-          "description": "¡Atención! Tras hacer clic en el botón \"Eliminar cuenta\", se le enviará por correo electrónico el enlace para confirmar la eliminación de su cuenta. Tras hacer clic en este enlace, se eliminará su cuenta.",
-          "notice": "Entiendo que mi cuenta se eliminará y no podré enviar solicitudes a través de CompanyAccount.",
-          "btn": "Eliminar mi cuenta",
-          "process": "Enviando solicitud para eliminar...",
-          "success": "Para confirmar la eliminación de la cuenta, se debe seguir el enlace que se ha enviado a su correo electrónico.",
-          "confirm": {
-            "title": "Eliminar cuenta",
-            "text": "Está a punto de eliminar su cuenta. El acceso al portal se bloqueará después de hacer clic en el enlace del mensaje.",
-            "button": "Eliminar"
-          },
-          "errors": {
-            "RepeatedDeactivation": "No se ha podido eliminar el usuario. Intentarlo de nuevo.",
-            "UnknownError": "No se ha podido eliminar el usuario. Inténtelo de nuevo.",
-            "UserNotFound": "Usuario no encontrado",
-            "AccessDenied": "Acceso denegado",
-            "NotMainUser": "El acceso está denegado, el usuario no tiene derechos de administrador",
-            "CompanyNotFound": "Empresa no encontrada. ",
-            "OfUserNotFound": "No se ha podido eliminar el usuario. Usuario no encontrado.",
-            "DifferentCompanies": "Esta cuenta se ha modificado y no se puede eliminarla"
-          }
-        },
-        "deleteCompany": {
-          "title": "Eliminar cuenta de la empresa",
-          "description": "¡Atención! Tras hacer clic en el botón \"Eliminar cuenta de empresa\", se le enviará el enlace para confirmar la eliminación de la cuenta de empresa. Tras hacer clic en este enlace, se eliminará la cuenta de la empresa.",
-          "continue": "Continuar",
-          "notice": "Entiendo que después de eliminar la cuenta de la empresa se eliminará toda la información acerca de la empresa.",
-          "btn": "Eliminar cuenta de empresa",
-          "process": "Eliminando cuenta de empresa",
-          "success": "Se le enviará a su correo electrónico el enlace para confirmar la eliminación de la cuenta de empresa.",
-          "errors": {
-            "Success": "Para confirmar la eliminación de la cuenta de empresa, se debe seguir el enlace que se ha enviado a su correo electrónico.",
-            "RepeatedDeactivation": "Para confirmar la eliminación de la cuenta de empresa, se debe seguir el enlace que se ha enviado a su correo electrónico.",
-            "UnknownError": "No se ha podido eliminar la cuenta de empresa. Inténtelo de nuevo.",
-            "UserNotFound": "Usuario no encontrado",
-            "AccessDenied": "Acceso denegado",
-            "NotMainUser": "El acceso está denegado, el usuario no tiene derechos de administrador",
-            "CompanyNotFound": "Empresa no encontrada"
-          },
-          "confirm": {
-            "title": "Eliminar cuenta de empresa",
-            "description": "<b>¡Atención!</b> Tras hacer clic en el botón \"Eliminar cuenta de empresa\", se le enviará el enlace para confirmar la eliminación de la cuenta de empresa. Tras hacer clic en este enlace, se eliminará la cuenta de la empresa.",
-            "continue": "Continuar"
-          },
-          "popupTitle": "Se ha enviado la solicitud para eliminar la cuenta de empresa",
-          "popupMsg": " Para finalizar la eliminación de la cuenta de empresa, siga el enlace del mensaje."
-        },
-        "errors": {
-          "FirstNameIsRequired": "No se ha especificado el nombre",
-          "LastNameIsRequired": "No se han especificado los apellidos",
-          "CountryIsRequired": "No se ha rellenado el campo País",
-          "InvalidCountry": "Error al seleccionar país",
-          "Failure": {
-            "Title": "Se ha ocurrido un error inesperado",
-            "Text": "Envíe un correo electrónico a <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
-          },
-          "OfUserNotFound": {
-            "Title": "La cuenta no se ha encontrado",
-            "Text": "Envíe un correo electrónico a <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
-          },
-          "NotMainUser": {
-            "Title": "Usted no dispone de los derechos de administrador para esta empresa.",
-            "Text": "Envíe un correo electrónico a <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
-          },
-          "AccessDenied": {
-            "Title": "Se ha producido un problema con su cuenta. Acceso denegado.",
-            "Text": "Envíe un correo electrónico a <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
-          },
-          "UserNotFound": {
-            "Title": "Cuenta no encontrada",
-            "Text": "Envíe un correo electrónico a <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
-          },
-          "UnknownError": {
-            "Title": "Se ha producido un fallo inesperado </br> a la hora de editar el perfil de usuario",
-            "Text": "Envíe un correo electrónico a <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
-          }
-        },
-        "permissions": {
-          "title": "Derechos de usuario",
-          "ViewAllRequests": "Ver las solicitudes de todos los usuarios de la empresa",
-          "ManageContacts": "Administrar cuentas",
-          "AddLicenses": "Agregar licencias",
-          "RemoveLicenses": "Eliminar licencias",
-          "EditAllRequests": "Editar solicitudes de otros usuarios",
-          "saveError": "No se ha podido guardar los cambios. Inténtelo de nuevo.",
-          "saveBtn": "Guardar cambios",
-          "saveWait": "Guardando cambios...",
-          "saveSuccess": "Los cambios se han guardado."
-        },
-        "personalinfo": {
-          "title": "Datos personales",
-          "email": "Correo electrónico:",
-          "company": "Empresa:",
-          "company-id": "(ID: {companyId})",
-          "accounttype": "Tipo de cuenta:",
-          "firstname": "Nombre:",
-          "lastname": "Apellidos:",
-          "country": "País:",
-          "firstnamePlaceholder": "Nombre",
-          "lastnamePlaceholder": "Apellidos",
-          "filial": "Sucursal:",
-          "notifications": "Notificaciones:",
-          "saveBtn": "Guardar cambios",
-          "cancelBtn": "Cancelar",
-          "saveError": "No se ha podido guardar los cambios. Inténtelo de nuevo.",
-          "saveWait": "Guardando cambios...",
-          "saveSuccess": "Los cambios se han guardado",
-          "filialDefault": "Seleccione sucursal",
-          "filialMessage": "Seleccione de la lista o introduzca uno nuevo",
-          "fullDescription": "Descripción detallada"
-        },
-        "resetPasswordTitle": "Cambiar contraseña ",
-        "resetPasswordDescription": "Las instrucciones sobre cómo cambiar contraseña se le enviarán a la dirección del correo electrónico del usuario",
-        "resetPasswordButton": "Restablecer contraseña",
-        "resetPasswordWait": "Restableciendo contraseña...",
-        "resetPasswordSuccess": "Su contraseña se ha restablecido correctamente. Se han enviado más instrucciones a su correo electrónico.",
-        "resetPasswordSuccessUser": "La contraseña se ha restablecido correctamente. Se han enviado más instrucciones al correo electrónico del usuario.",
-        "resetPasswordError": "No se ha podido restablecer la contraseña. Inténtelo de nuevo",
-        "fileUpload": {
-          "title": "Adjuntar archivos:",
-          "agreedtext": "Ha aceptado los términos de la <a href='javascript://' class='profile-file-agreement-accepted-link' target='_blank'>Declaración de concesión de datos</a>",
-          "notagreedtext": "Para poder subir archivos, acepte los términos del <a href='javascript://' class='link-modal-win profile-file-agreement-btn' data='license-cont'>Reglamento sobre la provisión de datos</a>"
-        }
-      }
     }
-  }
 }

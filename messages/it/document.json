@@ -1,28 +1,28 @@
-{
-  "globalize-messages": {
-    "it": {
-      "document": {
-        "statuses": {
-          "1": "Attivo:",
-          "2": "Scaduto (inattivo):",
-          "3": "Scadenza prevista:",
-          "until": "fino al "
-        },
-        "list": {
-          "tabs": {
-            "contracts": "Contratti di Supporto Premium"
-          },
-          "item": {
-            "attached-files": "Contratti allegati:",
-            "download": "Download",
-            "date-start": "Data di attivazione:"
-          },
-          "no-contract": {
-            "title": "Nessun <a href=\"http://www.kaspersky.com/it/enterprise-security/maintenance-service-agreement\" target=\"_blank\">contratto di supporto premium</a> è stato aggiunto.",
-            "description": "Kaspersky Lab vi offre programmi di supporto premium per un approccio personalizzato e tempi di risposta più rapidi per i vostri problemi della sicurezza IT. Selezionare il programma più adatto al vostro business dalla selezione dei Kaspersky Maintenance Service Agreement (MSA). </br> </br>  <a href=\"http://www.kaspersky.com/it/business-security/services\" target=\"_blank\">Visualizza le opzioni di supporto premium</a></p>"
-          }
+﻿{
+    "globalize-messages": {
+        "it": {
+            "document": {
+                "statuses": {
+                    "1": "Attivo:",
+                    "2": "Scaduto (inattivo):",
+                    "3": "Scadenza prevista:",
+                    "until": "fino al "
+                },
+                "list": {
+                    "tabs": {
+                        "contracts": "Contratti di Supporto Premium"
+                    },
+                    "item": {
+                        "attached-files": "Contratti allegati:",
+                        "download": "Download",
+                        "date-start": "Data di attivazione:"
+                    },
+                    "no-contract": {
+                        "title": "Nessun <a href=\"http://www.kaspersky.com/it/enterprise-security/maintenance-service-agreement\" target=\"_blank\">contratto di supporto premium</a> è stato aggiunto.",
+                        "description": "Kaspersky Lab vi offre programmi di supporto premium per un approccio personalizzato e tempi di risposta più rapidi per i vostri problemi della sicurezza IT. Selezionare il programma più adatto al vostro business dalla selezione dei Kaspersky Maintenance Service Agreement (MSA). </br> </br>  <a href=\"http://www.kaspersky.com/it/business-security/services\" target=\"_blank\">Visualizza le opzioni di supporto premium</a></p>"
+                    }
+                }
+            }
         }
-      }
     }
-  }
 }

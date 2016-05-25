@@ -1,104 +1,109 @@
-{
-  "globalize-messages": {
-    "pl": {
-      "license": {
-        "add": {
-          "license-add-label": "Dodaj licencję:",
-          "code-add": "Dodaj kod",
-          "code-add-or": "lub",
-          "upload-file": "Wybierz plik klucza",
-          "file-send": "Dodaj licencję",
-          "process": "Dodawanie licencji...",
-          "errors": {
-            "Success": "Licencja została dodana",
-            "GettingLicenseInfoError": "Błąd. Licencja nie została odnaleziona",
-            "ConsumerLicense": "Licencja nie została dodana. Przed dodaniem licencji na produkt dla domu, należy dodać co najmniej jedną licencję na produkt korporacyjny.",
-            "LicenseIsExpired": "Licencja wygasła",
-            "LicenseIsBlocked": "Błąd. Licencja jest zablokowana",
-            "IncorrectAC": "Błąd. Nieprawidłowy format kodu aktywacyjnego",
-            "IncorrectKeyFile": "Błąd. Nieprawidłowy format pliku klucza",
-            "MultLicUseErr": "Błąd. Licencja jest używana przez inną firmę",
-            "SuccessUserMoved": "Licencja została dodana Twoja firma została zmieniona.<br/> W celu zastosowania zmian zaloguj się ponownie do CompanyAccount.",
-            "LicenseAlreadyExists": "Licencja już istnieje",
-            "ACExpired": "Kod aktywacyjny utracił ważność",
-            "UnknownError": "Wystąpił błąd. Spróbuj ponownie. Jeśli problem będzie nadal występować,  <a href='../request/create/ca' target=\"_blank\"> skontaktuj się z Pomocą techniczną</a>",
-            "LicenseNotFound": "Błąd. Licencja nie została odnaleziona"
-          },
-          "success-user-moved": {
-            "title": "Licencja została dodana",
-            "description": "Twoja firma została zmieniona.<br/> Aby zastosować zmiany, zaloguj się ponownie do CompanyAccount.",
-            "refresh": "OK"
-          }
-        },
-        "statuses": {
-          "Valid": "Aktywna",
-          "NotFound": "Nieodnaleziona",
-          "Expired": "Utraciła ważność",
-          "Blocked": "Zablokowana",
-          "NotActivated": "Nieaktywowana",
-          "Deleted": "Usunięta"
-        },
-        "comments": {
-          "NotActivated": "Licencja nie została aktywowana. Ilość zgłoszeń do Pomocy technicznej może być ograniczona. Wykonaj aktywację licencji w produkcie.",
-          "ExpiresSoon": "Licencja wkrótce utraci ważność",
-          "Blocked": "Zablokowana od: {BlockedDate}"
-        },
-        "list": {
-          "title": "Licencje",
-          "filter-by-status-label": "Pokaż licencje:",
-          "filter-by-status": {
-            "All": "Wszystkie",
-            "Active": "Aktywne",
-            "Expiring": "Wygaśnięte",
-            "Inactive": "Nieaktywne",
-            "Blocked": "Zablokowane"
-          },
-          "expire-date": "Data wygaśnięcia",
-          "item": {
-            "activation-code": "Kod aktywacyjny:",
-            "count": "Węzły:",
-            "serial-number": "Numer seryjny:",
-            "order-number": "Identyfikator zamówienia:",
-            "compatible-application": "Lista kompatybilnych produktów",
-            "add-date": "Data dodania:",
-            "key-file": "Plik klucza:",
-            "remove-license": "Usuń licencję"
-          },
-          "no-filtered-license": "Brak odnalezionych żądań. Proszę rozszerzyć obszar wyszukiwania",
-          "no-license": "Twoja firma nie posiada załączonych licencji",
-          "errors": {
-            "NoCompatibleApps": "Brak produktów dostępnych dla tej licencji. </br> <a href='/request/create/ca' target=\"_blank\"> Skontaktuj się z Pomocą techniczną</a> w celu uzyskania informacji dotyczących użycia tej licencji.",
-            "UnknownError": "Nieznany błąd. Jeśli problem będzie nadal występować, <a href='../request/create/ca' target=\"_blank\"> skontaktuj się z Pomocą techniczną</a>"
-          },
-          "compatibleapps": "Produkty kompatybilne:",
-          "remove": {
-            "confirm-title": "Usuń licencję",
-            "confirm-text": " Chcesz usunąć licencję na {0}.<br />Możesz ją później ponownie dodać do CompanyAccount.",
-            "confirm-button": "Usuń"
-          }
-        },
-        "compatible": {
-          "errors": {
-            "UserNotFound": {
-              "title": "Nie odnaleziono użytkownika",
-              "message": ""
-            },
-            "AccessDenied": {
-              "title": "Dostęp zabroniony",
-              "message": ""
-            },
-            "UnknownError": {
-              "title": "Wystąpił nieznany błąd",
-              "message": "Podczas otwierania listy kompatybilnych produktów wystąpił nieznany błąd.  Spróbuj ponownie za kilka minut. <br/> Jeśli problem będzie nadal występować,  <a href='../request/create/ca' target=\"_blank\"> skontaktuj się z Pomocą techniczną</a>"
-            },
-            "NoCompatibleApps": {
-              "title": "Brak dostępnych produktów dla tej licencji.",
-              "message": " <a href='/request/create/ca' target=\"_blank\">Skontaktuj się z Pomocą techniczną  </a> w celu uzyskania informacji dotyczących użycia tej licencji."
+﻿{
+    "globalize-messages": {
+        "pl": {
+            "license": {
+                "add": {
+                    "license-add-label": "Dodaj licencję:",
+                    "code-add": "Dodaj kod",
+                    "code-add-or": "lub",
+                    "upload-file": "Wybierz plik klucza",
+                    "file-send": "Dodaj licencję",
+                    "process": "Dodawanie licencji...",
+                    "errors": {
+                        "Success": "Licencja została dodana",
+                        "GettingLicenseInfoError": "Błąd. Licencja nie została odnaleziona",
+                        "ConsumerLicense": "Licencja nie została dodana. Przed dodaniem licencji na produkt dla domu, należy dodać co najmniej jedną licencję na produkt korporacyjny.",
+                        "LicenseIsExpired": "Licencja wygasła",
+                        "LicenseIsBlocked": "Błąd. Licencja jest zablokowana",
+                        "IncorrectAC": "Błąd. Nieprawidłowy format kodu aktywacyjnego",
+                        "IncorrectKeyFile": "Błąd. Nieprawidłowy format pliku klucza",
+                        "MultLicUseErr": "Błąd. Licencja jest używana przez inną firmę",
+                        "SuccessUserMoved": "Licencja została dodana Twoja firma została zmieniona.<br/> W celu zastosowania zmian zaloguj się ponownie do CompanyAccount.",
+                        "LicenseAlreadyExists": "Licencja już istnieje",
+                        "ACExpired": "Kod aktywacyjny utracił ważność",
+                        "UnknownError": "Wystąpił błąd. Spróbuj ponownie. Jeśli problem będzie nadal występować,  <a href='../request/create/ca' target=\"_blank\"> skontaktuj się z Pomocą techniczną</a>",
+                        "LicenseNotFound": "Błąd. Licencja nie została odnaleziona",
+                        "InvalidKeyFileSize": "[EV] File is too big"
+                    },
+                    "success-user-moved": {
+                        "title": "Licencja została dodana",
+                        "description": "Twoja firma została zmieniona.<br/> Aby zastosować zmiany, zaloguj się ponownie do CompanyAccount.",
+                        "refresh": "OK"
+                    }
+                },
+
+                "statuses": {
+                    "Valid": "Aktywna",
+                    "NotFound": "Nieodnaleziona",
+                    "Expired": "Utraciła ważność",
+                    "Blocked": "Zablokowana",
+                    "NotActivated": "Nieaktywowana",
+                    "Deleted": "Usunięta"
+                },
+
+                "comments": {
+                    "NotActivated": "Licencja nie została aktywowana. Ilość zgłoszeń do Pomocy technicznej może być ograniczona. Wykonaj aktywację licencji w produkcie.",
+                    "ExpiresSoon": "Licencja wkrótce utraci ważność",
+                    "Blocked": "Zablokowana od: {BlockedDate}"
+                },
+
+                "list": {
+                    "title": "Licencje",
+                    "filter-by-status-label": "Pokaż licencje:",
+                    "filter-by-status": {
+                        "All": "Wszystkie",
+                        "Active": "Aktywne",
+                        "Expiring": "Wygaśnięte",
+                        "Inactive": "Nieaktywne",
+                        "Blocked": "Zablokowane"
+                    },
+                    "expire-date": "Data wygaśnięcia",
+                    "item": {
+                        "activation-code": "Kod aktywacyjny:",
+                        "count": "Węzły:",
+                        "serial-number": "Numer seryjny:",
+                        "order-number": "Identyfikator zamówienia:",
+                        "compatible-application": "Lista kompatybilnych produktów",
+                        "add-date": "Data dodania:",
+                        "key-file": "Plik klucza:",
+                        "remove-license": "Usuń licencję"
+                    },
+                    "no-filtered-license": "Brak odnalezionych żądań. Proszę rozszerzyć obszar wyszukiwania",
+                    "no-license": "Twoja firma nie posiada załączonych licencji",
+                    "errors": {
+                        "NoCompatibleApps": "Brak produktów dostępnych dla tej licencji. </br> <a href='/request/create/ca' target=\"_blank\"> Skontaktuj się z Pomocą techniczną</a> w celu uzyskania informacji dotyczących użycia tej licencji.",
+                        "UnknownError": "Nieznany błąd. Jeśli problem będzie nadal występować, <a href='../request/create/ca' target=\"_blank\"> skontaktuj się z Pomocą techniczną</a>"
+                    },
+                    "compatibleapps": "Produkty kompatybilne:",
+                    "remove": {
+                        "confirm-title": "Usuń licencję",
+                        "confirm-text": " Chcesz usunąć licencję na {0}.<br />Możesz ją później ponownie dodać do CompanyAccount.",
+                        "confirm-button": "Usuń"
+                    }
+                },
+                "compatible": {
+                    "errors": {
+                        "UserNotFound": {
+                            "title": "Nie odnaleziono użytkownika",
+                            "message": ""
+                        },
+                        "AccessDenied": {
+                            "title": "Dostęp zabroniony",
+                            "message": ""
+                        },
+                        "UnknownError": {
+                            "title": "Wystąpił nieznany błąd",
+                            "message": "Podczas otwierania listy kompatybilnych produktów wystąpił nieznany błąd.  Spróbuj ponownie za kilka minut. <br/> Jeśli problem będzie nadal występować,  <a href='../request/create/ca' target=\"_blank\"> skontaktuj się z Pomocą techniczną</a>"
+                        },
+                        "NoCompatibleApps": {
+                            "title": "Brak dostępnych produktów dla tej licencji.",
+                            "message": " <a href='/request/create/ca' target=\"_blank\">Skontaktuj się z Pomocą techniczną  </a> w celu uzyskania informacji dotyczących użycia tej licencji."
+                        }
+                    },
+                    "close": "Zamknij"
+                }
+
             }
-          },
-          "close": "Zamknij"
         }
-      }
     }
-  }
 }

@@ -1,150 +1,182 @@
-{
-  "globalize-messages": {
-    "pt": {
-      "notification": {
-        "hide": "Não mostrar isso novamente"
-      },
-      "header": {
-        "title": "Kaspersky CompanyAccount",
-        "menu": {
-          "requests": "Solicitações",
-          "licenses": "Licenças",
-          "users": "Usuários",
-          "contracts": "Acordos",
-          "createrequest": "Nova solicitação",
-          "signout": "Encerrar sessão"
+﻿{
+    "globalize-messages": {
+        "pt": {
+            "notification": {
+                "hide": "Não mostrar isso novamente"
+            },
+            "header": {
+                "title": "Kaspersky CompanyAccount",
+                "menu": {
+                    "requests": "Solicitações",
+                    "licenses": "Licenças",
+                    "users": "Usuários",
+                    "contracts": "Acordos",
+                    "createrequest": "Nova solicitação",
+                    "signout": "Encerrar sessão"
+                }
+            },
+            "captcha": {
+                "label": "Digite o código da imagem:",
+                "placeholder": "Código",
+                "loading": "Carregando CAPTCHA...",
+                "errors": {
+                    "CaptchaIsRequired": "Digite o código",
+                    "CaptchaNotFound": "Digite o código",
+                    "CaptchaTimeout": "Código expirado. Por favor digite o novo código",
+                    "CaptchaIncorrect": "Os caracteres não conferem. Por favor tente novamente."
+                }
+            },
+
+            "fileupload": {
+                "error": "Erro ao enviar arquivo",
+                "attachError": "[EV][pt] Attach file error",
+                "loaded": "Arquivo enviado",
+                "delete": "Apague",
+                "cancel": "Cancelar",
+                "key": {
+                    "label": "Envie o arquivo de chave",
+                    "button": "Enviar"
+                },
+
+                "file": {
+                    "button": "Enviar arquivo",
+                    "button-csr": "Escolha um arquivo CSR",
+                    "agreement": "Regulamento sobre o provisionamento de dados",
+                    "condition": "Para enviar arquvos, você deve aceitar <a href='javascript://'>Regulamento sobre o provisionamento de dados</a>",
+                    "commonFile": "Você pode enviar até 3 arquivos não maiores que 4GB cada",
+                    "csrFile": "Tamanho máximo do arquivo é de 5KB",
+                    "amrFile": "Tamanho máximo do arquivo é de 10MB"
+                },
+
+                "file-agreement": {
+                    "label": "Eu aceito os termos do regulamento sobre provisionamento de dados",
+                    "continue": "Continuar"
+                },
+
+                "errors": {
+                    "maxFileSize": "O arquivo é muito grande",
+                    "minFileSize": "O arquivo é muit pequeno",
+                    "acceptFileTypes": "Tipo de arquivo inválido",
+                    "maxNumberOfFiles": "O número máximos de arquivos foi excedido",
+                    "uploadError": "[EV] When uploading files network error occurred"
+                }
+            },
+
+            "file-agreement": {
+                "accept-text": "Eu aceito os termos do regulamento sobre provisionamento de dados",
+                "continue": "Continuar",
+                "error": "Erro ao salvar os arquivos. Por favor tente mais tarde"
+            },
+
+            "footer": {
+                "links": {
+                    "support": "Base de conhecimento",
+                    "support-link": "http://support.kaspersky.com/",
+                    "contacts": "Entre em contato conosco",
+                    "contacts-link": "http://support.kaspersky.com/b2b",
+                    "politics": "Política de privacidade",
+                    "politics-link": "http://support.kaspersky.com/support/PrivacyStatement_for_CompanyAccount",
+                    "legalinformation": "Termos",
+                    "legalinformation-link": "http://www.kaspersky.com/legal"
+                },
+                "supportnumber": " ",
+                "supportPhone": " ",
+                "selectlanguage": "Selecione seu idioma",
+                "copyrightStart": "Copyright &copy;",
+                "copyrightEnd": "AO Kaspersky Lab ",
+                "errors": {
+                    "UserNotFound": {
+                        "title": "Erro na conta do usuário",
+                        "message": "Por favor contate <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                    },
+                    "UnknownError": {
+                        "title": "Erro desconhecido",
+                        "message": "Erro desconhecido ao alterar o idioma. <br />Por favor tente novamente em alguns minutos. Por favor contate <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> para corrigir o problema"
+                    }
+                }
+            },
+
+            "confirm-component": {
+                "cancel": "Cancelar"
+            },
+            "pager": {
+                "title": "Páginas"
+            },
+            "modals": {
+                "close": "Fechar",
+                "AccountProblems": {
+                    "title": "Erro na conta do usuário",
+                    "message": "Por favor contate <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                }
+            },
+
+            "SecurityExceptions": {
+                "Unexpected": {
+                    "title": "[EV][pt][unexpected] An problem with your account",
+                    "text": "[EV][pt] Contact address <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                },
+                "AccessDenied": {
+                    "title": "[EV][pt][accessDenied] An problem with your account",
+                    "text": "[EV][pt] Contact address <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                },
+                "AdminBlocked": {
+                    "title": "[EV][pt][admBlocked] An problem with your account",
+                    "text": "[EV][pt] Contact address <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                },
+                "NotActivated": {
+                    "title": "[EV][pt][notAct] An problem with your account",
+                    "text": "[EV][pt] Contact address <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                },
+                "UserNotFound": {
+                    "title": "[EV][pt][NotFound] An problem with your account",
+                    "text": "[EV][pt] Contact address <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                },
+                "NotSupportedCompanyCategory": {
+                    "title": "[EV][pt][notSuppCompCat] An problem with your account",
+                    "text": "[EV][pt] Contact address <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                },
+                "NotSupportedSystemType": {
+                    "title": "[EV][pt][notSuppSysType] An problem with your account",
+                    "text": "[EV][pt] Contact address <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                },
+                "IsSupportStuff": {
+                    "title": "[EV][pt][isSuppStuff] An problem with your account",
+                    "text": "[EV][pt] Contact address <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                }
+            },
+
+            "errors": {
+                "globalization-not-found": "Erro de localização",
+                "server-validation": "[EV] Oups! Validation error for {property} with message {rule}",
+
+                "500": {
+                    "title": "Erro no servidor 500",
+                    "text": "Um erro não esperado ocorreu no servidor. Por favor aguarde.",
+                    "to-main-page": "Você pode voltar para <a href='/request/list'>solicitações.</a>  "
+                },
+                "404": {
+                    "title": "Erro 404",
+                    "text": "A página solicitada não foi encontrada",
+                    "to-main-page": "Você pode voltar para <a href='/request/list'>solicitações.</a>  "
+                },
+                "forbidden": {
+                    "title": "Você não tem acesso a esta página",
+                    "text": "Por favor contate <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>",
+                    "to-main-page": "  "
+                },
+                "custom": {
+                    "to-main-page": "Go back to the <a href='/request/list'> main page.</a>"
+                },
+                "end-session": {
+                    "title": "Algumas alterações foram feitas na sua conta",
+                    "text": "Por favor acesse novamente. Você será direcionado para a página de acesso"
+                },
+
+                "UnknownError": {
+                    "title": "Um erro desconhecido ocorreu",
+                    "text": "Por favor contate <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                }
+            }
         }
-      },
-      "captcha": {
-        "label": "Digite o código da imagem:",
-        "placeholder": "Código",
-        "loading": "Carregando CAPTCHA...",
-        "errors": {
-          "CaptchaIsRequired": "Digite o código",
-          "CaptchaNotFound": "Digite o código",
-          "CaptchaTimeout": "Código expirado. Por favor digite o novo código",
-          "CaptchaIncorrect": "Os caracteres não conferem. Por favor tente novamente."
-        }
-      },
-      "fileupload": {
-        "error": "Erro ao enviar arquivo",
-        "loaded": "Arquivo enviado",
-        "delete": "Apague",
-        "cancel": "Cancelar",
-        "key": {
-          "label": "Envie o arquivo de chave",
-          "button": "Enviar"
-        },
-        "file": {
-          "button": "Enviar arquivo",
-          "button-csr": "Escolha um arquivo CSR",
-          "agreement": "Regulamento sobre o provisionamento de dados",
-          "condition": "Para enviar arquvos, você deve aceitar <a href='javascript://'>Regulamento sobre o provisionamento de dados</a>",
-          "commonFile": "Você pode enviar até 3 arquivos não maiores que 4GB cada",
-          "csrFile": "Tamanho máximo do arquivo é de 5KB",
-          "amrFile": "Tamanho máximo do arquivo é de 10MB"
-        },
-        "file-agreement": {
-          "label": "Eu aceito os termos do regulamento sobre provisionamento de dados",
-          "continue": "Continuar"
-        },
-        "errors": {
-          "maxFileSize": "O arquivo é muito grande",
-          "minFileSize": "O arquivo é muit pequeno",
-          "acceptFileTypes": "Tipo de arquivo inválido",
-          "maxNumberOfFiles": "O número máximos de arquivos foi excedido"
-        }
-      },
-      "file-agreement": {
-        "accept-text": "Eu aceito os termos do regulamento sobre provisionamento de dados",
-        "continue": "Continuar",
-        "error": "Erro ao salvar os arquivos. Por favor tente mais tarde"
-      },
-      "footer": {
-        "links": {
-          "support": "Base de conhecimento",
-          "support-link": "http://support.kaspersky.com/",
-          "contacts": "Entre em contato conosco",
-          "contacts-link": "http://support.kaspersky.com/b2b",
-          "politics": "Política de privacidade",
-          "politics-link": "http://support.kaspersky.com/support/PrivacyStatement_for_CompanyAccount",
-          "legalinformation": "Termos",
-          "legalinformation-link": "http://www.kaspersky.com/legal"
-        },
-        "supportnumber": " ",
-        "supportPhone": " ",
-        "selectlanguage": "Selecione seu idioma",
-        "copyrightStart": "Copyright &copy;",
-        "copyrightEnd": "AO Kaspersky Lab ",
-        "errors": {
-          "UserNotFound": {
-            "title": "Erro na conta do usuário",
-            "message": "Por favor contate <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
-          },
-          "UnknownError": {
-            "title": "Erro desconhecido",
-            "message": "Erro desconhecido ao alterar o idioma. <br />Por favor tente novamente em alguns minutos. Por favor contate <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> para corrigir o problema"
-          }
-        }
-      },
-      "confirm-component": {
-        "cancel": "Cancelar"
-      },
-      "pager": {
-        "title": "Páginas"
-      },
-      "modals": {
-        "close": "Fechar",
-        "AccountProblems": {
-          "title": "Erro na conta do usuário",
-          "message": "Por favor contate <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
-        }
-      },
-      "errors": {
-        "404": {
-          "title": "Erro 404",
-          "text": "A página solicitada não foi encontrada",
-          "to-main-page": "Você pode voltar para <a href='/request/list'>solicitações.</a>  "
-        },
-        "500": {
-          "title": "Erro no servidor 500",
-          "text": "Um erro não esperado ocorreu no servidor. Por favor aguarde.",
-          "to-main-page": "Você pode voltar para <a href='/request/list'>solicitações.</a>  "
-        },
-        "globalization-not-found": "Erro de localização",
-        "forbidden": {
-          "title": "Você não tem acesso a esta página",
-          "text": "Por favor contate <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>",
-          "to-main-page": "  "
-        },
-        "end-session": {
-          "title": "Algumas alterações foram feitas na sua conta",
-          "text": "Por favor acesse novamente. Você será direcionado para a página de acesso"
-        },
-        "custom": {
-          "to-main-page": "Volte para <a href='/request/list'> página incial.</a>"
-        },
-        "NotMainUser": {
-          "Title": "O usuário não tem permissão de administrador",
-          "Text": "Por favor contate <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
-        },
-        "AccessDenied": {
-          "Title": "Acesso negado",
-          "Text": "Por favor contate <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
-        },
-        "UserNotFound": {
-          "Title": "Usuário não encontrado",
-          "Text": "Por favor contate <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
-        },
-        "UnknownError": {
-          "Title": "Um erro desconhecido ocorreu",
-          "Text": "Por favor contate <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
-        },
-        "Failure": {
-          "Title": "Problemas com a configuração do sistema",
-          "Text": "Por favor contate <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
-        }
-      }
     }
-  }
 }

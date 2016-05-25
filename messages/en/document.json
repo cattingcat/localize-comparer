@@ -1,28 +1,28 @@
-{
-  "globalize-messages": {
-    "en": {
-      "document": {
-        "statuses": {
-          "1": "Active:",
-          "2": "Expired (inactive):",
-          "3": "Due to expire:",
-          "until": "until "
-        },
-        "list": {
-          "tabs": {
-            "contracts": "Premium Support Agreements"
-          },
-          "item": {
-            "attached-files": "Attached agreements:",
-            "download": "Download",
-            "date-start": "Activation date:"
-          },
-          "no-contract": {
-            "title": "No <a href=\"http://www.kaspersky.com/enterprise-security/maintenance-service-agreement\" target=\"_blank\">premium support agreements</a> have been added.",
-            "description": "Kaspersky Lab offers premium support programs for a customized approach and the quickest response for your IT security issues. Choose the program most suitable for your business from a selection of Kaspersky Maintenance Service Agreement (MSA) options. </br> </br>  <a href=\"http://www.kaspersky.com/business-security/services\" target=\"_blank\">View premium support options</a></p>"
-          }
+﻿{
+    "globalize-messages": {
+        "en": {
+            "document": {
+                "statuses": {
+                    "1": "Active:",
+                    "2": "Expired (inactive):",
+                    "3": "Due to expire:",
+                    "until": "until "
+                },
+                "list": {
+                    "tabs": {
+                        "contracts": "Premium Support Agreements"
+                    },
+                    "item": {
+                        "attached-files": "Attached agreements:",
+                        "download": "Download",
+                        "date-start": "Activation date:"
+                    },
+                    "no-contract": {
+                        "title": "No <a href=\"http://www.kaspersky.com/enterprise-security/maintenance-service-agreement\" target=\"_blank\">premium support agreements</a> have been added.",
+                        "description": "Kaspersky Lab offers premium support programs for a customized approach and the quickest response for your IT security issues. Choose the program most suitable for your business from a selection of Kaspersky Maintenance Service Agreement (MSA) options. </br> </br>  <a href=\"http://www.kaspersky.com/business-security/services\" target=\"_blank\">View premium support options</a></p>"
+                    }
+                }
+            }
         }
-      }
     }
-  }
 }

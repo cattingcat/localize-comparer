@@ -1,150 +1,184 @@
-{
-  "globalize-messages": {
-    "ja": {
-      "notification": {
-        "hide": "今後は表示しない"
-      },
-      "header": {
-        "title": "Kaspersky CompanyAccount",
-        "menu": {
-          "requests": "お問い合わせ",
-          "licenses": "ライセンス",
-          "users": "ユーザー",
-          "contracts": "使用許諾",
-          "createrequest": "新しいリクエスト",
-          "signout": "サインアウト"
+﻿{
+    "globalize-messages": {
+        "ja": {
+            "notification": {
+                "hide": "今後は表示しない"
+            },
+            "header": {
+                "title": "Kaspersky CompanyAccount",
+                "menu": {
+                    "requests": "お問い合わせ",
+                    "licenses": "ライセンス",
+                    "users": "ユーザー",
+                    "contracts": "使用許諾",
+                    "createrequest": "新しいリクエスト",
+                    "signout": "サインアウト"
+                }
+            },
+            "captcha": {
+                "label": "画像内のコードを入力してください： ",
+                "placeholder": "コード",
+                "loading": "画像を読み込んでいます...",
+                "errors": {
+                    "CaptchaIsRequired": "コードを入力",
+                    "CaptchaNotFound": "コードを入力",
+                    "CaptchaTimeout": "コードの有効期間が終了しています。新しいコードを入力してください",
+                    "CaptchaIncorrect": "一致しない文字があります。再度入力してください"
+                }
+            },
+
+            "fileupload": {
+                "error": "ファイル書き込みエラーが発生しました",
+                "attachError": "[EV][jp] Attach file error",
+                "loaded": "アップロードしたファイル",
+                "delete": "削除する",
+                "cancel": "キャンセル",
+
+                "key": {
+                    "label": "ライセンス情報ファイルの復元 ",
+                    "button": "アップロード"
+                },
+                "file": {
+                    "button": "ファイルのアップロード",
+                    "button-csr": "CSR ファイルを選択してください",
+                    "agreement": "ファイル提供に関する規約",
+                    "condition": "ファイルをアップロードするには、<a href='javascript://'>データ提供に関する規則</a>への同意が必要です",
+                    "commonFile": "アップロードできるファイル数は 3 個までで、各ファイルの容量は 4 GB 未満である必要があります",
+                    "csrFile": "ファイルの最大サイズは 5 KB です",
+                    "amrFile": "ファイルの最大サイズは 10 MB です"
+                },
+
+                "file-agreement": {
+                    "label": "データ提供に関する規約に同意する",
+                    "continue": "続行"
+                },
+
+                "errors": {
+                    "maxFileSize": "ファイルのサイズが大きすぎます",
+                    "minFileSize": "ファイルのサイズが小さすぎます",
+                    "acceptFileTypes": "ファイル種別が正しくありません",
+                    "maxNumberOfFiles": "ファイルの数が上限を超えています",
+                    "uploadError": "[EV] When uploading files network error occurred"
+                }
+            },
+
+            "file-agreement": {
+                "accept-text": "データ提供に関する規約に同意する",
+                "continue": "続行",
+                "error": "ファイルの保存エラーです。時間を置いて再試行してください"
+            },
+
+            "footer": {
+                "links": {
+                    "support": "ナレッジベース",
+                    "support-link": "http://support.kaspersky.co.jp/",
+                    "contacts": "連絡先",
+                    "contacts-link": "http://support.kaspersky.co.jp/b2b",
+                    "politics": "プライバシー声明",
+                    "politics-link": "http://support.kaspersky.co.jp/support/PrivacyStatement_for_CompanyAccount",
+                    "legalinformation": "法務（英語） ",
+                    "legalinformation-link": "http://www.kaspersky.com/legal"
+                },
+                "supportnumber": " ",
+                "supportPhone": " ",
+                "selectlanguage": "言語の選択：",
+                "copyrightStart": "Copyright &copy;",
+                "copyrightEnd": "AO Kaspersky Lab ",
+                "errors": {
+                    "UserNotFound": {
+                        "title": "ユーザーアカウントのエラー",
+                        "message": "<a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>へお問い合わせください"
+                    },
+                    "UnknownError": {
+                        "title": "不明なエラー ",
+                        "message": "言語の変更時に不明なエラーが発生しました。<br />しばらくしてから、再試行してください。問題を解決するには、<a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> へお問い合わせください。"
+                    }
+                }
+            },
+
+            "confirm-component": {
+                "cancel": "キャンセル"
+            },
+
+            "pager": {
+                "title": "ページ："
+            },
+
+            "modals": {
+                "close": "閉じる",
+                "AccountProblems": {
+                    "title": "ユーザーアカウントのエラー",
+                    "message": "問題を解決するには、<a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> へお問い合わせください。"
+                }
+            },
+
+            "SecurityExceptions": {
+                "Unexpected": {
+                    "title": "[EV][unexpected] An problem with your account",
+                    "text": "[EV] Contact address <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                },
+                "AccessDenied": {
+                    "title": "[EV][accessDenied] An problem with your account",
+                    "text": "[EV] Contact address <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                },
+                "AdminBlocked": {
+                    "title": "[EV][admBlocked] An problem with your account",
+                    "text": "[EV] Contact address <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                },
+                "NotActivated": {
+                    "title": "[EV][notAct] An problem with your account",
+                    "text": "[EV] Contact address <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                },
+                "UserNotFound": {
+                    "title": "[EV][NotFound] An problem with your account",
+                    "text": "[EV] Contact address <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                },
+                "NotSupportedCompanyCategory": {
+                    "title": "[EV][notSuppCompCat] An problem with your account",
+                    "text": "[EV] Contact address <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                },
+                "NotSupportedSystemType": {
+                    "title": "[EV][notSuppSysType] An problem with your account",
+                    "text": "[EV] Contact address <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                },
+                "IsSupportStuff": {
+                    "title": "[EV][isSuppStuff] An problem with your account",
+                    "text": "[EV] Contact address <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                }
+            },
+
+            "errors": {
+                "globalization-not-found": "ローカリゼーションのエラー",
+                "server-validation": "[EV] Oups! Validation error for {property} with message {rule}",
+
+                "500": {
+                    "title": "500 - サーバーエラー",
+                    "text": "予期しないエラーがサーバー上で発生しました。お待ちください。   ",
+                    "to-main-page": "<a href='/request/list'> リクエスト</a>のページに戻ってください。  "
+                },
+                "404": {
+                    "title": "404 - エラー",
+                    "text": "リクエストしたページが見つかりません  ",
+                    "to-main-page": "<a href='/request/list'> リクエスト</a>のページに戻ってください。  "
+                },
+                "forbidden": {
+                    "title": "このページへのアクセス権限がありません",
+                    "text": "<a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>へお問い合わせください",
+                    "to-main-page": "  "
+                },
+                "custom": {
+                    "to-main-page": "<a href='/request/list'>リクエストのページ</a>に戻ってください。"
+                },
+                "end-session": {
+                    "title": "アカウントの情報が一部変更されました",
+                    "text": "再度、サインインしてください。サインインのページにリダイレクトします。"
+                },
+
+                "UnknownError": {
+                    "title": "エラーが発生しました",
+                    "text": "<a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>へお問い合わせください"
+                }
+            }
         }
-      },
-      "captcha": {
-        "label": "画像内のコードを入力してください： ",
-        "placeholder": "コード",
-        "loading": "画像を読み込んでいます...",
-        "errors": {
-          "CaptchaIsRequired": "コードを入力",
-          "CaptchaNotFound": "コードを入力",
-          "CaptchaTimeout": "コードの有効期間が終了しています。新しいコードを入力してください",
-          "CaptchaIncorrect": "一致しない文字があります。再度入力してください"
-        }
-      },
-      "fileupload": {
-        "error": "ファイル書き込みエラーが発生しました",
-        "loaded": "アップロードしたファイル",
-        "delete": "削除する",
-        "cancel": "キャンセル",
-        "key": {
-          "label": "ライセンス情報ファイルの復元 ",
-          "button": "アップロード"
-        },
-        "file": {
-          "button": "ファイルのアップロード",
-          "button-csr": "CSR ファイルを選択してください",
-          "agreement": "ファイル提供に関する規約",
-          "condition": "ファイルをアップロードするには、<a href='javascript://'>データ提供に関する規則</a>への同意が必要です",
-          "commonFile": "アップロードできるファイル数は 3 個までで、各ファイルの容量は 4 GB 未満である必要があります",
-          "csrFile": "ファイルの最大サイズは 5 KB です",
-          "amrFile": "ファイルの最大サイズは 10 MB です"
-        },
-        "file-agreement": {
-          "label": "データ提供に関する規則に同意する",
-          "continue": "続行"
-        },
-        "errors": {
-          "maxFileSize": "ファイルのサイズが大きすぎます",
-          "minFileSize": "ファイルのサイズが小さすぎます",
-          "acceptFileTypes": "ファイル種別が正しくありません",
-          "maxNumberOfFiles": "ファイルの数が上限を超えています"
-        }
-      },
-      "file-agreement": {
-        "accept-text": "データ提供に関する規約に同意する",
-        "continue": "続行",
-        "error": "ファイルの保存エラーです。時間を置いて再試行してください"
-      },
-      "footer": {
-        "links": {
-          "support": "ナレッジベース",
-          "support-link": "http://support.kaspersky.co.jp/",
-          "contacts": "連絡先",
-          "contacts-link": "http://support.kaspersky.co.jp/b2b",
-          "politics": "プライバシー声明",
-          "politics-link": "http://support.kaspersky.co.jp/support/PrivacyStatement_for_CompanyAccount",
-          "legalinformation": "法務（英語） ",
-          "legalinformation-link": "http://www.kaspersky.com/legal"
-        },
-        "supportnumber": " ",
-        "supportPhone": " ",
-        "selectlanguage": "言語の選択：",
-        "copyrightStart": "Copyright &copy;",
-        "copyrightEnd": "AO Kaspersky Lab ",
-        "errors": {
-          "UserNotFound": {
-            "title": "ユーザーアカウントのエラー",
-            "message": "<a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>へお問い合わせください"
-          },
-          "UnknownError": {
-            "title": "不明なエラー ",
-            "message": "言語の変更時に不明なエラーが発生しました。<br />しばらくしてから、再試行してください。問題を解決するには、<a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> へお問い合わせください。"
-          }
-        }
-      },
-      "confirm-component": {
-        "cancel": "キャンセル"
-      },
-      "pager": {
-        "title": "ページ："
-      },
-      "modals": {
-        "close": "閉じる",
-        "AccountProblems": {
-          "title": "ユーザーアカウントのエラー",
-          "message": "問題を解決するには、<a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> へお問い合わせください。"
-        }
-      },
-      "errors": {
-        "404": {
-          "title": "404 - エラー",
-          "text": "リクエストしたページが見つかりません  ",
-          "to-main-page": "<a href='/request/list'> リクエスト</a>のページに戻ってください。  "
-        },
-        "500": {
-          "title": "500 - サーバーエラー",
-          "text": "予期しないエラーがサーバー上で発生しました。お待ちください。   ",
-          "to-main-page": "<a href='/request/list'> リクエスト</a>のページに戻ってください。  "
-        },
-        "globalization-not-found": "ローカリゼーションのエラー",
-        "forbidden": {
-          "title": "このページへのアクセス権限がありません",
-          "text": "<a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>へお問い合わせください",
-          "to-main-page": "  "
-        },
-        "end-session": {
-          "title": "アカウントの情報が一部変更されました",
-          "text": "再度、サインインしてください。サインインのページにリダイレクトします。"
-        },
-        "custom": {
-          "to-main-page": "<a href='/request/list'>リクエストのページ</a>に戻ってください。"
-        },
-        "NotMainUser": {
-          "Title": "このユーザーには、カンパニーアカウントの管理者権限がありません",
-          "Text": "<a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>へお問い合わせください"
-        },
-        "AccessDenied": {
-          "Title": "アクセスが拒否されました",
-          "Text": "<a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>へお問い合わせください"
-        },
-        "UserNotFound": {
-          "Title": "ユーザーが見つかりません",
-          "Text": "<a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>へお問い合わせください"
-        },
-        "UnknownError": {
-          "Title": "エラーが発生しました",
-          "Text": "<a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>へお問い合わせください"
-        },
-        "Failure": {
-          "Title": "システム設定に問題があります ",
-          "Text": "<a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>へお問い合わせください"
-        }
-      }
     }
-  }
 }
