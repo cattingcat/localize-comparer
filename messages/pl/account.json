@@ -156,6 +156,14 @@
                     "delete": "Usuń",
                     "close": "Zamknij",
                     "ok": "OK",
+
+                    "loading": "[EV][pl] User account deleting",
+                    "confirm": {
+                        "title": "[EV][pl] Delete account",
+                        "description": "[EV][pl] Caution When you click \"Continue\" your account will be deleted. After clicking this link your account will be removed.",
+                        "continue": "[EV][pl] Delete"
+                    },
+
                     "success": {
                         "title": "Konto użytkownika zostało usunięte",
                         "description": " "
@@ -207,7 +215,7 @@
                         "LastName.MaxByteLengthRule": "Twoje imię nie może przekraczać 30 znaków",
 
                         "Company.RequiredRule": "Wprowadź nazwę firmy",
-                        "Company.MaxByteLengthRule": "Nazwa firmy nie może przekraczać 127 znaków",
+                        "Company.MaxLengthRule": "Nazwa firmy nie może przekraczać 40 znaków",
 
                         "Country.RequiredRule": "Wybierz swój kraj",
 

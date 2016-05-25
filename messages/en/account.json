@@ -156,6 +156,13 @@
                     "delete": "Delete",
                     "close": "Close",
                     "ok": "OK",
+
+                    "loading": "[EV] User account deleting",
+                    "confirm": {
+                        "title": "[EV] Delete account",
+                        "description": "[EV] Caution When you click \"Continue\" your account will be deleted. After clicking this link your account will be removed.",
+                        "continue": "[EV] Delete"
+                    },
                     "success": {
                         "title": "User account has been deleted",
                         "description": " "
@@ -201,13 +208,13 @@
                     "close": "Close",
                     "errors": {
                         "FirstName.RequiredRule": "Enter your first name",
-                        "FirstName.MaxByteLengthRule": "Your name must not exceed {Length} characters",
+                        "FirstName.MaxByteLengthRule": "Your name must not exceed {ByteLength} characters",
 
                         "LastName.RequiredRule": "Enter your last name",
-                        "LastName.MaxByteLengthRule": "Your name must not exceed {Length} characters",
+                        "LastName.MaxByteLengthRule": "Your name must not exceed {ByteLength} characters",
 
                         "Company.RequiredRule": "Enter the company name",
-                        "Company.MaxByteLengthRule": "Company name must not exceed {Length} characters",
+                        "Company.MaxLengthRule": "Company name must not exceed {Length} characters",
 
                         "Country.RequiredRule": "Select your country",
 
@@ -216,7 +223,7 @@
 
                         "Email.RequiredRule": "Enter your email address",
                         "Email.EmailRule": "Invalid email address",
-                        "Email.MaxByteLengthRule": "Email address must not exceed {Length} characters",
+                        "Email.MaxByteLengthRule": "Email address must not exceed {ByteLength} characters",
                         "Email.RepeatedRegistration": "The account already exists You can <a href='/account/forgot'>restore your password</a> or <a href='/account/login'>sign in</a>",
                         "InvalidEmailDomain": "Domain name kaspersky.com is invalid",
 
@@ -262,7 +269,7 @@
                         "CaptchaIncorrect": "Characters do not match. Please try again",
                         "Email.RequiredRule": "Enter your e-mail",
                         "Email.EmailRule": "Invalid email address",
-                        "Email.MaxByteLengthRule": "[EV] Max length of E-mail is {Length}",
+                        "Email.MaxByteLengthRule": "[EV] Max length of E-mail is {ByteLength}",
 
                         "AdminBlocked": {
                             "title": "The account is locked by administrator",

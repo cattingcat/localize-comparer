@@ -200,9 +200,9 @@
                     "LastName.RequiredRule": "Не указана фамилия",
                     "Country.RequiredRule": "Не заполнено поле Страна",
                     "InvalidCountry": "Ошибка выбора страны",
-                    "FirstName.MaxByteLengthRule": "[EV] Имя слишком длинное, максимум: {Length} символов",
-                    "LastName.MaxByteLengthRule": "[EV] Фамилия слишком длинная, максимум: {Length} символов",
-                    "Organization.MaxByteLengthRule": "[EV] Филиал слишком длинный, максимум: {Length} символов",
+                    "FirstName.MaxByteLengthRule": "[EV] Имя слишком длинное, максимум: {ByteLength} символов",
+                    "LastName.MaxByteLengthRule": "[EV] Фамилия слишком длинная, максимум: {ByteLength} символов",
+                    "Organization.MaxByteLengthRule": "[EV] Филиал слишком длинный, максимум: {ByteLength} символов",
 
                     "Failure": {
                         "Title": "Возникла непредвиденная ошибка",
@@ -271,7 +271,16 @@
                     "filialMessage": "Выберите из списка или введите новый",
                     "fullDescription": "Полное описание"
                 },
-
+                "companyLogo": {
+                    "title": "Логотип компании",
+                    "description": "Загрузите логотип вашей компании. Вы можете загрузить логотип высотой <b>64px</b> и шириной не более <b>200px</b>. Доступные для загрузки форматы:  <b>jpg</b>, <b>jpeg</b>, <b>png</b>, <b>gif</b>.",
+                    "remove": "Удалить",
+                    "errors": {
+                        "wrongSize": "Размеры логотипа превышают допустимые. Попробуйте еще раз.",
+                        "wrongFormat": "Расширение логотипа неверное. Доступные для загрузки форматы:  <b>jpg</b>, <b>jpeg</b>, <b>png</b>, <b>gif</b>."
+                    },
+                    "success": "Логотип успешно загружен."
+                },
                 "resetPassword": {
                     "success": " ",
                     "errors": {
@@ -322,3 +331,4 @@
         }
     }
 }
+

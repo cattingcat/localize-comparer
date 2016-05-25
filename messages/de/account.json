@@ -156,6 +156,14 @@
                     "delete": "Löschen",
                     "close": "Schließen",
                     "ok": "OK",
+
+                    "loading": "[EV][de] User account deleting",
+                    "confirm": {
+                        "title": "[EV][de] Delete account",
+                        "description": "[EV][de] Caution When you click \"Continue\" your account will be deleted. After clicking this link your account will be removed.",
+                        "continue": "[EV][de] Delete"
+                    },
+
                     "success": {
                         "title": "Das Benutzerkonto wurde<br />erfolgreich gelöscht",
                         "description": " "
@@ -207,7 +215,7 @@
                         "LastName.MaxByteLengthRule": "Die maximale Länge des Familiennamens beträgt 30 Zeichen",
 
                         "Company.RequiredRule": "Bitte geben Sie den Firmennamen an",
-                        "Company.MaxByteLengthRule": "Die maximale Länge des Firmennamens beträgt 127 Zeichen",
+                        "Company.MaxLengthRule": "Die maximale Länge des Firmennamens beträgt 40 Zeichen",
 
                         "Country.RequiredRule": "Das Feld „Land“ ist nicht ausgefüllt",
 

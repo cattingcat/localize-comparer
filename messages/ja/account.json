@@ -156,6 +156,14 @@
                     "delete": "削除する",
                     "close": "閉じる",
                     "ok": "OK",
+
+                    "loading": "[EV][jp] User account deleting",
+                    "confirm": {
+                        "title": "[EV][jp] Delete account",
+                        "description": "[EV][jp] Caution When you click \"Continue\" your account will be deleted. After clicking this link your account will be removed.",
+                        "continue": "[EV][jp] Delete"
+                    },
+
                     "success": {
                         "title": "アカウントが削除されました",
                         "description": " "
@@ -207,7 +215,7 @@
                         "LastName.MaxByteLengthRule": "31 文字以上は入力できません",
 
                         "Company.RequiredRule": "企業名を入力してください",
-                        "Company.MaxByteLengthRule": "31 文字以上は入力できません",
+                        "Company.MaxLengthRule": "40 文字以上は入力できません",
 
                         "Country.RequiredRule": "国を選択してください",
 

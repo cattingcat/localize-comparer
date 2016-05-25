@@ -156,6 +156,20 @@
                     "delete": "Excluir",
                     "close": "Fechar",
                     "ok": "OK",
+
+                    "loading": "[EV][pt] User account deleting",
+                    "confirm": {
+                        "title": "[EV][pt] Delete account",
+                        "description": "[EV][pt] Caution When you click \"Continue\" your account will be deleted. After clicking this link your account will be removed.",
+                        "continue": "[EV][pt] Delete"
+                    },
+
+                    "loading": "[EV][pt] User account deleting",
+                    "confirm": {
+                        "title": "[EV][pt] Delete account",
+                        "description": "[EV][pt] Caution When you click \"Continue\" your account will be deleted. After clicking this link your account will be removed.",
+                        "continue": "[EV][pt] Delete"
+                    },
                     "success": {
                         "title": "Conta de usuário foi excluída",
                         "description": " "
@@ -209,7 +223,7 @@
                         "LastName.MaxByteLengthRule": "Seu nome não deve exceder 30 caracteres",
 
                         "Company.RequiredRule": "Insira o nome da empresa",
-                        "Company.MaxByteLengthRule": "Nome da empresa não deve exceder 127 caracteres",
+                        "Company.MaxLengthRule": "Nome da empresa não deve exceder 40 caracteres",
 
                         "Country.RequiredRule": "Selecione seu país",
 
@@ -265,7 +279,7 @@
 
                         "Email.RequiredRule": "Insira seu email",
                         "Email.EmailRule": "Endereço de email invalido",
-                        "Email.MaxByteLengthRule": "[EV][pt] Max length of E-mail is {Length}",
+                        "Email.MaxByteLengthRule": "[EV][pt] Max length of E-mail is {ByteLength}",
 
                         "AdminBlocked": {
                             "title": "A conta está bloqueada pelo administrador",

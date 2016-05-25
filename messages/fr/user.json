@@ -194,9 +194,9 @@
                     "LastName.RequiredRule": "Le nom n'est pas spécifié",
                     "Country.RequiredRule": "Le champ Pays n'est pas rempli",
                     "InvalidCountry": "Erreur de sélection du pays",
-                    "FirstName.MaxByteLengthRule": "[EV] Name is too long, max length: {Length}",
-                    "LastName.MaxByteLengthRule": "[EV] Last name is too long, Max length: {Length}",
-                    "Organization.MaxByteLengthRule": "[EV] Organization is too long, Max length: {Length}",
+                    "FirstName.MaxByteLengthRule": "[EV] Name is too long, max length: {ByteLength}",
+                    "LastName.MaxByteLengthRule": "[EV] Last name is too long, Max length: {LenByteLengthgth}",
+                    "Organization.MaxByteLengthRule": "[EV] Organization is too long, Max length: {ByteLength}",
 
                     "Failure": {
                         "Title": "Une erreur imprévue est survenue",

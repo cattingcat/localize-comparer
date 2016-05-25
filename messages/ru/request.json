@@ -59,7 +59,7 @@
                         "UserNotFound": "Пользователь не найден",
                         "AccessDenied": "Доступ запрещен",
                         "UnknownError": "Произошла ошибка, пожалуйста, попробуйте ещё раз. Если ошибка повторится, обратитесь по адресу <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a> ",
-                        "RequestClosedOrCanceled": "Вы не можете отправить сообщение, так как данный запрос был изменен"
+                        "StatusClosedCancelled": "Вы не можете отправить сообщение, так как данный запрос был изменен"
                     }
                 },
                 "statuses": {
@@ -254,7 +254,7 @@
                         "ProductVersion.RequiredRule": "[EV] Выберите версию продукта",
                         "ProductVersion.MaxLengthRule": "[EV][for TA] слишком длинная <b>Версия продукта</b>",
                         "OSVersion.RequiredRule": "[EV] Укажите версию ОС",
-                        "OSVersion.MaxLengthRule": "[EV] Слишком длинная версия ОС",
+                        "OSVersion.MaxByteLengthRule": "[EV] Слишком длинная версия ОС",
                         "TypeId.RequiredRule": "[EV] Выберите Тип запроса",
                         "Summary.RequiredRule": "[EV] Укажите Тему запроса",
                         "Summary.MaxLengthRule": "[EV] Слишком длинная тема запроса. Максимальная длина темы запроса 50 символов",

@@ -192,9 +192,9 @@
                     "LastName.RequiredRule": "苗字を入力してください",
                     "Country.RequiredRule": "お住まいの国を選択してください",
                     "InvalidCountry": "国の指定エラー",
-                    "FirstName.MaxByteLengthRule": "[EV] Name is too long, max length: {Length}",
-                    "LastName.MaxByteLengthRule": "[EV] Last name is too long, Max length: {Length}",
-                    "Organization.MaxByteLengthRule": "[EV] Organization is too long, Max length: {Length}",
+                    "FirstName.MaxByteLengthRule": "[EV] Name is too long, max length: {ByteLength}",
+                    "LastName.MaxByteLengthRule": "[EV] Last name is too long, Max length: {ByteLength}",
+                    "Organization.MaxByteLengthRule": "[EV] Organization is too long, Max length: {ByteLength}",
 
                     "Failure": {
                         "Title": "予期しないエラー",

@@ -18,7 +18,7 @@
                     "ProductId.RequiredRule": "Select the product",
                     "ProductVersion.RequiredRule": "Select the product version",
                     "OSVersion.RequiredRule": "Select or type the OS version",
-                    "OSVersion.MaxLengthRule": "[EV] OS version is too long",
+                    "OSVersion.MaxByteLengthRule": "[EV] OS version is too long",
                     "TypeId.RequiredRule": "Select the request type",
                     "Summary.RequiredRule": "Enter the subject of the request",
                     "Summary.MaxLengthRule": "The subject is too long. Subject must not exceed {Length} characters",
@@ -59,7 +59,7 @@
                         "UserNotFound": "User not found",
                         "AccessDenied": "Access denied",
                         "UnknownError": "An error occurred. Please try again. If the issue persists, please contact <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a> ",
-                        "RequestClosedOrCanceled": "Unable to send the message. The request has been changed"
+                        "StatusClosedCancelled": "Unable to send the message. The request has been changed"
                     }
                 },
                 "statuses": {
@@ -253,7 +253,7 @@
                         "ProductVersion.RequiredRule": "Product version is required",
                         "ProductVersion.MaxLengthRule": "[EV][for TA] <b>Product version</b> is too long",
                         "OSVersion.RequiredRule": "OS version is required",
-                        "OSVersion.MaxLengthRule": "[EV] OS version is too long",
+                        "OSVersion.MaxByteLengthRule": "[EV] OS version is too long",
                         "TypeId.RequiredRule": "[EV] Type is required",
                         "Summary.RequiredRule": "Request theme is required",
                         "Summary.MaxLengthRule": "[EV] Request theme is too long. max: {Length}",

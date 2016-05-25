@@ -193,9 +193,9 @@
                     "LastName.RequiredRule": "Inserire il vostro cognome",
                     "Country.RequiredRule": "Selezionare la nazione",
                     "InvalidCountry": "Errore nella selezione della nazione",
-                    "FirstName.MaxByteLengthRule": "[EV] Name is too long, max length: {Length}",
-                    "LastName.MaxByteLengthRule": "[EV] Last name is too long, Max length: {Length}",
-                    "Organization.MaxByteLengthRule": "[EV] Organization is too long, Max length: {Length}",
+                    "FirstName.MaxByteLengthRule": "[EV] Name is too long, max length: {ByteLength}",
+                    "LastName.MaxByteLengthRule": "[EV] Last name is too long, Max length: {ByteLength}",
+                    "Organization.MaxByteLengthRule": "[EV] Organization is too long, Max length: {ByteLength}",
 
                     "Failure": {
                         "Title": "Errore imprevisto",

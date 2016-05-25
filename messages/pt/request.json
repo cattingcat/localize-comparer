@@ -66,15 +66,15 @@
                 "statuses": {
                     "None": "None",
 
-                    "PendingAdditionalInformationNeeded": "Pendente (informação adicional necessária)",
-                    "InProgress": "Em andamento",
-                    "ResolvedSolutionProvided": "Resolvido (solução foi fornecida)",
-                    "ResolvedRequiredInfoNotProvided": "Resolvido (Informações necessárias não foram fornecidas)",
-                    "CancelledByCustomer": "Cancelado (pelo cliente)",
-                    "CancelledBySupport": "Cancelado (pelo suporte)",
-                    "CancelledLicenseSupportContractTermination": "Cancelados (rescisão de contrato licença/suporte)",
+                    "PendingAdditionalInformationNeeded": "Pendente (informação adicional necessária)",
+                    "InProgress": "Em andamento",
+                    "ResolvedSolutionProvided": "Resolvido (solução foi fornecida)",
+                    "ResolvedRequiredInfoNotProvided": "Resolvido (Informações necessárias não foram fornecidas)",
+                    "CancelledByCustomer": "Cancelado (pelo cliente)",
+                    "CancelledBySupport": "Cancelado (pelo suporte)",
+                    "CancelledLicenseSupportContractTermination": "Cancelados (rescisão de contrato licença/suporte)",
                     "ClosedByCustomer": "Fechado (pelo cliente)",
-                    "ClosedRequestForwarded": "Fechado (solicitação encaminhada)",
+                    "ClosedRequestForwarded": "Fechado (solicitação encaminhada)",
                     "ClosedBySupport": "Fechado (por suporte)",
 
                     "InProgress-status-area": "Essa solicitação está sendo processada pelo Engenheiro de Suporte"

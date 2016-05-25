@@ -156,6 +156,13 @@
                     "delete": "Удалить",
                     "close": "Закрыть",
                     "ok": "Ок",
+
+                    "loading": "[EV] Учетная запись удаляется",
+                    "confirm": {
+                        "title": "[EV] Удаление учетной записи",
+                        "description": "[EV] Когда вы нажмете продолжить, учетная запись пользователя будет удалена",
+                        "continue": "[EV] Удалить"
+                    },
                     "success": {
                         "title": "Учетная запись<br />успешно удалена",
                         "description": " "
@@ -201,13 +208,13 @@
                     "close": "Закрыть",
                     "errors": {
                         "FirstName.RequiredRule": "Укажите Ваше имя",
-                        "FirstName.MaxByteLengthRule": "Максимальная длинна имени {Length} символов",
+                        "FirstName.MaxByteLengthRule": "Максимальная длинна имени {ByteLength} символов",
 
                         "LastName.RequiredRule": "Укажите Вашу фамилию",
-                        "LastName.MaxByteLengthRule": "Максимальная длинна фамилии {Length} символов",
+                        "LastName.MaxByteLengthRule": "Максимальная длинна фамилии {ByteLength} символов",
 
                         "Company.RequiredRule": "Пожалуйста, укажите название компании",
-                        "Company.MaxByteLengthRule": "Максимальная длинна названия компании {Length} символов",
+                        "Company.MaxLengthRule": "Максимальная длинна названия компании {Length} символов",
 
                         "Country.RequiredRule": "Не заполнено поле Страна",
 
@@ -216,7 +223,7 @@
 
                         "Email.RequiredRule": "Не указан e-mail адрес",
                         "Email.EmailRule": "Некорректный адрес e-mail",
-                        "Email.MaxByteLengthRule": "Максимальная длинна e-mail адреса {Length} символов",
+                        "Email.MaxByteLengthRule": "Максимальная длинна e-mail адреса {ByteLength} символов",
                         "Email.RepeatedRegistration": "Такая учётная запись уже существует. Вы можете <a href='/account/forgot'>восстановить пароль</a> или <a href='/account/login'>войти</a>",
                         "InvalidEmailDomain": "Домен не может быть kaspersky.com",
 
@@ -259,7 +266,7 @@
                         "CaptchaIncorrect": "Код введён неверно, попробуйте ещё раз",
                         "Email.RequiredRule": "Укажите E-mail",
                         "Email.EmailRule": "Некорректный адрес электронной почты",
-                        "Email.MaxByteLengthRule": "[EV] Максимальная длинна e-mail адреса {Length} символов",
+                        "Email.MaxByteLengthRule": "[EV] Максимальная длинна e-mail адреса {ByteLength} символов",
 
                         "AdminBlocked": {
                             "title": "Учетная запись заблокирована администратором",

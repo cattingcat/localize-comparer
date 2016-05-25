@@ -192,9 +192,9 @@
                     "LastName.RequiredRule": "Por favor insira seu sobrenome",
                     "Country.RequiredRule": "Por favor, selecione o país",
                     "InvalidCountry": "erro na seleção do país",
-                    "FirstName.MaxByteLengthRule": "[EV][pt] Name is too long, max length: {Length}",
-                    "LastName.MaxByteLengthRule": "[EV][pt] Last name is too long, Max length: {Length}",
-                    "Organization.MaxByteLengthRule": "[EV][pt] Organization is too long, Max length: {Length}",
+                    "FirstName.MaxByteLengthRule": "[EV][pt] Name is too long, max length: {ByteLength}",
+                    "LastName.MaxByteLengthRule": "[EV][pt] Last name is too long, Max length: {ByteLength}",
+                    "Organization.MaxByteLengthRule": "[EV][pt] Organization is too long, Max length: {ByteLength}",
 
                     "Failure": {
                         "Title": "Erro inesperado",
