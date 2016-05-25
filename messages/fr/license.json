@@ -1,109 +1,104 @@
-﻿{
-    "globalize-messages": {
-        "fr": {
-            "license": {
-                "add": {
-                    "license-add-label": "Ajouter une licence :",
-                    "code-add": "Ajouter un code",
-                    "code-add-or": "ou",
-                    "upload-file": "Uploadez un fichier clé",
-                    "file-send": "Ajouter une licence",
-                    "process": "Chargement de la licence",
-                    "errors": {
-                        "Success": "La licence a été ajoutée avec succès",
-                        "GettingLicenseInfoError": "La licence est introuvable",
-                        "ConsumerLicense": "La licence n'a pas été ajoutée. Avant d'ajouter une licence d'un produit grand public,<br/> veuillez joindre au moins une licence des produits entreprises.",
-                        "LicenseIsExpired": "La durée de validité de la licence est écoulée.",
-                        "LicenseIsBlocked": "La licence est bloquée.",
-                        "IncorrectAC": "Le format du code saisi est invalide.",
-                        "IncorrectKeyFile": "Le format du fichier est invalide.",
-                        "MultLicUseErr": "La licence est déjà associée à un autre compte entreprise.",
-                        "SuccessUserMoved": "La licence a été ajoutée avec succès. Votre compte a été associé à une autre entreprise. <br/> Veuillez vous reconnecter à CompanyAccount pour que les modifications prennent effet.",
-                        "LicenseAlreadyExists": "Cette licence est déjà ajoutée à votre compte entreprise.",
-                        "ACExpired": "La durée de validité du code d'activation est écoulée.",
-                        "UnknownError": "Une erreur est survenue, veuillez réessayer. Si le problème persiste, <a href='../request/create/ca' target=\"_blank\">déposez une demande auprès du support technique</a>",
-                        "LicenseNotFound": "La licence est introuvable",
-                        "InvalidKeyFileSize": "[EV] File is too big"
-                    },
-                    "success-user-moved": {
-                        "title": "La licence a été ajoutée avec succès.",
-                        "description": "Votre compte a été associé à une autre entreprise. <br/> Veuillez vous reconnecter à CompanyAccount pour que les modifications prennent effet.",
-                        "refresh": "OK"
-                    }
-                },
-
-                "statuses": {
-                    "Valid": "Active",
-                    "NotFound": "Introuvable",
-                    "Expired": "Expirée",
-                    "Blocked": "Bloquée",
-                    "NotActivated": "Non activée",
-                    "Deleted": "Supprimée"
-                },
-                "comments": {
-                    "NotActivated": "La licence n'a pas encore été activée. Les types de demandes traitées par le support technique peuvent être limités. Activez la licence dans l'application.",
-                    "ExpiresSoon": "Attention ! La durée de validité de la licence expire bientôt.",
-                    "Blocked": "Date de blocage : {BlockedDate}"
-                },
-
-                "list": {
-                    "title": "Licences",
-                    "filter-by-status-label": "Afficher les licences :",
-                    "filter-by-status": {
-                        "All": "Toutes",
-                        "Active": "Actives",
-                        "Expiring": "Expirées",
-                        "Inactive": "Non activées",
-                        "Blocked": "Bloquées"
-                    },
-                    "expire-date": "Date d'expiration",
-                    "item": {
-                        "activation-code": "Code d'activation :",
-                        "count": "Nombre de nœuds :",
-                        "serial-number": "Numéro de série :",
-                        "order-number": "Numéro de commande :",
-                        "compatible-application": "Liste des applications compatibles",
-                        "add-date": "Ajoutée le :",
-                        "key-file": "Fichier clé :",
-                        "remove-license": "Supprimer la licence"
-                    },
-                    "no-filtered-license": "Aucune licence trouvée pour les critères de recherche spécifiés. Veuillez élargir la zone de recherche",
-                    "no-license": "Aucune licence n'a été ajoutée pour votre entreprise.",
-                    "errors": {
-                        "NoCompatibleApps": "Il n'y a pas d'applications actives pour cette licence. <br />Veuillez <a href='../request/create/ca' target=\"_blank\"> consulter le support technique</a> pour savoir comment vous pouvez utiliser cette licence.",
-                        "UnknownError": "Erreur inconnue. Si le problème persiste, <a href='../request/create/ca' target=\"_blank\">déposez une demande auprès du support technique</a>"
-                    },
-                    "compatibleapps": "Applications compatibles :",
-                    "remove": {
-                        "confirm-title": "Suppression de la licence",
-                        "confirm-text": "Vous êtes sur le point de supprimer la licence pour {0}.<br />Après la suppression de la licence, vous pourrez l'ajouter à nouveau à CompanyAccount.",
-                        "confirm-button": "Supprimer"
-                    }
-                },
-
-                "compatible": {
-                    "errors": {
-                        "UserNotFound": {
-                            "title": "Utilisateur introuvable",
-                            "message": " "
-                        },
-                        "AccessDenied": {
-                            "title": "Accès interdit",
-                            "message": " "
-                        },
-                        "UnknownError": {
-                            "title": "Un problème inconnu s'est produit",
-                            "message": "Un problème inconnu s'est produit à la tentative d'afficher la liste des applications compatibles. Veuillez réessayer dans quelques instants. <br/>Si le problème persiste, <a href='../request/create/ca' target=\"_blank\">déposez une demande auprès du support technique</a> "
-                        },
-                        "NoCompatibleApps": {
-                            "title": "Il n'y a pas d'applications compatibles avec cette licence.",
-                            "message": "Veuillez <a href='../request/create/ca' target=\"_blank\"> consulter le support technique</a> pour savoir comment vous pouvez utiliser cette licence."
-                        }
-                    },
-                    "close": "Fermer"
-                }
-
+{
+  "globalize-messages": {
+    "fr": {
+      "license": {
+        "add": {
+          "license-add-label": "Ajouter une licence :",
+          "code-add": "Ajouter un code",
+          "code-add-or": "ou",
+          "upload-file": "Uploadez un fichier clé",
+          "file-send": "Ajouter une licence",
+          "process": "Chargement de la licence",
+          "errors": {
+            "Success": "La licence a été ajoutée avec succès",
+            "GettingLicenseInfoError": "La licence est introuvable",
+            "ConsumerLicense": "La licence n'a pas été ajoutée. Avant d'ajouter une licence d'un produit grand public,<br/> veuillez joindre au moins une licence des produits entreprises.",
+            "LicenseIsExpired": "La durée de validité de la licence est écoulée.",
+            "LicenseIsBlocked": "La licence est bloquée.",
+            "IncorrectAC": "Le format du code saisi est invalide.",
+            "IncorrectKeyFile": "Le format du fichier est invalide.",
+            "MultLicUseErr": "La licence est déjà associée à un autre compte entreprise.",
+            "SuccessUserMoved": "La licence a été ajoutée avec succès. Votre compte a été associé à une autre entreprise. <br/> Veuillez vous reconnecter à CompanyAccount pour que les modifications prennent effet.",
+            "LicenseAlreadyExists": "Cette licence est déjà ajoutée à votre compte entreprise.",
+            "ACExpired": "La durée de validité du code d'activation est écoulée.",
+            "UnknownError": "Une erreur est survenue, veuillez réessayer. Si le problème persiste, <a href='../request/create/ca' target=\"_blank\">déposez une demande auprès du support technique</a>",
+            "LicenseNotFound": "La licence est introuvable"
+          },
+          "success-user-moved": {
+            "title": "La licence a été ajoutée avec succès.",
+            "description": "Votre compte a été associé à une autre entreprise. <br/> Veuillez vous reconnecter à CompanyAccount pour que les modifications prennent effet.",
+            "refresh": "OK"
+          }
+        },
+        "statuses": {
+          "Valid": "Active",
+          "NotFound": "Introuvable",
+          "Expired": "Expirée",
+          "Blocked": "Bloquée",
+          "NotActivated": "Non activée",
+          "Deleted": "Supprimée"
+        },
+        "comments": {
+          "NotActivated": "La licence n'a pas encore été activée. Les types de demandes traitées par le support technique peuvent être limités. Activez la licence dans l'application.",
+          "ExpiresSoon": "Attention ! La durée de validité de la licence expire bientôt.",
+          "Blocked": "Date de blocage : {BlockedDate}"
+        },
+        "list": {
+          "title": "Licences",
+          "filter-by-status-label": "Afficher les licences :",
+          "filter-by-status": {
+            "All": "Toutes",
+            "Active": "Actives",
+            "Expiring": "Expirées",
+            "Inactive": "Non activées",
+            "Blocked": "Bloquées"
+          },
+          "expire-date": "Date d'expiration",
+          "item": {
+            "activation-code": "Code d'activation :",
+            "count": "Nombre de nœuds :",
+            "serial-number": "Numéro de série :",
+            "order-number": "Numéro de commande :",
+            "compatible-application": "Liste des applications compatibles",
+            "add-date": "Ajoutée le :",
+            "key-file": "Fichier clé :",
+            "remove-license": "Supprimer la licence"
+          },
+          "no-filtered-license": "Aucune licence trouvée pour les critères de recherche spécifiés. Veuillez élargir la zone de recherche",
+          "no-license": "Aucune licence n'a été ajoutée pour votre entreprise.",
+          "errors": {
+            "NoCompatibleApps": "Il n'y a pas d'applications actives pour cette licence. <br />Veuillez <a href='../request/create/ca' target=\"_blank\"> consulter le support technique</a> pour savoir comment vous pouvez utiliser cette licence.",
+            "UnknownError": "Erreur inconnue. Si le problème persiste, <a href='../request/create/ca' target=\"_blank\">déposez une demande auprès du support technique</a>"
+          },
+          "compatibleapps": "Applications compatibles :",
+          "remove": {
+            "confirm-title": "Suppression de la licence",
+            "confirm-text": "Vous êtes sur le point de supprimer la licence pour {0}.<br />Après la suppression de la licence, vous pourrez l'ajouter à nouveau à CompanyAccount.",
+            "confirm-button": "Supprimer"
+          }
+        },
+        "compatible": {
+          "errors": {
+            "UserNotFound": {
+              "title": "Utilisateur introuvable",
+              "message": " "
+            },
+            "AccessDenied": {
+              "title": "Accès interdit",
+              "message": " "
+            },
+            "UnknownError": {
+              "title": "Un problème inconnu s'est produit",
+              "message": "Un problème inconnu s'est produit à la tentative d'afficher la liste des applications compatibles. Veuillez réessayer dans quelques instants. <br/>Si le problème persiste, <a href='../request/create/ca' target=\"_blank\">déposez une demande auprès du support technique</a> "
+            },
+            "NoCompatibleApps": {
+              "title": "Il n'y a pas d'applications compatibles avec cette licence.",
+              "message": "Veuillez <a href='../request/create/ca' target=\"_blank\"> consulter le support technique</a> pour savoir comment vous pouvez utiliser cette licence."
             }
+          },
+          "close": "Fermer"
         }
+      }
     }
+  }
 }
