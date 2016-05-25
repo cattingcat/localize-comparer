@@ -21,11 +21,11 @@
                     "OSVersion.MaxByteLengthRule": "[EV] Слишком длинная версия ОС",
                     "TypeId.RequiredRule": "Выберите Подтип запроса",
                     "Summary.RequiredRule": "Укажите Тему запроса",
-                    "Summary.MaxLengthRule": "Слишком длиная тема запроса. Максимальная длина темы запроса 50 символов",
+                    "Summary.MaxLengthRule": "Слишком длинная тема запроса. Максимальная длина темы запроса 50 символов",
                     "Description.RequiredRule": "Опишите вашу проблему",
                     "Description.TextMaxLengthLimitRule": "[EV] Слишком длинное <b>Описание проблемы</b>",
                     "Description.MaxLengthRule": "[EV] Слишком длинное <b>Описание проблемы</b>",
-                                            
+
                     "attach-files-error": "[Support-TA] Запрос создан, но при прикреплении файлов {attachedFileErrors} произошла ошибка. </br> Попробуйте прикрепить файл через несколько минут. </br> Если ошибка повторится, пожалуйста, напишите об этом в комментарии к запросу. Номер запроса: <a href=\"/request/view/{requestId}\">{requestId}</a>",
                     "comment-attach-files-error": "Запись в переписку добавлена, но при прикреплении файлов {attachedFileErrors} произошла ошибка. </br>Попробуйте прикрепить файл через несколько минут. </br>Если ошибка повторится, пожалуйста, напишите об этом в комментарии к запросу."
                 },
@@ -69,10 +69,10 @@
                     "ClosedBySupport": "Закрыт специалистом поддержки",
                     "InProgress": "Запрос обрабатывается",
                     "PendingAdditionalInformationNeeded": "Ожидает вашего ответа",
-                    "ResolvedSolutionProvided": "Решен",
+                    "ResolvedSolutionProvided": "Решение предоставлено",
                     "CancelledByCustomer": "Отменен пользователем",
                     "CancelledLicenseSupportContractTermination": "Отменён (истечение лицензии/контрата)",
-                    "ClosedRequestForwarded": "Запрос закрыт",
+                    "ClosedRequestForwarded": "Закрыт (запрос перенаправлен)",
                     "ClosedByCustomer": "Отменён пользователем",
                     "ResolvedRequiredInfoNotProvided": "Решён (информация не была предоставлена)",
 
@@ -257,7 +257,7 @@
                         "OSVersion.MaxLengthRule": "[EV] Слишком длинная версия ОС",
                         "TypeId.RequiredRule": "[EV] Выберите Тип запроса",
                         "Summary.RequiredRule": "[EV] Укажите Тему запроса",
-                        "Summary.MaxLengthRule": "[EV] Слишком длиная тема запроса. Максимальная длина темы запроса 50 символов",
+                        "Summary.MaxLengthRule": "[EV] Слишком длинная тема запроса. Максимальная длина темы запроса 50 символов",
                         "Description.RequiredRule": "[EV] Опишите вашу проблему",
                         "Description.MaxLengthRule": "[EV] Слишком длинное <b>Описание проблемы</b>"
                     }

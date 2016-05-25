@@ -66,16 +66,16 @@
                 "statuses": {
                     "None": "None",
 
-                    "PendingAdditionalInformationNeeded": "[EV][pt]Awaiting your reply",
-                    "InProgress": "[EV][pt]In Progress",
-                    "ResolvedSolutionProvided": "[EV][pt]Resolved",
-                    "ResolvedRequiredInfoNotProvided": "[EV][pt]Resolved (information was not provided)",
-                    "CancelledByCustomer": "[EV][pt]Cancelled (By Customer)",
-                    "CancelledBySupport": "[EV][pt]Cancelled (By Support)",
-                    "CancelledLicenseSupportContractTermination": "[EV][pt]Cancelled (License/Support contract termination)",
-                    "ClosedByCustomer": "[EV][pt]Closed (By Customer)",
-                    "ClosedRequestForwarded": "[EV][pt]Request forwarded (Closed)",
-                    "ClosedBySupport": "[EV][pt]Closed (By Support)",
+                    "PendingAdditionalInformationNeeded": "Pendente (informação adicional necessária)",
+                    "InProgress": "Em andamento",
+                    "ResolvedSolutionProvided": "Resolvido (solução foi fornecida)",
+                    "ResolvedRequiredInfoNotProvided": "Resolvido (Informações necessárias não foram fornecidas)",
+                    "CancelledByCustomer": "Cancelado (pelo cliente)",
+                    "CancelledBySupport": "Cancelado (pelo suporte)",
+                    "CancelledLicenseSupportContractTermination": "Cancelados (rescisão de contrato licença/suporte)",
+                    "ClosedByCustomer": "Fechado (pelo cliente)",
+                    "ClosedRequestForwarded": "Fechado (solicitação encaminhada)",
+                    "ClosedBySupport": "Fechado (por suporte)",
 
                     "InProgress-status-area": "Essa solicitação está sendo processada pelo Engenheiro de Suporte"
                 },

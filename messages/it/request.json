@@ -64,16 +64,16 @@
                 "statuses": {
                     "None": "None",
 
-                    "PendingAdditionalInformationNeeded": "[EV] Awaiting your reply",
-                    "InProgress": "[EV] In Progress",
-                    "ResolvedSolutionProvided": "[EV] Resolved",
-                    "ResolvedRequiredInfoNotProvided": "[EV] Resolved (information was not provided)",
-                    "CancelledByCustomer": "[EV] Cancelled (By Customer)",
-                    "CancelledBySupport": "[EV] Cancelled (By Support)",
-                    "CancelledLicenseSupportContractTermination": "[EV] Cancelled (License/Support contract termination)",
-                    "ClosedByCustomer": "[EV] Closed (By Customer)",
-                    "ClosedRequestForwarded": "[EV] Request forwarded (Closed)",
-                    "ClosedBySupport": "[EV] Closed (By Support)",
+                    "PendingAdditionalInformationNeeded": "In attesa (Ulteriori informazioni richieste)",
+                    "InProgress": "In Corso",
+                    "ResolvedSolutionProvided": "Risolta (Soluzione fornita)",
+                    "ResolvedRequiredInfoNotProvided": "Risolta (Le informazioni richieste non sono state ricevute)",
+                    "CancelledByCustomer": "Cancellata (Dal Cliente)",
+                    "CancelledBySupport": "Cancellata (Dal Supporto)",
+                    "CancelledLicenseSupportContractTermination": "Cancellata (Licenza/contratto di supporto scaduti)",
+                    "ClosedByCustomer": "Chiusa (Dal Cliente)",
+                    "ClosedRequestForwarded": "Chiusa (Richiesta inoltrata)",
+                    "ClosedBySupport": "Chiusa (Dal Supporto)",
 
                     "InProgress-status-area": "La richiesta è in lavorazione da parte del tecnico del supporto"
                 },

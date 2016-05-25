@@ -64,16 +64,16 @@
                 "statuses": {
                     "None": "None",
 
-                    "PendingAdditionalInformationNeeded": "[EV][jp] Awaiting your reply",
-                    "InProgress": "[EV][jp] In Progress",
-                    "ResolvedSolutionProvided": "[EV][jp] Resolved",
-                    "ResolvedRequiredInfoNotProvided": "[EV][jp] Resolved (information was not provided)",
-                    "CancelledByCustomer": "[EV][jp] Cancelled (By Customer)",
-                    "CancelledBySupport": "[EV][jp] Cancelled (By Support)",
-                    "CancelledLicenseSupportContractTermination": "[EV][jp] Cancelled (License/Support contract termination)",
-                    "ClosedByCustomer": "[EV][jp] Closed (By Customer)",
-                    "ClosedRequestForwarded": "[EV][jp] Request forwarded (Closed)",
-                    "ClosedBySupport": "[EV][jp] Closed (By Support)",
+                    "PendingAdditionalInformationNeeded": "保留中(追加情報が必要です)",
+                    "InProgress": "対応中",
+                    "ResolvedSolutionProvided": "解決(解決方法の提供済み)",
+                    "ResolvedRequiredInfoNotProvided": "解決(必要な情報が提供されていません)",
+                    "CancelledByCustomer": "キャンセル(お客様による)",
+                    "CancelledBySupport": "キャンセル(サポートによる)",
+                    "CancelledLicenseSupportContractTermination": "キャンセル(ライセンス/拡張保守期間終了による)",
+                    "ClosedByCustomer": "クローズ(お客様による)",
+                    "ClosedRequestForwarded": "クローズ(お問い合わせ転送)",
+                    "ClosedBySupport": "クローズ(サポートによる)",
 
                     "InProgress-status-area": "お問い合わせは、サポート担当者による処理中です"
                 },
