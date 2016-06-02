@@ -263,6 +263,16 @@
                     "filialMessage": "Select a location from the menu or type in a new one",
                     "fullDescription": "Full description"
                 },
+                "companyLogo": {
+                    "title": "[EV] Company logo",
+                    "description": "[EV] Upload the logo of our company. You can download the logo height <b>64px</b> and width <b>200px</b>. Acceptable formats:  <b>jpg</b>, <b>jpeg</b>, <b>png</b>, <b>gif</b>.",
+                    "remove": "[EV] Remove",
+                    "errors": {
+                        "wrongSize": "[EV] Logo size exceed the permissible. try again.",
+                        "wrongFormat": "[EV] Wrong logo extension. Acceptable formats:  <b>jpg</b>, <b>jpeg</b>, <b>png</b>, <b>gif</b>."
+                    },
+                    "success": "[EV] Logo uploadded successfully."
+                },
 
                 "resetPassword": {
                     "success": " ",
