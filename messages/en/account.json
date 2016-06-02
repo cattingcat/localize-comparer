@@ -202,7 +202,7 @@
                     "lastname": "Last name",
                     "company": "Company",
                     "email": "E-mail",
-                    "or-type-code": "[EV] Or type activation code:",
+                    "or-type-code": "or type activation code:",
                     "activationCodeTooltip": "The activation code consists of 4 groups of 5 characters divided by a hyphen: XXXXX-XXXXX-XXXXX-XXXXX. It cannot contain 0 (zero), or the letters I, O and L. ",
                     "activationCodeInvalid": "Invalid activation code format",
                     "close": "Close",

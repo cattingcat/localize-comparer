@@ -70,10 +70,10 @@
                     "InProgress": "Запрос обрабатывается",
                     "PendingAdditionalInformationNeeded": "Ожидает вашего ответа",
                     "ResolvedSolutionProvided": "Решение предоставлено",
-                    "CancelledByCustomer": "Отменен пользователем",
+                    "CancelledByCustomer": "Отменён пользователем",
                     "CancelledLicenseSupportContractTermination": "Отменён (истечение лицензии/контрата)",
                     "ClosedRequestForwarded": "Закрыт (запрос перенаправлен)",
-                    "ClosedByCustomer": "Отменён пользователем",
+                    "ClosedByCustomer": "Закрыт пользователем",
                     "ResolvedRequiredInfoNotProvided": "Решён (информация не была предоставлена)",
 
                     "InProgress-status-area": "Заявка обрабатывается специалистом технической поддержки"
