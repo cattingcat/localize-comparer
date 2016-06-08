@@ -34,7 +34,7 @@
                     },
                     "errors": {
                         "AdminBlocked": {
-                            "title": "[EV] Аккаунт заблокирован администратором",
+                            "title": "Учетная запись заблокирована администратором",
                             "text": " "
                         },
                         "NotSupportedSystemType": {
@@ -53,8 +53,8 @@
                             "title": "[EV] Пользователь является сотрудником техподдержки",
                             "text": " "
                         },
-                        "DifferentCompanies": { 
-                            "title": "[EV] Пользователь из другйо компании",
+                        "DifferentCompanies": {
+                            "title": "Пользователь принадлежит другой компании",
                             "text": " "
                         },
                         "UnknownError": {
@@ -135,12 +135,12 @@
                         "Text": "Пожалуйста, <a href='/request/create/ca' target=\"_blank\"> проконсультируйтесь со службой технической поддержки </a> о возможных возможных  путях  решения этой проблемы."
                     },
                     "UserNotOfCA": {
-                        "Title": "[EV] [user/ not from CA] Во время редактирования профиля пользователя </br> произошел неизвестный сбой",
-                        "Text": "[EV] [user/ not act]Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                        "Title": "Во время редактирования профиля пользователя </br> произошел неизвестный сбой",
+                        "Text": "Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
                     },
                     "UserNotActivated": {
-                        "Title": "[EV] [user/ not act] Во время редактирования профиля пользователя </br> произошел неизвестный сбой",
-                        "Text": "[EV] [user/ not act]Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                        "Title": "Во время редактирования профиля пользователя </br> произошел неизвестный сбой",
+                        "Text": "Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
                     }
                 }
             },
@@ -200,9 +200,9 @@
                     "LastName.RequiredRule": "Не указана фамилия",
                     "Country.RequiredRule": "Не заполнено поле Страна",
                     "InvalidCountry": "Ошибка выбора страны",
-                    "FirstName.MaxByteLengthRule": "[EV] Имя слишком длинное, максимум: {ByteLength} символов",
-                    "LastName.MaxByteLengthRule": "[EV] Фамилия слишком длинная, максимум: {ByteLength} символов",
-                    "Organization.MaxByteLengthRule": "[EV] Филиал слишком длинный, максимум: {ByteLength} символов",
+                    "FirstName.MaxByteLengthRule": "Максимальная длина имени 15 символов",
+                    "LastName.MaxByteLengthRule": "Максимальная длина фамилии 15 символов",
+                    "Organization.MaxByteLengthRule": "Максимальная длина названия филиала {ByteLength} символов",
 
                     "Failure": {
                         "Title": "Возникла непредвиденная ошибка",
@@ -229,12 +229,12 @@
                         "Text": "Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
                     },
                     "UserNotOfCA": {
-                        "Title": "[EV] [not from CA] Во время редактирования профиля пользователя </br> произошел неизвестный сбой",
-                        "Text": "[EV] [not act]Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                        "Title": "Во время редактирования профиля пользователя </br> произошел неизвестный сбой",
+                        "Text": "Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
                     },
                     "UserNotActivated": {
-                        "Title": "[EV] [not act] Во время редактирования профиля пользователя </br> произошел неизвестный сбой",
-                        "Text": "[EV] [not act]Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                        "Title": "Во время редактирования профиля пользователя </br> произошел неизвестный сбой",
+                        "Text": "Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
                     }
                 },
                 "permissions": {
@@ -285,7 +285,7 @@
                     "success": " ",
                     "errors": {
                         "AdminBlocked": {
-                            "title": "[EV] Учетная запись заблокирована администратором",
+                            "title": "Учетная запись заблокирована администратором",
                             "text": " "
                         },
                         "NotSupportedSystemType": {
@@ -293,7 +293,7 @@
                             "text": " "
                         },
                         "UserNotFound": {
-                            "title": "[EV] Пользователь не найден",
+                            "title": "Учетная запись не найдена",
                             "text": " "
                         },
                         "NotSupportedCompanyCategory": {
@@ -305,11 +305,11 @@
                             "text": " "
                         },
                         "IsSupportStuff": {
-                            "title": "[EV] Пользователь является сотркдником техподдержки",
+                            "title": "[EV] Пользователь является сотрудником техподдержки",
                             "text": " "
                         },
                         "UnknownError": {
-                            "title": "[EV] Произошел неизвестный сбой",
+                            "title": "Произошел неизвестный сбой",
                             "text": " "
                         }
                     }
@@ -331,4 +331,3 @@
         }
     }
 }
-

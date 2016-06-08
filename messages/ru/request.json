@@ -18,13 +18,13 @@
                     "ProductId.RequiredRule": "Выберите Продукт",
                     "ProductVersion.RequiredRule": "Выберите версию продукта",
                     "OSVersion.RequiredRule": "Укажите версию ОС",
-                    "OSVersion.MaxByteLengthRule": "[EV] Слишком длинная версия ОС",
+                    "OSVersion.MaxByteLengthRule": "Слишком длинная версия ОС",
                     "TypeId.RequiredRule": "Выберите Подтип запроса",
                     "Summary.RequiredRule": "Укажите Тему запроса",
                     "Summary.MaxLengthRule": "Слишком длинная тема запроса. Максимальная длина темы запроса 50 символов",
                     "Description.RequiredRule": "Опишите вашу проблему",
-                    "Description.TextMaxLengthLimitRule": "[EV] Слишком длинное <b>Описание проблемы</b>",
-                    "Description.MaxLengthRule": "[EV] Слишком длинное <b>Описание проблемы</b>",
+                    "Description.TextMaxLengthLimitRule": "Слишком длинное <b>Описание проблемы</b>",
+                    "Description.MaxLengthRule": "Слишком длинное <b>Описание проблемы</b>",
 
                     "attach-files-error": "[Support-TA] Запрос создан, но при прикреплении файлов {attachedFileErrors} произошла ошибка. </br> Попробуйте прикрепить файл через несколько минут. </br> Если ошибка повторится, пожалуйста, напишите об этом в комментарии к запросу. Номер запроса: <a href=\"/request/view/{requestId}\">{requestId}</a>",
                     "comment-attach-files-error": "Запись в переписку добавлена, но при прикреплении файлов {attachedFileErrors} произошла ошибка. </br>Попробуйте прикрепить файл через несколько минут. </br>Если ошибка повторится, пожалуйста, напишите об этом в комментарии к запросу."
@@ -249,17 +249,17 @@
                     "product-ver-placeholder": "Выберите или введите свою версию",
                     "success": "Ваш запрос успешно создан. Номер запроса: <a href=\"/request/view/{requestId}\">{requestId}</a>",
                     "errors": {
-                        "NotifyEmails.MultiEmailRule": "[EV] Укажите правильный e-mail. Для нескольких адресов используйте точку с запятой для разделения адресов.",
-                        "ProductId.RequiredRule": "[EV] Выберите Продукт",
-                        "ProductVersion.RequiredRule": "[EV] Выберите версию продукта",
-                        "ProductVersion.MaxLengthRule": "[EV][for TA] слишком длинная <b>Версия продукта</b>",
-                        "OSVersion.RequiredRule": "[EV] Укажите версию ОС",
-                        "OSVersion.MaxByteLengthRule": "[EV] Слишком длинная версия ОС",
-                        "TypeId.RequiredRule": "[EV] Выберите Тип запроса",
-                        "Summary.RequiredRule": "[EV] Укажите Тему запроса",
-                        "Summary.MaxLengthRule": "[EV] Слишком длинная тема запроса. Максимальная длина темы запроса 50 символов",
-                        "Description.RequiredRule": "[EV] Опишите вашу проблему",
-                        "Description.MaxLengthRule": "[EV] Слишком длинное <b>Описание проблемы</b>"
+                        "NotifyEmails.MultiEmailRule": "Укажите правильный e-mail. Для нескольких адресов используйте точку с запятой для разделения адресов.",
+                        "ProductId.RequiredRule": "Выберите Продукт",
+                        "ProductVersion.RequiredRule": "Выберите версию продукта",
+                        "ProductVersion.MaxLengthRule": "Слишком длинная <b>Версия продукта</b>",
+                        "OSVersion.RequiredRule": "Укажите версию ОС",
+                        "OSVersion.MaxByteLengthRule": "Слишком длинная версия ОС",
+                        "TypeId.RequiredRule": "Выберите Тип запроса",
+                        "Summary.RequiredRule": "Укажите Тему запроса",
+                        "Summary.MaxLengthRule": "Слишком длинная тема запроса. Максимальная длина темы запроса 50 символов",
+                        "Description.RequiredRule": "Опишите вашу проблему",
+                        "Description.MaxLengthRule": "Слишком длинное <b>Описание проблемы</b>"
                     }
                 },
 

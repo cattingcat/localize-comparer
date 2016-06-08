@@ -109,42 +109,42 @@
 
             "SecurityExceptions": {
                 "Unexpected": {
-                    "title": "[EV][unexpected] Проблема с вашей учетной записью",
-                    "text": "[EV] Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> для решения возникших проблем"
+                    "title": "Проблема с вашей учетной записью",
+                    "text": "Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> для решения возникших проблем"
                 },
                 "AccessDenied": {
-                    "title": "[EV][accessDenied]  Проблема с вашей учетной записью",
-                    "text": "[EV] Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> для решения возникших проблем"
+                    "title": "Проблема с вашей учетной записью",
+                    "text": "Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> для решения возникших проблем"
                 },
                 "AdminBlocked": {
-                    "title": "[EV][admBlocked]  Проблема с вашей учетной записью",
-                    "text": "[EV] Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> для решения возникших проблем"
+                    "title": "Проблема с вашей учетной записью",
+                    "text": "Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> для решения возникших проблем"
                 },
                 "NotActivated": {
-                    "title": "[EV][notAct]  Проблема с вашей учетной записью",
-                    "text": "[EV] Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> для решения возникших проблем"
+                    "title": "Проблема с вашей учетной записью",
+                    "text": "Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> для решения возникших проблем"
                 },
                 "UserNotFound": {
-                    "title": "[EV][NotFound]  Проблема с вашей учетной записью",
-                    "text": "[EV] Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> для решения возникших проблем"
+                    "title": "Проблема с вашей учетной записью",
+                    "text": "Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> для решения возникших проблем"
                 },
                 "NotSupportedCompanyCategory": {
-                    "title": "[EV][notSuppCompCat]  Проблема с вашей учетной записью",
-                    "text": "[EV] Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> для решения возникших проблем"
+                    "title": "Проблема с вашей учетной записью",
+                    "text": "Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> для решения возникших проблем"
                 },
                 "NotSupportedSystemType": {
-                    "title": "[EV][notSuppSysType]  Проблема с вашей учетной записью",
-                    "text": "[EV] Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> для решения возникших проблем"
+                    "title": "Проблема с вашей учетной записью",
+                    "text": "Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> для решения возникших проблем"
                 },
                 "IsSupportStuff": {
-                    "title": "[EV][isSuppStuff]  Проблема с вашей учетной записью",
-                    "text": "[EV] Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> для решения возникших проблем"
+                    "title": "Проблема с вашей учетной записью",
+                    "text": "Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> для решения возникших проблем"
                 }
             },
 
             "errors": {
                 "globalization-not-found": "Ошибка локализации",
-                "server-validation": "[EV] Ошибка серверной валидации для поля {property}, правило: {rule}",
+                "server-validation": "Ошибка серверной валидации для поля {property}, правило: {rule}",
 
                 "404": {
                     "title": "Ошибка 404",
@@ -170,8 +170,8 @@
                 },
 
                 "UnknownError": {
-                    "title": "[EV]Произошел неизвестный сбой",
-                    "text": "[EV]Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                    "title": "Произошел неизвестный сбой",
+                    "text": "Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
                 }
             }
         }
