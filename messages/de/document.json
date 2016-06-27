@@ -1,28 +1,34 @@
-﻿{
-    "globalize-messages": {
-        "de": {
-            "document": {
-                "statuses": {
-                    "1": "Aktiv:",
-                    "2": "Abgelaufen (inaktiv):",
-                    "3": "läuft ab:",
-                    "until": "bis "
-                },
-                "list": {
-                    "tabs": {
-                        "contracts": "Verträge für Premium Support"
-                    },
-                    "item": {
-                        "attached-files": "Hinzugefügte Dokumente",
-                        "download": "Herunterladen",
-                        "date-start": "Startdatum:"
-                    },
-                    "no-contract": {
-                        "title": "Momentan sind keine Verträge für <a href=\"http://www.kaspersky.com/de/enterprise-security/maintenance-service-agreement\" target=\"_blank\">Premium Support</a> hinterlegt.",
-                        "description": "Mit unserem Premium-Support – Kaspersky Maintenance Service Agreement (MSA) bieten wir ihnen priorisierte Bearbeitung Ihrer Anfragen und garantierte Reaktionszeiten an.</br> </br>  <a href=\"http://www.kaspersky.com/de/business-security/services\" target=\"_blank\">Mehr Informationen zu den Premium-Support Paketen anzeigen</a></p>"
-                    }
-                }
+{
+  "globalize-messages": {
+    "de": {
+      "document": {
+        "statuses": {
+          "1": "Aktiv:",
+          "2": "Abgelaufen (inaktiv):",
+          "3": "läuft ab:",
+          "until": "bis "
+        },
+        "list": {
+          "tabs": {
+            "contracts": "Verträge für Premium Support"
+          },
+          "item": {
+            "attached-files": "Hinzugefügte Dokumente",
+            "download": "Herunterladen",
+            "date-start": "Startdatum:"
+          },
+          "no-contract": {
+            "title": "Momentan sind keine Verträge für <a href=\"http://www.kaspersky.com/de/enterprise-security/maintenance-service-agreement\" target=\"_blank\">Premium Support</a> hinterlegt.",
+            "description": "Mit unserem Premium-Support – Kaspersky Maintenance Service Agreement (MSA) bieten wir ihnen priorisierte Bearbeitung Ihrer Anfragen und garantierte Reaktionszeiten an.</br> </br>  <a href=\"http://www.kaspersky.com/de/business-security/services\" target=\"_blank\">Mehr Informationen zu den Premium-Support Paketen anzeigen</a></p>"
+          },
+          "errors": {
+            "UnknownError": {
+              "title": "Fehler beim Laden der Dokumentliste aufgetreten.",
+              "text": "Wenn der Fehler weiter auftritt, <a href='../request/create/ca' target=\"_blank\"> kontaktieren Sie den Technischen Support</a>."
             }
+          }
         }
+      }
     }
+  }
 }

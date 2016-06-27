@@ -6,7 +6,9 @@
                     "maxFiles3": "添付できるファイルは 3 個までです。上限を超えたファイルを削除してください。",
                     "maxFiles1": "添付できるファイルは 1 個のみです。上限を超えたファイルを削除してください。",
                     "minFiles1": "ファイルが添付されていません。",
-                    "invalidCsrFileSize": "[EV] he uploaded CSR-file should not exceed 5 KB",
+
+                    "KeyFile.HttpFileSizeRule": "[EV] he uploaded CSR-file should not exceed 5 KB",
+
                     "EmailIsInvalid": "メールアドレスが正しくありません",
 
                     "Text.RequiredRule": "メッセージのテキストを入力してください。メッセージのテキストを入力して、再試行してください。",
@@ -41,6 +43,7 @@
                     "confirm-button": "クローズする",
                     "attached-files": "添付ファイル：",
                     "support-manager": "サポート担当者",
+                    "inactive-user": "[EV] message from deleted user",
                     "cancel-comment": "キャンセル",
                     "product": "製品：",
                     "version": "バージョン：",
@@ -49,6 +52,8 @@
                     "logHide": "会話を非表示にする",
                     "showCommentForm": "返答する",
                     "hideCommentForm": "非表示にする",
+                    "success-comment-attach-files-error": "[EV] Запись в переписку добавлена, но при прикреплении файлов {attachedFileErrors} произошла ошибка. </br>Попробуйте прикрепить файл через несколько минут. </br>Если ошибка повторится, пожалуйста, напишите об этом в комментарии к запросу.",
+                    "worklog-problem": "[EV] Error while worklog messages retreiving, try again later",
                     "cancel": {
                         "confirm-title": "本当によろしいですか？",
                         "confirm-text": "コメントの追加をキャンセルしますか？",
@@ -58,7 +63,13 @@
                         "UserNotFound": "ユーザーが見つかりません",
                         "AccessDenied": "アクセスが拒否されました",
                         "UnknownError": "エラーが発生しました。再試行してください。問題が解決しない場合は、<a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a>へお問い合わせください ",
-                        "RequestClosedOrCanceled": "メッセージを送信できません。お問い合わせが変更されました"
+                        "StatusClosedCancelled": "メッセージを送信できません。お問い合わせが変更されました"
+                    },
+                    "loadingErrors": { 
+                        "UnknownError": {
+                            "title": "[EV] Unknown error while request list retreiving",
+                            "text": "[EV] Please contact <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                        }
                     }
                 },
                 "statuses": {
@@ -105,6 +116,12 @@
                         "title": "お問い合わせを作成していません",
                         "description": "テクニカルサポートへ問い合わせをするには、次をクリックしてください： ",
                         "createrequest": "新しいお問い合わせ"
+                    },
+                    "errors": {
+                        "UnknownError": {
+                            "title": "[EV] Unknown error while request list retreiving",
+                            "text": "[EV] Please contact <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                        }
                     }
                 },
 
@@ -134,6 +151,12 @@
                     "cancel-request": "キャンセル",
                     "errors": {
                         "UnknownError": "エラーが発生しました。再試行してください。問題が解決しない場合は、<a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a>へお問い合わせください "
+                    },
+                    "loadingErrors": { 
+                        "UnknownError": {
+                            "title": "[EV] Unknown error while CA-question request-initiate retreiving",
+                            "text": "[EV] Please contact <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                        }
                     }
                 },
 
@@ -190,12 +213,24 @@
                         "WrongFileFormat": "アップロードしたファイルの形式が正しくありません",
                         "UnknownError": "エラーが発生しました。再試行してください。問題が解決しない場合は、<a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a>へお問い合わせください   ",
                         "EmailPattern": "メールアドレスを入力してください複数のメールアドレスを追加する場合は、アドレスをセミコロンで区切って入力してください"
+                    },
+                     "loadingErrors": { 
+                        "UnknownError": {
+                            "title": "[EV] Unknown error while virlab request-initiate retreiving",
+                            "text": "[EV] Please contact <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                        }
                     }
                 },
 
                 "virlab-msa": {
                     "title": "疑わしいファイルまたは URL を送付し、分析を依頼する",
-                    "success": "ウイルスラボへのお問い合わせが作成されました。あなたのメールアドレス宛てに、返答が届きます。カンパニーアカウントには、返答が表示されません。お問い合わせ ID：<a href=\"/request/view/{requestId}\">{requestId}</a>"
+                    "success": "ウイルスラボへのお問い合わせが作成されました。あなたのメールアドレス宛てに、返答が届きます。カンパニーアカウントには、返答が表示されません。お問い合わせ ID：<a href=\"/request/view/{requestId}\">{requestId}</a>",
+                    "loadingErrors": { 
+                        "UnknownError": {
+                            "title": "[EV] Unknown error while virlab-msa request-initiate retreiving",
+                            "text": "[EV] Please contact <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                        }
+                    }
                 },
 
                 "support": {
@@ -231,6 +266,12 @@
                     "errors": {
                         "UnknownError": "エラーが発生しました。再試行してください。問題が解決しない場合は、<a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a>へお問い合わせください  "
                     },
+                    "loadingErrors": { 
+                        "UnknownError": {
+                            "title": "[EV] Unknown error while support request-initiate retreiving",
+                            "text": "[EV] Please contact <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                        }
+                    },
                     "license": {
                         "1": "法人向け製品用の有効なライセンスが添付されていません。お問い合わせ可能な種別の範囲が制限される可能性があります。<a href='../../license/list' target=\"_blank\"> ［ライセンス］タブ</a>で、ライセンスを追加してください。  ",
                         "2": "<b>個人向け</b>製品用の有効なライセンスがありません。お問い合わせ能な種別の範囲が制限される可能性があります。この製品向けの新しいアクティベーションコードを追加するか、<a href='../../license/list' target=\"_blank\">個人向け製品用の新しいライセンスを［ライセンス］タブで追加してください。</a>",
@@ -257,12 +298,24 @@
                         "Summary.MaxLengthRule": "件名が長すぎます。50 文字以内で入力してください。",
                         "Description.RequiredRule": "説明を記載してください",
                         "Description.TextMaxLengthLimitRule": "[EV] Description is too long "
+                    },
+                    "loadingErrors": { 
+                        "UnknownError": {
+                            "title": "[EV] Unknown error while support-ta request-initiate retreiving",
+                            "text": "[EV] Please contact <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                        }
                     }
                 },
 
                 "support-msa": {
                     "title": "Request to Technical Support (MSA)",
-                    "success": "Your request has been created. Request ID: <a href=\"/request/view/{requestId}\">{requestId}</a>"
+                    "success": "Your request has been created. Request ID: <a href=\"/request/view/{requestId}\">{requestId}</a>",
+                    "loadingErrors": { 
+                        "UnknownError": {
+                            "title": "[EV] Unknown error while support-msa request-initiate retreiving",
+                            "text": "[EV] Please contact <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                        }
+                    }
                 }
             }
         }

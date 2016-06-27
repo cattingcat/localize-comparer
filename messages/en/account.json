@@ -1,4 +1,4 @@
-﻿{
+{
     "globalize-messages": {
         "en": {
             "account": {
@@ -25,8 +25,8 @@
                     "errors": {
                         "Password.RequiredRule": "Please fill out this field",
                         "Password.MinLengthRule": "Password is too short",
-                        "Password.PasswordRule": "Password doesnt meet requirements",
-                        "Password.NotEqualToRule": "Password shouldnt be equal to Username",
+                        "Password.PasswordRule": "Password does not meet complexity requirements",
+                        "Password.NotEqualToRule": "Passwords don't match",
                         "ConfirmPassword.RequiredRule": "Please fill out this field",
                         "ConfirmPassword.EqualRule": "Passwords don't match",
 
@@ -36,30 +36,30 @@
 
                         "AdminBlocked": {
                             "title": "The account is locked by administrator",
-                            "text": "To unlock your account, please contact us at <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                            "text": "To unlock your account, contact <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
                         },
                         "TempBlocking": {
                             "title": "The account has been temporarily blocked",
                             "text": "You have exceeded the limit of sign in attempts. Please, try again later."
                         },
                         "UnknownError": {
-                            "title": "Unknown error",
-                            "text": "Unknown error occurred during activation. <br />Please follow the link once again. <br/> If the issue persists, please <a href='mailto:companyaccount@kaspersky.com'>contact technical support</a>."
+                            "title": "Unknown error occurred",
+                            "text": "Unknown error occurred during installation. <br />Please, follow the link once again. <br />If the error persists, <a href='mailto:betaca@kaspersky.com'>contact technical support</a>."
                         },
                         "UserNotFound": {
-                            "title": "User not found",
-                            "text": "Please contact us at <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> to fix the problem"
+                            "title": "User account not found",
+                            "text": "Further instructions have been sent to your e-mail address"
                         },
                         "LinkNotExist": {
-                            "title": "An error occurred during activation",
-                            "text": "Please contact us at <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> to fix the problem"
+                            "title": "Link not found",
+                            "text": "Unknown error occurred during installation. <br />Please, follow the link once again. <br />If the error persists, <a href='mailto:betaca@kaspersky.com'>contact technical support</a>."
                         },
                         "DuplicatedRecords": {
-                            "title": "[EV] Duplicated Links",
-                            "text": "You can <a href='/account/login'>log-in CompanyAccount</a> or <a href='/account/forgot'>reset password</a>"
+                            "title": "Unknown error occurred",
+                            "text": "Unknown error occurred during installation. <br />Please, follow the link once again. <br />If the error persists, <a href='mailto:betaca@kaspersky.com'>contact technical support</a>."
                         },
                         "NotSupportedSystemType": {
-                            "title": "[EV] SystemType not supported",
+                            "title": "SystemType is not supported",
                             "text": " "
                         }
                     }
@@ -67,10 +67,12 @@
 
                 "resetPassword": {
                     "logout": "To restore your password, please sign out and follow the link once again.",
-                    "close-session": "To reset your password, you must close all current CompanyAccount sessions.<br/>Click \"Set new password\" to close all sessions and enter the new password. <br/>Or click \"Save current sessions\" to save all sessions and change the password later<br/>The password reset link will be available for 7 days. ",
+                    "close-session": "To reset your password, you must close all current CompanyAccount sessions.<br/>Click \"Set new password\" to close all sessions and enter the new password. <br/>Or click \"Save current sessions\" to save all sessions and change the password later<br/>The password reset link will be available for 7 days.",
+                    "logout-btn": "Set new password",
+                    "close-btn": "Save current sessions",
 
                     "success": {
-                        "title": "Your password has been changed",
+                        "title": "You password has been reset",
                         "text": "Now you can sign in",
                         "button": "Sign in"
                     },
@@ -86,22 +88,24 @@
                         },
                         "UserNotOfCA": {
                             "title": "The account does not belong to CompanyAccount service",
-                            "text": "Further instructions have been sent to your email address"
+                            "text": "Further instructions have been sent to your e-mail address"
                         },
                         "UserNotActivated": {
-                            "title": "User account not activated",
-                            "text": "Further instructions have been sent to your email address"
+                            "title": "User account has not been activated",
+                            "text": "Further instructions have been sent to your e-mail address"
                         },
                         "UserNotEnabled": {
                             "title": "User account not activated",
-                            "text": "Further instructions have been sent to your email address"
+                            "text": "Further instructions have been sent to your e-mail address"
                         }
                     }
                 },
 
                 "activate": {
                     "logout": "To proceed with activation, you must sign out.",
-                    "close-session": "To activate the new account, you must close all current CompanyAccount sessions.<br/> Click \"Activate new account\" to close all current sessions and set a password for your new account.<br/>  Click \"Save current sessions\" to activate your account later.<br/> The link will be available for 7 days.  ",
+                    "close-session": "To activate the new account, you must close all current CompanyAccount sessions.<br/> Click Activate new account to close all current sessions and set a password for your new account.<br/>  Click Save current sessions to activate your account later.<br/> The link will be awailable for 7 days. ",
+                    "logout-btn": "Activate new user account",
+                    "close-btn": "Save current sessions",
 
                     "success": {
                         "title": "CompanyAccount <br />has been activated",
@@ -110,12 +114,11 @@
                     },
 
                     "close": "Close",
-                    "logout": "[EV] Logout",
 
                     "errors": {
                         "LinkNotExist": {
                             "title": "An error occurred during activation",
-                            "text": "Please contact us at <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> to fix the problem"
+                            "text": "Contact us at <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> to fix the problem"
                         },
                         "LinkExpired": {
                             "title": "The link has expired",
@@ -127,29 +130,25 @@
                         },
                         "LinkNotExist": {
                             "title": "An error occurred during activation",
-                            "text": "Please contact us at <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> to fix the problem"
+                            "text": "Contact us at <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> to fix the problem"
                         },
                         "DuplicatedRecords": {
                             "title": "An error occurred during activation",
-                            "text": "Please contact us at <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> to fix the problem"
+                            "text": "Contact us at <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> to fix the problem"
                         },
                         "UnknownError": {
                             "title": "Unknown error",
-                            "text": "Unknown error occurred during activation. <br />Please follow the link once again. <br/> If the issue persists, please <a href='mailto:companyaccount@kaspersky.com'>contact technical support</a>."
+                            "text": "Unknown error occurred during activation. <br />Please follow the link once again. <br/> If the issue persists, please <a href='mailto:betaca@kaspersky.com'>contact technical support</a>."
                         }
                     }
                 },
 
-                "deleted": {
-                    "confirm-title": "Your account has been deleted",
-                    "confirm-text": "You can create a new account"
+                "refreshPassword": {
+                    "title": "Password has expired",
+                    "description": "Please create and confirm the new password"
                 },
 
                 "delete": {
-                    "logout": "[EV] To continue the deleting procedure, you must log out.",
-                    "close-session": "[EV] To continue the activation procedure, you must close session of another user.",
-                    "logout-btn": "[EV] Logout an delete user",
-
                     "title": "Delete company account",
                     "description": "Please confirm the deletion of your account ",
                     "e-mail": "E-mail",
@@ -157,11 +156,11 @@
                     "close": "Close",
                     "ok": "OK",
 
-                    "loading": "[EV] User account deleting",
+                    "loading": "Your request is being processed...",
                     "confirm": {
-                        "title": "[EV] Delete account",
-                        "description": "[EV] Caution When you click \"Continue\" your account will be deleted. After clicking this link your account will be removed.",
-                        "continue": "[EV] Delete"
+                        "title": "Delete the account",
+                        "description": "After you click  \"Continue\", all information about your company will be deleted from CompanyAccount.",
+                        "continue": "Delete"
                     },
                     "success": {
                         "title": "User account has been deleted",
@@ -169,8 +168,8 @@
                     },
                     "errors": {
                         "UserNotFound": {
-                            "title": "User account not found",
-                            "text": "Please contact us at <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                            "title": "User account not found.",
+                            "text": "Please contact us at <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
                         },
                         "LinkExpired": {
                             "title": "The link has expired",
@@ -182,15 +181,15 @@
                         },
                         "LinkNotExist": {
                             "title": "An error occurred",
-                            "text": "Please contact us at <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> to fix the problem"
+                            "text": "Contact us at <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> to fix the problem"
                         },
                         "DuplicatedRecords": {
                             "title": "An error occurred",
-                            "text": "Please contact us at <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> to fix the problem"
+                            "text": "Contact us at <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> to fix the problem"
                         },
                         "UnknownError": {
                             "title": "Unknown error occurred",
-                            "text": "Unknown error occurred. <br />Please, follow the link once again. <br />If the issue persists, <a href='mailto:companyaccount@kaspersky.com'>contact technical support</a>."
+                            "text": "Unknown error occurred while deleting the account. <br />Please, follow the link once again. <br />If the issue persists, <a href='mailto:betaca@kaspersky.com'>contact technical support</a>."
                         }
                     }
                 },
@@ -202,35 +201,38 @@
                     "lastname": "Last name",
                     "company": "Company",
                     "email": "E-mail",
-                    "or-type-code": "or type activation code:",
-                    "activationCodeTooltip": "The activation code consists of 4 groups of 5 characters divided by a hyphen: XXXXX-XXXXX-XXXXX-XXXXX. It cannot contain 0 (zero), or the letters I, O and L. ",
+                    "or-type-code": "or enter the activation code:",
+                    "activationCodeTooltip": "Activation code consists of 4 groups of 5 characters divided with the hyphen: XXXXX-XXXXX-XXXXX-XXXXX. It cannot contain 0 (zero), and letters I, O, L.",
                     "activationCodeInvalid": "Invalid activation code format",
                     "close": "Close",
+                    "removeKeyfile": "Delete",
                     "errors": {
                         "FirstName.RequiredRule": "Enter your first name",
-                        "FirstName.MaxByteLengthRule": "Your name must not exceed {ByteLength} characters",
+                        "FirstName.MaxByteLengthRule": "Your name must not exceed 30 characters",
 
                         "LastName.RequiredRule": "Enter your last name",
-                        "LastName.MaxByteLengthRule": "Your name must not exceed {ByteLength} characters",
+                        "LastName.MaxByteLengthRule": "Your name must not exceed 30 characters",
 
                         "Company.RequiredRule": "Enter the company name",
-                        "Company.MaxLengthRule": "Company name must not exceed {Length} characters",
+                        "Company.MaxLengthRule": "Company name must not exceed 40 characters",
 
-                        "Country.RequiredRule": "Select your country",
+                        "Country.RequiredRule": "Please select the country",
 
-                        "Captcha.RequiredRule": "[EV] CAPTCHA needed",
-                        "Captcha.CaptchaIncorrect": "[EV] Captcha incorrect",
+                        "Captcha.RequiredRule": "Type the characters from the image: ",
+                        "Captcha.CaptchaIncorrect": "Characters do not match. Please try again",
 
-                        "Email.RequiredRule": "Enter your email address",
-                        "Email.EmailRule": "Invalid email address",
-                        "Email.MaxByteLengthRule": "Email address must not exceed {ByteLength} characters",
-                        "Email.RepeatedRegistration": "The account already exists You can <a href='/account/forgot'>restore your password</a> or <a href='/account/login'>sign in</a>",
+                        "Email.RequiredRule": "Enter your e-mail address",
+                        "Email.EmailRule": "Invalid e-mail address",
+                        "Email.MaxByteLengthRule": "E-mail address must not exceed {ByteLength} characters",
+                        "Email.RepeatedRegistration": "The account for this e-mail address already exists.  <br />To finish account registration and activation, please confirm your e-mail address by clicking the link you received.",
+
+                        "KeyFile.KeyFileRule": "Invalid key file",
+                        "ActivationCode.ActivationCodeRule": "Invalid activation code",
+                        "KeyFile.HttpFileSizeRule": "Key file is too large",
+
                         "InvalidEmailDomain": "Domain name kaspersky.com is invalid",
 
-                        "InvalidKeyFile": "Invalid key file",
-                        "ActivationCodeOrKeyFileIsRequired": "Please enter the activation code or add the key file",
-                        "ActivationCodeOrKeyFileIsInvalid": "Invalid activation code",
-                        "InvalidKeyFileSize": "[EV] File is too big",
+                        "ActCodeOrKeyFileRequired": "Please add the activation code or add the key file",
 
                         "FailureUserExists": {
                             "title": "The account already exists You can <a href='/account/forgot'>restore your password</a> or <a href='/account/login'>sign in</a>",
@@ -238,7 +240,7 @@
                         },
                         "UnknownError": {
                             "title": "Unknown error occurred",
-                            "text": "Please try again. <br/> If the issue persists, please <a href='mailto:companyaccount@kaspersky.com'>contact technical support</a>."
+                            "text": "Please try again. <br/> If the issue persists, please <a href='mailto:betaca@kaspersky.com'>contact technical support</a>."
                         }
                     },
                     "success": {
@@ -246,58 +248,56 @@
                         "text": "The message has been sent to <b>{email}</b> . <br />Follow the link in the message <br />to complete your registration on <b>Kaspersky CompanyAccount</b> . <br />",
                         "close": "Close"
                     },
-                    "privacystatement": "I accept the terms of the <a href=\"/account/privacy-statement\" target=\"_blank\">Privacy Statement</a>. ",
-                    "survey-participation": "I want to receive Kaspersky Lab's invitations to annual customer satisfaction surveys. ",
-                    "createbutton": "Create"
+                    "privacystatement": "I accept the terms of <a href=\"/account/privacy-statement\" target=\"_blank\">Privacy Statement</a>. ",
+                    "survey-participation": "I want to receive Kaspersky Lab invitations to annual customer satisfaction surveys.",
+                    "createbutton": "Create now"
                 },
 
                 "forgot": {
                     "continue": "Continue",
                     "close": "Close",
-
                     "step1": {
                         "title": "Restore the password for Kaspersky CompanyAccount",
-                        "description": "Enter the email address you used<br />when creating the account.",
+                        "description": "Enter the e-mail address you used<br />when creating the account.",
                         "email": "E-mail"
                     },
                     "success": {
                         "title": "Password restoration instructions<br/>have been sent",
-                        "description": "Please check you mailbox at <b>{email}</b><br />Follow the instructions from the message to restore your password. <p> <b> If you have not received the message, please check if the address is correct and try again.  </br>If the email address is correct but you have not received the message, </br>please contact us at <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> </p>"
+                        "description": "Please check you mailbox at <b>{email}</b><br />Follow the instructions from the message to restore your password. <p> <b> If you have not received the message, please check if the address is correct and try again. </br>If the e-mail address is correct but you have not received the message, </br>please contact us at <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> </p>"
                     },
-
                     "errors": {
                         "CaptchaIncorrect": "Characters do not match. Please try again",
                         "Email.RequiredRule": "Enter your e-mail",
-                        "Email.EmailRule": "Invalid email address",
-                        "Email.MaxByteLengthRule": "[EV] Max length of E-mail is {ByteLength}",
+                        "Email.EmailRule": "Invalid e-mail address",
+                        "Email.MaxByteLengthRule": "E-mail address must not exceed {ByteLength} characters",
 
                         "AdminBlocked": {
-                            "title": "The account is locked by administrator",
-                            "text": "To unlock your account, please contact <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                            "title": "The account is blocked by administrator",
+                            "text": "To unlock your account, contact <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
                         },
                         "NotSupportedSystemType": {
-                            "title": "[EV] [sys type] The account does not belong to CompanyAccount",
-                            "text": "[EV] [sys type] To your email sent further instructions"
+                            "title": "The account does not belong to CompanyAccount service",
+                            "text": "Further instructions have been sent to your e-mail address"
                         },
                         "UserNotFound": {
                             "title": "User not found",
                             "text": " "
                         },
                         "NotSupportedCompanyCategory": {
-                            "title": "[EV] [comp cat] The account does not belong to CompanyAccount",
-                            "text": "[EV] [comp cat] To your email sent further instructions"
+                            "title": "The account does not belong to CompanyAccount service",
+                            "text": "Further instructions have been sent to your e-mail address"
                         },
                         "NotActivated": {
-                            "title": "User account has not been activated",
-                            "text": "Further instructions have been sent to your email address"
+                            "title": "User account not activated",
+                            "text": "Further instructions have been sent to your e-mail address"
                         },
                         "IsSupportStuff": {
-                            "title": "[EV] The user account is support stuff account",
+                            "title": "The customer is registered as Support Staff",
                             "text": " "
                         },
                         "UnknownError": {
                             "title": "Unknown error occurred",
-                            "text": "Please try again. <br/> If the issue persists, please <a href='mailto:companyaccount@kaspersky.com'>contact technical support</a>."
+                            "text": "Please try again. <br/> If the issue persists, please <a href='mailto:betaca@kaspersky.com'>contact technical support</a>."
                         }
                     }
                 },
@@ -307,7 +307,7 @@
                     "subtitle": "to Kaspersky CompanyAccount",
                     "tooltip": "CompanyAccount is a technical support service for users of Kaspersky Lab corporate products",
                     "notetitle": "Kaspersky CompanyAccount",
-                    "notedescription": "Kaspersky CompanyAccount is a customer support service for the corporate clients of Kaspersky Lab.",
+                    "notedescription": "Kaspersky CompanyAccount is a customer support service for corporate clients of Kaspersky Lab.",
                     "email": "E-mail",
                     "password": "Password",
                     "rememberme": "Remember me",
@@ -319,90 +319,82 @@
                     "close": "Close",
                     "errors": {
                         "EmailIsRequired": "Enter your e-mail",
-                        "InvalidEmail": "Invalid email address",
+                        "InvalidEmail": "Invalid e-mail address",
                         "PasswordIsRequired": "Enter your password",
-
                         "SimplePassword": "Password does not meet complexity requirements",
-
-                        "UserNotOfCA": "The account does not belong to CompanyAccount service",
                         "LoginBan": "You have exceeded the limit of sign in attempts. Please, try again later.",
-                        "GrantIncorrect": "Invalid email address or password",
+                        "GrantIncorrect": "Invalid e-mail address or password",
                         "GrantContextIncorrect": "E-mail or password is incorrect",
                         "LoginExpired": "User account has expired. Contact technical support to renew your account",
-                        "LoginBlocking": "User account has been blocked. Contact technical support ",
-                        "LoginIncorrect": "Invalid email address or password",
+                        "LoginBlocking": "User account has been blocked. Contact technical support",
+                        "LoginIncorrect": "Invalid e-mail address or password",
                         "CurrentPasswordIncorrect": "Current password is incorrect",
                         "PasswordIncorrect": "Incorrect password",
                         "ExceededUserSessionCount": "Too many attempts to sign in",
 
-                        "UserNotOfCA": "[EV]The account does not belong to CompanyAccount",
+                        "UserNotOfCA": "The account does not belong to CompanyAccount service",
                         "UserNotOfCADescription": "  ",
                         "UnknownError": "Unknown error occurred",
-                        "UnknownErrorDescription": "Unknown error occurred.<br />Please, try again. <br />If the issue persists, <a href='mailto:companyaccount@kaspersky.com'>contact technical support</a>."
+                        "UnknownErrorDescription": "<br />Please, try to sign in again. <br />If the issue persists, <a href='mailto:betaca@kaspersky.com'>contact technical support</a>."
                     }
                 },
 
                 "deleteCompany": {
-                    "logout": "[EV] To continue the company delete procedure, you must log out.",
-                    "close-session": "[EV] To continue the activation procedure, you must close session of another user.",
-                    "logout-btn": "[EV] Logout an delete company",
+                    "logout": "To proceed with company removal, you must sign out.",
+                    "close-session": "To proceed with company removal, close the sessions for other users and try again.",
+                    "logout-btn": "Sign out and continue",
+                    "close-btn": "Save current sessions",
 
                     "title": "Delete company account",
-                    "description": "[EV] Caution When you click \"Continue\" your company will be deleted. After clicking this link your account will be blocked.",
+                    "description": "After you click  \"Continue\", all information about your company will be deleted from CompanyAccount. The users from your company will be able to sign in to CompanyAccount, but all information about requests, licenses, and agreements will be lost.",
                     "continue": "Continue",
                     "loading": "Deleting",
                     "close": "Close",
                     "confirm": {
-                        "title": "[EV] Delete company account",
-                        "description": "[EV] Caution When you click \"Continue\" your company will be deleted. After clicking this link your account will be blocked.",
-                        "continue": "[EV] Contimue"
+                        "title": "Delete company account",
+                        "description": "After you click  \"Continue\", all information about your company will be deleted from CompanyAccount. The users from your company will be able to sign in to CompanyAccount, but all information about requests, licenses, and agreements will be lost.",
+                        "continue": "Continue"
                     },
                     "errors": {
                         "UserNotFound": {
                             "title": "User not found",
-                            "text": "Please contact us at <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                            "text": "Please contact us at <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
                         },
                         "NotMainUser": {
                             "title": "User account error",
-                            "text": "Please contact us at <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> to fix the problem"
+                            "text": "Contact us at <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> to fix the problem"
                         },
-
                         "CompanyNotFound": {
                             "title": "Company was deleted",
                             "text": " "
                         },
-
+                        "UnknownError": {
+                            "title": "Unknown error",
+                            "text": "Unknown error occurred when deleting the company account <br />Please follow the link once again in a few minutes. <br/> If the issue persists, please <a href='mailto:betaca@kaspersky.com'>contact us</a>."
+                        },
                         "LinkExpired": {
                             "title": "The link has expired",
                             "text": "You can request deleting the company account once again"
                         },
-
                         "LinkUsed": {
                             "title": "Company account has  already been deactivated",
                             "text": " "
                         },
-
                         "AccessDenied": {
                             "title": "Access denied",
                             "text": " "
                         },
-
                         "LinkNotExist": {
                             "title": "Invalid link",
-                            "text": "Please contact us at <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> to fix the problem"
+                            "text": "Contact us at <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> to fix the problem"
                         },
                         "DeactivationRequestError": {
                             "title": "An error occurred when deleting the company account",
-                            "text": "Please contact us at <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> to fix the problem"
+                            "text": "Contact us at <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> to fix the problem"
                         },
-                        "UnknownError": {
-                            "title": "Unknown error",
-                            "text": "Unknown error occurred when deleting the company account <br />Please follow the link once again in a few minutes. <br/> If the issue persists, please <a href='mailto:companyaccount@kaspersky.com'>contact us</a>."
-                        },
-
                         "Failure": {
                             "title": "Unknown error occurred",
-                            "text": "Unknown error occurred when deleting the account <br />Please try again in a few minutes. <br/> If the issue persists, please <a href='mailto:companyaccount@kaspersky.com'>contact us</a>."
+                            "text": "Unknown error occurred when deleting the account <br />Please try again in a few minutes. <br/> If the issue persists, please <a href='mailto:betaca@kaspersky.com'>contact us</a>."
                         }
                     },
                     "success": {

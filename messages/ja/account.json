@@ -68,6 +68,8 @@
                 "resetPassword": {
                     "logout": "パスワードを復元するには、サインアウトしてから次のリンクをもう 1 度使用してください。",
                     "close-session": "[EV[jp]パスワードをリセットするには、現在のカンパニーアカウントへの接続をすべて終了してください。［新しいパスワードを設定する］をクリックし、接続を終了してから、新しいパスワードを入力してください。<br/>Or click \"Save current sessions\" to save all sessions and change the password later<br/>The password reset link will be available for 7 days.パスワードをリセットするリンクの有効期間は、7 日間です。 ",
+                    "logout-btn": "[EV] Задать новый пароль",
+                    "close-btn": "[EV] Сохранить текущие сессии",
 
                     "success": {
                         "title": "パスワードが変更されました",
@@ -102,6 +104,8 @@
                 "activate": {
                     "logout": "アクティベーションを続けるには、サインアウトしてください。",
                     "close-session": "パスワードをリセットするには、現在のカンパニーアカウントへの接続をすべて終了してください。［新しいアカウントをアクティベートする］をクリックし、現在の接続をすべて終了してから、新しいアカウントのパスワードを設定してください。<br/>または、［現在の接続を保存する］をクリックし、アカウントを後でアクティベートしてください。パスワードをリセットするリンクの有効期間は、7 日間です。  ",
+                    "logout-btn": "[EV] Активировать новую учетную запись",
+                    "close-btn": "[EV] Сохранить текущие сессии",
 
                     "success": {
                         "title": "カンパニーアカウントが<br />有効化されました",
@@ -110,7 +114,6 @@
                     },
 
                     "close": "Close",
-                    "logout": "[EV] Logout",
 
                     "errors": {
                         "LinkNotExist": {
@@ -140,16 +143,12 @@
                     }
                 },
 
-                "deleted": {
-                    "confirm-title": "アカウントが削除されました",
-                    "confirm-text": "新しいアカウントを作成してください"
+                 "refreshPassword": {
+                    "title": "[EV] Ваш пароль устарел",
+                    "description": "[EV] Пожалуйста, введите и подтвердите пароль"
                 },
 
                 "delete": {
-                    "logout": "[EV][jp] To continue the deleting procedure, you must log out.",
-                    "close-session": "[EV][jp] To continue the activation procedure, you must close session of another user.",
-                    "logout-btn": "[EV][jp] Logout an delete user",
-
                     "title": "カンパニーアカウントを削除",
                     "description": "アカウントを削除してよいかどうか、確認してください ",
                     "e-mail": "メール",
@@ -207,6 +206,7 @@
                     "activationCodeTooltip": "アクティベーションコードの形式は、次のとおりです：XXXXX-XXXXX-XXXXX-XXXXX数字の「0」（ゼロ）、英文字の「I」「O」「L」は含まれていません。 ",
                     "activationCodeInvalid": "アクティベーションコードの形式が正しくありません",
                     "close": "閉じる",
+                    "removeKeyfile": "[EV] Remove",
                     "errors": {
                         "FirstName.RequiredRule": "姓を入力してください",
                         "FirstName.MaxByteLengthRule": "31 文字以上は入力できません",
@@ -226,12 +226,14 @@
                         "Email.EmailRule": "メールアドレスが正しくありません",
                         "Email.MaxByteLengthRule": "128 文字以上は入力できません",
                         "Email.RepeatedRegistration": "アカウントがすでに存在します。<a href='/account/forgot'>パスワードを復元する</a>か、 <a href='/account/login'>サインイン</a>してください",
+
+                         "KeyFile.KeyFileRule": "[EV] Invalid key file",
+                        "ActivationCode.ActivationCodeRule": "[EV] Invalid activation code",
+                        "KeyFile.HttpFileSizeRule": "[EV] File is too big",
+
                         "InvalidEmailDomain": "kaspersky.com は、ドメイン名に使用できません",
 
-                        "InvalidKeyFile": "ライセンス情報ファイルが正しくありません",
-                        "ActivationCodeOrKeyFileIsRequired": "アクティベーションコードを入力するか、ライセンス情報ファイルを入力してください",
-                        "ActivationCodeOrKeyFileIsInvalid": "アクティベーションコードが正しくありません",
-                        "InvalidKeyFileSize": "[EV] File is too big",
+                        "ActCodeOrKeyFileRequired": "[EV] Please enter the activation code or add the key file",
 
                         "FailureUserExists": {
                             "title": "アカウントがすでに存在します。<a href='/account/forgot'>パスワードを復元する</a>か、 <a href='/account/login'>サインイン</a>してください",
@@ -341,7 +343,8 @@
                 "deleteCompany": {
                     "logout": "[EV] To continue the company delete procedure, you must log out.",
                     "close-session": "[EV] To continue the activation procedure, you must close session of another user.",
-                    "logout-btn": "[EV] Logout an delete company",
+                    "logout-btn": "[EV] Выйти и удалить компанию",
+                    "close-btn": "[EV] Сохранить текущие сессии",
 
                     "title": "カンパニーアカウントを削除",
                     "description": "［続行する］をクリックすると、カンパニーアカウントに登録したあなたの企業の情報がすべて削除されます。あなたの企業のユーザーは、カンパニーアカウントへのサインインすることはできますが、リクエスト、ライセンス、および契約に関する情報は、すべて失われます。",

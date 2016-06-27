@@ -23,7 +23,10 @@
                         "ACExpired": "Este código ha caducado.",
                         "UnknownError": "Se ha ocurrido un error, inténtelo de nuevo. Si el problema vuelve a aparecer, <a href='../request/create/ca' target=\"_blank\">envíe solicitud al soporte técnico</a>",
                         "LicenseNotFound": "¡Error! No se ha encontrado la licencia.",
-                        "InvalidKeyFileSize": "[EV] File is too big"
+
+                        "ActCodeOrKeyFileRequired": "Se requiere un archivo llave o un código de activación",
+                        "KeyFile.HttpFileSizeRule": "El archivo llave es demasiado grande",
+                        "KeyFile.KeyFileRule": "Formato de archivo llave desconocido"
                     },
                     "success-user-moved": {
                         "title": "¡La licencia se ha adjuntado correctamente!",
@@ -71,8 +74,10 @@
                     "no-filtered-license": "No hay licencias que cumplan los criterios de filtrado indicados. Por favor, amplíe su búsqueda.",
                     "no-license": "La cuenta de su empresa no tiene ninguna licencia adjunta.",
                     "errors": {
-                        "NoCompatibleApps": "No hay aplicaciones activas para esta licencia.<br />Por favor, <a href='../request/create/ca' target=\"_blank\"> póngase en contacto con el soporte técnico </a> para conocer posibles soluciones de este problema.",
-                        "UnknownError": "Error desconocido Si el problema vuelve a aparecer, <a href='../request/create/ca' target=\"_blank\">envíe solicitud al soporte técnico</a>"
+                        "UnknownError": {
+                            "title": "Error desconocido a la hora de recibir la lista de licencias ",
+                            "text": "Error desconocido Si el problema vuelve a aparecer, <a href='../request/create/ca' target=\"_blank\">envíe solicitud al soporte técnico</a>"
+                        }
                     },
                     "compatibleapps": "Aplicaciones compatibles:",
                     "remove": {
@@ -103,7 +108,6 @@
                     },
                     "close": "Cerrar"
                 }
-
             }
         }
     }

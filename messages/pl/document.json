@@ -20,6 +20,12 @@
                     "no-contract": {
                         "title": "Brak <a href=\"http://www.kaspersky.com/enterprise-security/maintenance-service-agreement\" target=\"_blank\">umów do Pomocy technicznej Premium</a>.",
                         "description": "Kaspersky Lab oferuje program Pomocy technicznej premium oferujący dostosowane usługi i najszybszą odpowiedź na Twoje zgłoszenia. Wybierz najbardziej odpowiadającą Ci opcję Kaspersky Maintenance Service Agreement (MSA). </br> </br>  <a href=\"http://www.kaspersky.com/business-security/services\" target=\"_blank\">Sprawdź opcje pomocy technicznej premium</a></p>"
+                    },
+                    "errors": { 
+                         "UnknownError": {
+                            "title": "[EV] Unknown error while contract list retreiving ",
+                            "text": "[EV] Unknown error. If the issue persists, please <a href='../request/create/ca' target=\"_blank\"> contact technical support</a>"
+                        }
                     }
                 }
             }

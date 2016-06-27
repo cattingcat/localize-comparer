@@ -1,4 +1,4 @@
-﻿{
+{
     "globalize-messages": {
         "es": {
             "user": {
@@ -7,17 +7,23 @@
                     "sort-lastname": "Apellidos",
                     "filter-by-country-label": "Países:",
                     "filter-by-country": {
-                        "All": "Todos"
+                        "All": "Todas"
                     },
                     "filter-by-organization-label": "Sucursales:",
                     "filter-by-organization": {
-                        "All": "Todos"
+                        "All": "Todas"
                     },
                     "item": {
                         "country": "País:",
                         "organization": "Sucursal:"
                     },
-                    "no-filtered-user": "No hay usuarios que cumplan los criterios de filtrado indicados."
+                    "no-filtered-user": "No hay usuarios que cumplan los criterios de filtrado indicados.",
+                    "errors": {
+                        "UnknownError": {
+                            "title": "Error desconocido a la hora de recibir la lista de usuarios",
+                            "text": "Envíe un correo electrónico a <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> para solucionar el problema"
+                        }
+                    }
                 },
 
                 "delete": {
@@ -32,116 +38,143 @@
                         "text": "Usted está a punto de eliminar la cuenta del usuario {email}. <br> Se bloqueará el acceso al portal CompanyAccount. Las solicitudes del usuario eliminado seguirán estando disponibles.",
                         "button": "Continuar"
                     },
-
                     "errors": {
                         "AdminBlocked": {
-                            "title": "[EV] Account has been blocked by the administrator",
+                            "title": "La cuenta está bloqueada por el administrador",
                             "text": " "
                         },
                         "NotSupportedSystemType": {
-                            "title": "[EV] [sys type] The account does not belong to CompanyAccount",
+                            "title": "El usuario no pertenece a СompanyАccount",
                             "text": " "
                         },
                         "UserNotFound": {
-                            "title": "Usuario no encontrado",
+                            "title": "No se ha podido eliminar el usuario. Usuario no encontrado",
                             "text": " "
                         },
                         "NotSupportedCompanyCategory": {
-                            "title": "[EV] [comp cat] The account does not belong to CompanyAccount",
+                            "title": "Este usuario no pertenece a СompanyАccount",
                             "text": " "
                         },
                         "IsSupportStuff": {
-                            "title": "[EV] The user account is support stuff account",
+                            "title": "Este usuario es ingeniero de soporte técnico",
                             "text": " "
                         },
                         "DifferentCompanies": {
-                            "title": "[EV] User from another company",
+                            "title": "Este usuario pertenece a otra empresa",
                             "text": " "
                         },
                         "UnknownError": {
                             "title": "No se ha podido eliminar el usuario. Inténtelo de nuevo.",
-                            "text": " "
+                            "text": "  "
+                        }
+                    }
+                },
+
+                "show": {
+                    "errors": {
+                        "UnknownError": {
+                            "title": "Error desconocido a la hora de recibir la información acerca del usuario ",
+                            "text": "Por favor, <a href='/request/create/ca' target=\"_blank\"> consulte con el soporte técnico </a> sobre como solucionar este problema."
                         }
                     }
                 },
 
                 "errors": {
-                    "DifferentCompanies": "Este usuario pertenece a otra empresa. </br>Por favor, <a href='/request/create/ca' target=\"_blank\"> consulte con el soporte técnico </a> sobre cómo solucionar este problema.",
-
+                    "DifferentCompanies": "Este usuario pertenece a otra empresa. </br>Por favor, <a href='/request/create/ca' target=\"_blank\"> consulte con el soporte técnico </a> sobre como solucionar este problema.",
                     "GetDetailsException_DifferentCompanies": {
                         "Title": "La cuenta solicitada no pertenece a su empresa",
                         "Text": "Por favor, <a href='/request/create/ca' target=\"_blank\"> consulte con el soporte técnico </a> sobre como solucionar este problema."
                     },
                     "RequestPasswordResetException_DifferentCompanies": {
                         "Title": "La cuenta que está editando no pertenece a su empresa",
-                        "Text": "Por favor, <a href='/request/create/ca' target=\"_blank\"> consulte con el soporte técnico </a> sobre cómo solucionar este problema."
+                        "Text": "Por favor, <a href='/request/create/ca' target=\"_blank\"> consulte con el soporte técnico </a> sobre como solucionar este problema."
                     },
                     "UpdateProfileDetailsException_DifferentCompanies": {
                         "Title": "La cuenta que está editando no pertenece a su empresa",
-                        "Text": "Por favor, <a href='/request/create/ca' target=\"_blank\"> consulte con el soporte técnico </a> sobre cómo solucionar este problema."
+                        "Text": "Por favor, <a href='/request/create/ca' target=\"_blank\"> consulte con el soporte técnico </a> sobre como solucionar este problema."
                     },
                     "UpdatePermissionsException_DifferentCompanies": {
                         "Title": "La cuenta que está editando no pertenece a su empresa",
-                        "Text": "Por favor, <a href='/request/create/ca' target=\"_blank\"> consulte con el soporte técnico </a> sobre cómo solucionar este problema."
+                        "Text": "Por favor, <a href='/request/create/ca' target=\"_blank\"> consulte con el soporte técnico </a> sobre como solucionar este problema."
                     },
                     "DeleteProfileException_DifferentCompanies": {
                         "Title": "Esta cuenta se ha modificado y no puede eliminarla",
-                        "Text": "Por favor, <a href='/request/create/ca' target=\"_blank\"> consulte con el soporte técnico </a> sobre cómo solucionar este problema."
+                        "Text": "Por favor, <a href='/request/create/ca' target=\"_blank\"> consulte con el soporte técnico </a> sobre como solucionar este problema."
                     },
-
-                    "Failure": {
-                        "Title": "Fallo desconocido",
-                        "Text": "Consulte con el soporte técnico <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> sobre cómo solucionar este problema"
-                    },
-                    "UserNotFound": {
-                        "Title": "Usuario no encontrado",
-                        "Text": "Consulte con el soporte técnico <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> sobre cómo solucionar este problema"
-                    },
-                    "NotMainUser": {
-                        "Title": "Usted no dispone de los derechos de administrador para esta empresa",
-                        "Text": "Por favor, <a href='/request/create/ca' target=\"_blank\"> consulte con el soporte técnico </a> sobre cómo solucionar este problema."
-                    },
-                    "AccessDenied": {
-                        "Title": "Acceso denegado",
-                        "Text": "Consulte con el soporte técnico <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> sobre cómo solucionar este problema"
-                    },
-                    "UserNotOfCA": {
-                        "Title": "[EV] [user/ not from CA] Unknown error",
-                        "Text": "[EV] [user/ not act]Contact address <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
-                    },
-                    "UserNotActivated": {
-                        "Title": "[EV] [user/ not act] Unknown error",
-                        "Text": "[EV] [user/ not act]Contact address <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
-                    },
-
                     "GetDetailsException_OfUserNotFound": {
                         "Title": "Cuenta no encontrada",
-                        "Text": "Por favor, <a href='/request/create/ca' target=\"_blank\"> consulte con el soporte técnico </a> sobre cómo solucionar este problema."
+                        "Text": "Por favor, <a href='/request/create/ca' target=\"_blank\"> consulte con el soporte técnico </a> sobre como solucionar este problema."
                     },
                     "RequestPasswordResetException_OfUserNotFound": {
                         "Title": "Cuenta no encontrada",
-                        "Text": "Por favor, <a href='/request/create/ca' target=\"_blank\"> consulte con el soporte técnico </a> sobre cómo solucionar este problema."
+                        "Text": "Por favor, <a href='/request/create/ca' target=\"_blank\"> consulte con el soporte técnico </a> sobre como solucionar este problema."
                     },
                     "UpdateProfileDetailsException_OfUserNotFound": {
                         "Title": "Cuenta no encontrada",
-                        "Text": "Por favor, <a href='/request/create/ca' target=\"_blank\"> consulte con el soporte técnico </a> sobre cómo solucionar este problema."
+                        "Text": "Por favor, <a href='/request/create/ca' target=\"_blank\"> consulte con el soporte técnico </a> sobre como solucionar este problema."
                     },
                     "UpdatePermissionsException_OfUserNotFound": {
                         "Title": "Cuenta no encontrada",
-                        "Text": "Por favor, <a href='/request/create/ca' target=\"_blank\"> consulte con el soporte técnico </a> sobre cómo solucionar este problema."
+                        "Text": "Por favor, <a href='/request/create/ca' target=\"_blank\"> consulte con el soporte técnico </a> sobre como solucionar este problema."
                     },
                     "DeleteProfileException_OfUserNotFound": {
                         "Title": "Cuenta no encontrada",
-                        "Text": "Por favor, <a href='/request/create/ca' target=\"_blank\"> consulte con el soporte técnico </a> sobre cómo solucionar este problema."
+                        "Text": "Por favor, <a href='/request/create/ca' target=\"_blank\"> consulte con el soporte técnico </a> sobre como solucionar este problema."
+                    },
+                    "Failure": {
+                        "Title": "Fallo desconocido",
+                        "Text": "Consulte con el soporte técnico <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> sobre cómo solucionar este problema"
+                    },
+                    "UserNotFound": {
+                        "Title": "Usuario no encontrado",
+                        "Text": "Consulte con el soporte técnico <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> sobre cómo solucionar este problema"
+                    },
+                    "NotMainUser": {
+                        "Title": "Usted no dispone de los derechos de administrador para esta empresa",
+                        "Text": "Por favor, <a href='/request/create/ca' target=\"_blank\"> consulte con el soporte técnico </a> sobre como solucionar este problema."
+                    },
+                    "AccessDenied": {
+                        "Title": "Acceso denegado",
+                        "Text": "Consulte con el soporte técnico <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> sobre cómo solucionar este problema"
+                    },
+                    "ReqOfUserNotFound": {
+                        "Title": "La cuenta solicitada no se ha encontrado",
+                        "Text": "Por favor, <a href='/request/create/ca' target=\"_blank\"> consulte con el soporte técnico </a> sobre como solucionar este problema."
+                    },
+                    "UpdOfUserNotFound": {
+                        "Title": "La cuenta que está editando no se ha encontrado",
+                        "Text": "Por favor, <a href='/request/create/ca' target=\"_blank\"> consulte con el soporte técnico </a> sobre como solucionar este problema."
+                    },
+                    "DelOfUserNotFound": {
+                        "Title": "Esta cuenta se ha modificado y no puede eliminarla",
+                        "Text": "Por favor, <a href='/request/create/ca' target=\"_blank\"> consulte con el soporte técnico </a> sobre como solucionar este problema."
+                    },
+                    "UserNotOfCA": {
+                        "Title": "Se ha producido un fallo inesperado </br> a la hora de redactar el perfil de usuario",
+                        "Text": "Envíe un correo electrónico a <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
+                    },
+                    "UserNotActivated": {
+                        "Title": "Se ha producido un fallo inesperado </br> a la hora de redactar el perfil de usuario",
+                        "Text": "Envíe un correo electrónico a <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
                     }
                 }
             },
             "profile": {
                 "title-profile": "Mi cuenta",
                 "title-user": "Ver cuenta",
+
+                "show": {
+                    "errors": {
+                        "UnknownError": {
+                            "title": "Error desconocido a la hora de recibir el perfil del usuario actual ",
+                            "text": "Por favor, <a href='/request/create/ca' target=\"_blank\"> consulte con el soporte técnico </a> sobre como solucionar este problema."
+                        }
+                    }
+                },
+
                 "delete": {
                     "title": "Eliminar cuenta",
-                    "description": "¡Atención! Tras hacer clic en el botón \"Eliminar cuenta\", se le enviará por correo electrónico el enlace para confirmar la eliminación de su cuenta. Tras hacer clic en este enlace, se eliminará su cuenta.",
+                    "description": "¡Atención! Tras hacer clic en el botón \"Eliminar cuenta\", se le enviará el enlace para confirmar la eliminación de su cuenta. Tras hacer clic en este enlace, se eliminará su cuenta.",
                     "notice": "Entiendo que mi cuenta se eliminará y no podré enviar solicitudes a través de CompanyAccount.",
                     "btn": "Eliminar mi cuenta",
                     "process": "Enviando solicitud para eliminar...",
@@ -152,7 +185,7 @@
                         "button": "Eliminar"
                     },
                     "errors": {
-                        "RepeatedDeactivation": "No se ha podido eliminar el usuario. Intentarlo de nuevo.",
+                        "RepeatedDeactivation": "No se ha podido eliminar el usuario. Eliminar de nuevo.",
                         "UnknownError": "No se ha podido eliminar el usuario. Inténtelo de nuevo.",
                         "UserNotFound": "Usuario no encontrado",
                         "AccessDenied": "Acceso denegado",
@@ -169,14 +202,14 @@
                     "notice": "Entiendo que después de eliminar la cuenta de la empresa se eliminará toda la información acerca de la empresa.",
                     "btn": "Eliminar cuenta de empresa",
                     "process": "Eliminando cuenta de empresa",
-                    "success": "Se le enviará a su correo electrónico el enlace para confirmar la eliminación de la cuenta de empresa.",
+                    "success": "Se le ha enviado a su correo electrónico el enlace para confirmar la eliminación de la cuenta de empresa.",
                     "errors": {
                         "Success": "Para confirmar la eliminación de la cuenta de empresa, se debe seguir el enlace que se ha enviado a su correo electrónico.",
-                        "RepeatedDeactivation": "Para confirmar la eliminación de la cuenta de empresa, se debe seguir el enlace que se ha enviado a su correo electrónico.",
-                        "UnknownError": "No se ha podido eliminar la cuenta de empresa. Inténtelo de nuevo.",
+                        "RepeatedDeactivation": "Para confirmar la eliminación de la cuenta de empresa, se debe volver a seguir el enlace que se ha enviado a su correo electrónico.",
+                        "UnknownError": "No se ha podido eliminar el la cuenta de empresa. Inténtelo de nuevo.",
                         "UserNotFound": "Usuario no encontrado",
                         "AccessDenied": "Acceso denegado",
-                        "NotMainUser": "El acceso está denegado, el usuario no tiene derechos de administrador",
+                        "NotMainUser": "Acceso denegado: el usuario no dispone de los permisos de administrador",
                         "CompanyNotFound": "Empresa no encontrada"
                     },
                     "confirm": {
@@ -185,54 +218,53 @@
                         "continue": "Continuar"
                     },
                     "popupTitle": "Se ha enviado la solicitud para eliminar la cuenta de empresa",
-                    "popupMsg": " Para finalizar la eliminación de la cuenta de empresa, siga el enlace del mensaje."
+                    "popupMsg": " Para finalizar la eliminación de empresa, siga el enlace del mensaje."
                 },
                 "errors": {
                     "FirstName.RequiredRule": "No se ha especificado el nombre",
                     "LastName.RequiredRule": "No se han especificado los apellidos",
                     "Country.RequiredRule": "No se ha rellenado el campo País",
                     "InvalidCountry": "Error al seleccionar país",
-                    "FirstName.MaxByteLengthRule": "[EV] Name is too long, max length: {ByteLength}",
-                    "LastName.MaxByteLengthRule": "[EV] Last name is too long, Max length: {ByteLength}",
-                    "Organization.MaxByteLengthRule": "[EV] Organization is too long, Max length: {ByteLength}",
+                    "FirstName.MaxByteLengthRule": "El nombre puede contener hasta 30 caracteres",
+                    "LastName.MaxByteLengthRule": "Los dos apellidos pueden contener hasta 30 caracteres en total",
+                    "Organization.MaxByteLengthRule": "El nombre del sucursal puede contener hasta {ByteLength} caracteres",
 
                     "Failure": {
                         "Title": "Se ha ocurrido un error inesperado",
-                        "Text": "Envíe un correo electrónico a <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                        "Text": "Envíe un correo electrónico a <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
                     },
                     "OfUserNotFound": {
                         "Title": "La cuenta no se ha encontrado",
-                        "Text": "Envíe un correo electrónico a <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                        "Text": "Envíe un correo electrónico a <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
                     },
                     "NotMainUser": {
                         "Title": "Usted no dispone de los derechos de administrador para esta empresa.",
-                        "Text": "Envíe un correo electrónico a <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
-                    },
-                    "UserNotFound": {
-                        "Title": "Cuenta no encontrada",
-                        "Text": "Envíe un correo electrónico a <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                        "Text": "Envíe un correo electrónico a <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
                     },
                     "AccessDenied": {
                         "Title": "Se ha producido un problema con su cuenta. Acceso denegado.",
-                        "Text": "Envíe un correo electrónico a <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                        "Text": "Envíe un correo electrónico a <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
                     },
-
+                    "UserNotFound": {
+                        "Title": "Cuenta no encontrada",
+                        "Text": "Envíe un correo electrónico a <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
+                    },
                     "UnknownError": {
-                        "Title": "Se ha producido un fallo inesperado </br> a la hora de editar el perfil de usuario",
-                        "Text": "Envíe un correo electrónico a <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                        "Title": "Se ha producido un fallo inesperado </br> a la hora de redactar el perfil de usuario",
+                        "Text": "Envíe un correo electrónico a <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
                     },
                     "UserNotOfCA": {
-                        "Title": "[EV] [not from CA] Unknown error",
-                        "Text": "[EV] [not act]Contact address <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                        "Title": "Se ha producido un fallo inesperado </br> a la hora de redactar el perfil de usuario",
+                        "Text": "Envíe un correo electrónico a <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
                     },
                     "UserNotActivated": {
-                        "Title": "[EV] [not act] Unknown error",
-                        "Text": "[EV] [not act]Contact address <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                        "Title": "Se ha producido un fallo inesperado </br> a la hora de redactar el perfil de usuario",
+                        "Text": "Envíe un correo electrónico a <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
                     }
                 },
                 "permissions": {
                     "title": "Derechos de usuario",
-                    "ViewAllRequests": "Ver las solicitudes de todos los usuarios de la empresa",
+                    "ViewAllRequests": "Ver solicitudes de todos los usuarios de la empresa",
                     "ManageContacts": "Administrar cuentas",
                     "AddLicenses": "Agregar licencias",
                     "RemoveLicenses": "Eliminar licencias",
@@ -240,7 +272,7 @@
                     "saveError": "No se ha podido guardar los cambios. Inténtelo de nuevo.",
                     "saveBtn": "Guardar cambios",
                     "saveWait": "Guardando cambios...",
-                    "saveSuccess": "Los cambios se han guardado."
+                    "saveSuccess": "Los cambios se ha guardado."
                 },
                 "personalinfo": {
                     "title": "Datos personales",
@@ -259,66 +291,79 @@
                     "cancelBtn": "Cancelar",
                     "saveError": "No se ha podido guardar los cambios. Inténtelo de nuevo.",
                     "saveWait": "Guardando cambios...",
-                    "saveSuccess": "Los cambios se han guardado",
+                    "saveSuccess": "Los cambios se ha guardado",
                     "filialDefault": "Seleccione sucursal",
                     "filialMessage": "Seleccione de la lista o introduzca uno nuevo",
                     "fullDescription": "Descripción detallada"
                 },
                 "companyLogo": {
-                    "title": "[EV] Company logo",
-                    "description": "[EV] Upload the logo of our company. You can download the logo height <b>64px</b> and width <b>200px</b>. Acceptable formats:  <b>jpg</b>, <b>jpeg</b>, <b>png</b>, <b>gif</b>.",
-                    "remove": "[EV] Remove",
+                    "title": "Logotipo de la empresa",
+                    "description": "Suba el logotipo de su empresa Puede subir un logotipo a <b>64px</b> de altura y <b>200px</b> de anchura como máximo. Formatos compatibles:  <b>jpg</b>, <b>jpeg</b>, <b>png</b>, <b>gif</b>.",
+                    "remove": "Eliminar",
                     "errors": {
-                        "wrongSize": "[EV] Logo size exceed the permissible. try again.",
-                        "wrongFormat": "[EV] Wrong logo extension. Acceptable formats:  <b>jpg</b>, <b>jpeg</b>, <b>png</b>, <b>gif</b>."
+                        "logoImage.HttpFileSizeRule": "El tamaño del logotipo supera el límite permitido",
+                        "logoImage.ImageContentRule": "El logotipo puede tener solo los siguientes formatos:  <b>jpg</b>, <b>jpeg</b>, <b>png</b>, <b>gif</b>.",
+                        "logoImage.LogoFileNameRule": "El logotipo puede tener solo los siguientes formatos:  <b>jpg</b>, <b>jpeg</b>, <b>png</b>, <b>gif</b>.",
+                        "UnknownError": "Error desconocido a la hora de subir el logotipo."
                     },
-                    "success": "[EV] Logo uploadded successfully."
+                    "success": "El logotipo se ha subido correctamente.",
+                    "success-deleted": "El logotipo se ha eliminado correctamente.",
+                    "deleteConfirm": {
+                        "title": "¿Eliminar el logotipo?",
+                        "text": "¿Esta seguro que desea eliminar el logotipo?",
+                        "button": "Eliminar"
+                    },
+                    "uploadConfirm": {
+                        "title": "¿Subir el logotipo?",
+                        "text": "Después de subir el logotipo nuevo, se eliminará el logotipo antiguo.",
+                        "button": "Subir"
+                    }
                 },
                 "resetPassword": {
                     "success": " ",
                     "errors": {
                         "AdminBlocked": {
-                            "title": "[EV] Account has been blocked by the administrator",
+                            "title": "La cuenta está bloqueada por el administrador",
                             "text": " "
                         },
                         "NotSupportedSystemType": {
-                            "title": "[EV] [sys type] The account does not belong to CompanyAccount",
+                            "title": "Este nombre de usuario no se ha registrado en CompanyAccount",
                             "text": " "
                         },
                         "UserNotFound": {
-                            "title": "[EV] User not found",
+                            "title": "Cuenta no encontrada",
                             "text": " "
                         },
                         "NotSupportedCompanyCategory": {
-                            "title": "[EV] [comp cat] The account does not belong to CompanyAccount",
+                            "title": "Este nombre de usuario no se ha registrado en CompanyAccount",
                             "text": " "
                         },
                         "NotActivated": {
-                            "title": "[EV] The user account is not activated",
+                            "title": "La cuenta del usuario no está activada",
                             "text": " "
                         },
                         "IsSupportStuff": {
-                            "title": "[EV] The user account is support stuff account",
+                            "title": "Este usuario es ingeniero de soporte técnico",
                             "text": " "
                         },
                         "UnknownError": {
-                            "title": "An unknown failure",
-                            "text": "An unknown failure, try reset password later"
+                            "title": "Se ha producido un fallo desconocido",
+                            "text": " "
                         }
                     }
                 },
 
                 "resetPasswordTitle": "Cambiar contraseña ",
-                "resetPasswordDescription": "Las instrucciones sobre cómo cambiar contraseña se le enviarán a la dirección del correo electrónico del usuario",
+                "resetPasswordDescription": "Las instrucciones sobre cómo cambiar contraseña se enviarán a la dirección del correo electrónico del usuario",
                 "resetPasswordButton": "Restablecer contraseña",
                 "resetPasswordWait": "Restableciendo contraseña...",
                 "resetPasswordSuccess": "Su contraseña se ha restablecido correctamente. Se han enviado más instrucciones a su correo electrónico.",
-                "resetPasswordSuccessUser": "La contraseña se ha restablecido correctamente. Se han enviado más instrucciones al correo electrónico del usuario.",
+                "resetPasswordSuccessUser": "La contraseña se ha restablecido correctamente Se han enviado más instrucciones al correo electrónico del usuario.",
                 "resetPasswordError": "No se ha podido restablecer la contraseña. Inténtelo de nuevo",
                 "fileUpload": {
                     "title": "Adjuntar archivos:",
                     "agreedtext": "Ha aceptado los términos de la <a href='javascript://' class='profile-file-agreement-accepted-link' target='_blank'>Declaración de concesión de datos</a>",
-                    "notagreedtext": "Para poder subir archivos, acepte los términos del <a href='javascript://' class='link-modal-win profile-file-agreement-btn' data='license-cont'>Reglamento sobre la provisión de datos</a>"
+                    "notagreedtext": "Para poder subir los archivos, acepte los términos de <a href='javascript://' class='link-modal-win profile-file-agreement-btn' data='license-cont'>Declaración de concesión de datos</a>"
                 }
             }
         }

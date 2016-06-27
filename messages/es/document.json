@@ -20,6 +20,12 @@
                     "no-contract": {
                         "title": "De momento no hay contratos firmados para prestar <a href=\"http://www.kaspersky.es/enterprise-security/maintenance-service-agreement\" target=\"_blank\">soporte técnico extendido</a>.",
                         "description": "Para que sus solicitudes se procesen de forma más rápida, le recomendamos usar las ventajas de nuestro soporte premium Kaspersky Maintenance Service Agreement (MSA).</br> </br>  <a href=\"http://www.kaspersky.es/business-security/services\" target=\"_blank\">Conocer los planes de soporte extendido.</a></p>"
+                    },
+                    "errors": {
+                         "UnknownError": {
+                            "title": "Se ha producido un error a la hora de recibir la lista de documentos ",
+                            "text": "Si el problema vuelve a aparecer, diríjase al <a href='../request/create/ca' target=\"_blank\"> soporte técnico</a>"
+                        }
                     }
                 }
             }

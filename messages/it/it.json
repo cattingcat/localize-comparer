@@ -54,7 +54,10 @@
                     "maxFileSize": "Il file è troppo grande",
                     "minFileSize": "Il file è troppo piccolo",
                     "acceptFileTypes": "Tipo di file non valido",
-                    "maxNumberOfFiles": "Superato il numero massimo di file"
+                    "maxNumberOfFiles": "Superato il numero massimo di file",
+
+                    "StorageFileSizeRule": "[EV] Incorrect file size",
+                    "UnknownError": "[EV] Unknown error occurred while file uploading"
                 }
             },
 
@@ -80,13 +83,9 @@
                 "copyrightStart": "Copyright &copy;",
                 "copyrightEnd": "AO Kaspersky Lab ",
                 "errors": {
-                    "UserNotFound": {
-                        "title": "Errore account utente",
-                        "message": "Vi invitiamo a contattare <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
-                    },
                     "UnknownError": {
                         "title": "Errore sconosciuto",
-                        "message": "Si è verificato un errore sconosciuto durante la modifica della lingua. <br />Vi invitiamo a provare nuovamente tra qualche minuto. Vi invitiamo a contattare <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> per risolvere il problema"
+                        "text": "Si è verificato un errore sconosciuto durante la modifica della lingua. <br />Vi invitiamo a provare nuovamente tra qualche minuto. Vi invitiamo a contattare <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> per risolvere il problema"
                     }
                 }
             },
@@ -140,6 +139,37 @@
                     "title": "[EV][isSuppStuff] An problem with your account",
                     "text": "[EV] Contact address <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
                 }
+            },
+            "CheckUserSessionExceptions": {
+                "SessionNotFound": {
+                    "title": "[EV][SessionNotFound] Refresh token deleted",
+                    "text": " "
+                },
+                "RefreshTokenExpired": { 
+                    "title": "[EV] Refresh token expired",
+                    "text": " "
+                }
+            },
+
+            "loginErrors": {
+                "PasswordExpired": "[EV][it] Пароль устарел, перенаправление на страницу сброса",
+
+                "WrongPassword": "[EV][it] Wrong password",
+
+                "TempBlocking": "[EV][it] Слишком много неудачныхпопыток входа, временная блокировка",
+                "AdminBlocked": "[EV][it] Пользователь заблокирован администратором",
+                "ExceededUserSessionCount": "[EV][it] Слишком много активных сессий для этого пользователя",
+
+                "CaptchaNotFound": "[EV][it] Требуется код CAPTCHA",
+                "CaptchaIncorrect": "[EV][it] Каптча введена неверно",
+                "CaptchaTimeout": "[EV][it] Каптча устарела",
+
+                "NotActivated": "[EV][it] Пользователь не активирован",
+                "UserNotFound": "[EV][it] Пользователь не найден",
+                "NotSupportedCompanyCategory": "[EV][it] Категория компании не поддерживается",
+                "NotSupportedSystemType": "[EV][it] Пользователь не принадлежит СА",
+                "IsSupportStuff": "[EV][it] Сотудникам техподдержки вход запрещен",
+                "UnknownError": "[EV][it] Неизвестная ошибка при попытке входе"
             },
 
             "errors": {

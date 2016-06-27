@@ -17,7 +17,13 @@
                         "country": "Страна:",
                         "organization": "Филиал:"
                     },
-                    "no-filtered-user": "Текущим условиям фильтрации не удовлетворяет ни один пользователь."
+                    "no-filtered-user": "Текущим условиям фильтрации не удовлетворяет ни один пользователь.",
+                    "errors": {
+                        "UnknownError": {
+                            "title": "Неизвестная ошибка при получении списка пользователей",
+                            "text": "Обратитесь по адресу <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> для решения возникших проблем"
+                        }
+                    }
                 },
 
                 "delete": {
@@ -38,19 +44,19 @@
                             "text": " "
                         },
                         "NotSupportedSystemType": {
-                            "title": "[EV] [sys type] Пользователь не принадлежит СА",
+                            "title": "Пользователь не принадлежит СompanyАccount",
                             "text": " "
                         },
                         "UserNotFound": {
-                            "title": "[EV] Не удалось удалить пользователя. Пользователь не найден",
+                            "title": "Не удалось удалить пользователя. Пользователь не найден",
                             "text": " "
                         },
                         "NotSupportedCompanyCategory": {
-                            "title": "[EV] [comp cat] Пользователь не принадлежит СА",
+                            "title": "Пользователь не принадлежит СompanyАccount",
                             "text": " "
                         },
                         "IsSupportStuff": {
-                            "title": "[EV] Пользователь является сотрудником техподдержки",
+                            "title": "Пользователь является сотрудником технической поддержки",
                             "text": " "
                         },
                         "DifferentCompanies": {
@@ -60,6 +66,15 @@
                         "UnknownError": {
                             "title": "Не удалось удалить пользователя. Попробуйте еще раз.",
                             "text": "  "
+                        }
+                    }
+                },
+
+                "show": {
+                    "errors": {
+                        "UnknownError": {
+                            "title": "Неизестная ошибка при получении информации о пользователе ",
+                            "text": "Пожалуйста, <a href='../../request/create/ca' target=\"_blank\"> проконсультируйтесь со службой технической поддержки </a> о возможных возможных  путях  решения этой проблемы"
                         }
                     }
                 },
@@ -108,11 +123,11 @@
                     },
                     "Failure": {
                         "Title": "Неизвестный сбой",
-                        "Text": "Проконсультируйтесь со службой технической поддержки <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> возможных возможных  путях  решения этой проблемы"
+                        "Text": "Проконсультируйтесь со службой технической поддержки <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> возможных возможных  путях  решения этой проблемы"
                     },
                     "UserNotFound": {
                         "Title": "Пользователь не найден",
-                        "Text": "Проконсультируйтесь со службой технической поддержки <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> возможных возможных  путях  решения этой проблемы"
+                        "Text": "Проконсультируйтесь со службой технической поддержки <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> возможных возможных  путях  решения этой проблемы"
                     },
                     "NotMainUser": {
                         "Title": "Вы не являетесь администратором компании",
@@ -120,7 +135,7 @@
                     },
                     "AccessDenied": {
                         "Title": "Доступ запрещён",
-                        "Text": "Проконсультируйтесь со службой технической поддержки <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> возможных возможных  путях  решения этой проблемы"
+                        "Text": "Проконсультируйтесь со службой технической поддержки <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> возможных возможных  путях  решения этой проблемы"
                     },
                     "ReqOfUserNotFound": {
                         "Title": "Запрошенная учётная запись не найдена",
@@ -136,17 +151,27 @@
                     },
                     "UserNotOfCA": {
                         "Title": "Во время редактирования профиля пользователя </br> произошел неизвестный сбой",
-                        "Text": "Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                        "Text": "Обратитесь по адресу <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
                     },
                     "UserNotActivated": {
                         "Title": "Во время редактирования профиля пользователя </br> произошел неизвестный сбой",
-                        "Text": "Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                        "Text": "Обратитесь по адресу <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
                     }
                 }
             },
             "profile": {
                 "title-profile": "Моя учетная запись",
                 "title-user": "Просмотр учетной записи",
+
+                "show": {
+                    "errors": {
+                        "UnknownError": {
+                            "title": "Неизвестная ошибка при получении профиля текущего пользователя ",
+                            "text": "Пожалуйста, <a href='../../request/create/ca' target=\"_blank\"> проконсультируйтесь со службой технической поддержки </a> о возможных возможных  путях  решения этой проблемы"
+                        }
+                    }
+                },
+
                 "delete": {
                     "title": "Удаление Вашей учетной записи",
                     "description": "Внимание! После нажатия кнопки \"Удалить учетную запись\" на Ваш e-mail будет выслана ссылка на подтверждение удаления вашей учетной записи. После нажатия на эту ссылку, Ваша учетная запись будет удалена.",
@@ -206,35 +231,35 @@
 
                     "Failure": {
                         "Title": "Возникла непредвиденная ошибка",
-                        "Text": "Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                        "Text": "Обратитесь по адресу <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
                     },
                     "OfUserNotFound": {
                         "Title": "Учётная запись пользователя не найдена",
-                        "Text": "Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                        "Text": "Обратитесь по адресу <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
                     },
                     "NotMainUser": {
                         "Title": "Вы не являетесь администратором компании.",
-                        "Text": "Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                        "Text": "Обратитесь по адресу <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
                     },
                     "AccessDenied": {
                         "Title": "Возникла проблема с вашей учетной записью. Доступ запрещён.",
-                        "Text": "Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                        "Text": "Обратитесь по адресу <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
                     },
                     "UserNotFound": {
                         "Title": "Учётная запись не найдена",
-                        "Text": "Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                        "Text": "Обратитесь по адресу <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
                     },
                     "UnknownError": {
                         "Title": "Во время редактирования профиля пользователя </br> произошел неизвестный сбой",
-                        "Text": "Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                        "Text": "Обратитесь по адресу <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
                     },
                     "UserNotOfCA": {
                         "Title": "Во время редактирования профиля пользователя </br> произошел неизвестный сбой",
-                        "Text": "Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                        "Text": "Обратитесь по адресу <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
                     },
                     "UserNotActivated": {
                         "Title": "Во время редактирования профиля пользователя </br> произошел неизвестный сбой",
-                        "Text": "Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                        "Text": "Обратитесь по адресу <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
                     }
                 },
                 "permissions": {
@@ -276,10 +301,23 @@
                     "description": "Загрузите логотип вашей компании. Вы можете загрузить логотип высотой <b>64px</b> и шириной не более <b>200px</b>. Доступные для загрузки форматы:  <b>jpg</b>, <b>jpeg</b>, <b>png</b>, <b>gif</b>.",
                     "remove": "Удалить",
                     "errors": {
-                        "wrongSize": "Размеры логотипа превышают допустимые. Попробуйте еще раз.",
-                        "wrongFormat": "Расширение логотипа неверное. Доступные для загрузки форматы:  <b>jpg</b>, <b>jpeg</b>, <b>png</b>, <b>gif</b>."
+                        "logoImage.HttpFileSizeRule": "Размер логотипа превышает допустимый.",
+                        "logoImage.ImageContentRule": "Логотип может быть загружен только в следующих форматах:  <b>jpg</b>, <b>jpeg</b>, <b>png</b>, <b>gif</b>.",
+                        "logoImage.LogoFileNameRule": "Логотип может быть загружен только в следующих форматах:  <b>jpg</b>, <b>jpeg</b>, <b>png</b>, <b>gif</b>.",
+                        "UnknownError": "Неизвестная ошибка при загрузке логотипа"
                     },
-                    "success": "Логотип успешно загружен."
+                    "success": "Логотип успешно загружен.",
+                    "success-deleted": "Логотип успешно удален.",
+                    "deleteConfirm": {
+                        "title": "Удалить логотип?",
+                        "text": "Вы действительно хотите удалить логотип?",
+                        "button": "Удалить"
+                    },
+                    "uploadConfirm": {
+                        "title": "Загрузить логотип?",
+                        "text": "После загрузки нового логотипа старый будет удален.",
+                        "button": "Загрузить"
+                    }
                 },
                 "resetPassword": {
                     "success": " ",
@@ -289,7 +327,7 @@
                             "text": " "
                         },
                         "NotSupportedSystemType": {
-                            "title": "[EV] [sys type] Учетная запись не принадлежит CompanyAccount",
+                            "title": "Учетная запись не принадлежит CompanyAccount",
                             "text": " "
                         },
                         "UserNotFound": {
@@ -297,15 +335,15 @@
                             "text": " "
                         },
                         "NotSupportedCompanyCategory": {
-                            "title": "[EV] [comp cat] Учетная запись не принадлежит CompanyAccount",
+                            "title": "Учетная запись не принадлежит CompanyAccount",
                             "text": " "
                         },
                         "NotActivated": {
-                            "title": "[EV] Учетная запись пользователя не активирована",
+                            "title": "Учетная запись пользователя не активирована",
                             "text": " "
                         },
                         "IsSupportStuff": {
-                            "title": "[EV] Пользователь является сотрудником техподдержки",
+                            "title": "Пользователь является сотрудником технической поддержки",
                             "text": " "
                         },
                         "UnknownError": {

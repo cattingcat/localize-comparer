@@ -68,6 +68,8 @@
                 "resetPassword": {
                     "logout": "Para restaurar sua senha, por favor, saia e siga o link mais uma vez.",
                     "close-session": "Para redefinir sua senha, você deve fechar todas as sessões atuais do CompanyAccount .<br/>Clique em \"Definir nova senha\" para fechar todas as sessões e digite a nova senha. <br/>Ou clique em \"Salvar sessões atuais\" para salvar todas as sessões e alterar a senha mais tarde<br/>O link para a redefinição de senha estará disponível por 7 dias. ",
+                    "logout-btn": "[EV] Задать новый пароль",
+                    "close-btn": "[EV] Сохранить текущие сессии",
 
                     "success": {
                         "title": "Sua senha foi alterada",
@@ -102,6 +104,8 @@
                 "activate": {
                     "logout": "Para continuar com a ativação, você deve sair.",
                     "close-session": "Para ativar a nova conta, você deve fechar todas as sessões CompanyAccount atuais.<br/> Ative nova conta para fechar todas as sessões atuais e definir uma senha para a nova conta.<br/>  Clique em Salvar nas sessões atuais para ativar sua conta mais tarde.<br/> O link estará disponível por 7 dias.  ",
+                    "logout-btn": "[EV] Активировать новую учетную запись",
+                    "close-btn": "[EV] Сохранить текущие сессии",
 
                     "success": {
                         "title": "CompanyAccount <br />foi ativada",
@@ -110,7 +114,6 @@
                     },
 
                     "close": "Fechar",
-                    "logout": "[EV] Logout",
 
                     "errors": {
                         "LinkNotExist": {
@@ -140,16 +143,12 @@
                     }
                 },
 
-                "deleted": {
-                    "confirm-title": "A sua conta foi excluída",
-                    "confirm-text": "Você pode criar uma nova conta"
+                 "refreshPassword": {
+                    "title": "[EV] Ваш пароль устарел",
+                    "description": "[EV] Пожалуйста, введите и подтвердите пароль"
                 },
 
                 "delete": {
-                    "logout": "[EV][pt] To continue the deleting procedure, you must log out.",
-                    "close-session": "[EV] [pt] To continue the activation procedure, you must close session of another user.",
-                    "logout-btn": "[EV][pt] Logout an delete user",
-
                     "title": "Excluir conta da empresa",
                     "description": "Por favor, confirme a exclusão de sua conta",
                     "e-mail": "E-mail",
@@ -215,6 +214,7 @@
                     "activationCodeTooltip": "Código de ativação consiste em 4 grupos de 5 caracteres divididos com o hífen: XXXXX-XXXXX-XXXXX-XXXXX. Ele não pode conter 0 (zero), e letras I, O, L. ",
                     "activationCodeInvalid": "Formato de código de ativação inválido",
                     "close": "Fechar",
+                    "removeKeyfile": "[EV] Remove",
                     "errors": {
                         "FirstName.RequiredRule": "Digite seu nome",
                         "FirstName.MaxByteLengthRule": "Seu nome não deve exceder 30 caracteres",
@@ -234,12 +234,14 @@
                         "Email.EmailRule": "Endereço de email invalido",
                         "Email.MaxByteLengthRule": "Endereço de e-mail não deve exceder 127 caracteres",
                         "Email.RepeatedRegistration": "A conta já existe Você pode <a href='/account/forgot'>restaurar a sua senha</a> ou <a href='/account/login'>entrar</a>",
+
+                        "KeyFile.KeyFileRule": "[EV] Invalid key file",
+                        "ActivationCode.ActivationCodeRule": "[EV] Invalid activation code",
+                        "KeyFile.HttpFileSizeRule": "[EV] File is too big",
+
                         "InvalidEmailDomain": "Nome de domínio kaspersky.com é inválido",
 
-                        "InvalidKeyFile": "Arquivo de chave inválido",
-                        "ActivationCodeOrKeyFileIsRequired": "Por favor insira o código de ativação ou adicione o arquivo de chave",
-                        "ActivationCodeOrKeyFileIsInvalid": "Código de ativação inválido",
-                        "InvalidKeyFileSize": "[EV][pt] File is too big",
+                        "ActCodeOrKeyFileRequired": "[EV] Please enter the activation code or add the key file",
 
                         "FailureUserExists": {
                             "title": "A conta já existe Você pode <a href='/account/forgot'>restaurar a sua senha</a> ou <a href='/account/login'>entrar</a>",
@@ -355,7 +357,8 @@
                 "deleteCompany": {
                     "logout": "[EV][pt] To continue the company delete procedure, you must log out.",
                     "close-session": "[EV][pt] To continue the activation procedure, you must close session of another user.",
-                    "logout-btn": "[EV][pt] Logout an delete company",
+                    "logout-btn": "[EV] Выйти и удалить компанию",
+                    "close-btn": "[EV] Сохранить текущие сессии",
 
                     "title": "Excluir conta da empresa",
                     "description": "Depois de clicar em \"Continuar\", todas as informações sobre a sua empresa serão excluídas do CompanyAccount. Os usuários de sua empresa serão capazes de entrar no CompanyAccount, mas todas as informações sobre as solicitações, licenças e acordos serão perdidas.",

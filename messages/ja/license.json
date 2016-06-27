@@ -23,7 +23,10 @@
                         "ACExpired": "アクティベーションコードの有効期間が終了しています",
                         "UnknownError": "エラーが発生しました。再度入力してください問題が解決しない場合は、<a href='../request/create/ca' target=\"_blank\">テクニカルサポートへお問い合わせください</a>",
                         "LicenseNotFound": "エラー。ライセンスが見つかりません",
-                        "InvalidKeyFileSize": "[EV] File is too big"
+
+                        "ActCodeOrKeyFileRequired": "[EV] Act. code or key file required",
+                        "KeyFile.HttpFileSizeRule": "[EV] File is too big",
+                        "KeyFile.KeyFileRule": "[EV] Error. Invalid key file format"
                     },
                     "success-user-moved": {
                         "title": "ライセンスが追加されました",
@@ -71,8 +74,10 @@
                     "no-filtered-license": "リクエストが見つかりません。検索条件の範囲を広げてください",
                     "no-license": "ライセンスが添付されていません。",
                     "errors": {
-                        "NoCompatibleApps": "このライセンスで使用可能な製品はありません。このライセンスで使用可能な機能について、<a href='../request/create/ca' target=\"_blank\">テクニカルサポートへお問い合わせください</a> ",
-                        "UnknownError": "不明なエラー問題が解決しない場合は、<a href='../request/create/ca' target=\"_blank\">テクニカルサポートへお問い合わせください</a>"
+                        "UnknownError": {
+                            "title": "[EV] Unknown error while license list retreiving ",
+                            "text": "[EV] Unknown error. If the issue persists, please <a href='../request/create/ca' target=\"_blank\"> contact technical support</a>"
+                        }
                     },
                     "compatibleapps": "互換性がある製品：",
                     "remove": {

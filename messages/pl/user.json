@@ -17,7 +17,13 @@
                         "country": "Kraj:",
                         "organization": "Oddział:"
                     },
-                    "no-filtered-user": "Nie odnaleziono użytkowników."
+                    "no-filtered-user": "Nie odnaleziono użytkowników.",
+                    "errors": {
+                        "UnknownError": {
+                            "title": "[EV] Unknown error while users list retreiving",
+                            "text": "[EV] Please contact <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                        }
+                    }
                 },
 
                 "delete": {
@@ -61,6 +67,15 @@
                         "UnknownError": {
                             "title": "Usunięcie konta użytkownika nie powiodło się. Spróbuj ponownie.",
                             "text": " "
+                        }
+                    }
+                },
+
+                "show": {
+                    "errors": { 
+                         "UnknownError": {
+                            "title": "[EV] Unknown error while user info retreiving ",
+                            "text": "[EV] Unknown error. If the issue persists, please <a href='../request/create/ca' target=\"_blank\"> contact technical support</a>"
                         }
                     }
                 },
@@ -139,6 +154,16 @@
             "profile": {
                 "title-profile": "Moje konto",
                 "title-user": "Pokaż szczegóły konta",
+
+                "show": {
+                    "errors": {
+                        "UnknownError": {
+                            "title": "[EV] Unknown error while current user info retreiving ",
+                            "text": "[EV] Unknown error. If the issue persists, please <a href='../request/create/ca' target=\"_blank\"> contact technical support</a>"
+                        }
+                    }
+                },
+
                 "delete": {
                     "title": "Usuń konto użytkownika",
                     "description": "Po kliknięciu przycisku  \"Usuń konto\", otrzymasz wiadomość potwierdzającą na swój adres e-mail. Aby potwierdzić usunięcie konta, skorzystaj z odnośnika znajdującego się w wiadomości.",
@@ -268,10 +293,23 @@
                     "description": "[EV] Upload the logo of our company. You can download the logo height <b>64px</b> and width <b>200px</b>. Acceptable formats:  <b>jpg</b>, <b>jpeg</b>, <b>png</b>, <b>gif</b>.",
                     "remove": "[EV] Remove",
                     "errors": {
-                        "wrongSize": "[EV] Logo size exceed the permissible. try again.",
-                        "wrongFormat": "[EV] Wrong logo extension. Acceptable formats:  <b>jpg</b>, <b>jpeg</b>, <b>png</b>, <b>gif</b>."
+                        "logoImage.HttpFileSizeRule": "[EV] Logo size exceed the permissible. try again.",
+                        "logoImage.ImageContentRule": "[EV] Wrong logo extension. Acceptable formats:  <b>jpg</b>, <b>jpeg</b>, <b>png</b>, <b>gif</b>.",
+                        "logoImage.LogoFileNameRule": "[EV] Wrong logo filename. Acceptable formats:  <b>jpg</b>, <b>jpeg</b>, <b>png</b>, <b>gif</b>.",
+                        "UnknownError":  "[EV] Unknown error while logo uploading"
                     },
-                    "success": "[EV] Logo uploadded successfully."
+                    "success": "[EV] Logo uploadded successfully.",
+                    "success-deleted": "[EV] Logo removed successfully.",
+                    "deleteConfirm": {
+                        "title": "[EV] Remove logo?",
+                        "text": "[EV] Are you sure you want to remove the logo?",
+                        "button": "[EV] Delete"
+                    },
+                    "uploadConfirm": {
+                        "title": "[EV] Upload logo?",
+                        "text": "[EV] After downloading the new logo old will be deleted.",
+                        "button": "[EV] Upload"
+                    }
                 },
                 "resetPassword": {
                     "success": " ",

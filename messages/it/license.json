@@ -23,7 +23,10 @@
                         "ACExpired": "Codice di attivazione scaduto",
                         "UnknownError": "Si è verificato un errore. Vi invitiamo a riprovare Se il problema persiste contattare <a href='../request/create/ca' target=\"_blank\"> il supporto tecnico</a>",
                         "LicenseNotFound": "Errore. Licenza non trovata",
-                        "InvalidKeyFileSize": "[EV] File is too big"
+
+                        "ActCodeOrKeyFileRequired": "[EV] Act. code or key file required",
+                        "KeyFile.HttpFileSizeRule": "[EV] File is too big",
+                        "KeyFile.KeyFileRule": "[EV] Error. Invalid key file format"
                     },
                     "success-user-moved": {
                         "title": "La licenza è stata aggiunta",
@@ -69,8 +72,10 @@
                     "no-filtered-license": "Nessuna licenza trovata. Ampliare l'area di ricerca",
                     "no-license": "La vostra azienda non ha licenze allegate.",
                     "errors": {
-                        "NoCompatibleApps": "Nessun prodotto disponibile per questa licenza. </br>Vi invitiamo a <a href='/request/create/ca' target=\"_blank\"> contattare il supporto tecnico</a> per le opzioni di utilizzo della licenza. ",
-                        "UnknownError": "Errore sconosciuto. Se il problema persiste, vi invitiamo a <a href='../request/create/ca' target=\"_blank\"> contattare il supporto tecnico</a>"
+                        "UnknownError": {
+                            "title": "[EV] Unknown error while license list retreiving ",
+                            "text": "[EV] Unknown error. If the issue persists, please <a href='../request/create/ca' target=\"_blank\"> contact technical support</a>"
+                        }
                     },
                     "compatibleapps": "Prodotti compatibili:",
                     "remove": {

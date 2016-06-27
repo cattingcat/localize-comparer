@@ -36,7 +36,7 @@
 
                         "AdminBlocked": {
                             "title": "Учетная запись заблокирована администратором",
-                            "text": "Для снятия блокировки обратитесь по адресу: <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                            "text": "Для снятия блокировки обратитесь по адресу: <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
                         },
                         "TempBlocking": {
                             "title": "Пользователь временно заблокирован",
@@ -44,19 +44,19 @@
                         },
                         "UnknownError": {
                             "title": "Произошел неизвестный сбой",
-                            "text": "При установке пароля произошел неизвестный сбой. <br />Пожалуйста, пройдите по ссылке ещё раз.<br />Если проблема повторится, <a href='mailto:companyaccount@kaspersky.com'>напишите нам</a>."
+                            "text": "При установке пароля произошел неизвестный сбой. <br />Пожалуйста, пройдите по ссылке ещё раз.<br />Если проблема повторится, <a href='mailto:betaca@kaspersky.com'>напишите нам</a>."
                         },
                         "UserNotFound": {
                             "title": "Учетная запись не найдена",
                             "text": "На указанный вами e-mail отправлены дальнейшие инструкции"
                         },
                         "LinkNotExist": {
-                            "title": "Ссылки не найдена",
-                            "text": "При установке пароля произошел неизвестный сбой. <br />Пожалуйста, пройдите по ссылке ещё раз.<br />Если проблема повторится, <a href='mailto:companyaccount@kaspersky.com'>напишите нам</a>."
+                            "title": "Ссылка не найдена",
+                            "text": "При установке пароля произошел неизвестный сбой. <br />Пожалуйста, пройдите по ссылке ещё раз.<br />Если проблема повторится, <a href='mailto:betaca@kaspersky.com'>напишите нам</a>."
                         },
                         "DuplicatedRecords": {
                             "title": "Произошел неизвестный сбой",
-                            "text": "При установке пароля произошел неизвестный сбой. <br />Пожалуйста, пройдите по ссылке ещё раз.<br />Если проблема повторится, <a href='mailto:companyaccount@kaspersky.com'>напишите нам</a>."
+                            "text": "При установке пароля произошел неизвестный сбой. <br />Пожалуйста, пройдите по ссылке ещё раз.<br />Если проблема повторится, <a href='mailto:betaca@kaspersky.com'>напишите нам</a>."
                         },
                         "NotSupportedSystemType": {
                             "title": "SystemType не поддерживается",
@@ -68,6 +68,8 @@
                 "resetPassword": {
                     "logout": "Чтобы продолжить процедуру восстановления пароля необходимо выйти из системы и повторно перейти по ссылке.",
                     "close-session": "Для сброса пароля Вашей учетной записи требуется закрыть все активные сессии CompanyAccount.<br/>Нажмите кнопку «Задать новый пароль» чтобы закрыть все активные сессии и указать Ваш новый пароль. <br/>Или нажмите «Сохранить текущие сессии», чтобы сохранить сессии и не изменять пароль<br/>Вы можете пройти по ссылке восстановления пароля позже, в течение 7 суток.",
+                    "logout-btn": "Задать новый пароль",
+                    "close-btn": "Сохранить текущие сессии",
 
                     "success": {
                         "title": "Пароль успешно сброшен",
@@ -102,6 +104,8 @@
                 "activate": {
                     "logout": "Чтобы продолжить процедуру активации необходимо выйти из системы.",
                     "close-session": "Для активации новой учетной записи требуется закрыть все активные сессии CompanyAccount.<br/> Нажмите кнопку «Активировать новую учетную запись», чтобы закрыть все активные сессии и задать пароль для новой учетной записи.<br/> Или нажмите «Сохранить текущие сессии», чтобы сохранить сессии и не активировать пока новую учетную запись.<br/> Вы можете пройти по ссылке позже, в течение 7 суток ",
+                    "logout-btn": "Активировать новую учетную запись",
+                    "close-btn": "Сохранить текущие сессии",
 
                     "success": {
                         "title": "Учетная запись<br />успешно активирована",
@@ -109,13 +113,12 @@
                         "button": "Войти"
                     },
 
-                    "close": "Сохранить текущие сессии",
-                    "logout": "Активировать новую учетную запись",
+                    "close": "Закрыть",
 
                     "errors": {
                         "LinkNotExist": {
                             "title": "Возникли проблемы при активации учетной записи",
-                            "text": "Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> для решения возникших проблем"
+                            "text": "Обратитесь по адресу <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> для решения возникших проблем"
                         },
                         "LinkExpired": {
                             "title": "Срок действия ссылки истек",
@@ -127,29 +130,25 @@
                         },
                         "LinkNotExist": {
                             "title": "Возникли проблемы при активации учетной записи",
-                            "text": "Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> для решения возникших проблем"
+                            "text": "Обратитесь по адресу <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> для решения возникших проблем"
                         },
                         "DuplicatedRecords": {
                             "title": "Возникли проблемы при активации учетной записи",
-                            "text": "Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> для решения возникших проблем"
+                            "text": "Обратитесь по адресу <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> для решения возникших проблем"
                         },
                         "UnknownError": {
                             "title": "Произошел неизвестный сбой при активации учётной записи",
-                            "text": "При активации учётной записи произошел неизвестный сбой. <br />Пожалуйста, пройдите по ссылке ещё раз. Если проблема повторится, <a href='mailto:companyaccount@kaspersky.com'>напишите нам</a>."
+                            "text": "При активации учётной записи произошел неизвестный сбой. <br />Пожалуйста, пройдите по ссылке ещё раз. Если проблема повторится, <a href='mailto:betaca@kaspersky.com'>напишите нам</a>."
                         }
                     }
                 },
 
-                "deleted": {
-                    "confirm-title": "Ваша учетная запись удалена",
-                    "confirm-text": "Вы можете зарегистрироваться повторно"
+                "refreshPassword": {
+                    "title": "Ваш пароль устарел",
+                    "description": "Пожалуйста, введите и подтвердите пароль"
                 },
 
                 "delete": {
-                    "logout": "[EV] Чтобы продолжить процедуру восстановления пароля необходимо выйти из системы и повторно перейти по ссылке.",
-                    "close-session": "[EV] Для удаления Вашей учетной записи требуется закрыть все активные сессии CompanyAccount.",
-                    "logout-btn": "[EV] Выйти и продолжить",
-
                     "title": "Удаление учётной записи CompanyAccount",
                     "description": "Пожалуйста, подтвердите удаление своей учётной записи ",
                     "e-mail": "E-mail",
@@ -170,7 +169,7 @@
                     "errors": {
                         "UserNotFound": {
                             "title": "Учетная запись не найдена.",
-                            "text": "Пожалуйста обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                            "text": "Пожалуйста обратитесь по адресу <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
                         },
                         "LinkExpired": {
                             "title": "Срок действия ссылки истек",
@@ -182,15 +181,15 @@
                         },
                         "LinkNotExist": {
                             "title": "Возникли проблемы при удалении учетной записи",
-                            "text": "Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> для решения возникших проблем"
+                            "text": "Обратитесь по адресу <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> для решения возникших проблем"
                         },
                         "DuplicatedRecords": {
                             "title": "Возникли проблемы при удалении учетной записи",
-                            "text": "Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> для решения возникших проблем"
+                            "text": "Обратитесь по адресу <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> для решения возникших проблем"
                         },
                         "UnknownError": {
                             "title": "Произошел неизвестный сбой",
-                            "text": "При удалении пользователя произошел неизвестный сбой. <br />Пожалуйста, пройдите по ссылке еще раз.</br> Если проблема повторится, <a href='mailto:companyaccount@kaspersky.com'>напишите нам</a>."
+                            "text": "При удалении пользователя произошел неизвестный сбой. <br />Пожалуйста, пройдите по ссылке еще раз.</br> Если проблема повторится, <a href='mailto:betaca@kaspersky.com'>напишите нам</a>."
                         }
                     }
                 },
@@ -206,6 +205,7 @@
                     "activationCodeTooltip": "Код активации состоит из 4 групп по 5 символов, разделенных дефисом (XXXXX-XXXXX-XXXXX-XXXXX); он не может содержать цифру 0 (ноль) и буквы I, O, L",
                     "activationCodeInvalid": "Формат предоставленного кода не соответствует формату активационного кода",
                     "close": "Закрыть",
+                    "removeKeyfile": "Удалить",
                     "errors": {
                         "FirstName.RequiredRule": "Укажите Ваше имя",
                         "FirstName.MaxByteLengthRule": "Максимальная длина имени 15 символов",
@@ -225,11 +225,14 @@
                         "Email.EmailRule": "Некорректный адрес e-mail",
                         "Email.MaxByteLengthRule": "Максимальная длина e-mail адреса {ByteLength} символов",
                         "Email.RepeatedRegistration": "Пользователь с таким email уже зарегистрирован в системе. <br />Для завершения регистрации и активации аккаунта подтвердите, пожалуйста, Ваш email, используя ссылку, полученную при регистрации.",
+
+                        "KeyFile.KeyFileRule": "Невалидный файл-ключа",
+                        "ActivationCode.ActivationCodeRule": "Неверный код активации",
+                        "KeyFile.HttpFileSizeRule": "Файл ключа слишком большой",
+
                         "InvalidEmailDomain": "Домен не может быть kaspersky.com",
 
-                        "InvalidKeyFile": "Некорректный файл ключа",
-                        "ActivationCodeOrKeyFileIsRequired": "Пожалуйста, введите код активации или загрузите файл ключа",
-                        "ActivationCodeOrKeyFileIsInvalid": "Введен некорректный код активации",
+                        "ActCodeOrKeyFileRequired": "Пожалуйста, введите код активации или добавьте файл ключа",
 
                         "FailureUserExists": {
                             "title": "Такая учётная запись уже существует. Вы можете <a href='/account/forgot'>восстановить пароль</a> или <a href='/account/login'>войти</a>",
@@ -237,7 +240,7 @@
                         },
                         "UnknownError": {
                             "title": "Произошел неизвестный сбой",
-                            "text": "Пожалуйста, повторите попытку регистрации еще раз. Если проблема повторится, <a href='mailto:companyaccount@kaspersky.com'>напишите нам</a>."
+                            "text": "Пожалуйста, повторите попытку регистрации еще раз. Если проблема повторится, <a href='mailto:betaca@kaspersky.com'>напишите нам</a>."
                         }
                     },
                     "success": {
@@ -260,7 +263,7 @@
                     },
                     "success": {
                         "title": "Инструкции по восстановлению<br/>пароля отправлены",
-                        "description": "Пожалуйста, проверьте почтовый ящик <b>{email}</b><br />Следуйте инструкциям в сообщении, чтобы завершить восстановление пароля.<p> <b>Внимание!</b> Если вы не получили сообщение, проверьте адрес электронной почты и повторите попытку. </br>Если адрес электронной почты правильный, но вы не получили сообщение при повторной попытке, </br>пожалуйста, обратитесь по адресу: <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> </p>"
+                        "description": "Пожалуйста, проверьте почтовый ящик <b>{email}</b><br />Следуйте инструкциям в сообщении, чтобы завершить восстановление пароля.<p> <b>Внимание!</b> Если вы не получили сообщение, проверьте адрес электронной почты и повторите попытку. </br>Если адрес электронной почты правильный, но вы не получили сообщение при повторной попытке, </br>пожалуйста, обратитесь по адресу: <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> </p>"
                     },
                     "errors": {
                         "CaptchaIncorrect": "Код введён неверно, попробуйте ещё раз",
@@ -270,31 +273,31 @@
 
                         "AdminBlocked": {
                             "title": "Учетная запись заблокирована администратором",
-                            "text": "Для снятия блокировки обратитесь по адресу: <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                            "text": "Для снятия блокировки обратитесь по адресу: <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
                         },
                         "NotSupportedSystemType": {
-                            "title": "[EV] [sys type] Учетная запись не принадлежит CompanyAccount",
-                            "text": "[EV] [sys type] На указанный вами email отправлены дальнейшие инструкции"
+                            "title": "Учетная запись не принадлежит CompanyAccount",
+                            "text": "На указанный вами email отправлены дальнейшие инструкции"
                         },
                         "UserNotFound": {
                             "title": "Пользователь не найден",
                             "text": " "
                         },
                         "NotSupportedCompanyCategory": {
-                            "title": "[EV] [comp cat] Учетная запись не принадлежит CompanyAccount",
-                            "text": "[EV] [comp cat] На указанный вами email отправлены дальнейшие инструкции"
+                            "title": "Учетная запись не принадлежит CompanyAccount",
+                            "text": "На указанный вами email отправлены дальнейшие инструкции"
                         },
                         "NotActivated": {
                             "title": "Учетная запись пользователя не активирована",
                             "text": "На указанный вами e-mail отправлены дальнейшие инструкции"
                         },
                         "IsSupportStuff": {
-                            "title": "[EV] The user account is support stuff account",
+                            "title": "Пользователь является сотрудником технической поддержки",
                             "text": " "
                         },
                         "UnknownError": {
                             "title": "Произошел неизвестный сбой",
-                            "text": "Пожалуйста, повторите попытку сброса пароля еще раз. Если проблема повторится, <a href='mailto:companyaccount@kaspersky.com'>напишите нам</a>."
+                            "text": "Пожалуйста, повторите попытку сброса пароля еще раз. Если проблема повторится, <a href='mailto:betaca@kaspersky.com'>напишите нам</a>."
                         }
                     }
                 },
@@ -332,7 +335,7 @@
                         "UserNotOfCA": "Учетная запись не принадлежит CompanyAccount",
                         "UserNotOfCADescription": "  ",
                         "UnknownError": "Произошел неизвестный сбой",
-                        "UnknownErrorDescription": "При попытке входа произошел неизвестный сбой.<br />Пожалуйста, попробуйте еще раз.<br />Если проблема повторится, <a href='mailto:companyaccount@kaspersky.com'>напишите нам</a>."
+                        "UnknownErrorDescription": "При попытке входа произошел неизвестный сбой.<br />Пожалуйста, попробуйте еще раз.<br />Если проблема повторится, <a href='mailto:betaca@kaspersky.com'>напишите нам</a>."
                     }
                 },
 
@@ -340,6 +343,7 @@
                     "logout": "Чтобы продолжить процедуру удаления компании необходимо выйти из системы.",
                     "close-session": "Чтобы продолжить процедуру удаления компании необходимо завершить сессию другого пользователя и повторить попытку.",
                     "logout-btn": "Выйти и продолжить",
+                    "close-btn": "Сохранить текущие сессии",
 
                     "title": "Удалить учётную запись компании",
                     "description": "Внимание! После нажатия кнопки \"Продолжить\" информация о Вашей компании будет удалена из СompanyAccount. Пользователи Вашей компании смогут зайти в CompanyAccount, однако, вся информация о запросах, лицензиях, контрактах будет потеряна.",
@@ -354,11 +358,11 @@
                     "errors": {
                         "UserNotFound": {
                             "title": "Пользователь не найден",
-                            "text": "Пожалуйста, обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                            "text": "Пожалуйста, обратитесь по адресу <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
                         },
                         "NotMainUser": {
                             "title": "Возникли проблемы с вашей учетной записью",
-                            "text": "Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> для решения возникших проблем"
+                            "text": "Обратитесь по адресу <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> для решения возникших проблем"
                         },
                         "CompanyNotFound": {
                             "title": "Компания уже удалена",
@@ -366,7 +370,7 @@
                         },
                         "UnknownError": {
                             "title": "Неизвестная ошибка",
-                            "text": "При удалении компании произошла неизвестная ошибка. <br />Пожалуйста, подождите несколько минут и попробуйте пройти по ссылке ещё раз. <br/> Если проблема повторится, <a href='mailto:companyaccount@kaspersky.com'>напишите нам</a>."
+                            "text": "При удалении компании произошла неизвестная ошибка. <br />Пожалуйста, подождите несколько минут и попробуйте пройти по ссылке ещё раз. <br/> Если проблема повторится, <a href='mailto:betaca@kaspersky.com'>напишите нам</a>."
                         },
                         "LinkExpired": {
                             "title": "Срок действия ссылки истек",
@@ -382,15 +386,15 @@
                         },
                         "LinkNotExist": {
                             "title": "Ссылка не действительна",
-                            "text": "Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> для решения возникших проблем"
+                            "text": "Обратитесь по адресу <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> для решения возникших проблем"
                         },
                         "DeactivationRequestError": {
                             "title": "Возникли проблемы при удалении учетной записи компании",
-                            "text": "Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> для решения возникших проблем"
+                            "text": "Обратитесь по адресу <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> для решения возникших проблем"
                         },
                         "Failure": {
                             "title": "Произошел неизвестный сбой",
-                            "text": "При удалении компании произошел неизвестный сбой. <br />Пожалуйста, подождите несколько минут и попробуйте еще раз. <br/> Если проблема повторится, <a href='mailto:companyaccount@kaspersky.com'>напишите нам</a>."
+                            "text": "При удалении компании произошел неизвестный сбой. <br />Пожалуйста, подождите несколько минут и попробуйте еще раз. <br/> Если проблема повторится, <a href='mailto:betaca@kaspersky.com'>напишите нам</a>."
                         }
                     },
                     "success": {

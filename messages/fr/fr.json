@@ -1,10 +1,9 @@
-﻿{
+{
     "globalize-messages": {
         "fr": {
             "notification": {
                 "hide": "Ne plus afficher"
             },
-
             "header": {
                 "title": "Kaspersky CompanyAccount",
                 "menu": {
@@ -12,11 +11,10 @@
                     "licenses": "Licences",
                     "users": "Utilisateurs",
                     "contracts": "Contrats",
-                    "createrequest": "Créer une demande",
+                    "createrequest": "Déposer une demande",
                     "signout": "Déconnexion"
                 }
             },
-
             "captcha": {
                 "label": "Saisissez les caractères ci-dessous : ",
                 "placeholder": "Caractères",
@@ -31,38 +29,36 @@
 
             "fileupload": {
                 "error": "Erreur de chargement",
-                "attachError": "[EV] Attach file error",
-
+                "attachError": "Une erreur s'est produite lors de l'ajout du fichier",
                 "loaded": "Chargé",
                 "delete": "Supprimer",
                 "cancel": "Annuler",
-
                 "key": {
                     "label": "Uploadez un fichier clé : ",
                     "button": "Uploader"
                 },
-
                 "file": {
-                    "button": "Uploader un fichier",
+                    "button": "Unploader un fichier",
                     "button-csr": "Choisir un fichier CSR",
                     "agreement": "Réglementation régissant l’obtention de données",
                     "condition": "Pour uploader des fichiers veuillez accepter les conditions du <a href='javascript://'>Réglementation régissant l’obtention de données</a>",
-                    "commonFile": "Vous pouvez uploader de 1 à 3 fichiers. La taille d'un fichier est limitée à 4 Go",
-                    "csrFile": "La taille maximale des fichiers à uploader est de 5 Ko.",
-                    "amrFile": "La taille maximale des fichiers à uploader est de 5 Mo."
+                    "commonFile": "Vous pouvez uploader de 1 à 3 fichiers. La taille d'un fichier ne doit pas dépasser 4 Go",
+                    "csrFile": "La taille minimale des fichiers à uploader est de 5 Ko.",
+                    "amrFile": "La taille maximale des fichiers à uploader est de 10 Mo."
                 },
-
                 "file-agreement": {
                     "label": "J'accepte les conditions du Réglementation régissant l’obtention de données",
                     "continue": "Poursuivre"
                 },
-
                 "errors": {
                     "maxFileSize": "La taille du fichier dépasse la limite autorisée",
                     "minFileSize": "La taille du fichier est trop petite",
                     "acceptFileTypes": "Type de fichier invalide",
                     "maxNumberOfFiles": "La limite du nombre de fichiers est dépassée",
-                    "uploadError": "[EV] When uploading files network error occurred"
+                    "uploadError": "Une erreur réseau s'est produite lors du chargement des fichiers",
+
+                    "StorageFileSizeRule": "La taille du fichier ne répond pas aux exigences",
+                    "UnknownError": "Erreur inconnue lors du chargement du fichier"
                 }
             },
 
@@ -89,16 +85,13 @@
                 "copyrightStart": "Copyright &copy;",
                 "copyrightEnd": "AO Kaspersky Lab ",
                 "errors": {
-                    "UserNotFound": {
-                        "title": "Un problème s'est produit avec votre compte",
-                        "message": "Veuillez nous contacter à l'adresse <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
-                    },
                     "UnknownError": {
                         "title": "Un problème inconnu s'est produit",
-                        "message": "Un problème inconnu s'est produit lors du changement de langue. <br />Veuillez réessayer dans quelques instants. Si le problème persiste, contactez-nous à l'adresse <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> pour résoudre le problème"
+                        "text": "Un problème inconnu s'est produit lors du changement de langue. <br />Veuillez réessayer dans quelques instants. Si le problème persiste, contactez-nous à l'adresse <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> pour résoudre le problème"
                     }
                 }
             },
+
             "confirm-component": {
                 "cancel": "Annuler"
             },
@@ -109,78 +102,108 @@
                 "close": "Fermer",
                 "AccountProblems": {
                     "title": "Un problème s'est produit avec votre compte",
-                    "message": "Contactez-nous à l'adresse <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> pour résoudre le problème"
+                    "message": "Contactez-nous à l'adresse <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> pour résoudre le problème"
                 }
             },
 
             "SecurityExceptions": {
                 "Unexpected": {
-                    "title": "[EV][unexpected] An problem with your account",
-                    "text": "[EV] Contact address <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                    "title": "Un problème s'est produit avec votre compte",
+                    "text": "Contactez-nous à l'adresse <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> pour résoudre le problème"
                 },
                 "AccessDenied": {
-                    "title": "[EV][accessDenied] An problem with your account",
-                    "text": "[EV] Contact address <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                    "title": "Un problème s'est produit avec votre compte",
+                    "text": "Contactez-nous à l'adresse <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> pour résoudre le problème"
                 },
                 "AdminBlocked": {
-                    "title": "[EV][admBlocked] An problem with your account",
-                    "text": "[EV] Contact address <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                    "title": "Un problème s'est produit avec votre compte",
+                    "text": "Contactez-nous à l'adresse <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> pour résoudre le problème"
                 },
                 "NotActivated": {
-                    "title": "[EV][notAct] An problem with your account",
-                    "text": "[EV] Contact address <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                    "title": "Un problème s'est produit avec votre compte",
+                    "text": "Contactez-nous à l'adresse <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> pour résoudre le problème"
                 },
                 "UserNotFound": {
-                    "title": "[EV][NotFound] An problem with your account",
-                    "text": "[EV] Contact address <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                    "title": "Un problème s'est produit avec votre compte",
+                    "text": "Contactez-nous à l'adresse <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> pour résoudre le problème"
                 },
                 "NotSupportedCompanyCategory": {
-                    "title": "[EV][notSuppCompCat] An problem with your account",
-                    "text": "[EV] Contact address <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                    "title": "Un problème s'est produit avec votre compte",
+                    "text": "Contactez-nous à l'adresse <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> pour résoudre le problème"
                 },
                 "NotSupportedSystemType": {
-                    "title": "[EV][notSuppSysType] An problem with your account",
-                    "text": "[EV] Contact address <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                    "title": "Un problème s'est produit avec votre compte",
+                    "text": "Contactez-nous à l'adresse <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> pour résoudre le problème"
                 },
                 "IsSupportStuff": {
-                    "title": "[EV][isSuppStuff] An problem with your account",
-                    "text": "[EV] Contact address <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                    "title": "Un problème s'est produit avec votre compte",
+                    "text": "Contactez-nous à l'adresse <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> pour résoudre le problème"
                 }
+            },
+            "CheckUserSessionExceptions": {
+                "SessionNotFound": {
+                    "title": "La session a été supprimée",
+                    "text": " "
+                },
+                "RefreshTokenExpired": {
+                    "title": "La session a expiré",
+                    "text": " "
+                }
+            },
+
+            "loginErrors": {
+                "PasswordExpired": "Le mot de passe a expiré. Vous serez redirigé vers la page de réinitialisation du mot de passe",
+
+                "WrongPassword": "Email ou mot de passe incorrect",
+
+                "TempBlocking": "Vous avez dépassé le nombre de tentatives de connexion autorisées. Le compte est temporairement bloqué",
+                "AdminBlocked": "L'utilisateur est bloqué par l'administrateur",
+                "ExceededUserSessionCount": "Le nombre de sessions actives autorisées est dépassé pour ce compte utilisateur",
+
+                "CaptchaNotFound": "Saisissez le code CAPTCHA",
+                "CaptchaIncorrect": "Les caractères saisis sont incorrects",
+                "CaptchaTimeout": "Le CAPTCHA a expiré",
+
+                "NotActivated": "Le compte n'a pas été activé",
+                "UserNotFound": "Utilisateur introuvable",
+                "NotSupportedCompanyCategory": "La catégorie de l'entreprise n'est pas prise en charge",
+                "NotSupportedSystemType": "Le compte n'appartient pas à CompanyAccount",
+                "IsSupportStuff": "Les spécialistes du support technique ne sont pas autorisés à accéder à cette page.",
+                "UnknownError": "Erreur inconnue à une tentative de connexion"
             },
 
             "errors": {
                 "globalization-not-found": "Erreur de localisation",
-                "server-validation": "[EV] Oups! Validation error for {property} with message {rule}",
+                "server-validation": "Erreur de validation de serveur pour le champ {property}. Règle : {rule}",
 
-                "500": {
-                    "title": "Erreur de serveur 500",
-                    "text": "Une erreur inattendue est survenue sur le serveur. Veuillez patienter.  ",
-                    "to-main-page": "Essayez de revenir à la <a href='/request/list'>page des demandes. </a>  "
-                },
                 "404": {
                     "title": "Erreur 404",
                     "text": "La page demandée n'est malheureusement pas disponible.  ",
                     "to-main-page": "Essayez de revenir à la <a href='/request/list'>page des demandes.</a>  "
                 },
+                "500": {
+                    "title": "Erreur de serveur 500",
+                    "text": "Une erreur inattendue est survenue sur le serveur. Veuillez patienter.  ",
+                    "to-main-page": "Essayez de revenir à la <a href='/request/list'>page des demandes. </a>  "
+                },
                 "forbidden": {
                     "title": "Vous n'êtes pas autorisé à accéder à cette page",
-                    "text": "Veuillez nous contacter à l'adresse <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>",
+                    "text": "Veuillez nous contacter à l'adresse <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>",
                     "to-main-page": "  "
-                },
-                "custom": {
-                    "to-main-page": "Essayez de <a href=\"request/list\">revenir à la page d'accueil</a>."
                 },
                 "end-session": {
                     "title": "Des modifications ont été apportées à votre compte",
                     "text": "Vous devez vous reconnecter. <br>Vous serez redirigé vers la page de connexion."
                 },
+                "custom": {
+                    "to-main-page": "Essayez de <a href=\"request/list\">revenir à la page d'accueil</a>."
+                },
 
                 "UnknownError": {
                     "title": "Un problème inconnu s'est produit",
-                    "text": "Veuillez nous contacter à l'adresse <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                    "text": "Veuillez nous contacter à l'adresse <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
                 }
             }
-
         }
     }
 }

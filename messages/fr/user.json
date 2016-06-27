@@ -1,4 +1,4 @@
-﻿{
+{
     "globalize-messages": {
         "fr": {
             "user": {
@@ -9,21 +9,27 @@
                     "filter-by-country": {
                         "All": "Tous"
                     },
-                    "filter-by-organization-label": "Sites :",
+                    "filter-by-organization-label": "Filiales :",
                     "filter-by-organization": {
                         "All": "Toutes"
                     },
                     "item": {
                         "country": "Pays :",
-                        "organization": "Site :"
+                        "organization": "Filiale :"
                     },
-                    "no-filtered-user": "Aucun utilisateur ne correspond aux critères spécifiés."
+                    "no-filtered-user": "Aucun utilisateur ne correspond aux critères spécifiés.",
+                    "errors": {
+                        "UnknownError": {
+                            "title": "Erreur inconnue lors de l'obtention de la liste des utilisateurs",
+                            "text": "Contactez-nous à l'adresse <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> pour résoudre le problème"
+                        }
+                    }
                 },
 
                 "delete": {
                     "title": "Supprimer un compte utilisateur",
                     "description": "Attention ! Après avoir cliqué sur le bouton \"Supprimer le compte\", le compte utilisateur sera supprimé. Vous pourrez toujours consulter les demandes de l'utilisateur supprimé",
-                    "notice": "Je suis conscient(e) que l'utilisateur ne sera pas en mesure de déposer des demandes sur CompanyAccount après la suppression du compte.",
+                    "notice": "Je suis conscient(e) que l'utilisateur ne sera pas en mesure de déposer de demandes sur CompanyAccount après la suppression du compte.",
                     "btn": "Supprimer le compte utilisateur",
                     "process": "Suppression du compte utilisateur...",
                     "success": "Le compte utilisateur a été supprimé avec succès",
@@ -32,42 +38,49 @@
                         "text": "Vous allez supprimer l'utilisateur {email}. L'accès de l'utilisateur à CompanyAccount sera bloqué. Les demandes de l'utilisateur supprimé seront toujours disponibles.",
                         "button": "Poursuivre"
                     },
-
                     "errors": {
                         "AdminBlocked": {
-                            "title": "[EV] Account has been blocked by the administrator",
+                            "title": "Le compte a été bloqué par l'administrateur",
                             "text": " "
                         },
                         "NotSupportedSystemType": {
-                            "title": "[EV] [sys type] The account does not belong to CompanyAccount",
+                            "title": "Le compte n'appartient pas à CompanyAccount",
                             "text": " "
                         },
                         "UserNotFound": {
-                            "title": "Utilisateur introuvable",
+                            "title": "Échec de suppression du compte utilisateur. Utilisateur introuvable",
                             "text": " "
                         },
                         "NotSupportedCompanyCategory": {
-                            "title": "[EV] [comp cat] The account does not belong to CompanyAccount",
+                            "title": "Le compte n'appartient pas à CompanyAccount",
                             "text": " "
                         },
                         "IsSupportStuff": {
-                            "title": "[EV] The user account is support stuff account",
+                            "title": "Ce compte est enregistré en tant que compte d'un spécialiste du support technique.",
                             "text": " "
                         },
                         "DifferentCompanies": {
-                            "title": "[EV] User from another company",
+                            "title": "Le compte utilisateur est associé à une autre entreprise",
                             "text": " "
                         },
                         "UnknownError": {
                             "title": "Échec de suppression du compte utilisateur. Veuillez réessayer.",
-                            "text": " "
+                            "text": "  "
+                        }
+                    }
+                },
+
+                "show": {
+                    "errors": {
+                        "UnknownError": {
+                            "title": "Erreur inconnue lors de l'obtention des informations sur l'utilisateur ",
+                            "text": "Veuillez <a href='../../request/create/ca' target=\"_blank\">contacter le support technique</a> pour trouver une solution"
                         }
                     }
                 },
 
                 "errors": {
                     "DifferentCompanies": "Le compte utilisateur est associé à une autre entreprise. </br>Veuillez <a href='/request/create/ca' target=\"_blank\">contacter le support technique</a> pour trouver une solution.",
-
                     "GetDetailsException_DifferentCompanies": {
                         "Title": "Le compte demandé est associé à une autre entreprise",
                         "Text": "Veuillez <a href='../../request/create/ca' target=\"_blank\">contacter le support technique</a> pour trouver une solution."
@@ -88,34 +101,6 @@
                         "Title": "Des modifications ont été apportées à ce compte. Le compte ne peut pas être supprimé",
                         "Text": "Veuillez <a href='../../request/create/ca' target=\"_blank\">contacter le support technique</a> pour trouver une solution"
                     },
-
-                    "Failure": {
-                        "Title": "Problème inconnu",
-                        "Text": "Contactez le support technique à l'adresse <a href='/request/create/ca' target=\"_blank\">companyaccount@kaspersky.com</a> pour trouver une solution"
-                    },
-                    "UserNotFound": {
-                        "Title": "Utilisateur introuvable",
-                        "Text": "Contactez le support technique à l'adresse <a href='/request/create/ca' target=\"_blank\">companyaccount@kaspersky.com</a> pour trouver une solution"
-                    },
-                    "NotMainUser": {
-                        "Title": "Vous ne disposez pas de droits d'administrateur",
-                        "Text": "Veuillez <a href='/request/create/ca' target=\"_blank\">contacter le support technique</a> pour trouver une solution"
-                    },
-                    "AccessDenied": {
-                        "Title": "Accès interdit",
-                        "Text": "Contactez le support technique à l'adresse <a href='/request/create/ca' target=\"_blank\">companyaccount@kaspersky.com</a> pour trouver une solution"
-                    },
-
-                    "UserNotOfCA": {
-                        "Title": "[EV] [user/ not from CA] Unknown error",
-                        "Text": "[EV] [user/ not act]Contact address <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
-                    },
-                    "UserNotActivated": {
-                        "Title": "[EV] [user/ not act] Unknown error",
-                        "Text": "[EV] [user/ not act]Contact address <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
-                    },
-
-
                     "GetDetailsException_OfUserNotFound": {
                         "Title": "Compte introuvable",
                         "Text": "Veuillez <a href='../../request/create/ca' target=\"_blank\">contacter le support technique</a> pour trouver une solution."
@@ -135,12 +120,58 @@
                     "DeleteProfileException_OfUserNotFound": {
                         "Title": "Compte introuvable",
                         "Text": "Veuillez <a href='/request/create/ca' target=\"_blank\">contacter le support technique</a> pour trouver une solution."
+                    },
+                    "Failure": {
+                        "Title": "Problème inconnu",
+                        "Text": "Contactez le support technique à l'adresse <a href='/request/create/ca' target=\"_blank\">betaca@kaspersky.com</a> pour trouver une solution"
+                    },
+                    "UserNotFound": {
+                        "Title": "Utilisateur introuvable",
+                        "Text": "Contactez le support technique à l'adresse <a href='/request/create/ca' target=\"_blank\">betaca@kaspersky.com</a> pour trouver une solution"
+                    },
+                    "NotMainUser": {
+                        "Title": "Vous ne disposez pas de droits d'administrateur",
+                        "Text": "Veuillez <a href='/request/create/ca' target=\"_blank\">contacter le support technique</a> pour trouver une solution"
+                    },
+                    "AccessDenied": {
+                        "Title": "Accès interdit",
+                        "Text": "Contactez le support technique à l'adresse <a href='/request/create/ca' target=\"_blank\">betaca@kaspersky.com</a> pour trouver une solution"
+                    },
+                    "ReqOfUserNotFound": {
+                        "Title": "Le compte demandé est introuvable",
+                        "Text": "Veuillez <a href='/request/create/ca' target=\"_blank\">contacter le support technique</a> pour trouver une solution"
+                    },
+                    "UpdOfUserNotFound": {
+                        "Title": "Le compte en cours de modification est introuvable",
+                        "Text": "Veuillez <a href='/request/create/ca' target=\"_blank\">contacter le support technique</a> pour trouver une solution"
+                    },
+                    "DelOfUserNotFound": {
+                        "Title": "Des modifications ont été apportées à ce compte. Le compte ne peut pas être supprimé",
+                        "Text": "Veuillez <a href='/request/create/ca' target=\"_blank\">contacter le support technique</a> pour trouver une solution"
+                    },
+                    "UserNotOfCA": {
+                        "Title": "Un problème inconnu s'est produit </br>lors de la modification du compte utilisateur",
+                        "Text": "Veuillez nous contacter à l'adresse <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
+                    },
+                    "UserNotActivated": {
+                        "Title": "Un problème inconnu s'est produit </br>lors de la modification du compte utilisateur",
+                        "Text": "Veuillez nous contacter à l'adresse <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
                     }
                 }
             },
             "profile": {
                 "title-profile": "Mon compte",
                 "title-user": "Consulter mon compte",
+
+                "show": {
+                    "errors": {
+                        "UnknownError": {
+                            "title": "Erreur inconnue lors de l'obtenton du profil du compte utilisateur actuel ",
+                            "text": "Veuillez <a href='../../request/create/ca' target=\"_blank\">contacter le support technique</a> pour trouver une solution"
+                        }
+                    }
+                },
+
                 "delete": {
                     "title": "Suppression de votre compte",
                     "description": "Attention ! Après avoir cliqué sur le bouton « Supprimer le compte utilisateur », un message contenant un lien de confirmation de suppression sera envoyé à votre adresse email. Le compte sera supprimé une fois cliqué sur le lien.",
@@ -178,7 +209,7 @@
                         "UnknownError": "Échec de suppression du compte de l'entreprise. Veuillez réessayer.",
                         "UserNotFound": "Utilisateur introuvable",
                         "AccessDenied": "Accès interdit",
-                        "NotMainUser": "Accès interdit. L'utilisateur n'est pas doté de droits d'administrateur",
+                        "NotMainUser": "Accès interdit. L'utilisateur ne possède pas de droits d'administrateur",
                         "CompanyNotFound": "L'entreprise est introuvable"
                     },
                     "confirm": {
@@ -194,41 +225,41 @@
                     "LastName.RequiredRule": "Le nom n'est pas spécifié",
                     "Country.RequiredRule": "Le champ Pays n'est pas rempli",
                     "InvalidCountry": "Erreur de sélection du pays",
-                    "FirstName.MaxByteLengthRule": "[EV] Name is too long, max length: {ByteLength}",
-                    "LastName.MaxByteLengthRule": "[EV] Last name is too long, Max length: {LenByteLengthgth}",
-                    "Organization.MaxByteLengthRule": "[EV] Organization is too long, Max length: {ByteLength}",
+                    "FirstName.MaxByteLengthRule": "Le prénom est limité à 30 caractères maximum",
+                    "LastName.MaxByteLengthRule": "Le nom est limité à 30 caractères maximum",
+                    "Organization.MaxByteLengthRule": "Le nom de la filiale est limité à {ByteLength} caractères maximum",
 
                     "Failure": {
                         "Title": "Une erreur imprévue est survenue",
-                        "Text": "Veuillez nous contacter à l'adresse <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                        "Text": "Veuillez nous contacter à l'adresse <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
                     },
                     "OfUserNotFound": {
                         "Title": "Le compte utilisateur est introuvable",
-                        "Text": "Veuillez nous contacter à l'adresse <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                        "Text": "Veuillez nous contacter à l'adresse <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
                     },
                     "NotMainUser": {
                         "Title": "Vous ne disposez pas de droits d'administrateur.",
-                        "Text": "Veuillez nous contacter à l'adresse <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
-                    },
-                    "UserNotFound": {
-                        "Title": "Compte introuvable",
-                        "Text": "Veuillez nous contacter à l'adresse <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                        "Text": "Veuillez nous contacter à l'adresse <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
                     },
                     "AccessDenied": {
                         "Title": "Un problème s'est produit avec votre compte. Accès interdit.",
-                        "Text": "Veuillez nous contacter à l'adresse <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                        "Text": "Veuillez nous contacter à l'adresse <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
+                    },
+                    "UserNotFound": {
+                        "Title": "Compte introuvable",
+                        "Text": "Veuillez nous contacter à l'adresse <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
                     },
                     "UnknownError": {
                         "Title": "Un problème inconnu s'est produit </br>lors de la modification du compte utilisateur",
-                        "Text": "Veuillez nous contacter à l'adresse <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                        "Text": "Veuillez nous contacter à l'adresse <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
                     },
                     "UserNotOfCA": {
-                        "Title": "[EV] [not from CA] Unknown error",
-                        "Text": "[EV] [not act]Contact address <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                        "Title": "Un problème inconnu s'est produit </br>lors de la modification du compte utilisateur",
+                        "Text": "Veuillez nous contacter à l'adresse <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
                     },
                     "UserNotActivated": {
-                        "Title": "[EV] [not act] Unknown error",
-                        "Text": "[EV] [not act]Contact address <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                        "Title": "Un problème inconnu s'est produit </br>lors de la modification du compte utilisateur",
+                        "Text": "Veuillez nous contacter à l'adresse <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
                     }
                 },
                 "permissions": {
@@ -245,7 +276,7 @@
                 },
                 "personalinfo": {
                     "title": "Informations personnelles",
-                    "email": "Adresse email :",
+                    "email": "Adresse de courrier électronique :",
                     "company": "Entreprise :",
                     "company-id": "(ID : {companyId})",
                     "accounttype": "Type de compte :",
@@ -254,63 +285,76 @@
                     "country": "Pays :",
                     "firstnamePlaceholder": "Prénom",
                     "lastnamePlaceholder": "Nom",
-                    "filial": "Site :",
+                    "filial": "Filiale :",
                     "notifications": "Notifications :",
                     "saveBtn": "Enregistrer les modifications",
                     "cancelBtn": "Annuler",
                     "saveError": "L'enregistrement des modifications a échoué. Veuillez réessayer.",
                     "saveWait": "Enregistrement des modifications...",
                     "saveSuccess": "Les modifications ont été enregistrées",
-                    "filialDefault": "Sélectionnez un site",
-                    "filialMessage": "Sélectionnez un site ou créer un nouveau site ",
+                    "filialDefault": "Sélectionnez une filiale",
+                    "filialMessage": "Sélectionnez une filiale dans la liste ou tapez-en une nouvelle",
                     "fullDescription": "Description complète"
                 },
                 "companyLogo": {
-                    "title": "[EV] Company logo",
-                    "description": "[EV] Upload the logo of our company. You can download the logo height <b>64px</b> and width <b>200px</b>. Acceptable formats:  <b>jpg</b>, <b>jpeg</b>, <b>png</b>, <b>gif</b>.",
-                    "remove": "[EV] Remove",
+                    "title": "Logo de l'entreprise",
+                    "description": "Ajoutez le logo de votre entreprise. Vous pouvez uploader un logo de <b>64 px</b> de hauteur et de <b>200 px</b> de largeur au maximum. Formats disponibles : <b>jpg</b>, <b>jpeg</b>, <b>png</b>, <b>gif</b>.",
+                    "remove": "Supprimer",
                     "errors": {
-                        "wrongSize": "[EV] Logo size exceed the permissible. try again.",
-                        "wrongFormat": "[EV] Wrong logo extension. Acceptable formats:  <b>jpg</b>, <b>jpeg</b>, <b>png</b>, <b>gif</b>."
+                        "logoImage.HttpFileSizeRule": "La taille du logo dépasse la limite autorisée",
+                        "logoImage.ImageContentRule": "Le logo doit avoir un des formats suivants : <b>jpg</b>, <b>jpeg</b>, <b>png</b>, <b>gif</b>.",
+                        "logoImage.LogoFileNameRule": "Le logo doit avoir un des formats suivants : <b>jpg</b>, <b>jpeg</b>, <b>png</b>, <b>gif</b>.",
+                        "UnknownError": "Erreur inconnue lors du chargement du logo"
                     },
-                    "success": "[EV] Logo uploadded successfully."
+                    "success": "Le logo a été ajouté avec succès.",
+                    "success-deleted": "Le logo a été supprimé avec succès.",
+                    "deleteConfirm": {
+                        "title": "Supprimer le logo ?",
+                        "text": "Êtes-vous sûr de vouloir supprimer le logo ?",
+                        "button": "Supprimer"
+                    },
+                    "uploadConfirm": {
+                        "title": "Uploader le logo ?",
+                        "text": "Une fois le nouveau logo ajouté, l'ancien logo sera supprimé.",
+                        "button": "Uploader"
+                    }
                 },
                 "resetPassword": {
                     "success": " ",
                     "errors": {
                         "AdminBlocked": {
-                            "title": "[EV] Account has been blocked by the administrator",
+                            "title": "Le compte a été bloqué par l'administrateur",
                             "text": " "
                         },
                         "NotSupportedSystemType": {
-                            "title": "[EV] [sys type] The account does not belong to CompanyAccount",
+                            "title": "Le compte n'existe pas",
                             "text": " "
                         },
                         "UserNotFound": {
-                            "title": "[EV] User not found",
+                            "title": "Compte introuvable",
                             "text": " "
                         },
                         "NotSupportedCompanyCategory": {
-                            "title": "[EV] [comp cat] The account does not belong to CompanyAccount",
+                            "title": "Le compte n'existe pas",
                             "text": " "
                         },
                         "NotActivated": {
-                            "title": "[EV] The user account is not activated",
+                            "title": "Le compte utilisateur n'est pas activé",
                             "text": " "
                         },
                         "IsSupportStuff": {
-                            "title": "[EV] The user account is support stuff account",
+                            "title": "Ce compte est enregistré en tant que compte d'un spécialiste du support technique.",
                             "text": " "
                         },
                         "UnknownError": {
-                            "title": "An unknown failure",
-                            "text": "An unknown failure, try reset password later"
+                            "title": "Un problème inconnu s'est produit",
+                            "text": " "
                         }
                     }
                 },
 
                 "resetPasswordTitle": "Modifier le mot de passe ",
-                "resetPasswordDescription": "Les instructions sur la modification du mot de passe seront envoyées à l'adresse email de l'utilisateur",
+                "resetPasswordDescription": "Les instructions sur la modification du mot de passe seront envoyées à l'adresse de courrier électronique de l'utilisateur",
                 "resetPasswordButton": "Réinitialiser le mot de passe",
                 "resetPasswordWait": "Réinitialisation du mot de passe...",
                 "resetPasswordSuccess": "Votre mot de passe a été réinitialisé avec succès. Des instructions ont été envoyées à votre adresse email",

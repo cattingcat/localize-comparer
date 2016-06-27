@@ -11,7 +11,7 @@
                     "process": "Adding license...",
                     "errors": {
                         "Success": "License has been added",
-                        "GettingLicenseInfoError": "Error.  License not found",
+                        "GettingLicenseInfoError": "Error. License not found",
                         "ConsumerLicense": "License has not been added Before adding a license for a home product, <br/>  you must add at least one corporate license.",
                         "LicenseIsExpired": "License has expired",
                         "LicenseIsBlocked": "Error. License is blocked",
@@ -23,7 +23,10 @@
                         "ACExpired": "Activation code expired",
                         "UnknownError": "An error occurred. Please try again If the issue persists, please <a href='../request/create/ca' target=\"_blank\"> contact technical support</a>",
                         "LicenseNotFound": "Error. License not found",
-                        "InvalidKeyFileSize": "[EV] File is too big"
+
+                        "ActCodeOrKeyFileRequired": "Activation code or key file required",
+                        "KeyFile.HttpFileSizeRule": "Key file is too large",
+                        "KeyFile.KeyFileRule": "Unknown key file format"
                     },
                     "success-user-moved": {
                         "title": "License has been added",
@@ -44,7 +47,7 @@
                 "comments": {
                     "NotActivated": "The license has not been activated. The scope of available technical support requests may be limited. Activate the license in the product.",
                     "ExpiresSoon": "License expires soon.",
-                    "Blocked": "Blocked since: {BlockedDate}"
+                    "Blocked": "Blocked on: {BlockedDate}"
                 },
 
                 "list": {
@@ -64,20 +67,22 @@
                         "serial-number": "Serial number:",
                         "order-number": "Order ID:",
                         "compatible-application": "List of compatible products",
-                        "add-date": "Added on: ",
+                        "add-date": "Added on:",
                         "key-file": "Key file:",
                         "remove-license": "Remove license"
                     },
-                    "no-filtered-license": "No requests found. Please expand the search area.",
+                    "no-filtered-license": "No requests found. Please expand the search area",
                     "no-license": "Your company has no licenses attached.",
                     "errors": {
-                        "NoCompatibleApps": "No products available for this license. </br>Please, <a href='/request/create/ca' target=\"_blank\"> contact technical support</a> about the options of using this license. ",
-                        "UnknownError": "Unknown error. If the issue persists, please <a href='../request/create/ca' target=\"_blank\"> contact technical support</a>"
+                        "UnknownError": {
+                            "title": "Unknown error occurred while loading the list of licenses ",
+                            "text": "Unknown error. If the issue persists, please <a href='../request/create/ca' target=\"_blank\"> contact technical support</a>"
+                        }
                     },
                     "compatibleapps": "Compatible products:",
                     "remove": {
                         "confirm-title": "Remove license",
-                        "confirm-text": "You are about to remove the license for {0}.<br />You can add it to CompanyAccount again later.",
+                        "confirm-text": "You are going to remove the license for {0}.<br />You can add it to CompanyAccount again later.",
                         "confirm-button": "Delete"
                     }
                 },
@@ -94,16 +99,15 @@
                         },
                         "UnknownError": {
                             "title": "Unknown error occurred",
-                            "message": "Unknown error occurred when opening the list of compatible products.  Please, try again in a few minutes. <br/> If the issue persists, please <a href='../request/create/ca' target=\"_blank\"> contact technical support</a> "
+                            "message": "Unknown error occurred when opening the list of compatible products. Please, try again in a few minutes. <br/> If the issue persists, please <a href='../request/create/ca' target=\"_blank\"> contact technical support</a> "
                         },
                         "NoCompatibleApps": {
-                            "title": "No products available for this license. ",
+                            "title": "No products available for this license.",
                             "message": "Please, <a href='/request/create/ca' target=\"_blank\"> contact technical support</a> about the options of using this license."
                         }
                     },
                     "close": "Close"
                 }
-
             }
         }
     }

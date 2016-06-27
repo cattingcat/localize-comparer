@@ -20,6 +20,12 @@
                     "no-contract": {
                         "title": "Aucun contrat d'<a href=\"http://www.kaspersky.fr/enterprise-security/maintenance-service-agreement\" target=\"_blank\">assistance haut de gamme</a> n'a encore été signé pour le moment.",
                         "description": "Pour des réponses dans les plus brefs délais et une approche adaptée à vos besoins, bénéficiez des atouts de notre offre d'assistance haut de gamme Kaspersky Maintenance Service Agreement (MSA).</br> </br>  <a href=\"http://www.kaspersky.fr/business-security/services\" target=\"_blank\">En savoir plus sur nos options de support Premium</a></p>"
+                    },
+                    "errors": {
+                         "UnknownError": {
+                            "title": "Un problème s'est produit lors de l'obtention de la liste des documents ",
+                            "text": "Si le problème persiste, veuillez <a href='../request/create/ca' target=\"_blank\">contacter le support technique</a>"
+                        }
                     }
                 }
             }

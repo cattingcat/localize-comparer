@@ -58,7 +58,10 @@
                     "minFileSize": "ファイルのサイズが小さすぎます",
                     "acceptFileTypes": "ファイル種別が正しくありません",
                     "maxNumberOfFiles": "ファイルの数が上限を超えています",
-                    "uploadError": "[EV] When uploading files network error occurred"
+                    "uploadError": "[EV] When uploading files network error occurred",
+
+                    "StorageFileSizeRule": "[EV] Incorrect file size",
+                    "UnknownError": "[EV] Unknown error occurred while file uploading"
                 }
             },
 
@@ -85,13 +88,9 @@
                 "copyrightStart": "Copyright &copy;",
                 "copyrightEnd": "AO Kaspersky Lab ",
                 "errors": {
-                    "UserNotFound": {
-                        "title": "ユーザーアカウントのエラー",
-                        "message": "<a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>へお問い合わせください"
-                    },
                     "UnknownError": {
                         "title": "不明なエラー ",
-                        "message": "言語の変更時に不明なエラーが発生しました。<br />しばらくしてから、再試行してください。問題を解決するには、<a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> へお問い合わせください。"
+                        "text": "言語の変更時に不明なエラーが発生しました。<br />しばらくしてから、再試行してください。問題を解決するには、<a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> へお問い合わせください。"
                     }
                 }
             },
@@ -145,6 +144,37 @@
                     "title": "[EV][isSuppStuff] An problem with your account",
                     "text": "[EV] Contact address <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
                 }
+            },
+            "CheckUserSessionExceptions": {
+                "SessionNotFound": {
+                    "title": "[EV][SessionNotFound] Refresh token deleted",
+                    "text": " "
+                },
+                "RefreshTokenExpired": { 
+                    "title": "[EV] Refresh token expired",
+                    "text": " "
+                }
+            },
+
+            "loginErrors": {
+                "PasswordExpired": "[EV][ja] Пароль устарел, перенаправление на страницу сброса",
+
+                "WrongPassword": "[EV][ja] Wrong password",
+
+                "TempBlocking": "[EV][ja] Слишком много неудачныхпопыток входа, временная блокировка",
+                "AdminBlocked": "[EV][ja] Пользователь заблокирован администратором",
+                "ExceededUserSessionCount": "[EV][ja] Слишком много активных сессий для этого пользователя",
+
+                "CaptchaNotFound": "[EV][ja] Требуется код CAPTCHA",
+                "CaptchaIncorrect": "[EV][ja] Каптча введена неверно",
+                "CaptchaTimeout": "[EV][ja] Каптча устарела",
+
+                "NotActivated": "[EV][ja] Пользователь не активирован",
+                "UserNotFound": "[EV][ja] Пользователь не найден",
+                "NotSupportedCompanyCategory": "[EV][ja] Категория компании не поддерживается",
+                "NotSupportedSystemType": "[EV][ja] Пользователь не принадлежит СА",
+                "IsSupportStuff": "[EV][ja] Сотудникам техподдержки вход запрещен",
+                "UnknownError": "[EV][ja] Неизвестная ошибка при попытке входе"
             },
 
             "errors": {

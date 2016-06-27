@@ -22,8 +22,11 @@
                         "LicenseAlreadyExists": "Cette licence est déjà ajoutée à votre compte entreprise.",
                         "ACExpired": "La durée de validité du code d'activation est écoulée.",
                         "UnknownError": "Une erreur est survenue, veuillez réessayer. Si le problème persiste, <a href='../request/create/ca' target=\"_blank\">déposez une demande auprès du support technique</a>",
-                        "LicenseNotFound": "La licence est introuvable",
-                        "InvalidKeyFileSize": "[EV] File is too big"
+                        "LicenseNotFound": "Erreur. La licence est introuvable",
+
+                        "ActCodeOrKeyFileRequired": "Un fichier clé ou un code d'activation est requis",
+                        "KeyFile.HttpFileSizeRule": "Le fichier clé est trop volumineux",
+                        "KeyFile.KeyFileRule": "Format du fichier clé inconnu"
                     },
                     "success-user-moved": {
                         "title": "La licence a été ajoutée avec succès.",
@@ -40,6 +43,7 @@
                     "NotActivated": "Non activée",
                     "Deleted": "Supprimée"
                 },
+
                 "comments": {
                     "NotActivated": "La licence n'a pas encore été activée. Les types de demandes traitées par le support technique peuvent être limités. Activez la licence dans l'application.",
                     "ExpiresSoon": "Attention ! La durée de validité de la licence expire bientôt.",
@@ -70,8 +74,10 @@
                     "no-filtered-license": "Aucune licence trouvée pour les critères de recherche spécifiés. Veuillez élargir la zone de recherche",
                     "no-license": "Aucune licence n'a été ajoutée pour votre entreprise.",
                     "errors": {
-                        "NoCompatibleApps": "Il n'y a pas d'applications actives pour cette licence. <br />Veuillez <a href='../request/create/ca' target=\"_blank\"> consulter le support technique</a> pour savoir comment vous pouvez utiliser cette licence.",
-                        "UnknownError": "Erreur inconnue. Si le problème persiste, <a href='../request/create/ca' target=\"_blank\">déposez une demande auprès du support technique</a>"
+                        "UnknownError": {
+                            "title": "Erreur inconnue lors de l'obtention de la liste des licences ",
+                            "text": "Erreur inconnue. Si le problème persiste, <a href='../request/create/ca' target=\"_blank\">déposez une demande auprès du support technique</a>"
+                        }
                     },
                     "compatibleapps": "Applications compatibles :",
                     "remove": {
@@ -102,7 +108,6 @@
                     },
                     "close": "Fermer"
                 }
-
             }
         }
     }
