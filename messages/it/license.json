@@ -85,16 +85,6 @@
                         "confirm-button": "Rimuovi"
                     }
                 },
-
-                "remove": {
-                    "errors": {
-                        "UnknownError": {
-                            "title": "[EV] Unknown error while license removing",
-                            "text": "[EV] Please contact <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
-                        }
-                    }
-                },
-
                 "compatible": {
                     "errors": {
                         "UserNotFound": {

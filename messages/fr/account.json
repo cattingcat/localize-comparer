@@ -36,7 +36,7 @@
 
                         "AdminBlocked": {
                             "title": "Le compte a été bloqué par l'administrateur",
-                            "text": "Pour débloquer le compte, veuillez nous contacter à l'adresse <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
+                            "text": "Pour débloquer le compte, veuillez nous contacter à l'adresse <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
                         },
                         "TempBlocking": {
                             "title": "Le compte utilisateur est temporairement bloqué",
@@ -44,7 +44,7 @@
                         },
                         "UnknownError": {
                             "title": "Un problème inconnu s'est produit",
-                            "text": "Un problème inconnu s'est produit lors de la définition du mot de passe. <br />Veuillez suivre le lien encore une fois.<br />Si le problème persiste, contactez-nous à l'adresse <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>."
+                            "text": "Un problème inconnu s'est produit lors de la définition du mot de passe. <br />Veuillez suivre le lien encore une fois.<br />Si le problème persiste, contactez-nous à l'adresse <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>."
                         },
                         "UserNotFound": {
                             "title": "Compte introuvable",
@@ -52,11 +52,11 @@
                         },
                         "LinkNotExist": {
                             "title": "Lien introuvable",
-                            "text": "Un problème inconnu s'est produit lors de la définition du mot de passe. <br />Veuillez suivre le lien encore une fois.<br />Si le problème persiste, contactez-nous à l'adresse <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>."
+                            "text": "Un problème inconnu s'est produit lors de la définition du mot de passe. <br />Veuillez suivre le lien encore une fois.<br />Si le problème persiste, contactez-nous à l'adresse <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>."
                         },
                         "DuplicatedRecords": {
                             "title": "Un problème inconnu s'est produit",
-                            "text": "Un problème inconnu s'est produit lors de la définition du mot de passe. <br />Veuillez suivre le lien encore une fois.<br />Si le problème persiste, contactez-nous à l'adresse <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>."
+                            "text": "Un problème inconnu s'est produit lors de la définition du mot de passe. <br />Veuillez suivre le lien encore une fois.<br />Si le problème persiste, contactez-nous à l'adresse <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>."
                         },
                         "NotSupportedSystemType": {
                             "title": "SystemType n'est pas pris en charge",
@@ -118,7 +118,7 @@
                     "errors": {
                         "LinkNotExist": {
                             "title": "Un problème s'est produit lors de l'activation du compte",
-                            "text": "Contactez-nous à l'adresse <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> pour résoudre le problème"
+                            "text": "Contactez-nous à l'adresse <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> pour résoudre le problème"
                         },
                         "LinkExpired": {
                             "title": "Le lien a expiré",
@@ -130,15 +130,15 @@
                         },
                         "LinkNotExist": {
                             "title": "Un problème s'est produit lors de l'activation du compte",
-                            "text": "Contactez-nous à l'adresse <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> pour résoudre le problème"
+                            "text": "Contactez-nous à l'adresse <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> pour résoudre le problème"
                         },
                         "DuplicatedRecords": {
                             "title": "Un problème s'est produit lors de l'activation du compte",
-                            "text": "Contactez-nous à l'adresse <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> pour résoudre le problème"
+                            "text": "Contactez-nous à l'adresse <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> pour résoudre le problème"
                         },
                         "UnknownError": {
                             "title": "Un problème inconnu s'est produit lors de l'activation du compte",
-                            "text": "Un problème inconnu s'est produit lors de l'activation du compte. <br />Veuillez suivre le lien encore une fois. Si le problème persiste, contactez-nous à l'adresse <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>."
+                            "text": "Un problème inconnu s'est produit lors de l'activation du compte. <br />Veuillez suivre le lien encore une fois. Si le problème persiste, contactez-nous à l'adresse <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>."
                         }
                     }
                 },
@@ -169,7 +169,7 @@
                     "errors": {
                         "UserNotFound": {
                             "title": "Compte introuvable.",
-                            "text": "Veuillez nous contacter à l'adresse <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
+                            "text": "Veuillez nous contacter à l'adresse <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
                         },
                         "LinkExpired": {
                             "title": "Le lien a expiré",
@@ -181,15 +181,15 @@
                         },
                         "LinkNotExist": {
                             "title": "Un problème s'est produit lors de la suppression du compte",
-                            "text": "Contactez-nous à l'adresse <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> pour résoudre le problème"
+                            "text": "Contactez-nous à l'adresse <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> pour résoudre le problème"
                         },
                         "DuplicatedRecords": {
                             "title": "Un problème s'est produit lors de la suppression du compte",
-                            "text": "Contactez-nous à l'adresse <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> pour résoudre le problème"
+                            "text": "Contactez-nous à l'adresse <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> pour résoudre le problème"
                         },
                         "UnknownError": {
                             "title": "Un problème inconnu s'est produit",
-                            "text": "Un problème inconnu s'est produit lors de la suppression du compte utilisateur. <br />Veuillez suivre le lien encore une fois.<br />Si le problème persiste, contactez-nous à l'adresse <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>."
+                            "text": "Un problème inconnu s'est produit lors de la suppression du compte utilisateur. <br />Veuillez suivre le lien encore une fois.<br />Si le problème persiste, contactez-nous à l'adresse <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>."
                         }
                     }
                 },
@@ -226,7 +226,6 @@
                         "Email.EmailRule": "Adresse email incorrecte",
                         "Email.MaxByteLengthRule": "Le champ Email est limité à {ByteLength} caractères maximum",
                         "Email.RepeatedRegistration": "Cet email est déjà associé à un autre compte. <br />Pour terminer l'inscription et activer le compte, veuillez confirmer votre adresse de courrier électronique en suivant le lien dans l'email d'inscription.",
-                        "Email.FailureUserExists": "Ce compte existe déjà. Vous pouvez <a href='/account/forgot'>réinitialiser le mot de passe</a> ou <a href='/account/login'>vous connecter</a>",
 
                         "KeyFile.KeyFileRule": "Fichier clé invalide",
                         "ActivationCode.ActivationCodeRule": "Code d'activation incorrect",
@@ -236,9 +235,13 @@
 
                         "ActCodeOrKeyFileRequired": "Veuillez saisir un code d'activation ou ajouter un fichier clé",
 
+                        "FailureUserExists": {
+                            "title": "Ce compte existe déjà. Vous pouvez <a href='/account/forgot'>réinitialiser le mot de passe</a> ou <a href='/account/login'>vous connecter</a>",
+                            "text": " "
+                        },
                         "UnknownError": {
                             "title": "Un problème inconnu s'est produit",
-                            "text": "Veuillez réessayer. Si le problème persiste, contactez-nous à l'adresse <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>."
+                            "text": "Veuillez réessayer. Si le problème persiste, contactez-nous à l'adresse <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>."
                         }
                     },
                     "success": {
@@ -261,7 +264,7 @@
                     },
                     "success": {
                         "title": "Des instructions pour restaurer votre mot de passe ont été envoyées à l'adresse email saisie",
-                        "description": "Relevez votre messagerie <b>{email}</b><br />Suivez les instructions dans le message pour réinitialiser le mot de passe.<b>N.B.</b> Si vous n'avez pas reçu de message, vérifiez l'adresse de courrier électronique et réessayez. </br>Si l'adresse de courrier électronique est correcte mais que vous ne recevez pas de message, </br>veuillez nous contacter à l'adresse <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> </p>"
+                        "description": "Relevez votre messagerie <b>{email}</b><br />Suivez les instructions dans le message pour réinitialiser le mot de passe.<b>N.B.</b> Si vous n'avez pas reçu de message, vérifiez l'adresse de courrier électronique et réessayez. </br>Si l'adresse de courrier électronique est correcte mais que vous ne recevez pas de message, </br>veuillez nous contacter à l'adresse <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> </p>"
                     },
                     "errors": {
                         "CaptchaIncorrect": "Le code saisi est incorrect. Veuillez réessayer",
@@ -273,7 +276,7 @@
 
                         "AdminBlocked": {
                             "title": "Le compte a été bloqué par l'administrateur",
-                            "text": "Pour débloquer le compte, veuillez nous contacter à l'adresse <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
+                            "text": "Pour débloquer le compte, veuillez nous contacter à l'adresse <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
                         },
                         "NotSupportedSystemType": {
                             "title": "Le compte n'existe pas",
@@ -297,7 +300,7 @@
                         },
                         "UnknownError": {
                             "title": "Un problème inconnu s'est produit",
-                            "text": "Veuillez réessayer. Si le problème persiste, contactez-nous à l'adresse <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>."
+                            "text": "Veuillez réessayer. Si le problème persiste, contactez-nous à l'adresse <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>."
                         }
                     }
                 },
@@ -335,7 +338,7 @@
                         "UserNotOfCA": "Le compte n'existe pas",
                         "UserNotOfCADescription": "  ",
                         "UnknownError": "Un problème inconnu s'est produit",
-                        "UnknownErrorDescription": "Un problème inconnu s'est produit à la tentative de connexion.<br />Veuillez réessayer<br />Si le problème persiste, contactez-nous à l'adresse <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>."
+                        "UnknownErrorDescription": "Un problème inconnu s'est produit à la tentative de connexion.<br />Veuillez réessayer<br />Si le problème persiste, contactez-nous à l'adresse <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>."
                     }
                 },
 
@@ -358,11 +361,11 @@
                     "errors": {
                         "UserNotFound": {
                             "title": "Utilisateur introuvable",
-                            "text": "Veuillez nous contacter à l'adresse <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
+                            "text": "Veuillez nous contacter à l'adresse <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
                         },
                         "NotMainUser": {
                             "title": "Un problème s'est produit avec votre compte",
-                            "text": "Contactez-nous à l'adresse <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> pour résoudre le problème"
+                            "text": "Contactez-nous à l'adresse <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> pour résoudre le problème"
                         },
                         "CompanyNotFound": {
                             "title": "Le compte de l'entreprise est déjà supprimé",
@@ -370,7 +373,7 @@
                         },
                         "UnknownError": {
                             "title": "Erreur inconnue",
-                            "text": "Une erreur inconnue est survenue lors de la suppression du compte de l'entreprise. <br />Veuillez patienter quelques instants et réessayer de suivre le lien. <br/>Si le problème persiste, <a href='mailto:betaca@kaspersky.com'>veuillez nous contacter</a>."
+                            "text": "Une erreur inconnue est survenue lors de la suppression du compte de l'entreprise. <br />Veuillez patienter quelques instants et réessayer de suivre le lien. <br/>Si le problème persiste, <a href='mailto:companyaccount@kaspersky.com'>veuillez nous contacter</a>."
                         },
                         "LinkExpired": {
                             "title": "Le lien a expiré",
@@ -386,15 +389,15 @@
                         },
                         "LinkNotExist": {
                             "title": "Le lien est invalide",
-                            "text": "Contactez-nous à l'adresse <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> pour résoudre le problème"
+                            "text": "Contactez-nous à l'adresse <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> pour résoudre le problème"
                         },
                         "DeactivationRequestError": {
                             "title": "Un problème s'est produit lors de la suppression du compte de l'entreprise",
-                            "text": "Contactez-nous à l'adresse <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> pour résoudre le problème"
+                            "text": "Contactez-nous à l'adresse <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> pour résoudre le problème"
                         },
                         "Failure": {
                             "title": "Un problème inconnu s'est produit",
-                            "text": "Un problème inconnu s'est produit lors de la suppression du compte de l'entreprise. <br />Veuillez réessayer dans quelques instants. <br/>Si le problème persiste, contactez-nous à l'adresse <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>."
+                            "text": "Un problème inconnu s'est produit lors de la suppression du compte de l'entreprise. <br />Veuillez réessayer dans quelques instants. <br/>Si le problème persiste, contactez-nous à l'adresse <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>."
                         }
                     },
                     "success": {

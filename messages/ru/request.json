@@ -66,13 +66,13 @@
                     "errors": {
                         "UserNotFound": "Пользователь не найден",
                         "AccessDenied": "Доступ запрещен",
-                        "UnknownError": "Произошла ошибка, пожалуйста, попробуйте еще раз. Если ошибка повторится, обратитесь по адресу <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a> ",
+                        "UnknownError": "Произошла ошибка, пожалуйста, попробуйте еще раз. Если ошибка повторится, обратитесь по адресу <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a> ",
                         "StatusClosedCancelled": "Вы не можете отправить сообщение, так как данный запрос был изменен"
                     },
                     "loadingErrors": {
                         "UnknownError": {
                             "title": "Неизвестная ошибка при получении информации о запросе",
-                            "text": "Произошла ошибка, пожалуйста, попробуйте еще раз. Если ошибка повторится, обратитесь по адресу <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a> "
+                            "text": "Произошла ошибка, пожалуйста, попробуйте еще раз. Если ошибка повторится, обратитесь по адресу <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a> "
                         }
                     }
                 },
@@ -124,7 +124,7 @@
                     "errors": {
                         "UnknownError": {
                             "title": "Неизвестная ошибка при получении списка запросов",
-                            "text": "Произошла ошибка, пожалуйста, попробуйте еще раз. Если ошибка повторится, обратитесь по адресу <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a>"
+                            "text": "Произошла ошибка, пожалуйста, попробуйте еще раз. Если ошибка повторится, обратитесь по адресу <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a>"
                         }
                     }
                 },
@@ -133,7 +133,7 @@
                     "title": "Выберите категорию запроса:",
                     "no-request-types": {
                         "title": "У вас нет доступных категорий запросов",
-                        "description": "Обратитесь по адресу <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a> для решения данной проблемы"
+                        "description": "Обратитесь по адресу <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a> для решения данной проблемы"
                     }
                 },
 
@@ -154,39 +154,21 @@
                     "send-process": "Пожалуйста, подождите, идет обработка запроса...",
                     "cancel-request": "Отмена",
                     "errors": {
-                        "UnknownError": "Произошла ошибка, пожалуйста, попробуйте еще раз. Если ошибка повторится, обратитесь по адресу <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a> "
+                        "UnknownError": "Произошла ошибка, пожалуйста, попробуйте еще раз. Если ошибка повторится, обратитесь по адресу <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a> "
                     },
                     "loadingErrors": {
                         "UnknownError": {
                             "title": "Неизвестная ошибка, при получении данных, необходимых для создания запроса СА-question",
-                            "text": "Произошла ошибка, пожалуйста, попробуйте еще раз. Если ошибка повторится, обратитесь по адресу <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a>"
+                            "text": "Произошла ошибка, пожалуйста, попробуйте еще раз. Если ошибка повторится, обратитесь по адресу <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a>"
                         }
                     }
                 },
 
-                "feedback": {
+                "complaint": {
                     "title": "Новая жалоба на качество поддержки",
                     "note": "Обращаем Ваше внимание на то, что группа контроля качества обрабатывает только жалобы, составленные на русском или английском языках.",
-                    "theme": "[EV] Тема обращения",
                     "description": "Подробное описание<br />сути вашей претензии:",
-                    "description-placeholder": "[EV] Опишите суть вашей претензии",
-                    "request": "Запрос, решением которого<br /> вы не удовлетворены:",
-                    "request-placeholder": "[EV] Выберите номер запроса",
-                    "success": "[EV] Ваша жалоба создана. Номер запроса: <a href=\"/request/view/{requestId}\">{requestId}</a>",
-                    "errors": {
-                        "Details.RequiredRule": "[EV] Опишите подробности вашей жалобы ",
-                        "Details.TextMaxLengthLimitRule": "[EV] Описание слишком длинное",
-                        "TypeId.RequiredRule": "[EV] Выберите тему жалобы",
-                        "TypeId.TextMaxLengthLimitRule": "[EV] Тема жалобы слишком длинная",
-
-                        "UnknownError": "[EV] Произошла ошибка, пожалуйста, попробуйте ещё раз. Если ошибка повторится, обратитесь по адресу <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a>"
-                    },
-                    "loadingErrors": {
-                        "UnknownError": {
-                            "title": "[EV] Неизвестная ошибка, при получении данных, необходимых для создания запроса СА-question",
-                            "text": "[EV] Please contact <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
-                        }
-                    }
+                    "request": "Запрос, решением которого<br /> вы не удовлетворены:"
                 },
 
                 "csr": {
@@ -207,7 +189,7 @@
                     "errors": {
                         "WrongFileSize": "Неверный размер файла",
                         "WrongFileFormat": "Неверный формат файла",
-                        "UnknownError": "Произошла ошибка, пожалуйста, попробуйте еще раз. Если ошибка повторится, обратитесь по адресу <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a>  "
+                        "UnknownError": "Произошла ошибка, пожалуйста, попробуйте еще раз. Если ошибка повторится, обратитесь по адресу <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a>  "
                     }
                 },
 
@@ -233,13 +215,13 @@
                         "AccessDenied": "Доступ запрещен, данная операция недоступна для вас",
                         "WrongFileSize": "Один из загруженных вами файлов превышает допустимый размер",
                         "WrongFileFormat": "Один из загруженных вами файлов имет неверный формат",
-                        "UnknownError": "Произошла ошибка, пожалуйста, попробуйте еще раз. Если ошибка повторится, обратитесь по адресу <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a>   ",
+                        "UnknownError": "Произошла ошибка, пожалуйста, попробуйте еще раз. Если ошибка повторится, обратитесь по адресу <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a>   ",
                         "EmailPattern": "Укажите правильный e-mail. Для нескольких адресов используйте точку с запятой для разделения адресов."
                     },
                     "loadingErrors": {
                         "UnknownError": {
                             "title": "Произошла неизвестная ошибка при отправке запроса",
-                            "text": "Произошла ошибка, пожалуйста, попробуйте еще раз. Если ошибка повторится, обратитесь по адресу <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a>"
+                            "text": "Произошла ошибка, пожалуйста, попробуйте еще раз. Если ошибка повторится, обратитесь по адресу <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a>"
                         }
                     }
                 },
@@ -250,7 +232,7 @@
                     "loadingErrors": {
                         "UnknownError": {
                             "title": "Произошла неизвестная ошибка при отправке запроса",
-                            "text": "Произошла ошибка, пожалуйста, попробуйте еще раз. Если ошибка повторится, обратитесь по адресу <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a>"
+                            "text": "Произошла ошибка, пожалуйста, попробуйте еще раз. Если ошибка повторится, обратитесь по адресу <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a>"
                         }
                     }
                 },
@@ -290,12 +272,12 @@
                     "send-process": "Пожалуйста, подождите - идет обработка запроса...",
                     "cancel-request": "Отмена",
                     "errors": {
-                        "UnknownError": "Произошла ошибка, пожалуйста, попробуйте еще раз. Если ошибка повторится, обратитесь по адресу <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a>  "
+                        "UnknownError": "Произошла ошибка, пожалуйста, попробуйте еще раз. Если ошибка повторится, обратитесь по адресу <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a>  "
                     },
                     "loadingErrors": {
                         "UnknownError": {
                             "title": "Произошла неизвестная ошибка при создании запроса",
-                            "text": "Произошла ошибка, пожалуйста, попробуйте еще раз. Если ошибка повторится, обратитесь по адресу <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a>"
+                            "text": "Произошла ошибка, пожалуйста, попробуйте еще раз. Если ошибка повторится, обратитесь по адресу <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a>"
                         }
                     },
                     "license": {
@@ -326,7 +308,7 @@
                     "loadingErrors": {
                         "UnknownError": {
                             "title": "Произошла неизвестная ошибка про создании запроса",
-                            "text": "Произошла ошибка, пожалуйста, попробуйте еще раз. Если ошибка повторится, обратитесь по адресу <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a>"
+                            "text": "Произошла ошибка, пожалуйста, попробуйте еще раз. Если ошибка повторится, обратитесь по адресу <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a>"
                         }
                     }
                 },
@@ -337,7 +319,7 @@
                     "loadingErrors": {
                         "UnknownError": {
                             "title": "Произошла неизвестная ошибка при создании запроса",
-                            "text": "Произошла ошибка, пожалуйста, попробуйте еще раз. Если ошибка повторится, обратитесь по адресу <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a>"
+                            "text": "Произошла ошибка, пожалуйста, попробуйте еще раз. Если ошибка повторится, обратитесь по адресу <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a>"
                         }
                     }
                 }

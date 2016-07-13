@@ -60,13 +60,13 @@
                     "errors": {
                         "UserNotFound": "Der Benutzer wurde nicht gefunden",
                         "AccessDenied": "Der Zugriff ist verboten",
-                        "UnknownError": "Ein Fehler ist aufgetreten, versuchen Sie es erneut. Wenn der Fehler erneut auftritt, schreiben Sie an <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a> ",
+                        "UnknownError": "Ein Fehler ist aufgetreten, versuchen Sie es erneut. Wenn der Fehler erneut auftritt, schreiben Sie an <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a> ",
                         "StatusClosedCancelled": "Sie können die Meldung nicht senden, weil diese Anfrage geändert wurde"
                     },
                     "loadingErrors": {
                         "UnknownError": {
                             "title": "Unbekannter Fehler beim Laden der Anfrageinforationen.",
-                            "text": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut. Wenn das Problem wieterhin besteht, kontaktieren Sie uns unter: <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a> "
+                            "text": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut. Wenn das Problem wieterhin besteht, kontaktieren Sie uns unter: <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a> "
                         }
                     }
                 },
@@ -115,7 +115,7 @@
                     "errors": {
                         "UnknownError": {
                             "title": "Unbekannter Fehler beim Laden der Anfrageliste",
-                            "text": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut. Wenn das Problem wieterhin besteht, kontaktieren Sie uns unter: <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a> "
+                            "text": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut. Wenn das Problem wieterhin besteht, kontaktieren Sie uns unter: <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a> "
                         }
                     }
                 },
@@ -123,7 +123,7 @@
                     "title": "Wählen Sie die Anfragekategorie:",
                     "no-request-types": {
                         "title": "Sie haben keine verfügbaren Kategorien von Anfragen",
-                        "description": "Schreiben Sie an <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>, um dieses Problem zu lösen"
+                        "description": "Schreiben Sie an <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>, um dieses Problem zu lösen"
                     }
                 },
                 "ca": {
@@ -143,38 +143,20 @@
                     "send-process": "Bitte warten Sie, die Anfrage wird bearbeitet...",
                     "cancel-request": "Abbrechen",
                     "errors": {
-                        "UnknownError": "Ein Fehler ist aufgetreten, versuchen Sie es erneut. Wenn der Fehler erneut auftritt, schreiben Sie an <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a> "
+                        "UnknownError": "Ein Fehler ist aufgetreten, versuchen Sie es erneut. Wenn der Fehler erneut auftritt, schreiben Sie an <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a> "
                     },
                     "loadingErrors": {
                         "UnknownError": {
                             "title": "Unbekannter Fehler während des Ladens von Daten zum Erstellen der Anfrage",
-                            "text": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut. Wenn das Problem wieterhin besteht, kontaktieren Sie uns unter: <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a> "
+                            "text": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut. Wenn das Problem wieterhin besteht, kontaktieren Sie uns unter: <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a> "
                         }
                     }
                 },
-                "feedback": {
+                "complaint": {
                     "title": "Neue Beschwerde über die Qualität des Supports",
                     "note": "Bitte beachten Sie, dass die Gruppe zur Qualitätssicherung nur auf Englisch oder Russisch erstellte Beschwerden bearbeitet.",
-                    "theme": "[EV] Тема обращения",
                     "description": "Detaillierte Beschreibung<br />Ihrer Beschwerde:",
-                    "description-placeholder": "[EV] Опишите суть вашей претензии",
-                    "request": "Anfrage, mit deren Lösung<br />Sie nicht zufrieden sind:",
-                    "request-placeholder": "[EV] Выберите номер запроса",
-                    "success": "[EV] Ваша жалоба создана. Номер запроса: <a href=\"/request/view/{requestId}\">{requestId}</a>",
-                    "errors": {
-                        "Details.RequiredRule": "[EV] Опишите подробности вашей жалобы ",
-                        "Details.TextMaxLengthLimitRule": "[EV] Описание слишком длинное",
-                        "TypeId.RequiredRule": "[EV] Выберите тему жалобы",
-                        "TypeId.TextMaxLengthLimitRule": "[EV] Тема жалобы слишком длинная",
-
-                        "UnknownError": "[EV] Произошла ошибка, пожалуйста, попробуйте ещё раз. Если ошибка повторится, обратитесь по адресу <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a>"
-                    },
-                    "loadingErrors": {
-                        "UnknownError": {
-                            "title": "[EV] Неизвестная ошибка, при получении данных, необходимых для создания запроса СА-question",
-                            "text": "[EV] Please contact <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
-                        }
-                    }
+                    "request": "Anfrage, mit deren Lösung<br />Sie nicht zufrieden sind:"
                 },
                 "csr": {
                     "title": "CSR für Apple Push Notification Service signieren",
@@ -194,7 +176,7 @@
                     "errors": {
                         "WrongFileSize": "Unzulässige Dateigröße",
                         "WrongFileFormat": "Unzulässiges Dateiformat",
-                        "UnknownError": "Ein Fehler ist aufgetreten, versuchen Sie es erneut. Wenn der Fehler erneut auftritt, schreiben Sie an <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a>  "
+                        "UnknownError": "Ein Fehler ist aufgetreten, versuchen Sie es erneut. Wenn der Fehler erneut auftritt, schreiben Sie an <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a>  "
                     }
                 },
                 "virlab": {
@@ -219,13 +201,13 @@
                         "AccessDenied": "Der Zugriff ist verboten, dieser Vorgang ist für Sie nicht verfügbar",
                         "WrongFileSize": "Eine der von Ihnen hochgeladenen Dateien überschreitet die maximal zulässige Größe",
                         "WrongFileFormat": "Eine der von Ihnen hochgeladenen Dateien hat ein falsches Format",
-                        "UnknownError": "Ein Fehler ist aufgetreten, versuchen Sie es erneut. Wenn der Fehler erneut auftritt, schreiben Sie an <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a>   ",
+                        "UnknownError": "Ein Fehler ist aufgetreten, versuchen Sie es erneut. Wenn der Fehler erneut auftritt, schreiben Sie an <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a>   ",
                         "EmailPattern": "Geben Sie die richtige E-Mail an. Wenn Sie mehrere E-Mail-Adressen angeben, trennen Sie diese von einander durch Semikolons ab."
                     },
                     "loadingErrors": {
                         "UnknownError": {
                             "title": "Unbekannter Fehler beim Senden der Anfrage",
-                            "text": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut. Wenn das Problem wieterhin besteht, kontaktieren Sie uns unter: <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a> "
+                            "text": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut. Wenn das Problem wieterhin besteht, kontaktieren Sie uns unter: <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a> "
                         }
                     }
                 },
@@ -235,7 +217,7 @@
                     "loadingErrors": {
                         "UnknownError": {
                             "title": "Unbekannter Fehler beim Senden der Anfrage",
-                            "text": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut. Wenn das Problem wieterhin besteht, kontaktieren Sie uns unter: <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a> "
+                            "text": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut. Wenn das Problem wieterhin besteht, kontaktieren Sie uns unter: <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a> "
                         }
                     }
                 },
@@ -268,12 +250,12 @@
                     "send-process": "Bitte warten Sie, die Anfrage wird bearbeitet...",
                     "cancel-request": "Abbrechen",
                     "errors": {
-                        "UnknownError": "Ein Fehler ist aufgetreten, versuchen Sie es erneut. Wenn der Fehler erneut auftritt, schreiben Sie an <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a>  "
+                        "UnknownError": "Ein Fehler ist aufgetreten, versuchen Sie es erneut. Wenn der Fehler erneut auftritt, schreiben Sie an <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a>  "
                     },
                     "loadingErrors": {
                         "UnknownError": {
                             "title": "Unbekannter Fehler beim Erstellen der Anfrage",
-                            "text": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut. Wenn das Problem wieterhin besteht, kontaktieren Sie uns unter: <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a> "
+                            "text": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut. Wenn das Problem wieterhin besteht, kontaktieren Sie uns unter: <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a> "
                         }
                     },
                     "license": {
@@ -303,7 +285,7 @@
                     "loadingErrors": {
                         "UnknownError": {
                             "title": "Unbekannter Fehler beim Erstellen der Anfrage",
-                            "text": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut. Wenn das Problem wieterhin besteht, kontaktieren Sie uns unter: <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a> "
+                            "text": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut. Wenn das Problem wieterhin besteht, kontaktieren Sie uns unter: <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a> "
                         }
                     }
                 },
@@ -313,7 +295,7 @@
                     "loadingErrors": {
                         "UnknownError": {
                             "title": "Unbekannter Fehler beim Erstellen der Anfrage",
-                            "text": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut. Wenn das Problem wieterhin besteht, kontaktieren Sie uns unter: <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a> "
+                            "text": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut. Wenn das Problem wieterhin besteht, kontaktieren Sie uns unter: <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a> "
                         }
                     }
                 }

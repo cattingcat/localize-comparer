@@ -21,7 +21,7 @@
                     "errors": {
                         "UnknownError": {
                             "title": "Unknown error occurred while loading the list of users",
-                            "text": "Please contact us at <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> to fix the problem"
+                            "text": "Please contact us at <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> to fix the problem"
                         }
                     }
                 },
@@ -123,11 +123,11 @@
                     },
                     "Failure": {
                         "Title": "Unknown error",
-                        "Text": "Please, contact technical support at <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> to fix this error"
+                        "Text": "Please, contact technical support at <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> to fix this error"
                     },
                     "UserNotFound": {
                         "Title": "User not found",
-                        "Text": "Please, contact technical support at <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> to fix this error"
+                        "Text": "Please, contact technical support at <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> to fix this error"
                     },
                     "NotMainUser": {
                         "Title": "Administrator permissions required",
@@ -135,7 +135,7 @@
                     },
                     "AccessDenied": {
                         "Title": "Access denied",
-                        "Text": "Please, contact technical support at <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> to fix this error"
+                        "Text": "Please, contact technical support at <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> to fix this error"
                     },
                     "ReqOfUserNotFound": {
                         "Title": "User account not found",
@@ -151,11 +151,11 @@
                     },
                     "UserNotOfCA": {
                         "Title": "Unknown error occurred </br> while editing the user profile",
-                        "Text": "Please contact <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
+                        "Text": "Please contact <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
                     },
                     "UserNotActivated": {
                         "Title": "Unknown error occurred </br> while editing the user profile",
-                        "Text": "Please contact <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
+                        "Text": "Please contact <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
                     }
                 }
             },
@@ -231,35 +231,35 @@
 
                     "Failure": {
                         "Title": "Unexpected error",
-                        "Text": "Please contact <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
+                        "Text": "Please contact <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
                     },
                     "OfUserNotFound": {
                         "Title": "User account not found",
-                        "Text": "Please contact <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
+                        "Text": "Please contact <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
                     },
                     "NotMainUser": {
                         "Title": "Administrator permissions required",
-                        "Text": "Please contact <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
+                        "Text": "Please contact <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
                     },
                     "AccessDenied": {
                         "Title": "User account error. Access denied.",
-                        "Text": "Please contact <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
+                        "Text": "Please contact <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
                     },
                     "UserNotFound": {
                         "Title": "User account not found",
-                        "Text": "Please contact <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
+                        "Text": "Please contact <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
                     },
                     "UnknownError": {
                         "Title": "Unknown error occurred </br> while editing the user profile",
-                        "Text": "Please contact <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
+                        "Text": "Please contact <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
                     },
                     "UserNotOfCA": {
                         "Title": "Unknown error occurred </br> while editing the user profile",
-                        "Text": "Please contact <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
+                        "Text": "Please contact <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
                     },
                     "UserNotActivated": {
                         "Title": "Unknown error occurred </br> while editing the user profile",
-                        "Text": "Please contact <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
+                        "Text": "Please contact <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
                     }
                 },
                 "permissions": {

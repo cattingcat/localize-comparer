@@ -36,7 +36,7 @@
 
                         "AdminBlocked": {
                             "title": "La cuenta está bloqueada por el administrador",
-                            "text": "Para desbloquearla, envíe un correo electrónico a <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
+                            "text": "Para desbloquearla, envíe un correo electrónico a <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
                         },
                         "TempBlocking": {
                             "title": "El usuario está temporalmente bloqueado",
@@ -44,7 +44,7 @@
                         },
                         "UnknownError": {
                             "title": "Se ha producido un fallo desconocido",
-                            "text": "Se ha producido un fallo desconocido a la hora de establecer nueva contraseña. <br />Por favor, vuelva a seguir el enlace.<br />Si el problema aparece de nuevo, <a href='mailto:betaca@kaspersky.com'>contáctenos</a>."
+                            "text": "Se ha producido un fallo desconocido a la hora de establecer nueva contraseña. <br />Por favor, vuelva a seguir el enlace.<br />Si el problema aparece de nuevo, <a href='mailto:companyaccount@kaspersky.com'>contáctenos</a>."
                         },
                         "UserNotFound": {
                             "title": "Cuenta no encontrada",
@@ -52,11 +52,11 @@
                         },
                         "LinkNotExist": {
                             "title": "No se ha encontrado el enlace",
-                            "text": "Se ha producido un fallo desconocido a la hora de establecer nueva contraseña. <br />Por favor, vuelva a seguir el enlace.<br />Si el problema aparece de nuevo, <a href='mailto:betaca@kaspersky.com'>contáctenos</a>."
+                            "text": "Se ha producido un fallo desconocido a la hora de establecer nueva contraseña. <br />Por favor, vuelva a seguir el enlace.<br />Si el problema aparece de nuevo, <a href='mailto:companyaccount@kaspersky.com'>contáctenos</a>."
                         },
                         "DuplicatedRecords": {
                             "title": "Se ha producido un fallo desconocido",
-                            "text": "Se ha producido un fallo desconocido a la hora de establecer nueva contraseña. <br />Por favor, vuelva a seguir el enlace.<br />Si el problema aparece de nuevo, <a href='mailto:betaca@kaspersky.com'>contáctenos</a>."
+                            "text": "Se ha producido un fallo desconocido a la hora de establecer nueva contraseña. <br />Por favor, vuelva a seguir el enlace.<br />Si el problema aparece de nuevo, <a href='mailto:companyaccount@kaspersky.com'>contáctenos</a>."
                         },
                         "NotSupportedSystemType": {
                             "title": "SystemType no es compatible",
@@ -118,7 +118,7 @@
                     "errors": {
                         "LinkNotExist": {
                             "title": "Se ha producido un problema al activar la cuenta",
-                            "text": "Envíe un correo electrónico a <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> para solucionar el problema"
+                            "text": "Envíe un correo electrónico a <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> para solucionar el problema"
                         },
                         "LinkExpired": {
                             "title": "El enlace ha caducado",
@@ -130,15 +130,15 @@
                         },
                         "LinkNotExist": {
                             "title": "Se ha producido un problema al activar la cuenta",
-                            "text": "Envíe un correo electrónico a <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> para solucionar el problema"
+                            "text": "Envíe un correo electrónico a <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> para solucionar el problema"
                         },
                         "DuplicatedRecords": {
                             "title": "Se ha producido un problema al activar la cuenta",
-                            "text": "Envíe un correo electrónico a <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> para solucionar el problema"
+                            "text": "Envíe un correo electrónico a <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> para solucionar el problema"
                         },
                         "UnknownError": {
                             "title": "Se ha producido un fallo desconocido al activar la cuenta",
-                            "text": "Se ha producido un fallo desconocido al activar la cuenta <br />Por favor, haga clic en el enlace de nuevo. Si el problema vuelve a aparecer, <a href='mailto:betaca@kaspersky.com'>contáctenos</a>."
+                            "text": "Se ha producido un fallo desconocido al activar la cuenta <br />Por favor, haga clic en el enlace de nuevo. Si el problema vuelve a aparecer, <a href='mailto:companyaccount@kaspersky.com'>contáctenos</a>."
                         }
                     }
                 },
@@ -169,7 +169,7 @@
                     "errors": {
                         "UserNotFound": {
                             "title": "Cuenta no encontrada",
-                            "text": "Por favor, envíe un correo electrónico a <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
+                            "text": "Por favor, envíe un correo electrónico a <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
                         },
                         "LinkExpired": {
                             "title": "El enlace ha caducado",
@@ -181,15 +181,15 @@
                         },
                         "LinkNotExist": {
                             "title": "Se ha producido un problema al eliminar la cuenta",
-                            "text": "Envíe un correo electrónico a <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> para solucionar el problema"
+                            "text": "Envíe un correo electrónico a <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> para solucionar el problema"
                         },
                         "DuplicatedRecords": {
                             "title": "Se ha producido un problema al eliminar la cuenta",
-                            "text": "Envíe un correo electrónico a <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> para solucionar el problema"
+                            "text": "Envíe un correo electrónico a <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> para solucionar el problema"
                         },
                         "UnknownError": {
                             "title": "Se ha producido un fallo desconocido",
-                            "text": "Se ha producido un fallo desconocido a la hora de eliminar el usuario. <br />Por favor, vuelva a seguir el enlace.<br />Si el problema aparece de nuevo, <a href='mailto:betaca@kaspersky.com'>contáctenos</a>."
+                            "text": "Se ha producido un fallo desconocido a la hora de eliminar el usuario. <br />Por favor, vuelva a seguir el enlace.<br />Si el problema aparece de nuevo, <a href='mailto:companyaccount@kaspersky.com'>contáctenos</a>."
                         }
                     }
                 },
@@ -226,7 +226,6 @@
                         "Email.EmailRule": "Dirección de correo electrónico no válida",
                         "Email.MaxByteLengthRule": "La dirección del correo electrónico puede contener hasta {ByteLength} caracteres",
                         "Email.RepeatedRegistration": "Ya se ha registrado un usuario con esta dirección de correo electrónico en el sistema. <br />Para finalizar el registro y activar su cuenta, por favor, confirma su correo electrónico a través del enlace que ha recibido al registrarse.",
-                        "Email.FailureUserExists": "Esta cuenta ya existe Puede <a href='/account/forgot'>restablecer contraseña</a> o <a href='/account/login'>iniciar sesión</a>",
 
                         "KeyFile.KeyFileRule": "El archivo llave no es válido",
                         "ActivationCode.ActivationCodeRule": "El código de activación no es válido",
@@ -236,9 +235,13 @@
 
                         "ActCodeOrKeyFileRequired": "Por favor, introduzca el código de activación o suba el archivo llave",
 
+                        "FailureUserExists": {
+                            "title": "Esta cuenta ya existe Puede <a href='/account/forgot'>restablecer contraseña</a> o <a href='/account/login'>iniciar sesión</a>",
+                            "text": " "
+                        },
                         "UnknownError": {
                             "title": "Se ha producido un fallo desconocido",
-                            "text": "Por favor, vuelva a registrarse. Si el problema vuelve a aparecer, <a href='mailto:betaca@kaspersky.com'>contáctenos</a>."
+                            "text": "Por favor, vuelva a registrarse. Si el problema vuelve a aparecer, <a href='mailto:companyaccount@kaspersky.com'>contáctenos</a>."
                         }
                     },
                     "success": {
@@ -261,7 +264,7 @@
                     },
                     "success": {
                         "title": "Se han enviado las instrucciones<br/>para cambiar contraseña",
-                        "description": "Por favor, compruebe su bandeja de entrada en <b>{email}</b><br />Siga las instrucciones del mensaje para restablecer su contraseña.<p> <b>¡Atención!</b> Si no ha recibido el mensaje, compruebe la dirección de correo electrónico e inténtelo de nuevo. </br>Si la dirección de correo introducida es correcta, pero sigue sin recibir ningún mensaje, </br>por favor, envíenos un correo electrónico a: <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> </p>"
+                        "description": "Por favor, compruebe su bandeja de entrada en <b>{email}</b><br />Siga las instrucciones del mensaje para restablecer su contraseña.<p> <b>¡Atención!</b> Si no ha recibido el mensaje, compruebe la dirección de correo electrónico e inténtelo de nuevo. </br>Si la dirección de correo introducida es correcta, pero sigue sin recibir ningún mensaje, </br>por favor, envíenos un correo electrónico a: <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> </p>"
                     },
                     "errors": {
                         "CaptchaIncorrect": "El código no es válido, inténtelo de nuevo",
@@ -274,7 +277,7 @@
 
                         "AdminBlocked": {
                             "title": "La cuenta está bloqueada por el administrador",
-                            "text": "Para desbloquearla, envíe un correo electrónico a <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
+                            "text": "Para desbloquearla, envíe un correo electrónico a <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
                         },
                         "NotSupportedSystemType": {
                             "title": "Este nombre de usuario no se ha registrado en CompanyAccount",
@@ -298,7 +301,7 @@
                         },
                         "UnknownError": {
                             "title": "Se ha producido un fallo desconocido",
-                            "text": "Por favor, intente a restablecer la contraseña una vez más. Si el problema vuelve a aparecer, <a href='mailto:betaca@kaspersky.com'>contáctenos</a>."
+                            "text": "Por favor, intente a restablecer la contraseña una vez más. Si el problema vuelve a aparecer, <a href='mailto:companyaccount@kaspersky.com'>contáctenos</a>."
                         }
                     }
                 },
@@ -336,7 +339,7 @@
                         "UserNotOfCA": "Este nombre de usuario no se ha registrado en CompanyAccount",
                         "UserNotOfCADescription": "  ",
                         "UnknownError": "Se ha producido un fallo desconocido",
-                        "UnknownErrorDescription": "Se ha producido un fallo desconocido a la hora de iniciar sesión.<br />Por favor, inténtelo de nuevo.<br />Si el error vuelve a aparecer, <a href='mailto:betaca@kaspersky.com'>contáctenos</a>."
+                        "UnknownErrorDescription": "Se ha producido un fallo desconocido a la hora de iniciar sesión.<br />Por favor, inténtelo de nuevo.<br />Si el error vuelve a aparecer, <a href='mailto:companyaccount@kaspersky.com'>contáctenos</a>."
                     }
                 },
 
@@ -359,11 +362,11 @@
                     "errors": {
                         "UserNotFound": {
                             "title": "Usuario no encontrado",
-                            "text": "Por favor, envíe un correo electrónico a <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
+                            "text": "Por favor, envíe un correo electrónico a <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
                         },
                         "NotMainUser": {
                             "title": "Se ha producido un problema con su cuenta",
-                            "text": "Envíe un correo electrónico a <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> para solucionar el problema"
+                            "text": "Envíe un correo electrónico a <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> para solucionar el problema"
                         },
                         "CompanyNotFound": {
                             "title": "La empresa ya se ha eliminado",
@@ -371,7 +374,7 @@
                         },
                         "UnknownError": {
                             "title": "Error desconocido",
-                            "text": "Se ha producido un error desconocido a la hora de eliminar la empresa. <br />Por favor, espere unos minutos y sigue el enlace una vez más. <br/> Si el problema vuelve a aparecer, <a href='mailto:betaca@kaspersky.com'>contáctenos</a>."
+                            "text": "Se ha producido un error desconocido a la hora de eliminar la empresa. <br />Por favor, espere unos minutos y sigue el enlace una vez más. <br/> Si el problema vuelve a aparecer, <a href='mailto:companyaccount@kaspersky.com'>contáctenos</a>."
                         },
                         "LinkExpired": {
                             "title": "El enlace ha caducado",
@@ -387,15 +390,15 @@
                         },
                         "LinkNotExist": {
                             "title": "El enlace no es válido",
-                            "text": "Envíe un correo electrónico a <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> para solucionar el problema"
+                            "text": "Envíe un correo electrónico a <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> para solucionar el problema"
                         },
                         "DeactivationRequestError": {
                             "title": "Se ha producido un problema al eliminar la cuenta de empresa",
-                            "text": "Envíe un correo electrónico a <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> para solucionar el problema"
+                            "text": "Envíe un correo electrónico a <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> para solucionar el problema"
                         },
                         "Failure": {
                             "title": "Se ha producido un fallo desconocido",
-                            "text": "Se ha producido un fallo desconocido a la hora de eliminar la empresa. <br />Por favor, espere unos minutos e inténtelo de nuevo. <br/> Si el problema vuelve a aparecer, <a href='mailto:betaca@kaspersky.com'>contáctenos</a>."
+                            "text": "Se ha producido un fallo desconocido a la hora de eliminar la empresa. <br />Por favor, espere unos minutos e inténtelo de nuevo. <br/> Si el problema vuelve a aparecer, <a href='mailto:companyaccount@kaspersky.com'>contáctenos</a>."
                         }
                     },
                     "success": {

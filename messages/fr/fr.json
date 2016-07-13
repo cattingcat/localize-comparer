@@ -87,7 +87,7 @@
                 "errors": {
                     "UnknownError": {
                         "title": "Un problème inconnu s'est produit",
-                        "text": "Un problème inconnu s'est produit lors du changement de langue. <br />Veuillez réessayer dans quelques instants. Si le problème persiste, contactez-nous à l'adresse <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> pour résoudre le problème"
+                        "text": "Un problème inconnu s'est produit lors du changement de langue. <br />Veuillez réessayer dans quelques instants. Si le problème persiste, contactez-nous à l'adresse <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> pour résoudre le problème"
                     }
                 }
             },
@@ -102,42 +102,42 @@
                 "close": "Fermer",
                 "AccountProblems": {
                     "title": "Un problème s'est produit avec votre compte",
-                    "message": "Contactez-nous à l'adresse <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> pour résoudre le problème"
+                    "message": "Contactez-nous à l'adresse <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> pour résoudre le problème"
                 }
             },
 
             "SecurityExceptions": {
                 "Unexpected": {
                     "title": "Un problème s'est produit avec votre compte",
-                    "text": "Contactez-nous à l'adresse <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> pour résoudre le problème"
+                    "text": "Contactez-nous à l'adresse <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> pour résoudre le problème"
                 },
                 "AccessDenied": {
                     "title": "Un problème s'est produit avec votre compte",
-                    "text": "Contactez-nous à l'adresse <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> pour résoudre le problème"
+                    "text": "Contactez-nous à l'adresse <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> pour résoudre le problème"
                 },
                 "AdminBlocked": {
                     "title": "Un problème s'est produit avec votre compte",
-                    "text": "Contactez-nous à l'adresse <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> pour résoudre le problème"
+                    "text": "Contactez-nous à l'adresse <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> pour résoudre le problème"
                 },
                 "NotActivated": {
                     "title": "Un problème s'est produit avec votre compte",
-                    "text": "Contactez-nous à l'adresse <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> pour résoudre le problème"
+                    "text": "Contactez-nous à l'adresse <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> pour résoudre le problème"
                 },
                 "UserNotFound": {
                     "title": "Un problème s'est produit avec votre compte",
-                    "text": "Contactez-nous à l'adresse <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> pour résoudre le problème"
+                    "text": "Contactez-nous à l'adresse <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> pour résoudre le problème"
                 },
                 "NotSupportedCompanyCategory": {
                     "title": "Un problème s'est produit avec votre compte",
-                    "text": "Contactez-nous à l'adresse <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> pour résoudre le problème"
+                    "text": "Contactez-nous à l'adresse <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> pour résoudre le problème"
                 },
                 "NotSupportedSystemType": {
                     "title": "Un problème s'est produit avec votre compte",
-                    "text": "Contactez-nous à l'adresse <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> pour résoudre le problème"
+                    "text": "Contactez-nous à l'adresse <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> pour résoudre le problème"
                 },
                 "IsSupportStuff": {
                     "title": "Un problème s'est produit avec votre compte",
-                    "text": "Contactez-nous à l'adresse <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> pour résoudre le problème"
+                    "text": "Contactez-nous à l'adresse <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> pour résoudre le problème"
                 }
             },
             "CheckUserSessionExceptions": {
@@ -188,7 +188,7 @@
                 },
                 "forbidden": {
                     "title": "Vous n'êtes pas autorisé à accéder à cette page",
-                    "text": "Veuillez nous contacter à l'adresse <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>",
+                    "text": "Veuillez nous contacter à l'adresse <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>",
                     "to-main-page": "  "
                 },
                 "end-session": {
@@ -201,7 +201,7 @@
 
                 "UnknownError": {
                     "title": "Un problème inconnu s'est produit",
-                    "text": "Veuillez nous contacter à l'adresse <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
+                    "text": "Veuillez nous contacter à l'adresse <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
                 }
             }
         }

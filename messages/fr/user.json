@@ -21,7 +21,7 @@
                     "errors": {
                         "UnknownError": {
                             "title": "Erreur inconnue lors de l'obtention de la liste des utilisateurs",
-                            "text": "Contactez-nous à l'adresse <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> pour résoudre le problème"
+                            "text": "Contactez-nous à l'adresse <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> pour résoudre le problème"
                         }
                     }
                 },
@@ -123,11 +123,11 @@
                     },
                     "Failure": {
                         "Title": "Problème inconnu",
-                        "Text": "Contactez le support technique à l'adresse <a href='/request/create/ca' target=\"_blank\">betaca@kaspersky.com</a> pour trouver une solution"
+                        "Text": "Contactez le support technique à l'adresse <a href='/request/create/ca' target=\"_blank\">companyaccount@kaspersky.com</a> pour trouver une solution"
                     },
                     "UserNotFound": {
                         "Title": "Utilisateur introuvable",
-                        "Text": "Contactez le support technique à l'adresse <a href='/request/create/ca' target=\"_blank\">betaca@kaspersky.com</a> pour trouver une solution"
+                        "Text": "Contactez le support technique à l'adresse <a href='/request/create/ca' target=\"_blank\">companyaccount@kaspersky.com</a> pour trouver une solution"
                     },
                     "NotMainUser": {
                         "Title": "Vous ne disposez pas de droits d'administrateur",
@@ -135,7 +135,7 @@
                     },
                     "AccessDenied": {
                         "Title": "Accès interdit",
-                        "Text": "Contactez le support technique à l'adresse <a href='/request/create/ca' target=\"_blank\">betaca@kaspersky.com</a> pour trouver une solution"
+                        "Text": "Contactez le support technique à l'adresse <a href='/request/create/ca' target=\"_blank\">companyaccount@kaspersky.com</a> pour trouver une solution"
                     },
                     "ReqOfUserNotFound": {
                         "Title": "Le compte demandé est introuvable",
@@ -151,11 +151,11 @@
                     },
                     "UserNotOfCA": {
                         "Title": "Un problème inconnu s'est produit </br>lors de la modification du compte utilisateur",
-                        "Text": "Veuillez nous contacter à l'adresse <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
+                        "Text": "Veuillez nous contacter à l'adresse <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
                     },
                     "UserNotActivated": {
                         "Title": "Un problème inconnu s'est produit </br>lors de la modification du compte utilisateur",
-                        "Text": "Veuillez nous contacter à l'adresse <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
+                        "Text": "Veuillez nous contacter à l'adresse <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
                     }
                 }
             },
@@ -231,35 +231,35 @@
 
                     "Failure": {
                         "Title": "Une erreur imprévue est survenue",
-                        "Text": "Veuillez nous contacter à l'adresse <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
+                        "Text": "Veuillez nous contacter à l'adresse <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
                     },
                     "OfUserNotFound": {
                         "Title": "Le compte utilisateur est introuvable",
-                        "Text": "Veuillez nous contacter à l'adresse <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
+                        "Text": "Veuillez nous contacter à l'adresse <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
                     },
                     "NotMainUser": {
                         "Title": "Vous ne disposez pas de droits d'administrateur.",
-                        "Text": "Veuillez nous contacter à l'adresse <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
+                        "Text": "Veuillez nous contacter à l'adresse <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
                     },
                     "AccessDenied": {
                         "Title": "Un problème s'est produit avec votre compte. Accès interdit.",
-                        "Text": "Veuillez nous contacter à l'adresse <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
+                        "Text": "Veuillez nous contacter à l'adresse <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
                     },
                     "UserNotFound": {
                         "Title": "Compte introuvable",
-                        "Text": "Veuillez nous contacter à l'adresse <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
+                        "Text": "Veuillez nous contacter à l'adresse <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
                     },
                     "UnknownError": {
                         "Title": "Un problème inconnu s'est produit </br>lors de la modification du compte utilisateur",
-                        "Text": "Veuillez nous contacter à l'adresse <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
+                        "Text": "Veuillez nous contacter à l'adresse <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
                     },
                     "UserNotOfCA": {
                         "Title": "Un problème inconnu s'est produit </br>lors de la modification du compte utilisateur",
-                        "Text": "Veuillez nous contacter à l'adresse <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
+                        "Text": "Veuillez nous contacter à l'adresse <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
                     },
                     "UserNotActivated": {
                         "Title": "Un problème inconnu s'est produit </br>lors de la modification du compte utilisateur",
-                        "Text": "Veuillez nous contacter à l'adresse <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
+                        "Text": "Veuillez nous contacter à l'adresse <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
                     }
                 },
                 "permissions": {

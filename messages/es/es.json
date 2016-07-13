@@ -87,7 +87,7 @@
                 "errors": {
                     "UnknownError": {
                         "title": "Se ha producido un fallo desconocido",
-                        "text": "Se ha producido un fallo desconocido a la hora de cambiar de idioma. <br />Por favor, espere unos minutos e inténtelo de nuevo. Si el problema vuelve a aparecer, envíenos un correo electrónico a <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> para solucionar el problema"
+                        "text": "Se ha producido un fallo desconocido a la hora de cambiar de idioma. <br />Por favor, espere unos minutos e inténtelo de nuevo. Si el problema vuelve a aparecer, envíenos un correo electrónico a <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> para solucionar el problema"
                     }
                 }
             },
@@ -102,42 +102,42 @@
                 "close": "Close",
                 "AccountProblems": {
                     "title": "Se ha producido un problema con su cuenta",
-                    "message": "Envíe un correo electrónico a <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> para solucionar el problema"
+                    "message": "Envíe un correo electrónico a <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> para solucionar el problema"
                 }
             },
 
             "SecurityExceptions": {
                 "Unexpected": {
                     "title": "Se ha producido un problema con su cuenta",
-                    "text": "Envíe un correo electrónico a <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> para solucionar el problema"
+                    "text": "Envíe un correo electrónico a <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> para solucionar el problema"
                 },
                 "AccessDenied": {
                     "title": "Se ha producido un problema con su cuenta",
-                    "text": "Envíe un correo electrónico a <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> para solucionar el problema"
+                    "text": "Envíe un correo electrónico a <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> para solucionar el problema"
                 },
                 "AdminBlocked": {
                     "title": "Se ha producido un problema con su cuenta",
-                    "text": "Envíe un correo electrónico a <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> para solucionar el problema"
+                    "text": "Envíe un correo electrónico a <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> para solucionar el problema"
                 },
                 "NotActivated": {
                     "title": "Se ha producido un problema con su cuenta",
-                    "text": "Envíe un correo electrónico a <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> para solucionar el problema"
+                    "text": "Envíe un correo electrónico a <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> para solucionar el problema"
                 },
                 "UserNotFound": {
                     "title": "Se ha producido un problema con su cuenta",
-                    "text": "Envíe un correo electrónico a <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> para solucionar el problema"
+                    "text": "Envíe un correo electrónico a <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> para solucionar el problema"
                 },
                 "NotSupportedCompanyCategory": {
                     "title": "Se ha producido un problema con su cuenta",
-                    "text": "Envíe un correo electrónico a <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> para solucionar el problema"
+                    "text": "Envíe un correo electrónico a <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> para solucionar el problema"
                 },
                 "NotSupportedSystemType": {
                     "title": "Se ha producido un problema con su cuenta",
-                    "text": "Envíe un correo electrónico a <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> para solucionar el problema"
+                    "text": "Envíe un correo electrónico a <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> para solucionar el problema"
                 },
                 "IsSupportStuff": {
                     "title": "Se ha producido un problema con su cuenta",
-                    "text": "Envíe un correo electrónico a <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> para solucionar el problema"
+                    "text": "Envíe un correo electrónico a <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> para solucionar el problema"
                 }
             },
             "CheckUserSessionExceptions": {
@@ -188,7 +188,7 @@
                 },
                 "forbidden": {
                     "title": "No tiene acceso a esta página",
-                    "text": "Envíe un correo electrónico a <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>",
+                    "text": "Envíe un correo electrónico a <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>",
                     "to-main-page": "  "
                 },
                 "end-session": {
@@ -201,7 +201,7 @@
 
                 "UnknownError": {
                     "title": "Se ha producido un fallo desconocido",
-                    "text": "Envíe un correo electrónico a <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
+                    "text": "Envíe un correo electrónico a <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
                 }
             }
         }

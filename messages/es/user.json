@@ -21,7 +21,7 @@
                     "errors": {
                         "UnknownError": {
                             "title": "Error desconocido a la hora de recibir la lista de usuarios",
-                            "text": "Envíe un correo electrónico a <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> para solucionar el problema"
+                            "text": "Envíe un correo electrónico a <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> para solucionar el problema"
                         }
                     }
                 },
@@ -123,11 +123,11 @@
                     },
                     "Failure": {
                         "Title": "Fallo desconocido",
-                        "Text": "Consulte con el soporte técnico <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> sobre cómo solucionar este problema"
+                        "Text": "Consulte con el soporte técnico <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> sobre cómo solucionar este problema"
                     },
                     "UserNotFound": {
                         "Title": "Usuario no encontrado",
-                        "Text": "Consulte con el soporte técnico <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> sobre cómo solucionar este problema"
+                        "Text": "Consulte con el soporte técnico <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> sobre cómo solucionar este problema"
                     },
                     "NotMainUser": {
                         "Title": "Usted no dispone de los derechos de administrador para esta empresa",
@@ -135,7 +135,7 @@
                     },
                     "AccessDenied": {
                         "Title": "Acceso denegado",
-                        "Text": "Consulte con el soporte técnico <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> sobre cómo solucionar este problema"
+                        "Text": "Consulte con el soporte técnico <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> sobre cómo solucionar este problema"
                     },
                     "ReqOfUserNotFound": {
                         "Title": "La cuenta solicitada no se ha encontrado",
@@ -151,11 +151,11 @@
                     },
                     "UserNotOfCA": {
                         "Title": "Se ha producido un fallo inesperado </br> a la hora de redactar el perfil de usuario",
-                        "Text": "Envíe un correo electrónico a <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
+                        "Text": "Envíe un correo electrónico a <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
                     },
                     "UserNotActivated": {
                         "Title": "Se ha producido un fallo inesperado </br> a la hora de redactar el perfil de usuario",
-                        "Text": "Envíe un correo electrónico a <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
+                        "Text": "Envíe un correo electrónico a <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
                     }
                 }
             },
@@ -231,35 +231,35 @@
 
                     "Failure": {
                         "Title": "Se ha ocurrido un error inesperado",
-                        "Text": "Envíe un correo electrónico a <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
+                        "Text": "Envíe un correo electrónico a <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
                     },
                     "OfUserNotFound": {
                         "Title": "La cuenta no se ha encontrado",
-                        "Text": "Envíe un correo electrónico a <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
+                        "Text": "Envíe un correo electrónico a <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
                     },
                     "NotMainUser": {
                         "Title": "Usted no dispone de los derechos de administrador para esta empresa.",
-                        "Text": "Envíe un correo electrónico a <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
+                        "Text": "Envíe un correo electrónico a <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
                     },
                     "AccessDenied": {
                         "Title": "Se ha producido un problema con su cuenta. Acceso denegado.",
-                        "Text": "Envíe un correo electrónico a <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
+                        "Text": "Envíe un correo electrónico a <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
                     },
                     "UserNotFound": {
                         "Title": "Cuenta no encontrada",
-                        "Text": "Envíe un correo electrónico a <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
+                        "Text": "Envíe un correo electrónico a <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
                     },
                     "UnknownError": {
                         "Title": "Se ha producido un fallo inesperado </br> a la hora de redactar el perfil de usuario",
-                        "Text": "Envíe un correo electrónico a <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
+                        "Text": "Envíe un correo electrónico a <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
                     },
                     "UserNotOfCA": {
                         "Title": "Se ha producido un fallo inesperado </br> a la hora de redactar el perfil de usuario",
-                        "Text": "Envíe un correo electrónico a <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
+                        "Text": "Envíe un correo electrónico a <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
                     },
                     "UserNotActivated": {
                         "Title": "Se ha producido un fallo inesperado </br> a la hora de redactar el perfil de usuario",
-                        "Text": "Envíe un correo electrónico a <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
+                        "Text": "Envíe un correo electrónico a <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
                     }
                 },
                 "permissions": {

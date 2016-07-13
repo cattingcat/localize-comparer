@@ -21,7 +21,7 @@
                     "errors": {
                         "UnknownError": {
                             "title": "Unbekannter Fehler beim Laden der Benutzerliste",
-                            "text": "Kontaktieren Sie uns unter  <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>  um das Problem zu beheben."
+                            "text": "Kontaktieren Sie uns unter  <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>  um das Problem zu beheben."
                         }
                     }
                 },
@@ -72,7 +72,7 @@
                     "errors": {
                         "UnknownError": {
                             "title": "Unbekannter Fehler beim Laden der Benutzerinformationen",
-                            "text": "Kontaktieren Sie uns unter  <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>  um das Problem zu beheben."
+                            "text": "Kontaktieren Sie uns unter  <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>  um das Problem zu beheben."
                         }
                     }
                 },
@@ -100,11 +100,11 @@
                     },
                     "Failure": {
                         "Title": "Unbekannter Fehler",
-                        "Text": "Lassen Sie sich vom Support <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> beraten, wie dieses Problem gelöst werden kann."
+                        "Text": "Lassen Sie sich vom Support <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> beraten, wie dieses Problem gelöst werden kann."
                     },
                     "UserNotFound": {
                         "Title": "Der Benutzer wurde nicht gefunden",
-                        "Text": "Lassen Sie sich vom Support <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> beraten, wie dieses Problem gelöst werden kann."
+                        "Text": "Lassen Sie sich vom Support <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> beraten, wie dieses Problem gelöst werden kann."
                     },
                     "NotMainUser": {
                         "Title": "Sie sind kein Administrator des Unternehmens",
@@ -112,15 +112,15 @@
                     },
                     "AccessDenied": {
                         "Title": "Der Zugriff ist verboten",
-                        "Text": "Lassen Sie sich vom Support <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> beraten, wie dieses Problem gelöst werden kann."
+                        "Text": "Lassen Sie sich vom Support <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> beraten, wie dieses Problem gelöst werden kann."
                     },
                     "UserNotOfCA": {
                         "Title": "Unbekannter Fehler </br>beim Bearbeiten des Benutzerprofils",
-                        "Text": "Kontaktieren Sie uns unter  <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>  um das Problem zu beheben."
+                        "Text": "Kontaktieren Sie uns unter  <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>  um das Problem zu beheben."
                     },
                     "UserNotActivated": {
                         "Title": "Unbekannter Fehler </br>beim Bearbeiten des Benutzerprofils",
-                        "Text": "Kontaktieren Sie uns unter  <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>  um das Problem zu beheben."
+                        "Text": "Kontaktieren Sie uns unter  <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>  um das Problem zu beheben."
                     },
                     "GetDetailsException_OfUserNotFound": {
                         "Title": "Das Benutzerkonto wurde nicht gefunden",
@@ -151,7 +151,7 @@
                     "errors": {
                         "UnknownError": {
                             "title": "Unbekannter Fehler beim Laden des Benutzerprofils",
-                            "text": "Kontaktieren Sie uns unter  <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>  um das Problem zu beheben."
+                            "text": "Kontaktieren Sie uns unter  <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>  um das Problem zu beheben."
                         }
                     }
                 },
@@ -215,35 +215,35 @@
 
                     "Failure": {
                         "Title": "Ein unvorhergesehener Fehler ist eingetreten",
-                        "Text": "Schreiben Sie an: <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
+                        "Text": "Schreiben Sie an: <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
                     },
                     "OfUserNotFound": {
                         "Title": "Das Benutzerkonto wurde nicht gefunden",
-                        "Text": "Schreiben Sie an: <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
+                        "Text": "Schreiben Sie an: <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
                     },
                     "NotMainUser": {
                         "Title": "Sie sind kein Administrator des Unternehmens.",
-                        "Text": "Schreiben Sie an: <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
+                        "Text": "Schreiben Sie an: <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
                     },
                     "AccessDenied": {
                         "Title": "Ihr Benutzerkonto weist ein Problem auf. Der Zugriff ist verboten.",
-                        "Text": "Schreiben Sie an: <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
+                        "Text": "Schreiben Sie an: <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
                     },
                     "UserNotFound": {
                         "Title": "Das Benutzerkonto wurde nicht gefunden",
-                        "Text": "Schreiben Sie an: <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
+                        "Text": "Schreiben Sie an: <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
                     },
                     "UnknownError": {
                         "Title": "Beim Ändern des Benutzerprofils </br> ist ein unbekannter Fehler aufgetreten",
-                        "Text": "Schreiben Sie an: <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
+                        "Text": "Schreiben Sie an: <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
                     },
                     "UserNotOfCA": {
                         "Title": "Unbekannter Fehler </br>beim Bearbeiten des Benutzerprofils",
-                        "Text": "Kontaktieren Sie uns unter  <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>  um das Problem zu beheben."
+                        "Text": "Kontaktieren Sie uns unter  <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>  um das Problem zu beheben."
                     },
                     "UserNotActivated": {
                         "Title": "Unbekannter Fehler </br>beim Bearbeiten des Benutzerprofils",
-                        "Text": "Kontaktieren Sie uns unter  <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>  um das Problem zu beheben."
+                        "Text": "Kontaktieren Sie uns unter  <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>  um das Problem zu beheben."
                     }
                 },
 

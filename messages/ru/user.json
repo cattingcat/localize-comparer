@@ -21,7 +21,7 @@
                     "errors": {
                         "UnknownError": {
                             "title": "Неизвестная ошибка при получении списка пользователей",
-                            "text": "Обратитесь по адресу <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> для решения возникших проблем"
+                            "text": "Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> для решения возникших проблем"
                         }
                     }
                 },
@@ -74,7 +74,7 @@
                     "errors": {
                         "UnknownError": {
                             "title": "Неизестная ошибка при получении информации о пользователе ",
-                            "text": "Пожалуйста, <a href='../../request/create/ca' target=\"_blank\"> проконсультируйтесь со службой технической поддержки </a> о возможных путях решения этой проблемы"
+                            "text": "Пожалуйста, <a href='../../request/create/ca' target=\"_blank\"> проконсультируйтесь со службой технической поддержки </a> о возможных путях решения этой проблемы."
                         }
                     }
                 },
@@ -99,7 +99,7 @@
                     },
                     "DeleteProfileException_DifferentCompanies": {
                         "Title": "В данную учетную запись были внесены изменения и ее нельзя удалить",
-                        "Text": "Пожалуйста, <a href='../../request/create/ca' target=\"_blank\"> проконсультируйтесь со службой технической поддержки </a> о возможных путях решения этой проблемы"
+                        "Text": "Пожалуйста, <a href='../../request/create/ca' target=\"_blank\"> проконсультируйтесь со службой технической поддержки </a> о возможных путях решения этой проблемы."
                     },
                     "GetDetailsException_OfUserNotFound": {
                         "Title": "Учетная запись не найдена",
@@ -123,11 +123,11 @@
                     },
                     "Failure": {
                         "Title": "Неизвестный сбой",
-                        "Text": "Проконсультируйтесь со службой технической поддержки <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> возможных путях решения этой проблемы"
+                        "Text": "Проконсультируйтесь со службой технической поддержки <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> возможных путях решения этой проблемы."
                     },
                     "UserNotFound": {
                         "Title": "Пользователь не найден",
-                        "Text": "Проконсультируйтесь со службой технической поддержки <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> возможных путях решения этой проблемы"
+                        "Text": "Проконсультируйтесь со службой технической поддержки <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> возможных путях решения этой проблемы."
                     },
                     "NotMainUser": {
                         "Title": "Вы не являетесь администратором компании",
@@ -135,7 +135,7 @@
                     },
                     "AccessDenied": {
                         "Title": "Доступ запрещен",
-                        "Text": "Проконсультируйтесь со службой технической поддержки <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> возможных путях решения этой проблемы"
+                        "Text": "Проконсультируйтесь со службой технической поддержки <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> возможных путях решения этой проблемы."
                     },
                     "ReqOfUserNotFound": {
                         "Title": "Запрошенная учетная запись не найдена",
@@ -151,11 +151,11 @@
                     },
                     "UserNotOfCA": {
                         "Title": "Во время редактирования профиля пользователя </br> произошел неизвестный сбой",
-                        "Text": "Обратитесь по адресу <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
+                        "Text": "Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
                     },
                     "UserNotActivated": {
                         "Title": "Во время редактирования профиля пользователя </br> произошел неизвестный сбой",
-                        "Text": "Обратитесь по адресу <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
+                        "Text": "Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
                     }
                 }
             },
@@ -231,35 +231,35 @@
 
                     "Failure": {
                         "Title": "Возникла непредвиденная ошибка",
-                        "Text": "Обратитесь по адресу <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
+                        "Text": "Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
                     },
                     "OfUserNotFound": {
                         "Title": "Учетная запись пользователя не найдена",
-                        "Text": "Обратитесь по адресу <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
+                        "Text": "Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
                     },
                     "NotMainUser": {
                         "Title": "Вы не являетесь администратором компании.",
-                        "Text": "Обратитесь по адресу <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
+                        "Text": "Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
                     },
                     "AccessDenied": {
                         "Title": "Возникла проблема с вашей учетной записью. Доступ запрещен.",
-                        "Text": "Обратитесь по адресу <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
+                        "Text": "Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
                     },
                     "UserNotFound": {
                         "Title": "Учетная запись не найдена",
-                        "Text": "Обратитесь по адресу <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
+                        "Text": "Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
                     },
                     "UnknownError": {
                         "Title": "Во время редактирования профиля пользователя </br> произошел неизвестный сбой",
-                        "Text": "Обратитесь по адресу <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
+                        "Text": "Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
                     },
                     "UserNotOfCA": {
                         "Title": "Во время редактирования профиля пользователя </br> произошел неизвестный сбой",
-                        "Text": "Обратитесь по адресу <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
+                        "Text": "Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
                     },
                     "UserNotActivated": {
                         "Title": "Во время редактирования профиля пользователя </br> произошел неизвестный сбой",
-                        "Text": "Обратитесь по адресу <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
+                        "Text": "Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
                     }
                 },
                 "permissions": {

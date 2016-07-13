@@ -87,7 +87,7 @@
                 "errors": {
                     "UnknownError": {
                         "title": "Unknown error occurred",
-                        "text": "Unknown error occurred when changing the language. <br />Please try again in a few minutes. Please contact <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> to fix the issue"
+                        "text": "Unknown error occurred when changing the language. <br />Please try again in a few minutes. Please contact <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> to fix the issue"
                     }
                 }
             },
@@ -102,42 +102,42 @@
                 "close": "Close",
                 "AccountProblems": {
                     "title": "User account error",
-                    "message": "Please contact us at <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> to fix the problem"
+                    "message": "Please contact us at <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> to fix the problem"
                 }
             },
 
             "SecurityExceptions": {
                 "Unexpected": {
                     "title": "User account error",
-                    "text": "Contact us at <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> to fix the problem"
+                    "text": "Contact us at <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> to fix the problem"
                 },
                 "AccessDenied": {
                     "title": "User account error",
-                    "text": "Contact us at <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> to fix the problem"
+                    "text": "Contact us at <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> to fix the problem"
                 },
                 "AdminBlocked": {
                     "title": "User account error",
-                    "text": "Contact us at <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> to fix the problem"
+                    "text": "Contact us at <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> to fix the problem"
                 },
                 "NotActivated": {
                     "title": "User account error",
-                    "text": "Contact us at <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> to fix the problem"
+                    "text": "Contact us at <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> to fix the problem"
                 },
                 "UserNotFound": {
                     "title": "User account error",
-                    "text": "Contact us at <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> to fix the problem"
+                    "text": "Contact us at <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> to fix the problem"
                 },
                 "NotSupportedCompanyCategory": {
                     "title": "User account error",
-                    "text": "Contact us at <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> to fix the problem"
+                    "text": "Contact us at <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> to fix the problem"
                 },
                 "NotSupportedSystemType": {
                     "title": "User account error",
-                    "text": "Contact us at <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> to fix the problem"
+                    "text": "Contact us at <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> to fix the problem"
                 },
                 "IsSupportStuff": {
                     "title": "User account error",
-                    "text": "Contact us at <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> to fix the problem"
+                    "text": "Contact us at <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> to fix the problem"
                 }
             },
             "CheckUserSessionExceptions": {
@@ -188,7 +188,7 @@
                 },
                 "forbidden": {
                     "title": "You have no access to this page",
-                    "text": "Please contact <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>",
+                    "text": "Please contact <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>",
                     "to-main-page": "  "
                 },
                 "end-session": {
@@ -201,7 +201,7 @@
 
                 "UnknownError": {
                     "title": "Unknown error occurred",
-                    "text": "Please contact <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
+                    "text": "Please contact <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
                 }
             }
         }

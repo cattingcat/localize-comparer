@@ -66,13 +66,13 @@
                     "errors": {
                         "UserNotFound": "Usuario no encontrado",
                         "AccessDenied": "Acceso denegado",
-                        "UnknownError": "Se ha producido un error, por favor, inténtelo de nuevo. Si el error vuelve a aparecer, envíe un correo electrónico a <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a> ",
+                        "UnknownError": "Se ha producido un error, por favor, inténtelo de nuevo. Si el error vuelve a aparecer, envíe un correo electrónico a <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a> ",
                         "StatusClosedCancelled": "No puede enviar el mensaje, ya que la solicitud se ha cambiado."
                     },
                     "loadingErrors": {
                         "UnknownError": {
                             "title": "Error desconocido a la hora de recibir la información acerca de la solicitud",
-                            "text": "Se ha producido un error, por favor, inténtelo de nuevo. Si el error vuelve a aparecer, envíe un correo electrónico a <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a> "
+                            "text": "Se ha producido un error, por favor, inténtelo de nuevo. Si el error vuelve a aparecer, envíe un correo electrónico a <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a> "
                         }
                     }
                 },
@@ -124,7 +124,7 @@
                     "errors": {
                         "UnknownError": {
                             "title": "Error desconocido a la hora de recibir la lista de solicitudes",
-                            "text": "Se ha producido un error, por favor, inténtelo de nuevo. Si el error vuelve a aparecer, envíe un correo electrónico a <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a>"
+                            "text": "Se ha producido un error, por favor, inténtelo de nuevo. Si el error vuelve a aparecer, envíe un correo electrónico a <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a>"
                         }
                     }
                 },
@@ -133,7 +133,7 @@
                     "title": "Seleccione tipo de solicitud:",
                     "no-request-types": {
                         "title": "No tiene categorías de solicitudes disponibles",
-                        "description": "Envíe un correo electrónico a <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a> para solucionar este problema"
+                        "description": "Envíe un correo electrónico a <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a> para solucionar este problema"
                     }
                 },
 
@@ -154,39 +154,21 @@
                     "send-process": "Por favor, espere, su solicitud se está procesando...",
                     "cancel-request": "Cancelar",
                     "errors": {
-                        "UnknownError": "Se ha producido un error, por favor, inténtelo de nuevo. Si el error vuelve a aparecer, envíe un correo electrónico a <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a> "
+                        "UnknownError": "Se ha producido un error, por favor, inténtelo de nuevo. Si el error vuelve a aparecer, envíe un correo electrónico a <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a> "
                     },
                     "loadingErrors": {
                         "UnknownError": {
                             "title": "Error desconocido a la hora de recibir datos necesarios para crear la solicitud СА-question",
-                            "text": "Se ha producido un error, por favor, inténtelo de nuevo. Si el error vuelve a aparecer, envíe un correo electrónico a <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a>"
+                            "text": "Se ha producido un error, por favor, inténtelo de nuevo. Si el error vuelve a aparecer, envíe un correo electrónico a <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a>"
                         }
                     }
                 },
 
-                "feedback": {
+                "complaint": {
                     "title": "Nueva queja sobre la calidad de soporte",
-                    "note": "Por favor, tenga en cuenta que el Grupo de Control de Calidad puede tramitar sólo solicitudes escritas en ruso o inglés.",
-                    "theme": "[EV] Тема обращения",
+                    "note": "Por favor, tenga en cuenta que el Grupo de Control de calidad puede tramitar sólo solicitudes escritas en ruso o inglés.",
                     "description": "Descripción detallada<br />de su queja:",
-                    "description-placeholder": "[EV] Опишите суть вашей претензии",
-                    "request": "Solicitud cuya solución<br /> no le ha satisfecho:",
-                    "request-placeholder": "[EV] Выберите номер запроса",
-                    "success": "[EV] Ваша жалоба создана. Номер запроса: <a href=\"/request/view/{requestId}\">{requestId}</a>",
-                    "errors": {
-                        "Details.RequiredRule": "[EV] Опишите подробности вашей жалобы ",
-                        "Details.TextMaxLengthLimitRule": "[EV] Описание слишком длинное",
-                        "TypeId.RequiredRule": "[EV] Выберите тему жалобы",
-                        "TypeId.TextMaxLengthLimitRule": "[EV] Тема жалобы слишком длинная",
-
-                        "UnknownError": "[EV] Произошла ошибка, пожалуйста, попробуйте ещё раз. Если ошибка повторится, обратитесь по адресу <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a>"
-                    },
-                    "loadingErrors": {
-                        "UnknownError": {
-                            "title": "[EV] Неизвестная ошибка, при получении данных, необходимых для создания запроса СА-question",
-                            "text": "[EV] Please contact <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
-                        }
-                    }
+                    "request": "Solicitud suya solución<br /> no le ha satisfecho:"
                 },
 
                 "csr": {
@@ -207,7 +189,7 @@
                     "errors": {
                         "WrongFileSize": "Tamaño de archivo no válido",
                         "WrongFileFormat": "Formato de archivo no válido",
-                        "UnknownError": "Se ha producido un error, por favor, inténtelo de nuevo. Si el error vuelve a aparecer, envíe un correo electrónico a <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a>  "
+                        "UnknownError": "Se ha producido un error, por favor, inténtelo de nuevo. Si el error vuelve a aparecer, envíe un correo electrónico a <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a>  "
                     }
                 },
 
@@ -233,13 +215,13 @@
                         "AccessDenied": "El acceso está denegado, esta operación no esta disponible para este usuario",
                         "WrongFileSize": "Uno de los archivos subidos supera el límite de tamaño permitido",
                         "WrongFileFormat": "Uno de los archivos cargados tiene un formato no válido",
-                        "UnknownError": "Se ha producido un error, por favor, inténtelo de nuevo. Si el error vuelve a aparecer, envíe un correo electrónico a <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a>   ",
+                        "UnknownError": "Se ha producido un error, por favor, inténtelo de nuevo. Si el error vuelve a aparecer, envíe un correo electrónico a <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a>   ",
                         "EmailPattern": "Especifique un correo electrónico válido SI quiere introducir varias direcciones de correo, utilice el signo de punto y coma para separarlas."
                     },
                     "loadingErrors": {
                         "UnknownError": {
                             "title": "Se ha producido un error desconocido a la hora de enviar la solicitud",
-                            "text": "Se ha producido un error, por favor, inténtelo de nuevo. Si el error vuelve a aparecer, envíe un correo electrónico a <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a>"
+                            "text": "Se ha producido un error, por favor, inténtelo de nuevo. Si el error vuelve a aparecer, envíe un correo electrónico a <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a>"
                         }
                     }
                 },
@@ -250,7 +232,7 @@
                     "loadingErrors": {
                         "UnknownError": {
                             "title": "Se ha producido un error desconocido a la hora de enviar la solicitud",
-                            "text": "Se ha producido un error, por favor, inténtelo de nuevo. Si el error vuelve a aparecer, envíe un correo electrónico a <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a>"
+                            "text": "Se ha producido un error, por favor, inténtelo de nuevo. Si el error vuelve a aparecer, envíe un correo electrónico a <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a>"
                         }
                     }
                 },
@@ -290,12 +272,12 @@
                     "send-process": "Por favor, espere, su solicitud se está tramitando...",
                     "cancel-request": "Cancelar",
                     "errors": {
-                        "UnknownError": "Se ha producido un error, por favor, inténtelo de nuevo. Si el error vuelve a aparecer, envíe un correo electrónico a <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a>  "
+                        "UnknownError": "Se ha producido un error, por favor, inténtelo de nuevo. Si el error vuelve a aparecer, envíe un correo electrónico a <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a>  "
                     },
                     "loadingErrors": {
                         "UnknownError": {
                             "title": "Se ha producido un error desconocido a la hora de crear la solicitud",
-                            "text": "Se ha producido un error, por favor, inténtelo de nuevo. Si el error vuelve a aparecer, envíe un correo electrónico a <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a>"
+                            "text": "Se ha producido un error, por favor, inténtelo de nuevo. Si el error vuelve a aparecer, envíe un correo electrónico a <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a>"
                         }
                     },
                     "license": {
@@ -326,7 +308,7 @@
                     "loadingErrors": {
                         "UnknownError": {
                             "title": "Se ha producido un error desconocido a la hora de crear la solicitud",
-                            "text": "Se ha producido un error, por favor, inténtelo de nuevo. Si el error vuelve a aparecer, envíe un correo electrónico a <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a>"
+                            "text": "Se ha producido un error, por favor, inténtelo de nuevo. Si el error vuelve a aparecer, envíe un correo electrónico a <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a>"
                         }
                     }
                 },
@@ -337,7 +319,7 @@
                     "loadingErrors": {
                         "UnknownError": {
                             "title": "Se ha producido un error desconocido a la hora de crear la solicitud",
-                            "text": "Se ha producido un error, por favor, inténtelo de nuevo. Si el error vuelve a aparecer, envíe un correo electrónico a <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a>"
+                            "text": "Se ha producido un error, por favor, inténtelo de nuevo. Si el error vuelve a aparecer, envíe un correo electrónico a <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a>"
                         }
                     }
                 }

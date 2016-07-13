@@ -66,13 +66,13 @@
                     "errors": {
                         "UserNotFound": "User not found",
                         "AccessDenied": "Access denied",
-                        "UnknownError": "An error occurred. Please try again. If the issue persists, please contact us at <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a> ",
+                        "UnknownError": "An error occurred. Please try again. If the issue persists, please contact us at <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a> ",
                         "StatusClosedCancelled": "Unable to send the message. The request has been changed"
                     },
                     "loadingErrors": {
                         "UnknownError": {
                             "title": "Unknown error occurred while loading request information",
-                            "text": "An error occurred. Please try again. If the issue persists, please contact us at <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a> "
+                            "text": "An error occurred. Please try again. If the issue persists, please contact us at <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a> "
                         }
                     }
                 },
@@ -124,7 +124,7 @@
                     "errors": {
                         "UnknownError": {
                             "title": "Unknown error occurred while loading the list of requests",
-                            "text": "An error occurred. Please try again. If the issue persists, please contact us at <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a>"
+                            "text": "An error occurred. Please try again. If the issue persists, please contact us at <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a>"
                         }
                     }
                 },
@@ -133,7 +133,7 @@
                     "title": "Select the request category:",
                     "no-request-types": {
                         "title": "No categories available",
-                        "description": "Please contact us at <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> to fix the issue"
+                        "description": "Please contact us at <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> to fix the issue"
                     }
                 },
 
@@ -154,39 +154,21 @@
                     "send-process": "Your request is being processed...",
                     "cancel-request": "Cancel",
                     "errors": {
-                        "UnknownError": "An error occurred. Please try again. If the issue persists, please contact us at <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a> "
+                        "UnknownError": "An error occurred. Please try again. If the issue persists, please contact us at <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a> "
                     },
                     "loadingErrors": {
                         "UnknownError": {
                             "title": "Unknown error occurred while retrieving data for creating the request",
-                            "text": "An error occurred. Please try again. If the issue persists, please contact us at <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a>"
+                            "text": "An error occurred. Please try again. If the issue persists, please contact us at <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a>"
                         }
                     }
                 },
 
-                "feedback": {
+                "complaint": {
                     "title": "New support quality complaint",
                     "note": "Please note that the quality control group only handles complaints written in Russian and English languages.",
-                    "theme": "[EV] Theme",
                     "description": "Detailed description <br />of your complaint:",
-                    "description-placeholder": "[EV] Description",
-                    "request": "The request related <br /> to your complaint:",
-                    "request-placeholder": "[EV] Incident:",
-                    "success": "[EV] Ваша жалоба создана. Номер запроса: <a href=\"/request/view/{requestId}\">{requestId}</a>",
-                    "errors": {
-                        "Details.RequiredRule": "[EV] Опишите подробности вашей жалобы ",
-                        "Details.TextMaxLengthLimitRule": "[EV] Описание слишком длинное",
-                        "TypeId.RequiredRule": "[EV] Выберите тему жалобы",
-                        "TypeId.TextMaxLengthLimitRule": "[EV] Тема жалобы слишком длинная",
-
-                        "UnknownError": "[EV] Произошла ошибка, пожалуйста, попробуйте ещё раз. Если ошибка повторится, обратитесь по адресу <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a>"
-                    },
-                    "loadingErrors": {
-                        "UnknownError": {
-                            "title": "[EV] Неизвестная ошибка, при получении данных, необходимых для создания запроса СА-question",
-                            "text": "[EV] Please contact <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
-                        }
-                    }
+                    "request": "The request related <br /> to your complaint:"
                 },
 
                 "csr": {
@@ -207,7 +189,7 @@
                     "errors": {
                         "WrongFileSize": "Invalid file size",
                         "WrongFileFormat": "Invalid file format",
-                        "UnknownError": "An error occurred. Please try again. If the issue persists, please contact us at <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a>  "
+                        "UnknownError": "An error occurred. Please try again. If the issue persists, please contact us at <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a>  "
                     }
                 },
 
@@ -233,13 +215,13 @@
                         "AccessDenied": "Access denied. The operation is unavailable",
                         "WrongFileSize": "One of the uploaded files is too large",
                         "WrongFileFormat": "One of the uploaded files has invalid format",
-                        "UnknownError": "An error occurred. Please try again. If the issue persists, please contact us at <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a>   ",
+                        "UnknownError": "An error occurred. Please try again. If the issue persists, please contact us at <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a>   ",
                         "EmailPattern": "Enter your e-mail correctly. When you add multiple addresses, use a semicolon between them"
                     },
                     "loadingErrors": {
                         "UnknownError": {
                             "title": "Unknown error occurred while sending the request",
-                            "text": "An error occurred. Please try again. If the issue persists, please contact us at <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a>"
+                            "text": "An error occurred. Please try again. If the issue persists, please contact us at <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a>"
                         }
                     }
                 },
@@ -250,7 +232,7 @@
                     "loadingErrors": {
                         "UnknownError": {
                             "title": "Unknown error occurred while sending the request",
-                            "text": "An error occurred. Please try again. If the issue persists, please contact us at <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a>"
+                            "text": "An error occurred. Please try again. If the issue persists, please contact us at <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a>"
                         }
                     }
                 },
@@ -290,12 +272,12 @@
                     "send-process": "The request is being processed...",
                     "cancel-request": "Cancel",
                     "errors": {
-                        "UnknownError": "An error occurred. Please try again. If the issue persists, please contact us at <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a>  "
+                        "UnknownError": "An error occurred. Please try again. If the issue persists, please contact us at <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a>  "
                     },
                     "loadingErrors": {
                         "UnknownError": {
                             "title": "Unknown error occurred while creating a request",
-                            "text": "An error occurred. Please try again. If the issue persists, please contact us at <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a>"
+                            "text": "An error occurred. Please try again. If the issue persists, please contact us at <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a>"
                         }
                     },
                     "license": {
@@ -326,7 +308,7 @@
                     "loadingErrors": {
                         "UnknownError": {
                             "title": "Unknown error occurred while creating a request",
-                            "text": "An error occurred. Please try again. If the issue persists, please contact us at <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a>"
+                            "text": "An error occurred. Please try again. If the issue persists, please contact us at <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a>"
                         }
                     }
                 },
@@ -337,7 +319,7 @@
                     "loadingErrors": {
                         "UnknownError": {
                             "title": "Unknown error occurred while creating a request",
-                            "text": "An error occurred. Please try again. If the issue persists, please contact us at <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a>"
+                            "text": "An error occurred. Please try again. If the issue persists, please contact us at <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a>"
                         }
                     }
                 }

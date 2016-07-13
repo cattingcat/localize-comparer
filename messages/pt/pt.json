@@ -148,7 +148,7 @@
                     "title": "[EV][SessionNotFound] Refresh token deleted",
                     "text": " "
                 },
-                "RefreshTokenExpired": { 
+                "RefreshTokenExpired": {
                     "title": "[EV] Refresh token expired",
                     "text": " "
                 }

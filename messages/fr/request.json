@@ -66,13 +66,13 @@
                     "errors": {
                         "UserNotFound": "Utilisateur introuvable",
                         "AccessDenied": "Accès interdit",
-                        "UnknownError": "Une erreur s'est produite, veuillez réessayer. Si le problème persiste, contactez nous à l'adresse <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a> ",
+                        "UnknownError": "Une erreur s'est produite, veuillez réessayer. Si le problème persiste, contactez nous à l'adresse <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a> ",
                         "StatusClosedCancelled": "Vous ne pouvez pas envoyer votre message : la demande a été modifiée"
                     },
                     "loadingErrors": {
                         "UnknownError": {
                             "title": "Erreur inconnue lors de l'obtention des informations sur la demande",
-                            "text": "Une erreur s'est produite, veuillez réessayer. Si le problème persiste, contactez nous à l'adresse <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a> "
+                            "text": "Une erreur s'est produite, veuillez réessayer. Si le problème persiste, contactez nous à l'adresse <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a> "
                         }
                     }
                 },
@@ -124,7 +124,7 @@
                     "errors": {
                         "UnknownError": {
                             "title": "Erreur inconnue lors de l'obtention de la liste des demandes",
-                            "text": "Une erreur s'est produite, veuillez réessayer. Si le problème persiste, contactez nous à l'adresse <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a>"
+                            "text": "Une erreur s'est produite, veuillez réessayer. Si le problème persiste, contactez nous à l'adresse <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a>"
                         }
                     }
                 },
@@ -133,7 +133,7 @@
                     "title": "Sélectionnez la catégorie de demande :",
                     "no-request-types": {
                         "title": "Aucune catégorie de demande disponible",
-                        "description": "Contactez-nous à l'adresse <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a> pour résoudre le problème"
+                        "description": "Contactez-nous à l'adresse <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a> pour résoudre le problème"
                     }
                 },
 
@@ -154,39 +154,21 @@
                     "send-process": "Veuillez patienter, la demande est en cours de traitement...",
                     "cancel-request": "Annuler",
                     "errors": {
-                        "UnknownError": "Une erreur s'est produite, veuillez réessayer. Si le problème persiste, contactez nous à l'adresse <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a> "
+                        "UnknownError": "Une erreur s'est produite, veuillez réessayer. Si le problème persiste, contactez nous à l'adresse <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a> "
                     },
                     "loadingErrors": {
                         "UnknownError": {
                             "title": "Erreur inconnue lors de l'obtention des données nécessaires pour la création d'une demande",
-                            "text": "Une erreur s'est produite, veuillez réessayer. Si le problème persiste, contactez nous à l'adresse <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a>"
+                            "text": "Une erreur s'est produite, veuillez réessayer. Si le problème persiste, contactez nous à l'adresse <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a>"
                         }
                     }
                 },
 
-                "feedback": {
+                "complaint": {
                     "title": "Nouvelle plainte concernant la qualité du support",
                     "note": "Veuillez noter que seules les plaintes rédigées en anglais et en russe sont traitées par le groupe du contrôle de qualité.",
-                    "theme": "[EV] Тема обращения",
                     "description": "Expliquez la raison<br />de votre mécontentement :",
-                    "description-placeholder": "[EV] Опишите суть вашей претензии",
-                    "request": "Réponse<br />qui ne vous satisfait pas :",
-                    "request-placeholder": "[EV] Выберите номер запроса",
-                    "success": "[EV] Ваша жалоба создана. Номер запроса: <a href=\"/request/view/{requestId}\">{requestId}</a>",
-                    "errors": {
-                        "Details.RequiredRule": "[EV] Опишите подробности вашей жалобы ",
-                        "Details.TextMaxLengthLimitRule": "[EV] Описание слишком длинное",
-                        "TypeId.RequiredRule": "[EV] Выберите тему жалобы",
-                        "TypeId.TextMaxLengthLimitRule": "[EV] Тема жалобы слишком длинная",
-
-                        "UnknownError": "[EV] Произошла ошибка, пожалуйста, попробуйте ещё раз. Если ошибка повторится, обратитесь по адресу <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a>"
-                    },
-                    "loadingErrors": {
-                        "UnknownError": {
-                            "title": "[EV] Неизвестная ошибка, при получении данных, необходимых для создания запроса СА-question",
-                            "text": "[EV] Please contact <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
-                        }
-                    }
+                    "request": "Réponse<br />qui ne vous satisfait pas :"
                 },
 
                 "csr": {
@@ -207,7 +189,7 @@
                     "errors": {
                         "WrongFileSize": "Taille du fichier inadmissible",
                         "WrongFileFormat": "Format du fichier incorrect",
-                        "UnknownError": "Une erreur s'est produite, veuillez réessayer. Si le problème persiste, contactez nous à l'adresse <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a>  "
+                        "UnknownError": "Une erreur s'est produite, veuillez réessayer. Si le problème persiste, contactez nous à l'adresse <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a>  "
                     }
                 },
 
@@ -233,13 +215,13 @@
                         "AccessDenied": "Accès interdit, l'opération n'est pas disponible",
                         "WrongFileSize": "La taille d'un des fichiers chargés dépasse la limite autorisée",
                         "WrongFileFormat": "Le format d'un des fichiers chargés est incorrect",
-                        "UnknownError": "Une erreur s'est produite, veuillez réessayer. Si le problème persiste, contactez nous à l'adresse <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a>   ",
+                        "UnknownError": "Une erreur s'est produite, veuillez réessayer. Si le problème persiste, contactez nous à l'adresse <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a>   ",
                         "EmailPattern": "Veuillez indiquer une adresse email valide Utilisez un point-virgule pour séparer plusieurs adresses email."
                     },
                     "loadingErrors": {
                         "UnknownError": {
                             "title": "Une erreur inconnue s'est produite lors de l'envoi de la demande",
-                            "text": "Une erreur s'est produite, veuillez réessayer. Si le problème persiste, contactez nous à l'adresse <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a>"
+                            "text": "Une erreur s'est produite, veuillez réessayer. Si le problème persiste, contactez nous à l'adresse <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a>"
                         }
                     }
                 },
@@ -250,7 +232,7 @@
                     "loadingErrors": {
                         "UnknownError": {
                             "title": "Une erreur inconnue s'est produite lors de l'envoi de la demande",
-                            "text": "Une erreur s'est produite, veuillez réessayer. Si le problème persiste, contactez nous à l'adresse <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a>"
+                            "text": "Une erreur s'est produite, veuillez réessayer. Si le problème persiste, contactez nous à l'adresse <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a>"
                         }
                     }
                 },
@@ -290,12 +272,12 @@
                     "send-process": "Veuillez patienter, la demande est en cours de traitement...",
                     "cancel-request": "Annuler",
                     "errors": {
-                        "UnknownError": "Une erreur s'est produite, veuillez réessayer. Si le problème persiste, contactez nous à l'adresse <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a>  "
+                        "UnknownError": "Une erreur s'est produite, veuillez réessayer. Si le problème persiste, contactez nous à l'adresse <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a>  "
                     },
                     "loadingErrors": {
                         "UnknownError": {
                             "title": "Une erreur inconnue s'est produite lors de la création de la demande",
-                            "text": "Une erreur s'est produite, veuillez réessayer. Si le problème persiste, contactez nous à l'adresse <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a>"
+                            "text": "Une erreur s'est produite, veuillez réessayer. Si le problème persiste, contactez nous à l'adresse <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a>"
                         }
                     },
                     "license": {
@@ -326,7 +308,7 @@
                     "loadingErrors": {
                         "UnknownError": {
                             "title": "Une erreur inconnue s'est produite lors de la création de la demande",
-                            "text": "Une erreur s'est produite, veuillez réessayer. Si le problème persiste, contactez nous à l'adresse <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a>"
+                            "text": "Une erreur s'est produite, veuillez réessayer. Si le problème persiste, contactez nous à l'adresse <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a>"
                         }
                     }
                 },
@@ -337,7 +319,7 @@
                     "loadingErrors": {
                         "UnknownError": {
                             "title": "Une erreur inconnue s'est produite lors de la création de la demande",
-                            "text": "Une erreur s'est produite, veuillez réessayer. Si le problème persiste, contactez nous à l'adresse <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a>"
+                            "text": "Une erreur s'est produite, veuillez réessayer. Si le problème persiste, contactez nous à l'adresse <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a>"
                         }
                     }
                 }

@@ -33,7 +33,7 @@
 
                         "AdminBlocked": {
                             "title": "Das Benutzerkonto wurde vom Administrator gesperrt",
-                            "text": "Um es zu entsperren, schreiben Sie an: <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
+                            "text": "Um es zu entsperren, schreiben Sie an: <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
                         },
                         "TempBlocking": {
                             "title": "Der Benutzer ist vorübergehend gesperrt",
@@ -41,19 +41,19 @@
                         },
                         "UnknownError": {
                             "title": "Bei der Aktivierung des Benutzerkontos ist ein unbekannter Fehler aufgetreten",
-                            "text": "Bei der Aktivierung des Benutzerkontos ist ein unbekannter Fehler aufgetreten. <br />Bitte folgen Sie dem Link noch einmal. Wenn das Problem weiterhin besteht, dann <a href='mailto:betaca@kaspersky.com'>schreiben Sie uns</a>."
+                            "text": "Bei der Aktivierung des Benutzerkontos ist ein unbekannter Fehler aufgetreten. <br />Bitte folgen Sie dem Link noch einmal. Wenn das Problem weiterhin besteht, dann <a href='mailto:companyaccount@kaspersky.com'>schreiben Sie uns</a>."
                         },
                         "UserNotFound": {
                             "title": "Der Benutzer wurde nicht gefunden",
-                            "text": "Schreiben Sie an <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>, um entstandene Probleme zu lösen"
+                            "text": "Schreiben Sie an <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>, um entstandene Probleme zu lösen"
                         },
                         "LinkNotExist": {
                             "title": "Bei der Aktivierung des Benutzerkontos sind Probleme aufgetreten",
-                            "text": "Schreiben Sie an <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>, um entstandene Probleme zu lösen"
+                            "text": "Schreiben Sie an <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>, um entstandene Probleme zu lösen"
                         },
                         "DuplicatedRecords": {
                             "title": "Unbekannter Fehler aufgetreten",
-                            "text": "Unbekannter Fehler während der Aktivierung aufgetreten. <br />Bitte klicken Sie den Link erneut. <br />Wenn der Fehler weiterhin auftritt, <a href='mailto:betaca@kaspersky.com'>kontaktieren Sie bitte den Technischen Support</a>."
+                            "text": "Unbekannter Fehler während der Aktivierung aufgetreten. <br />Bitte klicken Sie den Link erneut. <br />Wenn der Fehler weiterhin auftritt, <a href='mailto:companyaccount@kaspersky.com'>kontaktieren Sie bitte den Technischen Support</a>."
                         },
                         "NotSupportedSystemType": {
                             "title": "System-Typ wird nicht unterstützt",
@@ -108,7 +108,7 @@
                     "errors": {
                         "LinkNotExist": {
                             "title": "Bei der Aktivierung des Benutzerkontos sind Probleme aufgetreten",
-                            "text": "Schreiben Sie an <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>, um entstandene Probleme zu lösen"
+                            "text": "Schreiben Sie an <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>, um entstandene Probleme zu lösen"
                         },
                         "LinkExpired": {
                             "title": "Der Link ist nicht mehr gültig",
@@ -120,11 +120,11 @@
                         },
                         "DuplicatedRecords": {
                             "title": "Bei der Aktivierung des Benutzerkontos sind Probleme aufgetreten",
-                            "text": "Schreiben Sie an <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>, um entstandene Probleme zu lösen"
+                            "text": "Schreiben Sie an <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>, um entstandene Probleme zu lösen"
                         },
                         "UnknownError": {
                             "title": "Bei der Aktivierung des Benutzerkontos ist ein unbekannter Fehler aufgetreten",
-                            "text": "Bei der Aktivierung des Benutzerkontos ist ein unbekannter Fehler aufgetreten. <br />Bitte folgen Sie dem Link noch einmal. Wenn das Problem weiterhin besteht, dann <a href='mailto:betaca@kaspersky.com'>schreiben Sie uns</a>."
+                            "text": "Bei der Aktivierung des Benutzerkontos ist ein unbekannter Fehler aufgetreten. <br />Bitte folgen Sie dem Link noch einmal. Wenn das Problem weiterhin besteht, dann <a href='mailto:companyaccount@kaspersky.com'>schreiben Sie uns</a>."
                         }
                     }
                 },
@@ -152,7 +152,7 @@
                     "errors": {
                         "UserNotFound": {
                             "title": "Das Benutzerkonto wurde nicht gefunden",
-                            "text": "Schreiben Sie an: <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
+                            "text": "Schreiben Sie an: <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
                         },
                         "LinkExpired": {
                             "title": "Der Link ist nicht mehr gültig",
@@ -164,15 +164,15 @@
                         },
                         "LinkNotExist": {
                             "title": "Beim Löschen des Benutzerkontos sind Probleme aufgetreten",
-                            "text": "Schreiben Sie an <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>, um entstandene Probleme zu lösen"
+                            "text": "Schreiben Sie an <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>, um entstandene Probleme zu lösen"
                         },
                         "DuplicatedRecords": {
                             "title": "Beim Löschen des Benutzerkontos sind Probleme aufgetreten",
-                            "text": "Schreiben Sie an <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>, um entstandene Probleme zu lösen"
+                            "text": "Schreiben Sie an <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>, um entstandene Probleme zu lösen"
                         },
                         "UnknownError": {
                             "title": "Es ist ein unbekannter Fehler aufgetreten",
-                            "text": "Beim Löschen des Benutzers ist ein unbekannter Fehler aufgetreten. <br />Bitte folgen Sie dem Link noch einmal.<br />Wenn das Problem weiterhin besteht, <a href='mailto:betaca@kaspersky.com'>schreiben Sie uns</a>."
+                            "text": "Beim Löschen des Benutzers ist ein unbekannter Fehler aufgetreten. <br />Bitte folgen Sie dem Link noch einmal.<br />Wenn das Problem weiterhin besteht, <a href='mailto:companyaccount@kaspersky.com'>schreiben Sie uns</a>."
                         }
                     }
                 },
@@ -205,17 +205,19 @@
                         "Email.EmailRule": "Die E-Mail-Adresse ist nicht korrekt",
                         "Email.MaxByteLengthRule": "Die maximale Länge der E-Mail-Adresse beträgt 127 Zeichen",
                         "Email.RepeatedRegistration": "Dieses Benutzerkonto wird bereits verwendet. Sie können entweder <a href='/account/forgot'>das Kennwort wieder herstellen</a> oder sich<a href='/account/login'>anmelden</a>",
-                        "Email.FailureUserExists": "Dieses Benutzerkonto wird bereits verwendet. Sie können entweder <a href='/account/forgot'>das Kennwort wieder herstellen</a> oder sich<a href='/account/login'>anmelden</a>",
-
                         "KeyFile.KeyFileRule": "Ungültige Schlüsseldatei",
                         "KeyFile.HttpFileSizeRule": "Die Schlüsseldatei ist zu groß",
                         "ActivationCode.ActivationCodeRule": "Ungültiger Aktivierungscode",
 
                         "InvalidEmailDomain": "Der Domainname kaspersky.com kann nicht angegeben werden",
                         "ActCodeOrKeyFileRequired": "Bitte fügen Sie Ihren Aktivierungscode oder Ihre Schlüsseldatei hinzu.",
+                        "FailureUserExists": {
+                            "title": "Dieses Benutzerkonto wird bereits verwendet. Sie können entweder <a href='/account/forgot'>das Kennwort wieder herstellen</a> oder sich<a href='/account/login'>anmelden</a>",
+                            "text": " "
+                        },
                         "UnknownError": {
                             "title": "Es ist ein unbekannter Fehler aufgetreten",
-                            "text": "Bitte versuchen Sie erneut, sich zu registrieren. Wenn das Problem weiterhin besteht, dann <a href='mailto:betaca@kaspersky.com'>schreiben Sie uns</a>."
+                            "text": "Bitte versuchen Sie erneut, sich zu registrieren. Wenn das Problem weiterhin besteht, dann <a href='mailto:companyaccount@kaspersky.com'>schreiben Sie uns</a>."
                         }
                     },
                     "success": {
@@ -237,7 +239,7 @@
                     },
                     "success": {
                         "title": "Die Anweisungen zur Wiederherstellung<br/> des Kennworts wurden gesendet",
-                        "description": "Bitte überprüfen Sie Ihr E-Mail-Postfach <b>{email}</b><br />Folgen Sie den Anweisungen in der E-Mail, um die Wiederherstellung des Kennworts abzuschließen.<p> <b>Achtung!</b>Wenn Sie keine E-Mail erhalten haben, prüfen Sie die E-Mail-Adresse und versuchen Sie es erneut. </br>Wenn die E-Mail-Adresse korrekt ist, aber Sie erneut keine E-Mail erhalten haben, </br>schreiben Sie bitte an: <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> </p>"
+                        "description": "Bitte überprüfen Sie Ihr E-Mail-Postfach <b>{email}</b><br />Folgen Sie den Anweisungen in der E-Mail, um die Wiederherstellung des Kennworts abzuschließen.<p> <b>Achtung!</b>Wenn Sie keine E-Mail erhalten haben, prüfen Sie die E-Mail-Adresse und versuchen Sie es erneut. </br>Wenn die E-Mail-Adresse korrekt ist, aber Sie erneut keine E-Mail erhalten haben, </br>schreiben Sie bitte an: <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> </p>"
                     },
                     "errors": {
                         "CaptchaIncorrect": "Der Code wurde inkorrekt eingegeben, versuchen Sie es erneut",
@@ -251,7 +253,7 @@
 
                         "AdminBlocked": {
                             "title": "Das Benutzerkonto wurde vom Administrator gesperrt",
-                            "text": "Um es zu entsperren, schreiben Sie an: <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
+                            "text": "Um es zu entsperren, schreiben Sie an: <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
                         },
                         "NotSupportedSystemType": {
                             "title": "Das Benutzerkonto gehört nicht zum CompanyAccount",
@@ -275,7 +277,7 @@
                         },
                         "UnknownError": {
                             "title": "Es ist ein unbekannter Fehler aufgetreten",
-                            "text": "Bitte versuchen Sie erneut, das Kennwort zurückzusetzen. Wenn das Problem weiterhin besteht, dann <a href='mailto:betaca@kaspersky.com'>schreiben Sie uns</a>."
+                            "text": "Bitte versuchen Sie erneut, das Kennwort zurückzusetzen. Wenn das Problem weiterhin besteht, dann <a href='mailto:companyaccount@kaspersky.com'>schreiben Sie uns</a>."
                         }
                     }
                 },
@@ -310,7 +312,7 @@
                         "PasswordIncorrect": "Das Kennwort ist falsch eingegeben",
                         "ExceededUserSessionCount": "Die Anzahl der gleichzeitigen Anmeldungen wurde überschritten",
                         "UnknownError": "Es ist ein unbekannter Fehler aufgetreten",
-                        "UnknownErrorDescription": "Beim Anmeldeversuch ist ein unbekannter Fehler aufgetreten.<br />Bitte versuchen Sie es erneut.<br />Wenn das Problem weiterhin besteht, <a href='mailto:betaca@kaspersky.com'>schreiben Sie uns</a>."
+                        "UnknownErrorDescription": "Beim Anmeldeversuch ist ein unbekannter Fehler aufgetreten.<br />Bitte versuchen Sie es erneut.<br />Wenn das Problem weiterhin besteht, <a href='mailto:companyaccount@kaspersky.com'>schreiben Sie uns</a>."
                     }
                 },
                 "deleteCompany": {
@@ -331,11 +333,11 @@
                     "errors": {
                         "UserNotFound": {
                             "title": "Der Benutzer wurde nicht gefunden",
-                            "text": "Bitte schreiben Sie an: <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
+                            "text": "Bitte schreiben Sie an: <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
                         },
                         "NotMainUser": {
                             "title": "Ihr Benutzerkonto weist Probleme auf",
-                            "text": "Schreiben Sie an <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>, um entstandene Probleme zu lösen"
+                            "text": "Schreiben Sie an <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>, um entstandene Probleme zu lösen"
                         },
                         "CompanyNotFound": {
                             "title": "Das Unternehmen wurde bereits gelöscht",
@@ -355,19 +357,19 @@
                         },
                         "LinkNotExist": {
                             "title": "Der Link ist nicht gültig",
-                            "text": "Schreiben Sie an <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>, um entstandene Probleme zu lösen"
+                            "text": "Schreiben Sie an <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>, um entstandene Probleme zu lösen"
                         },
                         "DeactivationRequestError": {
                             "title": "Beim Löschen des Benutzerkontos des Unternehmens sind Probleme aufgetreten",
-                            "text": "Schreiben Sie an <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>, um entstandene Probleme zu lösen"
+                            "text": "Schreiben Sie an <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>, um entstandene Probleme zu lösen"
                         },
                         "UnknownError": {
                             "title": "Unbekannter Fehler",
-                            "text": "Beim Löschen des Unternehmens ist ein unbekannter Fehler aufgetreten. <br />Bitte warten Sie ein paar Minuten und versuchen Sie es, dem Link erneut zu folgen. <br/>Wenn das Problem weiterhin besteht, dann <a href='mailto:betaca@kaspersky.com'>schreiben Sie uns</a>."
+                            "text": "Beim Löschen des Unternehmens ist ein unbekannter Fehler aufgetreten. <br />Bitte warten Sie ein paar Minuten und versuchen Sie es, dem Link erneut zu folgen. <br/>Wenn das Problem weiterhin besteht, dann <a href='mailto:companyaccount@kaspersky.com'>schreiben Sie uns</a>."
                         },
                         "Failure": {
                             "title": "Es ist ein unbekannter Fehler aufgetreten",
-                            "text": "Beim Löschen des Unternehmens ist ein unbekannter Fehler aufgetreten. <br />Bitte warten Sie ein paar Minuten und versuchen Sie es erneut. <br/>Wenn das Problem weiterhin besteht, dann <a href='mailto:betaca@kaspersky.com'>schreiben Sie uns</a>."
+                            "text": "Beim Löschen des Unternehmens ist ein unbekannter Fehler aufgetreten. <br />Bitte warten Sie ein paar Minuten und versuchen Sie es erneut. <br/>Wenn das Problem weiterhin besteht, dann <a href='mailto:companyaccount@kaspersky.com'>schreiben Sie uns</a>."
                         }
                     },
                     "success": {

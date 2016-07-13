@@ -73,7 +73,7 @@
                     "support": "База знаний",
                     "support-link": "http://support.kaspersky.ru/",
                     "contacts": "Контакты",
-                    "contacts-link": "http://support.kaspersky.ru/support/contacts",
+                    "contacts-link": "http://http://support.kaspersky.ru/b2b",
                     "politics": "Политика конфиденциальности",
                     "politics-link": "http://support.kaspersky.ru/support/PrivacyStatement_for_CompanyAccount",
                     "legalinformation": "Юридическая информация",
@@ -87,7 +87,7 @@
                 "errors": {
                     "UnknownError": {
                         "title": "Произошел неизвестный сбой",
-                        "text": "При смене языка произошел неизвестный сбой. <br />Пожалуйста, подождите несколько минут и попробуйте еще раз. Если проблема повторится, обратитесь по адресу <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> для решения возникших проблем"
+                        "text": "При смене языка произошел неизвестный сбой. <br />Пожалуйста, подождите несколько минут и попробуйте еще раз. Если проблема повторится, обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> для решения возникших проблем"
                     }
                 }
             },
@@ -102,42 +102,42 @@
                 "close": "Закрыть",
                 "AccountProblems": {
                     "title": "Проблема с вашей учетной записью",
-                    "message": "Обратитесь по адресу <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> для решения возникших проблем"
+                    "message": "Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> для решения возникших проблем"
                 }
             },
 
             "SecurityExceptions": {
                 "Unexpected": {
                     "title": "Проблема с вашей учетной записью",
-                    "text": "Обратитесь по адресу <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> для решения возникших проблем"
+                    "text": "Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> для решения возникших проблем"
                 },
                 "AccessDenied": {
                     "title": "Проблема с вашей учетной записью",
-                    "text": "Обратитесь по адресу <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> для решения возникших проблем"
+                    "text": "Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> для решения возникших проблем"
                 },
                 "AdminBlocked": {
                     "title": "Проблема с вашей учетной записью",
-                    "text": "Обратитесь по адресу <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> для решения возникших проблем"
+                    "text": "Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> для решения возникших проблем"
                 },
                 "NotActivated": {
                     "title": "Проблема с вашей учетной записью",
-                    "text": "Обратитесь по адресу <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> для решения возникших проблем"
+                    "text": "Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> для решения возникших проблем"
                 },
                 "UserNotFound": {
                     "title": "Проблема с вашей учетной записью",
-                    "text": "Обратитесь по адресу <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> для решения возникших проблем"
+                    "text": "Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> для решения возникших проблем"
                 },
                 "NotSupportedCompanyCategory": {
                     "title": "Проблема с вашей учетной записью",
-                    "text": "Обратитесь по адресу <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> для решения возникших проблем"
+                    "text": "Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> для решения возникших проблем"
                 },
                 "NotSupportedSystemType": {
                     "title": "Проблема с вашей учетной записью",
-                    "text": "Обратитесь по адресу <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> для решения возникших проблем"
+                    "text": "Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> для решения возникших проблем"
                 },
                 "IsSupportStuff": {
                     "title": "Проблема с вашей учетной записью",
-                    "text": "Обратитесь по адресу <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> для решения возникших проблем"
+                    "text": "Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> для решения возникших проблем"
                 }
             },
             "CheckUserSessionExceptions": {
@@ -188,7 +188,7 @@
                 },
                 "forbidden": {
                     "title": "У Вас нет доступа к этой странице",
-                    "text": "Обратитесь по адресу <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>",
+                    "text": "Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>",
                     "to-main-page": "  "
                 },
                 "end-session": {
@@ -201,7 +201,7 @@
 
                 "UnknownError": {
                     "title": "Произошел неизвестный сбой",
-                    "text": "Обратитесь по адресу <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
+                    "text": "Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
                 }
             }
         }
