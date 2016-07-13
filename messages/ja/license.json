@@ -25,6 +25,7 @@
                         "LicenseNotFound": "エラー。ライセンスが見つかりません",
 
                         "ActCodeOrKeyFileRequired": "[EV] Act. code or key file required",
+                        "ActivationCode.ActivationCodeRule": "[EV] Некорректный формат кода активации",
                         "KeyFile.HttpFileSizeRule": "[EV] File is too big",
                         "KeyFile.KeyFileRule": "[EV] Error. Invalid key file format"
                     },
@@ -84,6 +85,15 @@
                         "confirm-title": "ライセンスを削除する",
                         "confirm-text": "{0} のライセンスを削除しようとしています。<br />カンパニーアカウントに、後で再度追加することもできます。",
                         "confirm-button": "削除する"
+                    }
+                },
+
+                 "remove": {
+                    "errors": { 
+                        "UnknownError": {
+                            "title": "[EV] Unknown error while license removing",
+                            "text": "[EV] Please contact <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                        }
                     }
                 },
 

@@ -220,11 +220,13 @@
 
                         "Captcha.RequiredRule": "Introduzca el código que se muestra en la imagen",
                         "Captcha.CaptchaIncorrect": "El código no es válido, inténtelo de nuevo",
+                        "Captcha.CaptchaTimeout": "El código ha caducado, vuelva a intentarlo",
 
                         "Email.RequiredRule": "No se ha indicado el correo electrónico",
                         "Email.EmailRule": "Dirección de correo electrónico no válida",
                         "Email.MaxByteLengthRule": "La dirección del correo electrónico puede contener hasta {ByteLength} caracteres",
                         "Email.RepeatedRegistration": "Ya se ha registrado un usuario con esta dirección de correo electrónico en el sistema. <br />Para finalizar el registro y activar su cuenta, por favor, confirma su correo electrónico a través del enlace que ha recibido al registrarse.",
+                        "Email.FailureUserExists": "Esta cuenta ya existe Puede <a href='/account/forgot'>restablecer contraseña</a> o <a href='/account/login'>iniciar sesión</a>",
 
                         "KeyFile.KeyFileRule": "El archivo llave no es válido",
                         "ActivationCode.ActivationCodeRule": "El código de activación no es válido",
@@ -234,10 +236,6 @@
 
                         "ActCodeOrKeyFileRequired": "Por favor, introduzca el código de activación o suba el archivo llave",
 
-                        "FailureUserExists": {
-                            "title": "Esta cuenta ya existe Puede <a href='/account/forgot'>restablecer contraseña</a> o <a href='/account/login'>iniciar sesión</a>",
-                            "text": " "
-                        },
                         "UnknownError": {
                             "title": "Se ha producido un fallo desconocido",
                             "text": "Por favor, vuelva a registrarse. Si el problema vuelve a aparecer, <a href='mailto:betaca@kaspersky.com'>contáctenos</a>."
@@ -267,6 +265,9 @@
                     },
                     "errors": {
                         "CaptchaIncorrect": "El código no es válido, inténtelo de nuevo",
+                        "Captcha.CaptchaIncorrect": "El código no es válido, inténtelo de nuevo",
+                        "Captcha.CaptchaTimeout": "El código ha caducado, vuelva a intentarlo",
+
                         "Email.RequiredRule": "Especifique el correo electrónico",
                         "Email.EmailRule": "Dirección de correo electrónico no válida",
                         "Email.MaxByteLengthRule": "La dirección del correo electrónico puede contener hasta {ByteLength} caracteres",

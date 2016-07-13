@@ -59,13 +59,16 @@
                         "confirm-text": "Si desidera cancellare l'aggiunta del commento?",
                         "confirm-button": "Si"
                     },
+                    "closeErrors": {
+                        "StatusClosedCancelled": "[EV] Запрос уже закрыт"
+                    },
                     "errors": {
                         "UserNotFound": "Utente non trovato",
                         "AccessDenied": "Accesso negato",
                         "UnknownError": "Si è verificato un errore. Vi invitiamo a riprovare. Se il problema persiste contattare <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a> ",
                         "StatusClosedCancelled": "Impossibile inviare il messaggio. La richiesta è stata modificata"
                     },
-                    "loadingErrors": { 
+                    "loadingErrors": {
                         "UnknownError": {
                             "title": "[EV] Unknown error while request list retreiving",
                             "text": "[EV] Please contact <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
@@ -152,7 +155,7 @@
                     "errors": {
                         "UnknownError": "Si è verificato un errore. Vi invitiamo a riprovare. Se il problema persiste contattare <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a> "
                     },
-                    "loadingErrors": { 
+                    "loadingErrors": {
                         "UnknownError": {
                             "title": "[EV] Unknown error while CA-question request-initiate retreiving",
                             "text": "[EV] Please contact <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
@@ -160,11 +163,29 @@
                     }
                 },
 
-                "complaint": {
+                "feedback": {
                     "title": "Nuovo reclamo sulla qualità del supporto",
                     "note": "Vi chiediamo di considerare che il gruppo di controllo qualità gestisce solo reclami scritti in Russo o Inglese.",
+                    "theme": "[EV] Тема обращения",
                     "description": "Descrizione dettagliata del <br />reclamo:",
-                    "request": "La richiesta relativa <br /> al vostro reclamo:"
+                    "description-placeholder": "[EV] Опишите суть вашей претензии",
+                    "request": "La richiesta relativa <br /> al vostro reclamo:",
+                    "request-placeholder": "[EV] Выберите номер запроса",
+                    "success": "[EV] Ваша жалоба создана. Номер запроса: <a href=\"/request/view/{requestId}\">{requestId}</a>",
+                    "errors": {
+                        "Details.RequiredRule": "[EV] Опишите подробности вашей жалобы ",
+                        "Details.TextMaxLengthLimitRule": "[EV] Описание слишком длинное",
+                        "TypeId.RequiredRule": "[EV] Выберите тему жалобы",
+                        "TypeId.TextMaxLengthLimitRule": "[EV] Тема жалобы слишком длинная",
+
+                        "UnknownError": "[EV] Произошла ошибка, пожалуйста, попробуйте ещё раз. Если ошибка повторится, обратитесь по адресу <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a>"
+                    },
+                    "loadingErrors": {
+                        "UnknownError": {
+                            "title": "[EV] Неизвестная ошибка, при получении данных, необходимых для создания запроса СА-question",
+                            "text": "[EV] Please contact <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                        }
+                    }
                 },
 
                 "csr": {
@@ -214,7 +235,7 @@
                         "UnknownError": "Si è verificato un errore. Vi invitiamo a riprovare. Se il problema persiste contattare <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a> ",
                         "EmailPattern": "Inserire correttamente il vostro indirizzo mail. In caso di indirizzi multipli utilizzare il punto e virgola come separatore tra gli indirizzi."
                     },
-                     "loadingErrors": { 
+                    "loadingErrors": {
                         "UnknownError": {
                             "title": "[EV] Unknown error while virlab request-initiate retreiving",
                             "text": "[EV] Please contact <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
@@ -225,7 +246,7 @@
                 "virlab-msa": {
                     "title": "Invia un file o URL sospettto per analisi (MSA)",
                     "success": "La vostra richiesta per l'Anti-Virus Lab è stata creata. La risposta verrà inviata direttamente al vostro indirizzo mail. Vi informiamo che la risposta non verrà mostrata nel CompanyAccount.  ID richiesta: <a href=\"/request/view/{requestId}\">{requestId}</a>",
-                    "loadingErrors": { 
+                    "loadingErrors": {
                         "UnknownError": {
                             "title": "[EV] Unknown error while virlab-msa request-initiate retreiving",
                             "text": "[EV] Please contact <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
@@ -268,7 +289,7 @@
                     "errors": {
                         "UnknownError": "Si è verificato un errore. Vi invitiamo a riprovare. Se il problema persiste contattare <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a> "
                     },
-                    "loadingErrors": { 
+                    "loadingErrors": {
                         "UnknownError": {
                             "title": "[EV] Unknown error while support request-initiate retreiving",
                             "text": "[EV] Please contact <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
@@ -301,7 +322,7 @@
                         "Description.RequiredRule": "[EV] Description is required",
                         "Description.MaxLengthRule": "[EV] Description is too long "
                     },
-                    "loadingErrors": { 
+                    "loadingErrors": {
                         "UnknownError": {
                             "title": "[EV] Unknown error while support-ta request-initiate retreiving",
                             "text": "[EV] Please contact <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
@@ -312,7 +333,7 @@
                 "support-msa": {
                     "title": "Richiesta al Supporto Tecnico (MSA)",
                     "success": "La vostra richiesta è stata creata. ID richiesta: <a href=\"/request/view/{requestId}\">{requestId}</a>",
-                    "loadingErrors": { 
+                    "loadingErrors": {
                         "UnknownError": {
                             "title": "[EV] Unknown error while support-msa request-initiate retreiving",
                             "text": "[EV] Please contact <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"

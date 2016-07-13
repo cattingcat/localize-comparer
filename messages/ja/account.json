@@ -143,7 +143,7 @@
                     }
                 },
 
-                 "refreshPassword": {
+                "refreshPassword": {
                     "title": "[EV] Ваш пароль устарел",
                     "description": "[EV] Пожалуйста, введите и подтвердите пароль"
                 },
@@ -221,13 +221,15 @@
 
                         "Captcha.RequiredRule": "[EV] CAPTCHA needed",
                         "Captcha.CaptchaIncorrect": "[EV] Captcha incorrect",
+                        "Captcha.CaptchaTimeout": "[EV] Каптча устарела, попробуйте еще раз",
 
                         "Email.RequiredRule": "メールアドレスを入力してください",
                         "Email.EmailRule": "メールアドレスが正しくありません",
                         "Email.MaxByteLengthRule": "128 文字以上は入力できません",
                         "Email.RepeatedRegistration": "アカウントがすでに存在します。<a href='/account/forgot'>パスワードを復元する</a>か、 <a href='/account/login'>サインイン</a>してください",
+                        "Email.RepeatedRegistration": "アカウントがすでに存在します。<a href='/account/forgot'>パスワードを復元する</a>か、 <a href='/account/login'>サインイン</a>してください",
 
-                         "KeyFile.KeyFileRule": "[EV] Invalid key file",
+                        "KeyFile.KeyFileRule": "[EV] Invalid key file",
                         "ActivationCode.ActivationCodeRule": "[EV] Invalid activation code",
                         "KeyFile.HttpFileSizeRule": "[EV] File is too big",
 
@@ -235,10 +237,6 @@
 
                         "ActCodeOrKeyFileRequired": "[EV] Please enter the activation code or add the key file",
 
-                        "FailureUserExists": {
-                            "title": "アカウントがすでに存在します。<a href='/account/forgot'>パスワードを復元する</a>か、 <a href='/account/login'>サインイン</a>してください",
-                            "text": " "
-                        },
                         "UnknownError": {
                             "title": "エラーが発生しました",
                             "text": "再試行してください。<br />問題が解決しない場合は、<a href='mailto:companyaccount@kaspersky.com'>テクニカルサポートへお問い合わせください。</a>"
@@ -270,6 +268,8 @@
 
                     "errors": {
                         "CaptchaIncorrect": "一致しない文字があります。再度入力してください",
+                        "Captcha.CaptchaIncorrect": "一致しない文字があります。再度入力してください",
+                        "Captcha.CaptchaTimeout": "[EV] Каптча устарела, попробуйте еще раз",
                         "Email.RequiredRule": "メールアドレスを入力してください",
                         "Email.EmailRule": "メールアドレスが無効です",
                         "Email.MaxByteLengthRule": "[EV] Max length of E-mail is {Length}",

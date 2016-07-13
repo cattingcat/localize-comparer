@@ -25,6 +25,7 @@
                         "LicenseNotFound": "¡Error! No se ha encontrado la licencia.",
 
                         "ActCodeOrKeyFileRequired": "Se requiere un archivo llave o un código de activación",
+                        "ActivationCode.ActivationCodeRule": "Formato del código de activación incorrecto",
                         "KeyFile.HttpFileSizeRule": "El archivo llave es demasiado grande",
                         "KeyFile.KeyFileRule": "Formato de archivo llave desconocido"
                     },
@@ -84,6 +85,15 @@
                         "confirm-title": "Eliminar licencias",
                         "confirm-text": "Está a punto de eliminar la licencia de {0}.<br />Después de eliminar la licencia, podrá volver a adjuntara a su CompanyAccount.",
                         "confirm-button": "Eliminar"
+                    }
+                },
+
+                 "remove": {
+                    "errors": { 
+                        "UnknownError": {
+                            "title": "[EV] Unknown error while license removing",
+                            "text": "[EV] Please contact <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                        }
                     }
                 },
 

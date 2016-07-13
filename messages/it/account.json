@@ -143,7 +143,7 @@
                     }
                 },
 
-                 "refreshPassword": {
+                "refreshPassword": {
                     "title": "[EV] Ваш пароль устарел",
                     "description": "[EV] Пожалуйста, введите и подтвердите пароль"
                 },
@@ -221,11 +221,13 @@
 
                         "Captcha.RequiredRule": "[EV] CAPTCHA needed",
                         "Captcha.CaptchaIncorrect": "[EV] Captcha incorrect",
+                        "Captcha.CaptchaTimeout": "[EV] Каптча устарела, попробуйте еще раз",
 
                         "Email.RequiredRule": "Inserire la vostra mail",
                         "Email.EmailRule": "Indirizzo mail non valido",
                         "Email.MaxByteLengthRule": "L'indirizzo mail non può superare i 127 caratteri",
                         "Email.RepeatedRegistration": "L'account è già esistente E' possibile <a href='/account/forgot'>ripristinare la password</a> o <a href='/account/login'>accedere</a>",
+                        "Email.FailureUserExists": "L'account è già esistente E' possibile <a href='/account/forgot'>ripristinare la password</a> o <a href='/account/login'>accedere</a>",
 
                         "KeyFile.KeyFileRule": "[EV] Invalid key file",
                         "ActivationCode.ActivationCodeRule": "[EV] Invalid activation code",
@@ -235,10 +237,6 @@
 
                         "ActCodeOrKeyFileRequired": "[EV] Please enter the activation code or add the key file",
 
-                        "FailureUserExists": {
-                            "title": "L'account è già esistente E' possibile <a href='/account/forgot'>ripristinare la password</a> o <a href='/account/login'>accedere</a>",
-                            "text": " "
-                        },
                         "UnknownError": {
                             "title": "Si è verificato un errore sconosciuto",
                             "text": "Vi invitiamo a provare nuovamente. <br/> Se il problema persiste, vi invitiamo a <a href='mailto:companyaccount@kaspersky.com'>contattare il supporto tecnico</a>."
@@ -270,6 +268,8 @@
 
                     "errors": {
                         "CaptchaIncorrect": "I caratteri non corrispondono. Vi invitiamo a provare nuovamente",
+                        "Captcha.CaptchaIncorrect": "I caratteri non corrispondono. Vi invitiamo a provare nuovamente",
+                        "Captcha.CaptchaTimeout": "[EV] Каптча устарела, попробуйте еще раз",
                         "Email.RequiredRule": "Inserire la vostra mail",
                         "Email.EmailRule": "Indirizzo mail non valido",
                         "Email.MaxByteLengthRule": "[EV] Max length of E-mail is {Length}",

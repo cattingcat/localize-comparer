@@ -1,111 +1,124 @@
-{
-  "globalize-messages": {
-    "de": {
-      "license": {
-        "add": {
-          "license-add-label": "Lizenz hinzufügen",
-          "code-add": "Code hinzufügen",
-          "code-add-or": "oder",
-          "upload-file": "Schlüsseldatei hochladen",
-          "file-send": "Lizenz hinzufügen",
-          "process": "Die Lizenz wird hochgeladen",
-          "errors": {
-            "Success": "Die Lizenz wurde erfolgreich hinzugefügt",
-            "GettingLicenseInfoError": "Fehler! Die Lizenz wurde nicht gefunden.",
-            "ConsumerLicense": "Die Lizenz wurde nicht hinzugefügt. Bevor Sie eine Lizenz für Heimanwenderprodukte hinzufügen, <br/> laden Sie mindestens eine Lizenz für Unternehmensprodukte hoch.",
-            "LicenseIsExpired": "Diese Lizenz ist abgelaufen.",
-            "LicenseIsBlocked": "Fehler! Die Lizenz ist gesperrt.",
-            "IncorrectAC": "Fehler! Das Format des eingegebenen Codes stimmt mit dem Format eines Aktivierungscodes nicht überein.",
-            "IncorrectKeyFile": "Fehler! Das Format der hochgeladenen Datei stimmt mit dem Format einer Schlüsseldatei nicht überein.",
-            "MultLicUseErr": "Fehler! Die Lizenz wird bereits von einem anderen Unternehmen genutzt.",
-            "SuccessUserMoved": "Die Lizenz wurde erfolgreich hinzugefügt! Ihre Zugehörigkeit zum Unternehmen wurde geändert.<br/> Damit die Änderungen wirksam werden, müssen Sie sich erneut bei CompanyAccount anmelden.",
-            "LicenseAlreadyExists": "Diese Lizenz wurde bereits zu Ihrem Unternehmen hinzugefügt.",
-            "ACExpired": "Dieser Aktivierungscode ist abgelaufen.",
-            "UnknownError": "Ein Fehler ist aufgetreten, versuchen Sie es erneut. Wenn das Problem weiterhin besteht, <a href='../request/create/ca' target=\"_blank\">senden Sie eine Anfrage an den Support</a>",
-            "LicenseNotFound": "Fehler! Die Lizenz wurde nicht gefunden.",
-            "ActCodeOrKeyFileRequired": "Aktivierungscode oder Schlüsseldatei notwendig"
-          },
-          "errors['KeyFile": {
-            "HttpFileSizeRule']": "Schlüsseldatei ist zu groß",
-            "KeyFileRule']": "Unbekanntes Schlüsseldateiformat"
-          },
-          "success-user-moved": {
-            "title": "Die Lizenz wurde erfolgreich hinzugefügt!",
-            "description": "Ihre Zugehörigkeit zum Unternehmen wurde geändert.<br/> Damit die Änderungen wirksam werden, müssen Sie sich erneut bei CompanyAccount anmelden.",
-            "refresh": "ОK"
-          }
-        },
-        "statuses": {
-          "Valid": "Aktiv",
-          "NotFound": "Nicht gefunden",
-          "Expired": "Abgelaufen",
-          "Blocked": "Gesperrt",
-          "NotActivated": "Nicht aktiviert",
-          "Deleted": "Gelöscht"
-        },
-        "comments": {
-          "NotActivated": "Die Lizenz ist noch nicht aktiviert. Die vom Support bearbeiteten Anfragetypen können beschränkt sein. Aktivieren Sie die Lizenz im Produkt.",
-          "ExpiresSoon": "Achtung! Die Lizenz läuft bald ab.",
-          "Blocked": "Sperrdatum: {BlockedDate}"
-        },
-        "list": {
-          "title": "Lizenzen",
-          "filter-by-status-label": "Lizenzen anzeigen:",
-          "filter-by-status": {
-            "All": "alle",
-            "Active": "aktive",
-            "Expiring": "abgelaufene",
-            "Inactive": "nicht aktivierte",
-            "Blocked": "gesperrte"
-          },
-          "expire-date": "Ablaufdatum",
-          "item": {
-            "activation-code": "Aktivierungscode:",
-            "count": "Anzahl der Knoten:",
-            "serial-number": "Seriennummer:",
-            "order-number": "Bestellnummer:",
-            "compatible-application": "Liste der kompatiblen Anwendungen",
-            "add-date": "Hinzugefügt am:",
-            "key-file": "Schlüsseldatei:",
-            "remove-license": "Lizenz löschen"
-          },
-          "no-filtered-license": "Den angegebenen Filterbedingungen entspricht keine Lizenz. Bitte erweitern Sie den Suchbereich",
-          "no-license": "Zu Ihrem Unternehmen wurde noch keine Lizenz hinzugefügt.",
-          "errors": {
-            "UnknownError": {
-              "title": "Unbekannter Fehler beim Laden der Lizenzliste",
-              "text": "Unbekannter Fehler. Wenn das Problem weiterhin auftritt, <a href='../request/create/ca' target=\"_blank\">kontaktieren Sie bitte den Technischen Support</a>."
+﻿{
+    "globalize-messages": {
+        "de": {
+            "license": {
+                "add": {
+                    "license-add-label": "Lizenz hinzufügen",
+                    "code-add": "Code hinzufügen",
+                    "code-add-or": "oder",
+                    "upload-file": "Schlüsseldatei hochladen",
+                    "file-send": "Lizenz hinzufügen",
+                    "process": "Die Lizenz wird hochgeladen",
+                    "errors": {
+                        "Success": "Die Lizenz wurde erfolgreich hinzugefügt",
+                        "GettingLicenseInfoError": "Fehler! Die Lizenz wurde nicht gefunden.",
+                        "ConsumerLicense": "Die Lizenz wurde nicht hinzugefügt. Bevor Sie eine Lizenz für Heimanwenderprodukte hinzufügen, <br/> laden Sie mindestens eine Lizenz für Unternehmensprodukte hoch.",
+                        "LicenseIsExpired": "Diese Lizenz ist abgelaufen.",
+                        "LicenseIsBlocked": "Fehler! Die Lizenz ist gesperrt.",
+                        "IncorrectAC": "Fehler! Das Format des eingegebenen Codes stimmt mit dem Format eines Aktivierungscodes nicht überein.",
+                        "IncorrectKeyFile": "Fehler! Das Format der hochgeladenen Datei stimmt mit dem Format einer Schlüsseldatei nicht überein.",
+                        "MultLicUseErr": "Fehler! Die Lizenz wird bereits von einem anderen Unternehmen genutzt.",
+                        "SuccessUserMoved": "Die Lizenz wurde erfolgreich hinzugefügt! Ihre Zugehörigkeit zum Unternehmen wurde geändert.<br/> Damit die Änderungen wirksam werden, müssen Sie sich erneut bei CompanyAccount anmelden.",
+                        "LicenseAlreadyExists": "Diese Lizenz wurde bereits zu Ihrem Unternehmen hinzugefügt.",
+                        "ACExpired": "Dieser Aktivierungscode ist abgelaufen.",
+                        "UnknownError": "Ein Fehler ist aufgetreten, versuchen Sie es erneut. Wenn das Problem weiterhin besteht, <a href='../request/create/ca' target=\"_blank\">senden Sie eine Anfrage an den Support</a>",
+                        "LicenseNotFound": "Fehler! Die Lizenz wurde nicht gefunden.",
+
+                        "ActCodeOrKeyFileRequired": "Aktivierungscode oder Schlüsseldatei notwendig",
+                        "ActivationCode.ActivationCodeRule": "Inkorrektes Format des Aktivierungscodes",
+                        "KeyFile.HttpFileSizeRule": "Schlüsseldatei ist zu groß",
+                        "KeyFile.KeyFileRule": "Unbekanntes Schlüsseldateiformat"
+                    },
+                    "success-user-moved": {
+                        "title": "Die Lizenz wurde erfolgreich hinzugefügt!",
+                        "description": "Ihre Zugehörigkeit zum Unternehmen wurde geändert.<br/> Damit die Änderungen wirksam werden, müssen Sie sich erneut bei CompanyAccount anmelden.",
+                        "refresh": "ОK"
+                    }
+                },
+
+                "statuses": {
+                    "Valid": "Aktiv",
+                    "NotFound": "Nicht gefunden",
+                    "Expired": "Abgelaufen",
+                    "Blocked": "Gesperrt",
+                    "NotActivated": "Nicht aktiviert",
+                    "Deleted": "Gelöscht"
+                },
+
+                "comments": {
+                    "NotActivated": "Die Lizenz ist noch nicht aktiviert. Die vom Support bearbeiteten Anfragetypen können beschränkt sein. Aktivieren Sie die Lizenz im Produkt.",
+                    "ExpiresSoon": "Achtung! Die Lizenz läuft bald ab.",
+                    "Blocked": "Sperrdatum: {BlockedDate}"
+                },
+
+                "list": {
+                    "title": "Lizenzen",
+                    "filter-by-status-label": "Lizenzen anzeigen:",
+                    "filter-by-status": {
+                        "All": "alle",
+                        "Active": "aktive",
+                        "Expiring": "abgelaufene",
+                        "Inactive": "nicht aktivierte",
+                        "Blocked": "gesperrte"
+                    },
+                    "expire-date": "Ablaufdatum",
+                    "item": {
+                        "activation-code": "Aktivierungscode:",
+                        "count": "Anzahl der Knoten:",
+                        "serial-number": "Seriennummer:",
+                        "order-number": "Bestellnummer:",
+                        "compatible-application": "Liste der kompatiblen Anwendungen",
+                        "add-date": "Hinzugefügt am:",
+                        "key-file": "Schlüsseldatei:",
+                        "remove-license": "Lizenz löschen"
+                    },
+                    "no-filtered-license": "Den angegebenen Filterbedingungen entspricht keine Lizenz. Bitte erweitern Sie den Suchbereich",
+                    "no-license": "Zu Ihrem Unternehmen wurde noch keine Lizenz hinzugefügt.",
+                    "errors": {
+                        "UnknownError": {
+                            "title": "Unbekannter Fehler beim Laden der Lizenzliste",
+                            "text": "Unbekannter Fehler. Wenn das Problem weiterhin auftritt, <a href='../request/create/ca' target=\"_blank\">kontaktieren Sie bitte den Technischen Support</a>."
+                        }
+                    },
+                    "compatibleapps": "Kompatible Anwendungen",
+                    "remove": {
+                        "confirm-title": "Lizenz löschen",
+                        "confirm-text": "Sie möchten die Lizenz für {0} löschen.<br />Nachdem Sie die Lizenz gelöscht haben, können Sie diese erneut zu CompanyAccount hinzufügen.",
+                        "confirm-button": "Löschen"
+                    }
+                },
+
+                "remove": {
+                    "errors": {
+                        "UnknownError": {
+                            "title": "[EV] Unknown error while license removing",
+                            "text": "[EV] Please contact <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                        }
+                    }
+                },
+
+                "compatible": {
+                    "errors": {
+                        "UserNotFound": {
+                            "title": "Der Benutzer wurde nicht gefunden",
+                            "message": " "
+                        },
+                        "AccessDenied": {
+                            "title": "Der Zugriff ist verboten",
+                            "message": " "
+                        },
+                        "UnknownError": {
+                            "title": "Es ist ein unbekannter Fehler aufgetreten",
+                            "message": "Beim Versuch der Anzeige der Liste kompatibler Anwendungen ist ein unbekannter Fehler aufgetreten. Bitte versuchen Sie es in einigen Minuten erneut. <br/>Wenn das Problem weiterhin besteht, <a href='../request/create/ca' target=\"_blank\">senden Sie eine Anfrage an den Support</a> "
+                        },
+                        "NoCompatibleApps": {
+                            "title": "Für diese Lizenz gibt es keine kompatible Anwendungen.",
+                            "message": "Bitte <a href='../request/create/ca' target=\"_blank\"> lassen Sie sich vom Support beraten</a>, wie Sie diese Lizenz verwenden können."
+                        }
+                    },
+                    "close": "Schließen"
+                }
             }
-          },
-          "compatibleapps": "Kompatible Anwendungen",
-          "remove": {
-            "confirm-title": "Lizenz löschen",
-            "confirm-text": "Sie möchten die Lizenz für {0} löschen.<br />Nachdem Sie die Lizenz gelöscht haben, können Sie diese erneut zu CompanyAccount hinzufügen.",
-            "confirm-button": "Löschen"
-          }
-        },
-        "compatible": {
-          "errors": {
-            "UserNotFound": {
-              "title": "Der Benutzer wurde nicht gefunden",
-              "message": " "
-            },
-            "AccessDenied": {
-              "title": "Der Zugriff ist verboten",
-              "message": " "
-            },
-            "UnknownError": {
-              "title": "Es ist ein unbekannter Fehler aufgetreten",
-              "message": "Beim Versuch der Anzeige der Liste kompatibler Anwendungen ist ein unbekannter Fehler aufgetreten. Bitte versuchen Sie es in einigen Minuten erneut. <br/>Wenn das Problem weiterhin besteht, <a href='../request/create/ca' target=\"_blank\">senden Sie eine Anfrage an den Support</a> "
-            },
-            "NoCompatibleApps": {
-              "title": "Für diese Lizenz gibt es keine kompatible Anwendungen.",
-              "message": "Bitte <a href='../request/create/ca' target=\"_blank\"> lassen Sie sich vom Support beraten</a>, wie Sie diese Lizenz verwenden können."
-            }
-          },
-          "close": "Schließen"
         }
-      }
     }
-  }
 }

@@ -25,6 +25,7 @@
                         "LicenseNotFound": "Ошибка! Лицензия не найдена.",
 
                         "ActCodeOrKeyFileRequired": "Требуется файл ключа или код активации",
+                        "ActivationCode.ActivationCodeRule": "Некорректный формат кода активации",
                         "KeyFile.HttpFileSizeRule": "Файл ключа слишком большой",
                         "KeyFile.KeyFileRule": "Неизвестный формат файла ключа"
                     },
@@ -84,6 +85,15 @@
                         "confirm-title": "Удаление лицензии",
                         "confirm-text": "Вы собираетесь удалить лицензию для {0}.<br />После удаления лицензии вы можете снова прикрепить ее к CompanyAccount.",
                         "confirm-button": "Удалить"
+                    }
+                },
+
+                 "remove": {
+                    "errors": { 
+                        "UnknownError": {
+                            "title": "[EV] Неизвестная ошибка при удалении лицензии",
+                            "text": "[EV]Пожалуйста, попробуйте еще раз через несколько минут. <br/> Если проблема повторится, <a href='../request/create/ca' target=\"_blank\"> отправьте запрос в службу технической поддержки </a> "
+                        }
                     }
                 },
 

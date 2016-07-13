@@ -22,7 +22,7 @@
                         "description": "Для того чтобы сократить время ответа на ваши запросы, мы предлагаем воспользоваться преимуществами нашей премиальной поддержки - Kaspersky Maintenance Service Agreement (MSA).</br> </br>  <a href=\"http://www.kaspersky.ru/business-security/services/msa\" target=\"_blank\">Ознакомиться с планами  расширенной поддержки.</a></p>"
                     },
                     "errors": {
-                         "UnknownError": {
+                        "UnknownError": {
                             "title": "Возникла проблема при получении списка документов ",
                             "text": "Если ошибка повториться, обратитесь в <a href='../request/create/ca' target=\"_blank\"> техническую поддержку</a>"
                         }

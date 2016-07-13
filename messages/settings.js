@@ -44,12 +44,14 @@ App.module("Entities", function (Entities, App, Backbone, Marionette, $, _) {
         },
         onLanguageChange: function () {
             if (App.request('auth:isAuthorized')) {
+                var langs = _.map(App.availableLanguages.split(','));
                 var authModel = App.request('auth:entity');
+
                 var lang = this.get('language').value,
-                    langName = _.find(App.availableLanguages, function (i) {
+                    langName = _.find(langs, function (i) {
                         return i.indexOf(lang) != -1;
                     }),
-                    languageModel = new App.Entities.LanguageModel({ language: (langName || App.availableLanguages[0]).trim() });
+                    languageModel = new App.Entities.LanguageModel({ language: (langName || langs[0]).trim() });
 
                 languageModel.save(null, {
                     success: _.bind(function (model, response) {

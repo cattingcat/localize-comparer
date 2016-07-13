@@ -143,7 +143,7 @@
                     }
                 },
 
-                 "refreshPassword": {
+                "refreshPassword": {
                     "title": "[EV] Ваш пароль устарел",
                     "description": "[EV] Пожалуйста, введите и подтвердите пароль"
                 },
@@ -221,11 +221,13 @@
 
                         "Captcha.RequiredRule": "[EV] CAPTCHA needed",
                         "Captcha.CaptchaIncorrect": "[EV] Captcha incorrect",
+                        "Captcha.CaptchaTimeout": "[EV] Каптча устарела, попробуйте еще раз",
 
                         "Email.RequiredRule": "Wprowadź swój adres e-mail",
                         "Email.EmailRule": "Niepoprawny adres e-mail",
                         "Email.MaxByteLengthRule": "Adres e-mail nie może przekraczać 127 znaków",
                         "Email.RepeatedRegistration": "Konto już istnieje Możesz <a href='/account/forgot'>przywrócić hasło</a> lub <a href='/account/login'>zalogować się</a>",
+                        "Email.FailureUserExists": "Konto już istnieje Możesz <a href='/account/forgot'>przywrócić hasło</a> lub <a href='/account/login'>zalogować się</a>",
 
                         "KeyFile.KeyFileRule": "[EV] Invalid key file",
                         "ActivationCode.ActivationCodeRule": "[EV] Invalid activation code",
@@ -235,10 +237,6 @@
 
                         "ActCodeOrKeyFileRequired": "[EV] Please enter the activation code or add the key file",
 
-                        "FailureUserExists": {
-                            "title": "Konto już istnieje Możesz <a href='/account/forgot'>przywrócić hasło</a> lub <a href='/account/login'>zalogować się</a>",
-                            "text": " "
-                        },
                         "UnknownError": {
                             "title": "Wystąpił nieznany błąd",
                             "text": "Spróbuj ponownie. <br/>Jeśli błąd będzie się powtarzał, skontaktuj się z Pomocą techniczną<a href='mailto:companyaccount@kaspersky.com'></a>."
@@ -270,6 +268,8 @@
 
                     "errors": {
                         "CaptchaIncorrect": "Znaki nie zgadzają się. Spróbuj ponownie",
+                        "Captcha.CaptchaIncorrect": "Znaki nie zgadzają się. Spróbuj ponownie",
+                        "Captcha.CaptchaTimeout": "[EV] Каптча устарела, попробуйте еще раз",
                         "Email.RequiredRule": "Wprowadź swój e-mail",
                         "Email.EmailRule": "Niepoprawny adres e-mail",
                         "Email.MaxByteLengthRule": "[EV] Max length of E-mail is {Length}",

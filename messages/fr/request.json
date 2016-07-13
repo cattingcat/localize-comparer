@@ -60,6 +60,9 @@
                         "confirm-text": "Voulez-vous annuler l'ajout d'un commentaire ?",
                         "confirm-button": "Oui"
                     },
+                    "closeErrors": {
+                        "StatusClosedCancelled": "La demande est déjà clôturée"
+                    },
                     "errors": {
                         "UserNotFound": "Utilisateur introuvable",
                         "AccessDenied": "Accès interdit",
@@ -161,11 +164,29 @@
                     }
                 },
 
-                "complaint": {
+                "feedback": {
                     "title": "Nouvelle plainte concernant la qualité du support",
                     "note": "Veuillez noter que seules les plaintes rédigées en anglais et en russe sont traitées par le groupe du contrôle de qualité.",
+                    "theme": "[EV] Тема обращения",
                     "description": "Expliquez la raison<br />de votre mécontentement :",
-                    "request": "Réponse<br />qui ne vous satisfait pas :"
+                    "description-placeholder": "[EV] Опишите суть вашей претензии",
+                    "request": "Réponse<br />qui ne vous satisfait pas :",
+                    "request-placeholder": "[EV] Выберите номер запроса",
+                    "success": "[EV] Ваша жалоба создана. Номер запроса: <a href=\"/request/view/{requestId}\">{requestId}</a>",
+                    "errors": {
+                        "Details.RequiredRule": "[EV] Опишите подробности вашей жалобы ",
+                        "Details.TextMaxLengthLimitRule": "[EV] Описание слишком длинное",
+                        "TypeId.RequiredRule": "[EV] Выберите тему жалобы",
+                        "TypeId.TextMaxLengthLimitRule": "[EV] Тема жалобы слишком длинная",
+
+                        "UnknownError": "[EV] Произошла ошибка, пожалуйста, попробуйте ещё раз. Если ошибка повторится, обратитесь по адресу <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a>"
+                    },
+                    "loadingErrors": {
+                        "UnknownError": {
+                            "title": "[EV] Неизвестная ошибка, при получении данных, необходимых для создания запроса СА-question",
+                            "text": "[EV] Please contact <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                        }
+                    }
                 },
 
                 "csr": {

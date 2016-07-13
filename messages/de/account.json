@@ -1,394 +1,381 @@
-{
-  "globalize-messages": {
-    "de": {
-      "account": {
-        "privacy": {
-          "header": "<h1>Datenschutzerklärung für CompanyAccount</h1><h2>22.05.2014 (aktuelle Version)</h2>",
-          "content": "<p>CompanyAccount wird Ihnen von AO „Kaspersky Lab“ bereitgestellt, deren Firmensitz sich in Bldg. 3, Leningradskoe Shosse 39A, 125212 Moskau befindet, und die in diesem DoKument als „wir“ oder „Kaspersky Lab“ bezeichnet werden.</p><p>Wir aktualisieren unsere Datenschutzrichtlinie gelegentlich ohne vorherige Ankündigung und empfehlen Ihnen daher, von Zeit zu Zeit nach Änderungen Ausschau zu halten. Änderungen an unserer Datenschutzrichtlinie finden Sie jeweils in diesem Abschnitt. Bitte beachten Sie auch unsere Datenschutzrichtlinie zu grundlegenden Daten (<a href=\"http://www.kaspersky.de/privacy\"target=\"_blank\">http://www.kaspersky.de/privacy</a>).</p><p>Wir geben Ihnen jederzeit gerne Auskunft zu den folgenden Punkten:</p><ul><li>zur Art der von uns erfassten, gespeicherten, nachverfolgten bzw. verwendeten persönlichen Daten;</li><li>zu den Personen, die befugt sind, auf Ihre persönlichen Informationen zuzugreifen;</li><li>zu den Möglichkeiten, die Ihnen zur Behebung von Fehlern innerhalb dieser Informationen zur Verfügung stehen.</li></ul><p>Unter persönliche Daten bzw. persönliche Informationen verstehen wir Informationen, die einzeln oder in Verbindung mit anderen Informationen verwendet werden können, um eine bestimmte Person zu identifizieren, zu kontaktieren oder zu finden bzw. um eine Person in einem bestimmten Zusammenhang zu identifizieren.</p><p>Sie können sich über die am unteren Rand dieser Seite angegebenen E-Mail-Adressen direkt an uns wenden.</p><h4>Von uns erfasste und gespeicherte Informationen</h4><p>„Kaspersky Lab“ respektiert Ihren Wunsch zum Schutz Ihrer persönlichen Daten. Im vorliegenden Dokument sind die Informationen, die wir unter Umständen von Ihnen im Zusammenhang mit Ihrer Verwendung von CompanyAccount verlangen, sowie die Situationen beschrieben, in denen wir diese verlangen.</p><p>Sie bestimmen selbst, ob Sie Handlungen fortführen möchten, die die Angabe Ihrer persönlichen Informationen voraussetzen. Wir weisen Sie jedoch darauf hin, dass, falls Sie die erforderlichen Informationen nicht bereitstellen, Sie die entsprechende Aktion nicht durchführen können.</p><h6>Kontoregistrierung</h6><p>Für die Verwendung des CompanyAccount und den Zugriff auf alle damit verbundenen Funktionen ist die Erstellung folgender Elemente erforderlich: <ul><li>ein persönliches Konto</li><li>ein Konto für Ihr Unternehmen, falls Ihre Mitarbeiter nicht bereits ein solches Konto erstellt haben</li></ul>Dies setzt voraus, dass Sie die E-Mail-Adresse Ihres Unternehmens (die dann Ihr Benutzername wird), Ihr Kennwort, Ihren Vor- und Nachnamen, den Namen und das Sitzland Ihres Unternehmens sowie dessen Lizenz zur Verwendung von „Kaspersky Lab“-Anwendungen angeben. Wir verarbeiten und verwenden diese Informationen ausschließlich zur Erbringung der CompanyAccount-Dienste und des technischen Supports, es sei denn, Sie bringen zum Ausdruck, dass diese Informationen zu einem anderen Zweck verarbeitet werden sollen. Nach der Registrierung wird Ihr persönliches Konto mit Ihrem Unternehmenskonto verknüpft.</p><p>Wurde das Konto Ihres Unternehmens bereits erstellt, werden Ihre Registrierungsinformationen (Vor- und Nachname sowie die E-Mail-Adresse Ihres Unternehmens) an den CompanyAccount-Administrator Ihres Unternehmens gesendet. Der Mitarbeiter Ihres Unternehmens, der zuerst das Unternehmen und ein persönliches Konto registriert hat, wird üblicherweise als Administrator bestimmt.</p><h6>Kontoeinstellungen</h6><p>Sie können jederzeit auf der Webseite „Mein Benutzerkonto“ Ihre Kontoinformationen und Ihr Kennwort anzeigen, aktualisieren oder ändern oder Ihr Konto löschen. Nach der Löschung des Kontos werden Ihre Daten bei „Kaspersky Lab“ gespeichert, um unseren Kundenservice zu verbessern. Ihr Zugang auf CompanyAccount über dieses Konto wird jedoch gesperrt.</p><p>Der CompanyAccount-Administrator Ihres Unternehmens hat ebenfalls die Möglichkeit zur Änderung Ihrer Kontoeinstellungen und zur Zurücksetzung Ihres Kennworts.</p><p>Falls Sie der CompanyAccount-Administrator Ihres Unternehmens sind, können Sie persönliche Konten Ihrer Mitarbeiter ändern und das Konto des Unternehmens vollständig sperren (die persönlichen Konten von Mitarbeitern verbleiben im System).</p><h6>Lizenzen</h6><p>Sie können die Lizenzen Ihres Unternehmens für Kaspersky Lab-Produkte auf der Registerkarte von CompanyAccount „Lizenzen“ (Aktivierungscodes oder Schlüsseldateien für jedes Produkt) anzeigen oder Lizenzen hinzufügen. Die während der Registrierung bereitgestellte Lizenz wird automatisch zum CompanyAccount Ihres Unternehmens hinzugefügt.</p><p>Schlüsseldateien werden nicht physisch auf CompanyAccount gespeichert. Das System speichert lediglich einen Eintrag zur Lizenz Ihres Unternehmens.</p><p>Jeder Mitarbeiter Ihres Unternehmens mit einem persönlichen Konto, das mit dem CompanyAccount Ihres Unternehmens verknüpft ist, hat Zugang zur Liste der Lizenzen.</p><p>Ihr CompanyAccount-Administrator kann die Lizenzen Ihres Unternehmens entfernen, indem er diese aus der Liste löscht.</p><h6>Verträge</h6><p>Erwirbt Ihr Unternehmen zusätzliche Kunden-Support-Dienste, können Sie nach der Erfassung des Kaufs auf der Registerkarte „Verträge“ eine Liste mit Kaufdiensten anzeigen.</p><p>Die Liste der Verträge ist jenen Mitarbeitern zugänglich, die zum Kaufzeitpunkt als für die Nutzung des zahlungspflichtigen Dienstes befugt eingestuft wurden. Diese Personen erhalten automatisch Benachrichtigungen zum Ablauf des Vertrags.</p><h6>Kunden-Support-Anfragen</h6><p>Wenn Sie sich an den Kunden-Support oder das Anti-Virus Lab-Team wenden, um über CompanyAccount Support anzufordern, bitten wir Sie unter Umständen, Informationen zur Verfügung zu stellen, die zur Bearbeitung Ihres Anliegens erforderlich sind. Dazu gehören Informationen zum Produkt, das mit Ihrer Anfrage in Verbindung steht, Ihrer Computerhardware, Ihrem Unternehmensnetzwerk, Ihrer Software sowie zur Art des aufgetretenen Problems. Darüber hinaus kann es für Sie nützlich oder gar erforderlich sein, uns die Dateien, die bei Ihnen Probleme verursachen, oder Konfigurationsdateien für Ihren Computer bzw. Ihr Netzwerk zuzusenden. Dies ist über die Funktion „Datei anhängen“ im Anfrageformular möglich. Diese Dateien können benutzerspezifische oder sonstige Dateinamen, Metadaten oder Inhalte enthalten, die Rückschlüsse auf Ihre Person erlauben. Es liegt in Ihrem eigenen Ermessen, diese Dateien hochzuladen. Falls Sie Dateien hochladen möchten, lesen Sie und akzeptieren Sie bitte zuerst unsere <a href=\"http://support.kaspersky.com/de/support/rdp\" target=\"_blank\">Regelung zur Datenbereitstellung</a>.</p><p>Um die richtige Kunden-Support-Abteilung für Ihre Anfrage einzuschalten, verwenden wir Informationen zu den Lizenzen Ihres Unternehmens, zum Sitzland sowie möglicherweise zur Sprache, die Sie für die Benutzeroberfläche Ihres CompanyAccount ausgewählt haben.</p><p>Ihre Mitarbeiter haben Zugang zu Ihren Anfragen, falls Ihr CompanyAccount-Administrator die entsprechenden Einstellungen manuell ändert (der Administrator kann Anfragen automatisch anzeigen). Der Zugriff auf Anfragen ist nicht zeitlich beschränkt. Allerdings können von Ihnen hochgeladene Dateien sechs Monate, nachdem die Anfrage geschlossen wurde, gelöscht werden.</p><h4>Von uns verwendete Sicherheitsmaßnahmen</h4><p>Wir verwenden standardmäßige verwaltungstechnische, physische und elektronische Maßnahmen, um die von Ihnen zur Verfügung gestellten persönlichen Informationen vor unbefugtem Zugriff zu schützen. Wir verschlüsseln die Übertragung persönlicher Daten mittels Secure Sockets Layer (SSL)-Technologie und speichern Ihre Informationen ausschließlich in sicheren Rechenzentren mit eingeschränktem Zugriff.</p><h4>An wen wir persönliche Informationen weitergeben</h4><p>Die Daten zu Ihrer Person und Ihrem Unternehmen werden ausschließlich gespeichert, um Ihnen den gewünschten Dienst zur Verfügung zu stellen, es sei denn, Sie haben uns die Erlaubnis erteilt, Ihnen Marketingmaterialien zuzusenden und Sie bei jährlichen Benutzerumfragen zu berücksichtigen. Bitte beachten Sie, dass wir Ihre persönlichen Informationen an Dritte weitergeben können, falls wir von Regierungsstellen, Gerichten oder Strafvollzugsbehörden gesetzlich dazu verpflichtet werden, die öffentliche oder individuelle Sicherheit dies erfordert oder falls wir Aktivitäten verhindern oder einstellen wollen, die wir für ungesetzmäßig halten.</p><h4>Cookies und andere Technologien</h4><p>In einigen Fällen verwendet „Kaspersky Lab“ Cookies, Web Beacons, Pixel-Tags oder ähnliche Methoden zur Erfassung von Informationen. Weitere Informationen hierzu finden Sie in unserer <a href=\"http://www.kaspersky.com/de/third-party-tracking\" target=\"_blank\">Cookie-Richtlinie</a>.</p><h4>Statistische Informationen</h4><p>Wir können von Benutzern unserer Website Informationen zu Domänennamen, IP-Adressen, Internetprovidern, Browserarten sowie sonstige Client-Umgebungsinformationen (z. B. Modell des Geräts, Betriebssystem, Bildschirmauflösung usw.) erfassen. Des Weiteren erfassen wir Informationen zu den von Ihnen verwendeten Kaspersky Lab-Anwendungen und den dazugehörigen Funktionen, zur Webseite, die Sie vor dem Besuch unserer Website geöffnet haben, zu den von Ihnen besuchten Seiten unserer Website, zur auf diesen Seiten verbrachten Zeit, zu den von Ihnen auf unserer Website gesuchten Informationen, zu Datum und Uhrzeit Ihres Besuchs sowie weitere statistische Informationen. Diese Informationen verwenden wir zur Erstellung von Statistiken zum Datenverkehr auf den Kaspersky Lab-Websites und zur Verbesserung der Sicherheit und des Zugangs zu unserer Website und unseren Diensten. Diese Informationen werden nicht mit Ihren persönlichen Daten in Verbindung gebracht. Wir fordern Sie nicht dazu auf, Ihren Standort bekanntzugeben, und verfolgen diesen nicht mithilfe von Informationen auf Ihrem Gerät.</p><h4>Kontaktinformationen</h4> <p>Diese Informationen finden Sie auf den Seiten „<a href=\"http://www.kaspersky.com/de/kontakt\" target=\"_blank\">Kontaktformular</a>“ und „<a href=\"http://www.kaspersky.com/de/impressum\" target=\"_blank\">Impressum</a>“.</p><p>Sollten Sie Fragen oder Anregungen zum Schutz Ihrer persönlichen Daten haben, die in Verbindung mit Ihrer Verwendung von CompanyAccount verarbeitet werden, senden Sie uns bitte eine E-Mail an: <a href=\"mailto:privacy@kaspersky.com\">privacy@kaspersky.com</a></p>"
-        },
-        "changePass": {
-          "title": "Kennwort für Kaspersky CompanyAccount festlegen",
-          "description": "Bitte geben Sie das Kennwort ein und bestätigen Sie es:",
-          "e-mail": "E-Mail",
-          "passwordLabel": "Kennwort",
-          "confirmPasswordLabel": "Kennwort bestätigen",
-          "submit-btn": "Kennwort festlegen",
-          "passwordValidations_title": "Anforderungen ans Kennwort:",
-          "passwordValidations_length": "mindestens 8 Zeichen",
-          "passwordValidations_uppercaseLetter": "Groß- und Kleinbuchstaben (A–z)",
-          "passwordValidations_lowercaseLetter": "mindestens ein Sonderzeichen (! # + % u.ä.)",
-          "passwordValidations_digit": "mindestens eine Ziffer (0-9)",
-          "passwordValidations_noSpace": "keine Leerzeichen",
-          "errors['Password": {
-            "RequiredRule']": "Pflichtfeld",
-            "MinLengthRule']": "Das Passwort ist zu kurz",
-            "PasswordRule']": "Ihr Passwort erfüllt nicht die Voraussetzungen",
-            "NotEqualToRule']": "Ihr Passwort darf nicht dem Benutzernamen entsprechen",
-            "PasswordInBlacklist']": "Das eingegebene Kennwort ist nicht sicher",
-            "SimplePassword']": "Das Kennwort entspricht nicht den Anforderungen",
-            "PasswordMatch']": "Dieses Kennwort wurde bereits früher verwendet"
-          },
-          "errors['ConfirmPassword": {
-            "RequiredRule']": "Pflichtfeld",
-            "EqualRule']": "Die Kennwörter stimmen nicht überein"
-          },
-          "errors": {
-            "AdminBlocked": {
-              "title": "Das Benutzerkonto wurde vom Administrator gesperrt",
-              "text": "Um es zu entsperren, schreiben Sie an: <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
-            },
-            "TempBlocking": {
-              "title": "Der Benutzer ist vorübergehend gesperrt",
-              "text": "Die Anzahl der fehlgeschlagenen Anmeldeversuche wurde für Ihren Benutzernamen überschritten. Bitte versuche Sie es erneut später"
-            },
-            "UnknownError": {
-              "title": "Bei der Aktivierung des Benutzerkontos ist ein unbekannter Fehler aufgetreten",
-              "text": "Bei der Aktivierung des Benutzerkontos ist ein unbekannter Fehler aufgetreten. <br />Bitte folgen Sie dem Link noch einmal. Wenn das Problem weiterhin besteht, dann <a href='mailto:betaca@kaspersky.com'>schreiben Sie uns</a>."
-            },
-            "UserNotFound": {
-              "title": "Der Benutzer wurde nicht gefunden",
-              "text": "Schreiben Sie an <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>, um entstandene Probleme zu lösen"
-            },
-            "LinkNotExist": {
-              "title": "Bei der Aktivierung des Benutzerkontos sind Probleme aufgetreten",
-              "text": "Schreiben Sie an <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>, um entstandene Probleme zu lösen"
-            },
-            "DuplicatedRecords": {
-              "title": "Unbekannter Fehler aufgetreten",
-              "text": "Unbekannter Fehler während der Aktivierung aufgetreten. <br />Bitte klicken Sie den Link erneut. <br />Wenn der Fehler weiterhin auftritt, <a href='mailto:betaca@kaspersky.com'>kontaktieren Sie bitte den Technischen Support</a>."
-            },
-            "NotSupportedSystemType": {
-              "title": "System-Typ wird nicht unterstützt",
-              "text": "?"
+﻿{
+    "globalize-messages": {
+        "de": {
+            "account": {
+                "privacy": {
+                    "header": "<h1>Datenschutzerklärung für CompanyAccount</h1><h2>22.05.2014 (aktuelle Version)</h2>",
+                    "content": "<p>CompanyAccount wird Ihnen von AO „Kaspersky Lab“ bereitgestellt, deren Firmensitz sich in Bldg. 3, Leningradskoe Shosse 39A, 125212 Moskau befindet, und die in diesem DoKument als „wir“ oder „Kaspersky Lab“ bezeichnet werden.</p><p>Wir aktualisieren unsere Datenschutzrichtlinie gelegentlich ohne vorherige Ankündigung und empfehlen Ihnen daher, von Zeit zu Zeit nach Änderungen Ausschau zu halten. Änderungen an unserer Datenschutzrichtlinie finden Sie jeweils in diesem Abschnitt. Bitte beachten Sie auch unsere Datenschutzrichtlinie zu grundlegenden Daten (<a href=\"http://www.kaspersky.de/privacy\"target=\"_blank\">http://www.kaspersky.de/privacy</a>).</p><p>Wir geben Ihnen jederzeit gerne Auskunft zu den folgenden Punkten:</p><ul><li>zur Art der von uns erfassten, gespeicherten, nachverfolgten bzw. verwendeten persönlichen Daten;</li><li>zu den Personen, die befugt sind, auf Ihre persönlichen Informationen zuzugreifen;</li><li>zu den Möglichkeiten, die Ihnen zur Behebung von Fehlern innerhalb dieser Informationen zur Verfügung stehen.</li></ul><p>Unter persönliche Daten bzw. persönliche Informationen verstehen wir Informationen, die einzeln oder in Verbindung mit anderen Informationen verwendet werden können, um eine bestimmte Person zu identifizieren, zu kontaktieren oder zu finden bzw. um eine Person in einem bestimmten Zusammenhang zu identifizieren.</p><p>Sie können sich über die am unteren Rand dieser Seite angegebenen E-Mail-Adressen direkt an uns wenden.</p><h4>Von uns erfasste und gespeicherte Informationen</h4><p>„Kaspersky Lab“ respektiert Ihren Wunsch zum Schutz Ihrer persönlichen Daten. Im vorliegenden Dokument sind die Informationen, die wir unter Umständen von Ihnen im Zusammenhang mit Ihrer Verwendung von CompanyAccount verlangen, sowie die Situationen beschrieben, in denen wir diese verlangen.</p><p>Sie bestimmen selbst, ob Sie Handlungen fortführen möchten, die die Angabe Ihrer persönlichen Informationen voraussetzen. Wir weisen Sie jedoch darauf hin, dass, falls Sie die erforderlichen Informationen nicht bereitstellen, Sie die entsprechende Aktion nicht durchführen können.</p><h6>Kontoregistrierung</h6><p>Für die Verwendung des CompanyAccount und den Zugriff auf alle damit verbundenen Funktionen ist die Erstellung folgender Elemente erforderlich: <ul><li>ein persönliches Konto</li><li>ein Konto für Ihr Unternehmen, falls Ihre Mitarbeiter nicht bereits ein solches Konto erstellt haben</li></ul>Dies setzt voraus, dass Sie die E-Mail-Adresse Ihres Unternehmens (die dann Ihr Benutzername wird), Ihr Kennwort, Ihren Vor- und Nachnamen, den Namen und das Sitzland Ihres Unternehmens sowie dessen Lizenz zur Verwendung von „Kaspersky Lab“-Anwendungen angeben. Wir verarbeiten und verwenden diese Informationen ausschließlich zur Erbringung der CompanyAccount-Dienste und des technischen Supports, es sei denn, Sie bringen zum Ausdruck, dass diese Informationen zu einem anderen Zweck verarbeitet werden sollen. Nach der Registrierung wird Ihr persönliches Konto mit Ihrem Unternehmenskonto verknüpft.</p><p>Wurde das Konto Ihres Unternehmens bereits erstellt, werden Ihre Registrierungsinformationen (Vor- und Nachname sowie die E-Mail-Adresse Ihres Unternehmens) an den CompanyAccount-Administrator Ihres Unternehmens gesendet. Der Mitarbeiter Ihres Unternehmens, der zuerst das Unternehmen und ein persönliches Konto registriert hat, wird üblicherweise als Administrator bestimmt.</p><h6>Kontoeinstellungen</h6><p>Sie können jederzeit auf der Webseite „Mein Benutzerkonto“ Ihre Kontoinformationen und Ihr Kennwort anzeigen, aktualisieren oder ändern oder Ihr Konto löschen. Nach der Löschung des Kontos werden Ihre Daten bei „Kaspersky Lab“ gespeichert, um unseren Kundenservice zu verbessern. Ihr Zugang auf CompanyAccount über dieses Konto wird jedoch gesperrt.</p><p>Der CompanyAccount-Administrator Ihres Unternehmens hat ebenfalls die Möglichkeit zur Änderung Ihrer Kontoeinstellungen und zur Zurücksetzung Ihres Kennworts.</p><p>Falls Sie der CompanyAccount-Administrator Ihres Unternehmens sind, können Sie persönliche Konten Ihrer Mitarbeiter ändern und das Konto des Unternehmens vollständig sperren (die persönlichen Konten von Mitarbeitern verbleiben im System).</p><h6>Lizenzen</h6><p>Sie können die Lizenzen Ihres Unternehmens für Kaspersky Lab-Produkte auf der Registerkarte von CompanyAccount „Lizenzen“ (Aktivierungscodes oder Schlüsseldateien für jedes Produkt) anzeigen oder Lizenzen hinzufügen. Die während der Registrierung bereitgestellte Lizenz wird automatisch zum CompanyAccount Ihres Unternehmens hinzugefügt.</p><p>Schlüsseldateien werden nicht physisch auf CompanyAccount gespeichert. Das System speichert lediglich einen Eintrag zur Lizenz Ihres Unternehmens.</p><p>Jeder Mitarbeiter Ihres Unternehmens mit einem persönlichen Konto, das mit dem CompanyAccount Ihres Unternehmens verknüpft ist, hat Zugang zur Liste der Lizenzen.</p><p>Ihr CompanyAccount-Administrator kann die Lizenzen Ihres Unternehmens entfernen, indem er diese aus der Liste löscht.</p><h6>Verträge</h6><p>Erwirbt Ihr Unternehmen zusätzliche Kunden-Support-Dienste, können Sie nach der Erfassung des Kaufs auf der Registerkarte „Verträge“ eine Liste mit Kaufdiensten anzeigen.</p><p>Die Liste der Verträge ist jenen Mitarbeitern zugänglich, die zum Kaufzeitpunkt als für die Nutzung des zahlungspflichtigen Dienstes befugt eingestuft wurden. Diese Personen erhalten automatisch Benachrichtigungen zum Ablauf des Vertrags.</p><h6>Kunden-Support-Anfragen</h6><p>Wenn Sie sich an den Kunden-Support oder das Anti-Virus Lab-Team wenden, um über CompanyAccount Support anzufordern, bitten wir Sie unter Umständen, Informationen zur Verfügung zu stellen, die zur Bearbeitung Ihres Anliegens erforderlich sind. Dazu gehören Informationen zum Produkt, das mit Ihrer Anfrage in Verbindung steht, Ihrer Computerhardware, Ihrem Unternehmensnetzwerk, Ihrer Software sowie zur Art des aufgetretenen Problems. Darüber hinaus kann es für Sie nützlich oder gar erforderlich sein, uns die Dateien, die bei Ihnen Probleme verursachen, oder Konfigurationsdateien für Ihren Computer bzw. Ihr Netzwerk zuzusenden. Dies ist über die Funktion „Datei anhängen“ im Anfrageformular möglich. Diese Dateien können benutzerspezifische oder sonstige Dateinamen, Metadaten oder Inhalte enthalten, die Rückschlüsse auf Ihre Person erlauben. Es liegt in Ihrem eigenen Ermessen, diese Dateien hochzuladen. Falls Sie Dateien hochladen möchten, lesen Sie und akzeptieren Sie bitte zuerst unsere <a href=\"http://support.kaspersky.com/de/support/rdp\" target=\"_blank\">Regelung zur Datenbereitstellung</a>.</p><p>Um die richtige Kunden-Support-Abteilung für Ihre Anfrage einzuschalten, verwenden wir Informationen zu den Lizenzen Ihres Unternehmens, zum Sitzland sowie möglicherweise zur Sprache, die Sie für die Benutzeroberfläche Ihres CompanyAccount ausgewählt haben.</p><p>Ihre Mitarbeiter haben Zugang zu Ihren Anfragen, falls Ihr CompanyAccount-Administrator die entsprechenden Einstellungen manuell ändert (der Administrator kann Anfragen automatisch anzeigen). Der Zugriff auf Anfragen ist nicht zeitlich beschränkt. Allerdings können von Ihnen hochgeladene Dateien sechs Monate, nachdem die Anfrage geschlossen wurde, gelöscht werden.</p><h4>Von uns verwendete Sicherheitsmaßnahmen</h4><p>Wir verwenden standardmäßige verwaltungstechnische, physische und elektronische Maßnahmen, um die von Ihnen zur Verfügung gestellten persönlichen Informationen vor unbefugtem Zugriff zu schützen. Wir verschlüsseln die Übertragung persönlicher Daten mittels Secure Sockets Layer (SSL)-Technologie und speichern Ihre Informationen ausschließlich in sicheren Rechenzentren mit eingeschränktem Zugriff.</p><h4>An wen wir persönliche Informationen weitergeben</h4><p>Die Daten zu Ihrer Person und Ihrem Unternehmen werden ausschließlich gespeichert, um Ihnen den gewünschten Dienst zur Verfügung zu stellen, es sei denn, Sie haben uns die Erlaubnis erteilt, Ihnen Marketingmaterialien zuzusenden und Sie bei jährlichen Benutzerumfragen zu berücksichtigen. Bitte beachten Sie, dass wir Ihre persönlichen Informationen an Dritte weitergeben können, falls wir von Regierungsstellen, Gerichten oder Strafvollzugsbehörden gesetzlich dazu verpflichtet werden, die öffentliche oder individuelle Sicherheit dies erfordert oder falls wir Aktivitäten verhindern oder einstellen wollen, die wir für ungesetzmäßig halten.</p><h4>Cookies und andere Technologien</h4><p>In einigen Fällen verwendet „Kaspersky Lab“ Cookies, Web Beacons, Pixel-Tags oder ähnliche Methoden zur Erfassung von Informationen. Weitere Informationen hierzu finden Sie in unserer <a href=\"http://www.kaspersky.com/de/third-party-tracking\" target=\"_blank\">Cookie-Richtlinie</a>.</p><h4>Statistische Informationen</h4><p>Wir können von Benutzern unserer Website Informationen zu Domänennamen, IP-Adressen, Internetprovidern, Browserarten sowie sonstige Client-Umgebungsinformationen (z. B. Modell des Geräts, Betriebssystem, Bildschirmauflösung usw.) erfassen. Des Weiteren erfassen wir Informationen zu den von Ihnen verwendeten Kaspersky Lab-Anwendungen und den dazugehörigen Funktionen, zur Webseite, die Sie vor dem Besuch unserer Website geöffnet haben, zu den von Ihnen besuchten Seiten unserer Website, zur auf diesen Seiten verbrachten Zeit, zu den von Ihnen auf unserer Website gesuchten Informationen, zu Datum und Uhrzeit Ihres Besuchs sowie weitere statistische Informationen. Diese Informationen verwenden wir zur Erstellung von Statistiken zum Datenverkehr auf den Kaspersky Lab-Websites und zur Verbesserung der Sicherheit und des Zugangs zu unserer Website und unseren Diensten. Diese Informationen werden nicht mit Ihren persönlichen Daten in Verbindung gebracht. Wir fordern Sie nicht dazu auf, Ihren Standort bekanntzugeben, und verfolgen diesen nicht mithilfe von Informationen auf Ihrem Gerät.</p><h4>Kontaktinformationen</h4> <p>Diese Informationen finden Sie auf den Seiten „<a href=\"http://www.kaspersky.com/de/kontakt\" target=\"_blank\">Kontaktformular</a>“ und „<a href=\"http://www.kaspersky.com/de/impressum\" target=\"_blank\">Impressum</a>“.</p><p>Sollten Sie Fragen oder Anregungen zum Schutz Ihrer persönlichen Daten haben, die in Verbindung mit Ihrer Verwendung von CompanyAccount verarbeitet werden, senden Sie uns bitte eine E-Mail an: <a href=\"mailto:privacy@kaspersky.com\">privacy@kaspersky.com</a></p>"
+                },
+                "changePass": {
+                    "title": "Kennwort für Kaspersky CompanyAccount festlegen",
+                    "description": "Bitte geben Sie das Kennwort ein und bestätigen Sie es:",
+                    "e-mail": "E-Mail",
+                    "passwordLabel": "Kennwort",
+                    "confirmPasswordLabel": "Kennwort bestätigen",
+                    "submit-btn": "Kennwort festlegen",
+                    "passwordValidations_title": "Anforderungen ans Kennwort:",
+                    "passwordValidations_length": "mindestens 8 Zeichen",
+                    "passwordValidations_uppercaseLetter": "Groß- und Kleinbuchstaben (A–z)",
+                    "passwordValidations_lowercaseLetter": "mindestens ein Sonderzeichen (! # + % u.ä.)",
+                    "passwordValidations_digit": "mindestens eine Ziffer (0-9)",
+                    "passwordValidations_noSpace": "keine Leerzeichen",
+
+                    "errors": {
+                        "Password.RequiredRule": "Pflichtfeld",
+                        "Password.MinLengthRule": "Das Passwort ist zu kurz",
+                        "Password.PasswordRule": "Ihr Passwort erfüllt nicht die Voraussetzungen",
+                        "Password.NotEqualToRule": "Ihr Passwort darf nicht dem Benutzernamen entsprechen",
+                        "Password.PasswordInBlacklist": "Das eingegebene Kennwort ist nicht sicher",
+                        "Password.SimplePassword": "Das Kennwort entspricht nicht den Anforderungen",
+                        "Password.PasswordMatch": "Dieses Kennwort wurde bereits früher verwendet",
+                        "ConfirmPassword.RequiredRule": "Pflichtfeld",
+                        "ConfirmPassword.EqualRule": "Die Kennwörter stimmen nicht überein",
+
+                        "AdminBlocked": {
+                            "title": "Das Benutzerkonto wurde vom Administrator gesperrt",
+                            "text": "Um es zu entsperren, schreiben Sie an: <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
+                        },
+                        "TempBlocking": {
+                            "title": "Der Benutzer ist vorübergehend gesperrt",
+                            "text": "Die Anzahl der fehlgeschlagenen Anmeldeversuche wurde für Ihren Benutzernamen überschritten. Bitte versuche Sie es erneut später"
+                        },
+                        "UnknownError": {
+                            "title": "Bei der Aktivierung des Benutzerkontos ist ein unbekannter Fehler aufgetreten",
+                            "text": "Bei der Aktivierung des Benutzerkontos ist ein unbekannter Fehler aufgetreten. <br />Bitte folgen Sie dem Link noch einmal. Wenn das Problem weiterhin besteht, dann <a href='mailto:betaca@kaspersky.com'>schreiben Sie uns</a>."
+                        },
+                        "UserNotFound": {
+                            "title": "Der Benutzer wurde nicht gefunden",
+                            "text": "Schreiben Sie an <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>, um entstandene Probleme zu lösen"
+                        },
+                        "LinkNotExist": {
+                            "title": "Bei der Aktivierung des Benutzerkontos sind Probleme aufgetreten",
+                            "text": "Schreiben Sie an <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>, um entstandene Probleme zu lösen"
+                        },
+                        "DuplicatedRecords": {
+                            "title": "Unbekannter Fehler aufgetreten",
+                            "text": "Unbekannter Fehler während der Aktivierung aufgetreten. <br />Bitte klicken Sie den Link erneut. <br />Wenn der Fehler weiterhin auftritt, <a href='mailto:betaca@kaspersky.com'>kontaktieren Sie bitte den Technischen Support</a>."
+                        },
+                        "NotSupportedSystemType": {
+                            "title": "System-Typ wird nicht unterstützt",
+                            "text": "?"
+                        }
+                    }
+                },
+                "resetPassword": {
+                    "logout": "Um die Wiederherstellung des Kennworts fortzusetzen, müssen Sie sich abmelden und erneut dem Link folgen.",
+                    "close-session": "Um das Kennwort für Ihr Benutzerkonto zurückzusetzen, müssen Sie alle aktiven Sitzungen bei CompanyAccount beenden.<br/>Klicken Sie auf „Neues Kennwort festlegen“, um alle aktive Sitzungen zu beenden und Ihr neues Kennwort anzugeben. <br/>Oder klicken Sie auf „Aktive Sitzungen speichern“, um die Sitzungen zu speichern und das Kennwort nicht zu ändern<br/>Sie können dem Link zur Wiederherstellung des Kennworts später innerhalb von sieben Tagen folgen. ",
+                    "logout-btn": "Setzen Sie ein neues Passwort",
+                    "close-btn": "Aktuelle Sitzung speichern",
+                    "success": {
+                        "title": "Das Kennwort wurde erfolgreich geändert",
+                        "text": "Jetzt können Sie sich anmelden",
+                        "button": "Anmelden"
+                    },
+                    "errors": {
+                        "LinkExpired": {
+                            "title": "Der Link ist nicht mehr gültig",
+                            "text": "Sie können <a href='/account/forgot'>das Kennwort erneut zurücksetzen</a>"
+                        },
+                        "LinkUsed": {
+                            "title": "Über diesen Link wurde bereits das Kennwort geändert",
+                            "text": "ie können <a href='/account/login'>sich bei CompanyAccount anmelden</a> oder <a href='/account/forgot'>das Kennwort zurücksetzen</a>"
+                        },
+                        "UserNotOfCA": {
+                            "title": "Das Konto gehört nicht zu CompanyAccount",
+                            "text": "An die von Ihnen angegebene E-Mail-Adresse wurden weitere Anweisungen gesendet"
+                        },
+                        "UserNotActivated": {
+                            "title": "Das Benutzerkonto wurde noch nicht aktiviert",
+                            "text": "An die von Ihnen angegebene E-Mail-Adresse wurden weitere Anweisungen gesendet"
+                        },
+                        "UserNotEnabled": {
+                            "title": "Das Benutzerkonto wurde noch nicht aktiviert",
+                            "text": "An die von Ihnen angegebene E-Mail-Adresse wurden weitere Anweisungen gesendet"
+                        }
+                    }
+                },
+                "activate": {
+                    "logout": "Um die Aktivierung fortzusetzen, müssen Sie sich abmelden.",
+                    "close-session": "Um ein neues Benutzerkonto zu aktivieren, müssen Sie alle aktive Sitzungen bei CompanyAccount beenden.<br/> Klicken Sie auf „Neues Benutzerkonto aktivieren“, um alle aktiven Sitzungen zu beenden und das Kennwort für das neue Benutzerkonto festzulegen.<br/> Oder klicken Sie auf „Aktive Sitzungen speichern“, um die Sitzungen zu speichern und das Benutzerkonto später zu aktivieren.<br/>Sie können dem Link später innerhalb von sieben Tagen folgen.",
+                    "logout-btn": "Neues Benutzerkonto aktivieren",
+                    "close-btn": "Aktuelle Sitzung speichern",
+                    "success": {
+                        "title": "Das Benutzerkonto wurde<br />erfolgreich aktiviert",
+                        "text": "Jetzt können Sie sich anmelden",
+                        "button": "Anmelden"
+                    },
+                    "close": "Schließen",
+                    "errors": {
+                        "LinkNotExist": {
+                            "title": "Bei der Aktivierung des Benutzerkontos sind Probleme aufgetreten",
+                            "text": "Schreiben Sie an <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>, um entstandene Probleme zu lösen"
+                        },
+                        "LinkExpired": {
+                            "title": "Der Link ist nicht mehr gültig",
+                            "text": "Sie können <a href='/account/create'>sich erneut registrieren</a>"
+                        },
+                        "LinkUsed": {
+                            "title": "Das Benutzerkonto wurde bereits aktiviert",
+                            "text": "Sie können <a href='/account/login'>sich bei CompanyAccount anmelden</a> oder <a href='/account/forgot'>das vergessene Kennwort zurücksetzen</a>"
+                        },
+                        "DuplicatedRecords": {
+                            "title": "Bei der Aktivierung des Benutzerkontos sind Probleme aufgetreten",
+                            "text": "Schreiben Sie an <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>, um entstandene Probleme zu lösen"
+                        },
+                        "UnknownError": {
+                            "title": "Bei der Aktivierung des Benutzerkontos ist ein unbekannter Fehler aufgetreten",
+                            "text": "Bei der Aktivierung des Benutzerkontos ist ein unbekannter Fehler aufgetreten. <br />Bitte folgen Sie dem Link noch einmal. Wenn das Problem weiterhin besteht, dann <a href='mailto:betaca@kaspersky.com'>schreiben Sie uns</a>."
+                        }
+                    }
+                },
+                "refreshPassword": {
+                    "title": "Das Passwort ist abgelaufen",
+                    "description": "Bitte erstellen und bestätigen Sie ihr Passwort"
+                },
+                "delete": {
+                    "title": "Benutzerkonto für CompanyAccount löschen",
+                    "description": "Bitte bestätigen Sie das Löschen Ihres Benutzerkontos ",
+                    "e-mail": "E-Mail",
+                    "delete": "Löschen",
+                    "close": "Schließen",
+                    "ok": "OK",
+                    "loading": "Ihre Anfrage wird bearbeitet...",
+                    "confirm": {
+                        "title": "Das Konto löschen",
+                        "description": "Sobald Sie \"Löschen\" klicken, werden alle Informationen Ihres Unternehmens im CompanyAccount gelöscht.",
+                        "continue": "Löschen"
+                    },
+                    "success": {
+                        "title": "Das Benutzerkonto wurde<br />erfolgreich gelöscht",
+                        "description": " "
+                    },
+                    "errors": {
+                        "UserNotFound": {
+                            "title": "Das Benutzerkonto wurde nicht gefunden",
+                            "text": "Schreiben Sie an: <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
+                        },
+                        "LinkExpired": {
+                            "title": "Der Link ist nicht mehr gültig",
+                            "text": "Sie können <a href='/account/create'>sich erneut registrieren</a>"
+                        },
+                        "LinkUsed": {
+                            "title": "Das Benutzerkonto wurde bereits gelöscht",
+                            "text": " "
+                        },
+                        "LinkNotExist": {
+                            "title": "Beim Löschen des Benutzerkontos sind Probleme aufgetreten",
+                            "text": "Schreiben Sie an <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>, um entstandene Probleme zu lösen"
+                        },
+                        "DuplicatedRecords": {
+                            "title": "Beim Löschen des Benutzerkontos sind Probleme aufgetreten",
+                            "text": "Schreiben Sie an <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>, um entstandene Probleme zu lösen"
+                        },
+                        "UnknownError": {
+                            "title": "Es ist ein unbekannter Fehler aufgetreten",
+                            "text": "Beim Löschen des Benutzers ist ein unbekannter Fehler aufgetreten. <br />Bitte folgen Sie dem Link noch einmal.<br />Wenn das Problem weiterhin besteht, <a href='mailto:betaca@kaspersky.com'>schreiben Sie uns</a>."
+                        }
+                    }
+                },
+                "create": {
+                    "title": "Benutzerkonto erstellen ",
+                    "description": "Erstellen Sie ein Benutzerkonto für Kaspersky CompanyAccount ",
+                    "firstname": "Vorname",
+                    "lastname": "Familienname",
+                    "company": "Unternehmen",
+                    "email": "E-Mail",
+                    "or-type-code": "oder geben Sie den Aktivierungscode ein:",
+                    "activationCodeTooltip": "Der Aktivierungscode besteht aus durch Bindestriche getrennte vier Gruppen mit jeweils fünf Zeichen (XXXXX-XXXXX-XXXXX-XXXXX). Er kann weder Ziffer 0 (Null) noch die Buchstaben I, O, L enthalten.",
+                    "activationCodeInvalid": "Das Format des eingegebenen Codes stimmt mit dem Format eines Aktivierungscodes nicht überein.",
+                    "close": "Schließen",
+                    "removeKeyfile": "Löschen",
+
+                    "errors": {
+                        "FirstName.RequiredRule": "Bitte geben Sie Ihren Benutzernamen an",
+                        "FirstName.MaxByteLengthRule": "Die maximale Länge des Benutzernamens beträgt 30 Zeichen",
+                        "LastName.RequiredRule": "Geben Sie Ihren Familiennamen an",
+                        "LastName.MaxByteLengthRule": "Die maximale Länge des Familiennamens beträgt 30 Zeichen",
+                        "Company.RequiredRule": "Bitte geben Sie den Firmennamen an",
+                        "Company.MaxLengthRule": "Die maximale Länge des Firmennamens beträgt 40 Zeichen",
+                        "Country.RequiredRule": "Das Feld „Land“ ist nicht ausgefüllt",
+                        "Captcha.RequiredRule": "Geben Sie die Zeichen auf dem Bild ein.",
+                        "Captcha.CaptchaIncorrect": "Die Zeichen stimmen nicht überein. Versuchen Sie es erneut.",
+                        "Captcha.CaptchaTimeout": "Der Code ist veraltet, versuchen Sie es noch einmal",
+
+                        "Email.RequiredRule": "Die E-Mail-Adresse ist nicht angegeben",
+                        "Email.EmailRule": "Die E-Mail-Adresse ist nicht korrekt",
+                        "Email.MaxByteLengthRule": "Die maximale Länge der E-Mail-Adresse beträgt 127 Zeichen",
+                        "Email.RepeatedRegistration": "Dieses Benutzerkonto wird bereits verwendet. Sie können entweder <a href='/account/forgot'>das Kennwort wieder herstellen</a> oder sich<a href='/account/login'>anmelden</a>",
+                        "Email.FailureUserExists": "Dieses Benutzerkonto wird bereits verwendet. Sie können entweder <a href='/account/forgot'>das Kennwort wieder herstellen</a> oder sich<a href='/account/login'>anmelden</a>",
+
+                        "KeyFile.KeyFileRule": "Ungültige Schlüsseldatei",
+                        "KeyFile.HttpFileSizeRule": "Die Schlüsseldatei ist zu groß",
+                        "ActivationCode.ActivationCodeRule": "Ungültiger Aktivierungscode",
+
+                        "InvalidEmailDomain": "Der Domainname kaspersky.com kann nicht angegeben werden",
+                        "ActCodeOrKeyFileRequired": "Bitte fügen Sie Ihren Aktivierungscode oder Ihre Schlüsseldatei hinzu.",
+                        "UnknownError": {
+                            "title": "Es ist ein unbekannter Fehler aufgetreten",
+                            "text": "Bitte versuchen Sie erneut, sich zu registrieren. Wenn das Problem weiterhin besteht, dann <a href='mailto:betaca@kaspersky.com'>schreiben Sie uns</a>."
+                        }
+                    },
+                    "success": {
+                        "title": "Das Benutzerkonto wurde<br />erfolgreich erstellt",
+                        "text": "An die E-Mail-Adresse <b>{email}</b> wurde eine E-Mail mit dem Link gesendet. <br />Um die Registrierung bei <b>Kaspersky CompanyAccount</b> abzuschließen <br />folgen Sie diesem Link. <br />",
+                        "close": "Schließen"
+                    },
+                    "privacystatement": "Ich akzeptiere die <a href=\"/account/privacy-statement\" target=\"_blank\">Datenschutzerklärung</a>. ",
+                    "survey-participation": "Ich möchte von Kaspersky Lab zur Teilnahme an der jährlichen Umfrage zur Anwenderzufriedenheit per E-Mail eingeladen werden.",
+                    "createbutton": "Erstellen"
+                },
+                "forgot": {
+                    "continue": "Fortfahren",
+                    "close": "Schließen",
+                    "step1": {
+                        "title": "Kennwort für Kaspersky CompanyAccount wieder herstellen",
+                        "description": "Geben Sie die E-Mail ein,<br />die Sie beim Erstellen des Benutzerkontos für Kaspersky CompanyAccount verwendet haben.",
+                        "email": "E-Mail"
+                    },
+                    "success": {
+                        "title": "Die Anweisungen zur Wiederherstellung<br/> des Kennworts wurden gesendet",
+                        "description": "Bitte überprüfen Sie Ihr E-Mail-Postfach <b>{email}</b><br />Folgen Sie den Anweisungen in der E-Mail, um die Wiederherstellung des Kennworts abzuschließen.<p> <b>Achtung!</b>Wenn Sie keine E-Mail erhalten haben, prüfen Sie die E-Mail-Adresse und versuchen Sie es erneut. </br>Wenn die E-Mail-Adresse korrekt ist, aber Sie erneut keine E-Mail erhalten haben, </br>schreiben Sie bitte an: <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> </p>"
+                    },
+                    "errors": {
+                        "CaptchaIncorrect": "Der Code wurde inkorrekt eingegeben, versuchen Sie es erneut",
+                        "Captcha.CaptchaIncorrect": "Der Code wurde inkorrekt eingegeben, versuchen Sie es erneut",
+                        "Captcha.CaptchaTimeout": "Der Code ist veraltet, versuchen Sie es noch einmal",
+
+
+                        "Email.RequiredRule": "Geben Sie die E-Mail an",
+                        "Email.EmailRule": "Inkorrekte E-Mail-Adresse",
+                        "Email.MaxByteLengthRule": "Ihre E-Mail-Adressee darf nicht länger als (ByteLength) Zeichen sein",
+
+                        "AdminBlocked": {
+                            "title": "Das Benutzerkonto wurde vom Administrator gesperrt",
+                            "text": "Um es zu entsperren, schreiben Sie an: <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
+                        },
+                        "NotSupportedSystemType": {
+                            "title": "Das Benutzerkonto gehört nicht zum CompanyAccount",
+                            "text": "Weitere Informationen wurden an Ihre E-Mail-Adresse gesendet."
+                        },
+                        "UserNotFound": {
+                            "title": "Der Benutzer wurde nicht gefunden",
+                            "text": " "
+                        },
+                        "NotSupportedCompanyCategory": {
+                            "title": "Das Unternehmenskonto gehört nicht zum CompanyAccount",
+                            "text": "Weitere Informationen wurden an Ihre E-Mail-Adresse gesendet."
+                        },
+                        "NotActivated": {
+                            "title": "Benutzerkonto wurde nicht aktiviert.",
+                            "text": "Weitere Informationen wurden an Ihre E-Mail-Adresse gesendet."
+                        },
+                        "IsSupportStuff": {
+                            "title": "Dieser Benutzer ist bereits als Supportmitarbeiter registriert",
+                            "text": " "
+                        },
+                        "UnknownError": {
+                            "title": "Es ist ein unbekannter Fehler aufgetreten",
+                            "text": "Bitte versuchen Sie erneut, das Kennwort zurückzusetzen. Wenn das Problem weiterhin besteht, dann <a href='mailto:betaca@kaspersky.com'>schreiben Sie uns</a>."
+                        }
+                    }
+                },
+                "login": {
+                    "title": "Anmelden",
+                    "subtitle": "bei Kaspersky CompanyAccount",
+                    "tooltip": "CompanyAccount ist das Portal des Supports für Anwender der Unternehmenslösungen von Kaspersky Lab",
+                    "notetitle": "Kaspersky CompanyAccount",
+                    "notedescription": "Mit dem Kaspersky CompanyAccount können Anwender der Unternehmenslösungen von Kaspersky Lab Anfragen an den technischen Support erstellen und verfolgen.",
+                    "email": "E-Mail",
+                    "password": "Kennwort",
+                    "rememberme": "Dieses Konto merken",
+                    "forgot": "Kennwort vergessen?",
+                    "login": "Anmelden",
+                    "loading": "Lädt...",
+                    "noaccount": "Haben Sie noch kein Benutzerkonto?",
+                    "create": "Erstellen",
+                    "close": "Schließen",
+                    "errors": {
+                        "EmailIsRequired": "Bitte geben Sie die E-Mail ein",
+                        "InvalidEmail": "Inkorrekte E-Mail",
+                        "PasswordIsRequired": "Bitte geben Sie das Kennwort ein",
+                        "SimplePassword": "Das Kennwort entspricht nicht den Anforderungen",
+                        "UserNotOfCA": "Das Konto gehört nicht zu CompanyAccount",
+                        "LoginBan": "Die Anzahl der fehlgeschlagenen Anmeldeversuche wurde für Ihren Benutzernamen überschritten. Bitte versuche Sie es erneut später",
+                        "GrantIncorrect": "Falsche E-Mail oder falsches Kennwort",
+                        "GrantContextIncorrect": "Sie haben eine falsche E-Mail oder ein falsches Kennwort eingegeben",
+                        "LoginExpired": "Der Aktivierungszeitraum ist abgelaufen. Kontaktieren Sie den Support, um diesen zu verlängern",
+                        "LoginBlocking": "Ihr Benutzerkonto wurde gesperrt. Kontaktieren Sie den Support",
+                        "LoginIncorrect": "Falsche E-Mail oder falsches Kennwort",
+                        "CurrentPasswordIncorrect": "Das aktuelle Kennwort ist falsch eingegeben",
+                        "PasswordIncorrect": "Das Kennwort ist falsch eingegeben",
+                        "ExceededUserSessionCount": "Die Anzahl der gleichzeitigen Anmeldungen wurde überschritten",
+                        "UnknownError": "Es ist ein unbekannter Fehler aufgetreten",
+                        "UnknownErrorDescription": "Beim Anmeldeversuch ist ein unbekannter Fehler aufgetreten.<br />Bitte versuchen Sie es erneut.<br />Wenn das Problem weiterhin besteht, <a href='mailto:betaca@kaspersky.com'>schreiben Sie uns</a>."
+                    }
+                },
+                "deleteCompany": {
+                    "logout": "Bitte abmelden, um mit dem Löschen des Unternehmes fortzufahren.",
+                    "close-session": "Bitte Sitzung beenden und erneut versuchen",
+                    "logout-btn": "Abmelden und fortfahren",
+                    "close-btn": "Aktuelle Sitzung speichern",
+                    "title": "Benutzerkonto des Unternehmens löschen",
+                    "description": "Achtung! Nach Klick auf „Fortfahren“ werden die Informationen über Ihr Unternehmen aus СompanyAccount gelöscht. Die Benutzer Ihrer Unternehmen können sich zwar bei CompanyAccount anmelden, aber alle Informationen über Anfragen, Lizenzen und Verträge gehen verloren.",
+                    "continue": "Fortfahren",
+                    "loading": "Löschen",
+                    "close": "Schließen",
+                    "confirm": {
+                        "title": "Unternehmenskonto löschen",
+                        "description": "Sobald Sie auf \"Fortfahren\" Klicken, werden alle Informationen Ihres Unternehmens aus dem CompanyAccount gelöscht. Benutzer können sich weiterhin anmelden, jedoch sind alle Daten, Anfragen und Lizenzinformationen nicht mehr verfügbar.",
+                        "continue": "Fortfahren"
+                    },
+                    "errors": {
+                        "UserNotFound": {
+                            "title": "Der Benutzer wurde nicht gefunden",
+                            "text": "Bitte schreiben Sie an: <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
+                        },
+                        "NotMainUser": {
+                            "title": "Ihr Benutzerkonto weist Probleme auf",
+                            "text": "Schreiben Sie an <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>, um entstandene Probleme zu lösen"
+                        },
+                        "CompanyNotFound": {
+                            "title": "Das Unternehmen wurde bereits gelöscht",
+                            "text": " "
+                        },
+                        "LinkExpired": {
+                            "title": "Der Link ist nicht mehr gültig",
+                            "text": "Sie können das Löschen des Benutzerkontos des Unternehmens erneut anfordern"
+                        },
+                        "LinkUsed": {
+                            "title": "Das Benutzerkonto des Unternehmens wurde bereits deaktiviert",
+                            "text": " "
+                        },
+                        "AccessDenied": {
+                            "title": "Der Zugriff ist verboten",
+                            "text": " "
+                        },
+                        "LinkNotExist": {
+                            "title": "Der Link ist nicht gültig",
+                            "text": "Schreiben Sie an <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>, um entstandene Probleme zu lösen"
+                        },
+                        "DeactivationRequestError": {
+                            "title": "Beim Löschen des Benutzerkontos des Unternehmens sind Probleme aufgetreten",
+                            "text": "Schreiben Sie an <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>, um entstandene Probleme zu lösen"
+                        },
+                        "UnknownError": {
+                            "title": "Unbekannter Fehler",
+                            "text": "Beim Löschen des Unternehmens ist ein unbekannter Fehler aufgetreten. <br />Bitte warten Sie ein paar Minuten und versuchen Sie es, dem Link erneut zu folgen. <br/>Wenn das Problem weiterhin besteht, dann <a href='mailto:betaca@kaspersky.com'>schreiben Sie uns</a>."
+                        },
+                        "Failure": {
+                            "title": "Es ist ein unbekannter Fehler aufgetreten",
+                            "text": "Beim Löschen des Unternehmens ist ein unbekannter Fehler aufgetreten. <br />Bitte warten Sie ein paar Minuten und versuchen Sie es erneut. <br/>Wenn das Problem weiterhin besteht, dann <a href='mailto:betaca@kaspersky.com'>schreiben Sie uns</a>."
+                        }
+                    },
+                    "success": {
+                        "title": "Das Unternehmen wurde erfolgreich gelöscht",
+                        "description": " "
+                    }
+                }
             }
-          }
-        },
-        "resetPassword": {
-          "logout": "Um die Wiederherstellung des Kennworts fortzusetzen, müssen Sie sich abmelden und erneut dem Link folgen.",
-          "close-session": "Um das Kennwort für Ihr Benutzerkonto zurückzusetzen, müssen Sie alle aktiven Sitzungen bei CompanyAccount beenden.<br/>Klicken Sie auf „Neues Kennwort festlegen“, um alle aktive Sitzungen zu beenden und Ihr neues Kennwort anzugeben. <br/>Oder klicken Sie auf „Aktive Sitzungen speichern“, um die Sitzungen zu speichern und das Kennwort nicht zu ändern<br/>Sie können dem Link zur Wiederherstellung des Kennworts später innerhalb von sieben Tagen folgen. ",
-          "logout-btn": "Setzen Sie ein neues Passwort",
-          "close-btn": "Aktuelle Sitzung speichern",
-          "success": {
-            "title": "Das Kennwort wurde erfolgreich geändert",
-            "text": "Jetzt können Sie sich anmelden",
-            "button": "Anmelden"
-          },
-          "errors": {
-            "LinkExpired": {
-              "title": "Der Link ist nicht mehr gültig",
-              "text": "Sie können <a href='/account/forgot'>das Kennwort erneut zurücksetzen</a>"
-            },
-            "LinkUsed": {
-              "title": "Über diesen Link wurde bereits das Kennwort geändert",
-              "text": "ie können <a href='/account/login'>sich bei CompanyAccount anmelden</a> oder <a href='/account/forgot'>das Kennwort zurücksetzen</a>"
-            },
-            "UserNotOfCA": {
-              "title": "Das Konto gehört nicht zu CompanyAccount",
-              "text": "An die von Ihnen angegebene E-Mail-Adresse wurden weitere Anweisungen gesendet"
-            },
-            "UserNotActivated": {
-              "title": "Das Benutzerkonto wurde noch nicht aktiviert",
-              "text": "An die von Ihnen angegebene E-Mail-Adresse wurden weitere Anweisungen gesendet"
-            },
-            "UserNotEnabled": {
-              "title": "Das Benutzerkonto wurde noch nicht aktiviert",
-              "text": "An die von Ihnen angegebene E-Mail-Adresse wurden weitere Anweisungen gesendet"
-            }
-          }
-        },
-        "activate": {
-          "logout": "Um die Aktivierung fortzusetzen, müssen Sie sich abmelden.",
-          "close-session": "Um ein neues Benutzerkonto zu aktivieren, müssen Sie alle aktive Sitzungen bei CompanyAccount beenden.<br/> Klicken Sie auf „Neues Benutzerkonto aktivieren“, um alle aktiven Sitzungen zu beenden und das Kennwort für das neue Benutzerkonto festzulegen.<br/> Oder klicken Sie auf „Aktive Sitzungen speichern“, um die Sitzungen zu speichern und das Benutzerkonto später zu aktivieren.<br/>Sie können dem Link später innerhalb von sieben Tagen folgen.",
-          "logout-btn": "Neues Benutzerkonto aktivieren",
-          "close-btn": "Aktuelle Sitzung speichern",
-          "success": {
-            "title": "Das Benutzerkonto wurde<br />erfolgreich aktiviert",
-            "text": "Jetzt können Sie sich anmelden",
-            "button": "Anmelden"
-          },
-          "close": "Schließen",
-          "errors": {
-            "LinkNotExist": {
-              "title": "Bei der Aktivierung des Benutzerkontos sind Probleme aufgetreten",
-              "text": "Schreiben Sie an <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>, um entstandene Probleme zu lösen"
-            },
-            "LinkExpired": {
-              "title": "Der Link ist nicht mehr gültig",
-              "text": "Sie können <a href='/account/create'>sich erneut registrieren</a>"
-            },
-            "LinkUsed": {
-              "title": "Das Benutzerkonto wurde bereits aktiviert",
-              "text": "Sie können <a href='/account/login'>sich bei CompanyAccount anmelden</a> oder <a href='/account/forgot'>das vergessene Kennwort zurücksetzen</a>"
-            },
-            "DuplicatedRecords": {
-              "title": "Bei der Aktivierung des Benutzerkontos sind Probleme aufgetreten",
-              "text": "Schreiben Sie an <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>, um entstandene Probleme zu lösen"
-            },
-            "UnknownError": {
-              "title": "Bei der Aktivierung des Benutzerkontos ist ein unbekannter Fehler aufgetreten",
-              "text": "Bei der Aktivierung des Benutzerkontos ist ein unbekannter Fehler aufgetreten. <br />Bitte folgen Sie dem Link noch einmal. Wenn das Problem weiterhin besteht, dann <a href='mailto:betaca@kaspersky.com'>schreiben Sie uns</a>."
-            }
-          }
-        },
-        "refreshPassword": {
-          "title": "Das Passwort ist abgelaufen",
-          "description": "Bitte erstellen und bestätigen Sie ihr Passwort"
-        },
-        "delete": {
-          "title": "Benutzerkonto für CompanyAccount löschen",
-          "description": "Bitte bestätigen Sie das Löschen Ihres Benutzerkontos ",
-          "e-mail": "E-Mail",
-          "delete": "Löschen",
-          "close": "Schließen",
-          "ok": "OK",
-          "loading": "Ihre Anfrage wird bearbeitet...",
-          "confirm": {
-            "title": "Das Konto löschen",
-            "description": "Sobald Sie \"Löschen\" klicken, werden alle Informationen Ihres Unternehmens im CompanyAccount gelöscht.",
-            "continue": "Löschen"
-          },
-          "success": {
-            "title": "Das Benutzerkonto wurde<br />erfolgreich gelöscht",
-            "description": " "
-          },
-          "errors": {
-            "UserNotFound": {
-              "title": "Das Benutzerkonto wurde nicht gefunden",
-              "text": "Schreiben Sie an: <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
-            },
-            "LinkExpired": {
-              "title": "Der Link ist nicht mehr gültig",
-              "text": "Sie können <a href='/account/create'>sich erneut registrieren</a>"
-            },
-            "LinkUsed": {
-              "title": "Das Benutzerkonto wurde bereits gelöscht",
-              "text": " "
-            },
-            "LinkNotExist": {
-              "title": "Beim Löschen des Benutzerkontos sind Probleme aufgetreten",
-              "text": "Schreiben Sie an <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>, um entstandene Probleme zu lösen"
-            },
-            "DuplicatedRecords": {
-              "title": "Beim Löschen des Benutzerkontos sind Probleme aufgetreten",
-              "text": "Schreiben Sie an <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>, um entstandene Probleme zu lösen"
-            },
-            "UnknownError": {
-              "title": "Es ist ein unbekannter Fehler aufgetreten",
-              "text": "Beim Löschen des Benutzers ist ein unbekannter Fehler aufgetreten. <br />Bitte folgen Sie dem Link noch einmal.<br />Wenn das Problem weiterhin besteht, <a href='mailto:betaca@kaspersky.com'>schreiben Sie uns</a>."
-            }
-          }
-        },
-        "create": {
-          "title": "Benutzerkonto erstellen ",
-          "description": "Erstellen Sie ein Benutzerkonto für Kaspersky CompanyAccount ",
-          "firstname": "Vorname",
-          "lastname": "Familienname",
-          "company": "Unternehmen",
-          "email": "E-Mail",
-          "or-type-code": "oder geben Sie den Aktivierungscode ein:",
-          "activationCodeTooltip": "Der Aktivierungscode besteht aus durch Bindestriche getrennte vier Gruppen mit jeweils fünf Zeichen (XXXXX-XXXXX-XXXXX-XXXXX). Er kann weder Ziffer 0 (Null) noch die Buchstaben I, O, L enthalten.",
-          "activationCodeInvalid": "Das Format des eingegebenen Codes stimmt mit dem Format eines Aktivierungscodes nicht überein.",
-          "close": "Schließen",
-          "removeKeyfile": "Löschen",
-          "errors['FirstName": {
-            "RequiredRule']": "Bitte geben Sie Ihren Benutzernamen an",
-            "MaxByteLengthRule']": "Die maximale Länge des Benutzernamens beträgt 30 Zeichen"
-          },
-          "errors['LastName": {
-            "RequiredRule']": "Geben Sie Ihren Familiennamen an",
-            "MaxByteLengthRule']": "Die maximale Länge des Familiennamens beträgt 30 Zeichen"
-          },
-          "errors['Company": {
-            "RequiredRule']": "Bitte geben Sie den Firmennamen an",
-            "MaxLengthRule']": "Die maximale Länge des Firmennamens beträgt 40 Zeichen"
-          },
-          "errors['Country": {
-            "RequiredRule']": "Das Feld „Land“ ist nicht ausgefüllt"
-          },
-          "errors['Captcha": {
-            "RequiredRule']": "Geben Sie die Zeichen auf dem Bild ein.",
-            "CaptchaIncorrect']": "Die Zeichen stimmen nicht überein. Versuchen Sie es erneut."
-          },
-          "errors['Email": {
-            "RequiredRule']": "Die E-Mail-Adresse ist nicht angegeben",
-            "EmailRule']": "Die E-Mail-Adresse ist nicht korrekt",
-            "MaxByteLengthRule']": "Die maximale Länge der E-Mail-Adresse beträgt 127 Zeichen",
-            "RepeatedRegistration']": "Dieses Benutzerkonto wird bereits verwendet. Sie können entweder <a href='/account/forgot'>das Kennwort wieder herstellen</a> oder sich<a href='/account/login'>anmelden</a>"
-          },
-          "errors['KeyFile": {
-            "KeyFileRule']": "Ungültige Schlüsseldatei",
-            "HttpFileSizeRule']": "Die Schlüsseldatei ist zu groß"
-          },
-          "errors['ActivationCode": {
-            "ActivationCodeRule']": "Ungültiger Aktivierungscode"
-          },
-          "errors": {
-            "InvalidEmailDomain": "Der Domainname kaspersky.com kann nicht angegeben werden",
-            "ActCodeOrKeyFileRequired": "Bitte fügen Sie Ihren Aktivierungscode oder Ihre Schlüsseldatei hinzu.",
-            "FailureUserExists": {
-              "title": "Dieses Benutzerkonto wird bereits verwendet. Sie können entweder <a href='/account/forgot'>das Kennwort wieder herstellen</a> oder sich<a href='/account/login'>anmelden</a>",
-              "text": " "
-            },
-            "UnknownError": {
-              "title": "Es ist ein unbekannter Fehler aufgetreten",
-              "text": "Bitte versuchen Sie erneut, sich zu registrieren. Wenn das Problem weiterhin besteht, dann <a href='mailto:betaca@kaspersky.com'>schreiben Sie uns</a>."
-            }
-          },
-          "success": {
-            "title": "Das Benutzerkonto wurde<br />erfolgreich erstellt",
-            "text": "An die E-Mail-Adresse <b>{email}</b> wurde eine E-Mail mit dem Link gesendet. <br />Um die Registrierung bei <b>Kaspersky CompanyAccount</b> abzuschließen <br />folgen Sie diesem Link. <br />",
-            "close": "Schließen"
-          },
-          "privacystatement": "Ich akzeptiere die <a href=\"/account/privacy-statement\" target=\"_blank\">Datenschutzerklärung</a>. ",
-          "survey-participation": "Ich möchte von Kaspersky Lab zur Teilnahme an der jährlichen Umfrage zur Anwenderzufriedenheit per E-Mail eingeladen werden.",
-          "createbutton": "Erstellen"
-        },
-        "forgot": {
-          "continue": "Fortfahren",
-          "close": "Schließen",
-          "step1": {
-            "title": "Kennwort für Kaspersky CompanyAccount wieder herstellen",
-            "description": "Geben Sie die E-Mail ein,<br />die Sie beim Erstellen des Benutzerkontos für Kaspersky CompanyAccount verwendet haben.",
-            "email": "E-Mail"
-          },
-          "success": {
-            "title": "Die Anweisungen zur Wiederherstellung<br/> des Kennworts wurden gesendet",
-            "description": "Bitte überprüfen Sie Ihr E-Mail-Postfach <b>{email}</b><br />Folgen Sie den Anweisungen in der E-Mail, um die Wiederherstellung des Kennworts abzuschließen.<p> <b>Achtung!</b>Wenn Sie keine E-Mail erhalten haben, prüfen Sie die E-Mail-Adresse und versuchen Sie es erneut. </br>Wenn die E-Mail-Adresse korrekt ist, aber Sie erneut keine E-Mail erhalten haben, </br>schreiben Sie bitte an: <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a> </p>"
-          },
-          "errors": {
-            "CaptchaIncorrect": "Der Code wurde inkorrekt eingegeben, versuchen Sie es erneut",
-            "AdminBlocked": {
-              "title": "Das Benutzerkonto wurde vom Administrator gesperrt",
-              "text": "Um es zu entsperren, schreiben Sie an: <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
-            },
-            "NotSupportedSystemType": {
-              "title": "Das Benutzerkonto gehört nicht zum CompanyAccount",
-              "text": "Weitere Informationen wurden an Ihre E-Mail-Adresse gesendet."
-            },
-            "UserNotFound": {
-              "title": "Der Benutzer wurde nicht gefunden",
-              "text": " "
-            },
-            "NotSupportedCompanyCategory": {
-              "title": "Das Unternehmenskonto gehört nicht zum CompanyAccount",
-              "text": "Weitere Informationen wurden an Ihre E-Mail-Adresse gesendet."
-            },
-            "NotActivated": {
-              "title": "Benutzerkonto wurde nicht aktiviert.",
-              "text": "Weitere Informationen wurden an Ihre E-Mail-Adresse gesendet."
-            },
-            "IsSupportStuff": {
-              "title": "Dieser Benutzer ist bereits als Supportmitarbeiter registriert",
-              "text": " "
-            },
-            "UnknownError": {
-              "title": "Es ist ein unbekannter Fehler aufgetreten",
-              "text": "Bitte versuchen Sie erneut, das Kennwort zurückzusetzen. Wenn das Problem weiterhin besteht, dann <a href='mailto:betaca@kaspersky.com'>schreiben Sie uns</a>."
-            }
-          },
-          "errors['Email": {
-            "RequiredRule']": "Geben Sie die E-Mail an",
-            "EmailRule']": "Inkorrekte E-Mail-Adresse",
-            "MaxByteLengthRule']": "Ihre E-Mail-Adressee darf nicht länger als (ByteLength) Zeichen sein"
-          }
-        },
-        "login": {
-          "title": "Anmelden",
-          "subtitle": "bei Kaspersky CompanyAccount",
-          "tooltip": "CompanyAccount ist das Portal des Supports für Anwender der Unternehmenslösungen von Kaspersky Lab",
-          "notetitle": "Kaspersky CompanyAccount",
-          "notedescription": "Mit dem Kaspersky CompanyAccount können Anwender der Unternehmenslösungen von Kaspersky Lab Anfragen an den technischen Support erstellen und verfolgen.",
-          "email": "E-Mail",
-          "password": "Kennwort",
-          "rememberme": "Dieses Konto merken",
-          "forgot": "Kennwort vergessen?",
-          "login": "Anmelden",
-          "loading": "Lädt...",
-          "noaccount": "Haben Sie noch kein Benutzerkonto?",
-          "create": "Erstellen",
-          "close": "Schließen",
-          "errors": {
-            "EmailIsRequired": "Bitte geben Sie die E-Mail ein",
-            "InvalidEmail": "Inkorrekte E-Mail",
-            "PasswordIsRequired": "Bitte geben Sie das Kennwort ein",
-            "SimplePassword": "Das Kennwort entspricht nicht den Anforderungen",
-            "UserNotOfCA": "Das Konto gehört nicht zu CompanyAccount",
-            "LoginBan": "Die Anzahl der fehlgeschlagenen Anmeldeversuche wurde für Ihren Benutzernamen überschritten. Bitte versuche Sie es erneut später",
-            "GrantIncorrect": "Falsche E-Mail oder falsches Kennwort",
-            "GrantContextIncorrect": "Sie haben eine falsche E-Mail oder ein falsches Kennwort eingegeben",
-            "LoginExpired": "Der Aktivierungszeitraum ist abgelaufen. Kontaktieren Sie den Support, um diesen zu verlängern",
-            "LoginBlocking": "Ihr Benutzerkonto wurde gesperrt. Kontaktieren Sie den Support",
-            "LoginIncorrect": "Falsche E-Mail oder falsches Kennwort",
-            "CurrentPasswordIncorrect": "Das aktuelle Kennwort ist falsch eingegeben",
-            "PasswordIncorrect": "Das Kennwort ist falsch eingegeben",
-            "ExceededUserSessionCount": "Die Anzahl der gleichzeitigen Anmeldungen wurde überschritten",
-            "UnknownError": "Es ist ein unbekannter Fehler aufgetreten",
-            "UnknownErrorDescription": "Beim Anmeldeversuch ist ein unbekannter Fehler aufgetreten.<br />Bitte versuchen Sie es erneut.<br />Wenn das Problem weiterhin besteht, <a href='mailto:betaca@kaspersky.com'>schreiben Sie uns</a>."
-          }
-        },
-        "deleteCompany": {
-          "logout": "Bitte abmelden, um mit dem Löschen des Unternehmes fortzufahren.",
-          "close-session": "Bitte Sitzung beenden und erneut versuchen",
-          "logout-btn": "Abmelden und fortfahren",
-          "close-btn": "Aktuelle Sitzung speichern",
-          "title": "Benutzerkonto des Unternehmens löschen",
-          "description": "Achtung! Nach Klick auf „Fortfahren“ werden die Informationen über Ihr Unternehmen aus СompanyAccount gelöscht. Die Benutzer Ihrer Unternehmen können sich zwar bei CompanyAccount anmelden, aber alle Informationen über Anfragen, Lizenzen und Verträge gehen verloren.",
-          "continue": "Fortfahren",
-          "loading": "Löschen",
-          "close": "Schließen",
-          "confirm": {
-            "title": "Unternehmenskonto löschen",
-            "description": "Sobald Sie auf \"Fortfahren\" Klicken, werden alle Informationen Ihres Unternehmens aus dem CompanyAccount gelöscht. Benutzer können sich weiterhin anmelden, jedoch sind alle Daten, Anfragen und Lizenzinformationen nicht mehr verfügbar.",
-            "continue": "Fortfahren"
-          },
-          "errors": {
-            "UserNotFound": {
-              "title": "Der Benutzer wurde nicht gefunden",
-              "text": "Bitte schreiben Sie an: <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>"
-            },
-            "NotMainUser": {
-              "title": "Ihr Benutzerkonto weist Probleme auf",
-              "text": "Schreiben Sie an <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>, um entstandene Probleme zu lösen"
-            },
-            "CompanyNotFound": {
-              "title": "Das Unternehmen wurde bereits gelöscht",
-              "text": " "
-            },
-            "LinkExpired": {
-              "title": "Der Link ist nicht mehr gültig",
-              "text": "Sie können das Löschen des Benutzerkontos des Unternehmens erneut anfordern"
-            },
-            "LinkUsed": {
-              "title": "Das Benutzerkonto des Unternehmens wurde bereits deaktiviert",
-              "text": " "
-            },
-            "AccessDenied": {
-              "title": "Der Zugriff ist verboten",
-              "text": " "
-            },
-            "LinkNotExist": {
-              "title": "Der Link ist nicht gültig",
-              "text": "Schreiben Sie an <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>, um entstandene Probleme zu lösen"
-            },
-            "DeactivationRequestError": {
-              "title": "Beim Löschen des Benutzerkontos des Unternehmens sind Probleme aufgetreten",
-              "text": "Schreiben Sie an <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>, um entstandene Probleme zu lösen"
-            },
-            "UnknownError": {
-              "title": "Unbekannter Fehler",
-              "text": "Beim Löschen des Unternehmens ist ein unbekannter Fehler aufgetreten. <br />Bitte warten Sie ein paar Minuten und versuchen Sie es, dem Link erneut zu folgen. <br/>Wenn das Problem weiterhin besteht, dann <a href='mailto:betaca@kaspersky.com'>schreiben Sie uns</a>."
-            },
-            "Failure": {
-              "title": "Es ist ein unbekannter Fehler aufgetreten",
-              "text": "Beim Löschen des Unternehmens ist ein unbekannter Fehler aufgetreten. <br />Bitte warten Sie ein paar Minuten und versuchen Sie es erneut. <br/>Wenn das Problem weiterhin besteht, dann <a href='mailto:betaca@kaspersky.com'>schreiben Sie uns</a>."
-            }
-          },
-          "success": {
-            "title": "Das Unternehmen wurde erfolgreich gelöscht",
-            "description": " "
-          }
         }
-      }
     }
-  }
 }

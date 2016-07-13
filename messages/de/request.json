@@ -1,331 +1,323 @@
-{
-  "globalize-messages": {
-    "de": {
-      "request": {
-        "errors": {
-          "maxFiles3": "Sie können nicht mehr als drei Dateien anhängen. Löschen Sie die überflüssigen Dateien.",
-          "maxFiles1": "Sie können nicht mehr als eine Datei anhängen. Löschen Sie die überflüssigen Dateien.",
-          "minFiles1": "Sie müssen eine Datei anhängen.",
-          "EmailIsInvalid": "Die E-Mail ist nicht gültig",
-          "ProductTypeRequired": "Geben Sie den Schutzbereich an",
-          "TypeRequired": "Wählen Sie den Anfragetyp aus",
-          "attach-files-error": "Die Anfrage wurde erstellt. Die Dateien sind nicht angehängt worden, Fehlermeldung: {attachedFileErrors} </br> Versuchen Sie die Dateien in einigen Minuten erneut hochzuladen.  </br>Wenn das Problem weiterhin besteht, informieren Sie uns mit einem Kommentar zur Anfrage. Anfrage-Nr.: <a href=\"/request/view/{requestId}\">{requestId}</a>",
-          "comment-attach-files-error": "Der Kommentar wurde hinzugefügt. Die Dateien sind nicht angehängt worden, Fehlermeldung: {attachedFileErrors} </br> Versuchen Sie die Dateien in einigen Minuten erneut hochzuladen.  </br>Wenn das Problem weiterhin besteht, informieren Sie uns mit einem Kommentar zur Anfrage. Anfrage-Nr.: <a href=\"/request/view/{requestId}\">{requestId}</a>"
-        },
-        "errors['KeyFile": {
-          "HttpFileSizeRule']": "CSR Datei darf nicht größer als 5 KB sein"
-        },
-        "errors['Text": {
-          "RequiredRule']": "Sie haben keinen Text eingegeben. Bitte geben Sie einen Text ein und versuchen Sie es erneut."
-        },
-        "errors['NotifyEmails": {
-          "MultiEmailRule']": "E-Mail-Adresse korrekt eingeben. Trennen Sie mehrere Adressen mit Semikolon."
-        },
-        "errors['ProductId": {
-          "RequiredRule']": "Wählen Sie ein Produkt aus"
-        },
-        "errors['ProductVersion": {
-          "RequiredRule']": "Wählen Sie die Produktversion aus"
-        },
-        "errors['OSVersion": {
-          "RequiredRule']": "Geben Sie die Version des Betriebssystems an",
-          "MaxByteLengthRule']": "Maximale Anzahl von Zeichen überschritten"
-        },
-        "errors['TypeId": {
-          "RequiredRule']": "Wählen Sie den Untertyp der Anfrage aus"
-        },
-        "errors['Summary": {
-          "RequiredRule']": "Geben Sie das Thema der Anfrage an",
-          "MaxLengthRule']": "Das Thema der Anfrage ist zu lang. Die maximale Länge beträgt 50 Zeichen"
-        },
-        "errors['Description": {
-          "RequiredRule']": "Beschreiben Sie Ihr Problem",
-          "TextMaxLengthLimitRule']": "Die <b>Beschreibung</b> ist zu lang."
-        },
-        "view": {
-          "number": "Nummer:",
-          "status": "Status:",
-          "report": "Beim Manager beschweren",
-          "close-request": "Anfrage schließen",
-          "open-request": "Neue Anfrage erstellen",
-          "send": "Meldung senden",
-          "send-process": "Die Daten werden gesendet...",
-          "confirm-title": "Anfrage schließen?",
-          "confirm-text": "Sie möchten die Anfrage schließen. Wenn Ihr Problem gelöst ist, klicken Sie zur Bestätigung auf <b>Schließen</b>.",
-          "confirm-button": "Schließen",
-          "attached-files": "Angehängte Dateien:",
-          "support-manager": "Support-Spezialist",
-          "inactive-user": "Die Nachricht wurde von einem deaktivierten Benutzer gesendet",
-          "cancel-comment": "Abbrechen",
-          "product": "Produkt:",
-          "version": "Version:",
-          "os": "Betriebssystem:",
-          "logMore": "Die ganze Konversation anzeigen",
-          "logHide": "Konversation ausblenden",
-          "showCommentForm": "Antworten",
-          "hideCommentForm": "Ausblenden",
-          "success-comment-attach-files-error": "Der Kommentar wurde hinzugefügt. Die Dateien sind nicht angehängt worden, Fehlermeldung: {attachedFileErrors} </br> Versuchen Sie die Dateien in einigen Minuten erneut hochzuladen.  </br>Wenn das Problem weiterhin besteht, informieren Sie uns mit einem Kommentar zur Anfrage. Anfrage-Nr.: <a href=\"/request/view/{requestId}\">{requestId}</a>",
-          "worklog-problem": "Fehler beim Laden der Kommentare. Versuchen Sie die Seite in 5 Minuten erneut zu laden.",
-          "cancel": {
-            "confirm-title": "Sind Sie sicher?",
-            "confirm-text": "Möchten Sie das Hinzufügen eines Kommentars abbrechen?",
-            "confirm-button": "Ja"
-          },
-          "errors": {
-            "UserNotFound": "Der Benutzer wurde nicht gefunden",
-            "AccessDenied": "Der Zugriff ist verboten",
-            "UnknownError": "Ein Fehler ist aufgetreten, versuchen Sie es erneut. Wenn der Fehler erneut auftritt, schreiben Sie an <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a> ",
-            "StatusClosedCancelled": "Sie können die Meldung nicht senden, weil diese Anfrage geändert wurde"
-          },
-          "loadingErrors": {
-            "UnknownError": {
-              "title": "Unbekannter Fehler beim Laden der Anfrageinforationen.",
-              "text": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut. Wenn das Problem wieterhin besteht, kontaktieren Sie uns unter: <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a> "
+﻿{
+    "globalize-messages": {
+        "de": {
+            "request": {
+                "errors": {
+                    "KeyFile.HttpFileSizeRule": "CSR Datei darf nicht größer als 5 KB sein",
+                    "Text.RequiredRule": "Sie haben keinen Text eingegeben. Bitte geben Sie einen Text ein und versuchen Sie es erneut.",
+                    "NotifyEmails.MultiEmailRule": "E-Mail-Adresse korrekt eingeben. Trennen Sie mehrere Adressen mit Semikolon.",
+                    "ProductId.RequiredRule": "Wählen Sie ein Produkt aus",
+                    "ProductVersion.RequiredRule": "Wählen Sie die Produktversion aus",
+                    "OSVersion.RequiredRule": "Geben Sie die Version des Betriebssystems an",
+                    "OSVersion.MaxByteLengthRule": "Maximale Anzahl von Zeichen überschritten",
+                    "TypeId.RequiredRule": "Wählen Sie den Untertyp der Anfrage aus",
+                    "Summary.RequiredRule": "Geben Sie das Thema der Anfrage an",
+                    "Summary.MaxLengthRule": "Das Thema der Anfrage ist zu lang. Die maximale Länge beträgt 50 Zeichen",
+                    "Description.RequiredRule": "Beschreiben Sie Ihr Problem",
+                    "Description.TextMaxLengthLimitRule": "Die <b>Beschreibung</b> ist zu lang.",
+
+                    "maxFiles3": "Sie können nicht mehr als drei Dateien anhängen. Löschen Sie die überflüssigen Dateien.",
+                    "maxFiles1": "Sie können nicht mehr als eine Datei anhängen. Löschen Sie die überflüssigen Dateien.",
+                    "minFiles1": "Sie müssen eine Datei anhängen.",
+                    "EmailIsInvalid": "Die E-Mail ist nicht gültig",
+                    "ProductTypeRequired": "Geben Sie den Schutzbereich an",
+                    "TypeRequired": "Wählen Sie den Anfragetyp aus",
+                    "attach-files-error": "Die Anfrage wurde erstellt. Die Dateien sind nicht angehängt worden, Fehlermeldung: {attachedFileErrors} </br> Versuchen Sie die Dateien in einigen Minuten erneut hochzuladen.  </br>Wenn das Problem weiterhin besteht, informieren Sie uns mit einem Kommentar zur Anfrage. Anfrage-Nr.: <a href=\"/request/view/{requestId}\">{requestId}</a>",
+                    "comment-attach-files-error": "Der Kommentar wurde hinzugefügt. Die Dateien sind nicht angehängt worden, Fehlermeldung: {attachedFileErrors} </br> Versuchen Sie die Dateien in einigen Minuten erneut hochzuladen.  </br>Wenn das Problem weiterhin besteht, informieren Sie uns mit einem Kommentar zur Anfrage. Anfrage-Nr.: <a href=\"/request/view/{requestId}\">{requestId}</a>"
+                },
+                "view": {
+                    "number": "Nummer:",
+                    "status": "Status:",
+                    "report": "Beim Manager beschweren",
+                    "close-request": "Anfrage schließen",
+                    "open-request": "Neue Anfrage erstellen",
+                    "send": "Meldung senden",
+                    "send-process": "Die Daten werden gesendet...",
+                    "confirm-title": "Anfrage schließen?",
+                    "confirm-text": "Sie möchten die Anfrage schließen. Wenn Ihr Problem gelöst ist, klicken Sie zur Bestätigung auf <b>Schließen</b>.",
+                    "confirm-button": "Schließen",
+                    "attached-files": "Angehängte Dateien:",
+                    "support-manager": "Support-Spezialist",
+                    "inactive-user": "Die Nachricht wurde von einem deaktivierten Benutzer gesendet",
+                    "cancel-comment": "Abbrechen",
+                    "product": "Produkt:",
+                    "version": "Version:",
+                    "os": "Betriebssystem:",
+                    "logMore": "Die ganze Konversation anzeigen",
+                    "logHide": "Konversation ausblenden",
+                    "showCommentForm": "Antworten",
+                    "hideCommentForm": "Ausblenden",
+                    "success-comment-attach-files-error": "Der Kommentar wurde hinzugefügt. Die Dateien sind nicht angehängt worden, Fehlermeldung: {attachedFileErrors} </br> Versuchen Sie die Dateien in einigen Minuten erneut hochzuladen.  </br>Wenn das Problem weiterhin besteht, informieren Sie uns mit einem Kommentar zur Anfrage. Anfrage-Nr.: <a href=\"/request/view/{requestId}\">{requestId}</a>",
+                    "worklog-problem": "Fehler beim Laden der Kommentare. Versuchen Sie die Seite in 5 Minuten erneut zu laden.",
+                    "cancel": {
+                        "confirm-title": "Sind Sie sicher?",
+                        "confirm-text": "Möchten Sie das Hinzufügen eines Kommentars abbrechen?",
+                        "confirm-button": "Ja"
+                    },
+                    "closeErrors": {
+                        "StatusClosedCancelled": "Die Anfrage ist schon geschlossen"
+                    },
+                    "errors": {
+                        "UserNotFound": "Der Benutzer wurde nicht gefunden",
+                        "AccessDenied": "Der Zugriff ist verboten",
+                        "UnknownError": "Ein Fehler ist aufgetreten, versuchen Sie es erneut. Wenn der Fehler erneut auftritt, schreiben Sie an <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a> ",
+                        "StatusClosedCancelled": "Sie können die Meldung nicht senden, weil diese Anfrage geändert wurde"
+                    },
+                    "loadingErrors": {
+                        "UnknownError": {
+                            "title": "Unbekannter Fehler beim Laden der Anfrageinforationen.",
+                            "text": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut. Wenn das Problem wieterhin besteht, kontaktieren Sie uns unter: <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a> "
+                        }
+                    }
+                },
+                "statuses": {
+                    "None": "None",
+                    "PendingAdditionalInformationNeeded": "Erwartet Ihre Antwort",
+                    "InProgress": "In Bearbeitung",
+                    "ResolvedSolutionProvided": "Gelöst",
+                    "ResolvedRequiredInfoNotProvided": "Gelöst (Informationen wurden nicht bereitgestellt)",
+                    "CancelledByCustomer": "Vom Benutzer abgebrochen",
+                    "CancelledBySupport": "Vom Support-Spezialisten abgebrochen",
+                    "CancelledLicenseSupportContractTermination": "Abgebrochen (Lizenz/Vertrag abgelaufen)",
+                    "ClosedByCustomer": "Vom Benutzer geschlossen",
+                    "ClosedRequestForwarded": "Geschlossen (Anfrage umgeleitet)",
+                    "ClosedBySupport": "Vom Support-Spezialisten geschlossen",
+                    "InProgress-status-area": "Die Anfrage wird vom Support-Spezialisten bearbeitet"
+                },
+                "list": {
+                    "tabs": {
+                        "requests": "Anfragen"
+                    },
+                    "filter-by-status-label": "Status:",
+                    "filter-by-author-label": "Benutzername:",
+                    "filter-by-status": {
+                        "All": "alle",
+                        "WaitingForResponse": "Erwartet Ihre Antwort",
+                        "InWork": "In Bearbeitung",
+                        "Inactive": "Inaktiv (geschlossen und abgebrochen)",
+                        "ByDeletedUsers": "Entfernte Benutzer"
+                    },
+                    "item": {
+                        "number": "Nummer:",
+                        "status": "Status:",
+                        "createdate": "Erstellt am:",
+                        "customer": "Benutzername:"
+                    },
+                    "no-filtered-request": {
+                        "title": "Den angegebenen Filterbedingungen entspricht keine Anfrage.",
+                        "description": "Bitte erweitern Sie den Suchbereich."
+                    },
+                    "no-request": {
+                        "title": "Sie haben noch keine Anfrage erstellt",
+                        "description": "Um einen Support-Spezialisten zu kontaktieren, klicken Sie auf",
+                        "createrequest": "„Anfrage erstellen“"
+                    },
+                    "errors": {
+                        "UnknownError": {
+                            "title": "Unbekannter Fehler beim Laden der Anfrageliste",
+                            "text": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut. Wenn das Problem wieterhin besteht, kontaktieren Sie uns unter: <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a> "
+                        }
+                    }
+                },
+                "create": {
+                    "title": "Wählen Sie die Anfragekategorie:",
+                    "no-request-types": {
+                        "title": "Sie haben keine verfügbaren Kategorien von Anfragen",
+                        "description": "Schreiben Sie an <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>, um dieses Problem zu lösen"
+                    }
+                },
+                "ca": {
+                    "title": "Anfrage wegen CompanyAccount",
+                    "confirm-title": "Erstellung der Anfrage abbrechen",
+                    "confirm-text": "Möchten Sie die Erstellung der Anfrage abbrechen?",
+                    "confirm-button": "Ja",
+                    "theme": " Thema der Anfrage:",
+                    "description": " Beschreibung des Problems:",
+                    "request-theme": "Ihre Anfrage/Ihr Problem",
+                    "request-description": "Stellen Sie eine Frage oder beschreiben Sie das Problem des Portals CompanyAccount und die Schritte zur Reproduktion des Problems",
+                    "success": "Ihre Anfrage wurde erfolgreich erstellt. Anfragenummer: <a href=\"/request/view/{requestId}\">{requestId}</a>",
+                    "attachedfiles": {
+                        "title": "Angehängte Dateien:"
+                    },
+                    "send-request": "Anfrage senden",
+                    "send-process": "Bitte warten Sie, die Anfrage wird bearbeitet...",
+                    "cancel-request": "Abbrechen",
+                    "errors": {
+                        "UnknownError": "Ein Fehler ist aufgetreten, versuchen Sie es erneut. Wenn der Fehler erneut auftritt, schreiben Sie an <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a> "
+                    },
+                    "loadingErrors": {
+                        "UnknownError": {
+                            "title": "Unbekannter Fehler während des Ladens von Daten zum Erstellen der Anfrage",
+                            "text": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut. Wenn das Problem wieterhin besteht, kontaktieren Sie uns unter: <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a> "
+                        }
+                    }
+                },
+                "feedback": {
+                    "title": "Neue Beschwerde über die Qualität des Supports",
+                    "note": "Bitte beachten Sie, dass die Gruppe zur Qualitätssicherung nur auf Englisch oder Russisch erstellte Beschwerden bearbeitet.",
+                    "theme": "[EV] Тема обращения",
+                    "description": "Detaillierte Beschreibung<br />Ihrer Beschwerde:",
+                    "description-placeholder": "[EV] Опишите суть вашей претензии",
+                    "request": "Anfrage, mit deren Lösung<br />Sie nicht zufrieden sind:",
+                    "request-placeholder": "[EV] Выберите номер запроса",
+                    "success": "[EV] Ваша жалоба создана. Номер запроса: <a href=\"/request/view/{requestId}\">{requestId}</a>",
+                    "errors": {
+                        "Details.RequiredRule": "[EV] Опишите подробности вашей жалобы ",
+                        "Details.TextMaxLengthLimitRule": "[EV] Описание слишком длинное",
+                        "TypeId.RequiredRule": "[EV] Выберите тему жалобы",
+                        "TypeId.TextMaxLengthLimitRule": "[EV] Тема жалобы слишком длинная",
+
+                        "UnknownError": "[EV] Произошла ошибка, пожалуйста, попробуйте ещё раз. Если ошибка повторится, обратитесь по адресу <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a>"
+                    },
+                    "loadingErrors": {
+                        "UnknownError": {
+                            "title": "[EV] Неизвестная ошибка, при получении данных, необходимых для создания запроса СА-question",
+                            "text": "[EV] Please contact <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                        }
+                    }
+                },
+                "csr": {
+                    "title": "CSR für Apple Push Notification Service signieren",
+                    "subtitle": "Sie können eine einzige Datei mit der Erweiterung .csr in einer Anfrage zum Signieren senden.",
+                    "confirm-title": "Erstellung der Anfrage abbrechen",
+                    "confirm-text": "Möchten Sie die Erstellung der Anfrage abbrechen?",
+                    "confirm-button": "Ja",
+                    "success": "Ihre Anfrage wurde erfolgreich erstellt. Diese Anfrage wird automatisch bearbeitet und geschlossen. Wählen Sie diese in der Liste der Anfragen und laden Sie das signierte Zertifikat herunter. Anfragenummer: <a href=\"/request/view/{requestId}\">{requestId}</a>",
+                    "attachedfiles": {
+                        "title": "Angehängte Dateien:"
+                    },
+                    "send-request": "CSR signieren",
+                    "send-process": "Bitte warten Sie, die Anfrage wird bearbeitet...",
+                    "cancel-request": "Abbrechen",
+                    "remarkQuestion": "<a href=\"http://support.kaspersky.com/de/11077\" target=\"_blank\" >Erstellen des APNs-Zertifikats</a>",
+                    "remarkDescriprion": " ",
+                    "errors": {
+                        "WrongFileSize": "Unzulässige Dateigröße",
+                        "WrongFileFormat": "Unzulässiges Dateiformat",
+                        "UnknownError": "Ein Fehler ist aufgetreten, versuchen Sie es erneut. Wenn der Fehler erneut auftritt, schreiben Sie an <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a>  "
+                    }
+                },
+                "virlab": {
+                    "title": "Eine verdächtige Datei oder URL zur Untersuchung senden",
+                    "confirm-title": "Erstellung der Anfrage abbrechen",
+                    "confirm-text": "Möchten Sie die Erstellung der Anfrage abbrechen?",
+                    "confirm-button": "Ja",
+                    "type": "Anfragetyp:",
+                    "description": " Beschreibung des Problems:",
+                    "request-description": "Beschreiben Sie die zu sendenden Dateien oder geben Sie verdächtige URLs an",
+                    "notifications": " Antwort auch an folgende <br />E-Mail schicken:",
+                    "email-placeholder": "name@domain.com ; name@domain.com",
+                    "success": "Ihre Anfrage ans Antivirenlabor wurde erfolgreich registriert. Die Antwort wird direkt an Ihre E-Mail gesendet. Beachten Sie, dass die Antwort auf diesem Portal nicht angezeigt wird.  Anfragenummer: <a href=\"/request/view/{requestId}\">{requestId}</a>",
+                    "attachedfiles": {
+                        "title": "Angehängte Dateien:"
+                    },
+                    "send-request": "Anfrage senden",
+                    "send-process": "Bitte warten Sie, die Anfrage wird bearbeitet...",
+                    "cancel-request": "Abbrechen",
+                    "errors": {
+                        "UserNotFound": "Fehler: Der aktuelle Benutzer wurde in der Datenbank nicht gefunden",
+                        "AccessDenied": "Der Zugriff ist verboten, dieser Vorgang ist für Sie nicht verfügbar",
+                        "WrongFileSize": "Eine der von Ihnen hochgeladenen Dateien überschreitet die maximal zulässige Größe",
+                        "WrongFileFormat": "Eine der von Ihnen hochgeladenen Dateien hat ein falsches Format",
+                        "UnknownError": "Ein Fehler ist aufgetreten, versuchen Sie es erneut. Wenn der Fehler erneut auftritt, schreiben Sie an <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a>   ",
+                        "EmailPattern": "Geben Sie die richtige E-Mail an. Wenn Sie mehrere E-Mail-Adressen angeben, trennen Sie diese von einander durch Semikolons ab."
+                    },
+                    "loadingErrors": {
+                        "UnknownError": {
+                            "title": "Unbekannter Fehler beim Senden der Anfrage",
+                            "text": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut. Wenn das Problem wieterhin besteht, kontaktieren Sie uns unter: <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a> "
+                        }
+                    }
+                },
+                "virlab-msa": {
+                    "title": "Eine verdächtige Datei oder URL zur Untersuchung (MSA) senden",
+                    "success": "Ihre Anfrage ans Antivirenlabor wurde erfolgreich registriert. Die Antwort wird direkt an Ihre E-Mail gesendet. Beachten Sie, dass die Antwort auf diesem Portal nicht angezeigt wird.  Anfragenummer: <a href=\"/request/view/{requestId}\">{requestId}</a>",
+                    "loadingErrors": {
+                        "UnknownError": {
+                            "title": "Unbekannter Fehler beim Senden der Anfrage",
+                            "text": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut. Wenn das Problem wieterhin besteht, kontaktieren Sie uns unter: <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a> "
+                        }
+                    }
+                },
+                "support": {
+                    "title": "Anfrage an den technischen Support",
+                    "confirm-title": "Erstellung der Anfrage abbrechen",
+                    "confirm-text": "Möchten Sie die Erstellung der Anfrage abbrechen?",
+                    "confirm-button": "Ja",
+                    "securityarea": " Produktgruppe:",
+                    "product": " Produkt:",
+                    "osversion": " Version des Betriebssystems:",
+                    "osversion-placeholder": "Wählen Sie oder geben Sie eine neue ein",
+                    "productversion": " Produktversion:",
+                    "requesttype": {
+                        "title": " Anfragetyp:"
+                    },
+                    "subtype": " Untertyp:",
+                    "theme": " Thema der Anfrage:",
+                    "description": " Beschreibung des Problems:",
+                    "unknownProduct": " ",
+                    "whatProduct": " ",
+                    "aboutProduct": " ",
+                    "request-theme": "Thema der Anfrage",
+                    "request-description": "Beschreiben Sie das Problem und die Schritte zu deren Reproduktion",
+                    "success": "Ihre Anfrage wurde erfolgreich erstellt. Anfragenummer: <a href=\"/request/view/{requestId}\">{requestId}</a>",
+                    "attachedfiles": {
+                        "title": "Angehängte Dateien:"
+                    },
+                    "send-request": "Anfrage senden",
+                    "send-process": "Bitte warten Sie, die Anfrage wird bearbeitet...",
+                    "cancel-request": "Abbrechen",
+                    "errors": {
+                        "UnknownError": "Ein Fehler ist aufgetreten, versuchen Sie es erneut. Wenn der Fehler erneut auftritt, schreiben Sie an <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a>  "
+                    },
+                    "loadingErrors": {
+                        "UnknownError": {
+                            "title": "Unbekannter Fehler beim Erstellen der Anfrage",
+                            "text": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut. Wenn das Problem wieterhin besteht, kontaktieren Sie uns unter: <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a> "
+                        }
+                    },
+                    "license": {
+                        "1": "Zu Ihrem Unternehmen wurde noch keine gültige Lizenz für ein Unternehmensprodukt hinzugefügt. Aus diesem Grund können die vom Support bearbeiteten Anfragetypen beschränkt sein. Bitte fügen Sie eine Lizenz auf der <a href='../../license/list' target=\"_blank\">Registerkarte „Lizenzen“</a>.  ",
+                        "2": "Es gibt keine gültigen Lizenz für <b>Heimanwenderprodukte</b> Aus diesem Grund können Anfragetypen für Heimanwenderprodukte beschränkt sein. Bitte aktivieren Sie das Produkt oder <a href='../../license/list' target=\"_blank\"> fügen Sie eine neue Lizenz für das Heimanwenderprodukt auf der Registerkarte „Lizenzen“ hinzu</a>",
+                        "3": "Zu Ihrem Unternehmen wurde noch keine gültige Lizenz für ein Unternehmensprodukt hinzugefügt. Aus diesem Grund können die vom Support bearbeiteten Anfragetypen beschränkt sein. Bitte aktivieren Sie das Produkt oder <a href='../../license/list' target=\"_blank\"> fügen Sie eine neue Lizenz für das Unternehmensprodukt auf der Registerkarte „Lizenzen“ hinzu</a> "
+                    },
+                    "answers-email": "Über Antworten per E-Mail benachrichtigen"
+                },
+                "support-ta": {
+                    "title": "Anfrage an den technischen Support",
+                    "product-ver-placeholder": "Wählen Sie oder geben Sie eine eigene Version ein",
+                    "success": "Ihre Anfrage wurde erfolgreich erstellt. Anfragenummer: <a href=\"/request/view/{requestId}\">{requestId}</a>",
+                    "errors": {
+                        "NotifyEmails.MultiEmailRule": "E-Mail-Adresse korrekt eingeben. Trennen Sie mehrere Adressen mit Semikolon.",
+                        "ProductId.RequiredRule": "Wählen Sie das Produkt",
+                        "ProductVersion.RequiredRule": "Wählen Sie die Produktversion aus",
+                        "ProductVersion.MaxLengthRule": "Maximale Anzahl von Zeichen überschritten",
+                        "OSVersion.RequiredRule": "Wählen oder tippen Sie das Betriebssystem ein",
+                        "OSVersion.MaxByteLengthRule": "Maximale Anzahl von Zeichen überschritten",
+                        "TypeId.RequiredRule": "Wählen Sie den Anfragetyp aus",
+                        "Summary.RequiredRule": "Geben Sie den Betreff ein",
+                        "Summary.MaxLengthRule": "Der Betreff darf nur maximal 50 zeichen haben.",
+                        "Description.RequiredRule": "Bitte geben Sie eine Beschreibung an",
+                        "Description.MaxLengthRule": "Die <b>Beschreibung</b> ist zu lang"
+                    },
+                    "loadingErrors": {
+                        "UnknownError": {
+                            "title": "Unbekannter Fehler beim Erstellen der Anfrage",
+                            "text": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut. Wenn das Problem wieterhin besteht, kontaktieren Sie uns unter: <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a> "
+                        }
+                    }
+                },
+                "support-msa": {
+                    "title": "Anfrage an den technischen Support (MSA)",
+                    "success": "Ihre Anfrage wurde erfolgreich erstellt. Anfragenummer: <a href=\"/request/view/{requestId}\">{requestId}</a>",
+                    "loadingErrors": {
+                        "UnknownError": {
+                            "title": "Unbekannter Fehler beim Erstellen der Anfrage",
+                            "text": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut. Wenn das Problem wieterhin besteht, kontaktieren Sie uns unter: <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a> "
+                        }
+                    }
+                }
             }
-          }
-        },
-        "statuses": {
-          "None": "None",
-          "PendingAdditionalInformationNeeded": "Erwartet Ihre Antwort",
-          "InProgress": "In Bearbeitung",
-          "ResolvedSolutionProvided": "Gelöst",
-          "ResolvedRequiredInfoNotProvided": "Gelöst (Informationen wurden nicht bereitgestellt)",
-          "CancelledByCustomer": "Vom Benutzer abgebrochen",
-          "CancelledBySupport": "Vom Support-Spezialisten abgebrochen",
-          "CancelledLicenseSupportContractTermination": "Abgebrochen (Lizenz/Vertrag abgelaufen)",
-          "ClosedByCustomer": "Vom Benutzer geschlossen",
-          "ClosedRequestForwarded": "Geschlossen (Anfrage umgeleitet)",
-          "ClosedBySupport": "Vom Support-Spezialisten geschlossen",
-          "InProgress-status-area": "Die Anfrage wird vom Support-Spezialisten bearbeitet"
-        },
-        "list": {
-          "tabs": {
-            "requests": "Anfragen"
-          },
-          "filter-by-status-label": "Status:",
-          "filter-by-author-label": "Benutzername:",
-          "filter-by-status": {
-            "All": "alle",
-            "WaitingForResponse": "Erwartet Ihre Antwort",
-            "InWork": "In Bearbeitung",
-            "Inactive": "Inaktiv (geschlossen und abgebrochen)",
-            "ByDeletedUsers": "Entfernte Benutzer"
-          },
-          "item": {
-            "number": "Nummer:",
-            "status": "Status:",
-            "createdate": "Erstellt am:",
-            "customer": "Benutzername:"
-          },
-          "no-filtered-request": {
-            "title": "Den angegebenen Filterbedingungen entspricht keine Anfrage.",
-            "description": "Bitte erweitern Sie den Suchbereich."
-          },
-          "no-request": {
-            "title": "Sie haben noch keine Anfrage erstellt",
-            "description": "Um einen Support-Spezialisten zu kontaktieren, klicken Sie auf",
-            "createrequest": "„Anfrage erstellen“"
-          },
-          "errors": {
-            "UnknownError": {
-              "title": "Unbekannter Fehler beim Laden der Anfrageliste",
-              "text": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut. Wenn das Problem wieterhin besteht, kontaktieren Sie uns unter: <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a> "
-            }
-          }
-        },
-        "create": {
-          "title": "Wählen Sie die Anfragekategorie:",
-          "no-request-types": {
-            "title": "Sie haben keine verfügbaren Kategorien von Anfragen",
-            "description": "Schreiben Sie an <a href='mailto:betaca@kaspersky.com'>betaca@kaspersky.com</a>, um dieses Problem zu lösen"
-          }
-        },
-        "ca": {
-          "title": "Anfrage wegen CompanyAccount",
-          "confirm-title": "Erstellung der Anfrage abbrechen",
-          "confirm-text": "Möchten Sie die Erstellung der Anfrage abbrechen?",
-          "confirm-button": "Ja",
-          "theme": " Thema der Anfrage:",
-          "description": " Beschreibung des Problems:",
-          "request-theme": "Ihre Anfrage/Ihr Problem",
-          "request-description": "Stellen Sie eine Frage oder beschreiben Sie das Problem des Portals CompanyAccount und die Schritte zur Reproduktion des Problems",
-          "success": "Ihre Anfrage wurde erfolgreich erstellt. Anfragenummer: <a href=\"/request/view/{requestId}\">{requestId}</a>",
-          "attachedfiles": {
-            "title": "Angehängte Dateien:"
-          },
-          "send-request": "Anfrage senden",
-          "send-process": "Bitte warten Sie, die Anfrage wird bearbeitet...",
-          "cancel-request": "Abbrechen",
-          "errors": {
-            "UnknownError": "Ein Fehler ist aufgetreten, versuchen Sie es erneut. Wenn der Fehler erneut auftritt, schreiben Sie an <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a> "
-          },
-          "loadingErrors": {
-            "UnknownError": {
-              "title": "Unbekannter Fehler während des Ladens von Daten zum Erstellen der Anfrage",
-              "text": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut. Wenn das Problem wieterhin besteht, kontaktieren Sie uns unter: <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a> "
-            }
-          }
-        },
-        "complaint": {
-          "title": "Neue Beschwerde über die Qualität des Supports",
-          "note": "Bitte beachten Sie, dass die Gruppe zur Qualitätssicherung nur auf Englisch oder Russisch erstellte Beschwerden bearbeitet.",
-          "description": "Detaillierte Beschreibung<br />Ihrer Beschwerde:",
-          "request": "Anfrage, mit deren Lösung<br />Sie nicht zufrieden sind:"
-        },
-        "csr": {
-          "title": "CSR für Apple Push Notification Service signieren",
-          "subtitle": "Sie können eine einzige Datei mit der Erweiterung .csr in einer Anfrage zum Signieren senden.",
-          "confirm-title": "Erstellung der Anfrage abbrechen",
-          "confirm-text": "Möchten Sie die Erstellung der Anfrage abbrechen?",
-          "confirm-button": "Ja",
-          "success": "Ihre Anfrage wurde erfolgreich erstellt. Diese Anfrage wird automatisch bearbeitet und geschlossen. Wählen Sie diese in der Liste der Anfragen und laden Sie das signierte Zertifikat herunter. Anfragenummer: <a href=\"/request/view/{requestId}\">{requestId}</a>",
-          "attachedfiles": {
-            "title": "Angehängte Dateien:"
-          },
-          "send-request": "CSR signieren",
-          "send-process": "Bitte warten Sie, die Anfrage wird bearbeitet...",
-          "cancel-request": "Abbrechen",
-          "remarkQuestion": "<a href=\"http://support.kaspersky.com/de/11077\" target=\"_blank\" >Erstellen des APNs-Zertifikats</a>",
-          "remarkDescriprion": " ",
-          "errors": {
-            "WrongFileSize": "Unzulässige Dateigröße",
-            "WrongFileFormat": "Unzulässiges Dateiformat",
-            "UnknownError": "Ein Fehler ist aufgetreten, versuchen Sie es erneut. Wenn der Fehler erneut auftritt, schreiben Sie an <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a>  "
-          }
-        },
-        "virlab": {
-          "title": "Eine verdächtige Datei oder URL zur Untersuchung senden",
-          "confirm-title": "Erstellung der Anfrage abbrechen",
-          "confirm-text": "Möchten Sie die Erstellung der Anfrage abbrechen?",
-          "confirm-button": "Ja",
-          "type": "Anfragetyp:",
-          "description": " Beschreibung des Problems:",
-          "request-description": "Beschreiben Sie die zu sendenden Dateien oder geben Sie verdächtige URLs an",
-          "notifications": " Antwort auch an folgende <br />E-Mail schicken:",
-          "email-placeholder": "name@domain.com ; name@domain.com",
-          "success": "Ihre Anfrage ans Antivirenlabor wurde erfolgreich registriert. Die Antwort wird direkt an Ihre E-Mail gesendet. Beachten Sie, dass die Antwort auf diesem Portal nicht angezeigt wird.  Anfragenummer: <a href=\"/request/view/{requestId}\">{requestId}</a>",
-          "attachedfiles": {
-            "title": "Angehängte Dateien:"
-          },
-          "send-request": "Anfrage senden",
-          "send-process": "Bitte warten Sie, die Anfrage wird bearbeitet...",
-          "cancel-request": "Abbrechen",
-          "errors": {
-            "UserNotFound": "Fehler: Der aktuelle Benutzer wurde in der Datenbank nicht gefunden",
-            "AccessDenied": "Der Zugriff ist verboten, dieser Vorgang ist für Sie nicht verfügbar",
-            "WrongFileSize": "Eine der von Ihnen hochgeladenen Dateien überschreitet die maximal zulässige Größe",
-            "WrongFileFormat": "Eine der von Ihnen hochgeladenen Dateien hat ein falsches Format",
-            "UnknownError": "Ein Fehler ist aufgetreten, versuchen Sie es erneut. Wenn der Fehler erneut auftritt, schreiben Sie an <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a>   ",
-            "EmailPattern": "Geben Sie die richtige E-Mail an. Wenn Sie mehrere E-Mail-Adressen angeben, trennen Sie diese von einander durch Semikolons ab."
-          },
-          "loadingErrors": {
-            "UnknownError": {
-              "title": "Unbekannter Fehler beim Senden der Anfrage",
-              "text": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut. Wenn das Problem wieterhin besteht, kontaktieren Sie uns unter: <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a> "
-            }
-          }
-        },
-        "virlab-msa": {
-          "title": "Eine verdächtige Datei oder URL zur Untersuchung (MSA) senden",
-          "success": "Ihre Anfrage ans Antivirenlabor wurde erfolgreich registriert. Die Antwort wird direkt an Ihre E-Mail gesendet. Beachten Sie, dass die Antwort auf diesem Portal nicht angezeigt wird.  Anfragenummer: <a href=\"/request/view/{requestId}\">{requestId}</a>",
-          "loadingErrors": {
-            "UnknownError": {
-              "title": "Unbekannter Fehler beim Senden der Anfrage",
-              "text": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut. Wenn das Problem wieterhin besteht, kontaktieren Sie uns unter: <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a> "
-            }
-          }
-        },
-        "support": {
-          "title": "Anfrage an den technischen Support",
-          "confirm-title": "Erstellung der Anfrage abbrechen",
-          "confirm-text": "Möchten Sie die Erstellung der Anfrage abbrechen?",
-          "confirm-button": "Ja",
-          "securityarea": " Produktgruppe:",
-          "product": " Produkt:",
-          "osversion": " Version des Betriebssystems:",
-          "osversion-placeholder": "Wählen Sie oder geben Sie eine neue ein",
-          "productversion": " Produktversion:",
-          "requesttype": {
-            "title": " Anfragetyp:"
-          },
-          "subtype": " Untertyp:",
-          "theme": " Thema der Anfrage:",
-          "description": " Beschreibung des Problems:",
-          "unknownProduct": " ",
-          "whatProduct": " ",
-          "aboutProduct": " ",
-          "request-theme": "Thema der Anfrage",
-          "request-description": "Beschreiben Sie das Problem und die Schritte zu deren Reproduktion",
-          "success": "Ihre Anfrage wurde erfolgreich erstellt. Anfragenummer: <a href=\"/request/view/{requestId}\">{requestId}</a>",
-          "attachedfiles": {
-            "title": "Angehängte Dateien:"
-          },
-          "send-request": "Anfrage senden",
-          "send-process": "Bitte warten Sie, die Anfrage wird bearbeitet...",
-          "cancel-request": "Abbrechen",
-          "errors": {
-            "UnknownError": "Ein Fehler ist aufgetreten, versuchen Sie es erneut. Wenn der Fehler erneut auftritt, schreiben Sie an <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a>  "
-          },
-          "loadingErrors": {
-            "UnknownError": {
-              "title": "Unbekannter Fehler beim Erstellen der Anfrage",
-              "text": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut. Wenn das Problem wieterhin besteht, kontaktieren Sie uns unter: <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a> "
-            }
-          },
-          "license": {
-            "1": "Zu Ihrem Unternehmen wurde noch keine gültige Lizenz für ein Unternehmensprodukt hinzugefügt. Aus diesem Grund können die vom Support bearbeiteten Anfragetypen beschränkt sein. Bitte fügen Sie eine Lizenz auf der <a href='../../license/list' target=\"_blank\">Registerkarte „Lizenzen“</a>.  ",
-            "2": "Es gibt keine gültigen Lizenz für <b>Heimanwenderprodukte</b> Aus diesem Grund können Anfragetypen für Heimanwenderprodukte beschränkt sein. Bitte aktivieren Sie das Produkt oder <a href='../../license/list' target=\"_blank\"> fügen Sie eine neue Lizenz für das Heimanwenderprodukt auf der Registerkarte „Lizenzen“ hinzu</a>",
-            "3": "Zu Ihrem Unternehmen wurde noch keine gültige Lizenz für ein Unternehmensprodukt hinzugefügt. Aus diesem Grund können die vom Support bearbeiteten Anfragetypen beschränkt sein. Bitte aktivieren Sie das Produkt oder <a href='../../license/list' target=\"_blank\"> fügen Sie eine neue Lizenz für das Unternehmensprodukt auf der Registerkarte „Lizenzen“ hinzu</a> "
-          },
-          "answers-email": "Über Antworten per E-Mail benachrichtigen"
-        },
-        "support-ta": {
-          "title": "Anfrage an den technischen Support",
-          "product-ver-placeholder": "Wählen Sie oder geben Sie eine eigene Version ein",
-          "success": "Ihre Anfrage wurde erfolgreich erstellt. Anfragenummer: <a href=\"/request/view/{requestId}\">{requestId}</a>",
-          "errors['NotifyEmails": {
-            "MultiEmailRule']": "E-Mail-Adresse korrekt eingeben. Trennen Sie mehrere Adressen mit Semikolon."
-          },
-          "errors['ProductId": {
-            "RequiredRule']": "Wählen Sie das Produkt"
-          },
-          "errors['ProductVersion": {
-            "RequiredRule']": "Wählen Sie die Produktversion aus",
-            "MaxLengthRule']": "Maximale Anzahl von Zeichen überschritten"
-          },
-          "errors['OSVersion": {
-            "RequiredRule']": "Wählen oder tippen Sie das Betriebssystem ein",
-            "MaxByteLengthRule']": "Maximale Anzahl von Zeichen überschritten"
-          },
-          "errors['TypeId": {
-            "RequiredRule']": "Wählen Sie den Anfragetyp aus"
-          },
-          "errors['Summary": {
-            "RequiredRule']": "Geben Sie den Betreff ein",
-            "MaxLengthRule']": "Der Betreff darf nur maximal 50 zeichen haben."
-          },
-          "errors['Description": {
-            "RequiredRule']": "Bitte geben Sie eine Beschreibung an",
-            "MaxLengthRule']": "Die <b>Beschreibung</b> ist zu lang"
-          },
-          "loadingErrors": {
-            "UnknownError": {
-              "title": "Unbekannter Fehler beim Erstellen der Anfrage",
-              "text": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut. Wenn das Problem wieterhin besteht, kontaktieren Sie uns unter: <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a> "
-            }
-          }
-        },
-        "support-msa": {
-          "title": "Anfrage an den technischen Support (MSA)",
-          "success": "Ihre Anfrage wurde erfolgreich erstellt. Anfragenummer: <a href=\"/request/view/{requestId}\">{requestId}</a>",
-          "loadingErrors": {
-            "UnknownError": {
-              "title": "Unbekannter Fehler beim Erstellen der Anfrage",
-              "text": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut. Wenn das Problem wieterhin besteht, kontaktieren Sie uns unter: <a href=\"mailto:betaca@kaspersky.com\" target=\"_blank\">betaca@kaspersky.com</a> "
-            }
-          }
         }
-      }
     }
-  }
 }
