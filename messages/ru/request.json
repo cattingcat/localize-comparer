@@ -85,7 +85,7 @@
                     "PendingAdditionalInformationNeeded": "Ожидает вашего ответа",
                     "ResolvedSolutionProvided": "Решение предоставлено",
                     "CancelledByCustomer": "Отменен пользователем",
-                    "CancelledLicenseSupportContractTermination": "Отменен (истечение лицензии/контрата)",
+                    "CancelledLicenseSupportContractTermination": "Отменен (истечение лицензии/контракта)",
                     "ClosedRequestForwarded": "Закрыт (запрос перенаправлен)",
                     "ClosedByCustomer": "Закрыт пользователем",
                     "ResolvedRequiredInfoNotProvided": "Решен (информация не была предоставлена)",
@@ -280,7 +280,7 @@
                     "aboutProduct": " ",
 
                     "request-theme": "Тема запроса",
-                    "request-description": "Опишите проблему и шаги для ее вопроизведения",
+                    "request-description": "Опишите проблему и шаги для ее воспроизведения",
 
                     "success": "Ваш запрос успешно создан. Номер запроса: <a href=\"/request/view/{requestId}\">{requestId}</a>",
                     "attachedfiles": {

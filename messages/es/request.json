@@ -81,14 +81,14 @@
 
                     "CancelledBySupport": "Cancelada por un ingeniero de soporte",
                     "ClosedBySupport": "Cerrada por un ingeniero de soporte",
-                    "InProgress": "Su solicitud se está tramitando",
+                    "InProgress": "La solicitud se está procesando",
                     "PendingAdditionalInformationNeeded": "En espera de su respuesta",
-                    "ResolvedSolutionProvided": "Solución proporcionada",
+                    "ResolvedSolutionProvided": "La solicitud se ha proporcionado",
                     "CancelledByCustomer": "Cancelada por el usuario",
                     "CancelledLicenseSupportContractTermination": "Cancelada (licencia/contrato caducado)",
                     "ClosedRequestForwarded": "Cerrada (la solicitud se ha redirigido)",
                     "ClosedByCustomer": "Cerrada por el usuario",
-                    "ResolvedRequiredInfoNotProvided": "Solucionada (información adicional no se ha proporcionado)",
+                    "ResolvedRequiredInfoNotProvided": "Solucionada (información adicional no proporcionada)",
 
                     "InProgress-status-area": "La solicitud se está procesando por un ingeniero de soporte técnico."
                 },

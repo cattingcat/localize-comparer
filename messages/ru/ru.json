@@ -54,7 +54,7 @@
                     "maxFileSize": "Размер файла превышает допустимый",
                     "minFileSize": "Размер файла слишком мал",
                     "acceptFileTypes": "Недопустимый тип файла",
-                    "maxNumberOfFiles": "Превышен лимит количества файлов",
+                    "maxNumberOfFiles": "[!!!]Превышен лимит количества файлов. Максимальное количество файлов - 3.",
                     "uploadError": "При загрузке файлов произошла сетевая ошибка",
 
                     "StorageFileSizeRule": "Размер файла не соответствует требованиям",
@@ -81,7 +81,7 @@
                 },
                 "supportnumber": " ",
                 "supportPhone": " ",
-                "selectlanguage": "Выберите язык сервиса:",
+                "selectlanguage": "[!!!]Выберите язык:",
                 "copyrightStart": "Copyright &copy;",
                 "copyrightEnd": "АО «Лаборатория Касперского» ",
                 "errors": {
@@ -142,11 +142,11 @@
             },
             "CheckUserSessionExceptions": {
                 "SessionNotFound": {
-                    "title": "Сессия удалена",
+                    "title": "[!!!]Сессия завершена",
                     "text": " "
                 },
                 "RefreshTokenExpired": {
-                    "title": "Сессия устарела",
+                    "title": "[!!!]Сессия завершена",
                     "text": " "
                 }
             },
