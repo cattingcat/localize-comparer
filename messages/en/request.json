@@ -79,16 +79,16 @@
                 "statuses": {
                     "None": "None",
 
-                    "CancelledBySupport": "Cancelled  by support engineer",
-                    "ClosedBySupport": "Closed by support engineer",
+                    "CancelledBySupport": "Cancelled (By Support)",
+                    "ClosedBySupport": "Closed (By Support)",
                     "InProgress": "In Progress",
-                    "PendingAdditionalInformationNeeded": "Awaiting your reply",
-                    "ResolvedSolutionProvided": "Resolved (solution provided)",
-                    "CancelledByCustomer": "Cancelled by customer",
-                    "CancelledLicenseSupportContractTermination": "Cancelled (license or contract expired)",
-                    "ClosedRequestForwarded": "Closed (forwarded)",
-                    "ClosedByCustomer": "Closed by customer",
-                    "ResolvedRequiredInfoNotProvided": "Resolved (no information provided)",
+                    "PendingAdditionalInformationNeeded": "Pending",
+                    "ResolvedSolutionProvided": "Resolved (Solution was provided)",
+                    "CancelledByCustomer": "Cancelled (By Customer)",
+                    "CancelledLicenseSupportContractTermination": "Cancelled (License or agreement expired)",
+                    "ClosedRequestForwarded": "Closed (Request redirected)",
+                    "ClosedByCustomer": "Closed (By Customer)",
+                    "ResolvedRequiredInfoNotProvided": "Resolved (information was not provided)",
 
                     "InProgress-status-area": "The request is being processed by the support engineer"
                 },
