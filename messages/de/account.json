@@ -205,16 +205,14 @@
                         "Email.EmailRule": "Die E-Mail-Adresse ist nicht korrekt",
                         "Email.MaxByteLengthRule": "Die maximale Länge der E-Mail-Adresse beträgt 127 Zeichen",
                         "Email.RepeatedRegistration": "Dieses Benutzerkonto wird bereits verwendet. Sie können entweder <a href='/account/forgot'>das Kennwort wieder herstellen</a> oder sich<a href='/account/login'>anmelden</a>",
+                        "Email.FailureUserExists": "Dieses Benutzerkonto wird bereits verwendet. Sie können entweder <a href='/account/forgot'>das Kennwort wieder herstellen</a> oder sich<a href='/account/login'>anmelden</a>",
+
                         "KeyFile.KeyFileRule": "Ungültige Schlüsseldatei",
                         "KeyFile.HttpFileSizeRule": "Die Schlüsseldatei ist zu groß",
                         "ActivationCode.ActivationCodeRule": "Ungültiger Aktivierungscode",
 
                         "InvalidEmailDomain": "Der Domainname kaspersky.com kann nicht angegeben werden",
                         "ActCodeOrKeyFileRequired": "Bitte fügen Sie Ihren Aktivierungscode oder Ihre Schlüsseldatei hinzu.",
-                        "FailureUserExists": {
-                            "title": "Dieses Benutzerkonto wird bereits verwendet. Sie können entweder <a href='/account/forgot'>das Kennwort wieder herstellen</a> oder sich<a href='/account/login'>anmelden</a>",
-                            "text": " "
-                        },
                         "UnknownError": {
                             "title": "Es ist ein unbekannter Fehler aufgetreten",
                             "text": "Bitte versuchen Sie erneut, sich zu registrieren. Wenn das Problem weiterhin besteht, dann <a href='mailto:companyaccount@kaspersky.com'>schreiben Sie uns</a>."

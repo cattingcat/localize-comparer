@@ -226,6 +226,7 @@
                         "Email.EmailRule": "Invalid e-mail address",
                         "Email.MaxByteLengthRule": "E-mail address must not exceed {ByteLength} characters",
                         "Email.RepeatedRegistration": "The account for this e-mail address already exists.  <br />To finish account registration and activation, please confirm your e-mail address by clicking the link you received.",
+                        "Email.FailureUserExists": "The account already exists You can <a href='/account/forgot'>restore your password</a> or <a href='/account/login'>sign in</a>",
 
                         "KeyFile.KeyFileRule": "Invalid key file",
                         "ActivationCode.ActivationCodeRule": "Invalid activation code",
@@ -235,10 +236,6 @@
 
                         "ActCodeOrKeyFileRequired": "Please add the activation code or add the key file",
 
-                        "FailureUserExists": {
-                            "title": "The account already exists You can <a href='/account/forgot'>restore your password</a> or <a href='/account/login'>sign in</a>",
-                            "text": " "
-                        },
                         "UnknownError": {
                             "title": "Unknown error occurred",
                             "text": "Please try again. <br/> If the issue persists, please <a href='mailto:companyaccount@kaspersky.com'>contact technical support</a>."

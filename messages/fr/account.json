@@ -226,6 +226,7 @@
                         "Email.EmailRule": "Adresse email incorrecte",
                         "Email.MaxByteLengthRule": "Le champ Email est limité à {ByteLength} caractères maximum",
                         "Email.RepeatedRegistration": "Cet email est déjà associé à un autre compte. <br />Pour terminer l'inscription et activer le compte, veuillez confirmer votre adresse de courrier électronique en suivant le lien dans l'email d'inscription.",
+                        "Email.FailureUserExists": "Ce compte existe déjà. Vous pouvez <a href='/account/forgot'>réinitialiser le mot de passe</a> ou <a href='/account/login'>vous connecter</a>",
 
                         "KeyFile.KeyFileRule": "Fichier clé invalide",
                         "ActivationCode.ActivationCodeRule": "Code d'activation incorrect",
@@ -235,10 +236,6 @@
 
                         "ActCodeOrKeyFileRequired": "Veuillez saisir un code d'activation ou ajouter un fichier clé",
 
-                        "FailureUserExists": {
-                            "title": "Ce compte existe déjà. Vous pouvez <a href='/account/forgot'>réinitialiser le mot de passe</a> ou <a href='/account/login'>vous connecter</a>",
-                            "text": " "
-                        },
                         "UnknownError": {
                             "title": "Un problème inconnu s'est produit",
                             "text": "Veuillez réessayer. Si le problème persiste, contactez-nous à l'adresse <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>."

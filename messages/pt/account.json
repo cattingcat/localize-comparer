@@ -235,6 +235,7 @@
                         "Email.EmailRule": "Endereço de email invalido",
                         "Email.MaxByteLengthRule": "Endereço de e-mail não deve exceder 127 caracteres",
                         "Email.RepeatedRegistration": "A conta já existe Você pode <a href='/account/forgot'>restaurar a sua senha</a> ou <a href='/account/login'>entrar</a>",
+                        "Email.FailureUserExists": "A conta já existe Você pode <a href='/account/forgot'>restaurar a sua senha</a> ou <a href='/account/login'>entrar</a>",
 
                         "KeyFile.KeyFileRule": "[EV] Invalid key file",
                         "ActivationCode.ActivationCodeRule": "[EV] Invalid activation code",
@@ -244,10 +245,6 @@
 
                         "ActCodeOrKeyFileRequired": "[EV] Please enter the activation code or add the key file",
 
-                        "FailureUserExists": {
-                            "title": "A conta já existe Você pode <a href='/account/forgot'>restaurar a sua senha</a> ou <a href='/account/login'>entrar</a>",
-                            "text": " "
-                        },
                         "UnknownError": {
                             "title": "Ocorreu um erro desconhecido",
                             "text": "Por favor, tente novamente. <br/>Se o problema persistir, por favor <a href='mailto:companyaccount@kaspersky.com'>entre em contato com o suporte técnico</a>."

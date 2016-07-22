@@ -4,6 +4,19 @@
             "notification": {
                 "hide": "Do not show this again"
             },
+
+            "oldBrowser": {
+                "title": "[EV][en] Kaspersky CompanyAccount не поддерживает ваш браузер",
+                "text": "[EV][en] Пожалуйста, обновите ваш браузер до одной из следующих версий",
+                "bullets": {
+                    "IE": "<a title=\"Internet Explorer\" href=\"http://windows.microsoft.com/ru-ru/internet-explorer/ie-11-worldwide-languages\" target=\"_blank\">[EV][en] Internet Explorer (10 и выше)</a>",
+                    "Chrome": "<a title=\"Chrome\" href=\"https://www.google.ru/chrome/browser/desktop/index.html\" target=\"_blank\">[EV][en] Chrome (28 и выше)</a>",
+                    "Safari": "<a title=\"Safari\" href=\"https://support.apple.com/downloads/safari\" target=\"_blank\">[EV][en] Safari (7 и выше) на Mac, iPad</a>",
+                    "Firefox": "<a title=\"Firefox\" href=\"https://www.mozilla.org/firefox/products/\" target=\"_blank\">[EV][en] Firefox (35 и выше)</a>",
+                    "Opera": "<a title=\"Opera\" href=\"http://www.opera.com/\" target=\"_blank\">[EV][en] Opera (12 и выше)</a>"
+                }
+            },
+
             "header": {
                 "title": "Kaspersky CompanyAccount",
                 "menu": {
@@ -20,6 +33,10 @@
                 "placeholder": "Code",
                 "loading": "Loading CAPTCHA...",
                 "errors": {
+                    "loadingLogin": "[EV] An error occurred while getting captcha Repeat input again later",
+                    "loadingForgotPassword": "[EV] An error occurred while getting captcha Repeat the password reset again later",
+                    "loadingRegister": "[EV] An error occurred while getting captcha Repeat registration try again later.",
+
                     "CaptchaIsRequired": "Enter the code",
                     "CaptchaNotFound": "Enter the code",
                     "CaptchaTimeout": "Code expired. Please enter the new code",
@@ -198,7 +215,11 @@
                 "custom": {
                     "to-main-page": "Go back to the <a href='/request/list'> main page.</a>"
                 },
-
+                "fileNotFound": {
+                    "title": "[EV] Error 404. File not found",
+                    "text": "[EV] Requested file not found  ",
+                    "to-main-page": "You can go back to <a href='/request/list'>requests.</a>  "
+                },
                 "UnknownError": {
                     "title": "Unknown error occurred",
                     "text": "Please contact <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"

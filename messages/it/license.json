@@ -11,23 +11,57 @@
                     "process": "Aggiunta licenza in corso...",
                     "errors": {
                         "Success": "La licenza è stata aggiunta",
-                        "GettingLicenseInfoError": "Errore.  Licenza non trovata",
-                        "ConsumerLicense": "la licenza non è stata aggiunta Prima di aggiungere una licenza per un prodotto home, <br/>  è necessario aggiungere almeno una licenza corporate.",
-                        "LicenseIsExpired": "La licenza è scaduta",
-                        "LicenseIsBlocked": "Errore. La licenza è bloccata",
-                        "IncorrectAC": "Errore. Formato non valido del codice di attivazione",
-                        "IncorrectKeyFile": "Errore. Formato non valido del file chiave",
-                        "MultLicUseErr": "Errore. La licenza è in uso da un'altra azienda",
                         "SuccessUserMoved": "La licenza è stata aggiunta La vostra azienda è stata modificata.<br/> Per applicare le modifiche, eseguire nuovamente l'accesso al CompanyAccount.",
-                        "LicenseAlreadyExists": "La licenza esiste già",
-                        "ACExpired": "Codice di attivazione scaduto",
-                        "UnknownError": "Si è verificato un errore. Vi invitiamo a riprovare Se il problema persiste contattare <a href='../request/create/ca' target=\"_blank\"> il supporto tecnico</a>",
-                        "LicenseNotFound": "Errore. Licenza non trovata",
 
                         "ActCodeOrKeyFileRequired": "[EV] Act. code or key file required",
                         "ActivationCode.ActivationCodeRule": "[EV] Некорректный формат кода активации",
                         "KeyFile.HttpFileSizeRule": "[EV] File is too big",
-                        "KeyFile.KeyFileRule": "[EV] Error. Invalid key file format"
+                        "KeyFile.KeyFileRule": "[EV] Error. Invalid key file format",
+
+                        "GettingLicenseInfoError": {
+                            "title": "Errore.  Licenza non trovata",
+                            "text": ""
+                        },
+                        "ConsumerLicense": {
+                            "title": "la licenza non è stata aggiunta Prima di aggiungere una licenza per un prodotto home, <br/>  è necessario aggiungere almeno una licenza corporate.",
+                            "text": ""
+                        },
+                        "LicenseIsExpired": {
+                            "title": "La licenza è scaduta",
+                            "text": ""
+                        },
+                        "LicenseIsBlocked": {
+                            "title": "Errore. La licenza è bloccata",
+                            "text": ""
+                        },
+                        "IncorrectAC": {
+                            "title": "Errore. Formato non valido del codice di attivazione",
+                            "text": ""
+                        },
+                        "IncorrectKeyFile": {
+                            "title": "Errore. Formato non valido del file chiave",
+                            "text": ""
+                        },
+                        "MultLicUseErr": {
+                            "title": "Errore. La licenza è in uso da un'altra azienda",
+                            "text": ""
+                        },
+                        "LicenseAlreadyExists": {
+                            "title": "La licenza esiste già",
+                            "text": ""
+                        },
+                        "ACExpired": {
+                            "title": "Codice di attivazione scaduto",
+                            "text": ""
+                        },
+                        "UnknownError": {
+                            "title": "Si è verificato un errore. Vi invitiamo a riprovare Se il problema persiste contattare <a href='../request/create/ca' target=\"_blank\"> il supporto tecnico</a>",
+                            "text": ""
+                        },
+                        "LicenseNotFound": {
+                            "title": "Errore. Licenza non trovata",
+                            "text": ""
+                        }
                     },
                     "success-user-moved": {
                         "title": "La licenza è stata aggiunta",
@@ -85,26 +119,35 @@
                         "confirm-button": "Rimuovi"
                     }
                 },
+
+                "remove": {
+                    "errors": {
+                        "UnknownError": {
+                            "title": "[EV] Unknown error while license removing",
+                            "text": "[EV] Please contact <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                        }
+                    }
+                },
+
                 "compatible": {
                     "errors": {
                         "UserNotFound": {
                             "title": "Utente non trovato",
-                            "message": " "
+                            "text": " "
                         },
                         "AccessDenied": {
                             "title": "Accesso negato",
-                            "message": " "
+                            "text": " "
                         },
                         "UnknownError": {
                             "title": "Si è presentato un errore sconosciuto",
-                            "message": "Si è presentato un errore sconosciuto durante l'apertura della lista dei prodotti compatibili.  Vi invitiamo a riprovare tra qualche minuto. <br/> Se il problema dovesse persistere, vi invitiamo a <a href='../request/create/ca' target=\"_blank\"> contattare il supporto tecnico</a> "
+                            "text": "Si è presentato un errore sconosciuto durante l'apertura della lista dei prodotti compatibili.  Vi invitiamo a riprovare tra qualche minuto. <br/> Se il problema dovesse persistere, vi invitiamo a <a href='../request/create/ca' target=\"_blank\"> contattare il supporto tecnico</a> "
                         },
                         "NoCompatibleApps": {
                             "title": "Nessun prodotto disponibile per questa licenza. ",
-                            "message": "Vi invitiamo a <a href='/request/create/ca' target=\"_blank\"> contattare il supporto tecnico</a> per le opzioni di utilizzo della licenza."
+                            "text": "Vi invitiamo a <a href='/request/create/ca' target=\"_blank\"> contattare il supporto tecnico</a> per le opzioni di utilizzo della licenza."
                         }
-                    },
-                    "close": "Chiudi"
+                    }
                 }
             }
         }

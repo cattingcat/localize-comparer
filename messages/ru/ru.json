@@ -4,6 +4,19 @@
             "notification": {
                 "hide": "Больше не показывать"
             },
+
+             "oldBrowser": {
+                "title": "Kaspersky CompanyAccount не поддерживает ваш браузер",
+                "text": "Пожалуйста, обновите ваш браузер до одной из следующих версий",
+                "bullets": {
+                    "IE": "<a title=\"Internet Explorer\" href=\"http://windows.microsoft.com/ru-ru/internet-explorer/ie-11-worldwide-languages\" target=\"_blank\">Internet Explorer (10 и выше)</a>",
+                    "Chrome": "<a title=\"Chrome\" href=\"https://www.google.ru/chrome/browser/desktop/index.html\" target=\"_blank\">Chrome (28 и выше)</a>",
+                    "Safari": "<a title=\"Safari\" href=\"https://support.apple.com/downloads/safari\" target=\"_blank\">Safari (7 и выше) на Mac, iPad</a>",
+                    "Firefox": "<a title=\"Firefox\" href=\"https://www.mozilla.org/firefox/products/\" target=\"_blank\">Firefox (35 и выше)</a>",
+                    "Opera": "<a title=\"Opera\" href=\"http://www.opera.com/\" target=\"_blank\">Opera (12 и выше)</a>"
+                }
+            },
+
             "header": {
                 "title": "Kaspersky CompanyAccount",
                 "menu": {
@@ -20,6 +33,10 @@
                 "placeholder": "Символы",
                 "loading": "Загрузка CAPTCHA...",
                 "errors": {
+                    "loadingLogin": "[EV] Произошла ошибка при получении каптчи. Повторите попытку входа позже",
+                    "loadingForgotPassword": "[EV] Произошла ошибка при получении каптчи. Повторите попытку сброса пароля позже",
+                    "loadingRegister": "[EV] Произошла ошибка при получении каптчи. Повторите попытку регистрации позже",
+
                     "CaptchaIsRequired": "Введите код",
                     "CaptchaNotFound": "Код отсутствует",
                     "CaptchaTimeout": "Код устарел, введите новый код",
@@ -73,7 +90,7 @@
                     "support": "База знаний",
                     "support-link": "http://support.kaspersky.ru/",
                     "contacts": "Контакты",
-                    "contacts-link": "http://http://support.kaspersky.ru/b2b",
+                    "contacts-link": "http://support.kaspersky.ru/b2b",
                     "politics": "Политика конфиденциальности",
                     "politics-link": "http://support.kaspersky.ru/support/PrivacyStatement_for_CompanyAccount",
                     "legalinformation": "Юридическая информация",
@@ -198,7 +215,11 @@
                 "custom": {
                     "to-main-page": "Попробуйте <a href=\"request/list\"> вернуться на главную страницу </a>."
                 },
-
+                "fileNotFound": {
+                    "title": "[EV] Ошибка 404. Файл не найден",
+                    "text": "[EV] Файл не найден  ",
+                    "to-main-page": "Попробуйте вернуться <a href='/request/list'>на страницу запросов.</a> "
+                },
                 "UnknownError": {
                     "title": "Произошел неизвестный сбой",
                     "text": "Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"

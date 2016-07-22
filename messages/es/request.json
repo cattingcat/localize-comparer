@@ -28,6 +28,8 @@
                     "Description.TextMaxLengthLimitRule": "La <b>descripción del problema</b> es demasiado larga",
                     "Description.MaxLengthRule": "La <b>descripción del problema</b> es demasiado larga",
 
+                    "KeyFile.NonEmptyFileRule": "[EV] Для создания запроса требуется прикрепить файл",
+
                     "attach-files-error": "La solicitud se ha creado, pero se ha producido un error a la hora de adjuntar archivos {attachedFileErrors}. </br> Vuelva a adjuntar los archivos dentro de unos minutos. </br> Si el error vuelve a aparecer, por favor, escriba un comentario en la solicitud. Número de solicitud: <a href=\"/request/view/{requestId}\">{requestId}</a>",
                     "comment-attach-files-error": "Su mensaje se ha enviado, pero se ha producido un error a la hora de adjuntar archivos {attachedFileErrors}. </br> Vuelva a adjuntar los archivos dentro de unos minutos. </br> Si el error vuelve a aparecer, por favor, escriba un comentario en la solicitud."
                 },
@@ -164,11 +166,29 @@
                     }
                 },
 
-                "complaint": {
+                "feedback": {
                     "title": "Nueva queja sobre la calidad de soporte",
-                    "note": "Por favor, tenga en cuenta que el Grupo de Control de calidad puede tramitar sólo solicitudes escritas en ruso o inglés.",
+                    "note": "Por favor, tenga en cuenta que el Grupo de Control de Calidad puede tramitar sólo solicitudes escritas en ruso o inglés.",
+                    "theme": "[EV] Тема обращения",
                     "description": "Descripción detallada<br />de su queja:",
-                    "request": "Solicitud suya solución<br /> no le ha satisfecho:"
+                    "description-placeholder": "[EV] Опишите суть вашей претензии",
+                    "request": "Solicitud cuya solución<br /> no le ha satisfecho:",
+                    "request-placeholder": "[EV] Выберите номер запроса",
+                    "success": "[EV] Ваша жалоба создана. Номер запроса: <a href=\"/request/view/{requestId}\">{requestId}</a>",
+                    "errors": {
+                        "Details.RequiredRule": "[EV] Опишите подробности вашей жалобы ",
+                        "Details.TextMaxLengthLimitRule": "[EV] Описание слишком длинное",
+                        "TypeId.RequiredRule": "[EV] Выберите тему жалобы",
+                        "TypeId.TextMaxLengthLimitRule": "[EV] Тема жалобы слишком длинная",
+
+                        "UnknownError": "[EV] Произошла ошибка, пожалуйста, попробуйте ещё раз. Если ошибка повторится, обратитесь по адресу <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a>"
+                    },
+                    "loadingErrors": {
+                        "UnknownError": {
+                            "title": "[EV] Неизвестная ошибка, при получении данных, необходимых для создания запроса СА-question",
+                            "text": "[EV] Please contact <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                        }
+                    }
                 },
 
                 "csr": {
@@ -211,6 +231,8 @@
                     "send-process": "Por favor, espere, su solicitud se está tramitando...",
                     "cancel-request": "Cancelar",
                     "errors": {
+                        "TypeId.RequiredRule": "Seleccione Tipo de solicitud",
+
                         "UserNotFound": "Error: el usuario actual no se ha encontrado en la base de datos",
                         "AccessDenied": "El acceso está denegado, esta operación no esta disponible para este usuario",
                         "WrongFileSize": "Uno de los archivos subidos supera el límite de tamaño permitido",

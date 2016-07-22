@@ -16,6 +16,8 @@
                     "Description.RequiredRule": "Beschreiben Sie Ihr Problem",
                     "Description.TextMaxLengthLimitRule": "Die <b>Beschreibung</b> ist zu lang.",
 
+                    "KeyFile.NonEmptyFileRule": "[EV] Для создания запроса требуется прикрепить файл",
+
                     "maxFiles3": "Sie können nicht mehr als drei Dateien anhängen. Löschen Sie die überflüssigen Dateien.",
                     "maxFiles1": "Sie können nicht mehr als eine Datei anhängen. Löschen Sie die überflüssigen Dateien.",
                     "minFiles1": "Sie müssen eine Datei anhängen.",
@@ -152,11 +154,29 @@
                         }
                     }
                 },
-                "complaint": {
+                "feedback": {
                     "title": "Neue Beschwerde über die Qualität des Supports",
                     "note": "Bitte beachten Sie, dass die Gruppe zur Qualitätssicherung nur auf Englisch oder Russisch erstellte Beschwerden bearbeitet.",
+                    "theme": "[EV] Тема обращения",
                     "description": "Detaillierte Beschreibung<br />Ihrer Beschwerde:",
-                    "request": "Anfrage, mit deren Lösung<br />Sie nicht zufrieden sind:"
+                    "description-placeholder": "[EV] Опишите суть вашей претензии",
+                    "request": "Anfrage, mit deren Lösung<br />Sie nicht zufrieden sind:",
+                    "request-placeholder": "[EV] Выберите номер запроса",
+                    "success": "[EV] Ваша жалоба создана. Номер запроса: <a href=\"/request/view/{requestId}\">{requestId}</a>",
+                    "errors": {
+                        "Details.RequiredRule": "[EV] Опишите подробности вашей жалобы ",
+                        "Details.TextMaxLengthLimitRule": "[EV] Описание слишком длинное",
+                        "TypeId.RequiredRule": "[EV] Выберите тему жалобы",
+                        "TypeId.TextMaxLengthLimitRule": "[EV] Тема жалобы слишком длинная",
+
+                        "UnknownError": "[EV] Произошла ошибка, пожалуйста, попробуйте ещё раз. Если ошибка повторится, обратитесь по адресу <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a>"
+                    },
+                    "loadingErrors": {
+                        "UnknownError": {
+                            "title": "[EV] Неизвестная ошибка, при получении данных, необходимых для создания запроса СА-question",
+                            "text": "[EV] Please contact <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                        }
+                    }
                 },
                 "csr": {
                     "title": "CSR für Apple Push Notification Service signieren",
@@ -197,6 +217,8 @@
                     "send-process": "Bitte warten Sie, die Anfrage wird bearbeitet...",
                     "cancel-request": "Abbrechen",
                     "errors": {
+                        "TypeId.RequiredRule": "Wählen Sie den Anfragetyp aus",
+
                         "UserNotFound": "Fehler: Der aktuelle Benutzer wurde in der Datenbank nicht gefunden",
                         "AccessDenied": "Der Zugriff ist verboten, dieser Vorgang ist für Sie nicht verfügbar",
                         "WrongFileSize": "Eine der von Ihnen hochgeladenen Dateien überschreitet die maximal zulässige Größe",

@@ -27,6 +27,8 @@
                     "Description.RequiredRule": "Wprowadź opis",
                     "Description.TextMaxLengthLimitRule": "[EV] Description is too long ",
 
+                    "KeyFile.NonEmptyFileRule": "[EV] Для создания запроса требуется прикрепить файл",
+
                     "attach-files-error": "[EV][english][Support-TA] Запрос создан, но при прикреплении файлов {attachedFileErrors} произошла ошибка. </br> Попробуйте прикрепить файл через несколько минут. </br> Если ошибка повторится, пожалуйста, напишите об этом в комментарии к запросу. Номер запроса: <a href=\"/request/view/{requestId}\">{requestId}</a>",
                     "comment-attach-files-error": "[EV][english] Запись в переписку добавлена, но при прикреплении файлов {attachedFileErrors} произошла ошибка. </br>Попробуйте прикрепить файл через несколько минут. </br>Если ошибка повторится, пожалуйста, напишите об этом в комментарии к запросу."
                 },
@@ -163,11 +165,29 @@
                     }
                 },
 
-                "complaint": {
+                "feedback": {
                     "title": "Nowa zażalenie dotyczące jakości pomocy technicznej",
                     "note": "Należy pamiętać, że Dział kontroli jakości obsługuje zażalenia wyłącznie w językach  angielskim i rosyjskim.",
+                    "theme": "[EV] Тема обращения",
                     "description": "Szczegółowy opis <br />Twojego zażalenia:",
-                    "request": "Zgłoszenie, którego dotyczy <br /> Twoje zażalenie:"
+                    "description-placeholder": "[EV] Опишите суть вашей претензии",
+                    "request": "Zgłoszenie, którego dotyczy <br /> Twoje zażalenie:",
+                    "request-placeholder": "[EV] Выберите номер запроса",
+                    "success": "[EV] Ваша жалоба создана. Номер запроса: <a href=\"/request/view/{requestId}\">{requestId}</a>",
+                    "errors": {
+                        "Details.RequiredRule": "[EV] Опишите подробности вашей жалобы ",
+                        "Details.TextMaxLengthLimitRule": "[EV] Описание слишком длинное",
+                        "TypeId.RequiredRule": "[EV] Выберите тему жалобы",
+                        "TypeId.TextMaxLengthLimitRule": "[EV] Тема жалобы слишком длинная",
+
+                        "UnknownError": "[EV] Произошла ошибка, пожалуйста, попробуйте ещё раз. Если ошибка повторится, обратитесь по адресу <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a>"
+                    },
+                    "loadingErrors": {
+                        "UnknownError": {
+                            "title": "[EV] Неизвестная ошибка, при получении данных, необходимых для создания запроса СА-question",
+                            "text": "[EV] Please contact <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                        }
+                    }
                 },
 
                 "csr": {
@@ -210,6 +230,8 @@
                     "send-process": "Zgłoszenie jest przetwarzane...",
                     "cancel-request": "Anuluj",
                     "errors": {
+                        "TypeId.RequiredRule": "Wybierz typ zgłoszenia",
+
                         "UserNotFound": "Błąd: użytkownik nie został odnaleziony w bazie danych",
                         "AccessDenied": "Dostęp zabroniony. Działanie jest niemożliwe",
                         "WrongFileSize": "Jeden z załączonych plików jest za duży",

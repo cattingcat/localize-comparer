@@ -227,6 +227,7 @@
                         "Email.EmailRule": "メールアドレスが正しくありません",
                         "Email.MaxByteLengthRule": "128 文字以上は入力できません",
                         "Email.RepeatedRegistration": "アカウントがすでに存在します。<a href='/account/forgot'>パスワードを復元する</a>か、 <a href='/account/login'>サインイン</a>してください",
+                        "Email.RepeatedRegistration": "アカウントがすでに存在します。<a href='/account/forgot'>パスワードを復元する</a>か、 <a href='/account/login'>サインイン</a>してください",
 
                         "KeyFile.KeyFileRule": "[EV] Invalid key file",
                         "ActivationCode.ActivationCodeRule": "[EV] Invalid activation code",
@@ -236,10 +237,6 @@
 
                         "ActCodeOrKeyFileRequired": "[EV] Please enter the activation code or add the key file",
 
-                        "FailureUserExists": {
-                            "title": "アカウントがすでに存在します。<a href='/account/forgot'>パスワードを復元する</a>か、 <a href='/account/login'>サインイン</a>してください",
-                            "text": " "
-                        },
                         "UnknownError": {
                             "title": "エラーが発生しました",
                             "text": "再試行してください。<br />問題が解決しない場合は、<a href='mailto:companyaccount@kaspersky.com'>テクニカルサポートへお問い合わせください。</a>"

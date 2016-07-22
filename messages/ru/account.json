@@ -226,6 +226,7 @@
                         "Email.EmailRule": "Некорректный адрес e-mail",
                         "Email.MaxByteLengthRule": "Максимальная длина e-mail адреса {ByteLength} символов",
                         "Email.RepeatedRegistration": "Пользователь с таким e-mail уже зарегистрирован в системе. <br />Для завершения регистрации и активации аккаунта подтвердите, пожалуйста, Ваш e-mail, используя ссылку, полученную при регистрации.",
+                        "Email.FailureUserExists": "Такая учетная запись уже существует. Вы можете <a href='/account/forgot'>восстановить пароль</a> или <a href='/account/login'>войти</a>",
 
                         "KeyFile.KeyFileRule": "Невалидный файл-ключа",
                         "ActivationCode.ActivationCodeRule": "Неверный код активации",
@@ -235,10 +236,6 @@
 
                         "ActCodeOrKeyFileRequired": "Пожалуйста, введите код активации или добавьте файл ключа",
 
-                        "FailureUserExists": {
-                            "title": "Такая учетная запись уже существует. Вы можете <a href='/account/forgot'>восстановить пароль</a> или <a href='/account/login'>войти</a>",
-                            "text": " "
-                        },
                         "UnknownError": {
                             "title": "Произошел неизвестный сбой",
                             "text": "Пожалуйста, повторите попытку регистрации еще раз. Если проблема повторится, <a href='mailto:companyaccount@kaspersky.com'>напишите нам</a>."
