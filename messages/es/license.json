@@ -11,57 +11,23 @@
                     "process": "Subiendo licencia",
                     "errors": {
                         "Success": "La licencia se ha adjuntado correctamente",
+                        "GettingLicenseInfoError": "¡Error! No se ha encontrado la licencia.",
+                        "ConsumerLicense": "La licencia no se ha adjuntado. Antes de agregar la licencia de un producto para usuarios domésticos,<br/> agregue al menos una licencia corporativa.",
+                        "LicenseIsExpired": "Esta licencia se ha caducado.",
+                        "LicenseIsBlocked": "¡Error! Licencia bloqueada",
+                        "IncorrectAC": "¡Error! El formato del código introducido no corresponde al formato necesario",
+                        "IncorrectKeyFile": "¡Error! El formato del archivo adjuntado no corresponde al formato necesario",
+                        "MultLicUseErr": "¡Error! Esta licencia ya se está utilizando por otra empresa.",
                         "SuccessUserMoved": "¡La licencia se ha adjuntado correctamente! Su conexión de empresa se ha cambiado.<br/> Para que se apliquen los cambios, se debe reiniciar sesión de CompanyAccount.",
+                        "LicenseAlreadyExists": "Esta licencia ya se encuentra adjuntada a la cuenta de su empresa.",
+                        "ACExpired": "Este código ha caducado.",
+                        "UnknownError": "Se ha ocurrido un error, inténtelo de nuevo. Si el problema vuelve a aparecer, <a href='../request/create/ca' target=\"_blank\">envíe solicitud al soporte técnico</a>",
+                        "LicenseNotFound": "¡Error! No se ha encontrado la licencia.",
 
                         "ActCodeOrKeyFileRequired": "Se requiere un archivo llave o un código de activación",
                         "ActivationCode.ActivationCodeRule": "Formato del código de activación incorrecto",
                         "KeyFile.HttpFileSizeRule": "El archivo llave es demasiado grande",
-                        "KeyFile.KeyFileRule": "Formato de archivo llave desconocido",
-
-                        "GettingLicenseInfoError": {
-                            "title": "¡Error! No se ha encontrado la licencia.",
-                            "text": ""
-                        },
-                        "ConsumerLicense": {
-                            "title": "La licencia no se ha adjuntado. Antes de agregar la licencia de un producto para usuarios domésticos,<br/> agregue al menos una licencia corporativa.",
-                            "text": ""
-                        },
-                        "LicenseIsExpired": {
-                            "title": "Esta licencia se ha caducado.",
-                            "text": ""
-                        },
-                        "LicenseIsBlocked": {
-                            "title": "¡Error! Licencia bloqueada",
-                            "text": ""
-                        },
-                        "IncorrectAC": {
-                            "title": "¡Error! El formato del código introducido no corresponde al formato necesario",
-                            "text": ""
-                        },
-                        "IncorrectKeyFile": {
-                            "title": "¡Error! El formato del archivo adjuntado no corresponde al formato necesario",
-                            "text": ""
-                        },
-                        "MultLicUseErr": {
-                            "title": "¡Error! Esta licencia ya se está utilizando por otra empresa.",
-                            "text": ""
-                        },
-                        "LicenseAlreadyExists": {
-                            "title": "Esta licencia ya se encuentra adjuntada a la cuenta de su empresa.",
-                            "text": ""
-                        },
-                        "ACExpired": {
-                            "title": "Este código ha caducado.",
-                            "text": ""
-                        },
-                        "UnknownError": {
-                            "title": "Se ha ocurrido un error, inténtelo de nuevo. Si el problema vuelve a aparecer, <a href='../request/create/ca' target=\"_blank\">envíe solicitud al soporte técnico</a>",
-                            "text": ""
-                        },
-                        "LicenseNotFound": {
-                            "title": "¡Error! No se ha encontrado la licencia.",
-                            "text": ""
-                        }
+                        "KeyFile.KeyFileRule": "Formato de archivo llave desconocido"
                     },
                     "success-user-moved": {
                         "title": "¡La licencia se ha adjuntado correctamente!",
@@ -122,8 +88,8 @@
                     }
                 },
 
-                "remove": {
-                    "errors": {
+                 "remove": {
+                    "errors": { 
                         "UnknownError": {
                             "title": "[EV] Unknown error while license removing",
                             "text": "[EV] Please contact <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
@@ -135,21 +101,22 @@
                     "errors": {
                         "UserNotFound": {
                             "title": "Usuario no encontrado",
-                            "text": " "
+                            "message": " "
                         },
                         "AccessDenied": {
                             "title": "Acceso denegado",
-                            "text": " "
+                            "message": " "
                         },
                         "UnknownError": {
                             "title": "Se ha producido un fallo desconocido",
-                            "text": "Se ha producido un fallo desconocido a la hora de mostrar la lista de aplicaciones compatibles. Por favor, inténtelo de nuevo dentro de unos minutos. <br/>Si el problema vuelve a aparecer, <a href='../request/create/ca' target=\"_blank\">envíe solicitud al soporte técnico</a> "
+                            "message": "Se ha producido un fallo desconocido a la hora de mostrar la lista de aplicaciones compatibles. Por favor, inténtelo de nuevo dentro de unos minutos. <br/>Si el problema vuelve a aparecer, <a href='../request/create/ca' target=\"_blank\">envíe solicitud al soporte técnico</a> "
                         },
                         "NoCompatibleApps": {
                             "title": "No hay aplicaciones compatibles para esta licencia.",
-                            "text": "Por favor, <a href='../request/create/ca' target=\"_blank\"> consulte con el soporte técnico </a> sobre cómo usar esta licencia."
+                            "message": "Por favor, <a href='../request/create/ca' target=\"_blank\"> consulte con el soporte técnico </a> sobre cómo usar esta licencia."
                         }
-                    }
+                    },
+                    "close": "Cerrar"
                 }
             }
         }

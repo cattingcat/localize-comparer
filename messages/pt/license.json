@@ -11,57 +11,23 @@
                     "process": "Adicionando licença …",
                     "errors": {
                         "Success": "A licença foi adicionada",
+                        "GettingLicenseInfoError": "Erro. Licença não encontrada",
+                        "ConsumerLicense": "Licença não foi adicionada Antes de adicionar uma licença para um produto residencial, <br/> você deve adicionar pelo menos uma licença corporativa.",
+                        "LicenseIsExpired": "Licença expirou",
+                        "LicenseIsBlocked": "Erro. Licença esta bloqueada",
+                        "IncorrectAC": "Erro. formato de código de ativação inválido",
+                        "IncorrectKeyFile": "Erro. formato de arquivo de chave inválido",
+                        "MultLicUseErr": "Error. The license is used by another company",
                         "SuccessUserMoved": "Licença foi adicionada Sua empresa foi alterada. <br/> Para aplicar as alterações, faça o login no CompanyAccount novamente.",
+                        "LicenseAlreadyExists": "A licença já existe",
+                        "ACExpired": "Código de ativação expirou",
+                        "UnknownError": "Ocorreu um erro. Por favor tente novamente e se o problema persistir, por favor <a href='../request/create/ca' target=\"_blank\"> contacte o suporte técnico</a>",
+                        "LicenseNotFound": "Erro. Licença não encontrada",
 
                         "ActCodeOrKeyFileRequired": "[EV] Act. code or key file required",
                         "ActivationCode.ActivationCodeRule": "[EV] Некорректный формат кода активации",
                         "KeyFile.HttpFileSizeRule": "[EV] File is too big",
-                        "KeyFile.KeyFileRule": "[EV] Error. Invalid key file format",
-
-                        "GettingLicenseInfoError": {
-                            "title": "Erro. Licença não encontrada",
-                            "text": ""
-                        },
-                        "ConsumerLicense": {
-                            "title": "Licença não foi adicionada Antes de adicionar uma licença para um produto residencial, <br/> você deve adicionar pelo menos uma licença corporativa.",
-                            "text": ""
-                        },
-                        "LicenseIsExpired": {
-                            "title": "Licença expirou",
-                            "text": ""
-                        },
-                        "LicenseIsBlocked": {
-                            "title": "Erro. Licença esta bloqueada",
-                            "text": ""
-                        },
-                        "IncorrectAC": {
-                            "title": "Erro. formato de código de ativação inválido",
-                            "text": ""
-                        },
-                        "IncorrectKeyFile": {
-                            "title": "Erro. formato de arquivo de chave inválido",
-                            "text": ""
-                        },
-                        "MultLicUseErr": {
-                            "title": "Error. The license is used by another company",
-                            "text": ""
-                        },
-                        "LicenseAlreadyExists": {
-                            "title": "A licença já existe",
-                            "text": ""
-                        },
-                        "ACExpired": {
-                            "title": "Código de ativação expirou",
-                            "text": ""
-                        },
-                        "UnknownError": {
-                            "title": "Ocorreu um erro. Por favor tente novamente e se o problema persistir, por favor <a href='../request/create/ca' target=\"_blank\"> contacte o suporte técnico</a>",
-                            "text": ""
-                        },
-                        "LicenseNotFound": {
-                            "title": "Erro. Licença não encontrada",
-                            "text": ""
-                        }
+                        "KeyFile.KeyFileRule": "[EV] Error. Invalid key file format"
                     },
                     "success-user-moved": {
                         "title": "Licença foi adicionada",
@@ -122,8 +88,8 @@
                     }
                 },
 
-                "remove": {
-                    "errors": {
+                 "remove": {
+                    "errors": { 
                         "UnknownError": {
                             "title": "[EV] Unknown error while license removing",
                             "text": "[EV] Please contact <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
@@ -135,21 +101,22 @@
                     "errors": {
                         "UserNotFound": {
                             "title": "Usuário não encontrado",
-                            "text": " "
+                            "message": " "
                         },
                         "AccessDenied": {
                             "title": "Acesso negado",
-                            "text": " "
+                            "message": " "
                         },
                         "UnknownError": {
                             "title": "Ocorreu um erro desconhecido",
-                            "text": "Erro desconhecido ocorreu ao abrir a lista de produtos compatíveis. Por favor, tente novamente em alguns minutos. <br/> Se o problema persistir, por favor <a href='../request/create/ca' target=\"_blank\"> entre em contato com o suporte técnico</a> "
+                            "message": "Erro desconhecido ocorreu ao abrir a lista de produtos compatíveis. Por favor, tente novamente em alguns minutos. <br/> Se o problema persistir, por favor <a href='../request/create/ca' target=\"_blank\"> entre em contato com o suporte técnico</a> "
                         },
                         "NoCompatibleApps": {
                             "title": "Não há produtos disponíveis para esta licença.",
-                            "text": "Por favor, <a href='/request/create/ca' target=\"_blank\"> entre em contato com o suporte técnico</a> sobre as opções de usar esta licença."
+                            "message": "Por favor, <a href='/request/create/ca' target=\"_blank\"> entre em contato com o suporte técnico</a> sobre as opções de usar esta licença."
                         }
-                    }
+                    },
+                    "close": "Fechar"
                 }
 
             }

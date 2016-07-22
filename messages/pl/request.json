@@ -27,8 +27,6 @@
                     "Description.RequiredRule": "Wprowadź opis",
                     "Description.TextMaxLengthLimitRule": "[EV] Description is too long ",
 
-                    "KeyFile.NonEmptyFileRule": "[EV] Для создания запроса требуется прикрепить файл",
-
                     "attach-files-error": "[EV][english][Support-TA] Запрос создан, но при прикреплении файлов {attachedFileErrors} произошла ошибка. </br> Попробуйте прикрепить файл через несколько минут. </br> Если ошибка повторится, пожалуйста, напишите об этом в комментарии к запросу. Номер запроса: <a href=\"/request/view/{requestId}\">{requestId}</a>",
                     "comment-attach-files-error": "[EV][english] Запись в переписку добавлена, но при прикреплении файлов {attachedFileErrors} произошла ошибка. </br>Попробуйте прикрепить файл через несколько минут. </br>Если ошибка повторится, пожалуйста, напишите об этом в комментарии к запросу."
                 },
@@ -230,8 +228,6 @@
                     "send-process": "Zgłoszenie jest przetwarzane...",
                     "cancel-request": "Anuluj",
                     "errors": {
-                        "TypeId.RequiredRule": "Wybierz typ zgłoszenia",
-
                         "UserNotFound": "Błąd: użytkownik nie został odnaleziony w bazie danych",
                         "AccessDenied": "Dostęp zabroniony. Działanie jest niemożliwe",
                         "WrongFileSize": "Jeden z załączonych plików jest za duży",

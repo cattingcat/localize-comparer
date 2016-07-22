@@ -16,8 +16,6 @@
                     "Description.RequiredRule": "Beschreiben Sie Ihr Problem",
                     "Description.TextMaxLengthLimitRule": "Die <b>Beschreibung</b> ist zu lang.",
 
-                    "KeyFile.NonEmptyFileRule": "[EV] Для создания запроса требуется прикрепить файл",
-
                     "maxFiles3": "Sie können nicht mehr als drei Dateien anhängen. Löschen Sie die überflüssigen Dateien.",
                     "maxFiles1": "Sie können nicht mehr als eine Datei anhängen. Löschen Sie die überflüssigen Dateien.",
                     "minFiles1": "Sie müssen eine Datei anhängen.",
@@ -217,8 +215,6 @@
                     "send-process": "Bitte warten Sie, die Anfrage wird bearbeitet...",
                     "cancel-request": "Abbrechen",
                     "errors": {
-                        "TypeId.RequiredRule": "Wählen Sie den Anfragetyp aus",
-
                         "UserNotFound": "Fehler: Der aktuelle Benutzer wurde in der Datenbank nicht gefunden",
                         "AccessDenied": "Der Zugriff ist verboten, dieser Vorgang ist für Sie nicht verfügbar",
                         "WrongFileSize": "Eine der von Ihnen hochgeladenen Dateien überschreitet die maximal zulässige Größe",

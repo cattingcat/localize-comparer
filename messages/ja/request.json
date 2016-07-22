@@ -27,8 +27,6 @@
                     "Description.RequiredRule": "説明を記載してください",
                     "Description.TextMaxLengthLimitRule": "[EV] Description is too long ",
 
-                    "KeyFile.NonEmptyFileRule": "[EV] Для создания запроса требуется прикрепить файл",
-
                     "attach-files-error": "[EV][jp][Support-TA] Запрос создан, но при прикреплении файлов {attachedFileErrors} произошла ошибка. </br> Попробуйте прикрепить файл через несколько минут. </br> Если ошибка повторится, пожалуйста, напишите об этом в комментарии к запросу. Номер запроса: <a href=\"/request/view/{requestId}\">{requestId}</a>",
                     "comment-attach-files-error": "[EV][jp] Запись в переписку добавлена, но при прикреплении файлов {attachedFileErrors} произошла ошибка. </br>Попробуйте прикрепить файл через несколько минут. </br>Если ошибка повторится, пожалуйста, напишите об этом в комментарии к запросу."
                 },
@@ -230,8 +228,6 @@
                     "send-process": "お問い合わせを処理中です...",
                     "cancel-request": "キャンセル",
                     "errors": {
-                        "TypeId.RequiredRule": "お問い合わせの種別を選択してください",
-
                         "UserNotFound": "エラー：ユーザーがデータベース内に見つかりません",
                         "AccessDenied": "アクセスが拒否されました。処理ができません",
                         "WrongFileSize": "アップロードしたファイルのサイズが大きすぎます",

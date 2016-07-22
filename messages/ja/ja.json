@@ -4,19 +4,6 @@
             "notification": {
                 "hide": "今後は表示しない"
             },
-
-             "oldBrowser": {
-                "title": "[EV] Kaspersky CompanyAccount не поддерживает ваш браузер",
-                "text": "[EV] Пожалуйста, обновите ваш браузер до одной из следующих версий",
-                "bullets": {
-                    "IE": "<a title=\"Internet Explorer\" href=\"http://windows.microsoft.com/ru-ru/internet-explorer/ie-11-worldwide-languages\" target=\"_blank\">[EV] Internet Explorer (10 и выше)</a>",
-                    "Chrome": "<a title=\"Chrome\" href=\"https://www.google.ru/chrome/browser/desktop/index.html\" target=\"_blank\">[EV] Chrome (28 и выше)</a>",
-                    "Safari": "<a title=\"Safari\" href=\"https://support.apple.com/downloads/safari\" target=\"_blank\">[EV] Safari (7 и выше) на Mac, iPad</a>",
-                    "Firefox": "<a title=\"Firefox\" href=\"https://www.mozilla.org/firefox/products/\" target=\"_blank\">[EV] Firefox (35 и выше)</a>",
-                    "Opera": "<a title=\"Opera\" href=\"http://www.opera.com/\" target=\"_blank\">[EV] Opera (12 и выше)</a>"
-                }
-            },
-
             "header": {
                 "title": "Kaspersky CompanyAccount",
                 "menu": {
@@ -33,10 +20,6 @@
                 "placeholder": "コード",
                 "loading": "画像を読み込んでいます...",
                 "errors": {
-                    "loadingLogin": "[EV] Произошла ошибка при получении каптчи. Повторите попытку входа позже",
-                    "loadingForgotPassword": "[EV] Произошла ошибка при получении каптчи. Повторите попытку сброса пароля позже",
-                    "loadingRegister": "[EV] Произошла ошибка при получении каптчи. Повторите попытку регистрации позже",
-
                     "CaptchaIsRequired": "コードを入力",
                     "CaptchaNotFound": "コードを入力",
                     "CaptchaTimeout": "コードの有効期間が終了しています。新しいコードを入力してください",
@@ -167,7 +150,7 @@
                     "title": "[EV][SessionNotFound] Refresh token deleted",
                     "text": " "
                 },
-                "RefreshTokenExpired": {
+                "RefreshTokenExpired": { 
                     "title": "[EV] Refresh token expired",
                     "text": " "
                 }
@@ -220,11 +203,7 @@
                     "title": "アカウントの情報が一部変更されました",
                     "text": "再度、サインインしてください。サインインのページにリダイレクトします。"
                 },
-                "fileNotFound": {
-                    "title": "[EV] Error 404. File not found",
-                    "text": "[EV] Requested file not found  ",
-                    "to-main-page": "You can go back to <a href='/request/list'>requests.</a>  "
-                },
+
                 "UnknownError": {
                     "title": "エラーが発生しました",
                     "text": "<a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>へお問い合わせください"

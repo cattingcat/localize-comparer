@@ -28,8 +28,6 @@
                     "Description.TextMaxLengthLimitRule": "Слишком длинное <b>Описание проблемы</b>",
                     "Description.MaxLengthRule": "Слишком длинное <b>Описание проблемы</b>",
 
-                    "KeyFile.NonEmptyFileRule": "[EV] Для создания запроса требуется прикрепить файл",
-
                     "attach-files-error": "Запрос создан, но при прикреплении файлов {attachedFileErrors} произошла ошибка. </br> Попробуйте прикрепить файл через несколько минут. </br> Если ошибка повторится, пожалуйста, напишите об этом в комментарии к запросу. Номер запроса: <a href=\"/request/view/{requestId}\">{requestId}</a>",
                     "comment-attach-files-error": "Запись в переписку добавлена, но при прикреплении файлов {attachedFileErrors} произошла ошибка. </br>Попробуйте прикрепить файл через несколько минут. </br>Если ошибка повторится, пожалуйста, напишите об этом в комментарии к запросу."
                 },
@@ -87,7 +85,7 @@
                     "PendingAdditionalInformationNeeded": "Ожидает вашего ответа",
                     "ResolvedSolutionProvided": "Решение предоставлено",
                     "CancelledByCustomer": "Отменен пользователем",
-                    "CancelledLicenseSupportContractTermination": "Отменен (истечение лицензии/контрата)",
+                    "CancelledLicenseSupportContractTermination": "Отменен (истечение лицензии/контракта)",
                     "ClosedRequestForwarded": "Закрыт (запрос перенаправлен)",
                     "ClosedByCustomer": "Закрыт пользователем",
                     "ResolvedRequiredInfoNotProvided": "Решен (информация не была предоставлена)",
@@ -231,8 +229,6 @@
                     "send-process": "Пожалуйста, подождите - идет обработка запроса...",
                     "cancel-request": "Отмена",
                     "errors": {
-                        "TypeId.RequiredRule": "Выберите Тип запроса",
-
                         "UserNotFound": "Ошибка: текущий пользователь не найден в базе данных",
                         "AccessDenied": "Доступ запрещен, данная операция недоступна для вас",
                         "WrongFileSize": "Один из загруженных вами файлов превышает допустимый размер",
@@ -284,7 +280,7 @@
                     "aboutProduct": " ",
 
                     "request-theme": "Тема запроса",
-                    "request-description": "Опишите проблему и шаги для ее вопроизведения",
+                    "request-description": "Опишите проблему и шаги для ее воспроизведения",
 
                     "success": "Ваш запрос успешно создан. Номер запроса: <a href=\"/request/view/{requestId}\">{requestId}</a>",
                     "attachedfiles": {

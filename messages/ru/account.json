@@ -48,7 +48,7 @@
                         },
                         "UserNotFound": {
                             "title": "Учетная запись не найдена",
-                            "text": "На указанный вами e-mail отправлены дальнейшие инструкции"
+                            "text": "[!!!]Пожалуйста, обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com"
                         },
                         "LinkNotExist": {
                             "title": "Ссылка не найдена",
@@ -80,7 +80,7 @@
                     "errors": {
                         "LinkExpired": {
                             "title": "Срок действия ссылки истек",
-                            "text": "Вы можете <a href='/account/forgot'>повторно сбросить пароль</a>>"
+                            "text": "Вы можете <a href='/account/forgot'>повторно сбросить пароль</a>"
                         },
                         "LinkUsed": {
                             "title": "По данной ссылке уже была произведена смена пароля",
