@@ -1,0 +1,34 @@
+﻿{
+    "globalize-messages": {
+        "ja": {
+            "document": {
+                "statuses": {
+                    "1": "使用中：",
+                    "2": "有効期間が終了（未使用）：",
+                    "3": "有効期間が終了するまでの日数：",
+                    "until": "  "
+                },
+                "list": {
+                    "tabs": {
+                        "contracts": "拡張保守サービス"
+                    },
+                    "item": {
+                        "attached-files": "拡張保守サービスを付ける:",
+                        "download": "ダウンロード",
+                        "date-start": "アクティベーション実行日："
+                    },
+                    "no-contract": {
+                        "title": "<a href=\"http://www.kaspersky.co.jp/enterprise-security/maintenance-service-agreement\" target=\"_blank\">拡張保守サービス</a>が適用されていません。",
+                        "description": "カスペルスキーではお客様のITセキュリティ上の問題に対して迅速に、且つ最適な方法で対応するため拡張保守サービス(MSA)を提供しています。　拡張保守サービス(MSA)の内容からお客様にとって最適なサービスをご確認ください。</br> </br>  <a href=\"http://www.kaspersky.co.jp/business-security/services\" target=\"_blank\">拡張保守サービスの内容を見る</a></p>"
+                    },
+                    "errors": { 
+                         "UnknownError": {
+                            "title": "[EV] Unknown error while contract list retreiving ",
+                            "text": "[EV] Unknown error. If the issue persists, please <a href='../request/create/ca' target=\"_blank\"> contact technical support</a>"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

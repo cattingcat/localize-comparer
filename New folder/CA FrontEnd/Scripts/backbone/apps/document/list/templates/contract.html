@@ -1,0 +1,27 @@
+﻿<!--<div class="points pd cf">-->
+<div class="v-resize <%- badgeColor %>" style="height: 100%;"></div>
+<div class="w-75 pdr">
+    <h4 title="<%- ContractName %>" data-id="<%= ContractID %>"><%- ContractName %></h4>
+    <% if (AttachedFiles.length > 0) { %>
+    <div class="mrt">
+        <div class="clr-gray"><%_ document/list/item/attached-files %></div>
+        <table class="thin">
+            <% for (var i = 0, file; file = AttachedFiles[i]; i++) { %>
+            <% if (file.FileName != '' && file.FileSize != 0) { %>
+            <tr>
+                <td title="<%- file.FileName %>"><%- file.FileName %></td>
+                <td>[<%- getFileSizeString(file.FileSize) %>]</td>
+                <td><a href="#" data-href="<%- file.FileLink %>" class="file-name" title="<%- file.FileName %>"><%_ document/list/item/download %></a></td>
+            </tr>
+            <% } %>
+            <% } %>
+        </table>
+    </div>
+    <% } %>
+</div>
+<div class="w-25 aright">
+    <%_ document/list/item/date-start %> 
+    <span class="date-start"></span><br /><b class="contract-status <%- statusColor %>"></b>
+    <span class="date-end"></span>
+</div>
+<!--</div>-->

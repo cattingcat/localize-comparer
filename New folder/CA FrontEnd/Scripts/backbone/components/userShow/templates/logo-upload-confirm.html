@@ -1,0 +1,24 @@
+<div class="modal-win" style="width: 400px; text-align: center;">
+    <a href="javascript://" class="btn-close wp-close"></a>
+    <h2><%= title %></h2>
+    <div class="cf">
+        <div>
+            <p>
+                <%= text %>
+            </p>
+        </div>
+        <% if(acceptButtonText) { %>
+        <div id="agree-01">
+            <span class="logo-file">
+                <form class="fileupload-control" enctype="multipart/form-data" style="display: inline-block;">
+                    <a href="javascript://" class="btn btn-02 bg-green bt-load pre-em btn-upload">
+                        <%= acceptButtonText %><input class="input-logo-file" type="file" />
+                    </a>
+                </form>
+            </span>
+            <!--<a href="javascript://" class="btn btn-02 bg-green btn-confirm-accept"><%= acceptButtonText %></a>-->
+            <a href="javascript://" class="btn btn-02 bg-red wp-close mrl"><%_ confirm-component/cancel %></a>
+        </div>
+        <% } %>
+    </div>
+</div>

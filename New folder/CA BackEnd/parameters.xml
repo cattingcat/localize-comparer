@@ -1,0 +1,191 @@
+﻿<parameters>
+  
+  <!--Logging-->
+  <parameter name="Logs folder"
+    description="Folder for log files"
+    defaultValue="Logs\"
+    tags="">
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\Configuration\\Logging\\Logging.config$"
+      match="//appender[@name='MainLog_FileAppender']/file/@value" />
+  </parameter>
+
+  <parameter name="PerformanceLog folder"
+  description="Folder for log files"
+  defaultValue="Logs\"
+  tags="">
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\Configuration\\Logging\\Logging.config$"
+      match="//appender[@name='PerformanceLog_FileAppender']/file/@value" />
+  </parameter>
+
+  <parameter name="Logger Errors Folder"
+    description=""
+    defaultValue="logs/LoggerErrors.log"
+    tags="">
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\web.config$"
+      match="//sharedListeners/add[@name='LoggerErrors']/@initializeData" />
+  </parameter>
+
+  <parameter name="Logger Stage Value"
+    description=""
+    defaultValue=""
+    tags="">
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\Configuration\\Logging\\Logging.config$"
+      match="//appender/parameter[parameterName[@value='@stagename']]/layout/conversionPattern/@value" />
+  </parameter>
+
+  <parameter name="Enable Performance Logger"
+      description="On performance logger"
+      defaultValue=""
+      tags="">
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\web.config$"
+      match="//add[@key='IsEnabled_PerformanceLogger']/@value" />
+  </parameter>
+
+  <parameter name="IsWriteMeasureStartMessage_PerformanceLogger"
+      description="Enable performance logger write start message"
+      defaultValue=""
+      tags="">
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\web.config$"
+      match="//add[@key='IsWriteMeasureStartMessage_PerformanceLogger']/@value" />
+  </parameter>
+
+  <parameter name="PerformanceLoggerThrowException"
+      description="Weather pass exception from performance logger"
+      defaultValue=""
+      tags="">
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\web.config$"
+      match="//add[@key='PerformanceLoggerThrowException']/@value" />
+  </parameter>
+
+  <parameter name="LoggerThrowException"
+      description="Weather pass exception from logger"
+      defaultValue=""
+      tags="">
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\web.config$"
+      match="//add[@key='LoggerThrowException']/@value" />
+  </parameter>
+  
+  <!--FTP-->
+  <parameter name="Ftp Url"
+    description="File storage url"
+    defaultValue=""
+    tags="">
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\Configuration\\Business\\FtpSettings.config$"
+      match="//add[@key='FtpUrl']/@value" />
+  </parameter>
+
+  <parameter name="Ftp User Name"
+    description="File storage user name"
+    defaultValue=""
+    tags="">
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\Configuration\\Business\\FtpSettings.config$"
+      match="//add[@key='FtpUserName']/@value" />
+  </parameter>
+
+  <parameter name="Ftp Password"
+    description="File storage password"
+    defaultValue=""
+    tags="">
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\Configuration\\Business\\FtpSettings.config$"
+      match="//add[@key='FtpPassword']/@value" />
+  </parameter>
+
+  <parameter name="Ftp Data Connection Type"
+    description="File storage data connection type"
+    defaultValue=""
+    tags="">
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\Configuration\\Business\\FtpSettings.config$"
+      match="//add[@key='FtpDataConnectionType']/@value" />
+  </parameter>
+
+  <!--Remedy-->
+  <parameter name="Remedy Server"
+    description=""
+    defaultValue=""
+    tags="">
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\web.config$"
+      match="//add[@key='RemedyServer']/@value" />
+  </parameter>
+  
+  <parameter name="Use Certificate"
+    description=""
+    defaultValue=""
+    tags="">
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\web.config$"
+      match="//add[@key='UseCertificate']/@value" />
+  </parameter>
+  
+  <!--Other-->
+  <parameter name="Enable Service Assembly Info"
+      description="Show Service Assembly Info on UI"
+      defaultValue=""
+      tags="">
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\Configuration\\Business\\BusinessSettings.config$"
+      match="//add[@key='EnableServiceAssemblyInfo']/@value" />
+  </parameter>
+
+  <!--Pool Object Strategy-->
+
+  <parameter name="Pool strategy max count for clear"
+    description=""
+    defaultValue=""
+    tags="">
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\UnityParent.config$"
+      match="//param [@name='maxCountForStartClear']/@value" />
+  </parameter>
+
+  <parameter name="Pool strategy count clean"
+    description=""
+    defaultValue=""
+    tags="">
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\UnityParent.config$"
+      match="//param [@name='countClean']/@value" />
+  </parameter>
+  
+  <parameter name="Pool strategy clean every"
+   description=""
+   defaultValue=""
+   tags="">
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\UnityParent.config$"
+      match="//param [@name='cleanEvery']/@value" />
+  </parameter>
+
+
+  <!--Pool Object Strategy-->
+</parameters>

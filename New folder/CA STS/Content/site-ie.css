@@ -1,0 +1,21 @@
+.btns a:hover, a.btn:hover{filter: progid:DXImageTransform.Microsoft.Alpha(opacity=90);}
+
+.bt-menu i{padding: 2px 0;}
+
+.bt-menu a:hover, .bt-menu a.cur{background: #199479 !important;}
+.ie-opacity{filter: progid:DXImageTransform.Microsoft.Alpha(opacity=40);}
+
+.modal-win{width: 800px;}
+
+.message em{display: none;}
+
+input[type="radio"]{height: auto; border:none; padding:0; vertical-align: middle; margin:0 4px 0 8px;}
+
+.inp-radio-01 input[type="radio"]{display: none;}
+
+.sel-cust{background:none; border:none; width: auto;}
+.sel-cust select{color:#555; height: auto; border: solid 1px #CDCDCD;}
+.sel-cust *{padding:0;}
+.sel-cust i{display: none;}
+
+

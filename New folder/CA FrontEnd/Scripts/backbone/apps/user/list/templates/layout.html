@@ -1,0 +1,39 @@
+<div class="title-area cf">
+    <h2 class="fl"><%_ user/list/header %></h2>
+</div>
+<div class="pd">
+    <div class="cf mrb">
+        <div class="fl">
+            <a href="javascript://" class="a-filter"><%_ user/list/sort-lastname %></a>
+        </div>
+        <div class="fr">
+
+            <span class="sel cmt"><%_ user/list/filter-by-country-label %></span>
+            <span class="sel-cust inp-wa mrr">
+                <select class="filter-country">
+                    <option value=""><%_ user/list/filter-by-country/All %></option>
+                    <% _.each(countries, function (i) { %>
+                        <option value="<%- i %>"><%- i %></option>
+                    <% }) %>
+                </select>
+            </span>
+
+            <span class="sel cmt"><%_ user/list/filter-by-organization-label %></span>
+            <span class="sel-cust inp-wa">
+                <select class="filter-organization">
+                    <option value=""><%_ user/list/filter-by-organization/All %></option>
+                    <% _.each(filials, function (i) { %>
+                        <option><%= i %></option>
+                    <% }) %>
+                </select>
+            </span>
+        </div>
+    </div>
+
+    <div class="user-list-region">
+    </div>
+
+    <div class="pager-region">
+    </div>
+</div>
+

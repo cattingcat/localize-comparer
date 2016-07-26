@@ -1,0 +1,124 @@
+﻿{
+    "globalize-messages": {
+        "es": {
+            "license": {
+                "add": {
+                    "license-add-label": "Adjuntar licencia:",
+                    "code-add": "Agregar código",
+                    "code-add-or": "o",
+                    "upload-file": "Subir el archivo llave",
+                    "file-send": "Agregar licencia",
+                    "process": "Subiendo licencia",
+                    "errors": {
+                        "Success": "La licencia se ha adjuntado correctamente",
+                        "GettingLicenseInfoError": "¡Error! No se ha encontrado la licencia.",
+                        "ConsumerLicense": "La licencia no se ha adjuntado. Antes de agregar la licencia de un producto para usuarios domésticos,<br/> agregue al menos una licencia corporativa.",
+                        "LicenseIsExpired": "Esta licencia se ha caducado.",
+                        "LicenseIsBlocked": "¡Error! Licencia bloqueada",
+                        "IncorrectAC": "¡Error! El formato del código introducido no corresponde al formato necesario",
+                        "IncorrectKeyFile": "¡Error! El formato del archivo adjuntado no corresponde al formato necesario",
+                        "MultLicUseErr": "¡Error! Esta licencia ya se está utilizando por otra empresa.",
+                        "SuccessUserMoved": "¡La licencia se ha adjuntado correctamente! Su conexión de empresa se ha cambiado.<br/> Para que se apliquen los cambios, se debe reiniciar sesión de CompanyAccount.",
+                        "LicenseAlreadyExists": "Esta licencia ya se encuentra adjuntada a la cuenta de su empresa.",
+                        "ACExpired": "Este código ha caducado.",
+                        "UnknownError": "Se ha ocurrido un error, inténtelo de nuevo. Si el problema vuelve a aparecer, <a href='../request/create/ca' target=\"_blank\">envíe solicitud al soporte técnico</a>",
+                        "LicenseNotFound": "¡Error! No se ha encontrado la licencia.",
+
+                        "ActCodeOrKeyFileRequired": "Se requiere un archivo llave o un código de activación",
+                        "ActivationCode.ActivationCodeRule": "Formato del código de activación incorrecto",
+                        "KeyFile.HttpFileSizeRule": "El archivo llave es demasiado grande",
+                        "KeyFile.KeyFileRule": "Formato de archivo llave desconocido"
+                    },
+                    "success-user-moved": {
+                        "title": "¡La licencia se ha adjuntado correctamente!",
+                        "description": "Su conexión de empresa se ha cambiado.<br/> Para que se apliquen los cambios, se debe reiniciar sesión de CompanyAccount.",
+                        "refresh": "Aceptar"
+                    }
+                },
+
+                "statuses": {
+                    "Valid": "Activa",
+                    "NotFound": "No encontrada",
+                    "Expired": "Caducada",
+                    "Blocked": "Bloqueada",
+                    "NotActivated": "No activada",
+                    "Deleted": "Eliminada"
+                },
+
+                "comments": {
+                    "NotActivated": "La licencia todavía no está activada. Es posible que no todos los tipos de solicitudes estén disponibles. Active la licencia en el producto.",
+                    "ExpiresSoon": "¡Atención! La licencia caducará pronto.",
+                    "Blocked": "Fecha de bloqueo: {BlockedDate}"
+                },
+
+                "list": {
+                    "title": "Licencias",
+                    "filter-by-status-label": "Mostrar licencias:",
+                    "filter-by-status": {
+                        "All": "Todas",
+                        "Active": "Activas",
+                        "Expiring": "Caducadas",
+                        "Inactive": "No activadas",
+                        "Blocked": "Bloqueadas"
+                    },
+                    "expire-date": "Fecha de caducidad",
+                    "item": {
+                        "activation-code": "Código de activación:",
+                        "count": "Número de elementos:",
+                        "serial-number": "Número se serie:",
+                        "order-number": "Número de pedido:",
+                        "compatible-application": "Lista de aplicaciones compatibles",
+                        "add-date": "Agregada:",
+                        "key-file": "Archivo llave:",
+                        "remove-license": "Eliminar licencia"
+                    },
+                    "no-filtered-license": "No hay licencias que cumplan los criterios de filtrado indicados. Por favor, amplíe su búsqueda.",
+                    "no-license": "La cuenta de su empresa no tiene ninguna licencia adjunta.",
+                    "errors": {
+                        "UnknownError": {
+                            "title": "Error desconocido a la hora de recibir la lista de licencias ",
+                            "text": "Error desconocido Si el problema vuelve a aparecer, <a href='../request/create/ca' target=\"_blank\">envíe solicitud al soporte técnico</a>"
+                        }
+                    },
+                    "compatibleapps": "Aplicaciones compatibles:",
+                    "remove": {
+                        "confirm-title": "Eliminar licencias",
+                        "confirm-text": "Está a punto de eliminar la licencia de {0}.<br />Después de eliminar la licencia, podrá volver a adjuntara a su CompanyAccount.",
+                        "confirm-button": "Eliminar"
+                    }
+                },
+
+                 "remove": {
+                    "errors": { 
+                        "UnknownError": {
+                            "title": "[EV] Unknown error while license removing",
+                            "text": "[EV] Please contact <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                        }
+                    }
+                },
+
+                "compatible": {
+                    "errors": {
+                        "UserNotFound": {
+                            "title": "Usuario no encontrado",
+                            "message": " "
+                        },
+                        "AccessDenied": {
+                            "title": "Acceso denegado",
+                            "message": " "
+                        },
+                        "UnknownError": {
+                            "title": "Se ha producido un fallo desconocido",
+                            "message": "Se ha producido un fallo desconocido a la hora de mostrar la lista de aplicaciones compatibles. Por favor, inténtelo de nuevo dentro de unos minutos. <br/>Si el problema vuelve a aparecer, <a href='../request/create/ca' target=\"_blank\">envíe solicitud al soporte técnico</a> "
+                        },
+                        "NoCompatibleApps": {
+                            "title": "No hay aplicaciones compatibles para esta licencia.",
+                            "message": "Por favor, <a href='../request/create/ca' target=\"_blank\"> consulte con el soporte técnico </a> sobre cómo usar esta licencia."
+                        }
+                    },
+                    "close": "Cerrar"
+                }
+            }
+        }
+    }
+}

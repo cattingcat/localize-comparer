@@ -1,0 +1,56 @@
+<div id="form-restorepass" class="pd-big bg-white" style="width:600px;">
+    <a href="#" class="btn-close wp-close"></a>
+    <h2 class="title"><%_ account/changePass/title %></h2>
+    <h3 class="description"><%_ account/changePass/description %></h3>
+    <br />
+    <p><%_ account/changePass/e-mail %> <b class="account-email"></b></p>
+
+    <form class="mrt" id="form0" method="post">
+        <div class="cf">
+
+            <div class="w-50 pdr">
+                <p class="mrb1 password-input">
+                    <!-- disables autocomplete -->
+                    <!-- The text and password here are to prevent FF from auto filling login credentials because it ignores autocomplete="off"-->
+                    <input type="text" style="display: none">
+                    <input type="password" style="display: none">
+                    <!-- disables autocomplete -->
+
+                    <input type="password" class="inp-w100 account-password" autocomplete="off">
+                    <span class="password-placeholder psw"><%_ account/changePass/passwordLabel %></span>
+                </p>
+                <p class="small clr-red off" data-attribute="Password">
+                    <!--  passw validation -->
+                </p>
+
+                <p class="mrb1 mrt password-input">
+                    <input type="password" class="inp-w100 account-confirm-password" autocomplete="off">
+                    <span class="password-placeholder psw"><%_ account/changePass/confirmPasswordLabel %></span>
+                </p>
+                <p class="small clr-red off" data-attribute="ConfirmPassword">
+                    <!-- confirm passw validation -->
+                </p>
+
+                <br>
+                <p>
+                    <input type="button"
+                           class="btn btn-02 bg-green btn-submit"
+                           value="<%_ account/changePass/submit-btn %>" />
+                    <div class="change-pass-loading loading-region off" style="position: relative; top: -32px;"></div>
+                </p>
+            </div>
+
+            <div class="w-50">
+                <p class="mrb1"><%_ account/changePass/passwordValidations_title %></p>
+                <ul class="psw-change">
+                    <li><%_ account/changePass/passwordValidations_length %></li>
+                    <li><%_ account/changePass/passwordValidations_uppercaseLetter %></li>
+                    <li><%_ account/changePass/passwordValidations_lowercaseLetter %></li>
+                    <li><%_ account/changePass/passwordValidations_digit %></li>
+                    <li><%_ account/changePass/passwordValidations_noSpace %></li>
+                </ul>
+            </div>
+
+        </div>
+    </form>
+</div>

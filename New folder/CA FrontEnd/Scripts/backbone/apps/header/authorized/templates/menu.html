@@ -1,0 +1,14 @@
+<div class="fl che bg-green bt-menu">
+    <div class="cf">
+        <span><%_ header/title %></span>
+        <div class="fr bt-menu-buttons">
+            <a href="/request/list" data-route="request/list" class="menu-item" onclick="App.Analytics.headerClick('Requests');"><%_ header/menu/requests %><i class="off"><b class="request-count"></b></i></a>
+            <a href="/license/list" data-route="license/list" class="menu-item" onclick="App.Analytics.headerClick('Licenses');"><%_ header/menu/licenses %></a>
+            <a href="/user/list" data-route="user/list" class="menu-item" onclick="App.Analytics.headerClick('Users');"><%_ header/menu/users %></a>
+            <a href="/document/list" data-route="document/list" class="menu-item" onclick="App.Analytics.headerClick('Contracts');"><%_ header/menu/contracts %></a>
+        </div>
+    </div>
+</div>
+<div class="fr aright bt-head">
+    <a href="/request/create" class="btn bg-red btn-create" data-route="request/create" onclick="App.Analytics.headerClick('New request');"> <span> <%_ header/menu/createrequest %> </span> </a>
+</div>

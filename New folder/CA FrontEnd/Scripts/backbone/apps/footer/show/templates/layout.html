@@ -1,0 +1,18 @@
+<div class="cf">
+    <div class="fl" style="position:absolute">
+        <img src="/img/footer-logo.png" onclick="App.Analytics.footerClick('Logo', this); return false;" height="24" width="110" alt=""><br />
+        <%_ footer/copyrightStart %> 1997-<%= currentYear %> <%_ footer/copyrightEnd %>
+    </div>
+    <div class="footer-links">
+        <a href="<%_ footer/links/support-link %>" onclick="App.Analytics.footerClick('Support', this); return false;"><%_ footer/links/support %></a>
+        <a href="<%_ footer/links/contacts-link %>" onclick="App.Analytics.footerClick('Contacts', this); return false;"><%_ footer/links/contacts %></a>
+        <a href="<%_ footer/links/politics-link %>" onclick="App.Analytics.footerClick('Privacy', this); return false;"><%_ footer/links/politics %></a>
+        <a href="<%_ footer/links/legalinformation-link %>" onclick="App.Analytics.footerClick('Legal', this); return false;"><%_ footer/links/legalinformation %></a>
+        <a href="javascript://" class="nobrd lang choose-language" onclick="App.Analytics.footerClick('Language', this);"><%- language.text %></a>
+        <br />
+        <%_ footer/supportnumber %> <i><%_ footer/supportPhone %></i>
+    </div>
+</div>
+
+<div class="modal-region">
+</div>

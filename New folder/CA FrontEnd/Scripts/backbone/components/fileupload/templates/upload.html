@@ -1,0 +1,18 @@
+﻿<% _.each(files, function (file) { %>
+<tr class="template-upload">
+
+    <td title="<%- file.name %>"><%- file.getFileNameString() %></td>
+    <td>[<%- file.getFileSizeString() %>]</td>
+
+    <td class="clr-green">
+        <div class="upload-progress">
+            <div data-id="<%- file.id %>"></div>
+        </div>
+    </td>
+
+    <td>
+        <a href="#" class="clr-red cancel" id="<%- file.id %>-cancel"><%_ fileupload/cancel %></a>
+        <span class="clr-green off" id="<%- file.id %>-spinner"></span>
+    </td>
+</tr>
+<% }) %>

@@ -1,0 +1,347 @@
+{
+    "globalize-messages": {
+        "en": {
+            "request": {
+                "errors": {
+                    "maxFiles3": "Only three files can be attached. Please remove extra files.",
+                    "maxFiles1": "Only one file can be attached. Please remove extra files.",
+                    "minFiles1": "No files attached.",
+
+                    "KeyFile.HttpFileSizeRule": "CSR file size must not exceed 5 KB",
+
+                    "EmailIsInvalid": "E-mail address is invalid",
+
+                    "Text.RequiredRule": "Enter the text of the message. Enter the text of the message and try again.",
+
+                    "ProductTypeRequired": "Select the protection scope",
+                    "TypeRequired": "Select the request type",
+
+                    "NotifyEmails.MultiEmailRule": "Enter your e-mail correctly. When you add multiple addresses, use a semicolon between them",
+                    "ProductId.RequiredRule": "Select the product",
+                    "ProductVersion.RequiredRule": "Select the product version",
+                    "OSVersion.RequiredRule": "Select or type the OS version",
+                    "OSVersion.MaxByteLengthRule": "Maximum number of characters exceeded",
+                    "TypeId.RequiredRule": "Select the request type",
+                    "Summary.RequiredRule": "Enter the subject of the request",
+                    "Summary.MaxLengthRule": "The subject is too long Subject must not exceed 50 characters",
+                    "Description.RequiredRule": "Please write a description",
+                    "Description.TextMaxLengthLimitRule": "<b>Description</b> is too long",
+                    "Description.MaxLengthRule": "<b>Description</b> is too long",
+
+                    "attach-files-error": "The request has been created. The files have not been attached due to the  {attachedFileErrors} error. </br> Try to attach the file again in a few minutes. </br>If the issue persists, please inform us via the comments to the request. Request ID: <a href=\"/request/view/{requestId}\">{requestId}</a>",
+                    "comment-attach-files-error": "The comment has been created. The files have not been attached due to the  {attachedFileErrors} error. </br> Try to attach the file again in a few minutes. </br>If the issue persists, please inform us via the comments to the request. "
+                },
+                "view": {
+                    "number": "ID:",
+                    "status": "Status:",
+                    "report": "Complain to manager",
+                    "close-request": "Close the request",
+                    "open-request": "Create a new request",
+                    "send": "Send message",
+                    "send-process": "Sending the message...",
+                    "confirm-title": "Close the request?",
+                    "confirm-text": "You are going to close the request. If you problem has been solved, click <b>Close</b> to confirm.",
+                    "confirm-button": "Close",
+                    "attached-files": "Attached files:",
+                    "support-manager": "Support engineer",
+                    "inactive-user": "The message has been sent from the deleted user",
+                    "cancel-comment": "Cancel",
+                    "product": "Product:",
+                    "version": "Version:",
+                    "os": "Operating system:",
+                    "logMore": "Show conversation",
+                    "logHide": "Hide conversation",
+                    "showCommentForm": "Reply",
+                    "hideCommentForm": "Hide",
+                    "success-comment-attach-files-error": "The comment has been created. The files have not been attached due to the  {attachedFileErrors} error. </br> Try to attach the file again in a few minutes. </br>If the issue persists, please inform us via the comments to the request.",
+                    "worklog-problem": "The error occurred while retrieving the comments, try reloading the page in 5 minutes",
+                    "cancel": {
+                        "confirm-title": "Are you sure?",
+                        "confirm-text": "Do you want to cancel adding a comment?",
+                        "confirm-button": "Yes"
+                    },
+                    "closeErrors": {
+                        "StatusClosedCancelled": "The request has already been closed"
+                    },
+                    "errors": {
+                        "UserNotFound": "User not found",
+                        "AccessDenied": "Access denied",
+                        "UnknownError": "An error occurred. Please try again. If the issue persists, please contact us at <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a> ",
+                        "StatusClosedCancelled": "Unable to send the message. The request has been changed"
+                    },
+                    "loadingErrors": {
+                        "UnknownError": {
+                            "title": "Unknown error occurred while loading request information",
+                            "text": "An error occurred. Please try again. If the issue persists, please contact us at <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a> "
+                        }
+                    }
+                },
+                "statuses": {
+                    "None": "None",
+
+                    "CancelledBySupport": "Cancelled (By Support)",
+                    "ClosedBySupport": "Closed (By Support)",
+                    "InProgress": "In Progress",
+                    "PendingAdditionalInformationNeeded": "Pending",
+                    "ResolvedSolutionProvided": "Resolved (Solution was provided)",
+                    "CancelledByCustomer": "Cancelled (By Customer)",
+                    "CancelledLicenseSupportContractTermination": "Cancelled (License or agreement expired)",
+                    "ClosedRequestForwarded": "Closed (Request redirected)",
+                    "ClosedByCustomer": "Closed (By Customer)",
+                    "ResolvedRequiredInfoNotProvided": "Resolved (information was not provided)",
+
+                    "InProgress-status-area": "The request is being processed by the support engineer"
+                },
+
+                "list": {
+                    "tabs": {
+                        "requests": "Requests"
+                    },
+                    "filter-by-status-label": "Request status:",
+                    "filter-by-author-label": "Created by:",
+                    "filter-by-status": {
+                        "All": "All",
+                        "WaitingForResponse": "Pending",
+                        "InWork": "In progress",
+                        "Inactive": "Inactive (Closed or cancelled)",
+                        "ByDeletedUsers": "Deleted users"
+                    },
+                    "item": {
+                        "number": "ID:",
+                        "status": "Status:",
+                        "createdate": "Created:",
+                        "customer": "Created by:"
+                    },
+                    "no-filtered-request": {
+                        "title": "No requests found",
+                        "description": "Please expand the search area."
+                    },
+                    "no-request": {
+                        "title": "You have not created any requests yet",
+                        "description": "To contact technical support, click",
+                        "createrequest": "New request"
+                    },
+                    "errors": {
+                        "UnknownError": {
+                            "title": "Unknown error occurred while loading the list of requests",
+                            "text": "An error occurred. Please try again. If the issue persists, please contact us at <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a>"
+                        }
+                    }
+                },
+
+                "create": {
+                    "title": "Select the request category:",
+                    "no-request-types": {
+                        "title": "No categories available",
+                        "description": "Please contact us at <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> to fix the issue"
+                    }
+                },
+
+                "ca": {
+                    "title": "Question about CompanyAccount",
+                    "confirm-title": "Cancel request creation",
+                    "confirm-text": "Do you want to cancel creating the request?",
+                    "confirm-button": "Yes",
+                    "theme": " Subject:",
+                    "description": " Description:",
+                    "request-theme": "Your question / problem",
+                    "request-description": "Ask your question or describe the account-related problem and steps to reproduce it",
+                    "success": "Your request has been created. Request ID: <a href=\"/request/view/{requestId}\">{requestId}</a>",
+                    "attachedfiles": {
+                        "title": "Attached files:"
+                    },
+                    "send-request": "Send request",
+                    "send-process": "Your request is being processed...",
+                    "cancel-request": "Cancel",
+                    "errors": {
+                        "UnknownError": "An error occurred. Please try again. If the issue persists, please contact us at <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a> "
+                    },
+                    "loadingErrors": {
+                        "UnknownError": {
+                            "title": "Unknown error occurred while retrieving data for creating the request",
+                            "text": "An error occurred. Please try again. If the issue persists, please contact us at <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a>"
+                        }
+                    }
+                },
+
+                "feedback": {
+                    "title": "New support quality complaint",
+                    "note": "Please note that the quality control group only handles complaints written in Russian and English languages.",
+                    "theme": "[EV] Theme",
+                    "description": "Detailed description <br />of your complaint:",
+                    "description-placeholder": "[EV] Description",
+                    "request": "The request related <br /> to your complaint:",
+                    "request-placeholder": "[EV] Incident:",
+                    "success": "[EV] Ваша жалоба создана. Номер запроса: <a href=\"/request/view/{requestId}\">{requestId}</a>",
+                    "errors": {
+                        "Details.RequiredRule": "[EV] Опишите подробности вашей жалобы ",
+                        "Details.TextMaxLengthLimitRule": "[EV] Описание слишком длинное",
+                        "TypeId.RequiredRule": "[EV] Выберите тему жалобы",
+                        "TypeId.TextMaxLengthLimitRule": "[EV] Тема жалобы слишком длинная",
+
+                        "UnknownError": "[EV] Произошла ошибка, пожалуйста, попробуйте ещё раз. Если ошибка повторится, обратитесь по адресу <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a>"
+                    },
+                    "loadingErrors": {
+                        "UnknownError": {
+                            "title": "[EV] Неизвестная ошибка, при получении данных, необходимых для создания запроса СА-question",
+                            "text": "[EV] Please contact <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                        }
+                    }
+                },
+
+                "csr": {
+                    "title": "Sign CSR for Apple Push Notification Service",
+                    "subtitle": "You can send only one file with the .csr extension for signing in each request.",
+                    "confirm-title": "Cancel request creation",
+                    "confirm-text": "Do you want to cancel creating the request?",
+                    "confirm-button": "Yes",
+                    "success": "Your request has been created. The request will be closed automatically after handling. Select the request from the list and download the signed certificate. Request ID: <a href=\"/request/view/{requestId}\">{requestId}</a>",
+                    "attachedfiles": {
+                        "title": "Attached files:"
+                    },
+                    "send-request": "Sign CSR",
+                    "send-process": "The request is being processed...",
+                    "cancel-request": "Cancel",
+                    "remarkQuestion": "<a href=\"http://support.kaspersky.com/11077\" target=\"_blank\" >How to generate an APNs certificate?</a>",
+                    "remarkDescriprion": " ",
+                    "errors": {
+                        "WrongFileSize": "Invalid file size",
+                        "WrongFileFormat": "Invalid file format",
+                        "UnknownError": "An error occurred. Please try again. If the issue persists, please contact us at <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a>  "
+                    }
+                },
+
+                "virlab": {
+                    "title": "Send a suspicious file or URL for analysis",
+                    "confirm-title": "Cancel request creation",
+                    "confirm-text": "Do you want to cancel creating the request?",
+                    "confirm-button": "Yes",
+                    "type": "Request type:",
+                    "description": " Description:",
+                    "request-description": "Describe the attached files or add suspicious URLs",
+                    "notifications": " Send the copy of the reply to e-mail:",
+                    "email-placeholder": "name@domain.com ; name@domain.com",
+                    "success": "Your request to Anti-Virus Lab has been created. The reply will be sent directly to your e-mail address. Please note that the reply will not be shown in CompanyAccount.  Request ID: <a href=\"/request/view/{requestId}\">{requestId}</a>",
+                    "attachedfiles": {
+                        "title": "Attached files:"
+                    },
+                    "send-request": "Send request",
+                    "send-process": "The request is being processed...",
+                    "cancel-request": "Cancel",
+                    "errors": {
+                        "UserNotFound": "Error: the user has not been found in the database",
+                        "AccessDenied": "Access denied. The operation is unavailable",
+                        "WrongFileSize": "One of the uploaded files is too large",
+                        "WrongFileFormat": "One of the uploaded files has invalid format",
+                        "UnknownError": "An error occurred. Please try again. If the issue persists, please contact us at <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a>   ",
+                        "EmailPattern": "Enter your e-mail correctly. When you add multiple addresses, use a semicolon between them"
+                    },
+                    "loadingErrors": {
+                        "UnknownError": {
+                            "title": "Unknown error occurred while sending the request",
+                            "text": "An error occurred. Please try again. If the issue persists, please contact us at <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a>"
+                        }
+                    }
+                },
+
+                "virlab-msa": {
+                    "title": "Send a suspicious file or URL for analysis (MSA)",
+                    "success": "Your request to Anti-Virus Lab has been created. The reply will be sent directly to your e-mail address. Please note that the reply will not be shown in CompanyAccount.  Request ID: <a href=\"/request/view/{requestId}\">{requestId}</a>",
+                    "loadingErrors": {
+                        "UnknownError": {
+                            "title": "Unknown error occurred while sending the request",
+                            "text": "An error occurred. Please try again. If the issue persists, please contact us at <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a>"
+                        }
+                    }
+                },
+
+                "support": {
+                    "title": "Request to Technical Support",
+                    "confirm-title": "Cancel request creation",
+                    "confirm-text": "Do you want to cancel creating the request?",
+                    "confirm-button": "Yes",
+                    "securityarea": " Protection scope:",
+                    "product": " Product:",
+                    "osversion": " Operating system version:",
+                    "osversion-placeholder": "Type or select from the list",
+                    "productversion": " Product version:",
+                    "requesttype": {
+                        "title": " Request type:"
+                    },
+                    "subtype": " Request subtype:",
+                    "theme": " Subject:",
+                    "description": " Description:",
+
+                    "unknownosversion": " ",
+                    "whatVersionOS": " ",
+                    "aboutVersionOS": " ",
+                    "unknownProduct": " ",
+                    "whatProduct": " ",
+                    "aboutProduct": " ",
+
+                    "request-theme": "Subject of the request",
+                    "request-description": "Describe the problem and the steps to reproduce it",
+
+                    "success": "Your request has been created. Request ID: <a href=\"/request/view/{requestId}\">{requestId}</a>",
+                    "attachedfiles": {
+                        "title": "Attached files:"
+                    },
+                    "send-request": "Send request",
+                    "send-process": "The request is being processed...",
+                    "cancel-request": "Cancel",
+                    "errors": {
+                        "UnknownError": "An error occurred. Please try again. If the issue persists, please contact us at <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a>  "
+                    },
+                    "loadingErrors": {
+                        "UnknownError": {
+                            "title": "Unknown error occurred while creating a request",
+                            "text": "An error occurred. Please try again. If the issue persists, please contact us at <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a>"
+                        }
+                    },
+                    "license": {
+                        "1": "Your company has no active licenses for corporate products attached. The scope of available request types may be limited. Please, add a license on <a href='../../license/list' target=\"_blank\"> \"Licenses\" tab</a>.  ",
+                        "2": "You have no active licenses for <b>home</b> products. The scope of available request types may be limited. Please activate the product or <a href='../../license/list' target=\"_blank\"> add a new license for a home product on the \"Licenses\" tab</a>.",
+                        "3": "Your company has no active licenses for corporate products attached. The scope of available request types may be limited. Please activate the product or <a href='../../license/list' target=\"_blank\"> add a new license for a corporate product on the \"Licenses\" tab</a>. "
+                    },
+                    "answers-email": "Send notifications on replies to e-mail"
+                },
+
+                "support-ta": {
+                    "title": "Request to Technical Support",
+                    "product-ver-placeholder": "Select the version from the list or type a new one",
+                    "success": "Your request has been created. Request ID: <a href=\"/request/view/{requestId}\">{requestId}</a>",
+                    "errors": {
+                        "NotifyEmails.MultiEmailRule": "Enter your e-mail correctly. When you add multiple addresses, use a semicolon between them",
+                        "ProductId.RequiredRule": "Select the product",
+                        "ProductVersion.RequiredRule": "Select the product version",
+                        "ProductVersion.MaxLengthRule": "Maximum number of characters exceeded",
+                        "OSVersion.RequiredRule": "Select or type the OS version",
+                        "OSVersion.MaxByteLengthRule": "Maximum number of characters exceeded",
+                        "TypeId.RequiredRule": "Select the request type",
+                        "Summary.RequiredRule": "Enter the subject of the request",
+                        "Summary.MaxLengthRule": "The subject is too long Subject must not exceed 50 characters",
+                        "Description.RequiredRule": "Please write a description",
+                        "Description.MaxLengthRule": "<b>Description</b> is too long"
+                    },
+                    "loadingErrors": {
+                        "UnknownError": {
+                            "title": "Unknown error occurred while creating a request",
+                            "text": "An error occurred. Please try again. If the issue persists, please contact us at <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a>"
+                        }
+                    }
+                },
+
+                "support-msa": {
+                    "title": "Request to Technical Support (MSA)",
+                    "success": "Your request has been created. Request ID: <a href=\"/request/view/{requestId}\">{requestId}</a>",
+                    "loadingErrors": {
+                        "UnknownError": {
+                            "title": "Unknown error occurred while creating a request",
+                            "text": "An error occurred. Please try again. If the issue persists, please contact us at <a href=\"mailto:companyaccount@kaspersky.com\" target=\"_blank\">companyaccount@kaspersky.com</a>"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

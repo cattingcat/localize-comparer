@@ -1,0 +1,157 @@
+﻿<div class="title-area cf">
+    <h2 class="fl layout-title"><%_ profile/title-profile %></h2>
+</div>
+
+<div class="pd2">
+    <div class="rel">
+        <div class="abs-title inp-w1"><%_ profile/personalinfo/title %></div>
+    </div>
+
+    <div class="cf">
+        <div class="w-33 aright pdr clr-gray" style="padding-left: 100px;"><%_ profile/personalinfo/email %></div>
+        <div class="w-66 fr"><b class="profile-email"></b></div>
+    </div>
+
+    <div class="cf mrt">
+        <div class="w-33 aright pdr clr-gray"><%_ profile/personalinfo/company %></div>
+        <div class="w-66 fr"><b class="profile-company"></b><span class="profile-company-id"></span></div>
+    </div>
+
+    <div class="cf mrt">
+        <div class="w-33 aright pdr sel-cmt clr-gray"><em class="note-red clr-gray">*</em><%_ profile/personalinfo/firstname %></div>
+        <div class="w-66 fr"><input type="text" class="inp-w2 profile-first-name" data-placeholder="<%_ profile/personalinfo/firstnamePlaceholder %>" /></div>
+    </div>
+
+    <div class="cf mrt">
+        <div class="w-33 aright pdr sel-cmt clr-gray"><em class="note-red clr-gray">*</em><%_ profile/personalinfo/lastname %></div>
+        <div class="w-66 fr"><input type="text" class="inp-w2 profile-last-name" data-placeholder="<%_ profile/personalinfo/lastnamePlaceholder %>" /></div>
+    </div>
+
+    <div class="cf mrt">
+        <div class="w-33 aright pdr sel-cmt clr-gray"><em class="note-red clr-gray">*</em><%_ profile/personalinfo/country %></div>
+        <div class="w-66 fr">
+            <span class="inp-w2 profile-country select2"></span>
+        </div>
+    </div>
+
+    <!-- Филиал-->
+    <div class="cf mrt filial">
+        <div class="w-33 aright pdr sel-cmt clr-gray"><%_ profile/personalinfo/filial %></div>
+        <div class="w-66 fr">
+            <span class="inp-w2 mrr profile-filial select2-input"></span>
+            <span class="desc-note">
+                <span class="clr-gray"><%_ profile/personalinfo/filialMessage %></span>
+            </span>
+        </div>
+    </div>
+
+    <!-- Прикрепление файлов (for profile/show) -->
+    <div class="cf mrt file-agreement-status off">
+        <div class="w-33 aright pdr clr-gray"><%_ profile/fileUpload/title %></div>
+        <div class="w-66 fr">
+            <p class="profile-file-agreement-accepted free off">
+                <%_ profile/fileUpload/agreedtext %> <span class="profile-file-agreement-accepted-date">01.01.1901</span>.
+            </p>
+            <span class="profile-file-agreement-last sm">
+                <%_ profile/fileUpload/notagreedtext %>
+            </span>
+        </div>
+    </div>
+
+    <!-- Уведомления-->
+    <!--<div class="cf mrt off">
+        <div class="w-33 aright pdr clr-gray"><%_ profile/personalinfo/notifications %></div>
+        <div class="w-66 fr">
+            <input type="checkbox" id="c-05" name="cc" class="profile-notifications" /><label for="c-05"><span></span>Я хочу получать копии объявлений и новостей на свой e-mail</label>
+        </div>
+    </div>-->
+
+    <!-- Блок с сохранением изменений личных данных -->
+    <div class="cf">
+        <div class="w-66 fr">
+            <div class="buttonbar mrt2">
+                <a href="#" class="btn btn-02 bg-green profile-save-btn"><%_ profile/personalinfo/saveBtn %></a>
+
+                <span class="profile-save-error err mrl mrt off">
+                    <%_ profile/personalinfo/saveError %>
+                </span>
+                <span class="profile-save-wait off">
+                    <img src="/img/load_indicator.gif" height="21" width="21" alt="" class="mrr amiddle mrl"><i><%_ profile/personalinfo/saveWait %></i>
+                </span>
+                <span class="profile-save-ok ok mrl off"><%_ profile/personalinfo/saveSuccess %></span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="hr-top pd2 user-rights off">
+    <!-- User permissions region -->
+</div>
+
+<!--Логотип компании-->
+<div class="hr-top pd2 company-logo off">
+
+</div>
+
+<!-- Сброс пароля -->
+<div class="hr-top pd2">
+    <div class="rel">
+        <div class="abs-title inp-w1"><%_ profile/resetPasswordTitle %></div>
+    </div>
+    <div class="cf">
+        <div class="w-66 fr">
+            <%_ profile/resetPasswordDescription %>
+
+            <div class="mrt2">
+                <a href="#" class="reset-password-btn btn btn-02 bg-green"><%_ profile/resetPasswordButton %></a>
+
+                <span class="reset-password-error err mrl off">
+                    <%_ profile/resetPasswordError %>
+                </span>
+                <span class="reset-password-wait off">
+                    <img src="/img/load_indicator.gif" height="21" width="21" alt="" class="mrr amiddle mrl">
+                    <i><%_ profile/resetPasswordWait %></i>
+                </span>
+                <span class="reset-password-ok ok mrl mrt off">
+                    <%_ profile/resetPasswordSuccess %>
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Удаление учетки пользователя -->
+<div class="hr-top pd2 delete-region">
+</div>
+
+
+<!-- Удаление учетки компании (profile/show Main user)-->
+<div class="hr-top pd2 remove-company-area off">
+    <div class="rel">
+        <div class="abs-title inp-w1"><%_ profile/deleteCompany/title %> </div>
+    </div>
+    <div class="cf">
+        <div class="w-66 fr">
+            <p class="note"><%_ profile/deleteCompany/description %></p>
+            <p><input type="checkbox" class="delete-company" id="c-agree-03" name="cc" data="agree-03" /><label for="c-agree-03"><span></span><%_ profile/deleteCompany/notice %></label></p>
+
+            <div class="mrt2">
+                <span id="agree-03">
+                    <a href="#" class="btn btn-02 bg-gray link-modal-win delete-company-btn" data="delete-company"><%_ profile/deleteCompany/btn %></a>
+                </span>
+
+                <span class="delete-company-wait off"><img src="/img/load_indicator.gif" height="21" width="21" alt="" class="mrr amiddle mrl"><i><%_ profile/deleteCompany/process %></i></span>
+                <span class="delete-company-ok ok mrl mrt off"><%_ profile/deleteCompany/success %></span>
+                <span class="delete-company-error err mrl off">
+                    <!-- error-message -->
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal-region">
+</div>
+<div class="backdrop-region">
+</div>

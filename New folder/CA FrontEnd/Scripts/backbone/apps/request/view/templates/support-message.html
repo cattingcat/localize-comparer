@@ -1,0 +1,21 @@
+<div class="message">
+    <div class="ava-area sup-area mrb">
+        <h4><%_ request/view/support-manager %></h4>
+        <b class="work-submit-date"></b>
+    </div>
+    <p class="work-description"> <%= Description %> </p>
+    <p>
+        <% if (AttachedFiles.length > 0) { %>
+        <p>
+            <span class="clr-gray"><%_ request/view/attached-files %> </span>
+            <% for (var i = 0, file; file = AttachedFiles[i]; i++) { %>
+                <% if (file.FileName != '') { %>
+                <a href="javascript://" data-href="<%- file.FileLink %>" class="file-name">
+                    <%= trimFilename(file.FileName) %>[<%- getFileSizeString(file.FileSize) %>]
+                </a>
+                <% } %>
+            <% } %>
+</p>
+        <% } %>
+    </p>
+</div>

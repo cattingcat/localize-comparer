@@ -1,0 +1,22 @@
+<div id="form-forgot--" class="pd-big bg-white forgot-form" style="width: 600px;">
+    <a href="#" class="btn-close wp-close"></a>
+    <h2><%_ account/forgot/step1/title %></h2>
+    <p>
+        <%_ account/forgot/step1/description %>
+    </p>
+
+    <div class="cf">
+        <p class="w-50 pdr"><input type="text" class="w-100 account-email" data-placeholder="<%_ account/forgot/step1/email %>"></p>
+        <p class="w-50 clr-red off" data-attribute="email"></p>
+    </div>
+    <div class="cf">
+        <div class="w-50 pdr captcha-region">
+        </div>
+        <p class="w-50 pdr mrt clr-red captcha-error" data-attribute="captcha"></p>
+    </div>
+
+    <a href="javascript://" data="form-forgot" class="link-modal-win">
+        <input type="button" class="btn btn-02 bg-green btn-account-forgot-continue" value="<%_ account/forgot/continue %>">
+        <div class="button-loading-region off" style="position: relative; top: -18px;"></div>
+    </a>
+</div>

@@ -1,0 +1,540 @@
+﻿<parameters>
+
+  <!--Logging-->
+  <parameter name="Logs folder"
+    description="Folder for log files"
+    defaultValue="Logs\"
+    tags="">
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\Configuration\\Logging\\Logging.config$"
+      match="//appender[@name='MainLog_FileAppender']/file/@value" />
+  </parameter>
+
+  <parameter name="PerformanceLog folder"
+    description="Folder for log files"
+    defaultValue="Logs\"
+    tags="">
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\Configuration\\Logging\\Logging.config$"
+      match="//appender[@name='PerformanceLog_FileAppender']/file/@value" />
+  </parameter>
+
+  <parameter name="Logger Errors Folder"
+    description=""
+    defaultValue="logs/LoggerErrors.log"
+    tags="">
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\web.config$"
+      match="//sharedListeners/add[@name='LoggerErrors']/@initializeData" />
+  </parameter>
+
+  <parameter name="Logger Stage Value"
+    description=""
+    defaultValue=""
+    tags="">
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\Configuration\\Logging\\Logging.config$"
+      match="//appender/parameter[parameterName[@value='@stagename']]/layout/conversionPattern/@value" />
+  </parameter>
+
+  <parameter name="Enable Performance Logger"
+      description="On performance logger"
+      defaultValue=""
+      tags="">
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\web.config$"
+      match="//add[@key='IsEnabled_PerformanceLogger']/@value" />
+  </parameter>
+
+  <parameter name="IsWriteMeasureStartMessage_PerformanceLogger"
+      description="Enable performance logger write start message"
+      defaultValue=""
+      tags="">
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\web.config$"
+      match="//add[@key='IsWriteMeasureStartMessage_PerformanceLogger']/@value" />
+  </parameter>
+
+  <parameter name="PerformanceLoggerThrowException"
+      description="Weather pass exception from performance logger"
+      defaultValue=""
+      tags="">
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\web.config$"
+      match="//add[@key='PerformanceLoggerThrowException']/@value" />
+  </parameter>
+
+  <parameter name="LoggerThrowException"
+      description="Weather pass exception from logger"
+      defaultValue=""
+      tags="">
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\web.config$"
+      match="//add[@key='LoggerThrowException']/@value" />
+  </parameter>
+
+  <!--FTP-->
+  <parameter name="Ftp Url"
+    description="File storage url"
+    defaultValue=""
+    tags="">
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\Configuration\\Business\\FtpSettings.config$"
+      match="//add[@key='FtpUrl']/@value" />
+  </parameter>
+
+  <parameter name="Ftp User Name"
+    description="File storage user name"
+    defaultValue=""
+    tags="">
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\Configuration\\Business\\FtpSettings.config$"
+      match="//add[@key='FtpUserName']/@value" />
+  </parameter>
+
+  <parameter name="Ftp Password"
+    description="File storage password"
+    defaultValue=""
+    tags="">
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\Configuration\\Business\\FtpSettings.config$"
+      match="//add[@key='FtpPassword']/@value" />
+  </parameter>
+
+  <parameter name="Ftp Data Connection Type"
+    description="File storage data connection type"
+    defaultValue=""
+    tags="">
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\Configuration\\Business\\FtpSettings.config$"
+      match="//add[@key='FtpDataConnectionType']/@value" />
+  </parameter>
+
+  <!--Services-->
+  <parameter name="BroadcasrService Endpoint"
+    description="Endpoint address for the service"
+    defaultValue=""
+    tags="">
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\Configuration\\Services\\IBroadcastService.config$"
+      match="//endpoint[@name='IBroadcastServiceClientEndpoint_Deploy']/@address" />
+  </parameter>
+  
+  <parameter name="BlockingService Endpoint"
+    description="Endpoint address for the service"
+    defaultValue=""
+    tags="">
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\Configuration\\Services\\IBlockingService.config$"
+      match="//endpoint[@name='IBlockingServiceClientEndpoint_Deploy']/@address" />
+  </parameter>
+
+  <parameter name="CompanyService Endpoint"
+      description="Endpoint address for the service"
+      defaultValue=""
+      tags="">
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\Configuration\\Services\\ICompanyService.config$"
+      match="//endpoint[@name='ICompanyServiceClientEndpoint_Deploy']/@address" />
+  </parameter>
+
+  <parameter name="ContractService Endpoint"
+      description="Endpoint address for the service"
+      defaultValue=""
+      tags="">
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\Configuration\\Services\\IContractService.config$"
+      match="//endpoint[@name='IContractServiceClientEndpoint_Deploy']/@address" />
+  </parameter>
+
+  <parameter name="CultureService Endpoint"
+      description="Endpoint address for the service"
+      defaultValue=""
+      tags="">
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\Configuration\\Services\\ICultureService.config$"
+      match="//endpoint[@name='ICultureServiceClientEndpoint_Deploy']/@address" />
+  </parameter>
+
+  <parameter name="FileAgreementService Endpoint"
+      description="Endpoint address for the service"
+      defaultValue=""
+      tags="">
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\Configuration\\Services\\IFileAgreementService.config$"
+      match="//endpoint[@name='IFileAgreementServiceClientEndpoint_Deploy']/@address" />
+  </parameter>
+
+  <parameter name="LicenseService Endpoint"
+      description="Endpoint address for the service"
+      defaultValue=""
+      tags="">
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\Configuration\\Services\\ILicenseService.config$"
+      match="//endpoint[@name='ILicenseServiceClientEndpoint_Deploy']/@address" />
+  </parameter>
+
+  <parameter name="RequestService Endpoint"
+      description="Endpoint address for the service"
+      defaultValue=""
+      tags="">
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\Configuration\\Services\\IRequestService.config$"
+      match="//endpoint[@name='IRequestServiceClientEndpoint_Deploy']/@address" />
+  </parameter>
+
+  <parameter name="UserService Endpoint"
+      description="Endpoint address for the service"
+      defaultValue=""
+      tags="">
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\Configuration\\Services\\IUserService.config$"
+      match="//endpoint[@name='IUserServiceClientEndpoint_Deploy']/@address" />
+  </parameter>
+
+  <parameter name="DiagnosticService Endpoint"
+      description="Endpoint address for the service"
+      defaultValue=""
+      tags="">
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\Configuration\\Services\\IDiagnosticService.config$"
+      match="//endpoint[@name='IDiagnosticServiceClientEndpoint_Deploy']/@address" />
+  </parameter>
+
+  <parameter name="StsAuthenticationService Endpoint"
+      description="Endpoint address for the service"
+      defaultValue=""
+      tags="">
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\Configuration\\Services\\IStsAuthenticationService.config$"
+      match="//endpoint[@name='IStsAuthenticationServiceClientEndpoint_Deploy']/@address" />
+  </parameter>
+
+  <parameter name="SessionService Endpoint"
+      description="Endpoint address for the service"
+      defaultValue=""
+      tags="">
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\Configuration\\Services\\ISessionService.config$"
+      match="//endpoint[@name='ISessionServiceClientEndpoint_Deploy']/@address" />
+  </parameter>
+
+  <parameter name="Service Binding"
+      description="Endpoint binding for the servicess"
+      defaultValue=""
+      tags="">
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\Configuration\\Services\\IBroadcastService.config$"
+      match="//endpoint[@name='IBroadcastServiceClientEndpoint_Deploy']/@binding" />
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\Configuration\\Services\\IBlockingService.config$"
+      match="//endpoint[@name='IBlockingServiceClientEndpoint_Deploy']/@binding" />
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\Configuration\\Services\\ICompanyService.config$"
+      match="//endpoint[@name='ICompanyServiceClientEndpoint_Deploy']/@binding" />
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\Configuration\\Services\\IContractService.config$"
+      match="//endpoint[@name='IContractServiceClientEndpoint_Deploy']/@binding" />
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\Configuration\\Services\\ICultureService.config$"
+      match="//endpoint[@name='ICultureServiceClientEndpoint_Deploy']/@binding" />
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\Configuration\\Services\\IFileAgreementService.config$"
+      match="//endpoint[@name='IFileAgreementServiceClientEndpoint_Deploy']/@binding" />
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\Configuration\\Services\\ILicenseService.config$"
+      match="//endpoint[@name='ILicenseServiceClientEndpoint_Deploy']/@binding" />
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\Configuration\\Services\\IRequestService.config$"
+      match="//endpoint[@name='IRequestServiceClientEndpoint_Deploy']/@binding" />
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\Configuration\\Services\\IUserService.config$"
+      match="//endpoint[@name='IUserServiceClientEndpoint_Deploy']/@binding" />
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\Configuration\\Services\\IDiagnosticService.config$"
+      match="//endpoint[@name='IDiagnosticServiceClientEndpoint_Deploy']/@binding" />
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\Configuration\\Services\\IStsAuthenticationService.config$"
+      match="//endpoint[@name='IStsAuthenticationServiceClientEndpoint_Deploy']/@binding" />
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\Configuration\\Services\\ISessionService.config$"
+      match="//endpoint[@name='ISessionServiceClientEndpoint_Deploy']/@binding" />
+  </parameter>
+
+  <parameter name="Service Binding Configuration"
+      description="Endpoint binding configuration for the services"
+      defaultValue=""
+      tags="">
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\Configuration\\Services\\IBroadcastService.config$"
+      match="//endpoint[@name='IBroadcastServiceClientEndpoint_Deploy']/@bindingConfiguration" />
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\Configuration\\Services\\IBlockingService.config$"
+      match="//endpoint[@name='IBlockingServiceClientEndpoint_Deploy']/@bindingConfiguration" />
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\Configuration\\Services\\ICompanyService.config$"
+      match="//endpoint[@name='ICompanyServiceClientEndpoint_Deploy']/@bindingConfiguration" />
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\Configuration\\Services\\IContractService.config$"
+      match="//endpoint[@name='IContractServiceClientEndpoint_Deploy']/@bindingConfiguration" />
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\Configuration\\Services\\ICultureService.config$"
+      match="//endpoint[@name='ICultureServiceClientEndpoint_Deploy']/@bindingConfiguration" />
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\Configuration\\Services\\IFileAgreementService.config$"
+      match="//endpoint[@name='IFileAgreementServiceClientEndpoint_Deploy']/@bindingConfiguration" />
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\Configuration\\Services\\ILicenseService.config$"
+      match="//endpoint[@name='ILicenseServiceClientEndpoint_Deploy']/@bindingConfiguration" />
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\Configuration\\Services\\IRequestService.config$"
+      match="//endpoint[@name='IRequestServiceClientEndpoint_Deploy']/@bindingConfiguration" />
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\Configuration\\Services\\IUserService.config$"
+      match="//endpoint[@name='IUserServiceClientEndpoint_Deploy']/@bindingConfiguration" />
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\Configuration\\Services\\IDiagnosticService.config$"
+      match="//endpoint[@name='IDiagnosticServiceClientEndpoint_Deploy']/@bindingConfiguration" />
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\Configuration\\Services\\IStsAuthenticationService.config$"
+      match="//endpoint[@name='IStsAuthenticationServiceClientEndpoint_Deploy']/@bindingConfiguration" />
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\Configuration\\Services\\ISessionService.config$"
+      match="//endpoint[@name='ISessionServiceClientEndpoint_Deploy']/@bindingConfiguration" />
+  </parameter>
+
+  <parameter name="Service Behavior Configuration"
+      description="Endpoint behavior configuration for the services"
+      defaultValue=""
+      tags="">
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\Configuration\\Services\\IBroadcastService.config$"
+      match="//endpoint[@name='IBroadcastServiceClientEndpoint_Deploy']/@behaviorConfiguration" />
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\Configuration\\Services\\IBlockingService.config$"
+      match="//endpoint[@name='IBlockingServiceClientEndpoint_Deploy']/@behaviorConfiguration" />
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\Configuration\\Services\\ICompanyService.config$"
+      match="//endpoint[@name='ICompanyServiceClientEndpoint_Deploy']/@behaviorConfiguration" />
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\Configuration\\Services\\IContractService.config$"
+      match="//endpoint[@name='IContractServiceClientEndpoint_Deploy']/@behaviorConfiguration" />
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\Configuration\\Services\\ICultureService.config$"
+      match="//endpoint[@name='ICultureServiceClientEndpoint_Deploy']/@behaviorConfiguration" />
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\Configuration\\Services\\IFileAgreementService.config$"
+      match="//endpoint[@name='IFileAgreementServiceClientEndpoint_Deploy']/@behaviorConfiguration" />
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\Configuration\\Services\\ILicenseService.config$"
+      match="//endpoint[@name='ILicenseServiceClientEndpoint_Deploy']/@behaviorConfiguration" />
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\Configuration\\Services\\IRequestService.config$"
+      match="//endpoint[@name='IRequestServiceClientEndpoint_Deploy']/@behaviorConfiguration" />
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\Configuration\\Services\\IUserService.config$"
+      match="//endpoint[@name='IUserServiceClientEndpoint_Deploy']/@behaviorConfiguration" />
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\Configuration\\Services\\IDiagnosticService.config$"
+      match="//endpoint[@name='IDiagnosticServiceClientEndpoint_Deploy']/@behaviorConfiguration" />
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\Configuration\\Services\\IStsAuthenticationService.config$"
+      match="//endpoint[@name='IStsAuthenticationServiceClientEndpoint_Deploy']/@behaviorConfiguration" />
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\Configuration\\Services\\ISessionService.config$"
+      match="//endpoint[@name='ISessionServiceClientEndpoint_Deploy']/@behaviorConfiguration" />
+  </parameter>
+
+  <!--FrontEnd-->
+  <parameter name="Enable Google Analytics"
+    description=""
+    defaultValue=""
+    tags="">
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\Configuration\\Technical\\FrontEndSettings.config$"
+      match="//add[@key='EnableGoogleAnalytics']/@value" />
+  </parameter>
+
+  <parameter name="Google Analytics Account Id"
+    description=""
+    defaultValue=""
+    tags="">
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\Configuration\\Technical\\FrontEndSettings.config$"
+      match="//add[@key='GoogleAnalyticsAccountId']/@value" />
+  </parameter>
+
+  <parameter name="Enable Google Tag Manager"
+    description=""
+    defaultValue="false"
+    tags="">
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\Configuration\\Technical\\FrontEndSettings.config$"
+      match="//add[@key='EnableGoogleTagManager']/@value" />
+  </parameter>
+
+  <parameter name="Google Tag Manager AccountId"
+    description=""
+    defaultValue=""
+    tags="">
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\Configuration\\Technical\\FrontEndSettings.config$"
+      match="//add[@key='GoogleTagManagerAccountId']/@value" />
+  </parameter>
+
+  <parameter name="Google Tag Manager Web Site"
+    description=""
+    defaultValue=""
+    tags="">
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\Configuration\\Technical\\FrontEndSettings.config$"
+      match="//add[@key='GoogleTagManagerWebSite']/@value" />
+  </parameter>
+
+  <parameter name="Enable UI Ajax Tracing"
+    description=""
+    defaultValue=""
+    tags="">
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\Configuration\\Technical\\FrontEndSettings.config$"
+      match="//add[@key='EnableUiAjaxTracing']/@value" />
+  </parameter>
+
+  <parameter name="Access Token UI Expiration"
+      description=""
+      defaultValue=""
+      tags="">
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\Configuration\\Technical\\FrontEndSettings.config$"
+      match="//add[@key='AccessTokenUiExpiration']/@value" />
+  </parameter>
+
+  <parameter name="Enable UI Assembly Info"
+      description="Show Assembly Info on UI"
+      defaultValue=""
+      tags="">
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\Configuration\\Technical\\FrontEndCommonSettings.config$"
+      match="//add[@key='EnableUiAssemblyInfo']/@value" />
+  </parameter>
+
+  <!--Other-->
+  <parameter name="Deploy Postfix"
+      description="For now always used _Test"
+      defaultValue=""
+      tags="">
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\web.config$"
+      match="//add[@key='ConfigDeployPostfix']/@value" />
+  </parameter>
+
+  <parameter name="Sts Cors"
+      description="Cross domain interaction with STS"
+      defaultValue=""
+      tags="">
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\Configuration\\Technical\\StsSettings.config$"
+      match="//add[@key='StsCors']/@value" />
+  </parameter>
+
+  <parameter name="Is Show Inner Exception Info"
+      description="Show Inner Exception Info"
+      defaultValue=""
+      tags="">
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\Configuration\\Technical\\ExceptionHandlingSettings.config$"
+      match="//add[@key='IsShowInnerExceptionInfo']/@value" />
+  </parameter>
+
+  <parameter name="Enable TestController"
+      description="Enable TestController"
+      defaultValue=""
+      tags="">
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\Configuration\\Business\\BusinessSettings.config"
+      match="//add[@key='EnableTestController']/@value" />
+  </parameter>
+
+  <parameter name="Enable Universal Captcha"
+      description="Enable Universal Captcha"
+      defaultValue=""
+      tags="">
+    <parameterEntry
+      kind="XmlFile"
+      scope="\\Configuration\\Business\\CaptchaProviderSettings.config"
+      match="//add[@key='EnableUniversalCaptcha']/@value" />
+  </parameter>
+
+</parameters>

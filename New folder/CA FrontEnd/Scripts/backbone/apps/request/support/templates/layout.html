@@ -1,0 +1,98 @@
+<div class="title-area cf">
+    <h2><%_ request/support/title %></h2>
+</div>
+
+<div class="pd2">    
+    <div class="cf">
+        <div class="w-33 aright pdr clr-gray">
+            <em class="note-red">*</em><%_ request/support/securityarea %>
+        </div>
+        <div class="w-66 fr">
+            <span class="inp-w3 select2 request-product-type"></span>
+        </div>
+    </div>
+
+    <div class="cf mrt">
+        <div class="w-33 aright pdr clr-gray">
+            <em class="note-red">*</em><%_ request/support/product %>
+        </div>
+        <div class="w-66 fr">
+            <span class="inp-w3 select2 request-product"></span>
+        </div>
+    </div>
+
+    <div class="cf mrt">
+        <div class="w-33 aright pdr clr-gray">
+            <em class="note-red">*</em><%_ request/support/productversion %>
+        </div>
+        <div class="w-66 fr">
+            <span class="inp-w2 select2 request-product-version"></span>
+
+            <a href="#" class="dashed mrl sub-remark about-product"><%_ request/support/unknownProduct %></a>
+            <div class="remark-area off product-description">
+                <a href="javascript://" class="btn-close re-close"></a>
+                <h3><%_ request/support/whatProduct %></h3>
+                <p><%_ request/support/aboutProduct %></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="cf mrt">
+        <div class="w-33 aright pdr clr-gray">
+            <%_ request/support/osversion %>
+        </div>
+        <div class="w-66 fr">
+            <span class="inp-w3 select2-input request-os-version"></span>
+        </div>
+    </div>
+
+    <div class="cf mrt">
+        <div class="w-33 aright pdr clr-gray">
+            <em class="note-red">*</em><%_ request/support/requesttype/title %>
+        </div>
+        <div class="w-66 fr">
+            <span class="inp-w3 select2 request-type"></span>
+        </div>
+    </div>
+
+    <div class="cf mrt">
+        <div class="w-33 aright pdr clr-gray">
+            <em class="note-red">*</em><%_ request/support/subtype %>
+        </div>
+        <div class="w-66 fr">
+            <span class="inp-w3 select2 request-subtype">
+            </span>
+        </div>
+    </div>
+
+
+    <div class="cf mrt">
+        <!--Чтобы выделить поле с ошибкой, надо добавить к классу div атрибут clr-red и "note-red". К input надо добавить атрибут inp-err-->
+        <div class="w-33 aright pdr clr-gray">
+            <em class="note-red">*</em><%_ request/support/theme %>
+        </div>
+        <div class="w-66 fr"><input type="text" class="inp-w100 request-theme" value="" data-placeholder="<%_ request/support/request-theme %>" /></div>
+    </div>
+
+    <div class="cf mrt">
+        <div class="w-33 aright pdr clr-gray">
+            <em class="note-red">*</em><%_ request/support/description %>
+        </div>
+        <div class="w-66 fr">
+            <textarea name="" id="" spellcheck="true" class="w-100 request-description" data-placeholder="<%_ request/support/request-description %>"></textarea>
+        </div>
+    </div>
+
+    <div class="cf mrt2">
+        <div class="w-33 aright pdr clr-gray"><%_ request/support/attachedfiles/title %></div>
+        <div class="w-66">
+            <div class="file-attachment request-files">
+                <!-- file upload block -->
+            </div>
+
+            <div class="buttonbar-region">
+                <!-- region with send and cansel buttons -->
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,48 @@
+<div class="title-area cf">
+    <h2><%_ request/csr/title %></h2>
+</div>
+
+<div class="pd2">
+    <div class="cf">
+        <div class="fr w-75">
+            <h4><%_ request/csr/subtitle %></h4>
+        </div>
+        <div class="w-75 fr mrt">
+            <div class="request-files">
+                <!-- file upload control file-attachment -->
+                <form class="fileupload-control" id="" action="" method="POST" enctype="multipart/form-data">
+
+                    <div class="mrt fileupload-buttonbar">
+                        <a href="#" class="btn btn-02 bg-green pre-em bt-load mrb fileupload-link">
+                            <em></em><%_ fileupload/file/button-csr %><input class="fileupload-input-file" type="file">
+                        </a>
+                        <span class="btn btn-02 bg-gray pre-em bt-load mrb1 off fileupload-stub">
+                            <em></em><%_ fileupload/file/button-csr %>
+                        </span>
+
+                        <a href="#" class="sub-remark mrl dashed about-csr"><%= remarkQuestion %></a>
+                        <div class="remark-area off csr-description">
+                            <a href="#" class="btn-close re-close about-csr-close"></a>
+                            <%= remarkDescriprion %>
+                        </div>
+
+                        <small class="cf"><%_ fileupload/file/csrFile %></small>
+                    </div>
+
+                    <!--<table class="thin mrt">
+                        <tbody class="files">
+                         file list will rendered here (see upload.html)
+                        </tbody>
+                    </table> -->
+
+                    <div class="cf key-info-region">
+                    </div>
+                </form>
+            </div>
+
+            <div class="buttonbar-region">
+                <!-- region with send and cansel buttons -->
+            </div>
+        </div>
+    </div>
+</div>

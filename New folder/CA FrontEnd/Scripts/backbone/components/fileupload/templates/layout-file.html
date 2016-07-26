@@ -1,0 +1,20 @@
+<form class="fileupload-control" id="" action="" method="POST" enctype="multipart/form-data">
+    <div class="cf">
+        <table class="thin fl">
+            <tbody class="files">
+                <!-- file list will rendered here (see upload.html) -->
+            </tbody>
+        </table>
+    </div>
+
+    <div class="mrt fileupload-buttonbar">
+        <a href="javascript://" class="bt-load">
+            <img src="/img/nd-icon-load.png" alt="" class="mrr" />
+            <span><%_ fileupload/file/button %></span>
+            <input name="StorageFile" type="file" <% if(multiple){ %> multiple <% } %> />
+        </a>
+        <small class="mrl file-req">
+            <!-- file requirements -->
+        </small>
+    </div>
+</form>

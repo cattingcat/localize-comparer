@@ -1,0 +1,409 @@
+{
+    "globalize-messages": {
+        "es": {
+            "account": {
+                "privacy": {
+                    "header": "<h1>Declaración de privacidad de CompanyAccount</h1><h2>22.05.2014 (Versión actual)</h2>",
+                    "content": "<p>CompanyAccount est fourni par AO Kaspersky Lab, dont le siège se trouve au bât. 3, 39A, Leningradskoe Shosse, Moscou, 125212, et sera désigné par « nous » ou « Kaspersky Lab » dans le présent document.</p><p>Nous mettons occasionnellement à jour notre politique de confidentialité sans préavis, par conséquent nous vous recommandons de vérifier périodiquement si des modifications ont été apportées. Les mises à jour apportées à notre politique de confidentialité seront publiées dans cette section. Veuillez également consulter notre politique de confidentialité concernant les données de base (<a href=\"http://www.kaspersky.fr/privacy\"target=\"_blank\">http://www.kaspersky.fr/privacy</a>).</p><p>Nous sommes toujours heureux d'apporter des clarifications à propos :</p><ul><li>des données personnelles que nous collectons, stockons, suivons et utilisons ;</li><li>des personnes autorisées à demander vos informations personnelles ;</li><li>de la manière dont vous pouvez corriger les inexactitudes présentes dans ces informations.</li></ul><p>Par \"données personnelles\" ou \"informations personnelles\", nous entendons les informations qui peuvent être utilisées séparément ou associées à d'autres informations afin d'identifier, de contacter ou de localiser un individu en particulier, ou d'identifier quelqu'un en contexte.</p><p>Vous pouvez nous contacter directement à l'adresse e-mail indiquée en bas de cette page.</p><h4>Informations que nous collectons et stockons</h4><p>Kaspersky Lab respecte votre souhait de protéger vos données personnelles. Cette page décrit les informations que nous pouvons vous demander lorsque vous utilisez CompanyAccount et les situations dans lesquelles nous pouvons le faire.</p><p>Vous pouvez décider de poursuivre ou non les actions nécessitant le renseignement d'informations personnelles. Cependant, notez que si vous refusez de fournir les informations requises, vous ne pourrez pas effectuer l'opération associée.</p><h6>Enregistrement de compte</h6><p>Pour utiliser CompanyAccount et accéder à toutes ses fonctionnalités, vous devez créer :<ul><li>un compte personnel ;</li><li>un compte pour votre entreprise, à moins que cela n'ait déjà été fait par vos collègues.</li></ul>Cette opération nécessite que vous fournissiez votre adresse e-mail professionnelle (qui sera votre nom d'utilisateur), un mot de passe, votre prénom et votre nom, le nom de votre entreprise, votre pays et la licence de votre entreprise permettant d'utiliser les applications Kaspersky Lab. Nous traiterons et utiliserons ces informations uniquement dans le but de vous proposer les services CompanyAccount et un support technique, à moins que vous ne choisissiez explicitement qu'elles soient utilisées à d'autres fins. Après l'enregistrement, votre compte personnel est associé au compte de votre entreprise.</p><p>Si le compte de votre entreprise a déjà été créé, vos informations d'enregistrement (prénom, nom et adresse e-mail professionnelle) sont envoyées à l'administrateur CompanyAccount de votre entreprise. L'employé qui enregistre en premier son entreprise et crée un compte personnel est généralement désigné comme administrateur.</p><h6>Paramètres de compte</h6><p>À tout moment, vous pouvez afficher, mettre à jour et corriger les informations de votre compte et votre mot de passe ou supprimer votre compte sur la page « Mon compte ». Après la suppression de votre compte, vos données sont stockées par Kaspersky Lab afin d'améliorer notre service clientèle, mais votre accès à CompanyAccount à l'aide de ce compte sera bloqué.</p><p>L'administrateur CompanyAccount de votre entreprise pourra également modifier les paramètres de votre compte et réinitialiser votre mot de passe.</p><p>Si vous êtes l'administrateur CompanyAccount de votre entreprise, vous pourrez modifier les comptes personnels de tous vos collègues et bloquer le compte de l'entreprise dans son intégralité (les comptes personnels des employés resteront dans le système).</p><h6>Licences</h6><p>Vous pouvez ajouter et afficher les licences de votre entreprise relatives aux produits Kaspersky Lab sous l'onglet « Licences » (codes d'activation ou fichiers clés pour chaque produit). La licence fournie lors de l'enregistrement est automatiquement ajoutée au compte CompanyAccount de votre entreprise.</p><p>Les fichiers clés ne sont pas physiquement stockés sur le compte CompanyAccount. Le système stocke uniquement un enregistrement relatif à la licence de votre entreprise.</p><p>Chaque employé de l'entreprise possédant un compte personnel associé au compte CompanyAccount de votre entreprise a accès à la liste des licences.</p><p>Votre administrateur CompanyAccount peut supprimer les licences de votre entreprise de la liste.</p><h6>Contrats</h6><p>Si votre entreprise achète des services de support client supplémentaires, vous pourrez afficher la liste des services achetés après l'enregistrement de l'achat sous l'onglet « Contrats ».</p><p>La liste des contrats est disponible pour les employés de l'entreprise qui ont été autorisés à utiliser le service payant au moment de l'achat. Ces personnes recevront automatiquement des notifications sur l'expiration du contrat.</p><h6>Demandes du support client</h6><p>Si vous contactez le support client ou l'équipe Anti-Virus Lab pour obtenir de l'aide via CompanyAccount, nous pouvons vous demander de nous envoyer des informations nécessaires pour que nous puissions vous aider. Par exemple, ces informations peuvent être relatives au produit associé à votre demande, votre matériel informatique, le réseau de votre entreprise, les logiciels et la nature du problème rencontré. En outre, il peut être utile voire nécessaire pour vous de nous envoyer les fichiers qui vous posent problème ou les fichiers qui définissent la configuration de votre ordinateur ou de votre réseau. Pour ce faire, vous pouvez utiliser la fonctionnalité permettant de joindre des fichiers au formulaire de demande. Ces fichiers peuvent contenir des noms de fichiers, des métadonnées ou du contenu spécifiques aux utilisateurs ou nominatifs. La décision du chargement de ces fichiers vous revient toujours.  Si vous souhaitez charger des fichiers, veuillez tout d'abord consulter et accepter notre <a href=\"http://support.kaspersky.com/fr/support/rdp\" target=\"_blank\">Réglementation régissant l’obtention de données</a>. </p><p>Afin de choisir le service de support client adapté à votre demande, nous utiliserons les informations de votre entreprise (licences, pays et probablement la langue de l'interface sélectionnée dans votre compte CompanyAccount).</p><p> Vos collègues peuvent avoir accès à vos demandes si votre administrateur CompanyAccount modifie manuellement les paramètres correspondants (il peut afficher les demandes automatiquement). L'accès aux demandes n'est pas limité dans le temps, mais les fichiers que vous chargez peuvent être supprimés six mois après la clôture de la demande.</p><h4>Mesures de sécurité que nous employons</h4><p>Nous utilisons des mesures administratives, physiques et électroniques pour protéger les informations personnelles reçues d'un accès non autorisé. Nous chiffrons tous les transferts de données personnelles à l'aide de la technologie SSL (Secure Sockets Layer) et nous stockons uniquement ces informations dans des centres de données sécurisés à accès limité.</p><h4>Personnes à qui nous pouvons envoyer des informations personnelles</h4><p>Vos données ou les données de votre entreprise sont uniquement utilisées pour vous proposer le service demandé, à moins que vous ne nous ayez donné votre consentement pour recevoir des supports marketing ou participer à des enquêtes utilisateurs annuelles. Notez que nous pouvons envoyer vos informations personnelles à des tiers si des organismes gouvernementaux, des tribunaux ou des agences d'application de la loi nous le demandent. Ces envois sont également possibles pour protéger la sécurité publique ou individuelle ou pour éviter ou cesser les activités que nous considérons comme illégales.</p><h4>Cookies et autres technologies</h4><p>Kaspersky Lab peut parfois utiliser des cookies, des pixels espions, des pixels invisibles ou d'autres méthodes similaires pour collecter des informations. Pour plus d'informations, veuillez consulter notre <a href=\"http://www.kaspersky.fr/third-party-tracking\" target=\"_blank\">politique relative aux cookies</a>.</p><h4>Informations statistiques</h4><p>Nous pouvons suivre les noms de domaine, les adresses IP, les fournisseurs d'accès à Internet, les types de navigateur et d'autres informations de l'environnement client (par exemple, le modèle d'appareil, le système d'exploitation, la résolution des écrans, etc.) des visiteurs de notre site Web. Nous pouvons également collecter des informations sur les applications Kaspersky Lab que vous utilisez, par exemple le produit que vous utilisez, la page Web que vous avez ouverte avant de visiter notre site Web, les pages de notre site Web que vous avez visitées, le temps que vous avez passé à naviguer sur ces pages, les informations que vous avez recherchées sur notre site Web, l'heure et la date de vos visites et d'autres informations statistiques. Nous utilisons ces informations pour créer des statistiques sur le trafic des sites Web Kaspersky Lab et pour améliorer la sécurité et l'accessibilité de nos services et site Web. Ces informations ne sont pas corrélées avec des données personnelles. Nous ne vous demanderons pas votre emplacement et nous n'essayerons pas de vous suivre à l'aide des informations de votre appareil.</p><h4>Coordonnées</h4><p>Ces informations sont disponibles sur nos pages <a href=\"http://www.kaspersky.fr/contacts\" target=\"_blank\">\"Contactez Kaspersky Lab France\"</a> et <a href=\"http://www.kaspersky.fr/legal\" target=\"_blank\">\"Statut Juridique\"</a>.</p><p>Si vous avez des questions ou des suggestions concernant le traitement de la protection de vos données personnelles lié à votre utilisation de CompanyAccount, veuillez nous contacter à l'adresse <a href=\"mailto:privacy@kaspersky.com\">privacy@kaspersky.com</a></p>"
+                },
+                "changePass": {
+                    "title": "Establecer contraseña para Kaspersky CompanyAccount",
+                    "description": "Por favor, introduzca y confirme la contraseña",
+                    "e-mail": "Correo electrónico",
+
+                    "passwordLabel": "Contraseña",
+                    "confirmPasswordLabel": "Confirmar contraseña",
+                    "submit-btn": "Estavlecer contraseña",
+
+                    "passwordValidations_title": "Requisitos de contraseña:",
+                    "passwordValidations_length": "8 símbolos como mínimo",
+                    "passwordValidations_uppercaseLetter": "Letras mayúsculas y minúsculas (A-z)",
+                    "passwordValidations_lowercaseLetter": "Un carácter especial como mínimo (! # + % etc.)",
+                    "passwordValidations_digit": "Un número como mínimo (0-9)",
+                    "passwordValidations_noSpace": "No se admiten espacios en blanco",
+
+                    "errors": {
+                        "Password.RequiredRule": "Campo obligatorio",
+                        "Password.MinLengthRule": "La contraseña es demasiado corta",
+                        "Password.PasswordRule": "La contraseña no cumple los requisitos",
+                        "Password.NotEqualToRule": "Las contraseñas no coinciden",
+                        "ConfirmPassword.RequiredRule": "Campo obligatorio",
+                        "ConfirmPassword.EqualRule": "Las contraseñas no coinciden",
+
+                        "Password.PasswordInBlacklist": "La contraseña introducida no es segura",
+                        "Password.SimplePassword": "La contraseña no cumple los requisitos",
+                        "Password.PasswordMatch": "Esta contraseña ya se ha utilizado",
+
+                        "AdminBlocked": {
+                            "title": "La cuenta está bloqueada por el administrador",
+                            "text": "Para desbloquearla, envíe un correo electrónico a <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                        },
+                        "TempBlocking": {
+                            "title": "El usuario está temporalmente bloqueado",
+                            "text": "Se ha superado el límite de intentos de iniciar sesión. Por favor, pruébelo más tarde."
+                        },
+                        "UnknownError": {
+                            "title": "Se ha producido un fallo desconocido",
+                            "text": "Se ha producido un fallo desconocido a la hora de establecer nueva contraseña. <br />Por favor, vuelva a seguir el enlace.<br />Si el problema aparece de nuevo, <a href='mailto:companyaccount@kaspersky.com'>contáctenos</a>."
+                        },
+                        "UserNotFound": {
+                            "title": "Cuenta no encontrada",
+                            "text": "Se le han enviado más instrucciones al correo electrónico que ha especificado."
+                        },
+                        "LinkNotExist": {
+                            "title": "No se ha encontrado el enlace",
+                            "text": "Se ha producido un fallo desconocido a la hora de establecer nueva contraseña. <br />Por favor, vuelva a seguir el enlace.<br />Si el problema aparece de nuevo, <a href='mailto:companyaccount@kaspersky.com'>contáctenos</a>."
+                        },
+                        "DuplicatedRecords": {
+                            "title": "Se ha producido un fallo desconocido",
+                            "text": "Se ha producido un fallo desconocido a la hora de establecer nueva contraseña. <br />Por favor, vuelva a seguir el enlace.<br />Si el problema aparece de nuevo, <a href='mailto:companyaccount@kaspersky.com'>contáctenos</a>."
+                        },
+                        "NotSupportedSystemType": {
+                            "title": "SystemType no es compatible",
+                            "text": " "
+                        }
+                    }
+                },
+
+                "resetPassword": {
+                    "logout": "Para continuar con el procedimiento para recuperar contraseña, tiene que cerrar sesión e iniciarla de nuevo.",
+                    "close-session": "Para restablecer contraseña de su cuenta, tiene que cerrar todas las sesiones activas de CompanyAccount.<br/>Haga clic en \"Establecer nueva contraseña\" para cerrar todas las sesiones activas y especificar una nueva contraseña. <br/>O haga clic en \"Mantener sesiones actuales\" para guardar sesiones y no cambiar de contraseña<br/>Puede seguir el enlace más tarde durante los próximos 7 días.",
+                    "logout-btn": "Especificar nueva contraseña",
+                    "close-btn": "Guardar sesiones actuales",
+
+                    "success": {
+                        "title": "La contraseña se ha restablecido correctamente",
+                        "text": "Ahora puede iniciar sesión",
+                        "button": "Iniciar sesión"
+                    },
+
+                    "errors": {
+                        "LinkExpired": {
+                            "title": "El enlace ha caducado",
+                            "text": "Puede <a href='/account/forgot'>volver a restablecer la contraseña</a>"
+                        },
+                        "LinkUsed": {
+                            "title": "Ya se ha realizado el cambio de contraseña a través de este enlace",
+                            "text": "Puede <a href='/account/login'>iniciar sesión en CompanyAccount</a> o <a href='/account/forgot'>restablecer la contraseña</a>"
+                        },
+                        "UserNotOfCA": {
+                            "title": "Este nombre de usuario no se ha registrado en CompanyAccount",
+                            "text": "Se le han enviado más instrucciones al correo electrónico que ha especificado."
+                        },
+                        "UserNotActivated": {
+                            "title": "La cuenta del usuario no está activada",
+                            "text": "Se le han enviado más instrucciones al correo electrónico que ha especificado."
+                        },
+                        "UserNotEnabled": {
+                            "title": "La cuenta del usuario no está activada",
+                            "text": "Se le han enviado más instrucciones al correo electrónico que ha especificado."
+                        }
+                    }
+                },
+
+                "activate": {
+                    "logout": "Para continuar con la activación, tiene que cerrar sesión.",
+                    "close-session": "Para activar una nueva cuenta, tiene que cerrar todas las sesiones activas de CompanyAccount.<br/> Haga clic en \"Activar nueva cuenta\" para cerrar todas las sesiones activas y especificar contraseña para la nueva cuenta.<br/> O haga clic en \"Mantener sesiones actuales\" para mantener las sesiones necesaria.<br/> Puede seguir el enlace más tarde durante los próximos 7 días ",
+                    "logout-btn": "Activar la nueva cuenta",
+                    "close-btn": "Guardar sesiones actuales",
+
+                    "success": {
+                        "title": "La cuenta se ha activado correctamente",
+                        "text": "Ahora puede iniciar sesión",
+                        "button": "Iniciar sesión"
+                    },
+
+                    "close": "Cerrar",
+
+                    "errors": {
+                        "LinkNotExist": {
+                            "title": "Se ha producido un problema al activar la cuenta",
+                            "text": "Envíe un correo electrónico a <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> para solucionar el problema"
+                        },
+                        "LinkExpired": {
+                            "title": "El enlace ha caducado",
+                            "text": "Puede <a href='/account/create'>volver a registrarse</a>"
+                        },
+                        "LinkUsed": {
+                            "title": "La cuenta ya está activa",
+                            "text": "Puede <a href='/account/login'>iniciar sesión en CompanyAccount</a> o <a href='/account/forgot'>restablecer la contraseña</a>"
+                        },
+                        "LinkNotExist": {
+                            "title": "Se ha producido un problema al activar la cuenta",
+                            "text": "Envíe un correo electrónico a <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> para solucionar el problema"
+                        },
+                        "DuplicatedRecords": {
+                            "title": "Se ha producido un problema al activar la cuenta",
+                            "text": "Envíe un correo electrónico a <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> para solucionar el problema"
+                        },
+                        "UnknownError": {
+                            "title": "Se ha producido un fallo desconocido al activar la cuenta",
+                            "text": "Se ha producido un fallo desconocido al activar la cuenta <br />Por favor, haga clic en el enlace de nuevo. Si el problema vuelve a aparecer, <a href='mailto:companyaccount@kaspersky.com'>contáctenos</a>."
+                        }
+                    }
+                },
+
+                "refreshPassword": {
+                    "title": "Su contraseña ha caducado",
+                    "description": "Por favor, introduzca y confirme la contraseña"
+                },
+
+                "delete": {
+                    "title": "Eliminar cuenta de CompanyAccount",
+                    "description": "Por favor, confirme la eliminación de su cuenta ",
+                    "e-mail": "Correo electrónico",
+                    "delete": "Eliminar",
+                    "close": "Cerrar",
+                    "ok": "Aceptar",
+
+                    "loading": "Por favor, espere, su solicitud se está procesando...",
+                    "confirm": {
+                        "title": "Eliminar cuenta de CompanyAccount",
+                        "description": "¡Atención! Tras hacer clic en \"Continuar\", su cuenta se eliminará de СompanyAccount.",
+                        "continue": "Eliminar"
+                    },
+                    "success": {
+                        "title": "La cuenta se ha eliminado<br />correctamente",
+                        "description": " "
+                    },
+                    "errors": {
+                        "UserNotFound": {
+                            "title": "Cuenta no encontrada",
+                            "text": "Por favor, envíe un correo electrónico a <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                        },
+                        "LinkExpired": {
+                            "title": "El enlace ha caducado",
+                            "text": "Puede <a href='/account/create'>volver a registrarse</a>"
+                        },
+                        "LinkUsed": {
+                            "title": "La cuenta ya está eliminada",
+                            "text": " "
+                        },
+                        "LinkNotExist": {
+                            "title": "Se ha producido un problema al eliminar la cuenta",
+                            "text": "Envíe un correo electrónico a <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> para solucionar el problema"
+                        },
+                        "DuplicatedRecords": {
+                            "title": "Se ha producido un problema al eliminar la cuenta",
+                            "text": "Envíe un correo electrónico a <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> para solucionar el problema"
+                        },
+                        "UnknownError": {
+                            "title": "Se ha producido un fallo desconocido",
+                            "text": "Se ha producido un fallo desconocido a la hora de eliminar el usuario. <br />Por favor, vuelva a seguir el enlace.<br />Si el problema aparece de nuevo, <a href='mailto:companyaccount@kaspersky.com'>contáctenos</a>."
+                        }
+                    }
+                },
+
+                "create": {
+                    "title": "Crear cuenta ",
+                    "description": "Cree una cuenta de Kaspersky CompanyAccount ",
+                    "firstname": "Nombre de usuario",
+                    "lastname": "Apellidos",
+                    "company": "Empresa",
+                    "email": "Correo electrónico",
+                    "or-type-code": "o introduzca un código de activación:",
+                    "activationCodeTooltip": "El código de activación consta de 4 bloques de 5 caracteres separados por guión (XXXXX-XXXXX-XXXXX-XXXXX); no puede contener el número 0 (cero) ni las letras I, O, L",
+                    "activationCodeInvalid": "El formato del código introducido no corresponde al formato necesario",
+                    "close": "Cerrar",
+                    "removeKeyfile": "Eliminar",
+                    "errors": {
+                        "FirstName.RequiredRule": "Especifique su nombre",
+                        "FirstName.MaxByteLengthRule": "El nombre puede contener hasta 30 caracteres",
+
+                        "LastName.RequiredRule": "Especifique sus apellidos",
+                        "LastName.MaxByteLengthRule": "Los dos apellidos pueden contener hasta 30 caracteres en total",
+
+                        "Company.RequiredRule": "Por favor, especifique el nombre de la empresa",
+                        "Company.MaxLengthRule": "El nombre de la empresa puede contener hasta 40 caracteres",
+
+                        "Country.RequiredRule": "No se ha rellenado el campo País",
+
+                        "Captcha.RequiredRule": "Introduzca el código que se muestra en la imagen",
+                        "Captcha.CaptchaIncorrect": "El código no es válido, inténtelo de nuevo",
+                        "Captcha.CaptchaTimeout": "El código ha caducado, vuelva a intentarlo",
+
+                        "Email.RequiredRule": "No se ha indicado el correo electrónico",
+                        "Email.EmailRule": "Dirección de correo electrónico no válida",
+                        "Email.MaxByteLengthRule": "La dirección del correo electrónico puede contener hasta {ByteLength} caracteres",
+                        "Email.RepeatedRegistration": "Ya se ha registrado un usuario con esta dirección de correo electrónico en el sistema. <br />Para finalizar el registro y activar su cuenta, por favor, confirma su correo electrónico a través del enlace que ha recibido al registrarse.",
+                        "Email.FailureUserExists": "Esta cuenta ya existe Puede <a href='/account/forgot'>restablecer contraseña</a> o <a href='/account/login'>iniciar sesión</a>",
+
+                        "KeyFile.KeyFileRule": "El archivo llave no es válido",
+                        "ActivationCode.ActivationCodeRule": "El código de activación no es válido",
+                        "KeyFile.HttpFileSizeRule": "El archivo llave es demasiado grande",
+
+                        "InvalidEmailDomain": "No puede usar el dominio kaspersky.com",
+
+                        "ActCodeOrKeyFileRequired": "Por favor, introduzca el código de activación o suba el archivo llave",
+
+                        "UnknownError": {
+                            "title": "Se ha producido un fallo desconocido",
+                            "text": "Por favor, vuelva a registrarse. Si el problema vuelve a aparecer, <a href='mailto:companyaccount@kaspersky.com'>contáctenos</a>."
+                        }
+                    },
+                    "success": {
+                        "title": "La cuenta se ha creado<br />correctamente",
+                        "text": "Se ha enviado un mensaje con el enlace a la dirección <b>{email}</b>. <br />Para finalizar la registración en <b>Kaspersky CompanyAccount,</b> <br /> siga este enlace. <br />",
+                        "close": "Cerrar"
+                    },
+                    "privacystatement": "Acepto la <a href=\"/account/privacy-statement\" target=\"_blank\">Declaración de privacidad</a>. ",
+                    "survey-participation": "Deseo recibir invitaciones de Kaspersky Lab por correo electrónico para participar en las encuestas anuales para evaluar la satisfacción de calidad de servicio.",
+                    "createbutton": "Registrarse"
+                },
+
+                "forgot": {
+                    "continue": "Continuar",
+                    "close": "Cerrar",
+                    "step1": {
+                        "title": "Restablecer contraseña para Kaspersky CompanyAccount",
+                        "description": "Introduzca la dirección de correo electrónico<br /> que ha indicado al crear cuenta de Kaspersky CompanyAccount.",
+                        "email": "Correo electrónico"
+                    },
+                    "success": {
+                        "title": "Se han enviado las instrucciones<br/>para cambiar contraseña",
+                        "description": "Por favor, compruebe su bandeja de entrada en <b>{email}</b><br />Siga las instrucciones del mensaje para restablecer su contraseña.<p> <b>¡Atención!</b> Si no ha recibido el mensaje, compruebe la dirección de correo electrónico e inténtelo de nuevo. </br>Si la dirección de correo introducida es correcta, pero sigue sin recibir ningún mensaje, </br>por favor, envíenos un correo electrónico a: <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> </p>"
+                    },
+                    "errors": {
+                        "CaptchaIncorrect": "El código no es válido, inténtelo de nuevo",
+                        "Captcha.CaptchaIncorrect": "El código no es válido, inténtelo de nuevo",
+                        "Captcha.CaptchaTimeout": "El código ha caducado, vuelva a intentarlo",
+
+                        "Email.RequiredRule": "Especifique el correo electrónico",
+                        "Email.EmailRule": "Dirección de correo electrónico no válida",
+                        "Email.MaxByteLengthRule": "La dirección del correo electrónico puede contener hasta {ByteLength} caracteres",
+
+                        "AdminBlocked": {
+                            "title": "La cuenta está bloqueada por el administrador",
+                            "text": "Para desbloquearla, envíe un correo electrónico a <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                        },
+                        "NotSupportedSystemType": {
+                            "title": "Este nombre de usuario no se ha registrado en CompanyAccount",
+                            "text": "Se le han enviado más instrucciones al correo electrónico que ha especificado."
+                        },
+                        "UserNotFound": {
+                            "title": "Usuario no encontrado",
+                            "text": " "
+                        },
+                        "NotSupportedCompanyCategory": {
+                            "title": "Este nombre de usuario no se ha registrado en CompanyAccount",
+                            "text": "Se le han enviado más instrucciones al correo electrónico que ha especificado."
+                        },
+                        "NotActivated": {
+                            "title": "La cuenta del usuario no está activada",
+                            "text": "Se le han enviado más instrucciones al correo electrónico que ha especificado."
+                        },
+                        "IsSupportStuff": {
+                            "title": "El usuario es ingeniero de soporte técnico",
+                            "text": " "
+                        },
+                        "UnknownError": {
+                            "title": "Se ha producido un fallo desconocido",
+                            "text": "Por favor, intente a restablecer la contraseña una vez más. Si el problema vuelve a aparecer, <a href='mailto:companyaccount@kaspersky.com'>contáctenos</a>."
+                        }
+                    }
+                },
+
+                "login": {
+                    "title": "Iniciar sesión",
+                    "subtitle": "en Kaspersky CompanyAccount",
+                    "tooltip": "CompanyAccount es un portal de soporte técnico para los usuarios de productos corporativos de Kaspersky Lab",
+                    "notetitle": "Kaspersky CompanyAccount",
+                    "notedescription": "Kaspersky CompanyAccount es un portal para crear y monitorizar solicitudes de soporte técnico de los usuarios corporativos de Kaspersky Lab.",
+                    "email": "Correo electrónico",
+                    "password": "Contraseña",
+                    "rememberme": "Recordarme",
+                    "forgot": "¿Ha olvidado su contraseña?",
+                    "login": "Iniciar sesión",
+                    "loading": "Cargando...",
+                    "noaccount": "¿No tiene cuenta?",
+                    "create": "Registrarse",
+                    "close": "Cerrar",
+                    "errors": {
+                        "EmailIsRequired": "Por favor, especifique la dirección del correo electrónico",
+                        "InvalidEmail": "Dirección de correo electrónico no válida",
+                        "PasswordIsRequired": "Por favor, especifique contraseña",
+                        "SimplePassword": "La contraseña no cumple los requisitos",
+                        "LoginBan": "Se ha superado el límite de intentos de iniciar sesión. Por favor, pruébelo más tarde.",
+                        "GrantIncorrect": "Usuario o contraseña incorrectos",
+                        "GrantContextIncorrect": "Se ha introducido dirección o contraseña incorrectas",
+                        "LoginExpired": "La cuenta ha caducado. Póngase en contacto con el soporte técnico para renovarla",
+                        "LoginBlocking": "Su cuenta se ha bloqueado. Póngase en contacto con el soporte técnico",
+                        "LoginIncorrect": "Usuario o contraseña incorrectos",
+                        "CurrentPasswordIncorrect": "La contraseña no es válida",
+                        "PasswordIncorrect": "La contraseña no es válida",
+                        "ExceededUserSessionCount": "Se ha superado el límite de inicios de sesión simultáneos",
+
+                        "UserNotOfCA": "Este nombre de usuario no se ha registrado en CompanyAccount",
+                        "UserNotOfCADescription": "  ",
+                        "UnknownError": "Se ha producido un fallo desconocido",
+                        "UnknownErrorDescription": "Se ha producido un fallo desconocido a la hora de iniciar sesión.<br />Por favor, inténtelo de nuevo.<br />Si el error vuelve a aparecer, <a href='mailto:companyaccount@kaspersky.com'>contáctenos</a>."
+                    }
+                },
+
+                "deleteCompany": {
+                    "logout": "Para continuar con la eliminación de la empresa, tiene que cerrar sesión.",
+                    "close-session": "Para continuar con la eliminación de la empresa, tiene que cerrar sesión de otro usuario y volver a intentar.",
+                    "logout-btn": "Salir y continuar",
+                    "close-btn": "Guardar sesiones actuales",
+
+                    "title": "Eliminar la cuenta de empresa",
+                    "description": "¡Atención! Tras hacer clic en \"Continuar\", la información acerca de su empresa se eliminará de СompanyAccount. Los usuarios de su empresa podrán acceder a CompanyAccount, pero se perderá toda la información acerca de solicitudes, licencias y contratos.",
+                    "continue": "Continuar",
+                    "loading": "Eliminar",
+                    "close": "Cerrar",
+                    "confirm": {
+                        "title": "Eliminar la cuenta de empresa",
+                        "description": "¡Atención! Tras hacer clic en \"Continuar\", la información acerca de su empresa se eliminará de СompanyAccount. Los usuarios de su empresa podrán acceder a CompanyAccount, pero se perderá toda la información acerca de solicitudes, licencias y contratos.",
+                        "continue": "Continuar"
+                    },
+                    "errors": {
+                        "UserNotFound": {
+                            "title": "Usuario no encontrado",
+                            "text": "Por favor, envíe un correo electrónico a <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                        },
+                        "NotMainUser": {
+                            "title": "Se ha producido un problema con su cuenta",
+                            "text": "Envíe un correo electrónico a <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> para solucionar el problema"
+                        },
+                        "CompanyNotFound": {
+                            "title": "La empresa ya se ha eliminado",
+                            "text": " "
+                        },
+                        "UnknownError": {
+                            "title": "Error desconocido",
+                            "text": "Se ha producido un error desconocido a la hora de eliminar la empresa. <br />Por favor, espere unos minutos y sigue el enlace una vez más. <br/> Si el problema vuelve a aparecer, <a href='mailto:companyaccount@kaspersky.com'>contáctenos</a>."
+                        },
+                        "LinkExpired": {
+                            "title": "El enlace ha caducado",
+                            "text": "Puede pedir otro enlace para eliminar la cuenta de empresa"
+                        },
+                        "LinkUsed": {
+                            "title": "La cuenta ya se ha desactivado",
+                            "text": " "
+                        },
+                        "AccessDenied": {
+                            "title": "Acceso denegado",
+                            "text": " "
+                        },
+                        "LinkNotExist": {
+                            "title": "El enlace no es válido",
+                            "text": "Envíe un correo electrónico a <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> para solucionar el problema"
+                        },
+                        "DeactivationRequestError": {
+                            "title": "Se ha producido un problema al eliminar la cuenta de empresa",
+                            "text": "Envíe un correo electrónico a <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> para solucionar el problema"
+                        },
+                        "Failure": {
+                            "title": "Se ha producido un fallo desconocido",
+                            "text": "Se ha producido un fallo desconocido a la hora de eliminar la empresa. <br />Por favor, espere unos minutos e inténtelo de nuevo. <br/> Si el problema vuelve a aparecer, <a href='mailto:companyaccount@kaspersky.com'>contáctenos</a>."
+                        }
+                    },
+                    "success": {
+                        "title": "La empresa se ha eliminado correctamente",
+                        "description": " "
+                    }
+                }
+            }
+        }
+    }
+}

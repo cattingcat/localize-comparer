@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="KasperskyLab.CompanyAccount.Services.Diagnostic.DiagnosticService" CodeBehind="KasperskyLab.CompanyAccount.Services.WcfServiceFactory" %>

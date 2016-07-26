@@ -1,0 +1,34 @@
+﻿{
+    "globalize-messages": {
+        "en": {
+            "document": {
+                "statuses": {
+                    "1": "Active:",
+                    "2": "Expired (inactive):",
+                    "3": "Due to expire:",
+                    "until": "until "
+                },
+                "list": {
+                    "tabs": {
+                        "contracts": "Premium Support Agreements"
+                    },
+                    "item": {
+                        "attached-files": "Attached agreements:",
+                        "download": "Download",
+                        "date-start": "Activation date:"
+                    },
+                    "no-contract": {
+                        "title": "No <a href=\"http://www.kaspersky.com/enterprise-security/maintenance-service-agreement\" target=\"_blank\">premium support agreements</a> have been added.",
+                        "description": "Kaspersky Lab offers you premium support programs for customized approach and quickest response to your IT security issues. Choose a program most suitable for your business from a selection of Kaspersky Maintenance Service Agreement (MSA) options. </br> </br>  <a href=\"http://www.kaspersky.com/enterprise-security/maintenance-service-agreement\" target=\"_blank\">View premium support options</a></p>"
+                    },
+                    "errors": {
+                         "UnknownError": {
+                            "title": "The error occurred while loading the list of documents ",
+                            "text": "If the issue persists, please <a href='../request/create/ca' target=\"_blank\"> contact technical support</a>"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

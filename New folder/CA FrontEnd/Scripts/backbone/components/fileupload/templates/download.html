@@ -1,0 +1,26 @@
+<% for (var i = 0, file; file = files[i]; i++) { %>
+<tr class="template-download">
+
+    <% if(file.context && !file.context.key) { %>
+
+        <td title="<%- file.name %>"><%- file.getFileNameString() %></td>
+
+        <td>[<%- file.getFileSizeString() %>]</td>
+
+        <% if(file.error) { %>
+        <td class="clr-red" title="<%- file.error %>"><%_ fileupload/error %></td>
+        <% } else { %>
+        <td class="clr-green"><%_ fileupload/loaded %></td>
+        <% } %>
+
+    <% } else if(!file.error) { %>
+    <td title="<%- file.name %>"><%- file.getFileNameString() %></td>
+    <% } else { continue; } %>
+
+    <td>
+        <a href="javascript://" class="clr-red delete" data-id="<%- file.id %>"><%_ fileupload/delete %></a>
+        <div class="backdrop-confirm"></div>
+        <div class="modal-delete"></div>
+    </td>
+</tr>
+<% } %>

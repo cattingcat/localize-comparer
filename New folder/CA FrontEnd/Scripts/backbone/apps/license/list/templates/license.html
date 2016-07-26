@@ -1,0 +1,63 @@
+<div class="v-resize <%= statusBorderClass %>" style="height:100%"></div>
+<div class="pd cf">
+    <div class="w-66 prd">
+        <h4 class="license-sale-list-name"></h4>
+
+        <% if(!_.isEmpty(ActivationCode)) { %>
+        <p>
+            <%_ license/list/item/activation-code %> <span class="clr-black license-activation-code"></span>
+        </p>
+        <% } %>
+
+        <% if(!_.isEmpty(KeyFile) && _.isEmpty(ActivationCode)) { %>
+        <p>
+            <%_ license/list/item/key-file %> <span class="clr-black license-key-file-name"></span>
+        </p>
+        <% } %>
+
+        <a href="javascript://" class="dashed compatible-application" data="help-04-cont"><%_ license/list/item/compatible-application %></a>
+    </div>
+
+    <div class="w-33 pd-go">
+
+        <% if(ExpireDate) { %>
+        <span class="license-expire-date"></span><br/>
+        <% } %>
+
+        <span class="<%= statusTextClass %>"><b class="license-status"></b></span><br/>
+        <span class="<%= commentTextClass %> license-comment"></span>
+    </div>
+</div>
+<% if(expand) {%>
+<a href="javascript://" class="open-area close-area"></a>
+<div class="pd-add cf">
+<% } else { %>
+<a href="javascript://" class="open-area"></a>
+<div class="pd-add cf off">
+<% } %>
+    <div class="w-66 pdr">
+        <p>
+            <%_ license/list/item/count %> <span class="clr-black license-count"></span><br />
+
+            <% if(!_.isEmpty(SerialNumber)) { %>
+                <%_ license/list/item/serial-number %> <span class="clr-black license-serial-number"></span><br />
+            <% } %>
+
+            <% if(!_.isEmpty(OrderNumber)) { %>
+                <%_ license/list/item/order-number %> <span class="clr-black license-order-number"></span><br />
+            <% } %>
+
+            <% if(!_.isEmpty(AddDate)) { %>
+                <%_ license/list/item/add-date %> <span class="clr-black license-add-date"></span>
+            <% } %>
+        </p>
+
+        <% if(!_.isEmpty(KeyFile) && !_.isEmpty(ActivationCode)) { %>
+        <p>
+            <%_ license/list/item/key-file %> <span class="clr-black license-key-file-name"></span>
+        </p>
+        <% } %>
+
+        <a href="javascript://" class="clr-red link-modal-win license-remove" data="SystemError"><b><%_ license/list/item/remove-license %></b></a>
+    </div>
+</div>

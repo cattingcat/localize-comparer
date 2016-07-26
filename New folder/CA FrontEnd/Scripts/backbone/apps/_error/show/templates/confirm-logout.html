@@ -1,0 +1,16 @@
+﻿<div id="pass-oops" class="pd-big bg-white acenter" style="width:600px">
+    <a href="#" class="btn-close wp-close"></a>
+
+    <p>
+        <%= message %>
+    </p>
+
+    <!-- подтвердить логаут, перейти на страницу логина и запустить процесс удаления компании/... -->
+    <input type="submit"
+           class="btn btn-02 <% if(btnWarn){ %> bg-red <% } else { %> bg-green <% } %> wp-close confirm" 
+           value="<%= logoutBtnText %>">
+
+    <!-- отменить процесс логаута, остатьсян а странице со списком запросов -->
+    <input type="submit" class="btn btn-02 bg-green wp-close cancel" value="<%= closeBtnText %>">
+
+</div>

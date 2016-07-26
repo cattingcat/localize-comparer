@@ -1,0 +1,96 @@
+<div id="form-reg" class="pd-big bg-white" style="width:600px;">
+    <a href="javascript://" class="btn-close wp-close"></a>
+    <h2><%_ account/create/title %></h2>
+    <h3><%_ account/create/description %></h3>
+
+    <div class="mrt" action="/wp/SignIn/SignIn" data-ajax="true" data-ajax-begin="window.signInUpManager.beforeSignIn" data-ajax-complete="window.signInUpManager.afterSignIn" data-ajax-failure="window.signInUpManager.failedSignIn" data-ajax-method="post" data-ajax-mode="replace" data-ajax-update="#signInForm" id="form0" method="post">
+
+        <div class="cf">
+            <p class="w-50 pdr "><input type="text" class="w-100 account-first-name" data-placeholder="<%_ account/create/firstname %>"></p>
+            <p class="w-50 clr-red off" data-attribute="FirstName"></p>
+        </div>
+
+        <div class="cf">
+            <p class="w-50 pdr"><input type="text" class="w-100 account-last-name" data-placeholder="<%_ account/create/lastname %>"></p>
+            <p class="w-50 clr-red off" data-attribute="LastName"></p>
+        </div>
+
+        <div class="cf">
+            <p class="w-50 pdr"><input type="text" class="w-100 account-company" data-placeholder="<%_ account/create/company %>"></p>
+            <p class="w-50 clr-red off" data-attribute="Company"></p>
+        </div>
+
+        <div class="cf">
+            <p class="w-50 pdr"><input type="text" class="w-100 account-email" data-placeholder="<%_ account/create/email %>"></p>
+            <p class="w-50 clr-red off" data-attribute="Email"></p>
+        </div>
+
+        <div class="cf">
+            <p class="pdr" style="min-width:50%;display:inline-block;">
+                <span class="account-country select2">
+                </span>
+            <p class="clr-red off" style="min-width:30%;display: inline-block" data-attribute="Country"></p>
+            </p>
+        </div>
+
+        <div class="brdt"></div>
+
+        <div class="cf mrt">
+            <form class="fileupload-control account-key-file" id="" action="" method="POST" enctype="multipart/form-data">
+                <div class="fileupload-buttonbar mrr" style="display: inline-block; vertical-align:top;">
+                    <%_ fileupload/key/label %>
+                    <a href="javascript://" class="btn btn-01 bg-green pre-em bt-load mrl btn-upload">
+                        <em></em><%_ fileupload/key/button %><input class="input-key-file" type="file">
+                    </a>
+                </div>
+                <div style="display:inline-block;">
+                    <div class="cf key-info-region"> </div>
+                    <p class="off clr-red" data-attribute="KeyFile"></p>
+                </div>
+
+                <div class="clearfix"></div>
+            </form>
+        </div>
+
+        <div class="cf mrt">
+            <span class="w-100 pdr free"><%_ account/create/or-type-code %> </span>
+        </div>
+
+        <div class="cf activation-cf">
+            <p class="w-50 pdr">
+                <input type="text" class="w-100 account-activation-code masked" data-placeholder="XXXXX-XXXXX-XXXXX-XXXXX">
+            </p>
+
+            <div class="info-txt license-code">
+                <i>
+                    ?<span class="off">
+                        <%_ account/create/activationCodeTooltip %>
+                    </span>
+                </i>
+            </div>
+
+            
+            <p class="w-50 clr-red off" data-attribute="ActivationCode" style="padding-left: 9px;"></p>
+        </div>
+
+        <div class="brdt"></div>
+
+        <div class="cf mrt">
+            <div class="w-50 pdr captcha-region">
+            </div>
+            <p class="w-50 pdr clr-red mrt captcha-error" data-attribute="Captcha"></p>
+        </div>
+
+        <br />
+
+        <p><input type="checkbox" class="check-sm account-accept-privacy-statement" id="privacy-ch"/><label class="account-accept-privacy-statement-label" for="privacy-ch"><span></span><%_ account/create/privacystatement %></label>
+        </p>
+
+        <p><input type="checkbox" class="check-sm account-conduct-survey" id="survey-ch"><label for="survey-ch"><span></span><%_ account/create/survey-participation %></label></p>
+
+        <a href="javascript://">
+            <input type="button" class="btn btn-02 bg-gray btn-account-create" disabled="disabled" value="<%_ account/create/createbutton %>" data-default-text="<%_ account/create/createbutton %>" data-wait-text="Creating Kaspersky Account">
+            <div class="button-loading-region off" style="position: relative; top: -18px;"></div>
+        </a>
+    </div>
+</div>

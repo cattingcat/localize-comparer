@@ -1,0 +1,24 @@
+<div class="pd">
+    <div class="ava-area user-area mrb">
+        <h4>
+            <% if(showLink) { %>
+            <a href="#" class="work-customer-fullname"><%= CustomerFullName %></a>
+            <% } else { %>
+            <span><%= CustomerFullName %></span>
+            <% } %>
+        </h4>
+        <b class="work-submit-date"></b>
+    </div>
+    <p class="work-description">
+        <%= Description %>
+    </p>
+
+    <% if (AttachedFiles.length > 0) { %>
+    <span class="clr-gray"> <%_ request/view/attached-files %> </span>
+    <% for (var i = 0, file; file = AttachedFiles[i]; i++) { %>
+    <% if (file.FileName != '') { %>
+    <span class="file-name"> <%= trimFilename(file.FileName) %> [<%- getFileSizeString(file.FileSize) %>]; </span>
+    <% } %>
+    <% } %>
+    <% } %>
+</div>

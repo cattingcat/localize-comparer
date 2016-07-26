@@ -1,0 +1,47 @@
+﻿<div class="rel">
+    <div class="abs-title">
+        <p> <%_ profile/companyLogo/title %> <span class="fr clr-red"></span></p>
+
+        <!-- default logo -->
+        <div class="che logo-def acenter amiddle">
+            <span class="spinner-logo mrt2 off">
+                <img src="/img/load_indicator.gif" height="21" width="21" alt="" class="mrr mrt mrl">
+            </span>
+        </div>
+        
+        <!-- custom logo -->
+        <div class="logo-custom off">
+            <span> <img src="/Img/logo/kaspersky.png" alt="" class="che"> <br /> </span>
+            <p class="acenter"><a href="javascript://" class="clr-red logo-del"> <%_ profile/companyLogo/remove %> </a>
+            </p>
+        </div>        
+    </div>
+</div>
+<div class="cf">
+    <div class="w-66 fr min-h-01">
+        <p> <%_ profile/companyLogo/description %> </p>
+
+        <div class="error-message err off"></div>
+
+        <div class="mrt2">
+
+            <a href="javascript://" class="mrr btn btn-02 bg-green bt-load pre-em upload-button off">
+                <%_ fileupload/file/button %>
+                <form class="input-logo-file-form">
+                    <input type="file" name="logoImage" class="input-logo-file">
+                </form>
+            </a>
+
+            <a href="javascript://" class="mrr btn btn-02 bg-gray disabled bt-load pre-em upload-button-confirm"><%_ fileupload/file/button %></a>
+            
+            <!-- loading -->
+            <span class="spinner off">
+                <img src="/img/load_indicator.gif" height="21" width="21" alt="" class="mrr amiddle mrl">
+                <i><%_ profile/personalinfo/saveWait %></i>
+            </span>
+            <!-- success -->
+            <span class="ok mrl success off"><%_ profile/companyLogo/success %> </span> <span class="clr-red"></span>
+            <br/>
+        </div>
+    </div>
+</div>

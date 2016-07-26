@@ -1,0 +1,1216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationDtoSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Groups>
+    <Group name="Common">
+      <Types>
+        <Type typeName="KasperskyLab.CompanyAccount.WebAppModel.WebApi.Common.Dto.RequestDto.OfUserInfoModel">
+          <Properties>
+            <Property name="OfUsername">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+                <Rule xsi:type="MaxByteLengthRule">
+                  <ByteLength>254</ByteLength>
+                </Rule>
+              </Rules>
+            </Property>
+          </Properties>
+        </Type>
+        <Type typeName="KasperskyLab.CompanyAccount.Services.Common.Dto.RequestDto.OfUserInfoMessage">
+          <Properties>
+            <Property name="OfUsername">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+                <Rule xsi:type="MaxByteLengthRule">
+                  <ByteLength>254</ByteLength>
+                </Rule>
+              </Rules>
+            </Property>
+          </Properties>
+        </Type>
+        <Type typeName="KasperskyLab.CompanyAccount.WebAppModel.WebApi.Common.Dto.RequestDto.UserInfoModel">
+          <Properties>
+            <Property name="FirstName">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+                <Rule xsi:type="MaxByteLengthRule">
+                  <ByteLength>30</ByteLength>
+                </Rule>
+              </Rules>
+            </Property>
+            <Property name="LastName">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+                <Rule xsi:type="MaxByteLengthRule">
+                  <ByteLength>30</ByteLength>
+                </Rule>
+              </Rules>
+            </Property>
+            <Property name="Country">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+                <Rule xsi:type="MaxByteLengthRule">
+                  <ByteLength>30</ByteLength>
+                </Rule>
+              </Rules>
+            </Property>
+            <Property name="Organization">
+              <Rules>
+                <Rule xsi:type="MaxByteLengthRule">
+                  <ByteLength>60</ByteLength>
+                </Rule>
+              </Rules>
+            </Property>
+          </Properties>
+        </Type>
+      </Types>
+    </Group>
+    <Group name="Common.Token">
+      <Types>
+        <Type typeName="KasperskyLab.CompanyAccount.WebAppModel.CommonWeb.Common.TokenLinkModel">
+          <Properties>
+            <Property name="Username">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+                <Rule xsi:type="EmailBusinessRule" />
+              </Rules>
+            </Property>
+            <Property name="Timestamp">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+              </Rules>
+            </Property>
+            <Property name="Token">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+                <Rule xsi:type="StringLengthRule">
+                  <MaxLength>64</MaxLength>
+                  <MinLength>64</MinLength>
+                </Rule>
+                <Rule xsi:type="RegularExpressionRule">
+                  <Pattern>^\w*$</Pattern>
+                </Rule>
+              </Rules>
+            </Property>
+          </Properties>
+        </Type>
+        <Type typeName="KasperskyLab.CompanyAccount.Services.Common.Dto.RequestDto.TokenLinkMessage">
+          <Properties>
+            <Property name="Username">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+                <Rule xsi:type="EmailBusinessRule" />
+              </Rules>
+            </Property>
+            <Property name="Timestamp">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+              </Rules>
+            </Property>
+            <Property name="Token">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+                <Rule xsi:type="StringLengthRule">
+                  <MaxLength>64</MaxLength>
+                  <MinLength>64</MinLength>
+                </Rule>
+                <Rule xsi:type="RegularExpressionRule">
+                  <Pattern>^\w*$</Pattern>
+                </Rule>
+              </Rules>
+            </Property>
+          </Properties>
+        </Type>
+      </Types>
+    </Group>
+    <Group name="Account">
+      <Types>
+        <Type typeName="KasperskyLab.CompanyAccount.WebAppModel.WebApi.Account.RequestDto.UpdateLanguageModel">
+          <Properties>
+            <Property name="Language">
+              <Rules>
+                <Rule xsi:type="LanguageBusinessRule" />
+              </Rules>
+            </Property>
+          </Properties>
+        </Type>
+        <Type actionName="KasperskyLab.CompanyAccount.Services.User.IUserService.UpdateLanguage">
+          <Properties>
+            <Property name="language">
+              <Rules>
+                <Rule xsi:type="LanguageBusinessRule" />
+              </Rules>
+            </Property>
+          </Properties>
+        </Type>
+        <Type actionName="KasperskyLab.CompanyAccount.Services.User.IUserService.CreateOnSelfRegistration">
+          <Properties>
+            <Property name="userEmail">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+                <Rule xsi:type="MaxByteLengthRule">
+                  <ByteLength>254</ByteLength>
+                </Rule>
+              </Rules>
+            </Property>
+          </Properties>
+        </Type>
+        <Type typeName="KasperskyLab.CompanyAccount.Services.User.DTORequest.CreateOnSelfRegistrationMessage">
+          <Properties>
+            <Property name="UserFirstName">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+                <Rule xsi:type="MaxByteLengthRule">
+                  <ByteLength>30</ByteLength>
+                </Rule>
+              </Rules>
+            </Property>
+            <Property name="UserLastName">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+                <Rule xsi:type="MaxByteLengthRule">
+                  <ByteLength>30</ByteLength>
+                </Rule>
+              </Rules>
+            </Property>
+            <Property name="UserCountry">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+                <Rule xsi:type="MaxByteLengthRule">
+                  <ByteLength>30</ByteLength>
+                </Rule>
+              </Rules>
+            </Property>
+            <Property name="CompanyName">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+                <Rule xsi:type="MaxLengthRule">
+                  <Length>40</Length>
+                </Rule>
+              </Rules>
+            </Property>
+            <Property name="ActivationCode">
+              <Rules>
+                <Rule xsi:type="ActivationCodeRule">
+                  <Pattern>\w{5}-\w{5}-\w{5}-\w{5}</Pattern>
+                </Rule>
+                <Rule xsi:type="MaxByteLengthRule">
+                  <ByteLength>23</ByteLength>
+                </Rule>
+              </Rules>
+            </Property>
+            <Property name="UserLanguage">
+              <Rules>
+                <Rule xsi:type="LanguageBusinessRule" />
+              </Rules>
+            </Property>
+          </Properties>
+        </Type>
+        <Type typeName="KasperskyLab.CompanyAccount.WebAppModel.WebApi.Account.RequestDto.RegisterModel">
+          <Properties>
+            <Property name="Email">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+                <Rule xsi:type="EmailBusinessRule" />
+              </Rules>
+            </Property>
+            <Property name="FirstName">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+                <Rule xsi:type="MaxByteLengthRule">
+                  <ByteLength>30</ByteLength>
+                </Rule>
+              </Rules>
+            </Property>
+            <Property name="LastName">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+                <Rule xsi:type="MaxByteLengthRule">
+                  <ByteLength>30</ByteLength>
+                </Rule>
+              </Rules>
+            </Property>
+            <Property name="Company">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+                <Rule xsi:type="MaxLengthRule">
+                  <Length>40</Length>
+                </Rule>
+              </Rules>
+            </Property>
+            <Property name="Country">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+                <Rule xsi:type="MaxByteLengthRule">
+                  <ByteLength>60</ByteLength>
+                </Rule>
+              </Rules>
+            </Property>
+            <Property name="ActivationCode">
+              <Rules>
+                <Rule xsi:type="ActivationCodeRule">
+                  <Pattern>\w{5}-\w{5}-\w{5}-\w{5}</Pattern>
+                </Rule>
+                <Rule xsi:type="MaxByteLengthRule">
+                  <ByteLength>23</ByteLength>
+                </Rule>
+              </Rules>
+            </Property>
+            <Property name="Language">
+              <Rules>
+                <Rule xsi:type="LanguageBusinessRule" />
+              </Rules>
+            </Property>
+            <Property name="Captcha">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+              </Rules>
+            </Property>
+            <Property name="Hash">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+              </Rules>
+            </Property>
+          </Properties>
+        </Type>
+        <Type typeName="KasperskyLab.CompanyAccount.WebAppModel.WebSts.Common.RequestDto.ForgotPasswordModel">
+          <Properties>
+            <Property name="Email">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+                <Rule xsi:type="EmailBusinessRule" />
+              </Rules>
+            </Property>
+            <Property name="Captcha">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+              </Rules>
+            </Property>
+            <Property name="Hash">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+              </Rules>
+            </Property>
+          </Properties>
+        </Type>
+      </Types>
+    </Group>
+    <Group name="Paging">
+      <Types>
+        <Type typeName="KasperskyLab.CompanyAccount.Services.Common.PagingMessage">
+          <Properties>
+            <Property name="Skip">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+                <Rule xsi:type="RangeRule">
+                  <Minimum>0</Minimum>
+                  <Maximum>2147483647</Maximum>
+                </Rule>
+              </Rules>
+            </Property>
+            <Property name="Top">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+                <Rule xsi:type="RangeRule">
+                  <Minimum>1</Minimum>
+                  <Maximum>100</Maximum>
+                </Rule>
+              </Rules>
+            </Property>
+          </Properties>
+        </Type>
+      </Types>
+    </Group>
+    <Group name="Broadcast.SetStatusCollapsed">
+      <Types>
+        <Type actionName="KasperskyLab.CompanyAccount.Web.Controllers.BroadcastController.SetStatusCollapsed">
+          <Properties>
+            <Property name="broadcastId">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+                <Rule xsi:type="MaxByteLengthRule">
+                  <ByteLength>38</ByteLength>
+                </Rule>
+              </Rules>
+            </Property>
+          </Properties>
+        </Type>
+        <Type actionName="KasperskyLab.CompanyAccount.Services.Broadcast.IBroadcastService.SetStatusCollapsed">
+          <Properties>
+            <Property name="broadcastId">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+                <Rule xsi:type="MaxByteLengthRule">
+                  <ByteLength>38</ByteLength>
+                </Rule>
+              </Rules>
+            </Property>
+          </Properties>
+        </Type>
+      </Types>
+    </Group>
+    <Group name="Broadcast.SetStatusNeverShow">
+      <Types>
+        <Type actionName="KasperskyLab.CompanyAccount.Web.Controllers.BroadcastController.SetStatusNeverShow">
+          <Properties>
+            <Property name="broadcastId">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+                <Rule xsi:type="MaxByteLengthRule">
+                  <ByteLength>38</ByteLength>
+                </Rule>
+              </Rules>
+            </Property>
+          </Properties>
+        </Type>
+        <Type actionName="KasperskyLab.CompanyAccount.Services.Broadcast.IBroadcastService.SetStatusNeverShow">
+          <Properties>
+            <Property name="broadcastId">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+                <Rule xsi:type="MaxByteLengthRule">
+                  <ByteLength>38</ByteLength>
+                </Rule>
+              </Rules>
+            </Property>
+          </Properties>
+        </Type>
+      </Types>
+    </Group>
+    <Group name="Contract.GetContractAttachment">
+      <Types>
+        <Type typeName="KasperskyLab.CompanyAccount.Services.Contract.DTORequest.GetContractAttachmentMessage">
+          <Properties>
+            <Property name="ContractId">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+                <Rule xsi:type="MaxByteLengthRule">
+                  <ByteLength>40</ByteLength>
+                </Rule>
+              </Rules>
+            </Property>
+            <Property name="FileLink">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+                <Rule xsi:type="MaxLengthRule">
+                  <Length>1</Length>
+                </Rule>
+              </Rules>
+            </Property>
+          </Properties>
+        </Type>
+      </Types>
+    </Group>
+    <Group name="Request.CommonRequestCreate">
+      <Types>
+        <Type typeName="KasperskyLab.CompanyAccount.Services.Request.DTORequest.Submit.BaseSupportRequestSubmitMessage">
+          <Properties>
+            <Property name="ProductId">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+                <Rule xsi:type="MaxByteLengthRule">
+                  <ByteLength>15</ByteLength>
+                </Rule>
+              </Rules>
+            </Property>
+            <Property name="TypeId">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+                <Rule xsi:type="MaxByteLengthRule">
+                  <ByteLength>15</ByteLength>
+                </Rule>
+              </Rules>
+            </Property>
+            <Property name="OSVersion">
+              <Rules>
+                <Rule xsi:type="MaxByteLengthRule">
+                  <ByteLength>240</ByteLength>
+                </Rule>
+              </Rules>
+            </Property>
+          </Properties>
+        </Type>
+        <Type typeName="KasperskyLab.CompanyAccount.WebAppModel.WebApi.Request.RequestDto.CreateDto.BaseSupportRequestSubmitModel">
+          <Properties>
+            <Property name="ProductId">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+                <Rule xsi:type="MaxByteLengthRule">
+                  <ByteLength>15</ByteLength>
+                </Rule>
+              </Rules>
+            </Property>
+            <Property name="TypeId">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+                <Rule xsi:type="MaxByteLengthRule">
+                  <ByteLength>15</ByteLength>
+                </Rule>
+              </Rules>
+            </Property>
+            <Property name="OSVersion">
+              <Rules>
+                <Rule xsi:type="MaxByteLengthRule">
+                  <ByteLength>240</ByteLength>
+                </Rule>
+              </Rules>
+            </Property>
+          </Properties>
+        </Type>
+        <Type typeName="KasperskyLab.CompanyAccount.WebAppModel.WebApi.Request.RequestDto.CreateDto.BaseSubmitModel">
+          <Properties>
+            <Property name="Summary">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+                <Rule xsi:type="MaxLengthRule">
+                  <Length>50</Length>
+                </Rule>
+              </Rules>
+            </Property>
+            <Property name="Description">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+                <Rule xsi:type="TextMaxLengthLimitRule">
+                  <Length>10485760</Length>
+                </Rule>
+              </Rules>
+            </Property>
+          </Properties>
+        </Type>
+        <Type typeName="KasperskyLab.CompanyAccount.Services.Request.DTORequest.Submit.BaseSubmitMessage">
+          <Properties>
+            <Property name="Summary">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+                <Rule xsi:type="MaxLengthRule">
+                  <Length>50</Length>
+                </Rule>
+              </Rules>
+            </Property>
+            <Property name="Description">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+                <Rule xsi:type="TextMaxLengthLimitRule">
+                  <Length>10485760</Length>
+                </Rule>
+              </Rules>
+            </Property>
+          </Properties>
+        </Type>
+      </Types>
+    </Group>
+    <Group name="Request.AmrSupportRequestCreate">
+      <Types>
+        <Type typeName="KasperskyLab.CompanyAccount.Services.Request.DTORequest.Submit.AmrRequestSubmitMessage">
+          <Properties>
+            <Property name="Description">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+                <Rule xsi:type="TextMaxLengthLimitRule">
+                  <Length>10485760</Length>
+                </Rule>
+              </Rules>
+            </Property>
+            <Property name="TypeId">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+                <Rule xsi:type="MaxByteLengthRule">
+                  <ByteLength>15</ByteLength>
+                </Rule>
+              </Rules>
+            </Property>
+            <Property name="NotifyEmails">
+              <Rules>
+                <Rule xsi:type="MultiEmailRule" />
+              </Rules>
+            </Property>
+            <Property name="AttachedFiles">
+              <Rules>
+                <Rule xsi:type="MaxLengthRule">
+                  <Length>3</Length>
+                </Rule>
+              </Rules>
+            </Property>
+          </Properties>
+        </Type>
+        <Type typeName="KasperskyLab.CompanyAccount.WebAppModel.WebApi.Request.RequestDto.CreateDto.AmrRequestSubmitModel">
+          <Properties>
+            <Property name="Description">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+                <Rule xsi:type="TextMaxLengthLimitRule">
+                  <Length>10485760</Length>
+                </Rule>
+              </Rules>
+            </Property>
+            <Property name="TypeId">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+                <Rule xsi:type="MaxByteLengthRule">
+                  <ByteLength>15</ByteLength>
+                </Rule>
+              </Rules>
+            </Property>
+            <Property name="AttachedFiles">
+              <Rules>
+                <Rule xsi:type="MaxLengthRule">
+                  <Length>3</Length>
+                </Rule>
+              </Rules>
+            </Property>
+            <Property name="NotifyEmails">
+              <Rules>
+                <Rule xsi:type="MultiEmailRule" />
+              </Rules>
+            </Property>
+          </Properties>
+        </Type>
+      </Types>
+    </Group>
+    <Group name="Request.TechSupportRequestCreate">
+      <Types>
+        <Type typeName="KasperskyLab.CompanyAccount.Services.Request.DTORequest.Submit.TechSupportRequestSubmitMessage">
+          <Properties>
+            <Property name="ProductVersion">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+                <Rule xsi:type="MaxByteLengthRule">
+                  <ByteLength>254</ByteLength>
+                </Rule>
+              </Rules>
+            </Property>
+            <Property name="AttachedFiles">
+              <Rules>
+                <Rule xsi:type="MaxLengthRule">
+                  <Length>3</Length>
+                </Rule>
+              </Rules>
+            </Property>
+          </Properties>
+        </Type>
+        <Type typeName="KasperskyLab.CompanyAccount.WebAppModel.WebApi.Request.RequestDto.CreateDto.TechSupportRequestSubmitModel">
+          <Properties>
+            <Property name="ProductVersion">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+                <Rule xsi:type="MaxByteLengthRule">
+                  <ByteLength>254</ByteLength>
+                </Rule>
+              </Rules>
+            </Property>
+            <Property name="AttachedFiles">
+              <Rules>
+                <Rule xsi:type="MaxLengthRule">
+                  <Length>3</Length>
+                </Rule>
+              </Rules>
+            </Property>
+          </Properties>
+        </Type>
+      </Types>
+    </Group>
+    <Group name="Request.CaSupportRequestCreate">
+      <Types>
+        <Type typeName="KasperskyLab.CompanyAccount.Services.Request.DTORequest.Submit.CaQuestionSubmitMessage">
+          <Properties>
+            <Property name="AttachedFiles">
+              <Rules>
+                <Rule xsi:type="MaxLengthRule">
+                  <Length>3</Length>
+                </Rule>
+              </Rules>
+            </Property>
+          </Properties>
+        </Type>
+        <Type typeName="KasperskyLab.CompanyAccount.WebAppModel.WebApi.Request.RequestDto.CreateDto.CaQuestionSubmitModel">
+          <Properties>
+            <Property name="AttachedFiles">
+              <Rules>
+                <Rule xsi:type="MaxLengthRule">
+                  <Length>3</Length>
+                </Rule>
+              </Rules>
+            </Property>
+          </Properties>
+        </Type>
+      </Types>
+    </Group>
+    <Group name="Request.AddComment">
+      <Types>
+        <Type typeName="KasperskyLab.CompanyAccount.WebAppModel.WebApi.Request.RequestDto.AddCommentModel">
+          <Properties>
+            <Property name="IncidentNumber">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+                <Rule xsi:type="MaxByteLengthRule">
+                  <ByteLength>15</ByteLength>
+                </Rule>
+              </Rules>
+            </Property>
+            <Property name="Text">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+              </Rules>
+            </Property>
+            <Property name="AttachedFiles">
+              <Rules>
+                <Rule xsi:type="MaxLengthRule">
+                  <Length>3</Length>
+                </Rule>
+              </Rules>
+            </Property>
+          </Properties>
+        </Type>
+        <Type typeName="KasperskyLab.CompanyAccount.Services.Request.DTORequest.AddCommentMessage">
+          <Properties>
+            <Property name="IncidentNumber">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+                <Rule xsi:type="MaxByteLengthRule">
+                  <ByteLength>15</ByteLength>
+                </Rule>
+              </Rules>
+            </Property>
+            <Property name="Text">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+              </Rules>
+            </Property>
+            <Property name="AttachedFiles">
+              <Rules>
+                <Rule xsi:type="MaxLengthRule">
+                  <Length>3</Length>
+                </Rule>
+              </Rules>
+            </Property>
+          </Properties>
+        </Type>
+      </Types>
+    </Group>
+    <Group name="Request.Close">
+      <Types>
+        <Type typeName="KasperskyLab.CompanyAccount.WebAppModel.WebApi.Request.RequestDto.CloseRequestModel">
+          <Properties>
+            <Property name="IncidentNumber">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+                <Rule xsi:type="MaxByteLengthRule">
+                  <ByteLength>15</ByteLength>
+                </Rule>
+              </Rules>
+            </Property>
+          </Properties>
+        </Type>
+        <Type actionName="KasperskyLab.CompanyAccount.Services.Request.IRequestService.CloseRequest">
+          <Properties>
+            <Property name="incidentNumber">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+                <Rule xsi:type="MaxByteLengthRule">
+                  <ByteLength>15</ByteLength>
+                </Rule>
+              </Rules>
+            </Property>
+          </Properties>
+        </Type>
+      </Types>
+    </Group>
+    <Group name="Request.TaSupportRequestCreate">
+      <Types>
+        <Type typeName="KasperskyLab.CompanyAccount.Services.Request.DTORequest.Submit.TaSupportRequestSubmitMessage">
+          <Properties>
+            <Property name="ProductVersion">
+              <Rules>
+                <Rule xsi:type="MaxByteLengthRule">
+                  <ByteLength>254</ByteLength>
+                </Rule>
+              </Rules>
+            </Property>
+            <Property name="NotifyEmails">
+              <Rules>
+                <Rule xsi:type="MultiEmailRule" />
+              </Rules>
+            </Property>
+            <Property name="AttachedFiles">
+              <Rules>
+                <Rule xsi:type="MaxLengthRule">
+                  <Length>3</Length>
+                </Rule>
+              </Rules>
+            </Property>
+          </Properties>
+        </Type>
+        <Type typeName="KasperskyLab.CompanyAccount.WebAppModel.WebApi.Request.RequestDto.CreateDto.TaSupportRequestSubmitModel">
+          <Properties>
+            <Property name="ProductVersion">
+              <Rules>
+                <Rule xsi:type="MaxByteLengthRule">
+                  <ByteLength>254</ByteLength>
+                </Rule>
+              </Rules>
+            </Property>
+            <Property name="NotifyEmails">
+              <Rules>
+                <Rule xsi:type="MultiEmailRule" />
+              </Rules>
+            </Property>
+            <Property name="AttachedFiles">
+              <Rules>
+                <Rule xsi:type="MaxLengthRule">
+                  <Length>3</Length>
+                </Rule>
+              </Rules>
+            </Property>
+          </Properties>
+        </Type>
+      </Types>
+    </Group>
+    <Group name="Request.FeedbackRequestCreate">
+      <Types>
+        <Type typeName="KasperskyLab.CompanyAccount.Services.Request.DTORequest.Submit.FeedbackRequestSubmitMessage">
+          <Properties>
+            <Property name="RequestDetails">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+                <Rule xsi:type="TextMaxLengthLimitRule">
+                  <Length>10485760</Length>
+                </Rule>
+              </Rules>
+            </Property>
+            <Property name="TypeId">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+                <Rule xsi:type="MaxByteLengthRule">
+                  <ByteLength>15</ByteLength>
+                </Rule>
+              </Rules>
+            </Property>
+            <Property name="FeedbackIncidentNumber">
+              <Rules>
+                <Rule xsi:type="MaxByteLengthRule">
+                  <ByteLength>15</ByteLength>
+                </Rule>
+              </Rules>
+            </Property>
+          </Properties>
+        </Type>
+        <Type typeName="KasperskyLab.CompanyAccount.WebAppModel.Request.RequestDto.CreateDto.FeedbackRequestSubmitModel">
+          <Properties>
+            <Property name="Details">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+                <Rule xsi:type="TextMaxLengthLimitRule">
+                  <Length>10485760</Length>
+                </Rule>
+              </Rules>
+            </Property>
+            <Property name="TypeId">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+                <Rule xsi:type="MaxByteLengthRule">
+                  <ByteLength>15</ByteLength>
+                </Rule>
+              </Rules>
+            </Property>
+            <Property name="FeedbackIncidentNumber">
+              <Rules>
+                <Rule xsi:type="MaxByteLengthRule">
+                  <ByteLength>15</ByteLength>
+                </Rule>
+              </Rules>
+            </Property>
+          </Properties>
+        </Type>
+      </Types>
+    </Group>
+    <Group name="Request.GetDetails">
+      <Types>
+        <Type actionName="KasperskyLab.CompanyAccount.Web.Controllers.RequestController.GetDetails">
+          <Properties>
+            <Property name="number">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+                <Rule xsi:type="MaxByteLengthRule">
+                  <ByteLength>15</ByteLength>
+                </Rule>
+              </Rules>
+            </Property>
+          </Properties>
+        </Type>
+        <Type actionName="KasperskyLab.CompanyAccount.Services.Request.IRequestService.GetRequestDetailsByNumber">
+          <Properties>
+            <Property name="incidentNumber">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+                <Rule xsi:type="MaxByteLengthRule">
+                  <ByteLength>15</ByteLength>
+                </Rule>
+              </Rules>
+            </Property>
+          </Properties>
+        </Type>
+      </Types>
+    </Group>
+    <Group name="Request.GetDetailsById">
+      <Types>
+        <Type actionName="KasperskyLab.CompanyAccount.Web.Controllers.RequestController.GetDetailsById">
+          <Properties>
+            <Property name="id">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+                <Rule xsi:type="MaxByteLengthRule">
+                  <ByteLength>38</ByteLength>
+                </Rule>
+              </Rules>
+            </Property>
+          </Properties>
+        </Type>
+        <Type actionName="KasperskyLab.CompanyAccount.Services.Request.IRequestService.GetRequestDetailsById">
+          <Properties>
+            <Property name="instanceId">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+                <Rule xsi:type="MaxByteLengthRule">
+                  <ByteLength>38</ByteLength>
+                </Rule>
+              </Rules>
+            </Property>
+          </Properties>
+        </Type>
+      </Types>
+    </Group>
+    <Group name="Request.GetRequestAttachment">
+      <Types>
+        <Type typeName="KasperskyLab.CompanyAccount.Services.Request.DTORequest.GetRequestAttachmentMessage">
+          <Properties>
+            <Property name="WorkLogId">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+                <Rule xsi:type="MaxByteLengthRule">
+                  <ByteLength>32</ByteLength>
+                </Rule>
+              </Rules>
+            </Property>
+          </Properties>
+        </Type>
+      </Types>
+    </Group>
+    <Group name="License.GetCompatibleApplicationList">
+      <Types>
+        <Type actionName="KasperskyLab.CompanyAccount.Web.Controllers.LicenseController.GetCompatibleApplicationList">
+          <Properties>
+            <Property name="reconciliationId">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+                <Rule xsi:type="MaxByteLengthRule">
+                  <ByteLength>38</ByteLength>
+                </Rule>
+              </Rules>
+            </Property>
+          </Properties>
+        </Type>
+        <Type actionName="KasperskyLab.CompanyAccount.Services.License.ILicenseService.GetCompatibleApplicationList">
+          <Properties>
+            <Property name="reconciliationId">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+                <Rule xsi:type="MaxByteLengthRule">
+                  <ByteLength>38</ByteLength>
+                </Rule>
+              </Rules>
+            </Property>
+          </Properties>
+        </Type>
+      </Types>
+    </Group>
+    <Group name="License.Add">
+      <Types>
+        <Type typeName="KasperskyLab.CompanyAccount.WebAppModel.WebApi.License.RequestDto.AddLicenseModel">
+          <Properties>
+            <Property name="ActivationCode">
+              <Rules>
+                <Rule xsi:type="ActivationCodeRule">
+                  <Pattern>\w{5}-\w{5}-\w{5}-\w{5}</Pattern>
+                </Rule>
+                <Rule xsi:type="MaxByteLengthRule">
+                  <ByteLength>23</ByteLength>
+                </Rule>
+              </Rules>
+            </Property>
+          </Properties>
+        </Type>
+        <Type typeName="KasperskyLab.CompanyAccount.Services.License.DTORequest.AddLicenseMessage">
+          <Properties>
+            <Property name="ActivationCode">
+              <Rules>
+                <Rule xsi:type="ActivationCodeRule">
+                  <Pattern>\w{5}-\w{5}-\w{5}-\w{5}</Pattern>
+                </Rule>
+                <Rule xsi:type="MaxByteLengthRule">
+                  <ByteLength>23</ByteLength>
+                </Rule>
+              </Rules>
+            </Property>
+          </Properties>
+        </Type>
+      </Types>
+    </Group>
+    <Group name="License.Delete">
+      <Types>
+        <Type typeName="KasperskyLab.CompanyAccount.WebAppModel.WebApi.License.RequestDto.DeleteLicenseModel">
+          <Properties>
+            <Property name="LicenseId">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+                <Rule xsi:type="MaxByteLengthRule">
+                  <ByteLength>38</ByteLength>
+                </Rule>
+              </Rules>
+            </Property>
+          </Properties>
+        </Type>
+        <Type typeName="KasperskyLab.CompanyAccount.Services.License.DTORequest.DeleteLicenseMessage">
+          <Properties>
+            <Property name="ReconciliationID">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+                <Rule xsi:type="MaxByteLengthRule">
+                  <ByteLength>38</ByteLength>
+                </Rule>
+              </Rules>
+            </Property>
+          </Properties>
+        </Type>
+      </Types>
+    </Group>
+    <Group name="Session.Save">
+      <Types>
+        <Type typeName="KasperskyLab.CompanyAccount.Services.Session.DTORequest.SaveSessionMessage">
+          <Properties>
+            <Property name="Username">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+                <Rule xsi:type="EmailBusinessRule" />
+              </Rules>
+            </Property>
+          </Properties>
+        </Type>
+      </Types>
+    </Group>
+    <Group name="User.GetList">
+      <Types>
+        <Type actionName="KasperskyLab.CompanyAccount.Web.Controllers.UserController.GetList">
+          <Properties>
+            <Property name="countryFilter">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+              </Rules>
+            </Property>
+            <Property name="organizationFilter">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+              </Rules>
+            </Property>
+          </Properties>
+        </Type>
+        <Type typeName="KasperskyLab.CompanyAccount.Services.Company.DTORequest.GetCompanyUserListMessage">
+          <Properties>
+            <Property name="CountryFilter">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+              </Rules>
+            </Property>
+            <Property name="OrganizationFilter">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+              </Rules>
+            </Property>
+          </Properties>
+        </Type>
+      </Types>
+    </Group>
+    <Group name="User.SetPassword">
+      <Types>
+        <Type typeName="KasperskyLab.CompanyAccount.Services.StsAuthentication.DTORequest.SetPasswordMessage">
+          <Properties>
+            <Property name="Password">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+                <Rule xsi:type="PasswordBusinessRule" />
+                <Rule xsi:type="NotEqualToRule">
+                  <OtherProperty>TokenLink.Username</OtherProperty>
+                </Rule>
+              </Rules>
+            </Property>
+            <Property name="TokenLink">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+                <Rule xsi:type="ComplexDtoRule" />
+              </Rules>
+            </Property>
+          </Properties>
+        </Type>
+        <Type typeName="KasperskyLab.CompanyAccount.WebAppModel.WebSts.Common.RequestDto.SetPasswordModel">
+          <Properties>
+            <Property name="Password">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+                <Rule xsi:type="NotEqualToRule">
+                  <OtherProperty>TokenLink.Username</OtherProperty>
+                </Rule>
+                <Rule xsi:type="PasswordBusinessRule" />
+              </Rules>
+            </Property>
+            <Property name="TokenLink">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+                <Rule xsi:type="ComplexDtoRule" />
+              </Rules>
+            </Property>
+          </Properties>
+        </Type>
+      </Types>
+    </Group>
+    <Group name="Sts.SetExpiredPassword">
+      <Types>
+        <Type typeName="KasperskyLab.CompanyAccount.WebAppModel.WebSts.Account.RequestDto.SetExpiredPasswordModel">
+          <Properties>
+            <Property name="Password">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+                <Rule xsi:type="PasswordBusinessRule" />
+                <Rule xsi:type="NotEqualToRule">
+                  <OtherProperty>Username</OtherProperty>
+                </Rule>
+              </Rules>
+            </Property>
+            <Property name="Username">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+                <Rule xsi:type="EmailBusinessRule" />
+              </Rules>
+            </Property>
+          </Properties>
+        </Type>
+        <Type typeName="KasperskyLab.CompanyAccount.Services.StsAuthentication.DTORequest.SetPasswordWhenExpiredMessage">
+          <Properties>
+            <Property name="Password">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+                <Rule xsi:type="PasswordBusinessRule" />
+                <Rule xsi:type="NotEqualToRule">
+                  <OtherProperty>Username</OtherProperty>
+                </Rule>
+              </Rules>
+            </Property>
+            <Property name="Username">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+                <Rule xsi:type="EmailBusinessRule" />
+              </Rules>
+            </Property>
+          </Properties>
+        </Type>
+      </Types>
+    </Group>
+    <Group name="User.UpdateProfileDetails">
+      <Types>
+        <Type typeName="KasperskyLab.CompanyAccount.WebAppModel.WebApi.User.RequestDto.UpdateProfileDetailsModel">
+          <Properties>
+            <Property name="OfUsername">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+                <Rule xsi:type="MaxByteLengthRule">
+                  <ByteLength>254</ByteLength>
+                </Rule>
+              </Rules>
+            </Property>
+          </Properties>
+        </Type>
+        <Type typeName="KasperskyLab.CompanyAccount.Services.User.DTORequest.UpdateProfileDetailsMessage">
+          <Properties>
+            <Property name="FirstName">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+                <Rule xsi:type="MaxByteLengthRule">
+                  <ByteLength>30</ByteLength>
+                </Rule>
+              </Rules>
+            </Property>
+            <Property name="LastName">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+                <Rule xsi:type="MaxByteLengthRule">
+                  <ByteLength>30</ByteLength>
+                </Rule>
+              </Rules>
+            </Property>
+            <Property name="Country">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+                <Rule xsi:type="MaxByteLengthRule">
+                  <ByteLength>30</ByteLength>
+                </Rule>
+              </Rules>
+            </Property>
+            <Property name="Organization">
+              <Rules>
+                <Rule xsi:type="MaxByteLengthRule">
+                  <ByteLength>60</ByteLength>
+                </Rule>
+              </Rules>
+            </Property>
+          </Properties>
+        </Type>
+      </Types>
+    </Group>
+    <Group name="UserManager.Login">
+      <Types>
+        <Type actionName="KasperskyLab.CompanyAccount.Services.Session.ISessionService.GetUserSessionCount">
+          <Properties>
+            <Property name="username">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+              </Rules>
+            </Property>
+          </Properties>
+        </Type>
+        <Type actionName="KasperskyLab.CompanyAccount.Services.StsAuthentication.IStsAuthenticationService.GetUserBlockingInfo">
+          <Properties>
+            <Property name="username">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+              </Rules>
+            </Property>
+          </Properties>
+        </Type>
+        <Type actionName="KasperskyLab.CompanyAccount.Services.StsAuthentication.IStsAuthenticationService.Authenticate">
+          <Properties>
+            <Property name="username">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+              </Rules>
+            </Property>
+          </Properties>
+        </Type>
+        <Type actionName="KasperskyLab.CompanyAccount.Services.StsAuthentication.IStsAuthenticationService.GetUserInfo">
+          <Properties>
+            <Property name="username">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+              </Rules>
+            </Property>
+          </Properties>
+        </Type>
+        <Type actionName="KasperskyLab.CompanyAccount.Services.StsAuthentication.IStsAuthenticationService.SetUserBlockingInfo">
+          <Properties>
+            <Property name="username">
+              <Rules>
+                <Rule xsi:type="RequiredRule" />
+              </Rules>
+            </Property>
+          </Properties>
+        </Type>
+      </Types>
+    </Group>
+  </Groups>
+</ValidationDtoSettings>

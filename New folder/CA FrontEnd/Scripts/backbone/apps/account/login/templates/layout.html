@@ -1,0 +1,41 @@
+<div class="area-login bg-white">
+    <h2><%_ account/login/title %></h2>
+    <p class="info-txt">
+        <%_ account/login/subtitle %>
+        <i>
+            ?<span class="off">
+                <%_ account/login/tooltip %>                
+            </span>
+        </i>
+    </p>
+
+    <form class="mrt" action="/wp/SignIn/SignIn" data-ajax="true" data-ajax-begin="window.signInUpManager.beforeSignIn" data-ajax-complete="window.signInUpManager.afterSignIn" data-ajax-failure="window.signInUpManager.failedSignIn" data-ajax-method="post" data-ajax-mode="replace" data-ajax-update="#signInForm" id="loginForm" method="post">
+        <p>
+            <input type="text" name="username" id="username" class="inp-w100 account-email" data-placeholder="<%_ account/login/email %>">
+        </p>
+        <p class="password-input">
+            <input type="password" name="password" id="password" class="inp-w100 account-password" />
+            <span class="password-placeholder psw"><%_ account/login/password %></span>
+        </p>
+        <div class="cf small mrb">
+            <div class="fl">
+                <a href="#" data="form-forgot--" class="account-forgot"><%_ account/login/forgot %></a>
+            </div>
+        </div>
+        <div class="error-summary">
+        </div>
+        <div class="cf captcha-region captcha-login">
+        </div>
+
+        <input type="submit" id="loginButton" class="btn btn-02 bg-green w-100 btn-account-login" value="<%_ account/login/login %>" data-wait-text="<%_ account/login/loading %>" data-default-text="<%_ account/login/login %>" />
+        <div class="login-loading-region off" style="position: relative;top: -18px; left: 50%;"></div>
+    </form>
+    <div class="hr"></div>
+    <div class="pd-small"><%_ account/login/noaccount %></div>
+    <a href="#" data="form-reg" class="account-create"><%_ account/login/create %></a>
+</div>
+
+<div class="pl-note">
+    <h3><%_ account/login/notetitle %></h3>
+    <div><%_ account/login/notedescription %></div>
+</div>

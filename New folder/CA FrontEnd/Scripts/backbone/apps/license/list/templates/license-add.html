@@ -1,0 +1,17 @@
+﻿<p><%_ license/add/license-add-label %></p>
+<div>
+    <input type="text" class="lic-inp license-code account-activation-code masked" data-placeholder="XXXXX-XXXXX-XXXXX-XXXXX">
+    <a href="javascript://" class="btn btn-02 bg-green lic-add"><%_ license/add/code-add %></a> <%_ license/add/code-add-or %>
+    <span class="file-attachment license-key-file">
+        <form class="fileupload-control" enctype="multipart/form-data" style="display: inline-block;">
+            <a href="javascript://" class="mrr btn btn-02 bg-green bt-load pre-em btn-upload">
+                <em></em><%_ fileupload/file/button %><input class="fileupload-input-key-file" type="file" />
+            </a>
+        </form>
+    </span>
+</div>
+
+<!-- Все статусы и ошибки при загрузке лицензии -->
+<span class="license-upload-process mrt off"><img src="/img/load_indicator.gif" height="21" width="21" alt="" class="mrr"><i><span><%_ license/add/process %></span></i></span>
+<span class="license-upload-ok ok mrt off"> <%_ license/add/errors/Success %> </span>
+<span class="license-upload-err err mrt off"></span>

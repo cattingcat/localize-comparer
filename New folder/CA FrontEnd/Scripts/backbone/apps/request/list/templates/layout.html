@@ -1,0 +1,43 @@
+<div class="title-area cf">
+    <h2><%_ request/list/tabs/requests %></h2>
+    <div class="aright fr pd request-list-filter-block">
+
+        <!-- Включение селектора "Автор запроса" производится снятием атрибута off у двух следующих тегов-->
+        <% if(authors && !_.isEmpty(authors)) { %>
+        <span class="sel-cmt filter-authors"> <%_ request/list/filter-by-author-label %> </span>
+        <span class="sel-cust inp-wa mrr filter-authors">
+            <select class="request-author">
+                <option value="All"><%_ request/list/filter-by-status/All %></option>
+                <% _.each(authors, function (i) { %>
+                <option value="<%- i.Email %>"><%= i.FullName %></option>
+                <% }) %>
+                <% if(showByDeleted) { %>
+                <option value="ByDeletedUsers"><%_ request/list/filter-by-status/ByDeletedUsers %></option>
+                <% } %>
+            </select>
+        </span>
+        <% } %>
+
+        <span class="sel-cmt"> <%_ request/list/filter-by-status-label %> </span>
+        <span class="sel-cust inp-wa">
+            <select class="request-status">
+                <option value='All'><%_ request/list/filter-by-status/All %></option>
+                <option value='WaitingForResponse'><%_ request/list/filter-by-status/WaitingForResponse %></option>
+                <option value='InWork'><%_ request/list/filter-by-status/InWork %></option>
+                <option value='Inactive'><%_ request/list/filter-by-status/Inactive %></option>
+            </select>
+        </span>
+    </div>
+</div>
+
+<!-- Закладка "Запросы" -->
+<div id="folder-01" class="pd">
+
+    <div class="request-list-region">
+        <!-- list of requests (see request.html) -->
+    </div>
+
+    <div class="pager-region">
+
+    </div>
+</div>

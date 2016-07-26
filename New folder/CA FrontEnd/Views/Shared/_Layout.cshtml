@@ -1,0 +1,246 @@
+﻿@using System.Configuration
+@using System.Web.Http
+@using KasperskyLab.CompanyAccount.Settings.Validation
+@using KasperskyLab.CompanyAccount.Web.Infrastructure
+@using KasperskyLab.CompanyAccount.Web.Settings
+@using Microsoft.AspNet.Identity.Owin
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Kaspersky CompanyAccount</title>
+    @Styles.Render("~/Content/css")
+    <!--[if lt IE 9]>
+    @Scripts.Render("~/bundles/es5shim")
+    <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <link rel='stylesheet' type='text/css' href='Content/site-ie.css' />
+    <![endif]-->
+
+@if (SettingsRegistry.FrontEndSettings.EnableGoogleTagManager)
+{
+    <!-- Google Tag Manager -->
+
+    <script>
+        var dataLayer = [
+            { site_website: '@SettingsRegistry.FrontEndSettings.GoogleTagManagerWebSite' }
+        ]
+    </script>
+
+    <noscript>
+        <iframe src="//www.googletagmanager.com/ns.html?id=@SettingsRegistry.FrontEndSettings.GoogleTagManagerAccountId" height="0" width="0" style="display: none; visibility: hidden"></iframe>
+    </noscript>
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start':
+                    new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src = '//www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', '@SettingsRegistry.FrontEndSettings.GoogleTagManagerAccountId');
+    </script>
+
+    <!-- End Google Tag Manager -->
+}
+
+@if (SettingsRegistry.FrontEndSettings.EnableGoogleAnalytics)
+{
+    <script>
+
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', '@SettingsRegistry.FrontEndSettings.GoogleAnalyticsAccountId', 'auto');
+
+    </script>
+}
+
+</head>
+<body>
+    <div id="backdrop-region"></div>
+    <div class="cf pd-body">
+        <div id="header-region" class="wrap cf"></div>
+        <div id="notification-region" class="wrap cf"></div>
+        <div id="license-error-region" class="wrap cf"></div>
+        <div id="main-region" class="wrap cf"></div>
+        <div id="main-modal-region"></div>
+        @RenderBody()
+    </div>
+    <div id="footer-region"></div>
+
+    @if (SettingsRegistry.FrontEndCommonSettings.EnableUiAssemblyInfo)
+    {
+        <table id="assembly-info" style="font-size: 11px;">
+            <tbody></tbody>
+        </table>
+    }
+
+    @if (SettingsRegistry.FrontEndSettings.EnableUiAjaxTracing)
+    {
+        <table id="ajax-trace" style="font-size: 11px;">
+            <tbody></tbody>
+        </table>
+    }
+
+    @Scripts.Render("~/bundles/lib")
+    <script src="~/signalr/hubs"></script>
+    @Scripts.Render("~/bundles/cldr")
+    @Scripts.Render("~/bundles/globalize")
+    <script src="@Scripts.Url("~/bundles/templates")"></script>
+    @Scripts.Render("~/bundles/app")
+
+<script type="text/javascript">
+    if (typeof(window.localStorage) == 'unknown' || typeof(window.localStorage) == 'undefined') {
+        store.localStorageName = 'sessionStorage';
+    }
+
+    var settings = App.request('settings:entity'),
+        lang = settings.get('language').value,
+        auth = App.request('auth:entity'),
+        langDfd = $.Deferred();
+
+    @Html.CreateValidationDtoSettings(HttpContext.Current.GetOwinContext().Get<HttpConfiguration>().Services.GetApiExplorer().ApiDescriptions)
+    
+    @{ Html.RenderPartial("StsValidation");};
+
+    @Html.CreateFileValidationDtoSettings()
+
+    if(auth.isAuthorized() && !StorageQueue.check('lang-changed')) {
+        var tokenLang = App.AuthInfo.get('language');
+        if(tokenLang) {
+            lang = lang && tokenLang;
+
+            var langObj = settings.findLang(lang);
+
+            settings.set('language', langObj, { silent:true });
+            settings.saveLang();
+            App.AuthInfo.set({language: lang});
+
+            langDfd.resolve(lang);
+        } else {
+
+            App.request('userInfo:entity', {
+                success: function(model, resp) {
+                    var userLang = model.get('Language');
+                    lang = userLang || lang;
+
+                    var langObj = settings.findLang(lang);
+
+                    settings.set('language', langObj, {silent:true});
+                    settings.saveLang();
+                    langDfd.resolve(lang);
+                },
+                error: function(resp) {
+                    langDfd.resolve(lang);
+                }
+            });
+        }
+    } else {
+        StorageQueue.del('lang-changed');
+        langDfd.resolve(lang);
+    }
+
+    _.extend(App, {
+        version: @DateTime.Now.DayOfYear,
+        currentYear: @DateTime.Now.Year,
+        enableSignalR: @Json.Encode(SettingsRegistry.SignalRSettings.EnableSignalR),
+        enableLogging: @Json.Encode(SettingsRegistry.FrontEndSettings.EnableUiLogging),
+        sendRequestIdFromUi: @Json.Encode(SettingsRegistry.FrontEndSettings.SendRequestIdFromUi),
+        traceMessagesCount: @SettingsRegistry.FrontEndSettings.AjaxTracingCount,
+        requestIdHeader: '@System.Configuration.ConfigurationManager.AppSettings["RequestIdHeaderName"]',
+        tokenExpiration: @SettingsRegistry.FrontEndSettings.AccessTokenUiExpiration,
+        replaceLocalizationErrors: @Json.Encode(SettingsRegistry.FrontEndSettings.EnableUiLocalizeErrorsReplacing),
+        commonErrorCodes: '@SettingsRegistry.FrontEndSettings.CommonErrorCodes',
+        tokenErrorCodes: '@SettingsRegistry.FrontEndSettings.TokenErrorCodes',
+        passwordRegex: '@Html.Raw(ValidationSettingsRegistry.ValidationDtoSettings.PasswordRuleRegularExpression)',
+        availableLanguages: @Html.Raw(Json.Encode(ValidationSettingsRegistry.ValidationDtoSettings.ValidationLanguages)),
+        requests: {
+            'support': '@SettingsRegistry.BusinessCommonSettings.TechnicalSupportRequestSrdInstanceId',
+            'support-ta': '@SettingsRegistry.BusinessCommonSettings.TaSupportSrdInstanceId',
+            'support-msa': '@SettingsRegistry.BusinessCommonSettings.MsaSupportSrdInstanceId',
+            'virlab': '@SettingsRegistry.BusinessCommonSettings.AmrSrdInstanceId',
+            'virlab-msa': '@SettingsRegistry.BusinessCommonSettings.MsaAmrSrdInstanceId',
+            'csr': '@SettingsRegistry.BusinessCommonSettings.CsrSrdInstanceId',
+            'ca': '@SettingsRegistry.BusinessCommonSettings.CaQuestionSrdInstanceId',
+            'aps': '@SettingsRegistry.BusinessCommonSettings.AdvancedProtectionServiceSrdInstanceId',
+            'feedback':    '@SettingsRegistry.BusinessCommonSettings.FeedbackSrdInstanceId',
+        },
+        fileNameEllipsis: @SettingsRegistry.FrontEndSettings.UiFileNameEllipsisDefault,
+        fileNameEllipsisClientRegistration: @SettingsRegistry.FrontEndSettings.UiFileNameEllipsisClientRegistration,
+        limits: {
+            'maxFileSize': '@SettingsRegistry.FileSizeSettings.MaxFileSize',
+            'amrMaxFileSize': '@SettingsRegistry.FileSizeSettings.AmrMaxFileSize',
+            'csrMaxFileSize': '@SettingsRegistry.FileSizeSettings.CsrMaxFileSize',
+            'keyMaxFileSize': '@SettingsRegistry.FileSizeSettings.KeyMaxFileSize',
+            'maxChunkSize': '@SettingsRegistry.FileSizeSettings.MaxChunkSize'
+        },
+        stsServer: {
+            crossDomain: @Json.Encode(SettingsRegistry.StsSettings.StsCors),
+            url: '@ConfigurationManager.AppSettings[string.Format("StsUrl{0}", ConfigurationManager.AppSettings["ConfigDeployPostfix"])]',
+            getUrl: function() {
+                return App.stsServer.url;
+            },
+            isCrossDomain: function() {
+                if (App.stsServer.crossDomain) {
+                    return true;
+                }
+                return false;
+            }
+        },
+        logo: {
+            defaultUrl: '@SettingsRegistry.FrontEndSettings.UiKasperskyDefaultLogoUrl',
+            maxFileSize: '@ValidationSettingsRegistry.ValidationFileSettings.LogoMaxFileSize',
+            fileNameExtensions: @Html.Raw(Json.Encode(ValidationSettingsRegistry.ValidationFileSettings.LogoFileNameExtensions))
+            }
+    });
+
+     @if (SettingsRegistry.FrontEndSettings.EnableGoogleAnalytics)
+     {
+         @:App.Analytics.pageView();
+     }
+
+    $.when(langDfd.promise())
+        .then(function(lang){
+
+            return $.when(
+                $.get('/Scripts/cldr/supplemental/likelySubtags.json'),
+                $.get('/Scripts/cldr/main/' + lang + '/numbers.json'),
+                $.get('/Scripts/cldr/supplemental/numberingSystems.json'),
+                $.get('/Scripts/cldr/main/' + lang + '/ca-gregorian.json'),
+                $.get('/Scripts/cldr/main/' + lang + '/timeZoneNames.json'),
+                $.get('/Scripts/cldr/supplemental/timeData.json'),
+                $.get('/Scripts/cldr/supplemental/weekData.json'),
+                $.get('/Scripts/globalize/messages/' + lang + '/' + lang + '.json?v=@DateTime.Now.DayOfYear'),
+                $.get('/Scripts/globalize/messages/' + lang + '/account.json?v=@DateTime.Now.DayOfYear')
+            );
+        })
+        .then(function () {
+            return _.unzip(arguments)[0];
+        }).then(Globalize.load).then(function () {
+
+            Globalize.locale(lang);
+            App.start();
+        });
+</script>
+    @RenderSection("scripts", required: false)
+</body>
+</html>

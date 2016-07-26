@@ -1,0 +1,371 @@
+{
+    "globalize-messages": {
+        "ru": {
+            "user": {
+                "list": {
+                    "header": "Пользователи",
+                    "sort-lastname": "Фамилия",
+                    "filter-by-country-label": "Страны:",
+                    "filter-by-country": {
+                        "All": "Все"
+                    },
+                    "filter-by-organization-label": "Филиалы:",
+                    "filter-by-organization": {
+                        "All": "Все"
+                    },
+                    "item": {
+                        "country": "Страна:",
+                        "organization": "Филиал:"
+                    },
+                    "no-filtered-user": "Текущим условиям фильтрации не удовлетворяет ни один пользователь.",
+                    "errors": {
+                        "UnknownError": {
+                            "title": "Неизвестная ошибка при получении списка пользователей",
+                            "text": "Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> для решения возникших проблем"
+                        }
+                    }
+                },
+
+                "delete": {
+                    "title": "Удаление учетной записи пользователя",
+                    "description": "Внимание! После нажатия кнопки \"Удалить учетную запись\"учетная запись будет пользователя будет удалена. Вы по-прежнему сможете увидеть запросы удаленного пользователя",
+                    "notice": "Я понимаю, что после удаления учетной записи пользователь не сможет отправлять запросы через CompanyAccount.",
+                    "btn": "Удалить пользователя",
+                    "process": "Удаление пользователя...",
+                    "success": "Учетная запись пользователя успешно удалена",
+                    "confirm": {
+                        "title": "Удаление учетной записи",
+                        "text": "Вы собираетесь удалить пользователя {email}. <br> Доступ пользователя к порталу CompanyAccount будет заблокирован. Запросы удаленного пользователя будут по-прежнему доступны.",
+                        "button": "Продолжить"
+                    },
+                    "errors": {
+                        "AdminBlocked": {
+                            "title": "Учетная запись заблокирована администратором",
+                            "text": " "
+                        },
+                        "NotSupportedSystemType": {
+                            "title": "Пользователь не принадлежит СompanyАccount",
+                            "text": " "
+                        },
+                        "UserNotFound": {
+                            "title": "Не удалось удалить пользователя. Пользователь не найден",
+                            "text": " "
+                        },
+                        "NotSupportedCompanyCategory": {
+                            "title": "Пользователь не принадлежит СompanyАccount",
+                            "text": " "
+                        },
+                        "IsSupportStuff": {
+                            "title": "Пользователь является сотрудником технической поддержки",
+                            "text": " "
+                        },
+                        "DifferentCompanies": {
+                            "title": "Пользователь принадлежит другой компании",
+                            "text": " "
+                        },
+                        "UnknownError": {
+                            "title": "Не удалось удалить пользователя. Попробуйте еще раз.",
+                            "text": "  "
+                        }
+                    }
+                },
+
+                "show": {
+                    "errors": {
+                        "UnknownError": {
+                            "title": "Неизестная ошибка при получении информации о пользователе ",
+                            "text": "Пожалуйста, <a href='../../request/create/ca' target=\"_blank\"> проконсультируйтесь со службой технической поддержки </a> о возможных путях решения этой проблемы"
+                        }
+                    }
+                },
+
+                "errors": {
+                    "DifferentCompanies": "Пользователь принадлежит другой компании. </br>Пожалуйста, <a href='/request/create/ca' target=\"_blank\"> проконсультируйтесь со службой технической поддержки </a> о возможных путях решения этой проблемы.",
+                    "GetDetailsException_DifferentCompanies": {
+                        "Title": "Запрошенная учетная запись не принадлежит вашей компании",
+                        "Text": "Пожалуйста, <a href='../../request/create/ca' target=\"_blank\"> проконсультируйтесь со службой технической поддержки </a> о возможных путях решения этой проблемы."
+                    },
+                    "RequestPasswordResetException_DifferentCompanies": {
+                        "Title": "Редактируемая учетная запись не принадлежит вашей компании",
+                        "Text": "Пожалуйста, <a href='../../request/create/ca' target=\"_blank\"> проконсультируйтесь со службой технической поддержки </a> о возможных путях решения этой проблемы."
+                    },
+                    "UpdateProfileDetailsException_DifferentCompanies": {
+                        "Title": "Редактируемая учетная запись не принадлежит вашей компании",
+                        "Text": "Пожалуйста, <a href='../../request/create/ca' target=\"_blank\"> проконсультируйтесь со службой технической поддержки </a> о возможных путях решения этой проблемы."
+                    },
+                    "UpdatePermissionsException_DifferentCompanies": {
+                        "Title": "Редактируемая учетная запись не принадлежит вашей компании",
+                        "Text": "Пожалуйста, <a href='../../request/create/ca' target=\"_blank\"> проконсультируйтесь со службой технической поддержки </a> о возможных путях решения этой проблемы."
+                    },
+                    "DeleteProfileException_DifferentCompanies": {
+                        "Title": "В данную учетную запись были внесены изменения и ее нельзя удалить",
+                        "Text": "Пожалуйста, <a href='../../request/create/ca' target=\"_blank\"> проконсультируйтесь со службой технической поддержки </a> о возможных путях решения этой проблемы"
+                    },
+                    "GetDetailsException_OfUserNotFound": {
+                        "Title": "Учетная запись не найдена",
+                        "Text": "Пожалуйста, <a href='../../request/create/ca' target=\"_blank\"> проконсультируйтесь со службой технической поддержки </a> о возможных путях решения этой проблемы."
+                    },
+                    "RequestPasswordResetException_OfUserNotFound": {
+                        "Title": "Учетная запись не найдена",
+                        "Text": "Пожалуйста, <a href='../../request/create/ca' target=\"_blank\"> проконсультируйтесь со службой технической поддержки </a> о возможных путях решения этой проблемы."
+                    },
+                    "UpdateProfileDetailsException_OfUserNotFound": {
+                        "Title": "Учетная запись не найдена",
+                        "Text": "Пожалуйста, <a href='../../request/create/ca' target=\"_blank\"> проконсультируйтесь со службой технической поддержки </a> о возможных путях решения этой проблемы."
+                    },
+                    "UpdatePermissionsException_OfUserNotFound": {
+                        "Title": "Учетная запись не найдена",
+                        "Text": "Пожалуйста, <a href='../../request/create/ca' target=\"_blank\"> проконсультируйтесь со службой технической поддержки </a> о возможных путях решения этой проблемы."
+                    },
+                    "DeleteProfileException_OfUserNotFound": {
+                        "Title": "Учетная запись не найдена",
+                        "Text": "Пожалуйста, <a href='../../request/create/ca' target=\"_blank\"> проконсультируйтесь со службой технической поддержки </a> о возможных путях решения этой проблемы."
+                    },
+                    "Failure": {
+                        "Title": "Неизвестный сбой",
+                        "Text": "Проконсультируйтесь со службой технической поддержки <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> возможных путях решения этой проблемы"
+                    },
+                    "UserNotFound": {
+                        "Title": "Пользователь не найден",
+                        "Text": "Проконсультируйтесь со службой технической поддержки <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> возможных путях решения этой проблемы"
+                    },
+                    "NotMainUser": {
+                        "Title": "Вы не являетесь администратором компании",
+                        "Text": "Пожалуйста, <a href='/request/create/ca' target=\"_blank\"> проконсультируйтесь со службой технической поддержки </a> о возможных путях решения этой проблемы."
+                    },
+                    "AccessDenied": {
+                        "Title": "Доступ запрещен",
+                        "Text": "Проконсультируйтесь со службой технической поддержки <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a> возможных путях решения этой проблемы"
+                    },
+                    "ReqOfUserNotFound": {
+                        "Title": "Запрошенная учетная запись не найдена",
+                        "Text": "Пожалуйста, <a href='/request/create/ca' target=\"_blank\"> проконсультируйтесь со службой технической поддержки </a> о возможных путях решения этой проблемы."
+                    },
+                    "UpdOfUserNotFound": {
+                        "Title": "Редактируемая учетная запись не найдена",
+                        "Text": "Пожалуйста, <a href='/request/create/ca' target=\"_blank\"> проконсультируйтесь со службой технической поддержки </a> о возможных путях решения этой проблемы."
+                    },
+                    "DelOfUserNotFound": {
+                        "Title": "В данную учетную запись были внесены изменения и ее нельзя удалить",
+                        "Text": "Пожалуйста, <a href='/request/create/ca' target=\"_blank\"> проконсультируйтесь со службой технической поддержки </a> о возможных путях решения этой проблемы."
+                    },
+                    "UserNotOfCA": {
+                        "Title": "Во время редактирования профиля пользователя </br> произошел неизвестный сбой",
+                        "Text": "Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                    },
+                    "UserNotActivated": {
+                        "Title": "Во время редактирования профиля пользователя </br> произошел неизвестный сбой",
+                        "Text": "Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                    }
+                }
+            },
+            "profile": {
+                "title-profile": "Моя учетная запись",
+                "title-user": "Просмотр учетной записи",
+
+                "show": {
+                    "errors": {
+                        "UnknownError": {
+                            "title": "Неизвестная ошибка при получении профиля текущего пользователя ",
+                            "text": "Пожалуйста, <a href='../../request/create/ca' target=\"_blank\"> проконсультируйтесь со службой технической поддержки </a> о возможных путях решения этой проблемы"
+                        }
+                    }
+                },
+
+                "delete": {
+                    "title": "Удаление Вашей учетной записи",
+                    "description": "Внимание! После нажатия кнопки \"Удалить учетную запись\" на Ваш e-mail будет выслана ссылка на подтверждение удаления вашей учетной записи. После нажатия на эту ссылку, Ваша учетная запись будет удалена.",
+                    "notice": "Я понимаю, что моя учетная запись будет удалена и я не смогу отправлять запросы через CompanyAccount.",
+                    "btn": "Удалить мою учетную запись",
+                    "process": "Отправка запроса на удаление...",
+                    "success": "Для подтверждения удаления учетной записи необходимо перейти по ссылке, пришедшей на Ваш e-mail",
+                    "confirm": {
+                        "title": "Удаление учетной записи",
+                        "text": "Вы собираетесь удалить свою учетную запись. Доступ к порталу будет заблокирован после нажатия на ссылку из письма.",
+                        "button": "Удалить"
+                    },
+                    "errors": {
+                        "RepeatedDeactivation": "Не удалось удалить пользователя. Повторное удаление.",
+                        "UnknownError": "Не удалось удалить пользователя. Попробуйте еще раз.",
+                        "UserNotFound": "Пользователь не найден",
+                        "AccessDenied": "Доступ запрещен",
+                        "NotMainUser": "Доступ запрещен, пользователь не яляется адимнистратором компании",
+                        "CompanyNotFound": "Компания не найдена. ",
+                        "OfUserNotFound": "Не удалось удалить пользователя. Пользователь не найден.",
+                        "DifferentCompanies": "В данную учетную запись были внесены изменения и ее нельзя удалить."
+                    }
+                },
+                "deleteCompany": {
+                    "title": "Удаление учетной записи компании",
+                    "description": "Внимание! После нажатия кнопки \"Удалить учетную запись компании\" на Ваш e-mail будет выслана ссылка на подтверждение удаления учетной записи компании. После нажатия на эту ссылку, учетная запись компании будет удалена.",
+                    "continue": "Продолжить",
+                    "notice": "Я понимаю, что после удаления учетной записи компании вся информация о компании будет удалена.",
+                    "btn": "Удалить компанию",
+                    "process": "Удаление компании...",
+                    "success": "На Ваш e-mail выслана ссылка на подтверждение удаления учетной записи компании",
+                    "errors": {
+                        "Success": "Для подтверждения удаления компании необходимо перейти по ссылке, пришедшей на Ваш e-mail",
+                        "RepeatedDeactivation": "Для подтверждения удаления компании необходимо повторно перейти по ссылке, пришедшей на Ваш e-mail",
+                        "UnknownError": "Не удалось удалить компанию. Попробуйте еще раз.",
+                        "UserNotFound": "Пользователь не найден",
+                        "AccessDenied": "Доступ запрещен",
+                        "NotMainUser": "Доступ запрещен, у пользователя нет прав администратора",
+                        "CompanyNotFound": "Компания не найдена"
+                    },
+                    "confirm": {
+                        "title": "Удаление учетной записи компании",
+                        "description": "<b>Внимание!</b> После нажатия кнопки \"Удалить учетную запись компании\" на Ваш e-mail будет выслана ссылка на подтверждение удаления учетной записи компании. После нажатия на эту ссылку, учетная запись компании будет удалена.",
+                        "continue": "Продолжить"
+                    },
+                    "popupTitle": "Запроc на удаление компании отправлен",
+                    "popupMsg": " Для завершения процесса удаления компании пройдите по ссылке из письма"
+                },
+                "errors": {
+                    "FirstName.RequiredRule": "Не указано имя",
+                    "LastName.RequiredRule": "Не указана фамилия",
+                    "Country.RequiredRule": "Не заполнено поле Страна",
+                    "InvalidCountry": "Ошибка выбора страны",
+                    "FirstName.MaxByteLengthRule": "Максимальная длина имени 15 символов",
+                    "LastName.MaxByteLengthRule": "Максимальная длина фамилии 15 символов",
+                    "Organization.MaxByteLengthRule": "Максимальная длина названия филиала {ByteLength} символов",
+
+                    "Failure": {
+                        "Title": "Возникла непредвиденная ошибка",
+                        "Text": "Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                    },
+                    "OfUserNotFound": {
+                        "Title": "Учетная запись пользователя не найдена",
+                        "Text": "Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                    },
+                    "NotMainUser": {
+                        "Title": "Вы не являетесь администратором компании.",
+                        "Text": "Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                    },
+                    "AccessDenied": {
+                        "Title": "Возникла проблема с вашей учетной записью. Доступ запрещен.",
+                        "Text": "Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                    },
+                    "UserNotFound": {
+                        "Title": "Учетная запись не найдена",
+                        "Text": "Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                    },
+                    "UnknownError": {
+                        "Title": "Во время редактирования профиля пользователя </br> произошел неизвестный сбой",
+                        "Text": "Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                    },
+                    "UserNotOfCA": {
+                        "Title": "Во время редактирования профиля пользователя </br> произошел неизвестный сбой",
+                        "Text": "Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                    },
+                    "UserNotActivated": {
+                        "Title": "Во время редактирования профиля пользователя </br> произошел неизвестный сбой",
+                        "Text": "Обратитесь по адресу <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
+                    }
+                },
+                "permissions": {
+                    "title": "Права пользователя",
+                    "ViewAllRequests": "Просмотр запросов всех пользователей компании",
+                    "ManageContacts": "Управление учетными записями",
+                    "AddLicenses": "Добавление лицензий",
+                    "RemoveLicenses": "Удаление лицензий",
+                    "EditAllRequests": "Редактирование запросов других пользователей",
+                    "saveError": "Не удалось сохранить изменения. Попробуйте еще раз.",
+                    "saveBtn": "Сохранить изменения",
+                    "saveWait": "Сохранение изменений...",
+                    "saveSuccess": "Изменения сохранены."
+                },
+                "personalinfo": {
+                    "title": "Личные данные",
+                    "email": "Электронная почта:",
+                    "company": "Компания:",
+                    "company-id": "(ID: {companyId})",
+                    "accounttype": "Тип учетной записи:",
+                    "firstname": "Имя:",
+                    "lastname": "Фамилия:",
+                    "country": "Страна:",
+                    "firstnamePlaceholder": "Имя",
+                    "lastnamePlaceholder": "Фамилия",
+                    "filial": "Филиал:",
+                    "notifications": "Уведомления:",
+                    "saveBtn": "Сохранить изменения",
+                    "cancelBtn": "Отменить",
+                    "saveError": "Не удалось сохранить изменения. Попробуйте еще раз.",
+                    "saveWait": "Сохранение изменений...",
+                    "saveSuccess": "Изменения сохранены",
+                    "filialDefault": "Выберите филиал",
+                    "filialMessage": "Выберите из списка или введите новый",
+                    "fullDescription": "Полное описание"
+                },
+                "companyLogo": {
+                    "title": "Логотип компании",
+                    "description": "Загрузите логотип вашей компании. Вы можете загрузить логотип высотой <b>64px</b> и шириной не более <b>200px</b>. Доступные для загрузки форматы:  <b>jpg</b>, <b>jpeg</b>, <b>png</b>, <b>gif</b>.",
+                    "remove": "Удалить",
+                    "errors": {
+                        "logoImage.HttpFileSizeRule": "Размер логотипа превышает допустимый.",
+                        "logoImage.ImageContentRule": "Логотип может быть загружен только в следующих форматах:  <b>jpg</b>, <b>jpeg</b>, <b>png</b>, <b>gif</b>.",
+                        "logoImage.LogoFileNameRule": "Логотип может быть загружен только в следующих форматах:  <b>jpg</b>, <b>jpeg</b>, <b>png</b>, <b>gif</b>.",
+                        "UnknownError": "Неизвестная ошибка при загрузке логотипа"
+                    },
+                    "success": "Логотип успешно загружен.",
+                    "success-deleted": "Логотип успешно удален.",
+                    "deleteConfirm": {
+                        "title": "Удалить логотип?",
+                        "text": "Вы действительно хотите удалить логотип?",
+                        "button": "Удалить"
+                    },
+                    "uploadConfirm": {
+                        "title": "Загрузить логотип?",
+                        "text": "После загрузки нового логотипа старый будет удален.",
+                        "button": "Загрузить"
+                    }
+                },
+                "resetPassword": {
+                    "success": " ",
+                    "errors": {
+                        "AdminBlocked": {
+                            "title": "Учетная запись заблокирована администратором",
+                            "text": " "
+                        },
+                        "NotSupportedSystemType": {
+                            "title": "Учетная запись не принадлежит CompanyAccount",
+                            "text": " "
+                        },
+                        "UserNotFound": {
+                            "title": "Учетная запись не найдена",
+                            "text": " "
+                        },
+                        "NotSupportedCompanyCategory": {
+                            "title": "Учетная запись не принадлежит CompanyAccount",
+                            "text": " "
+                        },
+                        "NotActivated": {
+                            "title": "Учетная запись пользователя не активирована",
+                            "text": " "
+                        },
+                        "IsSupportStuff": {
+                            "title": "Пользователь является сотрудником технической поддержки",
+                            "text": " "
+                        },
+                        "UnknownError": {
+                            "title": "Произошел неизвестный сбой",
+                            "text": " "
+                        }
+                    }
+                },
+
+                "resetPasswordTitle": "Смена пароля ",
+                "resetPasswordDescription": "Инструкции по смене пароля будут высланы на электронный адрес пользователя",
+                "resetPasswordButton": "Сбросить пароль",
+                "resetPasswordWait": "Сброс пароля...",
+                "resetPasswordSuccess": "Ваш пароль успешно сброшен. Дальнейшие инструкции отправлены на Ваш e-mail",
+                "resetPasswordSuccessUser": "Пароль успешно сброшен. Дальнейшие инструкции отправлены на e-mail пользователя",
+                "resetPasswordError": "Не удалось сбросить пароль. Попробуйте еще раз",
+                "fileUpload": {
+                    "title": "Прикрепление файлов:",
+                    "agreedtext": "Вы приняли условия <a href='javascript://' class='profile-file-agreement-accepted-link' target='_blank'>Положения о предоставлении данных</a>",
+                    "notagreedtext": "Для загрузки файлов примите условия <a href='javascript://' class='link-modal-win profile-file-agreement-btn' data='license-cont'> Положения о предоставлении данных</a>"
+                }
+            }
+        }
+    }
+}

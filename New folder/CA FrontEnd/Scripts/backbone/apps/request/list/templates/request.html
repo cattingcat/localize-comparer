@@ -1,0 +1,15 @@
+<div class="points pd cf elem-hover request-view">
+    <div class="v-resize <%- statusBorderClass %>"></div>
+    <div class="w-66 pdr">
+        <a href="/request/view/<%= InstanceId %>" class="request-link"><h4 class="request-title"> <%= Summary %> </h4></a>
+        <span class="request-type"><%= Type %></span>
+    </div>
+    <div class="w-33">
+        <table>
+            <tr><td><%_ request/list/item/number %></td><td class="request-number"></td></tr>
+            <tr><td><%_ request/list/item/status %></td><td class="<%- statusTextClass %>"><b class="request-status"></b></td></tr>
+            <tr><td><%_ request/list/item/createdate %></td><td class="request-create-date"></td></tr>
+            <tr><td><%_ request/list/item/customer %></td><td class="request-customer"><%= CustomerName %></td></tr>
+        </table>
+    </div>
+</div>

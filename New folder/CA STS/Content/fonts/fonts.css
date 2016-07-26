@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'Franklin Gothic Book Cond';
+  src: url('/Content/fonts/FGTCondBook.eot');
+  src: url('/Content/fonts/FGTCondBook.otf') format('opentype');
+  src: url('/Content/fonts/FGTCondBook.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Franklin Gothic Medium Cond';
+  src: url('/Content/fonts/FGTCondMedium.eot');
+  src: url('/Content/fonts/FGTCondMedium.otf') format('opentype');
+  src: url('/Content/fonts/FGTCondMedium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}

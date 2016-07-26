@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationFileSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Groups>
+    <Group name="HttpFiles">
+      <Types>
+        <Type url="/api/License/Add">
+          <Rules>
+            <Rule xsi:type="HttpFileCountRule">
+              <MaxCount>1</MaxCount>
+            </Rule>
+            <Rule xsi:type="HttpFileSizeRule">
+              <MaxSize>1048576</MaxSize>
+            </Rule>
+            <Rule xsi:type="KeyFileRule" />
+          </Rules>
+        </Type>
+        <Type url="/api/Account/Register">
+          <Rules>
+            <Rule xsi:type="HttpFileCountRule">
+              <MaxCount>1</MaxCount>
+            </Rule>
+            <Rule xsi:type="HttpFileSizeRule">
+              <MaxSize>1048576</MaxSize>
+            </Rule>
+            <Rule xsi:type="KeyFileRule" />
+          </Rules>
+        </Type>
+        <Type url="/api/Request/CsrRequestSubmit">
+          <Rules>
+            <Rule xsi:type="HttpFileCountRule">
+              <MaxCount>1</MaxCount>
+            </Rule>
+            <Rule xsi:type="HttpFileSizeRule">
+              <MaxSize>5120</MaxSize>
+            </Rule>
+          </Rules>
+        </Type>
+        <Type url="/api/Company/LogoUpload">
+          <Rules>
+            <Rule xsi:type="HttpFileCountRule">
+              <MaxCount>1</MaxCount>
+            </Rule>
+            <Rule xsi:type="HttpFileSizeRule">
+              <MaxSize>1048576</MaxSize>
+            </Rule>
+            <Rule xsi:type="LogoFileNameRule" />
+            <Rule xsi:type="ImageContentRule" />
+          </Rules>
+        </Type>
+      </Types>
+    </Group>
+    <Group name="StorageFiles">
+      <Types>
+        <Type url="/api/Request/UploadFile/TechSupport">
+          <Rules>
+            <Rule xsi:type="StorageFileCountRule">
+              <MaxCount>3</MaxCount>
+            </Rule>
+            <Rule xsi:type="StorageFileSizeRule">
+              <MaxSize>4294967296</MaxSize>
+            </Rule>
+          </Rules>
+        </Type>
+        <Type url="/api/Request/UploadFile/TaSupport">
+          <Rules>
+            <Rule xsi:type="StorageFileCountRule">
+              <MaxCount>3</MaxCount>
+            </Rule>
+            <Rule xsi:type="StorageFileSizeRule">
+              <MaxSize>4294967296</MaxSize>
+            </Rule>
+          </Rules>
+        </Type>
+        <Type url="/api/Request/UploadFile/MsaSupport">
+          <Rules>
+            <Rule xsi:type="StorageFileCountRule">
+              <MaxCount>3</MaxCount>
+            </Rule>
+            <Rule xsi:type="StorageFileSizeRule">
+              <MaxSize>4294967296</MaxSize>
+            </Rule>
+          </Rules>
+        </Type>
+        <Type url="/api/Request/UploadFile/CA">
+          <Rules>
+            <Rule xsi:type="StorageFileCountRule">
+              <MaxCount>3</MaxCount>
+            </Rule>
+            <Rule xsi:type="StorageFileSizeRule">
+              <MaxSize>4294967296</MaxSize>
+            </Rule>
+          </Rules>
+        </Type>
+        <Type url="/api/Request/UploadFile/Amr">
+          <Rules>
+            <Rule xsi:type="StorageFileCountRule">
+              <MaxCount>3</MaxCount>
+            </Rule>
+            <Rule xsi:type="StorageFileSizeRule">
+              <MaxSize>10485760</MaxSize>
+            </Rule>
+          </Rules>
+        </Type>
+        <Type url="/api/Request/UploadFile/Comment">
+          <Rules>
+            <Rule xsi:type="StorageFileCountRule">
+              <MaxCount>3</MaxCount>
+            </Rule>
+            <Rule xsi:type="StorageFileSizeRule">
+              <MaxSize>4294967296</MaxSize>
+            </Rule>
+          </Rules>
+        </Type>
+      </Types>
+    </Group>
+  </Groups>
+</ValidationFileSettings>

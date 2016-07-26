@@ -1,0 +1,98 @@
+<div class="section break-text" id="nd-view-req">
+    <div class="title-area cf">
+        <!-- Incident number binding-->
+        <h2 class="request-number"></h2>
+
+        <!-- Request status with color -->
+        <div class="fr pd status-area">
+            <i class="<%- statusColorClass %>"></i>
+            <span class="request-status"></span>
+        </div>
+    </div>
+
+    <!-- Request description -->
+    <div class="pd-big">
+        <h1><%= Summary %></h1>
+        <p> <%= Details %> </p>
+
+        <% if(ProductName || ProductVersion || OSVersion) { %>
+        <table>
+            <tbody>
+                <% if(ProductName) { %>
+                <tr><td><%_ request/view/product %></td><td><%= ProductName %></td></tr><% } %>
+                <% if(ProductVersion) { %>
+                <tr><td><%_ request/view/version %></td><td><%= ProductVersion %></td></tr><% } %>
+                <% if(OSVersion) { %>
+                <tr><td><%_ request/view/os %></td><td><%= OSVersion %></td></tr>
+                <% } %>
+            </tbody>
+        </table>
+        <% } %>
+
+        <!-- Worklog more-hide -->
+        <div class="acenter pd-big">
+            <a href="#" class="btn btn-02 bg-gray toggle-messages">
+                <span class="show-more"> <%_ request/view/logMore %> </span>
+                <span class="hide-all off"> <%_ request/view/logHide %> </span>
+            </a>
+        </div>
+        <div class="last-message-region">
+            <!-- region for last message -->
+        </div>
+        <div class="messages-region off">
+            <!-- region for whole worklog (see client-message.html, support-message.html) -->
+        </div>
+
+        <!-- Request status -->
+        <% if(UserfriendlyStatus == 'InProgress') { %>
+        <div class="message">
+            <div class="ava-area sup-area">
+                <div class="status-area">
+                    <i class="<%- statusColorClass %>"></i>
+                    <span> <%_ request/statuses/InProgress-status-area %> </span>
+                </div>
+            </div>
+        </div>
+        <% } %>
+
+        <!-- Buttons region -->
+        <div class="mrt2 modify-buttons">
+
+            <% if(isAvailableComments) { %>
+            <!-- Buttons shown if status "Open" -->
+            <a href="#" class="btn btn-03 bg-green mrr pre-em bt-open bt-ext show-answer-form">
+                <em></em>
+                <%_ request/view/showCommentForm %>
+            </a>
+            <a href="#" class="btn btn-03 bg-green pre-em bt-close btn-request-close">
+                <em></em>
+                <%_ request/view/close-request %>
+            </a>
+            <% } else { %>
+            <a href="#" class="btn btn-03 bg-green mrr pre-em bt-add open-request">
+                <em></em>
+                <%_ request/view/open-request %>
+            </a>
+            <% } %>
+
+            <span class="off process-request">
+                <!-- loader spinner -->
+                <img src="/img/load_indicator.gif" height="21" width="21" alt="" class="mrr amiddle mrl">
+                <i><%_ request/view/send-process %></i>
+            </span>
+            <span class="err close-req-err mrl mrt off">
+                <!-- Some error message -->
+            </span>
+        </div>
+
+        <div class="add-area mrt off">
+            <span href="#" class="btn btn-03 mrr pre-em bt-hidd bt-ext hide-answer-form">
+                <em></em>
+                <%_ request/view/hideCommentForm %>
+            </span>
+            <div class="comment-box-region">
+                <!-- New comment region -->
+            </div>
+        </div>
+    </div>
+</div>

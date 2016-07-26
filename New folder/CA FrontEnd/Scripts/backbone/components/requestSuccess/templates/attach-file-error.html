@@ -1,0 +1,8 @@
+<div id="pass-oops" class="pd-big bg-white acenter" style="width:600px">
+    <a href="#" class="btn-close wp-close"></a>
+    <p>
+        <span class="success-msg"></span>
+    </p>
+    <% for (var i = 0, file; file = attachedFileErrors[i]; i++) { %><span class="file-name"> <%- file.FileName %>; </span><% } %>
+    <input type="submit" class="btn btn-02 bg-green wp-close" value="<%_ account/activate/close %>">
+</div>

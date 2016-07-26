@@ -1,0 +1,17 @@
+﻿<div class="modal-win" style="width: 400px; text-align: center;">
+    <a href="javascript://" class="btn-close wp-close"></a>
+    <h2><%= title %></h2>
+    <div class="cf">
+        <div>
+            <p>
+                <%= text %>
+            </p>
+        </div>
+        <% if(acceptButtonText) { %>
+        <div id="agree-01">
+            <a href="javascript://" class="btn btn-02 bg-green btn-confirm-accept"><%= acceptButtonText %></a>
+            <a href="javascript://" class="btn btn-02 bg-red btn-confirm-cancel mrl"><%_ confirm-component/cancel %></a>
+        </div>
+        <% } %>
+    </div>
+</div>
