@@ -6,8 +6,8 @@
             },
 
              "oldBrowser": {
-                "title": "Kaspersky CompanyAccount не поддерживает ваш браузер",
-                "text": "Пожалуйста, обновите ваш браузер до одной из следующих версий",
+                "title": "Kaspersky CompanyAccount не поддерживает Ваш браузер",
+                "text": "Пожалуйста, обновите Ваш браузер до одной из следующих версий",
                 "bullets": {
                     "IE": "<a title=\"Internet Explorer\" href=\"http://windows.microsoft.com/ru-ru/internet-explorer/ie-11-worldwide-languages\" target=\"_blank\">Internet Explorer (10 и выше)</a>",
                     "Chrome": "<a title=\"Chrome\" href=\"https://www.google.ru/chrome/browser/desktop/index.html\" target=\"_blank\">Chrome (28 и выше)</a>",
