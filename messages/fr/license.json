@@ -11,23 +11,57 @@
                     "process": "Chargement de la licence",
                     "errors": {
                         "Success": "La licence a été ajoutée avec succès",
-                        "GettingLicenseInfoError": "La licence est introuvable",
-                        "ConsumerLicense": "La licence n'a pas été ajoutée. Avant d'ajouter une licence d'un produit grand public,<br/> veuillez joindre au moins une licence des produits entreprises.",
-                        "LicenseIsExpired": "La durée de validité de la licence est écoulée.",
-                        "LicenseIsBlocked": "La licence est bloquée.",
-                        "IncorrectAC": "Le format du code saisi est invalide.",
-                        "IncorrectKeyFile": "Le format du fichier est invalide.",
-                        "MultLicUseErr": "La licence est déjà associée à un autre compte entreprise.",
                         "SuccessUserMoved": "La licence a été ajoutée avec succès. Votre compte a été associé à une autre entreprise. <br/> Veuillez vous reconnecter à CompanyAccount pour que les modifications prennent effet.",
-                        "LicenseAlreadyExists": "Cette licence est déjà ajoutée à votre compte entreprise.",
-                        "ACExpired": "La durée de validité du code d'activation est écoulée.",
-                        "UnknownError": "Une erreur est survenue, veuillez réessayer. Si le problème persiste, <a href='../request/create/ca' target=\"_blank\">déposez une demande auprès du support technique</a>",
-                        "LicenseNotFound": "Erreur. La licence est introuvable",
 
                         "ActCodeOrKeyFileRequired": "Un fichier clé ou un code d'activation est requis",
                         "ActivationCode.ActivationCodeRule": "Format du code d'activation incorrect",
                         "KeyFile.HttpFileSizeRule": "Le fichier clé est trop volumineux",
-                        "KeyFile.KeyFileRule": "Format du fichier clé inconnu"
+                        "KeyFile.KeyFileRule": "Format du fichier clé inconnu",
+
+                        "GettingLicenseInfoError": {
+                            "title": "La licence est introuvable",
+                            "text": ""
+                        },
+                        "ConsumerLicense": {
+                            "title": "La licence n'a pas été ajoutée. Avant d'ajouter une licence d'un produit grand public,<br/> veuillez joindre au moins une licence des produits entreprises.",
+                            "text": ""
+                        },
+                        "LicenseIsExpired": {
+                            "title": "La durée de validité de la licence est écoulée.",
+                            "text": ""
+                        },
+                        "LicenseIsBlocked": {
+                            "title": "La licence est bloquée.",
+                            "text": ""
+                        },
+                        "IncorrectAC": {
+                            "title": "Le format du code saisi est invalide.",
+                            "text": ""
+                        },
+                        "IncorrectKeyFile": {
+                            "title": "Le format du fichier est invalide.",
+                            "text": ""
+                        },
+                        "MultLicUseErr": {
+                            "title": "La licence est déjà associée à un autre compte entreprise.",
+                            "text": ""
+                        },
+                        "LicenseAlreadyExists": {
+                            "title": "Cette licence est déjà ajoutée à votre compte entreprise.",
+                            "text": ""
+                        },
+                        "ACExpired": {
+                            "title": "La durée de validité du code d'activation est écoulée.",
+                            "text": ""
+                        },
+                        "UnknownError": {
+                            "title": "Une erreur est survenue, veuillez réessayer. Si le problème persiste, <a href='../request/create/ca' target=\"_blank\">déposez une demande auprès du support technique</a>",
+                            "text": ""
+                        },
+                        "LicenseNotFound": {
+                            "title": "Erreur. La licence est introuvable",
+                            "text": ""
+                        }
                     },
                     "success-user-moved": {
                         "title": "La licence a été ajoutée avec succès.",
@@ -88,8 +122,8 @@
                     }
                 },
 
-                 "remove": {
-                    "errors": { 
+                "remove": {
+                    "errors": {
                         "UnknownError": {
                             "title": "[EV] Unknown error while license removing",
                             "text": "[EV] Please contact <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
@@ -101,22 +135,21 @@
                     "errors": {
                         "UserNotFound": {
                             "title": "Utilisateur introuvable",
-                            "message": " "
+                            "text": " "
                         },
                         "AccessDenied": {
                             "title": "Accès interdit",
-                            "message": " "
+                            "text": " "
                         },
                         "UnknownError": {
                             "title": "Un problème inconnu s'est produit",
-                            "message": "Un problème inconnu s'est produit à la tentative d'afficher la liste des applications compatibles. Veuillez réessayer dans quelques instants. <br/>Si le problème persiste, <a href='../request/create/ca' target=\"_blank\">déposez une demande auprès du support technique</a> "
+                            "text": "Un problème inconnu s'est produit à la tentative d'afficher la liste des applications compatibles. Veuillez réessayer dans quelques instants. <br/>Si le problème persiste, <a href='../request/create/ca' target=\"_blank\">déposez une demande auprès du support technique</a> "
                         },
                         "NoCompatibleApps": {
                             "title": "Il n'y a pas d'applications compatibles avec cette licence.",
-                            "message": "Veuillez <a href='../request/create/ca' target=\"_blank\"> consulter le support technique</a> pour savoir comment vous pouvez utiliser cette licence."
+                            "text": "Veuillez <a href='../request/create/ca' target=\"_blank\"> consulter le support technique</a> pour savoir comment vous pouvez utiliser cette licence."
                         }
-                    },
-                    "close": "Fermer"
+                    }
                 }
             }
         }

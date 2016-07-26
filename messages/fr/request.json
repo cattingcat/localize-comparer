@@ -28,6 +28,8 @@
                     "Description.TextMaxLengthLimitRule": "La description est trop longue",
                     "Description.MaxLengthRule": "La description est trop longue",
 
+                    "KeyFile.NonEmptyFileRule": "[EV] Для создания запроса требуется прикрепить файл",
+
                     "attach-files-error": "La demande a été créée mais une erreur  {attachedFileErrors} s'est produite lors de l'ajout des fichiers. </br>Veuillez essayer de joindre un fichier dans quelques minutes. </br>Si le problème persiste, veuillez nous le communiquer dans un commentaire sur cette demande. Numéro de demande : <a href=\"/request/view/{requestId}\">{requestId}</a>",
                     "comment-attach-files-error": "Votre message a été ajouté mais une erreur {attachedFileErrors} s'est produite lors de l'ajout des fichiers. </br>Veuillez essayer de joindre un fichier dans quelques minutes. </br>Si le problème persiste, veuillez nous le communiquer dans un commentaire sur cette demande."
                 },
@@ -229,6 +231,8 @@
                     "send-process": "Veuillez patienter, la demande est en cours de traitement...",
                     "cancel-request": "Annuler",
                     "errors": {
+                        "TypeId.RequiredRule": "Sélectionnez le type de demande",
+
                         "UserNotFound": "L'utilisateur actuel n'a pas été trouvé",
                         "AccessDenied": "Accès interdit, l'opération n'est pas disponible",
                         "WrongFileSize": "La taille d'un des fichiers chargés dépasse la limite autorisée",

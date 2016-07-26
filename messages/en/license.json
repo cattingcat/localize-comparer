@@ -11,23 +11,57 @@
                     "process": "Adding license...",
                     "errors": {
                         "Success": "License has been added",
-                        "GettingLicenseInfoError": "Error. License not found",
-                        "ConsumerLicense": "License has not been added Before adding a license for a home product, <br/>  you must add at least one corporate license.",
-                        "LicenseIsExpired": "License has expired",
-                        "LicenseIsBlocked": "Error. License is blocked",
-                        "IncorrectAC": "Error. Invalid activation code format",
-                        "IncorrectKeyFile": "Error. Invalid key file format",
-                        "MultLicUseErr": "Error. The license is used by another company",
                         "SuccessUserMoved": "License has been added Your company has been changed.<br/> To apply changes, please sign in to CompanyAccount once again.",
-                        "LicenseAlreadyExists": "The license already exists",
-                        "ACExpired": "Activation code expired",
-                        "UnknownError": "An error occurred. Please try again If the issue persists, please <a href='../request/create/ca' target=\"_blank\"> contact technical support</a>",
-                        "LicenseNotFound": "Error. License not found",
 
                         "ActCodeOrKeyFileRequired": "Activation code or key file required",
                         "ActivationCode.ActivationCodeRule": "Invalid activation code format",
                         "KeyFile.HttpFileSizeRule": "Key file is too large",
-                        "KeyFile.KeyFileRule": "Unknown key file format"
+                        "KeyFile.KeyFileRule": "Unknown key file format",
+
+                        "GettingLicenseInfoError": {
+                            "title": "Error. License not found",
+                            "text": ""
+                        },
+                        "ConsumerLicense": {
+                            "title": "License has not been added Before adding a license for a home product, <br/>  you must add at least one corporate license.",
+                            "text": ""
+                        },
+                        "LicenseIsExpired": {
+                            "title": "License has expired",
+                            "text": ""
+                        },
+                        "LicenseIsBlocked": {
+                            "title": "Error. License is blocked",
+                            "text": ""
+                        },
+                        "IncorrectAC": {
+                            "title": "Error. Invalid activation code format",
+                            "text": ""
+                        },
+                        "IncorrectKeyFile": {
+                            "title": "Error. Invalid key file format",
+                            "text": ""
+                        },
+                        "MultLicUseErr": {
+                            "title": "Error. The license is used by another company",
+                            "text": ""
+                        },
+                        "LicenseAlreadyExists": {
+                            "title": "The license already exists",
+                            "text": ""
+                        },
+                        "ACExpired": {
+                            "title": "Activation code expired",
+                            "text": ""
+                        },
+                        "UnknownError": {
+                            "title": "An error occurred. Please try again If the issue persists, please <a href='../request/create/ca' target=\"_blank\"> contact technical support</a>",
+                            "text": ""
+                        },
+                        "LicenseNotFound": {
+                            "title": "Error. License not found",
+                            "text": ""
+                        }
                     },
                     "success-user-moved": {
                         "title": "License has been added",
@@ -89,7 +123,7 @@
                 },
 
                 "remove": {
-                    "errors": { 
+                    "errors": {
                         "UnknownError": {
                             "title": "[EV] Unknown error while license removing",
                             "text": "[EV] Please contact <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
@@ -101,22 +135,21 @@
                     "errors": {
                         "UserNotFound": {
                             "title": "User not found",
-                            "message": " "
+                            "text": " "
                         },
                         "AccessDenied": {
                             "title": "Access denied",
-                            "message": " "
+                            "text": " "
                         },
                         "UnknownError": {
                             "title": "Unknown error occurred",
-                            "message": "Unknown error occurred when opening the list of compatible products. Please, try again in a few minutes. <br/> If the issue persists, please <a href='../request/create/ca' target=\"_blank\"> contact technical support</a> "
+                            "text": "Unknown error occurred when opening the list of compatible products. Please, try again in a few minutes. <br/> If the issue persists, please <a href='../request/create/ca' target=\"_blank\"> contact technical support</a> "
                         },
                         "NoCompatibleApps": {
                             "title": "No products available for this license.",
-                            "message": "Please, <a href='/request/create/ca' target=\"_blank\"> contact technical support</a> about the options of using this license."
+                            "text": "Please, <a href='/request/create/ca' target=\"_blank\"> contact technical support</a> about the options of using this license."
                         }
-                    },
-                    "close": "Close"
+                    }
                 }
             }
         }

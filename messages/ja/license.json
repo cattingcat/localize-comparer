@@ -11,23 +11,57 @@
                     "process": "ライセンスを追加しています...",
                     "errors": {
                         "Success": "ライセンスが追加されました",
-                        "GettingLicenseInfoError": "エラー。ライセンスが見つかりません",
-                        "ConsumerLicense": "ライセンスが追加されました個人向け製品のライセンスを追加する前に、<br/>法人向け製品のライセンスを少なくとも 1 個追加する必要があります。",
-                        "LicenseIsExpired": "ライセンスの有効期間が終了しました",
-                        "LicenseIsBlocked": "エラー。ライセンスがブロックされています",
-                        "IncorrectAC": "エラー。アクティベーションコードの形式が正しくありません",
-                        "IncorrectKeyFile": "エラー。ライセンス情報ファイルが正しくありません",
-                        "MultLicUseErr": "エラー。ライセンスが別の企業で使用中です",
                         "SuccessUserMoved": "ライセンスが追加されました企業情報が変更されました。<br/>変更を適用するには、カンパニーアカウントに再度サインインしてください。",
-                        "LicenseAlreadyExists": "ライセンスがすでに存在します",
-                        "ACExpired": "アクティベーションコードの有効期間が終了しています",
-                        "UnknownError": "エラーが発生しました。再度入力してください問題が解決しない場合は、<a href='../request/create/ca' target=\"_blank\">テクニカルサポートへお問い合わせください</a>",
-                        "LicenseNotFound": "エラー。ライセンスが見つかりません",
 
                         "ActCodeOrKeyFileRequired": "[EV] Act. code or key file required",
                         "ActivationCode.ActivationCodeRule": "[EV] Некорректный формат кода активации",
                         "KeyFile.HttpFileSizeRule": "[EV] File is too big",
-                        "KeyFile.KeyFileRule": "[EV] Error. Invalid key file format"
+                        "KeyFile.KeyFileRule": "[EV] Error. Invalid key file format",
+
+                        "GettingLicenseInfoError": {
+                            "title": "エラー。ライセンスが見つかりません",
+                            "text": ""
+                        },
+                        "ConsumerLicense": {
+                            "title": "ライセンスが追加されました個人向け製品のライセンスを追加する前に、<br/>法人向け製品のライセンスを少なくとも 1 個追加する必要があります。",
+                            "text": ""
+                        },
+                        "LicenseIsExpired": {
+                            "title": "ライセンスの有効期間が終了しました",
+                            "text": ""
+                        },
+                        "LicenseIsBlocked": {
+                            "title": "エラー。ライセンスがブロックされています",
+                            "text": ""
+                        },
+                        "IncorrectAC": {
+                            "title": "エラー。アクティベーションコードの形式が正しくありません",
+                            "text": ""
+                        },
+                        "IncorrectKeyFile": {
+                            "title": "エラー。ライセンス情報ファイルが正しくありません",
+                            "text": ""
+                        },
+                        "MultLicUseErr": {
+                            "title": "エラー。ライセンスが別の企業で使用中です",
+                            "text": ""
+                        },
+                        "LicenseAlreadyExists": {
+                            "title": "ライセンスがすでに存在します",
+                            "text": ""
+                        },
+                        "ACExpired": {
+                            "title": "アクティベーションコードの有効期間が終了しています",
+                            "text": ""
+                        },
+                        "UnknownError": {
+                            "title": "エラーが発生しました。再度入力してください問題が解決しない場合は、<a href='../request/create/ca' target=\"_blank\">テクニカルサポートへお問い合わせください</a>",
+                            "text": ""
+                        },
+                        "LicenseNotFound": {
+                            "title": "エラー。ライセンスが見つかりません",
+                            "text": ""
+                        }
                     },
                     "success-user-moved": {
                         "title": "ライセンスが追加されました",
@@ -88,8 +122,8 @@
                     }
                 },
 
-                 "remove": {
-                    "errors": { 
+                "remove": {
+                    "errors": {
                         "UnknownError": {
                             "title": "[EV] Unknown error while license removing",
                             "text": "[EV] Please contact <a href='mailto:companyaccount@kaspersky.com'>companyaccount@kaspersky.com</a>"
@@ -101,22 +135,21 @@
                     "errors": {
                         "UserNotFound": {
                             "title": "ユーザーが見つかりません",
-                            "message": " "
+                            "text": " "
                         },
                         "AccessDenied": {
                             "title": "アクセスが拒否されました",
-                            "message": " "
+                            "text": " "
                         },
                         "UnknownError": {
                             "title": "エラーが発生しました",
-                            "message": "互換性がある製品のリストを開くときに、不明なエラーが発生しました。しばらくしてから、再試行してください。問題が解決しない場合は、<a href='../request/create/ca' target=\"_blank\">テクニカルサポートへお問い合わせください</a> "
+                            "text": "互換性がある製品のリストを開くときに、不明なエラーが発生しました。しばらくしてから、再試行してください。問題が解決しない場合は、<a href='../request/create/ca' target=\"_blank\">テクニカルサポートへお問い合わせください</a> "
                         },
                         "NoCompatibleApps": {
                             "title": "このライセンスで使用可能な製品はありません。 ",
-                            "message": "このライセンスで使用可能な機能について、<a href='../request/create/ca' target=\"_blank\">テクニカルサポートへお問い合わせください</a>"
+                            "text": "このライセンスで使用可能な機能について、<a href='../request/create/ca' target=\"_blank\">テクニカルサポートへお問い合わせください</a>"
                         }
-                    },
-                    "close": "閉じる"
+                    }
                 }
             }
         }

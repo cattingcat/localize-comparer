@@ -11,23 +11,57 @@
                     "process": "Die Lizenz wird hochgeladen",
                     "errors": {
                         "Success": "Die Lizenz wurde erfolgreich hinzugefügt",
-                        "GettingLicenseInfoError": "Fehler! Die Lizenz wurde nicht gefunden.",
-                        "ConsumerLicense": "Die Lizenz wurde nicht hinzugefügt. Bevor Sie eine Lizenz für Heimanwenderprodukte hinzufügen, <br/> laden Sie mindestens eine Lizenz für Unternehmensprodukte hoch.",
-                        "LicenseIsExpired": "Diese Lizenz ist abgelaufen.",
-                        "LicenseIsBlocked": "Fehler! Die Lizenz ist gesperrt.",
-                        "IncorrectAC": "Fehler! Das Format des eingegebenen Codes stimmt mit dem Format eines Aktivierungscodes nicht überein.",
-                        "IncorrectKeyFile": "Fehler! Das Format der hochgeladenen Datei stimmt mit dem Format einer Schlüsseldatei nicht überein.",
-                        "MultLicUseErr": "Fehler! Die Lizenz wird bereits von einem anderen Unternehmen genutzt.",
                         "SuccessUserMoved": "Die Lizenz wurde erfolgreich hinzugefügt! Ihre Zugehörigkeit zum Unternehmen wurde geändert.<br/> Damit die Änderungen wirksam werden, müssen Sie sich erneut bei CompanyAccount anmelden.",
-                        "LicenseAlreadyExists": "Diese Lizenz wurde bereits zu Ihrem Unternehmen hinzugefügt.",
-                        "ACExpired": "Dieser Aktivierungscode ist abgelaufen.",
-                        "UnknownError": "Ein Fehler ist aufgetreten, versuchen Sie es erneut. Wenn das Problem weiterhin besteht, <a href='../request/create/ca' target=\"_blank\">senden Sie eine Anfrage an den Support</a>",
-                        "LicenseNotFound": "Fehler! Die Lizenz wurde nicht gefunden.",
 
                         "ActCodeOrKeyFileRequired": "Aktivierungscode oder Schlüsseldatei notwendig",
                         "ActivationCode.ActivationCodeRule": "Inkorrektes Format des Aktivierungscodes",
                         "KeyFile.HttpFileSizeRule": "Schlüsseldatei ist zu groß",
-                        "KeyFile.KeyFileRule": "Unbekanntes Schlüsseldateiformat"
+                        "KeyFile.KeyFileRule": "Unbekanntes Schlüsseldateiformat",
+
+                        "GettingLicenseInfoError": {
+                            "title": "Fehler! Die Lizenz wurde nicht gefunden.",
+                            "text": ""
+                        },
+                        "ConsumerLicense": {
+                            "title": "Die Lizenz wurde nicht hinzugefügt. Bevor Sie eine Lizenz für Heimanwenderprodukte hinzufügen, <br/> laden Sie mindestens eine Lizenz für Unternehmensprodukte hoch.",
+                            "text": ""
+                        },
+                        "LicenseIsExpired": {
+                            "title": "Diese Lizenz ist abgelaufen.",
+                            "text": ""
+                        },
+                        "LicenseIsBlocked": {
+                            "title": "Fehler! Die Lizenz ist gesperrt.",
+                            "text": ""
+                        },
+                        "IncorrectAC": {
+                            "title": "Fehler! Das Format des eingegebenen Codes stimmt mit dem Format eines Aktivierungscodes nicht überein.",
+                            "text": ""
+                        },
+                        "IncorrectKeyFile": {
+                            "title": "Fehler! Das Format der hochgeladenen Datei stimmt mit dem Format einer Schlüsseldatei nicht überein.",
+                            "text": ""
+                        },
+                        "MultLicUseErr": {
+                            "title": "Fehler! Die Lizenz wird bereits von einem anderen Unternehmen genutzt.",
+                            "text": ""
+                        },
+                        "LicenseAlreadyExists": {
+                            "title": "Diese Lizenz wurde bereits zu Ihrem Unternehmen hinzugefügt.",
+                            "text": ""
+                        },
+                        "ACExpired": {
+                            "title": "Dieser Aktivierungscode ist abgelaufen.",
+                            "text": ""
+                        },
+                        "UnknownError": {
+                            "title": "Ein Fehler ist aufgetreten, versuchen Sie es erneut. Wenn das Problem weiterhin besteht, <a href='../request/create/ca' target=\"_blank\">senden Sie eine Anfrage an den Support</a>",
+                            "text": ""
+                        },
+                        "LicenseNotFound": {
+                            "title": "Fehler! Die Lizenz wurde nicht gefunden.",
+                            "text": ""
+                        }
                     },
                     "success-user-moved": {
                         "title": "Die Lizenz wurde erfolgreich hinzugefügt!",
@@ -101,22 +135,21 @@
                     "errors": {
                         "UserNotFound": {
                             "title": "Der Benutzer wurde nicht gefunden",
-                            "message": " "
+                            "text": " "
                         },
                         "AccessDenied": {
                             "title": "Der Zugriff ist verboten",
-                            "message": " "
+                            "text": " "
                         },
                         "UnknownError": {
                             "title": "Es ist ein unbekannter Fehler aufgetreten",
-                            "message": "Beim Versuch der Anzeige der Liste kompatibler Anwendungen ist ein unbekannter Fehler aufgetreten. Bitte versuchen Sie es in einigen Minuten erneut. <br/>Wenn das Problem weiterhin besteht, <a href='../request/create/ca' target=\"_blank\">senden Sie eine Anfrage an den Support</a> "
+                            "text": "Beim Versuch der Anzeige der Liste kompatibler Anwendungen ist ein unbekannter Fehler aufgetreten. Bitte versuchen Sie es in einigen Minuten erneut. <br/>Wenn das Problem weiterhin besteht, <a href='../request/create/ca' target=\"_blank\">senden Sie eine Anfrage an den Support</a> "
                         },
                         "NoCompatibleApps": {
                             "title": "Für diese Lizenz gibt es keine kompatible Anwendungen.",
-                            "message": "Bitte <a href='../request/create/ca' target=\"_blank\"> lassen Sie sich vom Support beraten</a>, wie Sie diese Lizenz verwenden können."
+                            "text": "Bitte <a href='../request/create/ca' target=\"_blank\"> lassen Sie sich vom Support beraten</a>, wie Sie diese Lizenz verwenden können."
                         }
-                    },
-                    "close": "Schließen"
+                    }
                 }
             }
         }

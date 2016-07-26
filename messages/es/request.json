@@ -28,6 +28,8 @@
                     "Description.TextMaxLengthLimitRule": "La <b>descripción del problema</b> es demasiado larga",
                     "Description.MaxLengthRule": "La <b>descripción del problema</b> es demasiado larga",
 
+                    "KeyFile.NonEmptyFileRule": "[EV] Для создания запроса требуется прикрепить файл",
+
                     "attach-files-error": "La solicitud se ha creado, pero se ha producido un error a la hora de adjuntar archivos {attachedFileErrors}. </br> Vuelva a adjuntar los archivos dentro de unos minutos. </br> Si el error vuelve a aparecer, por favor, escriba un comentario en la solicitud. Número de solicitud: <a href=\"/request/view/{requestId}\">{requestId}</a>",
                     "comment-attach-files-error": "Su mensaje se ha enviado, pero se ha producido un error a la hora de adjuntar archivos {attachedFileErrors}. </br> Vuelva a adjuntar los archivos dentro de unos minutos. </br> Si el error vuelve a aparecer, por favor, escriba un comentario en la solicitud."
                 },
@@ -229,6 +231,8 @@
                     "send-process": "Por favor, espere, su solicitud se está tramitando...",
                     "cancel-request": "Cancelar",
                     "errors": {
+                        "TypeId.RequiredRule": "Seleccione Tipo de solicitud",
+
                         "UserNotFound": "Error: el usuario actual no se ha encontrado en la base de datos",
                         "AccessDenied": "El acceso está denegado, esta operación no esta disponible para este usuario",
                         "WrongFileSize": "Uno de los archivos subidos supera el límite de tamaño permitido",

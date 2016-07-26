@@ -28,6 +28,8 @@
                     "Description.TextMaxLengthLimitRule": "<b>Description</b> is too long",
                     "Description.MaxLengthRule": "<b>Description</b> is too long",
 
+                    "KeyFile.NonEmptyFileRule": "[EV][en] Для создания запроса требуется прикрепить файл",
+
                     "attach-files-error": "The request has been created. The files have not been attached due to the  {attachedFileErrors} error. </br> Try to attach the file again in a few minutes. </br>If the issue persists, please inform us via the comments to the request. Request ID: <a href=\"/request/view/{requestId}\">{requestId}</a>",
                     "comment-attach-files-error": "The comment has been created. The files have not been attached due to the  {attachedFileErrors} error. </br> Try to attach the file again in a few minutes. </br>If the issue persists, please inform us via the comments to the request. "
                 },
@@ -229,6 +231,8 @@
                     "send-process": "The request is being processed...",
                     "cancel-request": "Cancel",
                     "errors": {
+                        "TypeId.RequiredRule": "Select the request type",
+
                         "UserNotFound": "Error: the user has not been found in the database",
                         "AccessDenied": "Access denied. The operation is unavailable",
                         "WrongFileSize": "One of the uploaded files is too large",
