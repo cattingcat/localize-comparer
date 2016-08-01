@@ -113,7 +113,7 @@
                         "button": "Connexion"
                     },
 
-                    "close": "Clôturer",
+                    "close": "Fermer",
 
                     "errors": {
                         "LinkNotExist": {
@@ -244,7 +244,7 @@
                     "success": {
                         "title": "Le compte a été créé<br />avec succès",
                         "text": "Un email avec un lien d'activation a été envoyé à l'adresse <b>{email}</b>. <br />Suivez le lien dans le message <br />pour terminer votre inscription sur <b>Kaspersky CompanyAccount</b>. <br />",
-                        "close": "Clôturer"
+                        "close": "Fermer"
                     },
                     "privacystatement": "J'accepte la <a href=\"/account/privacy-statement\" target=\"_blank\">Déclaration de confidentialité</a>. ",
                     "survey-participation": "Je souhaite participer aux enquêtes annuelles d'évaluation de la satisfaction client.",
@@ -253,7 +253,7 @@
 
                 "forgot": {
                     "continue": "Poursuivre",
-                    "close": "Clôturer",
+                    "close": "Fermer",
                     "step1": {
                         "title": "Réinitialisation du mot de passe de Kaspersky CompanyAccount",
                         "description": "Saisissez l'adresse de courrier électronique<br /> que vous avez utilisée lors de l'inscription sur Kaspersky CompanyAccount.",
@@ -316,7 +316,7 @@
                     "loading": "Chargement...",
                     "noaccount": "Pas de compte ?",
                     "create": "Créer",
-                    "close": "Clôturer",
+                    "close": "Fermer",
                     "errors": {
                         "EmailIsRequired": "Veuillez indiquer l'adresse email",
                         "InvalidEmail": "Email incorrect",
